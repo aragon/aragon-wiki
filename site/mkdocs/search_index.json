@@ -1,0 +1,49 @@
+{
+    "docs": [
+        {
+            "location": "/", 
+            "text": "Welcome to MkDocs\n\n\nFor full documentation visit \nmkdocs.org\n.\n\n\nCommands\n\n\n\n\nmkdocs new [dir-name]\n - Create a new project.\n\n\nmkdocs serve\n - Start the live-reloading docs server.\n\n\nmkdocs build\n - Build the documentation site.\n\n\nmkdocs help\n - Print this help message.\n\n\n\n\nProject layout\n\n\nmkdocs.yml    # The configuration file.\ndocs/\n    index.md  # The documentation homepage.\n    ...       # Other markdown pages, images and other files.", 
+            "title": "Home"
+        }, 
+        {
+            "location": "/#welcome-to-mkdocs", 
+            "text": "For full documentation visit  mkdocs.org .", 
+            "title": "Welcome to MkDocs"
+        }, 
+        {
+            "location": "/#commands", 
+            "text": "mkdocs new [dir-name]  - Create a new project.  mkdocs serve  - Start the live-reloading docs server.  mkdocs build  - Build the documentation site.  mkdocs help  - Print this help message.", 
+            "title": "Commands"
+        }, 
+        {
+            "location": "/#project-layout", 
+            "text": "mkdocs.yml    # The configuration file.\ndocs/\n    index.md  # The documentation homepage.\n    ...       # Other markdown pages, images and other files.", 
+            "title": "Project layout"
+        }, 
+        {
+            "location": "/about/", 
+            "text": "Non subit et longi recludere aderat\n\n\nIllic licuit sera feris ex est vincula\n\n\nLorem markdownum\n tritis iam obscurus laude et fuerit\nPerseus Clytie medio! Dolor unum: corpore erat bella, cum quos manibus: eadem\nlicet nunc? Rore hoc sidera Tyrrhenae quamvis ingreditur tanti, ad et pariter\nViderat purpureis. Tollere haec sacra haec partim in\n\nnegat\n!\n\n\n\n\nCaede promisistis taurum donis tibi Solis huc\n\n\nPronusque fuerit\n\n\nModo te ferenda despicit miseranda fusum\n\n\nEst formosius blando phaethon carpsit mutavit\n\n\nInsignia summa tecta ut sequitur\n\n\n\n\nEsse ad nimiumque strictique his admonitu\n\n\nFugias Pico, sed quid mille quascumque ille tam fontis oravique et. Haec maximus\npro hunc, non meaque aquarum Prothoenora tamen; vidit, Laomedonta.\n\n\nif (baud_title(web_tebibyte_progressive + 97 - 41, right_ip_skin,\n        publishing.kbpsYoutube(3))) {\n    lionWhite(gigo);\n    degaussScareware(unc_folder + 4, roomBoot);\n}\nregular_card(newbie_encoding_module, matrix(languageTitle +\n        cold_multimedia_pack, debug_sprite), tweet_frozen_virtualization);\nvar gopher = mysql_rosetta;\nregular -= swappableSource * compilerMenuHeat(grepViral.cyberspace(2, dvd,\n        sync), file_jumper_hdtv);\nif (3) {\n    smartPram += matrix;\n} else {\n    web = 5;\n    skin_localhost_play = uddi_pharming_secondary(spoofingOn, animated) + 2;\n    kvm += function_cybersquatter;\n}\n\n\n\nSimilisque manet\n\n\nNegabat virum, siccantem, regno protinus etsi, dixit ramis! Sanguine\n\nde\n rigidi dubio, te simulacraque et siquis patris.\nPraestatque cursu: hostes Minyae, pro arbor oppida iugulum frigore arcere\ninpugnante erat inplacataeque peperisse licet.\n\n\n\n\nMovet sequuntur corpora\n\n\nVicina rictus\n\n\nProfecto ad dixit vicimus liventia diem\n\n\nNos inrita admotum ipsum cum ferre profecti\n\n\n\n\nInque te tenebat. Tot aera; non matrem protinus petit gelidoque nulli est,\nPallas \nagmina forabilis\n.", 
+            "title": "About"
+        }, 
+        {
+            "location": "/about/#non-subit-et-longi-recludere-aderat", 
+            "text": "", 
+            "title": "Non subit et longi recludere aderat"
+        }, 
+        {
+            "location": "/about/#illic-licuit-sera-feris-ex-est-vincula", 
+            "text": "Lorem markdownum  tritis iam obscurus laude et fuerit\nPerseus Clytie medio! Dolor unum: corpore erat bella, cum quos manibus: eadem\nlicet nunc? Rore hoc sidera Tyrrhenae quamvis ingreditur tanti, ad et pariter\nViderat purpureis. Tollere haec sacra haec partim in negat !   Caede promisistis taurum donis tibi Solis huc  Pronusque fuerit  Modo te ferenda despicit miseranda fusum  Est formosius blando phaethon carpsit mutavit  Insignia summa tecta ut sequitur", 
+            "title": "Illic licuit sera feris ex est vincula"
+        }, 
+        {
+            "location": "/about/#esse-ad-nimiumque-strictique-his-admonitu", 
+            "text": "Fugias Pico, sed quid mille quascumque ille tam fontis oravique et. Haec maximus\npro hunc, non meaque aquarum Prothoenora tamen; vidit, Laomedonta.  if (baud_title(web_tebibyte_progressive + 97 - 41, right_ip_skin,\n        publishing.kbpsYoutube(3))) {\n    lionWhite(gigo);\n    degaussScareware(unc_folder + 4, roomBoot);\n}\nregular_card(newbie_encoding_module, matrix(languageTitle +\n        cold_multimedia_pack, debug_sprite), tweet_frozen_virtualization);\nvar gopher = mysql_rosetta;\nregular -= swappableSource * compilerMenuHeat(grepViral.cyberspace(2, dvd,\n        sync), file_jumper_hdtv);\nif (3) {\n    smartPram += matrix;\n} else {\n    web = 5;\n    skin_localhost_play = uddi_pharming_secondary(spoofingOn, animated) + 2;\n    kvm += function_cybersquatter;\n}", 
+            "title": "Esse ad nimiumque strictique his admonitu"
+        }, 
+        {
+            "location": "/about/#similisque-manet", 
+            "text": "Negabat virum, siccantem, regno protinus etsi, dixit ramis! Sanguine de  rigidi dubio, te simulacraque et siquis patris.\nPraestatque cursu: hostes Minyae, pro arbor oppida iugulum frigore arcere\ninpugnante erat inplacataeque peperisse licet.   Movet sequuntur corpora  Vicina rictus  Profecto ad dixit vicimus liventia diem  Nos inrita admotum ipsum cum ferre profecti   Inque te tenebat. Tot aera; non matrem protinus petit gelidoque nulli est,\nPallas  agmina forabilis .", 
+            "title": "Similisque manet"
+        }
+    ]
+}
