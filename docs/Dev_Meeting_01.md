@@ -1,0 +1,23 @@
+Proposed structure for these meetings by @Smokyish. To be tested in this first meeting.
+
+## Aragon Dev Meeting Agenda
+###### Meeting Date: July 7th, 2pm CEST
+###### [Meeting video](https://www.youtube.com/watch?v=2-gvzUsLCuI)
+#### Participants
+- @harshjv
+- @readevalprint
+- @luisivan
+- @izqui facilitator
+- @Smokyish to handle recording, live streaming and collection of questions by viewers
+#### Agenda
+- Accounting app progress (@readevalprint)
+- Overall v0.4 refactor state and scoping of the v0.4 deliverable (@izqui)
+- Review of this week sprint https://github.com/orgs/aragon/projects/1 (@izqui)
+- Meta: opinions on sprint organization (@everyone except @izqui)
+- v0.5 planning (@harshjv)
+- Versioning protocol https://github.com/aragon/aragon/issues/19 (@luisivan)
+- v0.5 web3 providers. uPort & Ledger integration? Remove Metamask? (@izqui)
+- What is everyone's focus/goals for next week (@everyone gets to talk)
+- Other questions, comments or concerns by participants.
+- Questions, comments or concerns by live viewers.
+- Closing meeting

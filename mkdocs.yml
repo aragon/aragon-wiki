@@ -1,1 +1,7 @@
-site_name: My Docs
+site_name:   Aragon Wiki
+theme:       'material'
+extra:
+  palette:
+    primary: 'blue grey'
+    accent:  'cyan'
+    logo:    'images/logo.svg'
