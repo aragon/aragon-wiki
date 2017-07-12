@@ -7,25 +7,28 @@ We want a productive, happy and agile community that can welcome and bring forth
 We will rely on 5 key principles:
 
 **Independence**
+> - Decision-making structure
+> - Independence from employment relations
 
-- Decision-making structure
-- Independence from employment relations<br>
   **Pluralism**
-- Diversity of contributors
-- Management of conflict
-- Determination of leadership--processes and turnover<br>
+> - Diversity of contributors
+> - Management of conflict
+> - Determination of leadership--processes and turnover
+
   **Representation**
-- Membership structure and rights
-- Ways in which those in authority are accountable to contributing members
-- Degree to which members can exercise voice on community members<br>
+> - Membership structure and rights
+> - Ways in which those in authority are accountable to contributing members
+> - Degree to which members can exercise voice on community members
+
   **Decentralized decision-making**
-- How contributors gain code commit and #frontline rights
-- How contributors gain access to the project's decision-making structure
-- The degree to which project communications and activities are publicly available<br>
+> - How contributors gain code commit and #frontline rights
+> - How contributors gain access to the project's decision-making structure
+> - The degree to which project communications and activities are publicly available
+
   **Autonomous participation**
-- Newcomer joining rate
-- Newcomer socialization opportunities
-- Rate of idea generation
+> - Newcomer joining rate
+> - Newcomer socialization opportunities
+> - Rate of idea generation
 
 ## Description
 
