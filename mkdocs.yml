@@ -1,7 +1,26 @@
-site_name:   Aragon Wiki
-theme:       'material'
+site_name: 'Aragon Wiki'
+site_url: https://wiki.aragon.one
+repo_name: 'aragon/aragon-wiki'
+repo_url: 'https://github.com/aragon/aragon-wiki'
+site_description: 'Wiki for the Aragon Project'
+theme:     'material'
+site_favicon: 'images/favicon.ico'
+extra_css:
+  - 'stylesheets/extra.css'
 extra:
   palette:
     primary: 'blue grey'
     accent:  'cyan'
-    logo:    'images/logo.svg'
+  logo:    'images/logo.svg'
+  font:
+    text: 'Roboto'
+    code: 'Roboto Mono'
+  social:
+    - type: 'github'
+      link: 'https://github.com/aragon'
+    - type: 'twitter'
+      link: 'https://twitter.com/AragonProject'
+    - type: 'linkedin'
+      link: 'https://www.linkedin.com/company/aragonproject/'
+  feature:
+    tabs: false
