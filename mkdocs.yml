@@ -24,3 +24,20 @@ extra:
       link: 'https://www.linkedin.com/company/aragonproject/'
   feature:
     tabs: false
+pages:
+  - Home: 'index.md'
+  - Documentation:
+    - Aragon Code of Conduct: 'documentation/Code_of_Conduct.md'
+    - Governance:
+      - Community Governance Model: 'documentation/Community_Governance_Model.md'
+  - Meetings:
+    - Aragon HQ:
+      - HQ 01: 'meetings/hq/01.md'
+    - Community:
+      - Community 03: 'meetings/community/03.md'
+      - Community 02: 'meetings/community/02.md'
+      - Community 01: 'meetings/community/01.md'
+    - Dev:
+      - Dev 02: 'meetings/dev/02.md'
+      - Dev 01: 'meetings/dev/01.md'
+  - Jobs: 'jobs/index.md'
