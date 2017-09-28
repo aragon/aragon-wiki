@@ -21,124 +21,359 @@
             "title": "Esse ad nimiumque strictique his admonitu"
         }, 
         {
-            "location": "/Community_Governance_Model/", 
-            "text": "Aragon Community Governance Model\n\n\nGoals\n\n\nWe want a productive, happy and agile community that can welcome and bring forth new ideas.\n\n\nWe will rely on 5 key principles:\n\n\nIndependence\n\n\n\n\n\n\nDecision-making structure\n\n\nIndependence from employment relations\n\n\n\n\n\n\nPluralism\n\n\n\n\n\n\nDiversity of contributors\n\n\nManagement of conflict\n\n\nDetermination of leadership--processes and turnover\n\n\n\n\n\n\nRepresentation\n\n\n\n\n\n\nMembership structure and rights\n\n\nWays in which those in authority are accountable to contributing members\n\n\nDegree to which members can exercise voice on community members\n\n\n\n\n\n\nDecentralized decision-making\n\n\n\n\n\n\nHow contributors gain code commit and #frontline rights\n\n\nHow contributors gain access to the project's decision-making structure\n\n\nThe degree to which project communications and activities are publicly available\n\n\n\n\n\n\nAutonomous participation\n\n\n\n\n\n\nNewcomer joining rate\n\n\nNewcomer socialization opportunities\n\n\nRate of idea generation\n\n\n\n\n\n\nDescription\n\n\nOur Code of Conduct and Community Guidelines act as a basis for all our community activity, how to participate, how to grow our community, how to represent Aragon to others outside the community.\n\n\nMeetings\n\n\n\n\nDev meeting\n: Bi-weekly, Fridays on uneven weeks. Time 14.00 CEST.\n\n\n\n\n\n\n\n\nDiscussion on current technical development, what has got done, what needs to get done for the next release etc.\n\n\nFacilitator: Tech Lead\n\n\nParticipants: Aragon Dev team + Any Aragon team members who want to participate + possible relevant contributors\n\n\nViewers: Public on Youtube\n\n\n\n\n\n\n\n\nAragon HQ\n: Monthly, Last Friday of the month. Time 15.00 CEST.\n\n\n\n\n\n\n\n\nDiscussion about the state of Aragon, near future plans and decisions that need to be made. 10 min presentations with slides from team members, in which each one will run through the most important things we have done during the month, the problems they have found, and what they plan to do next month (that can be a bit blurry, and that's fine)\n\n\nFacilitator: Project Lead\n\n\nParticipants: All Aragon team members + possible relevant contributors\n\n\nViewers: Public on Youtube\n\n\n\n\n\n\n\n\nTeam hangout\n: Weekly, Friday. Time 15.00 CEST\n\n\n\n\n\n\n\n\nRelaxed weekly meeting with the team where anyone can talk about things they feel are current\n\n\nFacilitator: If needed, any of the participants\n\n\nParticipants: Project Lead + anyone from the Aragon team who wants to participate\n\n\nViewers: Non-public\n\n\n\n\n\n\n\n\nCommunity meeting\n: Monthly, second Friday of the month. Time 16.00 CEST.\n\n\n\n\n\n\n\n\nDiscussion about Aragon, questions from the community members answered by the team. AMA will be conducted in \n/r/aragonproject\n\n\nFacilitator: Project Lead/Community Lead\n\n\nParticipants: Project Lead + Community Lead + Aragon team members who want to participate\n\n\nViewers: Public on Youtube\n\n\n\n\n\n\nStructures\n\n\n\n\nProject Lead or Tech Lead will have final call on all things pertaining to their area of expertise.\n\n\nDecisions made after thorough conversation on Meetings, informal vote to be taken if necessary, possible conflicts discussed if necessary, final vote if needed and decision confirmed by Project/Tech Lead.\n\n\nFacilitators are responsible for gathering the agenda for the Meetings where applicable, as well as either taking notes of the Meeting and decisions made or delegating this responsibility to another participant\n\n\nUse (The Etherian's or our own) Colony to have community members participate and get rewarded for their non-code contributions\n\n\nImplement a system similar to \nMaker's Actions\n and post a monthly transparency report about the use of funds to the blog\n\n\nInstitute Aragon Improvement Proposal, AIP, system for community members to create proposals about Aragon. Take a similar approach for governance with Aragon Governance Proposals (like this one). GitHub Issues will be used as a forum to discuss proposals by community and team members\n\n\nProposals and ideas from the team and community members will be go through the AIP/AGP process and will then be discussed in the relevant Meetings\n\n\nCommunity Meetings will be AMA styled video meetings where team members will answer questions by the community members. Questions will be submitted through Reddit and answered live\n\n\nWe'll have templates that can/will be used for the basis of agendas in Meetings so the Facilitator can easily fill out each Meetings info, like who will be presenting what, who has slides etc.\n\n\nFacilitator of the Meeting will make sure that the discussion stays on rails, everyone gets a chance to speak their mind, everything on the agenda is discussed, necessary decisions are made and that the Meeting length stays on a reasonable length\n\n\n\n\nContributions\n\n\nThanks @kennyrowe for the feedback on this and @Smokyish for the initial draft and putting everything together!", 
+            "location": "/documentation/Code_of_Conduct/", 
+            "text": "Aragon Code of Conduct\n\n\nAragon project is dedicated to providing a harassment-free experience for everyone, regardless of age, body size, disability, ethnicity, gender identity and expression, level of experience, nationality, personal appearance, race, religion, or sexual identity and orientation. We do not tolerate harassment of participants in any form.\n\n\nThis code of conduct applies to all Aragon project's spaces, including Slack, Reddit, Twitter, the Aragon app, Youtube and all other spaces associated with the Aragon project, both online and off. Anyone who violates this code of conduct may be sanctioned or expelled from these spaces at the discretion of the Aragon team.\n\n\nSome Aragon project's spaces may have additional rules in place, which will be made clearly available to participants. Participants are responsible for knowing and abiding by these rules.\n\n\nOur Standards\n\n\nExamples of \nbehavior that contributes to creating a positive environment\n include:\n\n\n\n\nUsing welcoming and inclusive language\n\n\nBeing respectful of differing viewpoints and experiences\n\n\nGracefully accepting constructive criticism\n\n\nFocusing on what is best for the community\n\n\nShowing empathy towards other community members\n\n\n\n\nExamples of \nunacceptable behavior\n by participants include:\n\n\n\n\nThe use of sexualized language or imagery and unwelcome sexual attention or advances\n\n\nTrolling, insulting/derogatory comments, and personal or political attacks\n\n\nPublic or private harassment\n\n\nImpersonating a Aragon team member\n\n\nPublishing others' private information, such as a physical or electronic address, without explicit permission\n\n\nOffensive comments related to gender, gender identity and expression, sexual orientation, disability, mental illness, neuro(a)typicality, physical appearance, body size, age, race, or religion\n\n\nUnwelcome comments regarding a person's lifestyle choices and practices, including those related to food, health, parenting, drugs, and employment\n\n\nDeliberate misgendering or use of 'dead' or rejected names\n\n\nPhysical contact and simulated physical contact (eg, textual descriptions like \"\nhug\n\" or \"\nbackrub\n\") without consent or after a request to stop\n\n\nThreats of violence\n\n\nIncitement of violence towards any individual, including encouraging a person to commit suicide or to engage in self-harm\n\n\nDeliberate intimidation\n\n\nStalking or following\n\n\nHarassing photography or recording, including logging online activity for harassment purposes\n\n\nSustained disruption of discussion\n\n\nPattern of inappropriate social contact, such as requesting/assuming inappropriate levels of intimacy with others\n\n\nContinued one-on-one communication after requests to cease\n\n\nDeliberate \"outing\" of any aspect of a person's identity without their consent except as necessary to protect vulnerable people from intentional abuse\n\n\nPublication of non-harassing private communication\n\n\nOther conduct which could reasonably be considered inappropriate in a professional setting\n\n\n\n\nAragon prioritizes marginalized people's safety over privileged people's comfort. Aragon team reserves the right not to act on complaints regarding:\n\n\n\n\n'Reverse' -isms, including 'reverse racism,' 'reverse sexism,' and 'cisphobia'\n\n\nReasonable communication of boundaries, such as \"leave me alone,\" \"go away,\" or \"I'm not discussing this with you\"\n\n\nCommunicating in a 'tone' you don't find congenial\n\n\nCriticizing racist, sexist, cissexist, or otherwise oppressive behavior or assumptions\n\n\n\n\nOur Responsibilities\n\n\nAragon team is responsible for clarifying the standards of acceptable behavior and are expected to take appropriate and fair corrective action in response to any instances of unacceptable behavior.\n\n\nAragon team has the right and responsibility to remove, edit, or reject comments, commits, code, wiki edits, issues, and other contributions that are not aligned to this Code of Conduct, or to ban temporarily or permanently any community member or contributor for other behaviors that they deem inappropriate, threatening, offensive, or harmful.\n\n\nReporting\n\n\nIf you are being harassed by a member of the Aragon community, notice that someone else is being harassed, or have any other concerns, please contact the Aragon team at \nAragon Slack\n. If the person who is harassing you is on the team, they will recuse themselves from handling your incident. We will respond as promptly as possible.\n\n\nThis code of conduct applies to Aragon community spaces, but if you are being harassed by a member of Aragon community or team member outside of our spaces, we still want to know about it. We will take all good-faith reports of harassment by Aragon community or team members seriously. This includes harassment outside of our spaces and harassment that took place at any point in time. The team reserves the right to exclude people from the Aragon community at their discretion, based on their past behavior, including behavior outside Aragon spaces and behavior towards people who are not in the Aragon community.\n\n\nIn order to protect the Aragon team from abuse and burnout, we reserve the right to reject any report we believe to have been made in bad faith. Reports intended to silence legitimate criticism may be deleted without response.\n\n\nWe will respect confidentiality requests for the purpose of protecting victims of abuse. At our discretion, we may publicly name a person about whom we've received harassment complaints, or privately warn third parties about them, if we believe that doing so will increase the safety of Aragon community members or the general public. We will not name harassment victims without their affirmative consent.\n\n\nScope\n\n\nThis Code of Conduct applies both within the Aragon project spaces and in public spaces when an individual is representing the project or its community. Examples of representing the project or community include presenting themselves as Aragon community members, promoting the Aragon project as well as using an official project e-mail address, posting via an official social media account, or acting as an appointed representative at an online or offline event. Representation of the project may be further defined and clarified by the Aragon team.\n\n\nEnforcement\n\n\nInstances of abusive, harassing, or otherwise unacceptable behavior may be reported by contacting the Aragon projects team at \nAragon Slack\n. All complaints will be reviewed and investigated and will result in a response that is deemed necessary and appropriate to the circumstances. The Aragon team is obligated to maintain confidentiality with regard to the reporter of an incident. Further details of specific enforcement policies may be posted separately.\n\n\nAragon community members who do not follow or enforce the Code of Conduct in good faith may face temporary or permanent repercussions as determined by the Aragon team.\n\n\nParticipants asked to stop any harassing behavior are expected to comply immediately.\n\n\nIf a participant engages in harassing behavior, the Aragon response team may take any action they deem appropriate, up to and including expulsion from all Aragon project spaces and identification of the participant as a harasser to other Aragon community members or the general public.\n\n\nSlack\n\n\nAragon project's Slack channels descriptions tell you what is considered proper on-topic discussion on that channel, we want everyone to abide by these discussion topics, but using common sense is allowed. We won't remove you from the channel unless there is sustained disruption of discussion. All communication in the channels is to be in English, unless stated otherwise.\n\n\nKeep your messages \nDRY\n, don't repeat yourself, choose a proper channel to post your message, link or other communication and only post that on one channel. There is also no need to post the same image or message daily or repeatedly.\n\n\nIf something is posted on #announcements by the Aragon team, there is no need to post the same message/link to other channels, just refer people to the post at #announcements.\n\n\n\n\n#announcements\n: This channel is reserved for announcements by the Aragon team and discussion on the channel is limited to Aragon team members only. The proper channel for community member to discuss the announcements made on this channel is #general.\n\n\n#ant-trader\n: Discussion related to the ANT token and trading it. Topics like ANT related exchanges and price speculation are allowed. Anything related trying to manipulate people or markets, price pump/dump for personal or other gains is not allowed.\n\n\n#aragon-network\n: Discussion related to the economics and the governance of the Aragon Network.\n\n\n#daos\n: Discussion relating to Decentralized/distributed Autonomous Organizations, including in and outside of Aragon.\n\n\n#dev\n: Anything related to the development of Aragon. Including questions on how to contribute in Github, technical questions, bug reports etc.\n\n\n#feedback\n: Feedback about the Aragon app, including questions on how to use the app and bug reports are always welcome, feedback from users is invaluable to us and will help us make a better product.\n\n\n#fillet\n: Discussion about \nhttps://getfillet.com/\n and their upcoming use of Aragon.\n\n\n#general\n: This is our main channel. Discussion about Aragon, Ethereum and Blockchain technology, and anything related to these fields is welcome.\n\n\n#intros\n: Please introduce yourself to the community, let us know a little bit about yourself so we can all get to know each other. We're friendly people and would love to hear what brought you over to the Aragon community.\n\n\n#random\n: Any discussion that is off-topic on other channels is welcome here. For example, this is the place to promote your project or share an interesting news article (as long as it follows our Code of Conduct).\n\n\n#spanish\n: Discussions in Spanish are welcome here. Discusi\u00f3n espa\u00f1ola aqu\u00ed, por favor.\n\n\n#token-sale\n: Any discussion about the Aragon token sale. This may include discussion about the use of the MiniMe Token by Giveth, token vesting, Smart Contracts used, use of a hidden cap, security audits related to the token sale and other token sale related issues. Trading and speculation about the token is not welcome here.\n\n\n#usecases\n: Discussion about use cases for Aragon. Any current, potential, or future use cases you might see is appreciated here. We want to hear what the community thinks as good use cases for Aragon.\n\n\n\n\nAttribution\n\n\nThis Code of Conduct is adapted from the Contributor Covenant, version 1.4, available at \nhttp://contributor-covenant.org/version/1/4\n and the example policy from the Geek Feminism wiki, created by the Geek Feminism community.", 
+            "title": "Aragon Code of Conduct"
+        }, 
+        {
+            "location": "/documentation/Code_of_Conduct/#aragon-code-of-conduct", 
+            "text": "Aragon project is dedicated to providing a harassment-free experience for everyone, regardless of age, body size, disability, ethnicity, gender identity and expression, level of experience, nationality, personal appearance, race, religion, or sexual identity and orientation. We do not tolerate harassment of participants in any form.  This code of conduct applies to all Aragon project's spaces, including Slack, Reddit, Twitter, the Aragon app, Youtube and all other spaces associated with the Aragon project, both online and off. Anyone who violates this code of conduct may be sanctioned or expelled from these spaces at the discretion of the Aragon team.  Some Aragon project's spaces may have additional rules in place, which will be made clearly available to participants. Participants are responsible for knowing and abiding by these rules.", 
+            "title": "Aragon Code of Conduct"
+        }, 
+        {
+            "location": "/documentation/Code_of_Conduct/#our-standards", 
+            "text": "Examples of  behavior that contributes to creating a positive environment  include:   Using welcoming and inclusive language  Being respectful of differing viewpoints and experiences  Gracefully accepting constructive criticism  Focusing on what is best for the community  Showing empathy towards other community members   Examples of  unacceptable behavior  by participants include:   The use of sexualized language or imagery and unwelcome sexual attention or advances  Trolling, insulting/derogatory comments, and personal or political attacks  Public or private harassment  Impersonating a Aragon team member  Publishing others' private information, such as a physical or electronic address, without explicit permission  Offensive comments related to gender, gender identity and expression, sexual orientation, disability, mental illness, neuro(a)typicality, physical appearance, body size, age, race, or religion  Unwelcome comments regarding a person's lifestyle choices and practices, including those related to food, health, parenting, drugs, and employment  Deliberate misgendering or use of 'dead' or rejected names  Physical contact and simulated physical contact (eg, textual descriptions like \" hug \" or \" backrub \") without consent or after a request to stop  Threats of violence  Incitement of violence towards any individual, including encouraging a person to commit suicide or to engage in self-harm  Deliberate intimidation  Stalking or following  Harassing photography or recording, including logging online activity for harassment purposes  Sustained disruption of discussion  Pattern of inappropriate social contact, such as requesting/assuming inappropriate levels of intimacy with others  Continued one-on-one communication after requests to cease  Deliberate \"outing\" of any aspect of a person's identity without their consent except as necessary to protect vulnerable people from intentional abuse  Publication of non-harassing private communication  Other conduct which could reasonably be considered inappropriate in a professional setting   Aragon prioritizes marginalized people's safety over privileged people's comfort. Aragon team reserves the right not to act on complaints regarding:   'Reverse' -isms, including 'reverse racism,' 'reverse sexism,' and 'cisphobia'  Reasonable communication of boundaries, such as \"leave me alone,\" \"go away,\" or \"I'm not discussing this with you\"  Communicating in a 'tone' you don't find congenial  Criticizing racist, sexist, cissexist, or otherwise oppressive behavior or assumptions", 
+            "title": "Our Standards"
+        }, 
+        {
+            "location": "/documentation/Code_of_Conduct/#our-responsibilities", 
+            "text": "Aragon team is responsible for clarifying the standards of acceptable behavior and are expected to take appropriate and fair corrective action in response to any instances of unacceptable behavior.  Aragon team has the right and responsibility to remove, edit, or reject comments, commits, code, wiki edits, issues, and other contributions that are not aligned to this Code of Conduct, or to ban temporarily or permanently any community member or contributor for other behaviors that they deem inappropriate, threatening, offensive, or harmful.", 
+            "title": "Our Responsibilities"
+        }, 
+        {
+            "location": "/documentation/Code_of_Conduct/#reporting", 
+            "text": "If you are being harassed by a member of the Aragon community, notice that someone else is being harassed, or have any other concerns, please contact the Aragon team at  Aragon Slack . If the person who is harassing you is on the team, they will recuse themselves from handling your incident. We will respond as promptly as possible.  This code of conduct applies to Aragon community spaces, but if you are being harassed by a member of Aragon community or team member outside of our spaces, we still want to know about it. We will take all good-faith reports of harassment by Aragon community or team members seriously. This includes harassment outside of our spaces and harassment that took place at any point in time. The team reserves the right to exclude people from the Aragon community at their discretion, based on their past behavior, including behavior outside Aragon spaces and behavior towards people who are not in the Aragon community.  In order to protect the Aragon team from abuse and burnout, we reserve the right to reject any report we believe to have been made in bad faith. Reports intended to silence legitimate criticism may be deleted without response.  We will respect confidentiality requests for the purpose of protecting victims of abuse. At our discretion, we may publicly name a person about whom we've received harassment complaints, or privately warn third parties about them, if we believe that doing so will increase the safety of Aragon community members or the general public. We will not name harassment victims without their affirmative consent.", 
+            "title": "Reporting"
+        }, 
+        {
+            "location": "/documentation/Code_of_Conduct/#scope", 
+            "text": "This Code of Conduct applies both within the Aragon project spaces and in public spaces when an individual is representing the project or its community. Examples of representing the project or community include presenting themselves as Aragon community members, promoting the Aragon project as well as using an official project e-mail address, posting via an official social media account, or acting as an appointed representative at an online or offline event. Representation of the project may be further defined and clarified by the Aragon team.", 
+            "title": "Scope"
+        }, 
+        {
+            "location": "/documentation/Code_of_Conduct/#enforcement", 
+            "text": "Instances of abusive, harassing, or otherwise unacceptable behavior may be reported by contacting the Aragon projects team at  Aragon Slack . All complaints will be reviewed and investigated and will result in a response that is deemed necessary and appropriate to the circumstances. The Aragon team is obligated to maintain confidentiality with regard to the reporter of an incident. Further details of specific enforcement policies may be posted separately.  Aragon community members who do not follow or enforce the Code of Conduct in good faith may face temporary or permanent repercussions as determined by the Aragon team.  Participants asked to stop any harassing behavior are expected to comply immediately.  If a participant engages in harassing behavior, the Aragon response team may take any action they deem appropriate, up to and including expulsion from all Aragon project spaces and identification of the participant as a harasser to other Aragon community members or the general public.", 
+            "title": "Enforcement"
+        }, 
+        {
+            "location": "/documentation/Code_of_Conduct/#slack", 
+            "text": "Aragon project's Slack channels descriptions tell you what is considered proper on-topic discussion on that channel, we want everyone to abide by these discussion topics, but using common sense is allowed. We won't remove you from the channel unless there is sustained disruption of discussion. All communication in the channels is to be in English, unless stated otherwise.  Keep your messages  DRY , don't repeat yourself, choose a proper channel to post your message, link or other communication and only post that on one channel. There is also no need to post the same image or message daily or repeatedly.  If something is posted on #announcements by the Aragon team, there is no need to post the same message/link to other channels, just refer people to the post at #announcements.   #announcements : This channel is reserved for announcements by the Aragon team and discussion on the channel is limited to Aragon team members only. The proper channel for community member to discuss the announcements made on this channel is #general.  #ant-trader : Discussion related to the ANT token and trading it. Topics like ANT related exchanges and price speculation are allowed. Anything related trying to manipulate people or markets, price pump/dump for personal or other gains is not allowed.  #aragon-network : Discussion related to the economics and the governance of the Aragon Network.  #daos : Discussion relating to Decentralized/distributed Autonomous Organizations, including in and outside of Aragon.  #dev : Anything related to the development of Aragon. Including questions on how to contribute in Github, technical questions, bug reports etc.  #feedback : Feedback about the Aragon app, including questions on how to use the app and bug reports are always welcome, feedback from users is invaluable to us and will help us make a better product.  #fillet : Discussion about  https://getfillet.com/  and their upcoming use of Aragon.  #general : This is our main channel. Discussion about Aragon, Ethereum and Blockchain technology, and anything related to these fields is welcome.  #intros : Please introduce yourself to the community, let us know a little bit about yourself so we can all get to know each other. We're friendly people and would love to hear what brought you over to the Aragon community.  #random : Any discussion that is off-topic on other channels is welcome here. For example, this is the place to promote your project or share an interesting news article (as long as it follows our Code of Conduct).  #spanish : Discussions in Spanish are welcome here. Discusi\u00f3n espa\u00f1ola aqu\u00ed, por favor.  #token-sale : Any discussion about the Aragon token sale. This may include discussion about the use of the MiniMe Token by Giveth, token vesting, Smart Contracts used, use of a hidden cap, security audits related to the token sale and other token sale related issues. Trading and speculation about the token is not welcome here.  #usecases : Discussion about use cases for Aragon. Any current, potential, or future use cases you might see is appreciated here. We want to hear what the community thinks as good use cases for Aragon.", 
+            "title": "Slack"
+        }, 
+        {
+            "location": "/documentation/Code_of_Conduct/#attribution", 
+            "text": "This Code of Conduct is adapted from the Contributor Covenant, version 1.4, available at  http://contributor-covenant.org/version/1/4  and the example policy from the Geek Feminism wiki, created by the Geek Feminism community.", 
+            "title": "Attribution"
+        }, 
+        {
+            "location": "/documentation/Community_Governance_Model/", 
+            "text": "Preamble\n\n\nAGP: 2\nTitle: Aragon Community Governance Model\nAuthor: Tatu K\u00e4rki, Luis Cuende, Jorge Izquierdo\nType: Governance Model\nStatus: Final, v1.1\nCreated: 2017-07-12\nRequires:\n\n\n\nAbstract\n\n\nCommunity Governance Model, how we plan to achieve transparency and inclusion for the community\n\n\nSpecification\n\n\nGoals\n\n\nWe want a productive, happy and agile community that can welcome and bring forth new ideas.\n\n\nWe will rely on 5 key principles:\n\n\nIndependence\n\n\n\n\nDecision-making structure\n\n\nIndependence from employment relations\n\n\n\n\nPluralism\n\n\n\n\nDiversity of contributors\n\n\nManagement of conflict\n\n\nDetermination of leadership\u2014processes and turnover\n\n\n\n\nRepresentation\n\n\n\n\nMembership structure and rights\n\n\nWays in which those in authority are accountable to contributing members\n\n\nDegree to which members can exercise voice on community members\n\n\n\n\nDecentralized decision-making\n\n\n\n\nHow contributors gain code commit and #frontline rights\n\n\nHow contributors gain access to the project\u2019s decision-making structure\n\n\nThe degree to which project communications and activities are publicly available\n\n\n\n\nAutonomous participation\n\n\n\n\nNewcomer joining rate\n\n\nNewcomer socialization opportunities\n\n\nRate of idea generation\n\n\n\n\nDescription\n\n\nOur Code of Conduct and Community Guidelines act as a basis for all our community activity, how to participate, how to grow our community, how to represent Aragon to others outside the community.\n\n\nMeetings\n\n\nAragon HQ\n\n\n\n\nMonthly, Last Friday of the month. Time 15.00 CEST.\n\n\nDiscussion about the state of Aragon, near future plans and decisions that need to be made. 10 min presentations with slides from team members, in which each one will run through the most important things we have done during the month, the problems they have found, and what they plan to do next month (that can be a bit blurry, and that's fine)\n\n\n\n\n\n\nFacilitator\n: Project Lead\n\n\nParticipants\n: All Aragon team members + possible relevant contributors\n\n\nViewers\n: Public on Youtube\n\n\n\n\nCommunity meeting\n\n\n\n\nMonthly, second Friday of the month. Time 16.00 CEST.\n\n\nDiscussion about Aragon, questions from the community members answered by the team. AMA will be conducted in \n/r/aragonproject\n\n\n\n\n\n\nFacilitator\n: Project Lead/Community Lead\n\n\nParticipants\n: Project Lead + Community Lead + Aragon team members who want to participate\n\n\nViewers\n: Public on Youtube\n\n\n\n\nTeam hangout\n\n\n\n\nWeekly, Friday. Time 15.00 CEST\n\n\nRelaxed weekly meeting with the team where anyone can talk about things they feel are current\n\n\n\n\n\n\nFacilitator\n: If needed, any of the participants\n\n\nParticipants\n: Project Lead + anyone from the Aragon team who wants to participate\n\n\nViewers\n: Non-public\n\n\n\n\nWe had planned on having bi-weekly Dev Meetings, but wanted to reduce the amount of time spent in meetings. So they are now integrated into the Aragon HQ Meetings.\n\n\nStructures\n\n\n\n\nProject Lead or Tech Lead will have final call on all things pertaining to their area of expertise.\n\n\nDecisions made after thorough conversation on Meetings, informal vote to be taken if necessary, possible conflicts discussed if necessary, final vote if needed and decision confirmed by Project/Tech Lead.\n\n\nFacilitators are responsible for gathering the agenda for the Meetings where applicable, as well as either taking notes of the Meeting and decisions made or delegating this responsibility to another participant\n\n\nUse (The Etherian\u2019s or our own) Colony to have community members participate and get rewarded for their non-code contributions\n\n\nImplement a system similar to \nMaker\u2019s Actions\n and post a monthly transparency report about the use of funds to the blog\n\n\nInstitute Aragon Improvement Proposal, AIP, system for community members to create proposals about Aragon. Take a similar approach for governance with \nAragon Governance Proposals\n (like this one). GitHub Issues will be used as a forum to discuss proposals by community and team members\n\n\nProposals and ideas from the team and community members will be go through the AIP/AGP process and will then be discussed in the relevant Meetings\n\n\nCommunity Meetings will be AMA styled video meetings where team members will answer questions by the community members. Questions will be submitted through \nReddit\n and answered live\n\n\nWe\u2019ll have templates that can/will be used for the basis of agendas in Meetings so the Facilitator can easily fill out each Meetings info, like who will be presenting what, who has slides etc.\n\n\nFacilitator of the Meeting will make sure that the discussion stays on rails, everyone gets a chance to speak their mind, everything on the agenda is discussed, necessary decisions are made and that the Meeting length stays on a reasonable length\n\n\n\n\nUncertainties\n\n\nNone right now, version 1.0 is finalized!\n\n\nContributions\n\n\nThanks to @kennyrowe for the feedback on this!\n\n\nReferences\n\n\n\n\nhttps://blog.aragon.one/aragons-community-governance-model-2971df8f7817\n\n\n\n\nCopyright\n\n\nCopyright and related rights waived via \nCC0\n.", 
             "title": "Community Governance Model"
         }, 
         {
-            "location": "/Community_Governance_Model/#aragon-community-governance-model", 
-            "text": "", 
-            "title": "Aragon Community Governance Model"
+            "location": "/documentation/Community_Governance_Model/#preamble", 
+            "text": "AGP: 2\nTitle: Aragon Community Governance Model\nAuthor: Tatu K\u00e4rki, Luis Cuende, Jorge Izquierdo\nType: Governance Model\nStatus: Final, v1.1\nCreated: 2017-07-12\nRequires:", 
+            "title": "Preamble"
         }, 
         {
-            "location": "/Community_Governance_Model/#goals", 
-            "text": "We want a productive, happy and agile community that can welcome and bring forth new ideas.  We will rely on 5 key principles:  Independence    Decision-making structure  Independence from employment relations    Pluralism    Diversity of contributors  Management of conflict  Determination of leadership--processes and turnover    Representation    Membership structure and rights  Ways in which those in authority are accountable to contributing members  Degree to which members can exercise voice on community members    Decentralized decision-making    How contributors gain code commit and #frontline rights  How contributors gain access to the project's decision-making structure  The degree to which project communications and activities are publicly available    Autonomous participation    Newcomer joining rate  Newcomer socialization opportunities  Rate of idea generation", 
+            "location": "/documentation/Community_Governance_Model/#abstract", 
+            "text": "Community Governance Model, how we plan to achieve transparency and inclusion for the community", 
+            "title": "Abstract"
+        }, 
+        {
+            "location": "/documentation/Community_Governance_Model/#specification", 
+            "text": "", 
+            "title": "Specification"
+        }, 
+        {
+            "location": "/documentation/Community_Governance_Model/#goals", 
+            "text": "We want a productive, happy and agile community that can welcome and bring forth new ideas.  We will rely on 5 key principles:", 
             "title": "Goals"
         }, 
         {
-            "location": "/Community_Governance_Model/#description", 
+            "location": "/documentation/Community_Governance_Model/#independence", 
+            "text": "Decision-making structure  Independence from employment relations", 
+            "title": "Independence"
+        }, 
+        {
+            "location": "/documentation/Community_Governance_Model/#pluralism", 
+            "text": "Diversity of contributors  Management of conflict  Determination of leadership\u2014processes and turnover", 
+            "title": "Pluralism"
+        }, 
+        {
+            "location": "/documentation/Community_Governance_Model/#representation", 
+            "text": "Membership structure and rights  Ways in which those in authority are accountable to contributing members  Degree to which members can exercise voice on community members", 
+            "title": "Representation"
+        }, 
+        {
+            "location": "/documentation/Community_Governance_Model/#decentralized-decision-making", 
+            "text": "How contributors gain code commit and #frontline rights  How contributors gain access to the project\u2019s decision-making structure  The degree to which project communications and activities are publicly available", 
+            "title": "Decentralized decision-making"
+        }, 
+        {
+            "location": "/documentation/Community_Governance_Model/#autonomous-participation", 
+            "text": "Newcomer joining rate  Newcomer socialization opportunities  Rate of idea generation", 
+            "title": "Autonomous participation"
+        }, 
+        {
+            "location": "/documentation/Community_Governance_Model/#description", 
             "text": "Our Code of Conduct and Community Guidelines act as a basis for all our community activity, how to participate, how to grow our community, how to represent Aragon to others outside the community.", 
             "title": "Description"
         }, 
         {
-            "location": "/Community_Governance_Model/#meetings", 
-            "text": "Dev meeting : Bi-weekly, Fridays on uneven weeks. Time 14.00 CEST.     Discussion on current technical development, what has got done, what needs to get done for the next release etc.  Facilitator: Tech Lead  Participants: Aragon Dev team + Any Aragon team members who want to participate + possible relevant contributors  Viewers: Public on Youtube     Aragon HQ : Monthly, Last Friday of the month. Time 15.00 CEST.     Discussion about the state of Aragon, near future plans and decisions that need to be made. 10 min presentations with slides from team members, in which each one will run through the most important things we have done during the month, the problems they have found, and what they plan to do next month (that can be a bit blurry, and that's fine)  Facilitator: Project Lead  Participants: All Aragon team members + possible relevant contributors  Viewers: Public on Youtube     Team hangout : Weekly, Friday. Time 15.00 CEST     Relaxed weekly meeting with the team where anyone can talk about things they feel are current  Facilitator: If needed, any of the participants  Participants: Project Lead + anyone from the Aragon team who wants to participate  Viewers: Non-public     Community meeting : Monthly, second Friday of the month. Time 16.00 CEST.     Discussion about Aragon, questions from the community members answered by the team. AMA will be conducted in  /r/aragonproject  Facilitator: Project Lead/Community Lead  Participants: Project Lead + Community Lead + Aragon team members who want to participate  Viewers: Public on Youtube", 
+            "location": "/documentation/Community_Governance_Model/#meetings", 
+            "text": "", 
             "title": "Meetings"
         }, 
         {
-            "location": "/Community_Governance_Model/#structures", 
-            "text": "Project Lead or Tech Lead will have final call on all things pertaining to their area of expertise.  Decisions made after thorough conversation on Meetings, informal vote to be taken if necessary, possible conflicts discussed if necessary, final vote if needed and decision confirmed by Project/Tech Lead.  Facilitators are responsible for gathering the agenda for the Meetings where applicable, as well as either taking notes of the Meeting and decisions made or delegating this responsibility to another participant  Use (The Etherian's or our own) Colony to have community members participate and get rewarded for their non-code contributions  Implement a system similar to  Maker's Actions  and post a monthly transparency report about the use of funds to the blog  Institute Aragon Improvement Proposal, AIP, system for community members to create proposals about Aragon. Take a similar approach for governance with Aragon Governance Proposals (like this one). GitHub Issues will be used as a forum to discuss proposals by community and team members  Proposals and ideas from the team and community members will be go through the AIP/AGP process and will then be discussed in the relevant Meetings  Community Meetings will be AMA styled video meetings where team members will answer questions by the community members. Questions will be submitted through Reddit and answered live  We'll have templates that can/will be used for the basis of agendas in Meetings so the Facilitator can easily fill out each Meetings info, like who will be presenting what, who has slides etc.  Facilitator of the Meeting will make sure that the discussion stays on rails, everyone gets a chance to speak their mind, everything on the agenda is discussed, necessary decisions are made and that the Meeting length stays on a reasonable length", 
+            "location": "/documentation/Community_Governance_Model/#aragon-hq", 
+            "text": "Monthly, Last Friday of the month. Time 15.00 CEST.  Discussion about the state of Aragon, near future plans and decisions that need to be made. 10 min presentations with slides from team members, in which each one will run through the most important things we have done during the month, the problems they have found, and what they plan to do next month (that can be a bit blurry, and that's fine)    Facilitator : Project Lead  Participants : All Aragon team members + possible relevant contributors  Viewers : Public on Youtube", 
+            "title": "Aragon HQ"
+        }, 
+        {
+            "location": "/documentation/Community_Governance_Model/#community-meeting", 
+            "text": "Monthly, second Friday of the month. Time 16.00 CEST.  Discussion about Aragon, questions from the community members answered by the team. AMA will be conducted in  /r/aragonproject    Facilitator : Project Lead/Community Lead  Participants : Project Lead + Community Lead + Aragon team members who want to participate  Viewers : Public on Youtube", 
+            "title": "Community meeting"
+        }, 
+        {
+            "location": "/documentation/Community_Governance_Model/#team-hangout", 
+            "text": "Weekly, Friday. Time 15.00 CEST  Relaxed weekly meeting with the team where anyone can talk about things they feel are current    Facilitator : If needed, any of the participants  Participants : Project Lead + anyone from the Aragon team who wants to participate  Viewers : Non-public   We had planned on having bi-weekly Dev Meetings, but wanted to reduce the amount of time spent in meetings. So they are now integrated into the Aragon HQ Meetings.", 
+            "title": "Team hangout"
+        }, 
+        {
+            "location": "/documentation/Community_Governance_Model/#structures", 
+            "text": "Project Lead or Tech Lead will have final call on all things pertaining to their area of expertise.  Decisions made after thorough conversation on Meetings, informal vote to be taken if necessary, possible conflicts discussed if necessary, final vote if needed and decision confirmed by Project/Tech Lead.  Facilitators are responsible for gathering the agenda for the Meetings where applicable, as well as either taking notes of the Meeting and decisions made or delegating this responsibility to another participant  Use (The Etherian\u2019s or our own) Colony to have community members participate and get rewarded for their non-code contributions  Implement a system similar to  Maker\u2019s Actions  and post a monthly transparency report about the use of funds to the blog  Institute Aragon Improvement Proposal, AIP, system for community members to create proposals about Aragon. Take a similar approach for governance with  Aragon Governance Proposals  (like this one). GitHub Issues will be used as a forum to discuss proposals by community and team members  Proposals and ideas from the team and community members will be go through the AIP/AGP process and will then be discussed in the relevant Meetings  Community Meetings will be AMA styled video meetings where team members will answer questions by the community members. Questions will be submitted through  Reddit  and answered live  We\u2019ll have templates that can/will be used for the basis of agendas in Meetings so the Facilitator can easily fill out each Meetings info, like who will be presenting what, who has slides etc.  Facilitator of the Meeting will make sure that the discussion stays on rails, everyone gets a chance to speak their mind, everything on the agenda is discussed, necessary decisions are made and that the Meeting length stays on a reasonable length", 
             "title": "Structures"
         }, 
         {
-            "location": "/Community_Governance_Model/#contributions", 
-            "text": "Thanks @kennyrowe for the feedback on this and @Smokyish for the initial draft and putting everything together!", 
+            "location": "/documentation/Community_Governance_Model/#uncertainties", 
+            "text": "None right now, version 1.0 is finalized!", 
+            "title": "Uncertainties"
+        }, 
+        {
+            "location": "/documentation/Community_Governance_Model/#contributions", 
+            "text": "Thanks to @kennyrowe for the feedback on this!", 
             "title": "Contributions"
         }, 
         {
-            "location": "/Dev_Meeting_01/", 
-            "text": "Proposed structure for these meetings by @Smokyish. To be tested in this first meeting.\n\n\nAragon Dev Meeting Agenda\n\n\nMeeting Date: July 7th, 2pm CEST\n\n\nMeeting video\n\n\nParticipants\n\n\n\n\n@harshjv\n\n\n@readevalprint\n\n\n@luisivan\n\n\n@izqui facilitator\n\n\n@Smokyish to handle recording, live streaming and collection of questions by viewers\n\n\n\n\nAgenda\n\n\n\n\nAccounting app progress (@readevalprint)\n\n\nOverall v0.4 refactor state and scoping of the v0.4 deliverable (@izqui)\n\n\nReview of this week sprint https://github.com/orgs/aragon/projects/1 (@izqui)\n\n\nMeta: opinions on sprint organization (@everyone except @izqui)\n\n\nv0.5 planning (@harshjv)\n\n\nVersioning protocol https://github.com/aragon/aragon/issues/19 (@luisivan)\n\n\nv0.5 web3 providers. uPort \n Ledger integration? Remove Metamask? (@izqui)\n\n\nWhat is everyone's focus/goals for next week (@everyone gets to talk)\n\n\nOther questions, comments or concerns by participants.\n\n\nQuestions, comments or concerns by live viewers.\n\n\nClosing meeting", 
-            "title": "Dev Meeting 01"
+            "location": "/documentation/Community_Governance_Model/#references", 
+            "text": "https://blog.aragon.one/aragons-community-governance-model-2971df8f7817", 
+            "title": "References"
         }, 
         {
-            "location": "/Dev_Meeting_01/#aragon-dev-meeting-agenda", 
+            "location": "/documentation/Community_Governance_Model/#copyright", 
+            "text": "Copyright and related rights waived via  CC0 .", 
+            "title": "Copyright"
+        }, 
+        {
+            "location": "/meetings/hq/01/", 
+            "text": "Aragon HQ Meeting 03 Agenda\n\n\nMeeting Date: September 1th, 3pm CEST\n\n\nMeeting video\n\n\nParticipants\n\n\n\n\n@luisivan\n\n\n@Smokyish\n\n\n@izqui\n\n\n@mariapao\n\n\n@readevalprint\n\n\n\n\nAgenda", 
+            "title": "HQ 01"
+        }, 
+        {
+            "location": "/meetings/hq/01/#aragon-hq-meeting-03-agenda", 
             "text": "", 
-            "title": "Aragon Dev Meeting Agenda"
+            "title": "Aragon HQ Meeting 03 Agenda"
         }, 
         {
-            "location": "/Dev_Meeting_01/#meeting-date-july-7th-2pm-cest", 
+            "location": "/meetings/hq/01/#meeting-date-september-1th-3pm-cest", 
             "text": "", 
-            "title": "Meeting Date: July 7th, 2pm CEST"
+            "title": "Meeting Date: September 1th, 3pm CEST"
         }, 
         {
-            "location": "/Dev_Meeting_01/#meeting-video", 
+            "location": "/meetings/hq/01/#meeting-video", 
             "text": "", 
             "title": "Meeting video"
         }, 
         {
-            "location": "/Dev_Meeting_01/#participants", 
+            "location": "/meetings/hq/01/#participants", 
+            "text": "@luisivan  @Smokyish  @izqui  @mariapao  @readevalprint", 
+            "title": "Participants"
+        }, 
+        {
+            "location": "/meetings/hq/01/#agenda", 
+            "text": "", 
+            "title": "Agenda"
+        }, 
+        {
+            "location": "/meetings/community/03/", 
+            "text": "Aragon Community Meeting 03 Agenda\n\n\nMeeting Date: September 8th, 4pm CEST\n\n\nMeeting video\n\n\nParticipants\n\n\n\n\n@luisivan\n\n\n@Smokyish, facilitator\n\n\n@izqui\n\n\n@mariapao\n\n\n@readevalprint\n\n\n@onbjerg\n\n\n@harshjv\n\n\n\n\nAgenda\n\n\n\n\nRecent updates on Community by @Smokyish \n @luisivan\n\n\nAMA, Ask Me Anything, team answers \nquestions by the community\n\n\nClosing meeting", 
+            "title": "Community 03"
+        }, 
+        {
+            "location": "/meetings/community/03/#aragon-community-meeting-03-agenda", 
+            "text": "", 
+            "title": "Aragon Community Meeting 03 Agenda"
+        }, 
+        {
+            "location": "/meetings/community/03/#meeting-date-september-8th-4pm-cest", 
+            "text": "", 
+            "title": "Meeting Date: September 8th, 4pm CEST"
+        }, 
+        {
+            "location": "/meetings/community/03/#meeting-video", 
+            "text": "", 
+            "title": "Meeting video"
+        }, 
+        {
+            "location": "/meetings/community/03/#participants", 
+            "text": "@luisivan  @Smokyish, facilitator  @izqui  @mariapao  @readevalprint  @onbjerg  @harshjv", 
+            "title": "Participants"
+        }, 
+        {
+            "location": "/meetings/community/03/#agenda", 
+            "text": "Recent updates on Community by @Smokyish   @luisivan  AMA, Ask Me Anything, team answers  questions by the community  Closing meeting", 
+            "title": "Agenda"
+        }, 
+        {
+            "location": "/meetings/community/02/", 
+            "text": "Aragon Community Meeting 02 Agenda\n\n\nMeeting Date: August 18th, 4pm CEST\n\n\nMeeting video\n\n\nParticipants\n\n\n\n\n@luisivan  \n\n\n@Smokyish, facilitator\n\n\n@izqui\n\n\n@mariapao\n\n\n@readevalprint\n\n\n@onbjerg\n\n\n@harshjv\n\n\nphiltable from Aragon #frontline\n\n\n\n\nAgenda\n\n\n\n\nCommunity statistics from July and recent updates by @Smokyish \n @luisivan\n\n\nAMA, Ask Me Anything, team answers \nquestions by the community\n\n\nClosing meeting", 
+            "title": "Community 02"
+        }, 
+        {
+            "location": "/meetings/community/02/#aragon-community-meeting-02-agenda", 
+            "text": "", 
+            "title": "Aragon Community Meeting 02 Agenda"
+        }, 
+        {
+            "location": "/meetings/community/02/#meeting-date-august-18th-4pm-cest", 
+            "text": "", 
+            "title": "Meeting Date: August 18th, 4pm CEST"
+        }, 
+        {
+            "location": "/meetings/community/02/#meeting-video", 
+            "text": "", 
+            "title": "Meeting video"
+        }, 
+        {
+            "location": "/meetings/community/02/#participants", 
+            "text": "@luisivan    @Smokyish, facilitator  @izqui  @mariapao  @readevalprint  @onbjerg  @harshjv  philtable from Aragon #frontline", 
+            "title": "Participants"
+        }, 
+        {
+            "location": "/meetings/community/02/#agenda", 
+            "text": "Community statistics from July and recent updates by @Smokyish   @luisivan  AMA, Ask Me Anything, team answers  questions by the community  Closing meeting", 
+            "title": "Agenda"
+        }, 
+        {
+            "location": "/meetings/community/01/", 
+            "text": "Aragon Community Meeting 01 Agenda\n\n\nMeeting Date: July 14th, 4pm CEST\n\n\nMeeting video\n\n\nParticipants\n\n\n\n\n@luisivan  \n\n\n@Smokyish, facilitator\n\n\n@izqui\n\n\nMaria\n\n\n@readevalprint\n\n\n@onbjerg\n\n\n\n\nAgenda\n\n\n\n\nIntroduction to Aragon Community Meetings by @luisivan\n\n\nDiscussion about recent community events, set up by @Smokyish\n\n\nAMA, Ask Me Anything, team answers \nquestions by the community\n\n\nClosing meeting", 
+            "title": "Community 01"
+        }, 
+        {
+            "location": "/meetings/community/01/#aragon-community-meeting-01-agenda", 
+            "text": "", 
+            "title": "Aragon Community Meeting 01 Agenda"
+        }, 
+        {
+            "location": "/meetings/community/01/#meeting-date-july-14th-4pm-cest", 
+            "text": "", 
+            "title": "Meeting Date: July 14th, 4pm CEST"
+        }, 
+        {
+            "location": "/meetings/community/01/#meeting-video", 
+            "text": "", 
+            "title": "Meeting video"
+        }, 
+        {
+            "location": "/meetings/community/01/#participants", 
+            "text": "@luisivan    @Smokyish, facilitator  @izqui  Maria  @readevalprint  @onbjerg", 
+            "title": "Participants"
+        }, 
+        {
+            "location": "/meetings/community/01/#agenda", 
+            "text": "Introduction to Aragon Community Meetings by @luisivan  Discussion about recent community events, set up by @Smokyish  AMA, Ask Me Anything, team answers  questions by the community  Closing meeting", 
+            "title": "Agenda"
+        }, 
+        {
+            "location": "/meetings/dev/02/", 
+            "text": "Aragon Dev Meeting Agenda\n\n\nMeeting Date: July 21st, 2pm CEST\n\n\nMeeting video\n\n\nParticipants\n\n\n\n\n@readevalprint\n\n\n@onbjerg\n\n\n@luisivan\n\n\n@izqui facilitator\n\n\n@Smokyish to handle recording, live streaming and collection of questions by viewers\n\n\n\n\nAgenda\n\n\n\n\nWelcoming @onbjerg. How is research going?\n\n\nAccounting app progress (@readevalprint)\n\n\nPropose researching to see if \npopulus\n would be a viable framework (@readevalprint)\n\n\nKernel refactor update (@izqui)\n\n\nKickoff v0.5 (@all)\n\n\nv0.4 audit strategy and timeline (@izqui)\n\n\nWhat is everyone's focus/goals for next week (@everyone gets to talk)\n\n\nOther questions, comments or concerns by participants.\n\n\nQuestions, comments or concerns by live viewers.\n\n\nClosing meeting", 
+            "title": "Dev 02"
+        }, 
+        {
+            "location": "/meetings/dev/02/#aragon-dev-meeting-agenda", 
+            "text": "", 
+            "title": "Aragon Dev Meeting Agenda"
+        }, 
+        {
+            "location": "/meetings/dev/02/#meeting-date-july-21st-2pm-cest", 
+            "text": "", 
+            "title": "Meeting Date: July 21st, 2pm CEST"
+        }, 
+        {
+            "location": "/meetings/dev/02/#meeting-video", 
+            "text": "", 
+            "title": "Meeting video"
+        }, 
+        {
+            "location": "/meetings/dev/02/#participants", 
+            "text": "@readevalprint  @onbjerg  @luisivan  @izqui facilitator  @Smokyish to handle recording, live streaming and collection of questions by viewers", 
+            "title": "Participants"
+        }, 
+        {
+            "location": "/meetings/dev/02/#agenda", 
+            "text": "Welcoming @onbjerg. How is research going?  Accounting app progress (@readevalprint)  Propose researching to see if  populus  would be a viable framework (@readevalprint)  Kernel refactor update (@izqui)  Kickoff v0.5 (@all)  v0.4 audit strategy and timeline (@izqui)  What is everyone's focus/goals for next week (@everyone gets to talk)  Other questions, comments or concerns by participants.  Questions, comments or concerns by live viewers.  Closing meeting", 
+            "title": "Agenda"
+        }, 
+        {
+            "location": "/meetings/dev/01/", 
+            "text": "Proposed structure for these meetings by @Smokyish. To be tested in this first meeting.\n\n\nAragon Dev Meeting Agenda\n\n\nMeeting Date: July 7th, 2pm CEST\n\n\nMeeting video\n\n\nParticipants\n\n\n\n\n@harshjv\n\n\n@readevalprint\n\n\n@luisivan\n\n\n@izqui facilitator\n\n\n@Smokyish to handle recording, live streaming and collection of questions by viewers\n\n\n\n\nAgenda\n\n\n\n\nAccounting app progress (@readevalprint)\n\n\nOverall v0.4 refactor state and scoping of the v0.4 deliverable (@izqui)\n\n\nReview of this week sprint https://github.com/orgs/aragon/projects/1 (@izqui)\n\n\nMeta: opinions on sprint organization (@everyone except @izqui)\n\n\nv0.5 planning (@harshjv)\n\n\nVersioning protocol https://github.com/aragon/aragon/issues/19 (@luisivan)\n\n\nv0.5 web3 providers. uPort \n Ledger integration? Remove Metamask? (@izqui)\n\n\nWhat is everyone's focus/goals for next week (@everyone gets to talk)\n\n\nOther questions, comments or concerns by participants.\n\n\nQuestions, comments or concerns by live viewers.\n\n\nClosing meeting", 
+            "title": "Dev 01"
+        }, 
+        {
+            "location": "/meetings/dev/01/#aragon-dev-meeting-agenda", 
+            "text": "", 
+            "title": "Aragon Dev Meeting Agenda"
+        }, 
+        {
+            "location": "/meetings/dev/01/#meeting-date-july-7th-2pm-cest", 
+            "text": "", 
+            "title": "Meeting Date: July 7th, 2pm CEST"
+        }, 
+        {
+            "location": "/meetings/dev/01/#meeting-video", 
+            "text": "", 
+            "title": "Meeting video"
+        }, 
+        {
+            "location": "/meetings/dev/01/#participants", 
             "text": "@harshjv  @readevalprint  @luisivan  @izqui facilitator  @Smokyish to handle recording, live streaming and collection of questions by viewers", 
             "title": "Participants"
         }, 
         {
-            "location": "/Dev_Meeting_01/#agenda", 
+            "location": "/meetings/dev/01/#agenda", 
             "text": "Accounting app progress (@readevalprint)  Overall v0.4 refactor state and scoping of the v0.4 deliverable (@izqui)  Review of this week sprint https://github.com/orgs/aragon/projects/1 (@izqui)  Meta: opinions on sprint organization (@everyone except @izqui)  v0.5 planning (@harshjv)  Versioning protocol https://github.com/aragon/aragon/issues/19 (@luisivan)  v0.5 web3 providers. uPort   Ledger integration? Remove Metamask? (@izqui)  What is everyone's focus/goals for next week (@everyone gets to talk)  Other questions, comments or concerns by participants.  Questions, comments or concerns by live viewers.  Closing meeting", 
             "title": "Agenda"
         }, 
         {
-            "location": "/Dev_Meeting_Agenda_(Guide)/", 
-            "text": "Aragon Dev Meeting Agenda (Template)\n\n\nMeeting Date\n\n\nAgenda\n\n\n\n\n\n\nIntroductions of participants\n\n\n\n\nEveryone tells who they are and what they do, outside contributors could tell why they are participating\n\n\n\n\n\n\n\n\nGoing through the agenda, what will be covered in this Meeting\n\n\n\n\nGive people the opportunity to add things to the agenda if they want to\n\n\n\n\n\n\n\n\nSprints since the last Meeting\n\n\n\n\nWhat were the goals you wanted to achieve during these two weekly sprints\n\nWhat got done/merged\n\nWhat didn\u2019t get done, ask the assignees why they didn\u2019t achieve these goals and how can we help them on these issues as well as in general to be able to meet the goals\n\nWhat got left on the To Do list, make sure people are aware of what\u2019s been assigned to them and ask if there is any help they need with these issues  \n\n\n\n\n\n\n\n\nNext Sprints\n\n\n\n\nWhat do you hope to achieve in the next two sprints\n\nWhat goals are there, how to get there\n\nExplain how you will measure the success of achieving the goals set for these sprints  \n\n\n\n\n\n\n\n\nOpen discussion about the technical development\n\n\n\n\nLet any and everyone speak if they wish\n\nMake sure everyone gets to speak, at the end make sure they feel they have gotten their voice heard\n\n\n\n\n\n\n\n\nSummary of what still needs to get done for the next release\n\n\n\n\nThis should be shorter by every meeting approaching a launch of a release until everything is done and ready, include tests etc. needed to get the launch out\n\n\n\n\n\n\n\n\nAnything anyone wants to add\n\n\n\n\nIf anyone brings up a new issue that wasn\u2019t listed in your Go through the agenda at the beginning of the meeting, discuss it here\n\nAsk if anyone has anything they want to add/discuss also at the end of the meeting, as well as the start and on open discussion etc.\n\n\n\n\n\n\n\n\nClosing the meeting", 
-            "title": "Dev Meeting Agenda (Guide)"
+            "location": "/jobs/", 
+            "text": "Aragon Job Openings \n\n\n\n\nCulture \ud83c\udf0d\n\n\n\n\nWe are a \nfully distributed\n company \u2013 we don't think talent is geographically centralized. We do offsites regularly for the team to meet and work together for a week.\n\n\nWe empower \ndeep work\n sessions, minimizing bureaucracy and leaving Monday for all meetings and internal calls.\n\n\nWe encourage team members to spend a substantial part of their paid work time on unrelated blockchain open source projects to speed up the development of the ecosystem.\n\n\nWe are \nopen source only\n.\n\n\nWe are a technology company. Our focus is \nproduct first\n.\n\n\n\n\nWork conditions \ud83d\ude80\n\n\n\n\nFull time\n commitment. Side projects and open source are accepted (and encouraged).\n\n\nCompletely \nremote\n position, no relocation required.\n\n\nVery competitive compensation.\n\n\nYou decide \nhow to allocate your salary in fiat, ETH or ANT\n.\n\n\nYearly bonus in ANT based on performance.\n\n\nWe empower autonomous workers with a proactive attitude and a love for time self-management.\n\n\n\n\nOpenings \ud83d\ude4b\ud83c\udffe\ud83d\ude4b\u200d\u2642\ufe0f\n\n\n\n\nOperations/Executive Assistant\n\n\nEVM/Solidity Engineer\n\n\nFrontend and web3 Developer\n\n\nCommunity Lead\n\n\nProduct Manager\n\n\n\n\nApplying \ud83d\udcdd\n\n\n\n\n\n\nWrite an email with any info you consider relevant to \ncontact@aragon.one\n, with the subject \n${insert_position_here} opening application\n.\n\n\n\n\n\n\nThe generic things we are looking for in the application are:\n\n\n\n\n\n\nA couple paragraphs explaining with your involvement and experience in the crypto community.\n\n\n\n\n\n\nAll the references to your past work\n\n\n\n\nGitHub for developers. Since we are open source only, we require applicants for developer positions to have a very active and healthy GitHub profile.\n\n\nDribbble/Behance/portfolio for designers\n\n\nCV/LinkedIn for other positions\n\n\n\n\n\n\n\n\nWe really value people that have previously \ncontributed to the project\n in a voluntary manner, or that are \ncommunity members\n.\n\n\n\n\nWe value what you can do and your attitude doing it, not where/whether you went to school or college.\n\n\n\n\nMore specific instructions for each position can be found in the openings.", 
+            "title": "Jobs"
         }, 
         {
-            "location": "/Dev_Meeting_Agenda_(Guide)/#aragon-dev-meeting-agenda-template", 
-            "text": "Meeting Date", 
-            "title": "Aragon Dev Meeting Agenda (Template)"
-        }, 
-        {
-            "location": "/Dev_Meeting_Agenda_(Guide)/#agenda", 
-            "text": "Introductions of participants   Everyone tells who they are and what they do, outside contributors could tell why they are participating     Going through the agenda, what will be covered in this Meeting   Give people the opportunity to add things to the agenda if they want to     Sprints since the last Meeting   What were the goals you wanted to achieve during these two weekly sprints \nWhat got done/merged \nWhat didn\u2019t get done, ask the assignees why they didn\u2019t achieve these goals and how can we help them on these issues as well as in general to be able to meet the goals \nWhat got left on the To Do list, make sure people are aware of what\u2019s been assigned to them and ask if there is any help they need with these issues       Next Sprints   What do you hope to achieve in the next two sprints \nWhat goals are there, how to get there \nExplain how you will measure the success of achieving the goals set for these sprints       Open discussion about the technical development   Let any and everyone speak if they wish \nMake sure everyone gets to speak, at the end make sure they feel they have gotten their voice heard     Summary of what still needs to get done for the next release   This should be shorter by every meeting approaching a launch of a release until everything is done and ready, include tests etc. needed to get the launch out     Anything anyone wants to add   If anyone brings up a new issue that wasn\u2019t listed in your Go through the agenda at the beginning of the meeting, discuss it here \nAsk if anyone has anything they want to add/discuss also at the end of the meeting, as well as the start and on open discussion etc.     Closing the meeting", 
-            "title": "Agenda"
-        }, 
-        {
-            "location": "/Dev_Meeting_Agenda_(Template)/", 
-            "text": "Aragon Dev Meeting Agenda (Template)\n\n\nMeeting Date\n\n\nAgenda\n\n\n\n\n\n\nIntroductions of participants\n\n\n\n\nEveryone tells who they are and what they do, outside contributors could tell why they are participating\n\n\n\n\n\n\n\n\nGoing through the agenda, what will be covered in this Meeting\n\n\n\n\n\n\nSprints since the last Meeting\n\n\n\n\n\n\nNext Sprints\n\n\n\n\n\n\nOpen discussion about the technical development\n\n\n\n\n\n\nSummary of what still needs to get done for the next release\n\n\n\n\n\n\nAnything anyone wants to add\n\n\n\n\n\n\nClosing the meeting", 
-            "title": "Dev Meeting Agenda (Template)"
-        }, 
-        {
-            "location": "/Dev_Meeting_Agenda_(Template)/#aragon-dev-meeting-agenda-template", 
-            "text": "Meeting Date", 
-            "title": "Aragon Dev Meeting Agenda (Template)"
-        }, 
-        {
-            "location": "/Dev_Meeting_Agenda_(Template)/#agenda", 
-            "text": "Introductions of participants   Everyone tells who they are and what they do, outside contributors could tell why they are participating     Going through the agenda, what will be covered in this Meeting    Sprints since the last Meeting    Next Sprints    Open discussion about the technical development    Summary of what still needs to get done for the next release    Anything anyone wants to add    Closing the meeting", 
-            "title": "Agenda"
-        }, 
-        {
-            "location": "/about/", 
-            "text": "Non subit et longi recludere aderat\n\n\nIllic licuit sera feris ex est vincula\n\n\nLorem markdownum\n tritis iam obscurus laude et fuerit\nPerseus Clytie medio! Dolor unum: corpore erat bella, cum quos manibus: eadem\nlicet nunc? Rore hoc sidera Tyrrhenae quamvis ingreditur tanti, ad et pariter\nViderat purpureis. Tollere haec sacra haec partim in\n\nnegat\n!\n\n\n\n\nCaede promisistis taurum donis tibi Solis huc\n\n\nPronusque fuerit\n\n\nModo te ferenda despicit miseranda fusum\n\n\nEst formosius blando phaethon carpsit mutavit\n\n\nInsignia summa tecta ut sequitur\n\n\n\n\nEsse ad nimiumque strictique his admonitu\n\n\nFugias Pico, sed quid mille quascumque ille tam fontis oravique et. Haec maximus\npro hunc, non meaque aquarum Prothoenora tamen; vidit, Laomedonta.\n\n\nif (baud_title(web_tebibyte_progressive + 97 - 41, right_ip_skin,\n        publishing.kbpsYoutube(3))) {\n    lionWhite(gigo);\n    degaussScareware(unc_folder + 4, roomBoot);\n}\nregular_card(newbie_encoding_module, matrix(languageTitle +\n        cold_multimedia_pack, debug_sprite), tweet_frozen_virtualization);\nvar gopher = mysql_rosetta;\nregular -= swappableSource * compilerMenuHeat(grepViral.cyberspace(2, dvd,\n        sync), file_jumper_hdtv);\nif (3) {\n    smartPram += matrix;\n} else {\n    web = 5;\n    skin_localhost_play = uddi_pharming_secondary(spoofingOn, animated) + 2;\n    kvm += function_cybersquatter;\n}\n\n\n\nSimilisque manet\n\n\nNegabat virum, siccantem, regno protinus etsi, dixit ramis! Sanguine\n\nde\n rigidi dubio, te simulacraque et siquis patris.\nPraestatque cursu: hostes Minyae, pro arbor oppida iugulum frigore arcere\ninpugnante erat inplacataeque peperisse licet.\n\n\n\n\nMovet sequuntur corpora\n\n\nVicina rictus\n\n\nProfecto ad dixit vicimus liventia diem\n\n\nNos inrita admotum ipsum cum ferre profecti\n\n\n\n\nInque te tenebat. Tot aera; non matrem protinus petit gelidoque nulli est,\nPallas \nagmina forabilis\n.", 
-            "title": "About"
-        }, 
-        {
-            "location": "/about/#non-subit-et-longi-recludere-aderat", 
+            "location": "/jobs/#aragon-job-openings", 
             "text": "", 
-            "title": "Non subit et longi recludere aderat"
+            "title": "Aragon Job Openings "
         }, 
         {
-            "location": "/about/#illic-licuit-sera-feris-ex-est-vincula", 
-            "text": "Lorem markdownum  tritis iam obscurus laude et fuerit\nPerseus Clytie medio! Dolor unum: corpore erat bella, cum quos manibus: eadem\nlicet nunc? Rore hoc sidera Tyrrhenae quamvis ingreditur tanti, ad et pariter\nViderat purpureis. Tollere haec sacra haec partim in negat !   Caede promisistis taurum donis tibi Solis huc  Pronusque fuerit  Modo te ferenda despicit miseranda fusum  Est formosius blando phaethon carpsit mutavit  Insignia summa tecta ut sequitur", 
-            "title": "Illic licuit sera feris ex est vincula"
+            "location": "/jobs/#culture", 
+            "text": "We are a  fully distributed  company \u2013 we don't think talent is geographically centralized. We do offsites regularly for the team to meet and work together for a week.  We empower  deep work  sessions, minimizing bureaucracy and leaving Monday for all meetings and internal calls.  We encourage team members to spend a substantial part of their paid work time on unrelated blockchain open source projects to speed up the development of the ecosystem.  We are  open source only .  We are a technology company. Our focus is  product first .", 
+            "title": "Culture \ud83c\udf0d"
         }, 
         {
-            "location": "/about/#esse-ad-nimiumque-strictique-his-admonitu", 
-            "text": "Fugias Pico, sed quid mille quascumque ille tam fontis oravique et. Haec maximus\npro hunc, non meaque aquarum Prothoenora tamen; vidit, Laomedonta.  if (baud_title(web_tebibyte_progressive + 97 - 41, right_ip_skin,\n        publishing.kbpsYoutube(3))) {\n    lionWhite(gigo);\n    degaussScareware(unc_folder + 4, roomBoot);\n}\nregular_card(newbie_encoding_module, matrix(languageTitle +\n        cold_multimedia_pack, debug_sprite), tweet_frozen_virtualization);\nvar gopher = mysql_rosetta;\nregular -= swappableSource * compilerMenuHeat(grepViral.cyberspace(2, dvd,\n        sync), file_jumper_hdtv);\nif (3) {\n    smartPram += matrix;\n} else {\n    web = 5;\n    skin_localhost_play = uddi_pharming_secondary(spoofingOn, animated) + 2;\n    kvm += function_cybersquatter;\n}", 
-            "title": "Esse ad nimiumque strictique his admonitu"
+            "location": "/jobs/#work-conditions", 
+            "text": "Full time  commitment. Side projects and open source are accepted (and encouraged).  Completely  remote  position, no relocation required.  Very competitive compensation.  You decide  how to allocate your salary in fiat, ETH or ANT .  Yearly bonus in ANT based on performance.  We empower autonomous workers with a proactive attitude and a love for time self-management.", 
+            "title": "Work conditions \ud83d\ude80"
         }, 
         {
-            "location": "/about/#similisque-manet", 
-            "text": "Negabat virum, siccantem, regno protinus etsi, dixit ramis! Sanguine de  rigidi dubio, te simulacraque et siquis patris.\nPraestatque cursu: hostes Minyae, pro arbor oppida iugulum frigore arcere\ninpugnante erat inplacataeque peperisse licet.   Movet sequuntur corpora  Vicina rictus  Profecto ad dixit vicimus liventia diem  Nos inrita admotum ipsum cum ferre profecti   Inque te tenebat. Tot aera; non matrem protinus petit gelidoque nulli est,\nPallas  agmina forabilis .", 
-            "title": "Similisque manet"
+            "location": "/jobs/#openings", 
+            "text": "Operations/Executive Assistant  EVM/Solidity Engineer  Frontend and web3 Developer  Community Lead  Product Manager", 
+            "title": "Openings \ud83d\ude4b\ud83c\udffe\ud83d\ude4b\u200d\u2642\ufe0f"
+        }, 
+        {
+            "location": "/jobs/#applying", 
+            "text": "Write an email with any info you consider relevant to  contact@aragon.one , with the subject  ${insert_position_here} opening application .    The generic things we are looking for in the application are:    A couple paragraphs explaining with your involvement and experience in the crypto community.    All the references to your past work   GitHub for developers. Since we are open source only, we require applicants for developer positions to have a very active and healthy GitHub profile.  Dribbble/Behance/portfolio for designers  CV/LinkedIn for other positions     We really value people that have previously  contributed to the project  in a voluntary manner, or that are  community members .   We value what you can do and your attitude doing it, not where/whether you went to school or college.   More specific instructions for each position can be found in the openings.", 
+            "title": "Applying \ud83d\udcdd"
         }
     ]
 }

@@ -4,47 +4,53 @@
     
     <url>
      <loc>https://wiki.aragon.one/</loc>
-     <lastmod>2017-09-27</lastmod>
+     <lastmod>2017-09-28</lastmod>
      <changefreq>daily</changefreq>
     </url>
     
 
     
+        
     <url>
-     <loc>https://wiki.aragon.one/Community_Governance_Model/</loc>
-     <lastmod>2017-09-27</lastmod>
+     <loc>https://wiki.aragon.one/documentation/Code_of_Conduct/</loc>
+     <lastmod>2017-09-28</lastmod>
      <changefreq>daily</changefreq>
     </url>
+        
+    <url>
+     <loc>https://wiki.aragon.one</loc>
+     <lastmod></lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    
+
+    
+        
+    <url>
+     <loc>https://wiki.aragon.one</loc>
+     <lastmod></lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>https://wiki.aragon.one</loc>
+     <lastmod></lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>https://wiki.aragon.one</loc>
+     <lastmod></lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
     
 
     
     <url>
-     <loc>https://wiki.aragon.one/Dev_Meeting_01/</loc>
-     <lastmod>2017-09-27</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    
-
-    
-    <url>
-     <loc>https://wiki.aragon.one/Dev_Meeting_Agenda_(Guide)/</loc>
-     <lastmod>2017-09-27</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    
-
-    
-    <url>
-     <loc>https://wiki.aragon.one/Dev_Meeting_Agenda_(Template)/</loc>
-     <lastmod>2017-09-27</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    
-
-    
-    <url>
-     <loc>https://wiki.aragon.one/about/</loc>
-     <lastmod>2017-09-27</lastmod>
+     <loc>https://wiki.aragon.one/jobs/</loc>
+     <lastmod>2017-09-28</lastmod>
      <changefreq>daily</changefreq>
     </url>
     

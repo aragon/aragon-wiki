@@ -24,11 +24,11 @@
 
 ## Openings 🙋🏾🙋‍♂️
 
-- [Operations/Executive Assistant](https://wiki.aragon.one/jobs/openings/exec_assistant.md)
-- [EVM/Solidity Engineer](https://wiki.aragon.one/jobs/openings/solidity.md)
-- [Frontend and web3 Developer](https://wiki.aragon.one/jobs/openings/frontend.md)
-- [Community Lead](https://wiki.aragon.one/jobs/openings/community.md)
-- [Product Manager](https://wiki.aragon.one/jobs/openings/product_manager.md)
+- [Operations/Executive Assistant](https://github.com/aragon/jobs/blob/master/openings/exec_assistant.md)
+- [EVM/Solidity Engineer](https://github.com/aragon/jobs/blob/master/openings/solidity.md)
+- [Frontend and web3 Developer](https://github.com/aragon/jobs/blob/master/openings/frontend.md)
+- [Community Lead](https://github.com/aragon/jobs/blob/master/openings/community.md)
+- [Product Manager](https://github.com/aragon/jobs/blob/master/openings/product_manager.md)
 
 
 ## Applying 📝
