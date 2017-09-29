@@ -17,7 +17,7 @@ Aragon organizations will be able to opt-in into the Aragon Network, which will 
 services like upgradeability and a decentralized court arbitration system for Aragon
 organizations.
 
-For more information, please refer to our website our dapp white paper and our Network
+For more information, please refer to [our website](https://aragon.one) our dapp white paper and our Network
 whitepaper.
 
 This document describes how Aragon Dev plans to develop the Aragon dapp, the Aragon
@@ -34,12 +34,12 @@ when they were only 15 years old, and immediately started building products toge
 At the age of 17, they prototyped a fully decentralized Internet replacement by using mesh
 networks, blockchain technology and protocols like Bluetooth LE and WiFi Direct.
 
-Stampery—Luis’ latest company—made blockchain timestamping accessible, and has
+[Stampery](https://stampery.com)—Luis’ latest company—made blockchain timestamping accessible, and has
 worked with institutions like the Estonian government, Microsoft and Telefonica. It
 participated in TechCrunch Disrupt and was backed by billionaire Tim Draper.
 
-Luis has also been recognized as a 30 Under 30 by Forbes and Innovator Under 35 by the
-MIT.
+Luis has also been recognized as a [30 Under 30 by Forbes](https://www.forbes.com/30-under-30-europe-2016/technology/#6662a3e4a4b3) and [Innovator Under 35 by the
+MIT](http://www.innovatorsunder35.com/innovator/luis-cuende).
 
 Before building Aragon, Luis and Jorge were in Silicon Valley working on solving the problem
 of patent trolls with Unpatent. After figuring out how broken the underlying infrastructure of
@@ -60,8 +60,8 @@ those organizations by imposing restrictions and creating complex regulatory fra
 Aragon was born to disintermediate the creation and maintenance of companies and other
 organizational structures.
 
-Luis and Jorge were very inspired by Nobel prize Ronald Coase and his amazing paper The
-Nature of the Firm and Yochai Benkler's Linux and the Nature of the Firm. Both explore the
+Luis and Jorge were very inspired by Nobel prize Ronald Coase and his amazing paper [The
+Nature of the Firm](https://en.wikipedia.org/wiki/The_Nature_of_the_Firm) and Yochai Benkler's [Linux and the Nature of the Firm](http://www.benkler.org/CoasesPenguin.html). Both explore the
 concept of company.
 
 At Aragon Dev, we believe that the blockchain and the Internet are changing the incentives
@@ -130,7 +130,7 @@ ___
 This was the first public release. Working in both macOS, Linux and Windows. Introduced a
 new UI styling and Kovan testnet support.
 
-For more information, read the launch post.
+For more information, read [the launch post](https://blog.aragon.one/releasing-aragon-alpha-602284a5380c).
 ___
 <h3>Release Calendar</h3>
 
