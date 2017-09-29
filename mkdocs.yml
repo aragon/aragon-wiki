@@ -27,10 +27,20 @@ extra:
 pages:
   - Home: 'index.md'
   - Documentation:
+    - Aragon Code of Conduct: 'documentation/Code_of_Conduct.md'
     - Development Plan: 'documentation/Development_Plan.md'
+    - For Developers:
+      - aragon-core:
+        - Home:  'documentation/dev/aragon-core_home.md'
+        - DAO Storage: 'documentation/dev/aragon-core_dao_storage.md'
+        - How to contribute: 'documentation/dev/aragon-core_how_to_contribute.md'
+        - Kernel: 'documentation/dev/aragon-core_kernel.md'
     - Governance:
       - Community Governance Model: 'documentation/Community_Governance_Model.md'
-    - Aragon Code of Conduct: 'documentation/Code_of_Conduct.md'
+    - Multisigs:
+      - Overview: 'documentation/multisigs/overview.md'
+      - Foundation: 'documentation/multisigs/foundation.md'
+      - Community: 'documentation/multisigs/community.md'
   - Meetings:
     - Aragon HQ:
       - HQ 01: 'meetings/hq/01.md'
