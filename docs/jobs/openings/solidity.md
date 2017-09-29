@@ -54,4 +54,4 @@ contract PayrollInterface {
 }
 ```
 
-### If you haven't, please [read more about our culture, work conditions, etc.](/README.md)
+### If you haven't, please [read more about our culture, work conditions, etc.](../index.md)

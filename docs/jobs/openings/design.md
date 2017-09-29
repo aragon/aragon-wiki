@@ -24,4 +24,4 @@ We are looking for a design lead to work with us on the [Aragon dapp](https://gi
 
 - Please send along your Dribbble/Behance profile.
 
-### If you haven't, please [read more about our culture, work conditions, etc.](/README.md)
+### If you haven't, please [read more about our culture, work conditions, etc.](../index.md)

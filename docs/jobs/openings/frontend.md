@@ -27,4 +27,4 @@ We are looking for a frontend and web3 wizard to work with us on the [Aragon dap
 
 - Please send along your GitHub profile. Since we are open source only, we require applicants for developer positions to have a very active and healthy GitHub profile.
 
-### If you haven't, please [read more about our culture, work conditions, etc.](/README.md)
+### If you haven't, please [read more about our culture, work conditions, etc.](../index.md)

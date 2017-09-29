@@ -23,4 +23,4 @@ We are looking for a product manager to work on the [Aragon dapp](https://github
 
 - Please send along your GitHub profile, LinkedIn, and references we can get in touch with.
 
-### If you haven't, please [read more about our culture, work conditions, etc.](/README.md)
+### If you haven't, please [read more about our culture, work conditions, etc.](../index.md)

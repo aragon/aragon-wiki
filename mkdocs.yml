@@ -27,9 +27,10 @@ extra:
 pages:
   - Home: 'index.md'
   - Documentation:
-    - Aragon Code of Conduct: 'documentation/Code_of_Conduct.md'
+    - Development Plan: 'documentation/Development_Plan.md'
     - Governance:
       - Community Governance Model: 'documentation/Community_Governance_Model.md'
+    - Aragon Code of Conduct: 'documentation/Code_of_Conduct.md'
   - Meetings:
     - Aragon HQ:
       - HQ 01: 'meetings/hq/01.md'
@@ -40,4 +41,11 @@ pages:
     - Dev:
       - Dev 02: 'meetings/dev/02.md'
       - Dev 01: 'meetings/dev/01.md'
-  - Jobs: 'jobs/index.md'
+  - Jobs:
+    - Overview: 'jobs/index.md'
+    - Openings:
+      - Operations/Executive Assistant: 'jobs/openings/exec_assistant.md'
+      - EVM/Solidity Engineer: 'jobs/openings/solidity.md'
+      - Frontend and web3 Developer: 'jobs/openings/frontend.md'
+      - Community Lead: 'jobs/openings/community.md'
+      - Product Manager: 'jobs/openings/product_manager.md'
