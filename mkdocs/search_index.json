@@ -1084,6 +1084,131 @@
             "location": "/blog/2017/#introducing-aragon-unstoppable-companies", 
             "text": "Today, taking a stand to help this fight, we are introducing Aragon. \nAragon is everything you need to operate your company or organizational structure, on Ethereum. \nAragon lets everyone create value without borders or intermediaries. \nCap table, vesting, payments, voting, bylaws, fundraising and identity all in a beautiful, unified interface.", 
             "title": "Introducing Aragon: Unstoppable companies"
+        }, 
+        {
+            "location": "/videos/tutorials/", 
+            "text": "Aragon Tutorial Videos\n\n\nAragon Tutorial: Tokens and voting\n\n\n\n\nHow you can easily create your own token and govern your organization with it\n\n\n\n\nAragon Tutorial: Token sale\n\n\n\n\nHow you can raise capital creating your own token in a few clicks\n\n\n\n\n\n\nToken Sale\n\n\nAragon Token Sale with Mist\n\n\nAragon Token Sale with MyEtherWallet\n\n\nAragon Token Sale with My Ether Wallet (Advanced: send offline)\n\n\nAragon Token Sale with Metamask\n\n\nAragon Token Sale with Parity", 
+            "title": "Tutorials"
+        }, 
+        {
+            "location": "/videos/tutorials/#aragon-tutorial-videos", 
+            "text": "", 
+            "title": "Aragon Tutorial Videos"
+        }, 
+        {
+            "location": "/videos/tutorials/#aragon-tutorial-tokens-and-voting", 
+            "text": "How you can easily create your own token and govern your organization with it", 
+            "title": "Aragon Tutorial: Tokens and voting"
+        }, 
+        {
+            "location": "/videos/tutorials/#aragon-tutorial-token-sale", 
+            "text": "How you can raise capital creating your own token in a few clicks", 
+            "title": "Aragon Tutorial: Token sale"
+        }, 
+        {
+            "location": "/videos/tutorials/#token-sale", 
+            "text": "", 
+            "title": "Token Sale"
+        }, 
+        {
+            "location": "/videos/tutorials/#aragon-token-sale-with-mist", 
+            "text": "", 
+            "title": "Aragon Token Sale with Mist"
+        }, 
+        {
+            "location": "/videos/tutorials/#aragon-token-sale-with-myetherwallet", 
+            "text": "", 
+            "title": "Aragon Token Sale with MyEtherWallet"
+        }, 
+        {
+            "location": "/videos/tutorials/#aragon-token-sale-with-my-ether-wallet-advanced-send-offline", 
+            "text": "", 
+            "title": "Aragon Token Sale with My Ether Wallet (Advanced: send offline)"
+        }, 
+        {
+            "location": "/videos/tutorials/#aragon-token-sale-with-metamask", 
+            "text": "", 
+            "title": "Aragon Token Sale with Metamask"
+        }, 
+        {
+            "location": "/videos/tutorials/#aragon-token-sale-with-parity", 
+            "text": "", 
+            "title": "Aragon Token Sale with Parity"
+        }, 
+        {
+            "location": "/videos/hq/", 
+            "text": "Aragon HQ Meeting Videos\n\n\nAragon HQ Meeting 01\n\n\n\n\nStreamed live on Sep 1, 2017", 
+            "title": "HQ"
+        }, 
+        {
+            "location": "/videos/hq/#aragon-hq-meeting-videos", 
+            "text": "", 
+            "title": "Aragon HQ Meeting Videos"
+        }, 
+        {
+            "location": "/videos/hq/#aragon-hq-meeting-01", 
+            "text": "Streamed live on Sep 1, 2017", 
+            "title": "Aragon HQ Meeting 01"
+        }, 
+        {
+            "location": "/videos/community/", 
+            "text": "Aragon Community Meeting Videos\n\n\nAragon Community Meeting 03\n\n\n\n\nStreamed live on Sep 8, 2017\n\n\nMeeting agenda: \nhttps://wiki.aragon.one/meetings/community/03/\n\nMeeting AMA thread: \nhttps://www.reddit.com/r/aragonproject/comments/6yhk0r/aragon_community_meeting_03_ama_thread/\n\n\n\n\nAragon Community Meeting 02\n\n\n\n\nStreamed live on Aug 18, 2017\n\n\nMeeting notes and agenda: \nhttps://wiki.aragon.one/meetings/community/02/\n\n\n\n\nAragon Community Meeting 01\n\n\n\n\nStreamed live on Jul 14, 2017\n\n\nMeeting notes and agenda: \nhttps://wiki.aragon.one/meetings/community/01/", 
+            "title": "Community"
+        }, 
+        {
+            "location": "/videos/community/#aragon-community-meeting-videos", 
+            "text": "", 
+            "title": "Aragon Community Meeting Videos"
+        }, 
+        {
+            "location": "/videos/community/#aragon-community-meeting-03", 
+            "text": "Streamed live on Sep 8, 2017  Meeting agenda:  https://wiki.aragon.one/meetings/community/03/ \nMeeting AMA thread:  https://www.reddit.com/r/aragonproject/comments/6yhk0r/aragon_community_meeting_03_ama_thread/", 
+            "title": "Aragon Community Meeting 03"
+        }, 
+        {
+            "location": "/videos/community/#aragon-community-meeting-02", 
+            "text": "Streamed live on Aug 18, 2017  Meeting notes and agenda:  https://wiki.aragon.one/meetings/community/02/", 
+            "title": "Aragon Community Meeting 02"
+        }, 
+        {
+            "location": "/videos/community/#aragon-community-meeting-01", 
+            "text": "Streamed live on Jul 14, 2017  Meeting notes and agenda:  https://wiki.aragon.one/meetings/community/01/", 
+            "title": "Aragon Community Meeting 01"
+        }, 
+        {
+            "location": "/videos/dev/", 
+            "text": "Aragon Dev Meeting Videos\n\n\nWe had planned on having bi-weekly Dev Meetings, but wanted to reduce the amount of time spent in meetings. So they are now integrated into the Aragon HQ Meetings.\n\n\nAragon Dev Meeting 02\n\n\n\n\nStreamed live on Jul 21, 2017\n\n\nMeeting notes and agenda: \nhttps://wiki.aragon.one/meetings/dev/02/\n\n\n\n\nAragon Dev Meeting 01\n\n\n\n\nStreamed live on Jul 7, 2017\n\n\nMeeting notes and agenda: \nhttps://wiki.aragon.one/meetings/dev/01/", 
+            "title": "Dev"
+        }, 
+        {
+            "location": "/videos/dev/#aragon-dev-meeting-videos", 
+            "text": "We had planned on having bi-weekly Dev Meetings, but wanted to reduce the amount of time spent in meetings. So they are now integrated into the Aragon HQ Meetings.", 
+            "title": "Aragon Dev Meeting Videos"
+        }, 
+        {
+            "location": "/videos/dev/#aragon-dev-meeting-02", 
+            "text": "Streamed live on Jul 21, 2017  Meeting notes and agenda:  https://wiki.aragon.one/meetings/dev/02/", 
+            "title": "Aragon Dev Meeting 02"
+        }, 
+        {
+            "location": "/videos/dev/#aragon-dev-meeting-01", 
+            "text": "Streamed live on Jul 7, 2017  Meeting notes and agenda:  https://wiki.aragon.one/meetings/dev/01/", 
+            "title": "Aragon Dev Meeting 01"
+        }, 
+        {
+            "location": "/videos/interviews/", 
+            "text": "Aragon Interview Videos\n\n\nAragon's Luis Cuende interview with Cheddar from the NYSE trading floor", 
+            "title": "Interviews"
+        }, 
+        {
+            "location": "/videos/interviews/#aragon-interview-videos", 
+            "text": "", 
+            "title": "Aragon Interview Videos"
+        }, 
+        {
+            "location": "/videos/interviews/#aragons-luis-cuende-interview-with-cheddar-from-the-nyse-trading-floor", 
+            "text": "", 
+            "title": "Aragon's Luis Cuende interview with Cheddar from the NYSE trading floor"
         }
     ]
 }
