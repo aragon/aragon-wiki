@@ -4,7 +4,7 @@
     
     <url>
      <loc>https://wiki.aragon.one/</loc>
-     <lastmod>2017-09-29</lastmod>
+     <lastmod>2017-10-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     
@@ -13,13 +13,13 @@
         
     <url>
      <loc>https://wiki.aragon.one/documentation/Code_of_Conduct/</loc>
-     <lastmod>2017-09-29</lastmod>
+     <lastmod>2017-10-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>https://wiki.aragon.one/documentation/Development_Plan/</loc>
-     <lastmod>2017-09-29</lastmod>
+     <lastmod>2017-10-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
@@ -69,13 +69,23 @@
         
     <url>
      <loc>https://wiki.aragon.one/jobs/</loc>
-     <lastmod>2017-09-29</lastmod>
+     <lastmod>2017-10-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>https://wiki.aragon.one</loc>
      <lastmod></lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    
+
+    
+        
+    <url>
+     <loc>https://wiki.aragon.one/blog/2017/</loc>
+     <lastmod>2017-10-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
