@@ -61,3 +61,10 @@ pages:
       - Product Manager: 'jobs/openings/product_manager.md'
   - Blog posts:
     - 2017: 'blog/2017.md'
+  - Videos:
+    - Tutorials: 'videos/tutorials.md'
+    - Meetings:
+      - HQ: 'videos/hq.md'
+      - Community: 'videos/community.md'
+      - Dev: 'videos/dev.md'
+    - Interviews: 'videos/interviews.md'
