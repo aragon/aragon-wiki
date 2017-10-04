@@ -18,6 +18,10 @@ extra:
   social:
     - type: 'github'
       link: 'https://github.com/aragon'
+    - type: 'medium'
+      link: 'https://blog.aragon.one/'
+    - type: 'reddit'
+      link: 'https://www.reddit.com/r/aragonproject/'
     - type: 'twitter'
       link: 'https://twitter.com/AragonProject'
     - type: 'linkedin'
