@@ -91,4 +91,26 @@
         
     
 
+    
+        
+    <url>
+     <loc>https://wiki.aragon.one/videos/tutorials/</loc>
+     <lastmod>2017-10-02</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>https://wiki.aragon.one</loc>
+     <lastmod></lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>https://wiki.aragon.one/videos/interviews/</loc>
+     <lastmod>2017-10-02</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    
+
 </urlset>
