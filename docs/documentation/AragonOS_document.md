@@ -3,7 +3,6 @@
 An [exokernel](https://en.wikipedia.org/wiki/Exokernel)-inspired architecture for modular, upgradeable and secure DAOs
 </center>
 
-
 ## Introduction
 
 This exokernel-inspired architecture enables modular, upgradeable and secure DAOs (Decentralized Autonomous Organizations). A UNIX-inspired permissions system, that allows safe and efficient control over software resources by utilizing smart contracts.
@@ -14,8 +13,7 @@ So how does one guarantee DAOs that run efficiently and securely? And with upgra
 
 We present our take on our secure decentralized operating system: _AragonOS_.
 
-This document provides an overview about how the architecture performs in a secure way. Along with information about the features implemented within the AragonOS platform.
-
+This document provides a technical overview about the architecture. For a less technical oriented introduction to AragonOS, you can check the [announcement blogpost](https://blog.aragon.one/introducing-aragonos-say-hi-to-modular-and-extendable-organizations-8555af1076f3).
 
 ## 1. The Access Control List
 
@@ -63,7 +61,7 @@ In order for an Entity _A_ to be able to `grantPermission` that **allows** Entit
 
   1. Entity _A_ must already have permission _P_ to perform role _X_ actions.
   2. Entity _A_ must be it’s own permission parent _Pa_ for permission _P_.
-  3. Entity _B_ does not have any permission to perform role _X_ actions. `1`
+  3. Entity _B_ does not have any permission to perform role _X_ actions (avoids being able to takeover as parent).
 
   When setting a Permission _P_, the one granting the permission can specify the Entity that will be the parent for _P_:
 
@@ -76,8 +74,6 @@ In order for an Entity _A_ to be able to `grantPermission` that **allows** Entit
 ```
 kernel.revokePermission(address entity, address app, bytes32 role)
 ```
-___
-`1` _Avoids being able to takeover as parent._
 
 `revokePermission` can be called at any time by the `parent` of a certain permission and will remove the ability of `entity` to have `role` on `app`.
 
@@ -229,7 +225,6 @@ By having both the app code reference and the package content, we can assert som
     - Example: From 2.1.3 the only allowed rises are to 3.0.0 (major version), 2.2.0 (minor version) and 2.1.4 (patch version).
   - Changes to the app code address can only be done if the raise changes the major version (turning it into x.0.0 by the above rule).
 
-  A POC can be found [here](https://gist.github.com/anonymous/545f9cd02265198e8e51c6a2a6425915#file-untitled3-sol).
 
 The package that is stored off-chain needs to contain a standard [manifest.json](https://w3c.github.io/manifest/) file.
 Apart from that, making the interaction with the smart contracts possible, we introduce a specific `eth.json` file with the following keys:
@@ -239,3 +234,5 @@ Apart from that, making the interaction with the smart contracts possible, we in
   - `functions`: An array of all the relevant function signatures for the contract, with its [natspec](https://github.com/ethereum/wiki/wiki/Ethereum-Natural-Specification-Format) description, argument names and whether the function is protected by the ACL or not. These can be automatically generated on package publish. What role is needed to call a function is specified in the function object.
   - `permissions`: An array of what permissions the app needs to have over other entities in order to work. This will probably be dependent on initialization parameters. For example: a Finance app will need permissions over the Vault it is initialized with.
   - `verification`: An object providing the needed information to independently verify the source code of the deployed code. Values needed are: `deployTxId`, `sourceCode` and the compiler settings, solc version and optimization settings.
+
+An initial implementation of the contracts supporting package management can be found on the apm-contracts Github [repo](https://github.com/aragon/apm-contracts).
