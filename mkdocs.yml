@@ -32,6 +32,7 @@ pages:
   - Home: 'index.md'
   - Documentation:
     - Aragon Code of Conduct: 'documentation/Code_of_Conduct.md'
+    - AragonOS: 'documentation/AragonOS_document.md'
     - Development Plan: 'documentation/Development_Plan.md'
     - For Developers:
       - aragon-core:
