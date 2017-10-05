@@ -1158,7 +1158,7 @@
 <p>Smart contracts can define the rules and penalties around an agreement. They can also make decisions as well as enforce said commitments. The like as the ability to move large amounts of funds. But such significant responsibilities also make smart contracts a prime target for attacks.  Smart contracts are essential to to the Ethereum ecosystem. Testing and certifying them is not an absolute remedy because, inevitably, humans make mistakes.</p>
 <p>So how does one guarantee DAOs that run efficiently and securely? And with upgradeability, ensuring the safety and evolution of the Ethereum ecosystem?</p>
 <p>We present our take on our secure decentralized operating system: <em>AragonOS</em>.</p>
-<p>This document provides an overview about how the architecture performs in a secure way. Along with information about the features implemented within the AragonOS platform.</p>
+<p>This document provides a technical overview about the architecture. For a less technical oriented introduction to AragonOS, you can check the <a href="https://blog.aragon.one/introducing-aragonos-say-hi-to-modular-and-extendable-organizations-8555af1076f3">announcement blogpost</a>.</p>
 <h2 id="1-the-access-control-list">1. The Access Control List</h2>
 <p>The Access Control List (ACL) is the filter which determines whether an address has a certain role in the context of an app. It either permits or prohibits performing actions in a given context, such as an update, as well as determining the entities with power over that permission.</p>
 <p>The ACL permissions system is inspired by UNIX. ACL controls the permissions in the system afforded to a user and can ease the transfer of permissions. Similar to the <code>sudo</code> command in UNIX, users can escalate permissions, but with more flexibility and granularity.</p>
@@ -1188,7 +1188,7 @@ bytes32 constant public MINT_ROLE = 0x1234;
 <ol>
 <li>Entity <em>A</em> must already have permission <em>P</em> to perform role <em>X</em> actions.</li>
 <li>Entity <em>A</em> must be it’s own permission parent <em>Pa</em> for permission <em>P</em>.</li>
-<li>Entity <em>B</em> does not have any permission to perform role <em>X</em> actions. <code>1</code></li>
+<li>Entity <em>B</em> does not have any permission to perform role <em>X</em> actions (avoids being able to takeover as parent).</li>
 </ol>
 <p>When setting a Permission <em>P</em>, the one granting the permission can specify the Entity that will be the parent for <em>P</em>:</p>
 <ul>
@@ -1200,8 +1200,6 @@ bytes32 constant public MINT_ROLE = 0x1234;
 <pre><code>kernel.revokePermission(address entity, address app, bytes32 role)
 </code></pre>
 
-<hr />
-<p><code>1</code> <em>Avoids being able to takeover as parent.</em></p>
 <p><code>revokePermission</code> can be called at any time by the <code>parent</code> of a certain permission and will remove the ability of <code>entity</code> to have <code>role</code> on <code>app</code>.</p>
 <p>The <code>revokePermission</code> action doesn’t need to be protected by the ACL either, as an entity can only make changes if it is the <code>parent</code> for a given permission.</p>
 <p>Creating new permissions from scratch for a newly installed app requires the use of another method:</p>
@@ -1305,7 +1303,6 @@ The <code>appId</code> of an app should be the ENS name for the package. The <co
 </li>
 <li>Changes to the app code address can only be done if the raise changes the major version (turning it into x.0.0 by the above rule).</li>
 </ul>
-<p>A POC can be found <a href="https://gist.github.com/anonymous/545f9cd02265198e8e51c6a2a6425915#file-untitled3-sol">here</a>.</p>
 <p>The package that is stored off-chain needs to contain a standard <a href="https://w3c.github.io/manifest/">manifest.json</a> file.
 Apart from that, making the interaction with the smart contracts possible, we introduce a specific <code>eth.json</code> file with the following keys:</p>
 <ul>
@@ -1315,6 +1312,7 @@ Apart from that, making the interaction with the smart contracts possible, we in
 <li><code>permissions</code>: An array of what permissions the app needs to have over other entities in order to work. This will probably be dependent on initialization parameters. For example: a Finance app will need permissions over the Vault it is initialized with.</li>
 <li><code>verification</code>: An object providing the needed information to independently verify the source code of the deployed code. Values needed are: <code>deployTxId</code>, <code>sourceCode</code> and the compiler settings, solc version and optimization settings.</li>
 </ul>
+<p>An initial implementation of the contracts supporting package management can be found on the apm-contracts Github <a href="https://github.com/aragon/apm-contracts">repo</a>.</p>
                 
                   
                 
