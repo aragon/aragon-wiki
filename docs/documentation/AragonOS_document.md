@@ -7,7 +7,7 @@ An [exokernel](https://en.wikipedia.org/wiki/Exokernel)-inspired architecture fo
 
 This exokernel-inspired architecture enables modular, upgradeable and secure DAOs (Decentralized Autonomous Organizations). A UNIX-inspired permissions system, that allows safe and efficient control over software resources by utilizing smart contracts.
 
-Smart contracts can define the rules and penalties around an agreement. They can also make decisions as well as enforce said commitments. The like as the ability to move large amounts of funds. But such significant responsibilities also make smart contracts a prime target for attacks.  Smart contracts are essential to to the Ethereum ecosystem. Testing and certifying them is not an absolute remedy because, inevitably, humans make mistakes.
+Smart contracts can define the rules and penalties around an agreement. They can also make decisions as well as enforce said commitments. Such as the ability to move large amounts of funds. But such significant responsibilities also make smart contracts a prime target for attacks.  Smart contracts are essential to to the Ethereum ecosystem. Testing and certifying them is not an absolute remedy because, inevitably, humans make mistakes.
 
 So how does one guarantee DAOs that run efficiently and securely? And with upgradeability, ensuring the safety and evolution of the Ethereum ecosystem?
 
