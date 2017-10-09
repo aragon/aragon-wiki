@@ -48,6 +48,7 @@ pages:
       - Community: 'documentation/multisigs/community.md'
   - Meetings:
     - Aragon HQ:
+      - HQ 02: 'meetings/hq/02.md'
       - HQ 01: 'meetings/hq/01.md'
     - Community:
       - Community 03: 'meetings/community/03.md'
