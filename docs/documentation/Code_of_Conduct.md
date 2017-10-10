@@ -76,9 +76,9 @@ Participants asked to stop any harassing behavior are expected to comply immedia
 
 If a participant engages in harassing behavior, the Aragon response team may take any action they deem appropriate, up to and including expulsion from all Aragon project spaces and identification of the participant as a harasser to other Aragon community members or the general public.
 
-## Slack
+## Aragon.Chat
 
-Aragon project's Slack channels descriptions tell you what is considered proper on-topic discussion on that channel, we want everyone to abide by these discussion topics, but using common sense is allowed. We won't remove you from the channel unless there is sustained disruption of discussion. All communication in the channels is to be in English, unless stated otherwise.
+Aragon project's chat channels descriptions tell you what is considered proper on-topic discussion on that channel, we want everyone to abide by these discussion topics, but using common sense is allowed. We won't remove you from the channel unless there is sustained disruption of discussion. All communication in the channels is to be in English, unless stated otherwise.
 
 Keep your messages [DRY](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself), don't repeat yourself, choose a proper channel to post your message, link or other communication and only post that on one channel. There is also no need to post the same image or message daily or repeatedly.
 
