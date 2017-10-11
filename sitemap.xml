@@ -12,14 +12,26 @@
     
         
     <url>
-     <loc>https://wiki.aragon.one/documentation/Code_of_Conduct/</loc>
+     <loc>https://wiki.aragon.one/documentation/AragonOS_document/</loc>
      <lastmod>2017-10-11</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>https://wiki.aragon.one/documentation/AragonOS_document/</loc>
-     <lastmod>2017-10-11</lastmod>
+     <loc>https://wiki.aragon.one</loc>
+     <lastmod></lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>https://wiki.aragon.one</loc>
+     <lastmod></lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>https://wiki.aragon.one</loc>
+     <lastmod></lastmod>
      <changefreq>daily</changefreq>
     </url>
         
@@ -30,20 +42,8 @@
     </url>
         
     <url>
-     <loc>https://wiki.aragon.one</loc>
-     <lastmod></lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
-    <url>
-     <loc>https://wiki.aragon.one</loc>
-     <lastmod></lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
-    <url>
-     <loc>https://wiki.aragon.one</loc>
-     <lastmod></lastmod>
+     <loc>https://wiki.aragon.one/documentation/Code_of_Conduct/</loc>
+     <lastmod>2017-10-11</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
