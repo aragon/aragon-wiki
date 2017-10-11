@@ -31,19 +31,26 @@ extra:
 pages:
   - Home: 'index.md'
   - Documentation:
-    - Aragon Code of Conduct: 'documentation/Code_of_Conduct.md'
     - AragonOS: 'documentation/AragonOS_document.md'
-    - Development Plan: 'documentation/Development_Plan.md'
-    - For Developers:
-      - aragon-core:
-        - Home:  'documentation/dev/aragon-core_home.md'
-        - How to contribute: 'documentation/dev/aragon-core_how_to_contribute.md'
+    - aragon-core:
+      - Home:  'documentation/dev/aragon-core_home.md'
+      - Apps:
+        - Home: 'documentation/dev/apps/index.md'
+        - Voting: 'documentation/dev/apps/voting.md'
+        - Token Manager: 'documentation/dev/apps/token-manager.md'
+        - Group: 'documentation/dev/apps/group.md'
+        - Fundraising: 'documentation/dev/apps/fundraising.md'
+        - Vault: 'documentation/dev/apps/vault.md'
+        - Finance: 'documentation/dev/apps/finance.md'
+      - How to contribute: 'documentation/dev/aragon-core_how_to_contribute.md'
     - Governance:
       - Community Governance Model: 'documentation/Community_Governance_Model.md'
     - Multisigs:
       - Overview: 'documentation/multisigs/overview.md'
       - Foundation: 'documentation/multisigs/foundation.md'
       - Community: 'documentation/multisigs/community.md'
+    - Development Plan: 'documentation/Development_Plan.md'
+    - Aragon Code of Conduct: 'documentation/Code_of_Conduct.md'
   - Meetings:
     - Aragon HQ:
       - HQ 02: 'meetings/hq/02.md'

@@ -15,7 +15,7 @@ We present our take on our secure decentralized operating system: _AragonOS_.
 
 This document provides a technical overview about the architecture. For a less technical oriented introduction to AragonOS, you can check the [announcement blogpost](https://blog.aragon.one/introducing-aragonos-say-hi-to-modular-and-extendable-organizations-8555af1076f3).
 
-## 1. The Access Control List
+## 1. Kernel and the Access Control List
 
 The Access Control List (ACL) is the filter which determines whether an address has a certain role in the context of an app. It either permits or prohibits performing actions in a given context, such as an update, as well as determining the entities with power over that permission.
 
@@ -51,6 +51,8 @@ A Permission is assigned to an Entity and allows the `entity` to execute actions
 
 If an Entity is the parent _Pa_ of a Permission _P_, it has the power to grant or revoke access to _P_ for any other Entity that has been granted _P_ with parent _Pa_. This is achieved by calling:
 
+#### Grant Permission
+
 ```
 kernel.grantPermission(address entity, address app, bytes32 role, address parent)
 ```
@@ -71,6 +73,8 @@ In order for an Entity _A_ to be able to `grantPermission` that **allows** Entit
 
   The `grantPermission` action doesn’t need to be protected with the ACL as an entity can only make changes if it is the `parent` for a given permission.
 
+#### Revoke Permission
+
 ```
 kernel.revokePermission(address entity, address app, bytes32 role)
 ```
@@ -80,6 +84,8 @@ kernel.revokePermission(address entity, address app, bytes32 role)
 The `revokePermission` action doesn’t need to be protected by the ACL either, as an entity can only make changes if it is the `parent` for a given permission.
 
 Creating new permissions from scratch for a newly installed app requires the use of another method:
+
+#### Create Permission
 
 ```
 kernel.createPermission(address entity, address app, bytes32 role, address parent)
@@ -98,6 +104,8 @@ If the ACL is checked for a permission that hasn’t been created yet, the ACL w
 ```
 PermissionSet(address from, bytes32 role, address to, address parent, bool allowed)
 ```
+
+#### Example
 
 As an example, the following shows a complete flow for user Root to create a new DAO that has the basic permissions set so a Voting app could manage funds in a Vault app:
 
@@ -130,6 +138,8 @@ Note that permission escalation can occur automatically or it can be delayed and
 
 <center><img src="../../images/aragonos/permission_escalation.png"></center>
 
+##### Forwarders
+
 In order to make permission escalation easier, we can define a common interface for how this happens:
 
 ```
@@ -140,6 +150,8 @@ contract Forwarder {
 }
 ```
 
+##### EVM Call Script
+
 The `evmCallScript` parameter allows for executing multiple calls with just one transaction. This is useful, for example, in the case of Votings, as it allows approving multiple actions in just one vote.
 
 An `evmCallScript` is the concatenation of multiple `evmCallActions`. A `evmCallActions` payload is:
@@ -147,6 +159,8 @@ An `evmCallScript` is the concatenation of multiple `evmCallActions`. A `evmCall
 ``[ to (address: 20 bytes) ] [ calldataLength (uint32: 4 bytes)  ] [ calldata (calldataLength bytes) ]``
 
 When executed, actions in the `evmCallScript` are executed one at a time using _CALL_. If just one of the actions fails (call returns 0), the entire execution is reverted.
+
+An implementation for EVM Call Script can be found here: [`EVMCallScript.sol`](https://github.com/aragon/aragon-core/blob/dev/contracts/common/EVMCallScript.sol).
 
 If a user wants to enact an action it cannot perform directly, it can check if there are forwarders. This checks if there are entities which can perform the action that any of the user addresses can use.
 
