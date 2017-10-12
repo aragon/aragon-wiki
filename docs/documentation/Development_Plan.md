@@ -1,7 +1,7 @@
 <center>
 <img src="../../images/logo_text_under_dark.png">
 # Development Plan
-version 1.0
+version 1.2
 
 <img src="../../images/development_plan/01.png">
 </center>
@@ -156,7 +156,7 @@ ___
 
 - **Alpha**: April 2017
 
-### 0.4 — The Money Release
+### 0.4 — The Bridge Release
 This release will focus on adding:
 
 **Economic abstraction**
@@ -165,7 +165,7 @@ Companies will be able to hold and interact with any standard value-holding toke
 
 **Improved budgeting and accounting**
 
-Organizations will be in itself the organization's bank account.
+Organizations will be in itself the organization's _bank account_.
 
 **Dividends**
 
@@ -184,60 +184,84 @@ maintaining its access to the funds.
 ___
 <h3>Release Calendar</h3>
 
-- **Alpha**: June 2017
-- **Bug bounty (mainnet)**: From July to September 2017
-- **Private Beta (mainnet)**: October 2017
+- **Alpha**: July 2017
 
-This will be the first release that gets deployed to the mainnet.
+This will be a development version only focusing on smart contracts, iterating between
+different models for upgradeability, extensibility and security. 
 
-After 3 months of public bug bounties in the mainnet, we will start allowing the first
-companies to be created using Aragon in the mainnet. 
+ 
 
-### 0.5 — The Modular Release
+### 0.5 — The Refactor Release
 <center>
-<img src="../../images/development_plan/09.png">
-_Blockchain projects that have already manifested interest_
+<img src="../../images/development_plan/05_release.png">
 </center>
 
-This release will focus on adding:
+This release will consist of a total refactor, and will focus on adding:
 
-**Organization-wide encrypted datastores**
+**Organization-wide identity**
 
-Using a connector for IPFS/Swarm, we will provide a second layer that will give storage
-capabilities to the dapp. This way, new features and UX sugar will be able to be added to the
-organizations. Example: setting a company’s logo, or implementing an organization-wide
-identity system, instead of public ones.
+Entities in organizations will be able to register their own usernames in the organization,
+and also provide offchain metadata for displaying purposes in the UI.
+
+**Full upgradeability**
+
+Organizations that will be able to run as long as the Ethereum blockchain runs. No matter if
+big chunks of functionality are swapped.
+
+**Totally new permission system**
+
+Extensible permission system to allow any entity to interact with another one using an ACL
+(Access Control List) that the kernel controls and maintains.
+
+**Switch to an exokernel architecture**
+
+By making the kernel a very simple contract that just keeps the ACL and keep references to
+the installed apps, we can make it more secure and reduce the lines of code and complexity
+in apps, since there can be multiple instances of an app, also making upgradeability easier.
 
 **Front-end modules API**
 
 This will let developers build modules for Aragon that extend its functionality.
+We will provide an API for developers to access functionality from the Aragon client, and a UI
+toolkit for them to adhere to our styling and UX patterns.
 
 **Core modules API**
 
 The API will let the developer trigger actions inside the organization itself, and access more
 low-level capabilities.
 
-**Module developer incentives plan**
-
-We will provide a module store and incorporate an incentives system for developers to be
-rewarded.
+<img src="../../images/development_plan/09.png">
+_Blockchain projects that have already manifested interest_
+</center>
 ___
 <h3>Release Calendar</h3>
 
-- **Alpha**: September 2017
-- **Private Beta (mainnet)**: December 2017 
+- **Alpha**: October 2017
+- **Bug bounty (mainnet)**: From October 2017 to January 2018
+- **Private Beta (mainnet)**: January 2018
 
-### 0.6 — The Upgradeable Release
+This will be the first release that gets deployed to the mainnet.
+After 3 months of public bug bounties in the mainnet, we will start allowing the first
+companies to be created using Aragon in the mainnet.
+
+### 0.6 — The Sweet Release
 <center>
 <img src="../../images/development_plan/10.png">
 </center>
 
 This release will focus on adding:
 
-**Full upgradeability**
+**Organization-wide datastores**
 
-Organizations that will be able to run as long as the Ethereum blockchain runs. No matter if
-big chunks of functionality are swapped.
+Using a connector for IPFS/Swarm and the Aragon Versioning Protocol, we will provide a
+second layer that will give storage capabilities to the dapp. This way, new features and UX
+sugar will be able to be added to the organizations. Example: setting a company’s logo, or
+implementing an organization-wide identity system, instead of public ones.
+
+**Module developer incentives plan**
+
+We will provide a module store and incorporate an incentives system for developers to be
+rewarded.
 
 **Different upgrade tracks**
 
@@ -249,9 +273,9 @@ We will provide different upgrade options.  This is what we are targeting:
 ___
 <h3>Release Calendar</h3>
 
-- **Alpha**: December 2017
-- **Bug bounty (mainnet)**: January 2018
-- **Private Beta (mainnet)**: February 2018 
+- **Alpha**: January 2018
+- **Bug bounty (mainnet)**: February 2018
+- **Private Beta (mainnet)**: March 2018
 
 ### 0.7 — The Network Release
 <center>
