@@ -19,7 +19,7 @@ The only parameter that can be changed if 'Minimum acceptance quorum' for protec
 
 #### Creation
 ```
-votingApp.newVoting(bytes _executionScript, string _metadata)
+votingApp.newVote(bytes _executionScript, string _metadata)
 ```
 
 A new vote is initialized with:
@@ -68,4 +68,4 @@ Any open votes will maintain the value minimum acceptance quorum was when they w
 
 #### Forwarding
 
-[Forwarding](../../AragonOS_document/#forwarders) using the common interface executes a `votingApp.newVoting(...)` action. ACL is checked for whether the sender has permissions to create a vote.
+[Forwarding](../../AragonOS_document/#forwarders) using the common interface executes a `votingApp.newVote(...)` action. ACL is checked for whether the sender has permissions to create a vote.
