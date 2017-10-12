@@ -236,9 +236,9 @@ _Blockchain projects that have already manifested interest_
 ___
 <h3>Release Calendar</h3>
 
-- **Alpha**: October 2017
-- **Bug bounty (mainnet)**: From October 2017 to January 2018
-- **Private Beta (mainnet)**: January 2018
+- **Alpha**: November 2017
+- **Bug bounty (mainnet)**: From November 2017 to February 2018
+- **Private Beta (mainnet)**: February 2018
 
 This will be the first release that gets deployed to the mainnet.
 After 3 months of public bug bounties in the mainnet, we will start allowing the first
