@@ -1173,7 +1173,7 @@
 <p>The only parameter that can be changed if 'Minimum acceptance quorum' for protecting against the case in which there is not enough voter turnout.</p>
 <h3 id="voting-lifecycle">Voting lifecycle</h3>
 <h4 id="creation">Creation</h4>
-<pre><code>votingApp.newVoting(bytes _executionScript, string _metadata)
+<pre><code>votingApp.newVote(bytes _executionScript, string _metadata)
 </code></pre>
 
 <p>A new vote is initialized with:</p>
@@ -1211,7 +1211,7 @@
 <p>At any time, the minimum acceptance quorum for the new votes can be modified.</p>
 <p>Any open votes will maintain the value minimum acceptance quorum was when they were created.</p>
 <h4 id="forwarding">Forwarding</h4>
-<p><a href="../../../AragonOS_document/#forwarders">Forwarding</a> using the common interface executes a <code>votingApp.newVoting(...)</code> action. ACL is checked for whether the sender has permissions to create a vote.</p>
+<p><a href="../../../AragonOS_document/#forwarders">Forwarding</a> using the common interface executes a <code>votingApp.newVote(...)</code> action. ACL is checked for whether the sender has permissions to create a vote.</p>
                 
                   
                 
