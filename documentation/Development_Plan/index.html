@@ -575,22 +575,22 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#04-the-money-release" title="0.4 — The Money Release" class="md-nav__link">
-    0.4 — The Money Release
+  <a href="#04-the-bridge-release" title="0.4 — The Bridge Release" class="md-nav__link">
+    0.4 — The Bridge Release
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#05-the-modular-release" title="0.5 — The Modular Release" class="md-nav__link">
-    0.5 — The Modular Release
+  <a href="#05-the-refactor-release" title="0.5 — The Refactor Release" class="md-nav__link">
+    0.5 — The Refactor Release
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#06-the-upgradeable-release" title="0.6 — The Upgradeable Release" class="md-nav__link">
-    0.6 — The Upgradeable Release
+  <a href="#06-the-sweet-release" title="0.6 — The Sweet Release" class="md-nav__link">
+    0.6 — The Sweet Release
   </a>
   
 </li>
@@ -1181,22 +1181,22 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#04-the-money-release" title="0.4 — The Money Release" class="md-nav__link">
-    0.4 — The Money Release
+  <a href="#04-the-bridge-release" title="0.4 — The Bridge Release" class="md-nav__link">
+    0.4 — The Bridge Release
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#05-the-modular-release" title="0.5 — The Modular Release" class="md-nav__link">
-    0.5 — The Modular Release
+  <a href="#05-the-refactor-release" title="0.5 — The Refactor Release" class="md-nav__link">
+    0.5 — The Refactor Release
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#06-the-upgradeable-release" title="0.6 — The Upgradeable Release" class="md-nav__link">
-    0.6 — The Upgradeable Release
+  <a href="#06-the-sweet-release" title="0.6 — The Sweet Release" class="md-nav__link">
+    0.6 — The Sweet Release
   </a>
   
 </li>
@@ -1252,7 +1252,7 @@
                 <p><center>
 <img src="../../images/logo_text_under_dark.png"></p>
 <h1 id="development-plan">Development Plan</h1>
-<p>version 1.0</p>
+<p>version 1.2</p>
 <p><img src="../../images/development_plan/01.png">
 </center></p>
 <h2 id="introduction"><strong>Introduction</strong></h2>
@@ -1375,12 +1375,12 @@ for using it with Ethereum browsers/clients like Mist, Parity, MetaMask, Status 
 <ul>
 <li><strong>Alpha</strong>: April 2017</li>
 </ul>
-<h3 id="04-the-money-release">0.4 — The Money Release</h3>
+<h3 id="04-the-bridge-release">0.4 — The Bridge Release</h3>
 <p>This release will focus on adding:</p>
 <p><strong>Economic abstraction</strong></p>
 <p>Companies will be able to hold and interact with any standard value-holding token</p>
 <p><strong>Improved budgeting and accounting</strong></p>
-<p>Organizations will be in itself the organization's bank account.</p>
+<p>Organizations will be in itself the organization's <em>bank account</em>.</p>
 <p><strong>Dividends</strong></p>
 <p>Dividend sharing with shareholders, if desired.</p>
 <p><strong>Fundraising tokens</strong></p>
@@ -1393,46 +1393,61 @@ maintaining its access to the funds.</p>
 <hr />
 <p><h3>Release Calendar</h3></p>
 <ul>
-<li><strong>Alpha</strong>: June 2017</li>
-<li><strong>Bug bounty (mainnet)</strong>: From July to September 2017</li>
-<li><strong>Private Beta (mainnet)</strong>: October 2017</li>
+<li><strong>Alpha</strong>: July 2017</li>
 </ul>
-<p>This will be the first release that gets deployed to the mainnet.</p>
-<p>After 3 months of public bug bounties in the mainnet, we will start allowing the first
-companies to be created using Aragon in the mainnet. </p>
-<h3 id="05-the-modular-release">0.5 — The Modular Release</h3>
+<p>This will be a development version only focusing on smart contracts, iterating between
+different models for upgradeability, extensibility and security. </p>
+<h3 id="05-the-refactor-release">0.5 — The Refactor Release</h3>
 <p><center>
-<img src="../../images/development_plan/09.png">
-<em>Blockchain projects that have already manifested interest</em>
+<img src="../../images/development_plan/05_release.png">
 </center></p>
-<p>This release will focus on adding:</p>
-<p><strong>Organization-wide encrypted datastores</strong></p>
-<p>Using a connector for IPFS/Swarm, we will provide a second layer that will give storage
-capabilities to the dapp. This way, new features and UX sugar will be able to be added to the
-organizations. Example: setting a company’s logo, or implementing an organization-wide
-identity system, instead of public ones.</p>
+<p>This release will consist of a total refactor, and will focus on adding:</p>
+<p><strong>Organization-wide identity</strong></p>
+<p>Entities in organizations will be able to register their own usernames in the organization,
+and also provide offchain metadata for displaying purposes in the UI.</p>
+<p><strong>Full upgradeability</strong></p>
+<p>Organizations that will be able to run as long as the Ethereum blockchain runs. No matter if
+big chunks of functionality are swapped.</p>
+<p><strong>Totally new permission system</strong></p>
+<p>Extensible permission system to allow any entity to interact with another one using an ACL
+(Access Control List) that the kernel controls and maintains.</p>
+<p><strong>Switch to an exokernel architecture</strong></p>
+<p>By making the kernel a very simple contract that just keeps the ACL and keep references to
+the installed apps, we can make it more secure and reduce the lines of code and complexity
+in apps, since there can be multiple instances of an app, also making upgradeability easier.</p>
 <p><strong>Front-end modules API</strong></p>
-<p>This will let developers build modules for Aragon that extend its functionality.</p>
+<p>This will let developers build modules for Aragon that extend its functionality.
+We will provide an API for developers to access functionality from the Aragon client, and a UI
+toolkit for them to adhere to our styling and UX patterns.</p>
 <p><strong>Core modules API</strong></p>
 <p>The API will let the developer trigger actions inside the organization itself, and access more
 low-level capabilities.</p>
-<p><strong>Module developer incentives plan</strong></p>
-<p>We will provide a module store and incorporate an incentives system for developers to be
-rewarded.</p>
+<p><img src="../../images/development_plan/09.png">
+<em>Blockchain projects that have already manifested interest</em>
+</center></p>
 <hr />
 <p><h3>Release Calendar</h3></p>
 <ul>
-<li><strong>Alpha</strong>: September 2017</li>
-<li><strong>Private Beta (mainnet)</strong>: December 2017 </li>
+<li><strong>Alpha</strong>: October 2017</li>
+<li><strong>Bug bounty (mainnet)</strong>: From October 2017 to January 2018</li>
+<li><strong>Private Beta (mainnet)</strong>: January 2018</li>
 </ul>
-<h3 id="06-the-upgradeable-release">0.6 — The Upgradeable Release</h3>
+<p>This will be the first release that gets deployed to the mainnet.
+After 3 months of public bug bounties in the mainnet, we will start allowing the first
+companies to be created using Aragon in the mainnet.</p>
+<h3 id="06-the-sweet-release">0.6 — The Sweet Release</h3>
 <p><center>
 <img src="../../images/development_plan/10.png">
 </center></p>
 <p>This release will focus on adding:</p>
-<p><strong>Full upgradeability</strong></p>
-<p>Organizations that will be able to run as long as the Ethereum blockchain runs. No matter if
-big chunks of functionality are swapped.</p>
+<p><strong>Organization-wide datastores</strong></p>
+<p>Using a connector for IPFS/Swarm and the Aragon Versioning Protocol, we will provide a
+second layer that will give storage capabilities to the dapp. This way, new features and UX
+sugar will be able to be added to the organizations. Example: setting a company’s logo, or
+implementing an organization-wide identity system, instead of public ones.</p>
+<p><strong>Module developer incentives plan</strong></p>
+<p>We will provide a module store and incorporate an incentives system for developers to be
+rewarded.</p>
 <p><strong>Different upgrade tracks</strong></p>
 <p>We will provide different upgrade options.  This is what we are targeting:</p>
 <ul>
@@ -1443,9 +1458,9 @@ big chunks of functionality are swapped.</p>
 <hr />
 <p><h3>Release Calendar</h3></p>
 <ul>
-<li><strong>Alpha</strong>: December 2017</li>
-<li><strong>Bug bounty (mainnet)</strong>: January 2018</li>
-<li><strong>Private Beta (mainnet)</strong>: February 2018 </li>
+<li><strong>Alpha</strong>: January 2018</li>
+<li><strong>Bug bounty (mainnet)</strong>: February 2018</li>
+<li><strong>Private Beta (mainnet)</strong>: March 2018</li>
 </ul>
 <h3 id="07-the-network-release">0.7 — The Network Release</h3>
 <p><center>
