@@ -29,6 +29,7 @@
 - [Frontend and web3 Developer](openings/frontend.md)
 - [Community Lead](openings/community.md)
 - [Product Manager](openings/product_manager.md)
+- [Design Lead](openings/design.md)
 
 
 ## Applying 📝
