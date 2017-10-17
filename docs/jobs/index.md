@@ -1,7 +1,4 @@
-# Aragon Job Openings <img align="right" src="../images/logo.png" height="80px" />
-
-[![Slack](https://aragon.chat/badge.svg)](https://aragon.chat)
-
+# Job Openings
 
 ## Culture 🌍
 
