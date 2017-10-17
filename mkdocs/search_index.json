@@ -867,13 +867,23 @@
         },
         {
             "location": "/design/",
-            "text": "Branding\n\n\n\n\nBranding Proposal\n includes the thought process behind the branding\n\n\nIdentity Guidelines\n includes information about the brand colors, the structure etc.\n\n\n\n\nAragon dapp 0.5\n\n\n\n\n\n\nLogo\n has multiple versions of the logo in SVG, PNG and JPG formats (TO DO)\n\n\n\n\nArtwork\n has multiple resources, from \nPowered by Aragon\n icons to graphic resources to be used in blog posts etc. (TO DO)",
-            "title": "Design"
+            "text": "Branding\n\n\n\n\nBranding Proposal\n includes the thought process behind the branding\n\n\nIdentity Guidelines\n includes information about the brand colors, the structure etc.\n\n\n\n\nAragon dapp 0.5\n\n\n\n\n\n\nLogo\n has multiple versions of the logo in SVG, PNG and JPG formats (TO DO)\n\n\n\n\nArtwork\n has multiple resources, from \nPowered by Aragon\n icons to graphic resources to be used in blog posts etc. (TO DO)\n\n\nMerch\n has T-shirt designs",
+            "title": "Home"
         },
         {
             "location": "/design/#branding",
-            "text": "Branding Proposal  includes the thought process behind the branding  Identity Guidelines  includes information about the brand colors, the structure etc.   Aragon dapp 0.5    Logo  has multiple versions of the logo in SVG, PNG and JPG formats (TO DO)   Artwork  has multiple resources, from  Powered by Aragon  icons to graphic resources to be used in blog posts etc. (TO DO)",
+            "text": "Branding Proposal  includes the thought process behind the branding  Identity Guidelines  includes information about the brand colors, the structure etc.   Aragon dapp 0.5    Logo  has multiple versions of the logo in SVG, PNG and JPG formats (TO DO)   Artwork  has multiple resources, from  Powered by Aragon  icons to graphic resources to be used in blog posts etc. (TO DO)  Merch  has T-shirt designs",
             "title": "Branding"
+        },
+        {
+            "location": "/design/merch/",
+            "text": "Merch design\n\n\n\n\n\n\nDomain\n\n\nEagle\n\n\nSlogan\n\n\nT-shirt Sketch file",
+            "title": "Merch"
+        },
+        {
+            "location": "/design/merch/#merch-design",
+            "text": "Domain  Eagle  Slogan  T-shirt Sketch file",
+            "title": "Merch design"
         },
         {
             "location": "/meetings/hq/02/",
@@ -1117,13 +1127,13 @@
         },
         {
             "location": "/jobs/",
-            "text": "Aragon Job Openings \n\n\n\n\nCulture \ud83c\udf0d\n\n\n\n\nWe are a \nfully distributed\n company \u2013 we don't think talent is geographically centralized. We do offsites regularly for the team to meet and work together for a week.\n\n\nWe empower \ndeep work\n sessions, minimizing bureaucracy and leaving Monday for all meetings and internal calls.\n\n\nWe encourage team members to spend a substantial part of their paid work time on unrelated blockchain open source projects to speed up the development of the ecosystem.\n\n\nWe are \nopen source only\n.\n\n\nWe are a technology company. Our focus is \nproduct first\n.\n\n\n\n\nWork conditions \ud83d\ude80\n\n\n\n\nFull time\n commitment. Side projects and open source are accepted (and encouraged).\n\n\nCompletely \nremote\n position, no relocation required.\n\n\nVery competitive compensation.\n\n\nYou decide \nhow to allocate your salary in fiat, ETH or ANT\n.\n\n\nYearly bonus in ANT based on performance.\n\n\nWe empower autonomous workers with a proactive attitude and a love for time self-management.\n\n\n\n\nOpenings \ud83d\ude4b\ud83c\udffe\ud83d\ude4b\u200d\u2642\ufe0f\n\n\n\n\nOperations/Executive Assistant\n\n\nEVM/Solidity Engineer\n\n\nFrontend and web3 Developer\n\n\nCommunity Lead\n\n\nProduct Manager\n\n\nDesign Lead\n\n\n\n\nApplying \ud83d\udcdd\n\n\n\n\n\n\nWrite an email with any info you consider relevant to \ncontact@aragon.one\n, with the subject \n${insert_position_here} opening application\n.\n\n\n\n\n\n\nThe generic things we are looking for in the application are:\n\n\n\n\n\n\nA couple paragraphs explaining with your involvement and experience in the crypto community.\n\n\n\n\n\n\nAll the references to your past work\n\n\n\n\nGitHub for developers. Since we are open source only, we require applicants for developer positions to have a very active and healthy GitHub profile.\n\n\nDribbble/Behance/portfolio for designers\n\n\nCV/LinkedIn for other positions\n\n\n\n\n\n\n\n\nWe really value people that have previously \ncontributed to the project\n in a voluntary manner, or that are \ncommunity members\n.\n\n\n\n\nWe value what you can do and your attitude doing it, not where/whether you went to school or college.\n\n\n\n\nMore specific instructions for each position can be found in the openings.",
+            "text": "Job Openings\n\n\nCulture \ud83c\udf0d\n\n\n\n\nWe are a \nfully distributed\n company \u2013 we don't think talent is geographically centralized. We do offsites regularly for the team to meet and work together for a week.\n\n\nWe empower \ndeep work\n sessions, minimizing bureaucracy and leaving Monday for all meetings and internal calls.\n\n\nWe encourage team members to spend a substantial part of their paid work time on unrelated blockchain open source projects to speed up the development of the ecosystem.\n\n\nWe are \nopen source only\n.\n\n\nWe are a technology company. Our focus is \nproduct first\n.\n\n\n\n\nWork conditions \ud83d\ude80\n\n\n\n\nFull time\n commitment. Side projects and open source are accepted (and encouraged).\n\n\nCompletely \nremote\n position, no relocation required.\n\n\nVery competitive compensation.\n\n\nYou decide \nhow to allocate your salary in fiat, ETH or ANT\n.\n\n\nYearly bonus in ANT based on performance.\n\n\nWe empower autonomous workers with a proactive attitude and a love for time self-management.\n\n\n\n\nOpenings \ud83d\ude4b\ud83c\udffe\ud83d\ude4b\u200d\u2642\ufe0f\n\n\n\n\nOperations/Executive Assistant\n\n\nEVM/Solidity Engineer\n\n\nFrontend and web3 Developer\n\n\nCommunity Lead\n\n\nProduct Manager\n\n\nDesign Lead\n\n\n\n\nApplying \ud83d\udcdd\n\n\n\n\n\n\nWrite an email with any info you consider relevant to \ncontact@aragon.one\n, with the subject \n${insert_position_here} opening application\n.\n\n\n\n\n\n\nThe generic things we are looking for in the application are:\n\n\n\n\n\n\nA couple paragraphs explaining with your involvement and experience in the crypto community.\n\n\n\n\n\n\nAll the references to your past work\n\n\n\n\nGitHub for developers. Since we are open source only, we require applicants for developer positions to have a very active and healthy GitHub profile.\n\n\nDribbble/Behance/portfolio for designers\n\n\nCV/LinkedIn for other positions\n\n\n\n\n\n\n\n\nWe really value people that have previously \ncontributed to the project\n in a voluntary manner, or that are \ncommunity members\n.\n\n\n\n\nWe value what you can do and your attitude doing it, not where/whether you went to school or college.\n\n\n\n\nMore specific instructions for each position can be found in the openings.",
             "title": "Overview"
         },
         {
-            "location": "/jobs/#aragon-job-openings",
+            "location": "/jobs/#job-openings",
             "text": "",
-            "title": "Aragon Job Openings "
+            "title": "Job Openings"
         },
         {
             "location": "/jobs/#culture",

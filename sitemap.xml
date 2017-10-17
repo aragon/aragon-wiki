@@ -50,11 +50,19 @@
     
 
     
+        
     <url>
      <loc>https://wiki.aragon.one/design/</loc>
      <lastmod>2017-10-17</lastmod>
      <changefreq>daily</changefreq>
     </url>
+        
+    <url>
+     <loc>https://wiki.aragon.one/design/merch/</loc>
+     <lastmod>2017-10-17</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
     
 
     
