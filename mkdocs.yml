@@ -51,11 +51,7 @@ pages:
       - Community: 'documentation/multisigs/community.md'
     - Development Plan: 'documentation/Development_Plan.md'
     - Aragon Code of Conduct: 'documentation/Code_of_Conduct.md'
-  - Design:
-    - Brand:
-      - Branding Proposal: 'design/Branding_Proposal.pdf'
-      - Identity Guidelines: 'design/Identity_Guidelines.pdf'
-    - aragon-dapp: 'https://scene.zeplin.io/project/59a827960d4c4cb2274007f5'
+  - Design: 'documentation/design/index.md'
   - Meetings:
     - Aragon HQ:
       - HQ 02: 'meetings/hq/02.md'
