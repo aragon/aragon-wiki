@@ -866,6 +866,16 @@
             "title": "Attribution"
         },
         {
+            "location": "/design/",
+            "text": "Branding\n\n\n\n\nBranding Proposal\n includes the thought process behind the branding\n\n\nIdentity Guidelines\n includes information about the brand colors, the structure etc.\n\n\n\n\nAragon dapp 0.5\n\n\n\n\n\n\nLogo\n has multiple versions of the logo in SVG, PNG and JPG formats (TO DO)\n\n\n\n\nArtwork\n has multiple resources, from \nPowered by Aragon\n icons to graphic resources to be used in blog posts etc. (TO DO)",
+            "title": "Design"
+        },
+        {
+            "location": "/design/#branding",
+            "text": "Branding Proposal  includes the thought process behind the branding  Identity Guidelines  includes information about the brand colors, the structure etc.   Aragon dapp 0.5    Logo  has multiple versions of the logo in SVG, PNG and JPG formats (TO DO)   Artwork  has multiple resources, from  Powered by Aragon  icons to graphic resources to be used in blog posts etc. (TO DO)",
+            "title": "Branding"
+        },
+        {
             "location": "/meetings/hq/02/",
             "text": "Aragon HQ Meeting 02\n\n\nMeeting Date: October 6th, 4pm CEST\n\n\nMeeting video\n\n\nParticipants\n\n\n\n\n@luisivan\n\n\n@Smokyish\n\n\n@izqui\n\n\n@onbjerg\n\n\n\n\nAgenda\n\n\n\n\nDiscussion about the state of Aragon, near future plans and decisions that need to be made. 10 min presentations with slides from team members, in which each one will run through the most important things we have done during the month, the problems they have found, and what they plan to do next month (that can be a bit blurry, and that's fine)",
             "title": "HQ 02"
