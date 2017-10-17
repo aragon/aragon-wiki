@@ -51,7 +51,7 @@ pages:
       - Community: 'documentation/multisigs/community.md'
     - Development Plan: 'documentation/Development_Plan.md'
     - Aragon Code of Conduct: 'documentation/Code_of_Conduct.md'
-  - Design: 'documentation/design/index.md'
+  - Design: 'design/index.md'
   - Meetings:
     - Aragon HQ:
       - HQ 02: 'meetings/hq/02.md'
