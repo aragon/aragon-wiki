@@ -8,4 +8,5 @@ To deploy changes in the wiki to web:
 
 - Install [MkDocs](http://www.mkdocs.org/)
 - Push changes to `master` branch
+- `pip install mkdocs-material`
 - In the `aragon-wiki` directory, run `mkdocs gh-deploy`
