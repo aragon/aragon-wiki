@@ -867,13 +867,68 @@
         },
         {
             "location": "/design/",
-            "text": "Branding\n\n\n\n\nBranding Proposal\n includes the thought process behind the branding\n\n\nIdentity Guidelines\n includes information about the brand colors, the structure etc.\n\n\n\n\nAragon dapp 0.5\n\n\n\n\n\n\nLogo\n has multiple versions of the logo in SVG, PNG and JPG formats (TO DO)\n\n\n\n\nArtwork\n has multiple resources, from \nPowered by Aragon\n icons to graphic resources to be used in blog posts etc. (TO DO)\n\n\nMerch\n has T-shirt designs",
+            "text": "Branding\n\n\n\n\nBranding Proposal\n includes the thought process behind the branding\n\n\nIdentity Guidelines\n includes information about the brand colors, the structure etc.\n\n\nAragon dapp 0.5\n\n\nLogo\n has multiple versions of the logo in SVG, PNG and JPG formats (TO DO)\n\n\nArtwork\n has multiple resources, from \nPowered by Aragon\n icons to graphic resources to be used in blog posts etc. (TO DO)\n\n\nMerch\n has T-shirt designs",
             "title": "Home"
         },
         {
             "location": "/design/#branding",
-            "text": "Branding Proposal  includes the thought process behind the branding  Identity Guidelines  includes information about the brand colors, the structure etc.   Aragon dapp 0.5    Logo  has multiple versions of the logo in SVG, PNG and JPG formats (TO DO)   Artwork  has multiple resources, from  Powered by Aragon  icons to graphic resources to be used in blog posts etc. (TO DO)  Merch  has T-shirt designs",
+            "text": "Branding Proposal  includes the thought process behind the branding  Identity Guidelines  includes information about the brand colors, the structure etc.  Aragon dapp 0.5  Logo  has multiple versions of the logo in SVG, PNG and JPG formats (TO DO)  Artwork  has multiple resources, from  Powered by Aragon  icons to graphic resources to be used in blog posts etc. (TO DO)  Merch  has T-shirt designs",
             "title": "Branding"
+        },
+        {
+            "location": "/design/logo/",
+            "text": "Logo\n\n\nBrand in Sketch format\n\n\nImagetypes\n\n\nHorizontal\n\n\nSVG\n | \nPNG\n | \nLight text SVG\n | \nLight text PNG\n | \nDark background JPG\n\n\n \n\n\nVertical\n\n\nPNG\n | \nLight text PNG\n | \nDark background JPG\n\n\n \n\n\nLogotypes\n\n\nDefault\n\n\nSVG\n | \nPNG\n | \nLight version SVG\n | \nLight version PNG\n | \nDark background JPG\n\n\n \n\n\nIsotypes\n\n\nStroke\n\n\nSketch\n | \nPNG\n\n\n\n\nDefault\n\n\nSVG\n | \nPNG",
+            "title": "Logo"
+        },
+        {
+            "location": "/design/logo/#logo",
+            "text": "",
+            "title": "Logo"
+        },
+        {
+            "location": "/design/logo/#brand-in-sketch-format",
+            "text": "",
+            "title": "Brand in Sketch format"
+        },
+        {
+            "location": "/design/logo/#imagetypes",
+            "text": "",
+            "title": "Imagetypes"
+        },
+        {
+            "location": "/design/logo/#horizontal",
+            "text": "SVG  |  PNG  |  Light text SVG  |  Light text PNG  |  Dark background JPG",
+            "title": "Horizontal"
+        },
+        {
+            "location": "/design/logo/#vertical",
+            "text": "PNG  |  Light text PNG  |  Dark background JPG",
+            "title": "Vertical"
+        },
+        {
+            "location": "/design/logo/#logotypes",
+            "text": "",
+            "title": "Logotypes"
+        },
+        {
+            "location": "/design/logo/#default",
+            "text": "SVG  |  PNG  |  Light version SVG  |  Light version PNG  |  Dark background JPG",
+            "title": "Default"
+        },
+        {
+            "location": "/design/logo/#isotypes",
+            "text": "",
+            "title": "Isotypes"
+        },
+        {
+            "location": "/design/logo/#stroke",
+            "text": "Sketch  |  PNG",
+            "title": "Stroke"
+        },
+        {
+            "location": "/design/logo/#default_1",
+            "text": "SVG  |  PNG",
+            "title": "Default"
         },
         {
             "location": "/design/merch/",
