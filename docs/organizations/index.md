@@ -1,6 +1,6 @@
 ## Real-World Decentralized Organizations
 
-This is a list of successful decentralized and self-organized organizations, pre-blockchain.
+This is a list of successful decentralized and self-organized organizations (pre-blockchain).
 
 - [FAVI](http://www.favi.com/en/)
 - [Morning Star](http://www.morningstarco.com)

@@ -1,4 +1,4 @@
-## Third-party Projects
+## Third-Party Projects
 
 This is list of existing projects that are "Powered by Aragon":
 
