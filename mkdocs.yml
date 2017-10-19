@@ -85,3 +85,7 @@ pages:
       - Community: 'videos/community.md'
       - Dev: 'videos/dev.md'
     - Interviews: 'videos/interviews.md'
+  - Projects:
+    - Projects using Aragon: 'projects/index.md'
+  - Organizations:
+    - Decentralized Organizations: 'organizations/index.md'
