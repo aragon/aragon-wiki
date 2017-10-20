@@ -1,4 +1,4 @@
-All contributions and activity in the repo is bound to the [Aragon Code of Conduct](../Code_of_Conduct.md). Please be nice to everyone!
+All contributions and activity in the repo is bound to the [Aragon Code of Conduct](/documentation/Code_of_Conduct.md). Please be nice to everyone!
 
 Steps:
 

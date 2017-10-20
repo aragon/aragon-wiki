@@ -31,18 +31,6 @@ extra:
 pages:
   - Home: 'index.md'
   - Documentation:
-    - AragonOS: 'documentation/AragonOS_document.md'
-    - aragon-core:
-      - Home:  'documentation/dev/aragon-core_home.md'
-      - Apps:
-        - Home: 'documentation/dev/apps/index.md'
-        - Voting: 'documentation/dev/apps/voting.md'
-        - Token Manager: 'documentation/dev/apps/token-manager.md'
-        - Group: 'documentation/dev/apps/group.md'
-        - Fundraising: 'documentation/dev/apps/fundraising.md'
-        - Vault: 'documentation/dev/apps/vault.md'
-        - Finance: 'documentation/dev/apps/finance.md'
-      - How to contribute: 'documentation/dev/aragon-core_how_to_contribute.md'
     - Governance:
       - Community Governance Model: 'documentation/Community_Governance_Model.md'
     - Multisigs:
@@ -51,6 +39,21 @@ pages:
       - Community: 'documentation/multisigs/community.md'
     - Development Plan: 'documentation/Development_Plan.md'
     - Aragon Code of Conduct: 'documentation/Code_of_Conduct.md'
+  - Development:
+    - Home: 'dev/index.md'
+    - AragonOS: 'dev/AragonOS_document.md'
+    - aragon-core:
+      - Home: 'dev/aragon-core_home.md'
+      - Apps:
+        - Home: 'dev/apps/index.md'
+        - Voting: 'dev/apps/voting.md'
+        - Token Manager: 'dev/apps/token-manager.md'
+        - Group: 'dev/apps/group.md'
+        - Fundraising: 'dev/apps/fundraising.md'
+        - Vault: 'dev/apps/vault.md'
+        - Finance: 'dev/apps/finance.md'
+      - How to contribute: 'dev/aragon-core_how_to_contribute.md'
+
   - Design:
     - Home: 'design/index.md'
     - Logo: 'design/logo/index.md'
