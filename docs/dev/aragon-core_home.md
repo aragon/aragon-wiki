@@ -4,7 +4,7 @@
 
 Documentation for the different parts of aragon-core can be found in this wiki:
 
-- **Kernel**: the initial part of the [AragonOS document](../AragonOS_document/#1-kernel-and-the-access-control-list) goes in-depth on how the Kernel works.
+- **Kernel**: the initial part of the [AragonOS document](../AragonOS/#1-kernel-and-the-access-control-list) goes in-depth on how the Kernel works.
 - **Apps**: this [section of the wiki](./apps) contains all the documentation for the default aragon-core apps.
 
 The project structure is as follows:
