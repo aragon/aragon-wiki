@@ -35,13 +35,6 @@ Here's a brief summary of the contents:
 
     - Links to all our videos
 
-- Projects
-
-    - Existing projects that are using Aragon
-
-- Organizations
-
-    - A list of real-world decentralized organizations
 
 ## What is Aragon?
 
