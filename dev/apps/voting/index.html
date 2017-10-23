@@ -395,7 +395,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../../AragonOS_document/" title="AragonOS" class="md-nav__link">
+    <a href="../../AragonOS/" title="AragonOS" class="md-nav__link">
       AragonOS
     </a>
   </li>
@@ -1287,10 +1287,10 @@
 
 <p>A new vote is initialized with:</p>
 <ul>
-<li>Execution script: <a href="../../../AragonOS_document/#evm-call-script">EVM call script</a> to be executed on vote approval, contains a series of addresses and calldata payloads that will be executed.</li>
+<li>Execution script: <a href="../../../AragonOS/#evm-call-script">EVM call script</a> to be executed on vote approval, contains a series of addresses and calldata payloads that will be executed.</li>
 <li>Metadata: An arbitrary string that can be used to describe the voting.</li>
 </ul>
-<p>Voting conforms to the <a href="../../../AragonOS_document/#forwarders">AragonOS Forwarder interface</a>. A generic forward action will create a vote with the provided execution script and empty metadata.</p>
+<p>Voting conforms to the <a href="../../../AragonOS/#forwarders">AragonOS Forwarder interface</a>. A generic forward action will create a vote with the provided execution script and empty metadata.</p>
 <p>When a vote is created a reference to the previous block number is saved as the snapshot block for the vote. The reason the previous block number is used is to avoid double voting in the same block the vote is created. Whenever a vote is casted, the MiniMeToken associated with the app is checked for the token balance of the voter at the snapshot block.</p>
 <h4 id="casting-votes">Casting votes</h4>
 <pre><code>votingApp.vote(uint256 _votingId, bool _supports)
@@ -1320,7 +1320,7 @@
 <p>At any time, the minimum acceptance quorum for the new votes can be modified.</p>
 <p>Any open votes will maintain the value minimum acceptance quorum was when they were created.</p>
 <h4 id="forwarding">Forwarding</h4>
-<p><a href="../../../AragonOS_document/#forwarders">Forwarding</a> using the common interface executes a <code>votingApp.newVote(...)</code> action. ACL is checked for whether the sender has permissions to create a vote.</p>
+<p><a href="../../../AragonOS/#forwarders">Forwarding</a> using the common interface executes a <code>votingApp.newVote(...)</code> action. ACL is checked for whether the sender has permissions to create a vote.</p>
                 
                   
                 
