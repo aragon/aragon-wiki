@@ -63,7 +63,7 @@ In order for an Entity _A_ to be able to `grantPermission` that **allows** Entit
 
   1. Entity _A_ must already have permission _P_ to perform role _X_ actions.
   2. Entity _A_ must be it’s own permission parent _Pa_ for permission _P_.
-  3. Entity _B_ does not have any permission to perform role _X_ actions (avoids being able to takeover as parent).
+  3. Entity _B_ does have permission to perform actions of role _X_ (avoids Entity _A_ being able to takeover as parent by Entity _B_).
 
   When setting a Permission _P_, the one granting the permission can specify the Entity that will be the parent for _P_:
 
@@ -95,7 +95,7 @@ kernel.createPermission(address entity, address app, bytes32 role, address paren
 
 This call is mostly identical to `grantPermission`, with the exception that it allows the creation of a new permission from scratch if it doesn’t yet exist.
 
-The `createPermission` action needs to be protected by the ACL with a role. It is an important function that could be used in malicious ways. When the Kernel is instantiated, it will also create the permission for an address to create new permissions.
+The `createPermission` action needs to be protected by the ACL with a role. It is an important function that could be used in malicious ways. When the Kernel is initialized, it creates the permission for an address to create new permissions.
 
 If the ACL is checked for a permission that hasn’t been created yet, the ACL won’t allow the action to be performed by default.
 
@@ -110,18 +110,18 @@ PermissionSet(address from, bytes32 role, address to, address parent, bool allow
 As an example, the following shows a complete flow for user Root to create a new DAO that has the basic permissions set so a Voting app could manage funds in a Vault app:
 
 1. Deploy the Kernel
-2. Performing `kernel.instantiate(rootAddress)` creates the following permission under the hood:  
-`createPermission(rootAddress, PERMISSIONS_CREATOR_ROLE, kernelAddress, rootAddress)`
+2. Performing `kernel.initialize(rootAddress)` creates the following permission under the hood:  
+`createPermission(rootAddress, kernelAddress, PERMISSIONS_CREATOR_ROLE, rootAddress)`
 3. Deploy the Voting app
 4. Make it so that the Voting app can call `createPermission`:  
-`createPermission(votingAppAddress, PERMISSIONS_CREATOR_ROLE, kernelAddress, votingAppAddress)`
+`grantPermission(votingAppAddress, PERMISSIONS_CREATOR_ROLE, kernelAddress, votingAppAddress)` (has to be executed by `rootAddress`)
 5. Deploy the Vault app, which has a signature called `transferTokens`
 6. Create a new vote to create the `TRANSFER_TOKENS_ROLE` permission  
-`createPermission(votingAppAddress, TRANSFER_TOKENS_ROLE, vaultAppAddress, votingAppAddress)`
+`createPermission(votingAppAddress, vaultAppAddress, TRANSFER_TOKENS_ROLE, votingAppAddress)`
 7. If vote passes, the Voting app can then call `TRANSFER_TOKENS_ROLE` actions, which in this case is just `transferTokens` in the Vault
 8. Votes can be created to transfer funds
 
-An initial implementation of the explained ACL can be found in [aragon-core’s Kernel](https://github.com/aragon/aragon-core/blob/dev/contracts/kernel/Kernel.sol) file.
+An implementation of the explained ACL can be found in [aragon-core’s Kernel](https://github.com/aragon/aragon-core/blob/dev/contracts/kernel/Kernel.sol) file.
 
 #### Checking Permissions
 
