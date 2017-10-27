@@ -1477,7 +1477,7 @@ bytes32 constant public MINT_ROLE = 0x1234;
 <ol>
 <li>Entity <em>A</em> must already have permission <em>P</em> to perform role <em>X</em> actions.</li>
 <li>Entity <em>A</em> must be it’s own permission parent <em>Pa</em> for permission <em>P</em>.</li>
-<li>Entity <em>B</em> does not have any permission to perform role <em>X</em> actions (avoids being able to takeover as parent).</li>
+<li>Entity <em>B</em> does have permission to perform actions of role <em>X</em> (avoids Entity <em>A</em> being able to takeover as parent by Entity <em>B</em>).</li>
 </ol>
 <p>When setting a Permission <em>P</em>, the one granting the permission can specify the Entity that will be the parent for <em>P</em>:</p>
 <ul>
@@ -1499,7 +1499,7 @@ bytes32 constant public MINT_ROLE = 0x1234;
 
 <p><code>createPermission</code> will fail if there is already an entity with that permission. For this to happen, the ACL keeps track of the number of entities that have been granted a certain permission. If the counter for a permission is 0, <code>createPermission</code> will succeed.</p>
 <p>This call is mostly identical to <code>grantPermission</code>, with the exception that it allows the creation of a new permission from scratch if it doesn’t yet exist.</p>
-<p>The <code>createPermission</code> action needs to be protected by the ACL with a role. It is an important function that could be used in malicious ways. When the Kernel is instantiated, it will also create the permission for an address to create new permissions.</p>
+<p>The <code>createPermission</code> action needs to be protected by the ACL with a role. It is an important function that could be used in malicious ways. When the Kernel is initialized, it creates the permission for an address to create new permissions.</p>
 <p>If the ACL is checked for a permission that hasn’t been created yet, the ACL won’t allow the action to be performed by default.</p>
 <p><code>createPermission</code>, <code>grantPermission</code> and <code>revokePermission</code> fire the same event that Aragon clients must cache and use to build a locally stored version of the ACL.</p>
 <pre><code>PermissionSet(address from, bytes32 role, address to, address parent, bool allowed)
@@ -1509,18 +1509,18 @@ bytes32 constant public MINT_ROLE = 0x1234;
 <p>As an example, the following shows a complete flow for user Root to create a new DAO that has the basic permissions set so a Voting app could manage funds in a Vault app:</p>
 <ol>
 <li>Deploy the Kernel</li>
-<li>Performing <code>kernel.instantiate(rootAddress)</code> creates the following permission under the hood:<br />
-<code>createPermission(rootAddress, PERMISSIONS_CREATOR_ROLE, kernelAddress, rootAddress)</code></li>
+<li>Performing <code>kernel.initialize(rootAddress)</code> creates the following permission under the hood:<br />
+<code>createPermission(rootAddress, kernelAddress, PERMISSIONS_CREATOR_ROLE, rootAddress)</code></li>
 <li>Deploy the Voting app</li>
 <li>Make it so that the Voting app can call <code>createPermission</code>:<br />
-<code>createPermission(votingAppAddress, PERMISSIONS_CREATOR_ROLE, kernelAddress, votingAppAddress)</code></li>
+<code>grantPermission(votingAppAddress, PERMISSIONS_CREATOR_ROLE, kernelAddress, votingAppAddress)</code> (has to be executed by <code>rootAddress</code>)</li>
 <li>Deploy the Vault app, which has a signature called <code>transferTokens</code></li>
 <li>Create a new vote to create the <code>TRANSFER_TOKENS_ROLE</code> permission<br />
-<code>createPermission(votingAppAddress, TRANSFER_TOKENS_ROLE, vaultAppAddress, votingAppAddress)</code></li>
+<code>createPermission(votingAppAddress, vaultAppAddress, TRANSFER_TOKENS_ROLE, votingAppAddress)</code></li>
 <li>If vote passes, the Voting app can then call <code>TRANSFER_TOKENS_ROLE</code> actions, which in this case is just <code>transferTokens</code> in the Vault</li>
 <li>Votes can be created to transfer funds</li>
 </ol>
-<p>An initial implementation of the explained ACL can be found in <a href="https://github.com/aragon/aragon-core/blob/dev/contracts/kernel/Kernel.sol">aragon-core’s Kernel</a> file.</p>
+<p>An implementation of the explained ACL can be found in <a href="https://github.com/aragon/aragon-core/blob/dev/contracts/kernel/Kernel.sol">aragon-core’s Kernel</a> file.</p>
 <h4 id="checking-permissions">Checking Permissions</h4>
 <p>Apps can decide whether to protect actions behind the ACL or not, as for some actions it makes sense to have them completely public. Protecting an action behind the ACL is done simply by adding the authentication modifier which passes the role required for performing the action as a parameter. The auth modifier will check with the Kernel whether the entity performing the call has that role or not.</p>
 <h4 id="escalating-permissions">Escalating Permissions</h4>
