@@ -21,7 +21,7 @@
 
 ## Openings 🙋🏾🙋‍♂️
 
-- [Operations/Executive Assistant](openings/exec_assistant.md)
+- [Operations Assistant](openings/ops.md)
 - [EVM/Solidity Engineer](openings/solidity.md)
 - [Frontend and web3 Developer](openings/frontend.md)
 - [Community Lead](openings/community.md)

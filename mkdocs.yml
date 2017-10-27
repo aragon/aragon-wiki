@@ -73,7 +73,7 @@ pages:
   - Jobs:
     - Overview: 'jobs/index.md'
     - Openings:
-      - Operations/Executive Assistant: 'jobs/openings/exec_assistant.md'
+      - Operations Assistant: 'jobs/openings/ops.md'
       - EVM/Solidity Engineer: 'jobs/openings/solidity.md'
       - Frontend and web3 Developer: 'jobs/openings/frontend.md'
       - Community Lead: 'jobs/openings/community.md'
