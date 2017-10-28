@@ -31,18 +31,6 @@ extra:
 pages:
   - Home: 'index.md'
   - Documentation:
-    - AragonOS: 'documentation/AragonOS_document.md'
-    - aragon-core:
-      - Home:  'documentation/dev/aragon-core_home.md'
-      - Apps:
-        - Home: 'documentation/dev/apps/index.md'
-        - Voting: 'documentation/dev/apps/voting.md'
-        - Token Manager: 'documentation/dev/apps/token-manager.md'
-        - Group: 'documentation/dev/apps/group.md'
-        - Fundraising: 'documentation/dev/apps/fundraising.md'
-        - Vault: 'documentation/dev/apps/vault.md'
-        - Finance: 'documentation/dev/apps/finance.md'
-      - How to contribute: 'documentation/dev/aragon-core_how_to_contribute.md'
       - Projects:
         - Projects using Aragon: 'projects/index.md'
     - Governance:
@@ -53,6 +41,20 @@ pages:
       - Community: 'documentation/multisigs/community.md'
     - Development Plan: 'documentation/Development_Plan.md'
     - Aragon Code of Conduct: 'documentation/Code_of_Conduct.md'
+  - Development:
+    - Home: 'dev/index.md'
+    - AragonOS: 'dev/AragonOS.md'
+    - Aragon core:
+      - Home: 'dev/aragon-core_home.md'
+      - How to contribute: 'dev/aragon-core_how_to_contribute.md'
+    - Aragon apps:
+      - Home: 'dev/apps/index.md'
+      - Voting: 'dev/apps/voting.md'
+      - Token Manager: 'dev/apps/token-manager.md'
+      - Group: 'dev/apps/group.md'
+      - Fundraising: 'dev/apps/fundraising.md'
+      - Vault: 'dev/apps/vault.md'
+      - Finance: 'dev/apps/finance.md'
   - Design:
     - Home: 'design/index.md'
     - Logo: 'design/logo/index.md'
@@ -72,7 +74,7 @@ pages:
   - Jobs:
     - Overview: 'jobs/index.md'
     - Openings:
-      - Operations/Executive Assistant: 'jobs/openings/exec_assistant.md'
+      - Operations Assistant: 'jobs/openings/ops.md'
       - EVM/Solidity Engineer: 'jobs/openings/solidity.md'
       - Frontend and web3 Developer: 'jobs/openings/frontend.md'
       - Community Lead: 'jobs/openings/community.md'
