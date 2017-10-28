@@ -31,6 +31,8 @@ extra:
 pages:
   - Home: 'index.md'
   - Documentation:
+      - Projects:
+        - Projects using Aragon: 'projects/index.md'
     - Governance:
       - Community Governance Model: 'documentation/Community_Governance_Model.md'
     - Multisigs:
@@ -53,7 +55,6 @@ pages:
       - Fundraising: 'dev/apps/fundraising.md'
       - Vault: 'dev/apps/vault.md'
       - Finance: 'dev/apps/finance.md'
-
   - Design:
     - Home: 'design/index.md'
     - Logo: 'design/logo/index.md'
