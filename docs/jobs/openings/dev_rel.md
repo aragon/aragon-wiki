@@ -1,6 +1,6 @@
 ## Developer Relations opening at Aragon
 
-We are looking for a developer relations to work on the [Aragon dapp](https://github.com/aragon/aragon).
+We are looking for a developer relations to help third party developers create apps on top of the [Aragon dapp](https://github.com/aragon/aragon) and [AragonOS](http://wiki.aragon.one/dev/AragonOS/).
 
 ### Responsabilities
 
