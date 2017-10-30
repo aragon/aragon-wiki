@@ -76,9 +76,10 @@ pages:
       - Operations Assistant: 'jobs/openings/ops.md'
       - EVM/Solidity Engineer: 'jobs/openings/solidity.md'
       - Frontend and web3 Developer: 'jobs/openings/frontend.md'
-      - Community Lead: 'jobs/openings/community.md'
       - Product Manager: 'jobs/openings/product_manager.md'
+      - Developer Relations: 'jobs/openings/dev_rel.md'
       - Design Lead: 'jobs/openings/design.md'
+      - Community Lead: 'jobs/openings/community.md'
   - Blog posts:
     - 2017: 'blog/2017.md'
   - Videos:
