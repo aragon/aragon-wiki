@@ -133,8 +133,8 @@ Consider kernel **K**, an entity **E**_0_ and an app **A**. **E** wants to perfo
 The client should know that **E**_0_ cannot directly call **A**_sig_, as it doesn’t have that role, but that a list of Entities [**E**_1_, **E**_2_] do have that role on app **A**. The client should then show the user the multiple possible forwarding paths to pass the call to **E**_1_, so then **E**_0_ could perform **A**_sig_.
 
 Calculating a forwarding path requires knowing what Forwarders entity **E**_0_ can perform actions through.
-The user or contract performing this action could then choose their preferred route to scale permissions in order to perform **A**_sig_. For example, **E**_1_ may be a Voting app **V**, so the action would be to create a new vote that, in case of being approved, would call **A**_sig_. Since **V** has role **A**_role_ it has permission to execute **A**_sig_, therefore we would have successfully completed a permission escalation.  
-Note that permission escalation can occur automatically or it can be delayed and require further action by other entities like in the case of the voting app.
+The user or contract performing this action could then choose their preferred route to forward permissions in order to perform **A**_sig_. For example, **E**_1_ may be a Voting app **V**, so the action would be to create a new vote that, in case of being approved, would call **A**_sig_. Since **V** has role **A**_role_ it has permission to execute **A**_sig_, therefore we would have successfully completed a permission escalation.  
+Note that permission escalation can occur instantly or it can be delayed and require further action by other entities like in the case of the voting app.
 
 <center><img src="../../images/aragonos/permission_escalation.png"></center>
 
