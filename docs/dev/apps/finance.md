@@ -85,6 +85,8 @@ In case a payment can already be executed on creation, it will be executed.
 
 If a payment is created that won't be repeated ever again, and already was executed, only an outgoing transaction is recorded to save storage.
 
+A payment can have a past **initial payment time**, which could cause many instances of the recurring payment to be executed at payment creation time.
+
 #### Executing payment
 ```
 finance.executePayment(uint256 _paymentId)
