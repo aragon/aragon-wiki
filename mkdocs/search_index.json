@@ -1897,13 +1897,18 @@
         }, 
         {
             "location": "/videos/hq/", 
-            "text": "Aragon HQ Meeting Videos\n\n\nAragon HQ Meeting 02\n\n\n\n\nStreamed live on Oct 6, 2017\n\n\n\n\nAragon HQ Meeting 01\n\n\n\n\nStreamed live on Sep 1, 2017", 
+            "text": "Aragon HQ Meeting Videos\n\n\nAragon HQ Meeting 03\n\n\n\n\nStreamed live on Oct 27, 2017\n\n\n\n\nAragon HQ Meeting 02\n\n\n\n\nStreamed live on Oct 6, 2017\n\n\n\n\nAragon HQ Meeting 01\n\n\n\n\nStreamed live on Sep 1, 2017", 
             "title": "HQ"
         }, 
         {
             "location": "/videos/hq/#aragon-hq-meeting-videos", 
             "text": "", 
             "title": "Aragon HQ Meeting Videos"
+        }, 
+        {
+            "location": "/videos/hq/#aragon-hq-meeting-03", 
+            "text": "Streamed live on Oct 27, 2017", 
+            "title": "Aragon HQ Meeting 03"
         }, 
         {
             "location": "/videos/hq/#aragon-hq-meeting-02", 
