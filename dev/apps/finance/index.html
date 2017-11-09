@@ -1587,6 +1587,7 @@ finance.deposit(token, amount, string reference)
 </ul>
 <p>In case a payment can already be executed on creation, it will be executed.</p>
 <p>If a payment is created that won't be repeated ever again, and already was executed, only an outgoing transaction is recorded to save storage.</p>
+<p>A payment can have a past <strong>initial payment time</strong>, which could cause many instances of the recurring payment to be executed at payment creation time.</p>
 <h4 id="executing-payment">Executing payment</h4>
 <pre><code>finance.executePayment(uint256 _paymentId)
 finance.receiverExecutePayment(uint256 _paymentId)
