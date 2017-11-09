@@ -59,6 +59,7 @@ pages:
     - Merch: 'design/merch/index.md'
   - Meetings:
     - Aragon HQ:
+      - HQ 03: 'meetings/hq/03.md'
       - HQ 02: 'meetings/hq/02.md'
       - HQ 01: 'meetings/hq/01.md'
     - Community:
