@@ -1,5 +1,8 @@
 # Aragon HQ Meeting Videos
 
+## [**Aragon HQ Meeting 03**](https://www.youtube.com/watch?v=iWW4DqiWgmo)
+> Streamed live on Oct 27, 2017
+
 ## [**Aragon HQ Meeting 02**](https://www.youtube.com/watch?v=KJodmQ61a-c)
 > Streamed live on Oct 6, 2017
 
