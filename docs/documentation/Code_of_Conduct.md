@@ -92,6 +92,7 @@ If something is posted on #announcements by the Aragon team, there is no need to
 - **#feedback**: Feedback about the Aragon app, including questions on how to use the app and bug reports are always welcome, feedback from users is invaluable to us and will help us make a better product.
 - **#fillet**: Discussion about <https://getfillet.com/> and their upcoming use of Aragon.
 - **#general**: This is our main channel. Discussion about Aragon, Ethereum and Blockchain technology, and anything related to these fields is welcome.
+- **#governance**: Discussion around decentralized governance and governance models
 - **#intros**: Please introduce yourself to the community, let us know a little bit about yourself so we can all get to know each other. We're friendly people and would love to hear what brought you over to the Aragon community.
 - **#random**: Any discussion that is off-topic on other channels is welcome here. For example, this is the place to promote your project or share an interesting news article (as long as it follows our Code of Conduct).
 - **#spanish**: Discussions in Spanish are welcome here. Discusión española aquí, por favor.
