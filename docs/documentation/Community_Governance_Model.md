@@ -4,8 +4,9 @@
     Title: Aragon Community Governance Model
     Author: Tatu Kärki, Luis Cuende, Jorge Izquierdo
     Type: Governance Model
-    Status: Final, v1.1
+    Status: Final, v1.2
     Created: 2017-07-12
+    Last updated: 2017-11-14
     Requires:
 
 ## Abstract
@@ -46,19 +47,18 @@ Our Code of Conduct and Community Guidelines act as a basis for all our communit
 
 ## Meetings
 
-### **Aragon HQ**
-- *Monthly, Last Friday of the month. Time 15.00 CEST.*
-> Discussion about the state of Aragon, near future plans and decisions that need to be made. 10 min presentations with slides from team members, in which each one will run through the most important things we have done during the month, the problems they have found, and what they plan to do next month (that can be a bit blurry, and that's fine)
+### **Community Meeting**
+- *Monthly, second Friday of the month. Time 16.00 CEST.*
+
+> Team members will produce a write-up of the most important things they have worked on since last Community Meeting, the problems they have found and what they plan to do in the next weeks (that can be a bit blurry, and that's fine). These write-ups will be published as a [blog post](https://blog.aragon.one/) for the community to review on Monday before Friday's meeting.
+
+> Meeting agenda will be created based on the topics the team members present in their write-ups and discussion entailed around these topics will take place in the meeting. Live chat audience of the meeting is encouraged to participate and comment on the discussion during the meeting.
+
+> Following all the other things in the meeting agenda, an AMA (Ask Me Anything) will take place where the team answers questions by the community. The AMA questions can be posted at a dedicated thread on [/r/aragonproject](https://www.reddit.com/r/aragonproject/).
+
 - **Facilitator**: Project Lead
 - **Participants**: All Aragon team members + possible relevant contributors
-- **Viewers**: Public on Youtube
-
-### **Community meeting**
-- *Monthly, second Friday of the month. Time 16.00 CEST.*
-> Discussion about Aragon, questions from the community members answered by the team. AMA will be conducted in [/r/aragonproject](https://www.reddit.com/r/aragonproject/)
-- **Facilitator**: Project Lead/Community Lead
-- **Participants**: Project Lead + Community Lead + Aragon team members who want to participate
-- **Viewers**: Public on Youtube
+- **Viewers**: Public on [Youtube](https://www.youtube.com/c/AragonProject)
 
 ### **Team hangout**
 - *Weekly, Friday. Time 15.00 CEST*
@@ -67,9 +67,7 @@ Our Code of Conduct and Community Guidelines act as a basis for all our communit
 - **Participants**: Project Lead + anyone from the Aragon team who wants to participate
 - **Viewers**: Non-public
 
-
-
-We had planned on having bi-weekly Dev Meetings, but wanted to reduce the amount of time spent in meetings. So they are now integrated into the Aragon HQ Meetings.
+**Aragon HQ** Meetings were held previously once a month, but have been merged into one Community Meeting as per _[AGP7: Merge Aragon HQ and Community meetings](https://github.com/aragon/governance/issues/15)_.
 
 ## Structures
 - Project Lead or Tech Lead will have final call on all things pertaining to their area of expertise.
