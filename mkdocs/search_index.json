@@ -2014,6 +2014,16 @@
             "location": "/videos/interviews/#aragons-luis-cuende-interview-with-cheddar-from-the-nyse-trading-floor", 
             "text": "", 
             "title": "Aragon's Luis Cuende interview with Cheddar from the NYSE trading floor"
+        }, 
+        {
+            "location": "/videos/presentations/", 
+            "text": "Devcon3: Designing future-proof smart contract systems, Jorge Izquierdo.\n\n\n\n\nVideo (soon)\n\n\nSlides", 
+            "title": "Presentations"
+        }, 
+        {
+            "location": "/videos/presentations/#devcon3-designing-future-proof-smart-contract-systems-jorge-izquierdo", 
+            "text": "Video (soon)  Slides", 
+            "title": "Devcon3: Designing future-proof smart contract systems, Jorge Izquierdo."
         }
     ]
 }
