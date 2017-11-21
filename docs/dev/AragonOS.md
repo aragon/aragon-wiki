@@ -34,7 +34,7 @@ Example:
 
 ```
 contract TokenApp is App {
-bytes32 constant public MINT_ROLE = 0x1234;
+	bytes32 constant public MINT_ROLE = 0x1234;
 	function mint(address _receiver, uint256 _amount) auth(MINT_ROLE) { … }
 }
 ```
@@ -166,11 +166,19 @@ If a user wants to enact an action it cannot perform directly, it can check if t
 
 This can be multiple levels deep. For example, if a user address holds a number of tokens, the user is allowed to use the token manager entity. This is something that forwards when the sender owns tokens. The token manager entity is then the only one allowed to create a new vote.
 
-## 2. Kernel-space upgradeability
+## 2. Upgradeability
 
-For the [Kernel](https://github.com/aragon/aragon-core/blob/dev/contracts/kernel/Kernel.sol) to be easily upgradeable, more efficient and cheaper to deploy, we will use a proxy type construct. Deploying a new DAO is done by deploying a [KernelProxy](https://github.com/aragon/aragon-core/blob/dev/contracts/kernel/KernelProxy.sol) contract that just delegates all calls to a kernel implementation at a given address, while still maintaining its own storage. Upgrading the kernel is as easy as changing the reference to another implementation. Even though it is fairly easy to do, this function really should be protected.
+Upgradeability of the system is achieved by using the [DelegateProxy](https://github.com/aragon/aragon-core/blob/dev/contracts/common/DelegateProxy.sol) pattern. Kernel and apps (`KernelProxy` and `AppProxy`) both use DelegateProxy making some slight modifications.
 
-## 3. App-space upgradeability
+<center><img src="../../images/aragonos/delegateproxy.png"></center>
+
+Given that new versions of apps or the kernel will run in the exact same context as previous versions, the old storage layout must be taken into account. Inheriting from the old contract storage before adding new storage variables is considered a safe practice. It is recommended to make sure the upgrade doesn't break the storage before pushing a new version. We will work on tooling to prevent issues with storage on upgrades.
+
+### 2.1. Kernel upgradeability
+
+For the [Kernel](https://github.com/aragon/aragon-core/blob/dev/contracts/kernel/Kernel.sol) to be easily upgradeable, more efficient and cheaper to deploy, we will use a proxy type construct. Deploying a new DAO is done by deploying a [KernelProxy](https://github.com/aragon/aragon-core/blob/dev/contracts/kernel/KernelProxy.sol) contract that just delegates all calls to a kernel implementation at a given address, while still maintaining its own storage. Upgrading the kernel is as easy as changing the reference to another implementation. Even though it is fairly easy to do, this action is really critical and should be protected accordingly.
+
+### 2.2. App-space upgradeability
 
 As apps can be used as entities (e.g. a voting app) it is important that the apps can keep their addresses fixed for maintaining their identities even if their underlying logic changes. This is in order to keep the permissions not having to change at the kernel level with the upgrades.
 
@@ -187,7 +195,7 @@ kernel.setAppCode(bytes32 appId, address appCode)
 This action updates the implementation code registered for a given `appId`. That will effectively upgrade all apps that depend on the Kernel. Making it so that all future calls will use the new app code.
 In case the `appId` for an `appCode` hasn’t been set, all calls to the app will fail.
 
-## 4. Initialization
+## 3. Initialization
 
 The contract that gets deployed doesn’t contain the business logic for the component. This is due to the Kernel and apps relying on a Proxy-like architecture for upgradeability. It is merely a way to point to the given logic when called.
 
@@ -197,7 +205,7 @@ Initialization is performed with a 'regular function' that should be called afte
 
 It is important that this initialization function can only be called once. Instead of just saving a boolean when a component has been initialized, we store the block number when the initialization happened. This can then be used by client to know from which block they need to filter for events.
 
-## 5. App discoverability and package versioning
+## 4. App discoverability and package versioning
 
 An app **A** is nothing more than a simple AppProxy contract with a reference to a kernel **K** and an `appId`. If **A** doesn’t have any permissions, both incoming or outgoing, set in **K**, it effectively means that it’s irrelevant to the DAO, since nothing can call it and it cannot call anything. So the notion of installing an app is replaced with the notion of creating permissions for an app (what needs to happen for different functions of the app to be called and what can the app do in regard to other apps).
 
