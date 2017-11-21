@@ -533,29 +533,42 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#2-kernel-space-upgradeability" title="2. Kernel-space upgradeability" class="md-nav__link">
-    2. Kernel-space upgradeability
+  <a href="#2-upgradeability" title="2. Upgradeability" class="md-nav__link">
+    2. Upgradeability
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#21-kernel-upgradeability" title="2.1. Kernel upgradeability" class="md-nav__link">
+    2.1. Kernel upgradeability
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#22-app-space-upgradeability" title="2.2. App-space upgradeability" class="md-nav__link">
+    2.2. App-space upgradeability
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-initialization" title="3. Initialization" class="md-nav__link">
+    3. Initialization
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#3-app-space-upgradeability" title="3. App-space upgradeability" class="md-nav__link">
-    3. App-space upgradeability
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#4-initialization" title="4. Initialization" class="md-nav__link">
-    4. Initialization
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#5-app-discoverability-and-package-versioning" title="5. App discoverability and package versioning" class="md-nav__link">
-    5. App discoverability and package versioning
+  <a href="#4-app-discoverability-and-package-versioning" title="4. App discoverability and package versioning" class="md-nav__link">
+    4. App discoverability and package versioning
   </a>
   
 </li>
@@ -1443,29 +1456,42 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#2-kernel-space-upgradeability" title="2. Kernel-space upgradeability" class="md-nav__link">
-    2. Kernel-space upgradeability
+  <a href="#2-upgradeability" title="2. Upgradeability" class="md-nav__link">
+    2. Upgradeability
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#21-kernel-upgradeability" title="2.1. Kernel upgradeability" class="md-nav__link">
+    2.1. Kernel upgradeability
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#22-app-space-upgradeability" title="2.2. App-space upgradeability" class="md-nav__link">
+    2.2. App-space upgradeability
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-initialization" title="3. Initialization" class="md-nav__link">
+    3. Initialization
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#3-app-space-upgradeability" title="3. App-space upgradeability" class="md-nav__link">
-    3. App-space upgradeability
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#4-initialization" title="4. Initialization" class="md-nav__link">
-    4. Initialization
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#5-app-discoverability-and-package-versioning" title="5. App discoverability and package versioning" class="md-nav__link">
-    5. App discoverability and package versioning
+  <a href="#4-app-discoverability-and-package-versioning" title="4. App discoverability and package versioning" class="md-nav__link">
+    4. App discoverability and package versioning
   </a>
   
 </li>
@@ -1505,7 +1531,7 @@
 <p>Roles are always unique to each app. Being able to perform a given role in one app does not grant the permission to perform the role in other apps. An entity can have many roles in one app.</p>
 <p>Example:</p>
 <pre><code>contract TokenApp is App {
-bytes32 constant public MINT_ROLE = 0x1234;
+    bytes32 constant public MINT_ROLE = 0x1234;
     function mint(address _receiver, uint256 _amount) auth(MINT_ROLE) { … }
 }
 </code></pre>
@@ -1595,9 +1621,13 @@ Note that permission escalation can occur instantly or it can be delayed and req
 <p>An implementation for EVM Call Script can be found here: <a href="https://github.com/aragon/aragon-core/blob/dev/contracts/common/EVMCallScript.sol"><code>EVMCallScript.sol</code></a>.</p>
 <p>If a user wants to enact an action it cannot perform directly, it can check if there are forwarders. This checks if there are entities which can perform the action that any of the user addresses can use.</p>
 <p>This can be multiple levels deep. For example, if a user address holds a number of tokens, the user is allowed to use the token manager entity. This is something that forwards when the sender owns tokens. The token manager entity is then the only one allowed to create a new vote.</p>
-<h2 id="2-kernel-space-upgradeability">2. Kernel-space upgradeability</h2>
-<p>For the <a href="https://github.com/aragon/aragon-core/blob/dev/contracts/kernel/Kernel.sol">Kernel</a> to be easily upgradeable, more efficient and cheaper to deploy, we will use a proxy type construct. Deploying a new DAO is done by deploying a <a href="https://github.com/aragon/aragon-core/blob/dev/contracts/kernel/KernelProxy.sol">KernelProxy</a> contract that just delegates all calls to a kernel implementation at a given address, while still maintaining its own storage. Upgrading the kernel is as easy as changing the reference to another implementation. Even though it is fairly easy to do, this function really should be protected.</p>
-<h2 id="3-app-space-upgradeability">3. App-space upgradeability</h2>
+<h2 id="2-upgradeability">2. Upgradeability</h2>
+<p>Upgradeability of the system is achieved by using the <a href="https://github.com/aragon/aragon-core/blob/dev/contracts/common/DelegateProxy.sol">DelegateProxy</a> pattern. Kernel and apps (<code>KernelProxy</code> and <code>AppProxy</code>) both use DelegateProxy making some slight modifications.</p>
+<p><center><img src="../../images/aragonos/delegateproxy.png"></center></p>
+<p>Given that new versions of apps or the kernel will run in the exact same context as previous versions, the old storage layout must be taken into account. Inheriting from the old contract storage before adding new storage variables is considered a safe practice. It is recommended to make sure the upgrade doesn't break the storage before pushing a new version. We will work on tooling to prevent issues with storage on upgrades.</p>
+<h3 id="21-kernel-upgradeability">2.1. Kernel upgradeability</h3>
+<p>For the <a href="https://github.com/aragon/aragon-core/blob/dev/contracts/kernel/Kernel.sol">Kernel</a> to be easily upgradeable, more efficient and cheaper to deploy, we will use a proxy type construct. Deploying a new DAO is done by deploying a <a href="https://github.com/aragon/aragon-core/blob/dev/contracts/kernel/KernelProxy.sol">KernelProxy</a> contract that just delegates all calls to a kernel implementation at a given address, while still maintaining its own storage. Upgrading the kernel is as easy as changing the reference to another implementation. Even though it is fairly easy to do, this action is really critical and should be protected accordingly.</p>
+<h3 id="22-app-space-upgradeability">2.2. App-space upgradeability</h3>
 <p>As apps can be used as entities (e.g. a voting app) it is important that the apps can keep their addresses fixed for maintaining their identities even if their underlying logic changes. This is in order to keep the permissions not having to change at the kernel level with the upgrades.</p>
 <p>An idea of how this can be achieved is by using the concept of <a href="https://github.com/aragon/aragon-core/blob/dev/contracts/apps/AppProxy.sol">AppProxy</a> contracts (inspired by <a href="https://github.com/AugurProject/augur-core/blob/develop/source/contracts/libraries/Delegator.sol">augur-core’s Delegators</a>). Deploying an app with an AppProxy contract just needs a reference to the Kernel and the app identifier. When the app receives a call, it gets intercepted by the fallback function. At this point the proxy contract will ask the Kernel for the address of the latest version of the app code for a given app identifier. The <a href="https://github.com/aragon/aragon-core/blob/dev/contracts/apps/AppProxy.sol">AppProxy</a> contract will then <code>delegatecall</code> into this address, making sure that the latest version of the app is always running.</p>
 <p><center><img src="../../images/aragonos/appproxy_delegatecall.png"></center></p>
@@ -1607,12 +1637,12 @@ Note that permission escalation can occur instantly or it can be delayed and req
 
 <p>This action updates the implementation code registered for a given <code>appId</code>. That will effectively upgrade all apps that depend on the Kernel. Making it so that all future calls will use the new app code.
 In case the <code>appId</code> for an <code>appCode</code> hasn’t been set, all calls to the app will fail.</p>
-<h2 id="4-initialization">4. Initialization</h2>
+<h2 id="3-initialization">3. Initialization</h2>
 <p>The contract that gets deployed doesn’t contain the business logic for the component. This is due to the Kernel and apps relying on a Proxy-like architecture for upgradeability. It is merely a way to point to the given logic when called.</p>
 <p>This impedes the ability to call the Solidity constructor. Constructors are only ran when creating the contract, but not stored as part of the account code.</p>
 <p>Initialization is performed with a 'regular function' that should be called after the <code>AppProxy</code> contract has been deployed. To impede the attack in which a malicious actor tries to get an initialization transaction between the deployment and the legit initialization transaction, <code>AppProxy</code> allows to pass an initialization payload that will be executed on deployment. This allows to have atomic initialization of apps.</p>
 <p>It is important that this initialization function can only be called once. Instead of just saving a boolean when a component has been initialized, we store the block number when the initialization happened. This can then be used by client to know from which block they need to filter for events.</p>
-<h2 id="5-app-discoverability-and-package-versioning">5. App discoverability and package versioning</h2>
+<h2 id="4-app-discoverability-and-package-versioning">4. App discoverability and package versioning</h2>
 <p>An app <strong>A</strong> is nothing more than a simple AppProxy contract with a reference to a kernel <strong>K</strong> and an <code>appId</code>. If <strong>A</strong> doesn’t have any permissions, both incoming or outgoing, set in <strong>K</strong>, it effectively means that it’s irrelevant to the DAO, since nothing can call it and it cannot call anything. So the notion of installing an app is replaced with the notion of creating permissions for an app (what needs to happen for different functions of the app to be called and what can the app do in regard to other apps).</p>
 <p>All relevant apps in a DAO could be obtained by traversing its ACL, checking if an address there is an AppProxy, and checking if the AppProxy has a reference to the DAO’s kernel. If that happens, an app with the AppProxy’s <code>appId</code> is effectively installed in the DAO.</p>
 <p>Application identifiers (<code>appId</code>) can be used as a the identifier for the full package (frontend for the app and other artifacts).
