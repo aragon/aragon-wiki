@@ -191,7 +191,9 @@ In case the `appId` for an `appCode` hasn’t been set, all calls to the app wil
 
 The contract that gets deployed doesn’t contain the business logic for the component. This is due to the Kernel and apps relying on a Proxy-like architecture for upgradeability. It is merely a way to point to the given logic when called.
 
-This impedes the ability to call the Solidity constructor. Constructors are only ran when creating the contract, but not stored in the account bytecode. The arguments for the call and a standalone initialization function is needed for this.
+This impedes the ability to call the Solidity constructor. Constructors are only ran when creating the contract, but not stored as part of the account code.
+
+Initialization is performed with a 'regular function' that should be called after the `AppProxy` contract has been deployed. To impede the attack in which a malicious actor tries to get an initialization transaction between the deployment and the legit initialization transaction, `AppProxy` allows to pass an initialization payload that will be executed on deployment. This allows to have atomic initialization of apps.
 
 It is important that this initialization function can only be called once. Instead of just saving a boolean when a component has been initialized, we store the block number when the initialization happened. This can then be used by client to know from which block they need to filter for events.
 
