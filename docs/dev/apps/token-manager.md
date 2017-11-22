@@ -106,7 +106,7 @@ Assigning tokens with vesting performs a normal ERC20 token transfer operation b
 
 MiniMe tokens perform a check with their controller before doing a token transfer. This hook is used by the Token Manager to check whether a holder can transfer the desired tokens.
 
-By making the holders the direct owners of the tokens, they are able to use tokens for actions that check the token balance such as voting, while at the same time being able to lock transferability of them.
+By making the holders the direct owners of the tokens, they are able to use tokens for actions that check the token balance such as voting, while at the same time being able to lock transferability of them. Vested holders are also allowed to forward transactions through the TokenManager.
 
 #### Vesting parameters
 
