@@ -28,7 +28,7 @@ We are seeking an exceptional Operations Assistant responsible for building and 
 
 ### How to apply
 
-- Write an email with the following attachments plus any information you consider important to *maria@aragon.one*, with the subject `Ops Assistant opening application`.
+- Write an email with the following attachments plus any information you consider important to *hiring@aragon.one*, with the subject `Ops Assistant opening application`.
 
 - The things we are looking for in the application are:
 

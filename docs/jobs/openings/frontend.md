@@ -23,7 +23,7 @@ We are looking for a frontend and web3 wizard to work with us on the [Aragon dap
 
 ### How to apply
 
-- Write an email with the following attachments plus any information you consider important to *maria@aragon.one*, with the subject `Frontend Dev opening application`.
+- Write an email with the following attachments plus any information you consider important to *hiring@aragon.one*, with the subject `Frontend Dev opening application`.
 
 - Please send along your GitHub profile. Since we are open source only, we require applicants for developer positions to have a very active and healthy GitHub profile.
 

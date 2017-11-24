@@ -19,7 +19,7 @@ We are looking for a product manager to work on the [Aragon dapp](https://github
 
 ### How to apply
 
-- Write an email with the following attachments plus any information you consider important to *maria@aragon.one*, with the subject `Product Manager opening application`.
+- Write an email with the following attachments plus any information you consider important to *hiring@aragon.one*, with the subject `Product Manager opening application`.
 
 - Please send along your GitHub profile, LinkedIn, and references we can get in touch with.
 

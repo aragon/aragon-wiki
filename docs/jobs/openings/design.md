@@ -20,7 +20,7 @@ We are looking for a design lead to work with us on the [Aragon dapp](https://gi
 
 ### How to apply
 
-- Write an email with the following attachments plus any information you consider important to *maria@aragon.one*, with the subject `Design Lead opening application`.
+- Write an email with the following attachments plus any information you consider important to *hiring@aragon.one*, with the subject `Design Lead opening application`.
 
 - Please send along your Dribbble/Behance profile.
 

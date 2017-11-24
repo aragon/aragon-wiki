@@ -22,7 +22,7 @@ We are looking for an Ethereum wizard to work with us on [Aragon Core](https://g
 
 ### How to apply
 
-- Write the code (deployable to the EVM), publish it on GitHub (public or private) and send link to repo plus any information you consider important to *jorge@aragon.one*, with the subject `Solidity opening application`.
+- Write the code (deployable to the EVM), publish it on GitHub (public or private) and send link to repo plus any information you consider important to *hiring@aragon.one*, with the subject `Solidity opening application`.
 
 - The code we are looking for could be comformant to the following interface. Feel free to remove/add any functions as you see fit:
 

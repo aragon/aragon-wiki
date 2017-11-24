@@ -31,7 +31,7 @@
 
 ## Applying 📝
 
-- Write an email with any info you consider relevant to *contact@aragon.one*, with the subject `${insert_position_here} opening application`.
+- Write an email with any info you consider relevant to *hiring@aragon.one*, with the subject `${insert_position_here} opening application`.
 
 - The generic things we are looking for in the application are:
 
