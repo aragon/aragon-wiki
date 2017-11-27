@@ -60,7 +60,9 @@ pages:
     - Merchandise: 'design/merch/index.md'
   - Meetings:
     - Community:
-      - Community 06: 'meetings/community/06.md'
+      - Community 06:
+        - Agenda: 'meetings/community/06.md'
+        - Write-Up - Tatu: 'meetings/community/write-ups/cm06/tatu.md'
       - Community 05: 'meetings/community/05.md'
       - Community 04: 'meetings/community/04.md'
       - Community 03: 'meetings/community/03.md'
