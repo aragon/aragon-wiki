@@ -39,6 +39,7 @@ pages:
       - Community: 'documentation/multisigs/community.md'
     - Development Plan: 'documentation/Development_Plan.md'
     - Aragon Code of Conduct: 'documentation/Code_of_Conduct.md'
+    - Presentations: 'documentation/presentations.md'
   - Development:
     - Home: 'dev/index.md'
     - AragonOS: 'dev/AragonOS.md'
@@ -89,4 +90,3 @@ pages:
       - Community: 'videos/community.md'
       - Dev: 'videos/dev.md'
     - Interviews: 'videos/interviews.md'
-    - Presentations: 'videos/presentations.md'
