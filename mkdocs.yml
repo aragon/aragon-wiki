@@ -62,6 +62,10 @@ pages:
     - Community:
       - Community 06:
         - Agenda: 'meetings/community/06.md'
+        - Write-Up - Luis: 'meetings/community/write-ups/cm06/luis.md'
+        - Write-Up - Luke: 'meetings/community/write-ups/cm06/luke.md'
+        - Write-Up - Oliver: 'meetings/community/write-ups/cm06/oliver.md'
+        - Write-Up - Pierre: 'meetings/community/write-ups/cm06/pierre.md'
         - Write-Up - Tatu: 'meetings/community/write-ups/cm06/tatu.md'
       - Community 05: 'meetings/community/05.md'
       - Community 04: 'meetings/community/04.md'
