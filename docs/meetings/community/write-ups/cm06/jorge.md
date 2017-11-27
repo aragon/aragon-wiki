@@ -21,8 +21,8 @@
 - When all smart contracts are integrated into the client, start final security audits.
 - Public bug bounty program for all v0.5 contracts
 - Finalize deployment pipeline work
-- Improve documentation and overall experience for external contributors
 
 #### Organization
 - Improve goal setting and deadlines management
 - Clear roadmap for next releases
+- Improve documentation and overall experience for external contributors
