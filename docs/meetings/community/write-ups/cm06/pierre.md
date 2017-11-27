@@ -10,8 +10,7 @@
   - AragonApp
   - Card
   - SideBar
-- The way Aragon UI is imported in a project is better…
-- …but not ideal yet: we are still thinking about it and it will probably change in the next version.
+- The way Aragon UI is imported in a project is better (but not ideal yet: we are still thinking about it and it will probably change in the next version).
 
 #### Aragon Apps
 
