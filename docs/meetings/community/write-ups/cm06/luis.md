@@ -24,7 +24,7 @@
 
 #### Events
 - devcon!
-  - Interviewed multiple key people for some interviews and a video that will come soon
+  - Interviewed multiple key people for some interviews and a video that will come out soon
 - Talked at the Aragon Helsinki meetup
 
 #### Internal
