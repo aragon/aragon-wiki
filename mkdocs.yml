@@ -57,7 +57,7 @@ pages:
   - Design:
     - Home: 'design/index.md'
     - Logo: 'design/logo/index.md'
-    - Merch: 'design/merch/index.md'
+    - Merchandise: 'design/merch/index.md'
   - Meetings:
     - Community:
       - Community 06: 'meetings/community/06.md'

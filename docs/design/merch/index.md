@@ -1,4 +1,4 @@
-# Merch design
+# Merchandise design
 
 ![](t-shirt.png)
 
