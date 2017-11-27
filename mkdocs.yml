@@ -41,13 +41,13 @@ pages:
     - Aragon Code of Conduct: 'documentation/Code_of_Conduct.md'
     - Presentations: 'documentation/presentations.md'
   - Development:
-    - Home: 'dev/index.md'
+    - Overview: 'dev/index.md'
     - AragonOS: 'dev/AragonOS.md'
     - Aragon core:
-      - Home: 'dev/aragon-core_home.md'
+      - Overview: 'dev/aragon-core_home.md'
       - How to contribute: 'dev/aragon-core_how_to_contribute.md'
     - Aragon apps:
-      - Home: 'dev/apps/index.md'
+      - Overview: 'dev/apps/index.md'
       - Voting: 'dev/apps/voting.md'
       - Token Manager: 'dev/apps/token-manager.md'
       - Group: 'dev/apps/group.md'
@@ -55,7 +55,7 @@ pages:
       - Vault: 'dev/apps/vault.md'
       - Finance: 'dev/apps/finance.md'
   - Design:
-    - Home: 'design/index.md'
+    - Overview: 'design/index.md'
     - Logo: 'design/logo/index.md'
     - Merchandise: 'design/merch/index.md'
   - Meetings:
