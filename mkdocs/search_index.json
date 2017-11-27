@@ -996,93 +996,33 @@
             "title": "Merch design"
         }, 
         {
-            "location": "/meetings/hq/03/", 
-            "text": "Aragon HQ Meeting 03\n\n\nMeeting Date: October 27th, 4pm CEST\n\n\nMeeting video\n\n\nParticipants\n\n\n\n\n@luisivan\n\n\n@Smokyish\n\n\n@izqui\n\n\n@mariapao\n\n\n@lkngtn\n\n\n@bpierre\n\n\n@harshjv\n\n\n\n\nAgenda\n\n\n\n\nDiscussion about the state of Aragon, near future plans and decisions that need to be made. 10 min presentations with slides from team members, in which each one will run through the most important things we have done during the month, the problems they have found, and what they plan to do next month (that can be a bit blurry, and that's fine)", 
-            "title": "HQ 03"
+            "location": "/meetings/community/06/", 
+            "text": "Aragon Community Meeting 06 Agenda\n\n\nMeeting Date: December 1st, 4pm CEST\n\n\nMeeting video\n\n\nParticipants\n\n\n\n\n@luisivan\n\n\n@Smokyish, facilitator\n\n\n@izqui\n\n\n@mariapao\n\n\n@bpierre\n\n\n@lkngtn\n\n\n@onbjerg\n\n\n@john-light\n\n\n@sohkai\n\n\n\n\nAgenda\n\n\n\n\nAs defined in \nAGP7: Merge Aragon HQ and Community meetings\n this will be the first meeting where HQ and Community meetings are merged into one\n\n\nDiscussion about the issues in the presentations by team members\n\n\nRecent updates on Community by @Smokyish \n @luisivan\n\n\nAMA, Ask Me Anything, team answers \nquestions by the community\n\n\nClosing meeting", 
+            "title": "Community 06"
         }, 
         {
-            "location": "/meetings/hq/03/#aragon-hq-meeting-03", 
+            "location": "/meetings/community/06/#aragon-community-meeting-06-agenda", 
             "text": "", 
-            "title": "Aragon HQ Meeting 03"
+            "title": "Aragon Community Meeting 06 Agenda"
         }, 
         {
-            "location": "/meetings/hq/03/#meeting-date-october-27th-4pm-cest", 
+            "location": "/meetings/community/06/#meeting-date-december-1st-4pm-cest", 
             "text": "", 
-            "title": "Meeting Date: October 27th, 4pm CEST"
+            "title": "Meeting Date: December 1st, 4pm CEST"
         }, 
         {
-            "location": "/meetings/hq/03/#meeting-video", 
-            "text": "", 
-            "title": "Meeting video"
-        }, 
-        {
-            "location": "/meetings/hq/03/#participants", 
-            "text": "@luisivan  @Smokyish  @izqui  @mariapao  @lkngtn  @bpierre  @harshjv", 
-            "title": "Participants"
-        }, 
-        {
-            "location": "/meetings/hq/03/#agenda", 
-            "text": "Discussion about the state of Aragon, near future plans and decisions that need to be made. 10 min presentations with slides from team members, in which each one will run through the most important things we have done during the month, the problems they have found, and what they plan to do next month (that can be a bit blurry, and that's fine)", 
-            "title": "Agenda"
-        }, 
-        {
-            "location": "/meetings/hq/02/", 
-            "text": "Aragon HQ Meeting 02\n\n\nMeeting Date: October 6th, 4pm CEST\n\n\nMeeting video\n\n\nParticipants\n\n\n\n\n@luisivan\n\n\n@Smokyish\n\n\n@izqui\n\n\n@onbjerg\n\n\n\n\nAgenda\n\n\n\n\nDiscussion about the state of Aragon, near future plans and decisions that need to be made. 10 min presentations with slides from team members, in which each one will run through the most important things we have done during the month, the problems they have found, and what they plan to do next month (that can be a bit blurry, and that's fine)", 
-            "title": "HQ 02"
-        }, 
-        {
-            "location": "/meetings/hq/02/#aragon-hq-meeting-02", 
-            "text": "", 
-            "title": "Aragon HQ Meeting 02"
-        }, 
-        {
-            "location": "/meetings/hq/02/#meeting-date-october-6th-4pm-cest", 
-            "text": "", 
-            "title": "Meeting Date: October 6th, 4pm CEST"
-        }, 
-        {
-            "location": "/meetings/hq/02/#meeting-video", 
+            "location": "/meetings/community/06/#meeting-video", 
             "text": "", 
             "title": "Meeting video"
         }, 
         {
-            "location": "/meetings/hq/02/#participants", 
-            "text": "@luisivan  @Smokyish  @izqui  @onbjerg", 
+            "location": "/meetings/community/06/#participants", 
+            "text": "@luisivan  @Smokyish, facilitator  @izqui  @mariapao  @bpierre  @lkngtn  @onbjerg  @john-light  @sohkai", 
             "title": "Participants"
         }, 
         {
-            "location": "/meetings/hq/02/#agenda", 
-            "text": "Discussion about the state of Aragon, near future plans and decisions that need to be made. 10 min presentations with slides from team members, in which each one will run through the most important things we have done during the month, the problems they have found, and what they plan to do next month (that can be a bit blurry, and that's fine)", 
-            "title": "Agenda"
-        }, 
-        {
-            "location": "/meetings/hq/01/", 
-            "text": "Aragon HQ Meeting 01\n\n\nMeeting Date: September 1th, 3pm CEST\n\n\nMeeting video\n\n\nParticipants\n\n\n\n\n@luisivan\n\n\n@Smokyish\n\n\n@izqui\n\n\n@mariapao\n\n\n@readevalprint\n\n\n\n\nAgenda\n\n\n\n\nDiscussion about the state of Aragon, near future plans and decisions that need to be made. 10 min presentations with slides from team members, in which each one will run through the most important things we have done during the month, the problems they have found, and what they plan to do next month (that can be a bit blurry, and that's fine)", 
-            "title": "HQ 01"
-        }, 
-        {
-            "location": "/meetings/hq/01/#aragon-hq-meeting-01", 
-            "text": "", 
-            "title": "Aragon HQ Meeting 01"
-        }, 
-        {
-            "location": "/meetings/hq/01/#meeting-date-september-1th-3pm-cest", 
-            "text": "", 
-            "title": "Meeting Date: September 1th, 3pm CEST"
-        }, 
-        {
-            "location": "/meetings/hq/01/#meeting-video", 
-            "text": "", 
-            "title": "Meeting video"
-        }, 
-        {
-            "location": "/meetings/hq/01/#participants", 
-            "text": "@luisivan  @Smokyish  @izqui  @mariapao  @readevalprint", 
-            "title": "Participants"
-        }, 
-        {
-            "location": "/meetings/hq/01/#agenda", 
-            "text": "Discussion about the state of Aragon, near future plans and decisions that need to be made. 10 min presentations with slides from team members, in which each one will run through the most important things we have done during the month, the problems they have found, and what they plan to do next month (that can be a bit blurry, and that's fine)", 
+            "location": "/meetings/community/06/#agenda", 
+            "text": "As defined in  AGP7: Merge Aragon HQ and Community meetings  this will be the first meeting where HQ and Community meetings are merged into one  Discussion about the issues in the presentations by team members  Recent updates on Community by @Smokyish   @luisivan  AMA, Ask Me Anything, team answers  questions by the community  Closing meeting", 
             "title": "Agenda"
         }, 
         {
@@ -1233,6 +1173,96 @@
         {
             "location": "/meetings/community/01/#agenda", 
             "text": "Introduction to Aragon Community Meetings by @luisivan  Discussion about recent community events, set up by @Smokyish  AMA, Ask Me Anything, team answers  questions by the community  Closing meeting", 
+            "title": "Agenda"
+        }, 
+        {
+            "location": "/meetings/hq/03/", 
+            "text": "Aragon HQ Meeting 03\n\n\nMeeting Date: October 27th, 4pm CEST\n\n\nMeeting video\n\n\nParticipants\n\n\n\n\n@luisivan\n\n\n@Smokyish\n\n\n@izqui\n\n\n@mariapao\n\n\n@lkngtn\n\n\n@bpierre\n\n\n@harshjv\n\n\n\n\nAgenda\n\n\n\n\nDiscussion about the state of Aragon, near future plans and decisions that need to be made. 10 min presentations with slides from team members, in which each one will run through the most important things we have done during the month, the problems they have found, and what they plan to do next month (that can be a bit blurry, and that's fine)", 
+            "title": "HQ 03"
+        }, 
+        {
+            "location": "/meetings/hq/03/#aragon-hq-meeting-03", 
+            "text": "", 
+            "title": "Aragon HQ Meeting 03"
+        }, 
+        {
+            "location": "/meetings/hq/03/#meeting-date-october-27th-4pm-cest", 
+            "text": "", 
+            "title": "Meeting Date: October 27th, 4pm CEST"
+        }, 
+        {
+            "location": "/meetings/hq/03/#meeting-video", 
+            "text": "", 
+            "title": "Meeting video"
+        }, 
+        {
+            "location": "/meetings/hq/03/#participants", 
+            "text": "@luisivan  @Smokyish  @izqui  @mariapao  @lkngtn  @bpierre  @harshjv", 
+            "title": "Participants"
+        }, 
+        {
+            "location": "/meetings/hq/03/#agenda", 
+            "text": "Discussion about the state of Aragon, near future plans and decisions that need to be made. 10 min presentations with slides from team members, in which each one will run through the most important things we have done during the month, the problems they have found, and what they plan to do next month (that can be a bit blurry, and that's fine)", 
+            "title": "Agenda"
+        }, 
+        {
+            "location": "/meetings/hq/02/", 
+            "text": "Aragon HQ Meeting 02\n\n\nMeeting Date: October 6th, 4pm CEST\n\n\nMeeting video\n\n\nParticipants\n\n\n\n\n@luisivan\n\n\n@Smokyish\n\n\n@izqui\n\n\n@onbjerg\n\n\n\n\nAgenda\n\n\n\n\nDiscussion about the state of Aragon, near future plans and decisions that need to be made. 10 min presentations with slides from team members, in which each one will run through the most important things we have done during the month, the problems they have found, and what they plan to do next month (that can be a bit blurry, and that's fine)", 
+            "title": "HQ 02"
+        }, 
+        {
+            "location": "/meetings/hq/02/#aragon-hq-meeting-02", 
+            "text": "", 
+            "title": "Aragon HQ Meeting 02"
+        }, 
+        {
+            "location": "/meetings/hq/02/#meeting-date-october-6th-4pm-cest", 
+            "text": "", 
+            "title": "Meeting Date: October 6th, 4pm CEST"
+        }, 
+        {
+            "location": "/meetings/hq/02/#meeting-video", 
+            "text": "", 
+            "title": "Meeting video"
+        }, 
+        {
+            "location": "/meetings/hq/02/#participants", 
+            "text": "@luisivan  @Smokyish  @izqui  @onbjerg", 
+            "title": "Participants"
+        }, 
+        {
+            "location": "/meetings/hq/02/#agenda", 
+            "text": "Discussion about the state of Aragon, near future plans and decisions that need to be made. 10 min presentations with slides from team members, in which each one will run through the most important things we have done during the month, the problems they have found, and what they plan to do next month (that can be a bit blurry, and that's fine)", 
+            "title": "Agenda"
+        }, 
+        {
+            "location": "/meetings/hq/01/", 
+            "text": "Aragon HQ Meeting 01\n\n\nMeeting Date: September 1th, 3pm CEST\n\n\nMeeting video\n\n\nParticipants\n\n\n\n\n@luisivan\n\n\n@Smokyish\n\n\n@izqui\n\n\n@mariapao\n\n\n@readevalprint\n\n\n\n\nAgenda\n\n\n\n\nDiscussion about the state of Aragon, near future plans and decisions that need to be made. 10 min presentations with slides from team members, in which each one will run through the most important things we have done during the month, the problems they have found, and what they plan to do next month (that can be a bit blurry, and that's fine)", 
+            "title": "HQ 01"
+        }, 
+        {
+            "location": "/meetings/hq/01/#aragon-hq-meeting-01", 
+            "text": "", 
+            "title": "Aragon HQ Meeting 01"
+        }, 
+        {
+            "location": "/meetings/hq/01/#meeting-date-september-1th-3pm-cest", 
+            "text": "", 
+            "title": "Meeting Date: September 1th, 3pm CEST"
+        }, 
+        {
+            "location": "/meetings/hq/01/#meeting-video", 
+            "text": "", 
+            "title": "Meeting video"
+        }, 
+        {
+            "location": "/meetings/hq/01/#participants", 
+            "text": "@luisivan  @Smokyish  @izqui  @mariapao  @readevalprint", 
+            "title": "Participants"
+        }, 
+        {
+            "location": "/meetings/hq/01/#agenda", 
+            "text": "Discussion about the state of Aragon, near future plans and decisions that need to be made. 10 min presentations with slides from team members, in which each one will run through the most important things we have done during the month, the problems they have found, and what they plan to do next month (that can be a bit blurry, and that's fine)", 
             "title": "Agenda"
         }, 
         {
