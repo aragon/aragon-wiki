@@ -1,5 +1,7 @@
 # Welcome to the Aragon Wiki
 
+![](images/logo_text_right_dark.png)
+
 We believe [Decentralized organizations can solve the world’s worst problems](https://blog.aragon.one/decentralized-organizations-can-solve-the-worlds-worst-problems-840db6255d12). That's why we are building Aragon.
 
 This wiki for the Aragon Project contains much of the content and resources available publicly.
