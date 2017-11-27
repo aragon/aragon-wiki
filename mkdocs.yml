@@ -59,16 +59,17 @@ pages:
     - Logo: 'design/logo/index.md'
     - Merch: 'design/merch/index.md'
   - Meetings:
-    - Aragon HQ:
-      - HQ 03: 'meetings/hq/03.md'
-      - HQ 02: 'meetings/hq/02.md'
-      - HQ 01: 'meetings/hq/01.md'
     - Community:
+      - Community 06: 'meetings/community/06.md'
       - Community 05: 'meetings/community/05.md'
       - Community 04: 'meetings/community/04.md'
       - Community 03: 'meetings/community/03.md'
       - Community 02: 'meetings/community/02.md'
       - Community 01: 'meetings/community/01.md'
+    - Aragon HQ:
+      - HQ 03: 'meetings/hq/03.md'
+      - HQ 02: 'meetings/hq/02.md'
+      - HQ 01: 'meetings/hq/01.md'
     - Dev:
       - Dev 02: 'meetings/dev/02.md'
       - Dev 01: 'meetings/dev/01.md'
