@@ -161,6 +161,12 @@
      <changefreq>daily</changefreq>
     </url>
         
+    <url>
+     <loc>https://wiki.aragon.one/videos/presentations/</loc>
+     <lastmod>2017-11-27</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
     
 
 </urlset>

@@ -342,12 +342,12 @@
         }, 
         {
             "location": "/documentation/presentations/", 
-            "text": "Designing future-proof smart contract systems\n\n\nby Jorge Izquierdo at \nDevcon3\n\n\nGovernance: Main challenges and 3 possible models\n\n\nby Luis Cuende at \nM-0", 
+            "text": "Designing future-proof smart contract systems\n\n\nby Jorge Izquierdo at \nDevcon3\n\n\nVideo of the presentation\n\n\nGovernance: Main challenges and 3 possible models\n\n\nby Luis Cuende at \nM-0", 
             "title": "Presentations"
         }, 
         {
             "location": "/documentation/presentations/#designing-future-proof-smart-contract-systems", 
-            "text": "by Jorge Izquierdo at  Devcon3", 
+            "text": "by Jorge Izquierdo at  Devcon3  Video of the presentation", 
             "title": "Designing future-proof smart contract systems"
         }, 
         {
@@ -2034,6 +2034,21 @@
             "location": "/videos/interviews/#aragons-luis-cuende-interview-with-cheddar-from-the-nyse-trading-floor", 
             "text": "", 
             "title": "Aragon's Luis Cuende interview with Cheddar from the NYSE trading floor"
+        }, 
+        {
+            "location": "/videos/presentations/", 
+            "text": "Aragon Presentation Videos\n\n\nDesigning future-proof smart contract systems\n\n\nby Jorge Izquierdo at \nDevcon3\n\n\nSlides of the presentation", 
+            "title": "Presentations"
+        }, 
+        {
+            "location": "/videos/presentations/#aragon-presentation-videos", 
+            "text": "", 
+            "title": "Aragon Presentation Videos"
+        }, 
+        {
+            "location": "/videos/presentations/#designing-future-proof-smart-contract-systems", 
+            "text": "by Jorge Izquierdo at  Devcon3  Slides of the presentation", 
+            "title": "Designing future-proof smart contract systems"
         }
     ]
 }
