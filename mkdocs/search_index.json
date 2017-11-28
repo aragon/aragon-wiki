@@ -1187,7 +1187,7 @@
         }, 
         {
             "location": "/meetings/community/write-ups/cm06/luis/", 
-            "text": "Aragon Community Meeting 06 Write-Up for November\n\n\nLuis - Project Lead\n\n\nHiring\n\n\n\n\nHelped hiring for\n\n\nEVM/Solidity: Welcome, Brett!\n\n\nCommunity Lead: Welcome, John!\n\n\n\n\n\n\nHelped setting up a shared inbox for hiring\n\n\n\n\nStrategy\n\n\n\n\nThought about ways VCs interested into the Aragon ecosystem can invest funds into developing it\n\n\nAlso thought of how to invest some of the token sale funds into the ecosystem without much friction/without becoming VCs (that\u2019s not our focus)\n\n\nWorked alongside with Maria, Jorge and Placeholder on the grants program\n\n\nCommented on Aragon Labs proposals\n\n\n\n\nDev\n\n\n\n\nWorked on the new website\n\n\nSome fixes for aragon-ui\n\n\n\n\nDesign\n\n\n\n\nCreated a design challenge for the Design opening\n\n\nCreated some visual assets\n\n\n\n\nEvents\n\n\n\n\ndevcon!\n\n\nInterviewed multiple key people for some interviews and a video that will come out soon\n\n\nTalked at the Aragon Helsinki meetup\n\n\n\n\nInternal\n\n\n\n\nContinued token buyback\n\n\nLegal stuff\n\n\n\n\nCommunity\n\n\n\n\nAGP7\n\n\n\n\nNext\n\n\nHiring\n\n\n\n\nFill Operations Assistant position\n\n\nMake progress on filling the Design Lead opening\n\n\nMake progress on hiring a Frontend Dev\n\n\n\n\nInternal\n\n\n\n\nReview Q4 goals for newly onboarded\n\n\n\n\nStrategy\n\n\n\n\nOversee the announcement of the Grants program\n\n\nOversee the announcement of Aragon Labs\n\n\n\n\nCommunity\n\n\n\n\nRelease the signaling app", 
+            "text": "Aragon Community Meeting 06 Write-Up for November\n\n\nLuis - Project Lead\n\n\nHiring\n\n\n\n\nHelped hiring for\n\n\nEVM/Solidity: Welcome, Brett!\n\n\nCommunity Lead: Welcome, John!\n\n\n\n\n\n\nHelped setting up a shared inbox for hiring\n\n\n\n\nStrategy\n\n\n\n\nThought about ways VCs interested into the Aragon ecosystem can invest funds into developing it\n\n\nAlso thought of how to invest some of the token sale funds into the ecosystem without much friction/without becoming VCs (that\u2019s not our focus)\n\n\nWorked alongside with Maria, Jorge and third parties on this\n\n\n\n\nDev\n\n\n\n\nWorked on the new website\n\n\nSome fixes for aragon-ui\n\n\n\n\nDesign\n\n\n\n\nCreated a design challenge for the Design opening\n\n\nCreated some visual assets\n\n\n\n\nEvents\n\n\n\n\ndevcon!\n\n\nInterviewed multiple key people for some interviews and a video that will come out soon\n\n\nTalked at the Aragon Helsinki meetup\n\n\n\n\nInternal\n\n\n\n\nContinued token buyback\n\n\nLegal stuff\n\n\n\n\nCommunity\n\n\n\n\nAGP7\n\n\n\n\nNext\n\n\nHiring\n\n\n\n\nFill Operations Assistant position\n\n\nMake progress on filling the Design Lead opening\n\n\nMake progress on hiring a Frontend Dev\n\n\n\n\nInternal\n\n\n\n\nReview Q4 goals for newly onboarded\n\n\n\n\nStrategy\n\n\n\n\nOversee new announcements\n\n\n\n\nCommunity\n\n\n\n\nRelease the signaling app", 
             "title": "Write-Up - Luis"
         }, 
         {
@@ -1207,7 +1207,7 @@
         }, 
         {
             "location": "/meetings/community/write-ups/cm06/luis/#strategy", 
-            "text": "Thought about ways VCs interested into the Aragon ecosystem can invest funds into developing it  Also thought of how to invest some of the token sale funds into the ecosystem without much friction/without becoming VCs (that\u2019s not our focus)  Worked alongside with Maria, Jorge and Placeholder on the grants program  Commented on Aragon Labs proposals", 
+            "text": "Thought about ways VCs interested into the Aragon ecosystem can invest funds into developing it  Also thought of how to invest some of the token sale funds into the ecosystem without much friction/without becoming VCs (that\u2019s not our focus)  Worked alongside with Maria, Jorge and third parties on this", 
             "title": "Strategy"
         }, 
         {
@@ -1252,7 +1252,7 @@
         }, 
         {
             "location": "/meetings/community/write-ups/cm06/luis/#strategy_1", 
-            "text": "Oversee the announcement of the Grants program  Oversee the announcement of Aragon Labs", 
+            "text": "Oversee new announcements", 
             "title": "Strategy"
         }, 
         {
@@ -1262,7 +1262,7 @@
         }, 
         {
             "location": "/meetings/community/write-ups/cm06/luke/", 
-            "text": "Aragon Community Meeting 06 Write-Up for November\n\n\nLuke - Research Lead\n\n\nAragon Labs\n\n\n\n\nPlanning and Project definition\n\n\nResearched and engaged with projects that would be good fit for participation\n\n\n\n\nResearch\n\n\n\n\nOff-chain tabulation of votes (Ongoing)\n\n\nSecure/Private voting mechanism using sMPC and group signatures (Ongoing)\n\n\nGovernance over inflationary token supplies (Ongoing)\n\n\nToken curated registries (Ongoing)\n\n\nCryptoeconomics of Aragon Network services (Ongoing)\n\n\n\n\nNext\n\n\nAragon Labs\n\n\n\n\nCreate repo and documentation for Aragon Labs community contributions\n\n\nConfirm initial batch of project participants\n\n\nEstablish project roadmap and timelines \n\n\n\n\nResearch\n\n\n\n\nContinue ongoing research efforts\n\n\nExperiment with Signaling/CarbonFeedback dapp\n\n\nDocument research in Aragon Labs repo and/or blog posts", 
+            "text": "Aragon Community Meeting 06 Write-Up for November\n\n\nLuke - Research Lead\n\n\nAragon Research Project\n\n\n\n\nPlanning and Project definition\n\n\nResearched and engaged with projects that would be good fit for participation\n\n\n\n\nResearch\n\n\n\n\nOff-chain tabulation of votes (Ongoing)\n\n\nSecure/Private voting mechanism using sMPC and group signatures (Ongoing)\n\n\nGovernance over inflationary token supplies (Ongoing)\n\n\nToken curated registries (Ongoing)\n\n\nCryptoeconomics of Aragon Network services (Ongoing)\n\n\n\n\nNext\n\n\nAragon Research Project\n\n\n\n\nCreate repo and documentation for Aragon Research Project community contributions\n\n\nConfirm initial batch of project participants\n\n\nEstablish project roadmap and timelines\n\n\n\n\nResearch\n\n\n\n\nContinue ongoing research efforts\n\n\nExperiment with Signaling/CarbonFeedback dapp\n\n\nDocument research in Aragon Research Project repo and/or blog posts", 
             "title": "Write-Up - Luke"
         }, 
         {
@@ -1276,9 +1276,9 @@
             "title": "Luke - Research Lead"
         }, 
         {
-            "location": "/meetings/community/write-ups/cm06/luke/#aragon-labs", 
+            "location": "/meetings/community/write-ups/cm06/luke/#aragon-research-project", 
             "text": "Planning and Project definition  Researched and engaged with projects that would be good fit for participation", 
-            "title": "Aragon Labs"
+            "title": "Aragon Research Project"
         }, 
         {
             "location": "/meetings/community/write-ups/cm06/luke/#research", 
@@ -1291,18 +1291,18 @@
             "title": "Next"
         }, 
         {
-            "location": "/meetings/community/write-ups/cm06/luke/#aragon-labs_1", 
-            "text": "Create repo and documentation for Aragon Labs community contributions  Confirm initial batch of project participants  Establish project roadmap and timelines", 
-            "title": "Aragon Labs"
+            "location": "/meetings/community/write-ups/cm06/luke/#aragon-research-project_1", 
+            "text": "Create repo and documentation for Aragon Research Project community contributions  Confirm initial batch of project participants  Establish project roadmap and timelines", 
+            "title": "Aragon Research Project"
         }, 
         {
             "location": "/meetings/community/write-ups/cm06/luke/#research_1", 
-            "text": "Continue ongoing research efforts  Experiment with Signaling/CarbonFeedback dapp  Document research in Aragon Labs repo and/or blog posts", 
+            "text": "Continue ongoing research efforts  Experiment with Signaling/CarbonFeedback dapp  Document research in Aragon Research Project repo and/or blog posts", 
             "title": "Research"
         }, 
         {
             "location": "/meetings/community/write-ups/cm06/maria/", 
-            "text": "Aragon Community Meeting 06 Write-Up for November\n\n\nMaria \u2013 Strategy and Ops Lead\n\n\nStrategy\n\n\n\n\nAragon grants: helped planned the general structure and definition \n\n\nAragon fund: general research and planning the structure and definition\n\n\nAragon proxy: started working with key lawyers that will potentially assist us on this project\n\n\nAragon Labs: helped planned the general structure and definition \n\n\n\n\nOperations\n\n\n\n\nAccounting: we started working with EY as the Aragon foundation\u2019s accountants \n\n\nHiring: helped with the initial candidates screening for several positions\n\n\nEvents: helped with the logistics and coordination for the production of a video about the why of Aragon. For this video we did a couple of interviews to key people in Cancun (devcon3)\n\n\n\n\nNext\n\n\nStrategy:\n\n\n\n\nContinue developing the different initiatives/projects mentioned above\n\n\n\n\nOperations:\n\n\n\n\nAssist our accountants on the closing of the fiscal year\n\n\nFill operations assistant positions", 
+            "text": "Aragon Community Meeting 06 Write-Up for November\n\n\nMaria \u2013 Strategy and Ops Lead\n\n\nStrategy\n\n\n\n\nHelped plan and research the general structures and definitions of upcoming programs/projects\n\n\nStarted working with key lawyers that will potentially assist us on one of the projects\n\n\n\n\nOperations\n\n\n\n\nAccounting: we started working with EY as the Aragon foundation\u2019s accountants\n\n\nHiring: helped with the initial candidates screening for several positions\n\n\nEvents: helped with the logistics and coordination for the production of a video about the why of Aragon. For this video we did a couple of interviews to key people in Cancun (devcon3)\n\n\n\n\nNext\n\n\nStrategy:\n\n\n\n\nContinue developing the different initiatives/projects mentioned above\n\n\n\n\nOperations:\n\n\n\n\nAssist our accountants on the closing of the fiscal year\n\n\nFill operations assistant positions", 
             "title": "Write-Up - Maria"
         }, 
         {
@@ -1317,12 +1317,12 @@
         }, 
         {
             "location": "/meetings/community/write-ups/cm06/maria/#strategy", 
-            "text": "Aragon grants: helped planned the general structure and definition   Aragon fund: general research and planning the structure and definition  Aragon proxy: started working with key lawyers that will potentially assist us on this project  Aragon Labs: helped planned the general structure and definition", 
+            "text": "Helped plan and research the general structures and definitions of upcoming programs/projects  Started working with key lawyers that will potentially assist us on one of the projects", 
             "title": "Strategy"
         }, 
         {
             "location": "/meetings/community/write-ups/cm06/maria/#operations", 
-            "text": "Accounting: we started working with EY as the Aragon foundation\u2019s accountants   Hiring: helped with the initial candidates screening for several positions  Events: helped with the logistics and coordination for the production of a video about the why of Aragon. For this video we did a couple of interviews to key people in Cancun (devcon3)", 
+            "text": "Accounting: we started working with EY as the Aragon foundation\u2019s accountants  Hiring: helped with the initial candidates screening for several positions  Events: helped with the logistics and coordination for the production of a video about the why of Aragon. For this video we did a couple of interviews to key people in Cancun (devcon3)", 
             "title": "Operations"
         }, 
         {
