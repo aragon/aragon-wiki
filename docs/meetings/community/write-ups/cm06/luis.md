@@ -9,9 +9,8 @@
 - Helped setting up a shared inbox for hiring
 
 #### Strategy
-- Thought about ways VCs interested into the Aragon ecosystem can invest funds into developing it
+- Worked alongside with Maria, Jorge and third parties on this. Thought about ways VCs interested into the Aragon ecosystem can invest funds into developing it
 - Also thought of how to invest some of the token sale funds into the ecosystem without much friction/without becoming VCs (that’s not our focus)
-- Worked alongside with Maria, Jorge and third parties on this
 
 #### Dev
 - Worked on the new website
