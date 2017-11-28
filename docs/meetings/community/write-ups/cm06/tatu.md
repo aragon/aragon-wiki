@@ -1,6 +1,6 @@
 ## Aragon Community Meeting 06 Write-Up for November
 
-### Tatu - Community Lead
+### Tatu - Community Lead / Communications Director
 
 #### New website copy
 Worked on writing the initial new copy of the new website, reviewed and edited in collaboration with Luis and John on refining the copy.
