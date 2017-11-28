@@ -3,7 +3,7 @@
 ### John - (New!) Community Lead
 
 #### New website copy
-Worked on writing the initial new copy of the new website, reviewed and edited in collaboration with Luis and Tatu on refining the copy.
+Reviewed and edited in collaboration with Luis and Tatu on refining the copy.
 
 #### Aragon Meetup in Helsinki
 Attended the meetup with Luis and Tatu. Helped welcome people, serve food and drink, pass out Aragon swag.
@@ -11,7 +11,7 @@ Attended the meetup with Luis and Tatu. Helped welcome people, serve food and dr
 #### Wiki review
 Opened 12 issues during a review of the Aragon Wiki with Tatu.
 
-#### Updates to #Frontline 
+#### Updates to #Frontline
 Worked with Tatu to learn about the Frontline program's history and start charting a course for the future.
 
 #### Begin planning transition to community governance
