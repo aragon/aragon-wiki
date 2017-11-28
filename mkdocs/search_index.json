@@ -997,8 +997,8 @@
         }, 
         {
             "location": "/meetings/community/06/", 
-            "text": "Aragon Community Meeting 06 Agenda\n\n\nMeeting Date: December 1st, 4pm CEST\n\n\nMeeting video\n\n\nParticipants\n\n\n\n\n@luisivan\n\n\n@Smokyish, facilitator\n\n\n@izqui\n\n\n@mariapao\n\n\n@bpierre\n\n\n@lkngtn\n\n\n@onbjerg\n\n\n@john-light\n\n\n@sohkai\n\n\n\n\nAgenda\n\n\n\n\nAs defined in \nAGP7: Merge Aragon HQ and Community meetings\n this will be the first meeting where HQ and Community meetings are merged into one\n\n\nDiscussion about the issues in the presentations by team members\n\n\nRecent updates on Community by @Smokyish \n @luisivan\n\n\nAMA, Ask Me Anything, team answers \nquestions by the community\n\n\nClosing meeting", 
-            "title": "Community 06"
+            "text": "Aragon Community Meeting 06 Agenda\n\n\nMeeting Date: December 1st, 4pm CEST\n\n\nMeeting video\n\n\nParticipants\n\n\n\n\n@luisivan\n\n\n@Smokyish, facilitator\n\n\n@izqui\n\n\n@mariapao\n\n\n@bpierre\n\n\n@lkngtn\n\n\n@onbjerg\n\n\n@john-light\n\n\n@sohkai\n\n\n\n\nAgenda\n\n\n\n\nAs defined in \nAGP7: Merge Aragon HQ and Community meetings\n this will be the first meeting where HQ and Community meetings are merged into one\n\n\nDiscussion about the issues in the presentations by team members\n\n\nRecent updates on Community by @Smokyish \n @luisivan\n\n\nAMA, Ask Me Anything, team answers \nquestions by the community\n\n\nClosing meeting\n\n\n\n\nWrite-Ups\n\n\n\n\nTeam members will produce a write-up of the most important things they have worked on since last Community Meeting, the problems they have found and what they plan to do in the next weeks (that can be a bit blurry, and that's fine). These write-ups will be published as a blog post for the community to review on Monday before Friday's meeting.\n\n\n\n\n\n\nBrett - EVM/Solidity/*\n\n\nJohn - Community Lead\n\n\nJorge - Tech Lead\n\n\nLuis - Project Lead\n\n\nLuke - Research Lead\n\n\nMaria - Head of Strategy and Operations\n\n\nOliver - Glue\n\n\nPierre - Frontend Developer\n\n\nTatu - Community Lead / Communications Director", 
+            "title": "Agenda"
         }, 
         {
             "location": "/meetings/community/06/#aragon-community-meeting-06-agenda", 
@@ -1024,6 +1024,501 @@
             "location": "/meetings/community/06/#agenda", 
             "text": "As defined in  AGP7: Merge Aragon HQ and Community meetings  this will be the first meeting where HQ and Community meetings are merged into one  Discussion about the issues in the presentations by team members  Recent updates on Community by @Smokyish   @luisivan  AMA, Ask Me Anything, team answers  questions by the community  Closing meeting", 
             "title": "Agenda"
+        }, 
+        {
+            "location": "/meetings/community/06/#write-ups", 
+            "text": "Team members will produce a write-up of the most important things they have worked on since last Community Meeting, the problems they have found and what they plan to do in the next weeks (that can be a bit blurry, and that's fine). These write-ups will be published as a blog post for the community to review on Monday before Friday's meeting.    Brett - EVM/Solidity/*  John - Community Lead  Jorge - Tech Lead  Luis - Project Lead  Luke - Research Lead  Maria - Head of Strategy and Operations  Oliver - Glue  Pierre - Frontend Developer  Tatu - Community Lead / Communications Director", 
+            "title": "Write-Ups"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm06/brett/", 
+            "text": "Aragon Community Meeting 06 Write-Up for November\n\n\nBrett - (New!) EVM/Solidity/*\n\n\nAragon Id (@aragon/aragon-id)\n\n\n\n\nBasic identity system via ENS for 0.5 (\nyour-name\n.aragonid.eth\n registration coming soon to you!)\n\n\nProvides a generic set of contracts for verifiably secure ENS subdomain registrations\n\n\n\n\nAragon Apps / UI (@aragon/aragon-apps, @aragon/aragon-ui)\n\n\n\n\nMoved reusable components from Group app to @aragon/aragon-ui\n\n\n\n\nNext\n\n\nTowards 0.5\n\n\n\n\nCollaborate with @izqui, @onbjerg, @bpierre on organizing roadmap to 0.5\n\n\nHelp @bpierre with lifting off the dust in @aragon/aragon\n\n\nBuild as many @aragon/aragon-app frontends (and their associated components in @aragon/aragon-ui) as possible", 
+            "title": "Write-Up - Brett"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm06/brett/#aragon-community-meeting-06-write-up-for-november", 
+            "text": "", 
+            "title": "Aragon Community Meeting 06 Write-Up for November"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm06/brett/#brett-new-evmsolidity42", 
+            "text": "", 
+            "title": "Brett - (New!) EVM/Solidity/*"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm06/brett/#aragon-id-aragonaragon-id", 
+            "text": "Basic identity system via ENS for 0.5 ( your-name .aragonid.eth  registration coming soon to you!)  Provides a generic set of contracts for verifiably secure ENS subdomain registrations", 
+            "title": "Aragon Id (@aragon/aragon-id)"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm06/brett/#aragon-apps-ui-aragonaragon-apps-aragonaragon-ui", 
+            "text": "Moved reusable components from Group app to @aragon/aragon-ui", 
+            "title": "Aragon Apps / UI (@aragon/aragon-apps, @aragon/aragon-ui)"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm06/brett/#next", 
+            "text": "", 
+            "title": "Next"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm06/brett/#towards-05", 
+            "text": "Collaborate with @izqui, @onbjerg, @bpierre on organizing roadmap to 0.5  Help @bpierre with lifting off the dust in @aragon/aragon  Build as many @aragon/aragon-app frontends (and their associated components in @aragon/aragon-ui) as possible", 
+            "title": "Towards 0.5"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm06/john/", 
+            "text": "Aragon Community Meeting 06 Write-Up for November\n\n\nJohn - (New!) Community Lead\n\n\nNew website copy\n\n\nReviewed and edited in collaboration with Luis and Tatu on refining the copy.\n\n\nAragon Meetup in Helsinki\n\n\nAttended the meetup with Luis and Tatu. Helped welcome people, serve food and drink, pass out Aragon swag.\n\n\nWiki review\n\n\nOpened 12 issues during a review of the Aragon Wiki with Tatu.\n\n\nUpdates to #Frontline\n\n\nWorked with Tatu to learn about the Frontline program's history and start charting a course for the future.\n\n\nBegin planning transition to community governance\n\n\nHad a discussion with Luis and Tatu about the future of the Aragon Foundation and the Core team after the transition to community governance via DAO.\n\n\nTeam interview post\n\n\nSent answers to Tatu along with a photo to use for the post.\n\n\nAragon Network deep-dive\n\n\nLearned more about the Aragon Network, ANT use-cases, and Aragon Network Services from Luis and Tatu.\n\n\nNext\n\n\nComplete onboarding\n\n\nFinish reading through all community documentation, past meeting notes, and other docs.\n\n\nStart 2018 Community Strategy doc\n\n\nBegin planning for community growth and engagement in 2018, especially around taking advantage of the impact the mainnet launch will have on public interest.\n\n\nTeam bonding\n\n\nContinue getting to know members of the team better so we can help each other achieve great things together.\n\n\nOrganizing the organization\n\n\nReview team organization processes and provide feedback wherever it's needed. Help the core team operations run smoothly.", 
+            "title": "Write-Up - John"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm06/john/#aragon-community-meeting-06-write-up-for-november", 
+            "text": "", 
+            "title": "Aragon Community Meeting 06 Write-Up for November"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm06/john/#john-new-community-lead", 
+            "text": "", 
+            "title": "John - (New!) Community Lead"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm06/john/#new-website-copy", 
+            "text": "Reviewed and edited in collaboration with Luis and Tatu on refining the copy.", 
+            "title": "New website copy"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm06/john/#aragon-meetup-in-helsinki", 
+            "text": "Attended the meetup with Luis and Tatu. Helped welcome people, serve food and drink, pass out Aragon swag.", 
+            "title": "Aragon Meetup in Helsinki"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm06/john/#wiki-review", 
+            "text": "Opened 12 issues during a review of the Aragon Wiki with Tatu.", 
+            "title": "Wiki review"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm06/john/#updates-to-frontline", 
+            "text": "Worked with Tatu to learn about the Frontline program's history and start charting a course for the future.", 
+            "title": "Updates to #Frontline"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm06/john/#begin-planning-transition-to-community-governance", 
+            "text": "Had a discussion with Luis and Tatu about the future of the Aragon Foundation and the Core team after the transition to community governance via DAO.", 
+            "title": "Begin planning transition to community governance"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm06/john/#team-interview-post", 
+            "text": "Sent answers to Tatu along with a photo to use for the post.", 
+            "title": "Team interview post"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm06/john/#aragon-network-deep-dive", 
+            "text": "Learned more about the Aragon Network, ANT use-cases, and Aragon Network Services from Luis and Tatu.", 
+            "title": "Aragon Network deep-dive"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm06/john/#next", 
+            "text": "", 
+            "title": "Next"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm06/john/#complete-onboarding", 
+            "text": "Finish reading through all community documentation, past meeting notes, and other docs.", 
+            "title": "Complete onboarding"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm06/john/#start-2018-community-strategy-doc", 
+            "text": "Begin planning for community growth and engagement in 2018, especially around taking advantage of the impact the mainnet launch will have on public interest.", 
+            "title": "Start 2018 Community Strategy doc"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm06/john/#team-bonding", 
+            "text": "Continue getting to know members of the team better so we can help each other achieve great things together.", 
+            "title": "Team bonding"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm06/john/#organizing-the-organization", 
+            "text": "Review team organization processes and provide feedback wherever it's needed. Help the core team operations run smoothly.", 
+            "title": "Organizing the organization"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm06/jorge/", 
+            "text": "Aragon Community Meeting 06 Write-Up for November\n\n\nJorge - Tech Lead\n\n\nSecurity Audits\n\n\n\n\nThe first security audits for \naragon-core\n and \naragon-apps\n were completed.\n\n\nNo major issues were found, though it triggered \nsome\n \nchanges\n.\n\n\nAudit report will be made public soon.\n\n\n\n\nAragonID (credits to @Brett)\n\n\n\n\nBasic identity system for v0.5 release\n\n\nSecure ENS subdomain registrars by minimizing trust until main registrar update.\n\n\n\n\nDevcon talk\n\n\n\n\nSpoke at Ethereum Foundation's developers conference about Aragon's approach to smart contract upgradeability.\n\n\nVideo and slides can be \nfound here\n\n\n\n\nNext\n\n\nTowards v0.5 release\n\n\n\n\nWhen all smart contracts are integrated into the client, start final security audits.\n\n\nPublic bug bounty program for all v0.5 contracts\n\n\nFinalize deployment pipeline work\n\n\n\n\nOrganization\n\n\n\n\nImprove goal setting and deadlines management\n\n\nClear roadmap for next releases\n\n\nImprove documentation and overall experience for external contributors", 
+            "title": "Write-Up - Jorge"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm06/jorge/#aragon-community-meeting-06-write-up-for-november", 
+            "text": "", 
+            "title": "Aragon Community Meeting 06 Write-Up for November"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm06/jorge/#jorge-tech-lead", 
+            "text": "", 
+            "title": "Jorge - Tech Lead"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm06/jorge/#security-audits", 
+            "text": "The first security audits for  aragon-core  and  aragon-apps  were completed.  No major issues were found, though it triggered  some   changes .  Audit report will be made public soon.", 
+            "title": "Security Audits"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm06/jorge/#aragonid-credits-to-brett", 
+            "text": "Basic identity system for v0.5 release  Secure ENS subdomain registrars by minimizing trust until main registrar update.", 
+            "title": "AragonID (credits to @Brett)"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm06/jorge/#devcon-talk", 
+            "text": "Spoke at Ethereum Foundation's developers conference about Aragon's approach to smart contract upgradeability.  Video and slides can be  found here", 
+            "title": "Devcon talk"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm06/jorge/#next", 
+            "text": "", 
+            "title": "Next"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm06/jorge/#towards-v05-release", 
+            "text": "When all smart contracts are integrated into the client, start final security audits.  Public bug bounty program for all v0.5 contracts  Finalize deployment pipeline work", 
+            "title": "Towards v0.5 release"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm06/jorge/#organization", 
+            "text": "Improve goal setting and deadlines management  Clear roadmap for next releases  Improve documentation and overall experience for external contributors", 
+            "title": "Organization"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm06/luis/", 
+            "text": "Aragon Community Meeting 06 Write-Up for November\n\n\nLuis - Project Lead\n\n\nHiring\n\n\n\n\nHelped hiring for\n\n\nEVM/Solidity: Welcome, Brett!\n\n\nCommunity Lead: Welcome, John!\n\n\n\n\n\n\nHelped setting up a shared inbox for hiring\n\n\n\n\nStrategy\n\n\n\n\nThought about ways VCs interested into the Aragon ecosystem can invest funds into developing it\n\n\nAlso thought of how to invest some of the token sale funds into the ecosystem without much friction/without becoming VCs (that\u2019s not our focus)\n\n\nWorked alongside with Maria, Jorge and Placeholder on the grants program\n\n\nCommented on Aragon Labs proposals\n\n\n\n\nDev\n\n\n\n\nWorked on the new website\n\n\nSome fixes for aragon-ui\n\n\n\n\nDesign\n\n\n\n\nCreated a design challenge for the Design opening\n\n\nCreated some visual assets\n\n\n\n\nEvents\n\n\n\n\ndevcon!\n\n\nInterviewed multiple key people for some interviews and a video that will come out soon\n\n\nTalked at the Aragon Helsinki meetup\n\n\n\n\nInternal\n\n\n\n\nContinued token buyback\n\n\nLegal stuff\n\n\n\n\nCommunity\n\n\n\n\nAGP7\n\n\n\n\nNext\n\n\nHiring\n\n\n\n\nFill Operations Assistant position\n\n\nMake progress on filling the Design Lead opening\n\n\nMake progress on hiring a Frontend Dev\n\n\n\n\nInternal\n\n\n\n\nReview Q4 goals for newly onboarded\n\n\n\n\nStrategy\n\n\n\n\nOversee the announcement of the Grants program\n\n\nOversee the announcement of Aragon Labs\n\n\n\n\nCommunity\n\n\n\n\nRelease the signaling app", 
+            "title": "Write-Up - Luis"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm06/luis/#aragon-community-meeting-06-write-up-for-november", 
+            "text": "", 
+            "title": "Aragon Community Meeting 06 Write-Up for November"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm06/luis/#luis-project-lead", 
+            "text": "", 
+            "title": "Luis - Project Lead"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm06/luis/#hiring", 
+            "text": "Helped hiring for  EVM/Solidity: Welcome, Brett!  Community Lead: Welcome, John!    Helped setting up a shared inbox for hiring", 
+            "title": "Hiring"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm06/luis/#strategy", 
+            "text": "Thought about ways VCs interested into the Aragon ecosystem can invest funds into developing it  Also thought of how to invest some of the token sale funds into the ecosystem without much friction/without becoming VCs (that\u2019s not our focus)  Worked alongside with Maria, Jorge and Placeholder on the grants program  Commented on Aragon Labs proposals", 
+            "title": "Strategy"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm06/luis/#dev", 
+            "text": "Worked on the new website  Some fixes for aragon-ui", 
+            "title": "Dev"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm06/luis/#design", 
+            "text": "Created a design challenge for the Design opening  Created some visual assets", 
+            "title": "Design"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm06/luis/#events", 
+            "text": "devcon!  Interviewed multiple key people for some interviews and a video that will come out soon  Talked at the Aragon Helsinki meetup", 
+            "title": "Events"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm06/luis/#internal", 
+            "text": "Continued token buyback  Legal stuff", 
+            "title": "Internal"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm06/luis/#community", 
+            "text": "AGP7", 
+            "title": "Community"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm06/luis/#next", 
+            "text": "", 
+            "title": "Next"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm06/luis/#hiring_1", 
+            "text": "Fill Operations Assistant position  Make progress on filling the Design Lead opening  Make progress on hiring a Frontend Dev", 
+            "title": "Hiring"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm06/luis/#internal_1", 
+            "text": "Review Q4 goals for newly onboarded", 
+            "title": "Internal"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm06/luis/#strategy_1", 
+            "text": "Oversee the announcement of the Grants program  Oversee the announcement of Aragon Labs", 
+            "title": "Strategy"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm06/luis/#community_1", 
+            "text": "Release the signaling app", 
+            "title": "Community"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm06/luke/", 
+            "text": "Aragon Community Meeting 06 Write-Up for November\n\n\nLuke - Research Lead\n\n\nAragon Labs\n\n\n\n\nPlanning and Project definition\n\n\nResearched and engaged with projects that would be good fit for participation\n\n\n\n\nResearch\n\n\n\n\nOff-chain tabulation of votes (Ongoing)\n\n\nSecure/Private voting mechanism using sMPC and group signatures (Ongoing)\n\n\nGovernance over inflationary token supplies (Ongoing)\n\n\nToken curated registries (Ongoing)\n\n\nCryptoeconomics of Aragon Network services (Ongoing)\n\n\n\n\nNext\n\n\nAragon Labs\n\n\n\n\nCreate repo and documentation for Aragon Labs community contributions\n\n\nConfirm initial batch of project participants\n\n\nEstablish project roadmap and timelines \n\n\n\n\nResearch\n\n\n\n\nContinue ongoing research efforts\n\n\nExperiment with Signaling/CarbonFeedback dapp\n\n\nDocument research in Aragon Labs repo and/or blog posts", 
+            "title": "Write-Up - Luke"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm06/luke/#aragon-community-meeting-06-write-up-for-november", 
+            "text": "", 
+            "title": "Aragon Community Meeting 06 Write-Up for November"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm06/luke/#luke-research-lead", 
+            "text": "", 
+            "title": "Luke - Research Lead"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm06/luke/#aragon-labs", 
+            "text": "Planning and Project definition  Researched and engaged with projects that would be good fit for participation", 
+            "title": "Aragon Labs"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm06/luke/#research", 
+            "text": "Off-chain tabulation of votes (Ongoing)  Secure/Private voting mechanism using sMPC and group signatures (Ongoing)  Governance over inflationary token supplies (Ongoing)  Token curated registries (Ongoing)  Cryptoeconomics of Aragon Network services (Ongoing)", 
+            "title": "Research"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm06/luke/#next", 
+            "text": "", 
+            "title": "Next"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm06/luke/#aragon-labs_1", 
+            "text": "Create repo and documentation for Aragon Labs community contributions  Confirm initial batch of project participants  Establish project roadmap and timelines", 
+            "title": "Aragon Labs"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm06/luke/#research_1", 
+            "text": "Continue ongoing research efforts  Experiment with Signaling/CarbonFeedback dapp  Document research in Aragon Labs repo and/or blog posts", 
+            "title": "Research"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm06/maria/", 
+            "text": "Aragon Community Meeting 06 Write-Up for November\n\n\nMaria \u2013 Strategy and Ops Lead\n\n\nStrategy\n\n\n\n\nAragon grants: helped planned the general structure and definition \n\n\nAragon fund: general research and planning the structure and definition\n\n\nAragon proxy: started working with key lawyers that will potentially assist us on this project\n\n\nAragon Labs: helped planned the general structure and definition \n\n\n\n\nOperations\n\n\n\n\nAccounting: we started working with EY as the Aragon foundation\u2019s accountants \n\n\nHiring: helped with the initial candidates screening for several positions\n\n\nEvents: helped with the logistics and coordination for the production of a video about the why of Aragon. For this video we did a couple of interviews to key people in Cancun (devcon3)\n\n\n\n\nNext\n\n\nStrategy:\n\n\n\n\nContinue developing the different initiatives/projects mentioned above\n\n\n\n\nOperations:\n\n\n\n\nAssist our accountants on the closing of the fiscal year\n\n\nFill operations assistant positions", 
+            "title": "Write-Up - Maria"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm06/maria/#aragon-community-meeting-06-write-up-for-november", 
+            "text": "", 
+            "title": "Aragon Community Meeting 06 Write-Up for November"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm06/maria/#maria-strategy-and-ops-lead", 
+            "text": "", 
+            "title": "Maria \u2013 Strategy and Ops Lead"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm06/maria/#strategy", 
+            "text": "Aragon grants: helped planned the general structure and definition   Aragon fund: general research and planning the structure and definition  Aragon proxy: started working with key lawyers that will potentially assist us on this project  Aragon Labs: helped planned the general structure and definition", 
+            "title": "Strategy"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm06/maria/#operations", 
+            "text": "Accounting: we started working with EY as the Aragon foundation\u2019s accountants   Hiring: helped with the initial candidates screening for several positions  Events: helped with the logistics and coordination for the production of a video about the why of Aragon. For this video we did a couple of interviews to key people in Cancun (devcon3)", 
+            "title": "Operations"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm06/maria/#next", 
+            "text": "", 
+            "title": "Next"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm06/maria/#strategy_1", 
+            "text": "Continue developing the different initiatives/projects mentioned above", 
+            "title": "Strategy:"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm06/maria/#operations_1", 
+            "text": "Assist our accountants on the closing of the fiscal year  Fill operations assistant positions", 
+            "title": "Operations:"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm06/oliver/", 
+            "text": "Aragon Community Meeting 06 Write-Up for November\n\n\nOliver - Glue\n\n\nWorkshop in Madrid\n\n\nI went to Madrid to work with Brett, Luis and Jorge on identity. I also got time to work on aragon-dev-cli.\n\n\naragon-dev-cli\n\n\n\n\nAdded scaffolding support, so it is now possible to create projects faster\n\n\nAlso created two templates (react and bare).\n\n\n\n\n\n\nStarted doing a \nbig\n refactor of the CLI internals which will give the CLI a new look and feel, but also make it easier to implement new features\n\n\nStarted working a bit on a new command: playground. It spins up a development environment with APM set up and a DAO for testing purposes.\n\n\n\n\nnatspec lite (radspec)\n\n\nThe way natspec works now is insecure, since any valid JavaScript goes.\n\n\nThe current library simply evaluates the JavaScript expressions, which is a threat to dapps, since comments in code could potentially alter the UI and trick the user.\n\n\nSince we rely on natspec for describing transactions in Aragon, we started working on a stripped-down version.\n\n\n\n\nThe basic syntax is down\n\n\nAST traversal is done\n\n\nThe parser is almost complete\n\n\n\n\nThis project will be released in December.\n\n\nGeneral planning\n\n\nI've worked closely with Jorge to identify potential issues and new features, such as a governance layer for APM repositories.\n\n\nNext\n\n\naragon-dev-cli\n\n\n\n\nFinish refactor\n\n\nFinish playground command\n\n\n\n\nnode-aragon\n\n\n\n\nSplit the library and rename the two new parts to \n@aragon/wrapper\n and \n@aragon/client\n respectively\n\n\nFinish transaction pathing\n\n\nStart work on remaining RPC calls", 
+            "title": "Write-Up - Oliver"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm06/oliver/#aragon-community-meeting-06-write-up-for-november", 
+            "text": "", 
+            "title": "Aragon Community Meeting 06 Write-Up for November"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm06/oliver/#oliver-glue", 
+            "text": "", 
+            "title": "Oliver - Glue"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm06/oliver/#workshop-in-madrid", 
+            "text": "I went to Madrid to work with Brett, Luis and Jorge on identity. I also got time to work on aragon-dev-cli.", 
+            "title": "Workshop in Madrid"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm06/oliver/#aragon-dev-cli", 
+            "text": "Added scaffolding support, so it is now possible to create projects faster  Also created two templates (react and bare).    Started doing a  big  refactor of the CLI internals which will give the CLI a new look and feel, but also make it easier to implement new features  Started working a bit on a new command: playground. It spins up a development environment with APM set up and a DAO for testing purposes.", 
+            "title": "aragon-dev-cli"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm06/oliver/#natspec-lite-radspec", 
+            "text": "The way natspec works now is insecure, since any valid JavaScript goes.  The current library simply evaluates the JavaScript expressions, which is a threat to dapps, since comments in code could potentially alter the UI and trick the user.  Since we rely on natspec for describing transactions in Aragon, we started working on a stripped-down version.   The basic syntax is down  AST traversal is done  The parser is almost complete   This project will be released in December.", 
+            "title": "natspec lite (radspec)"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm06/oliver/#general-planning", 
+            "text": "I've worked closely with Jorge to identify potential issues and new features, such as a governance layer for APM repositories.", 
+            "title": "General planning"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm06/oliver/#next", 
+            "text": "", 
+            "title": "Next"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm06/oliver/#aragon-dev-cli_1", 
+            "text": "Finish refactor  Finish playground command", 
+            "title": "aragon-dev-cli"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm06/oliver/#node-aragon", 
+            "text": "Split the library and rename the two new parts to  @aragon/wrapper  and  @aragon/client  respectively  Finish transaction pathing  Start work on remaining RPC calls", 
+            "title": "node-aragon"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm06/pierre/", 
+            "text": "Aragon Community Meeting 06 Write-Up for November\n\n\nPierre - UI \n Interaction Developer\n\n\nAragon UI\n\n\n\n\nAragon UI ported to React (\n0.3\n)\n\n\nNew components:\n\n\nDropDown\n\n\nAragonApp\n\n\nCard\n\n\nSideBar\n\n\nThe way Aragon UI is imported in a project is better (but not ideal yet: we are still thinking about it and it will probably change in the next version).\n\n\n\n\nAragon Apps\n\n\n\n\nGroups (UI)\n\n\n\n\nWeb\n\n\n\n\nNew aragon.one\n\n\n\n\nNext\n\n\nAragon UI\n\n\n\n\nMore components\n\n\nKeep improving the following:\n\n\nAccessibility\n\n\nPerformances\n\n\nVisual consistency\n\n\nAPI consistency\n\n\nBlog post to introduce Aragon UI\n\n\n\n\nAragon Apps\n\n\n\n\nSettings\n\n\nPermissions\n\n\nMore apps\n\n\n\n\nWeb\n\n\n\n\nImprove aragon.one: accessibility, perceived performances", 
+            "title": "Write-Up - Pierre"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm06/pierre/#aragon-community-meeting-06-write-up-for-november", 
+            "text": "", 
+            "title": "Aragon Community Meeting 06 Write-Up for November"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm06/pierre/#pierre-ui-interaction-developer", 
+            "text": "", 
+            "title": "Pierre - UI &amp; Interaction Developer"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm06/pierre/#aragon-ui", 
+            "text": "Aragon UI ported to React ( 0.3 )  New components:  DropDown  AragonApp  Card  SideBar  The way Aragon UI is imported in a project is better (but not ideal yet: we are still thinking about it and it will probably change in the next version).", 
+            "title": "Aragon UI"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm06/pierre/#aragon-apps", 
+            "text": "Groups (UI)", 
+            "title": "Aragon Apps"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm06/pierre/#web", 
+            "text": "New aragon.one", 
+            "title": "Web"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm06/pierre/#next", 
+            "text": "", 
+            "title": "Next"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm06/pierre/#aragon-ui_1", 
+            "text": "More components  Keep improving the following:  Accessibility  Performances  Visual consistency  API consistency  Blog post to introduce Aragon UI", 
+            "title": "Aragon UI"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm06/pierre/#aragon-apps_1", 
+            "text": "Settings  Permissions  More apps", 
+            "title": "Aragon Apps"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm06/pierre/#web_1", 
+            "text": "Improve aragon.one: accessibility, perceived performances", 
+            "title": "Web"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm06/tatu/", 
+            "text": "Aragon Community Meeting 06 Write-Up for November\n\n\nTatu - Community Lead\n\n\nNew website copy\n\n\nWorked on writing the initial new copy of the new website, reviewed and edited in collaboration with Luis and John on refining the copy.\n\n\nAragon Meetup in Helsinki\n\n\nContacting people for presenting at the event, talking to people and booking the venue for the event, planning, organizing, preparing and executing the \nAragon Meetup Helsinki\n event on 23rd of November 2017.\n\n\nUpdates to Aragon Chat\n\n\n\n\nCreate #governance channel\n\n\nAssign people permissions\n\n\nPost updates to #announcements\n\n\nGeneral talking to people and welcoming them\n\n\n\n\nUpdates with Wachsman PR\n\n\n\n\nMonthly update call\n\n\nQ\nA with their team\n\n\n\n\nUpdates to the wiki\n\n\n16 different commits to the wiki so far\n\n\nQ3 Transparency Report blog post\n\n\n\n\nCollect the information, write and publish the blog post\n\n\nhttps://blog.aragon.one/aragon-q3-transparency-report-5f517c154c47\n\n\n\n\nPierre's Team Interview blog post\n\n\n\n\nPrepare the questions, review the answers and turn them into a blog post\n\n\nhttps://blog.aragon.one/team-interviews-pierre-aragons-frontend-developer-585a30e90369\n\n\n\n\nAGP7: Merge Aragon HQ and Community meetings\n\n\n\n\nDiscuss details of the proposal\n\n\nWrite the changes to Community Governance Model and close the issue in Github\n\n\n\n\nNext\n\n\nMore wiki updates\n\n\n\n\nContinue working on improving the wiki\n\n\n\n\nMore blog posts\n\n\nThere will be more team interviews and other posts coming\n\n\nContinue working on overall communication Strategy\n\n\nContinue on helping and growing the community", 
+            "title": "Write-Up - Tatu"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm06/tatu/#aragon-community-meeting-06-write-up-for-november", 
+            "text": "", 
+            "title": "Aragon Community Meeting 06 Write-Up for November"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm06/tatu/#tatu-community-lead", 
+            "text": "", 
+            "title": "Tatu - Community Lead"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm06/tatu/#new-website-copy", 
+            "text": "Worked on writing the initial new copy of the new website, reviewed and edited in collaboration with Luis and John on refining the copy.", 
+            "title": "New website copy"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm06/tatu/#aragon-meetup-in-helsinki", 
+            "text": "Contacting people for presenting at the event, talking to people and booking the venue for the event, planning, organizing, preparing and executing the  Aragon Meetup Helsinki  event on 23rd of November 2017.", 
+            "title": "Aragon Meetup in Helsinki"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm06/tatu/#updates-to-aragon-chat", 
+            "text": "Create #governance channel  Assign people permissions  Post updates to #announcements  General talking to people and welcoming them", 
+            "title": "Updates to Aragon Chat"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm06/tatu/#updates-with-wachsman-pr", 
+            "text": "Monthly update call  Q A with their team", 
+            "title": "Updates with Wachsman PR"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm06/tatu/#updates-to-the-wiki", 
+            "text": "16 different commits to the wiki so far", 
+            "title": "Updates to the wiki"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm06/tatu/#q3-transparency-report-blog-post", 
+            "text": "Collect the information, write and publish the blog post  https://blog.aragon.one/aragon-q3-transparency-report-5f517c154c47", 
+            "title": "Q3 Transparency Report blog post"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm06/tatu/#pierres-team-interview-blog-post", 
+            "text": "Prepare the questions, review the answers and turn them into a blog post  https://blog.aragon.one/team-interviews-pierre-aragons-frontend-developer-585a30e90369", 
+            "title": "Pierre's Team Interview blog post"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm06/tatu/#agp7-merge-aragon-hq-and-community-meetings", 
+            "text": "Discuss details of the proposal  Write the changes to Community Governance Model and close the issue in Github", 
+            "title": "AGP7: Merge Aragon HQ and Community meetings"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm06/tatu/#next", 
+            "text": "", 
+            "title": "Next"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm06/tatu/#more-wiki-updates", 
+            "text": "Continue working on improving the wiki", 
+            "title": "More wiki updates"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm06/tatu/#more-blog-posts", 
+            "text": "There will be more team interviews and other posts coming", 
+            "title": "More blog posts"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm06/tatu/#continue-working-on-overall-communication-strategy", 
+            "text": "", 
+            "title": "Continue working on overall communication Strategy"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm06/tatu/#continue-on-helping-and-growing-the-community", 
+            "text": "", 
+            "title": "Continue on helping and growing the community"
         }, 
         {
             "location": "/meetings/community/05/", 

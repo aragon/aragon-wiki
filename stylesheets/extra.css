@@ -1,67 +1,67 @@
 [data-md-color-primary=blue-grey] .md-header {
-  background-color: #373737;
+    background-color: #373737;
 }
 
 .md-search__input {
-  border-radius: .2rem .2rem 0 0;
-  background-color: #606060;
-  color: rgba(0, 0, 0, .87);
-  text-overflow: none;
-  border-radius: 4px;
+    border-radius: .2rem .2rem 0 0;
+    background-color: #606060;
+    color: rgba(0,0,0,.87);
+    text-overflow: none;
+    border-radius: 4px;
 }
 
 [data-md-color-primary=blue-grey] .md-nav__link--active, [data-md-color-primary=blue-grey] .md-nav__link:active {
-  color: #2FB7DE;
+    color: #2FB7DE;
 }
 
 [data-md-color-primary=blue-grey] .md-nav--secondary {
-  border-left: .4rem solid #00d3e3;
+    border-left: .4rem solid #00d3e3;
 }
 
 [title~="January"] {
-  font-weight: bold;
+    font-weight: bold;
 }
 
 [title~="February"] {
-  font-weight: bold;
+    font-weight: bold;
 }
 
 [title~="March"] {
-  font-weight: bold;
+    font-weight: bold;
 }
 
 [title~="April"] {
-  font-weight: bold;
+    font-weight: bold;
 }
 
 [title~="May"] {
-  font-weight: bold;
+    font-weight: bold;
 }
 
 [title~="June"] {
-  font-weight: bold;
+    font-weight: bold;
 }
 
 [title~="July"] {
-  font-weight: bold;
+    font-weight: bold;
 }
 
 [title~="August"] {
-  font-weight: bold;
+    font-weight: bold;
 }
 
 [title~="September"] {
-  font-weight: bold;
+    font-weight: bold;
 }
 
 [title~="October"] {
-  font-weight: bold;
+    font-weight: bold;
 }
 
 [title~="November"] {
-  font-weight: bold;
+    font-weight: bold;
 }
 
 [title~="December"] {
-  font-weight: bold;
+    font-weight: bold;
 }
