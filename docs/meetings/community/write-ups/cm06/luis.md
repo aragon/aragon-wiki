@@ -11,8 +11,7 @@
 #### Strategy
 - Thought about ways VCs interested into the Aragon ecosystem can invest funds into developing it
 - Also thought of how to invest some of the token sale funds into the ecosystem without much friction/without becoming VCs (that’s not our focus)
-- Worked alongside with Maria, Jorge and Placeholder on the grants program
-- Commented on Aragon Labs proposals
+- Worked alongside with Maria, Jorge and third parties on this
 
 #### Dev
 - Worked on the new website
@@ -45,8 +44,7 @@
 - Review Q4 goals for newly onboarded
 
 #### Strategy
-- Oversee the announcement of the Grants program
-- Oversee the announcement of Aragon Labs
+- Oversee new announcements
 
 #### Community
 - Release the signaling app

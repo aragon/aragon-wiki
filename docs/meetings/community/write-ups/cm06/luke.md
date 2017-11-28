@@ -2,7 +2,7 @@
 
 ### Luke - Research Lead
 
-#### Aragon Labs
+#### Aragon Research Project
 - Planning and Project definition
 - Researched and engaged with projects that would be good fit for participation
 
@@ -15,12 +15,12 @@
 
 ### Next
 
-#### Aragon Labs
-- Create repo and documentation for Aragon Labs community contributions
+#### Aragon Research Project
+- Create repo and documentation for Aragon Research Project community contributions
 - Confirm initial batch of project participants
-- Establish project roadmap and timelines 
+- Establish project roadmap and timelines
 
 #### Research
 - Continue ongoing research efforts
 - Experiment with Signaling/CarbonFeedback dapp
-- Document research in Aragon Labs repo and/or blog posts
+- Document research in Aragon Research Project repo and/or blog posts
