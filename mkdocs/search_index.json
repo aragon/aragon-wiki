@@ -2532,13 +2532,18 @@
         }, 
         {
             "location": "/videos/presentations/", 
-            "text": "Aragon Presentation Videos\n\n\nDesigning future-proof smart contract systems\n\n\nby Jorge Izquierdo at \nDevcon3\n\n\nSlides of the presentation", 
+            "text": "Aragon Presentation Videos\n\n\nDemocratizing Governance\n\n\nby Luis Cuende at \nAragon Meetup - Helsinki\n  \n\n\nDesigning future-proof smart contract systems\n\n\nby Jorge Izquierdo at \nDevcon3\n\n\nSlides of the presentation", 
             "title": "Presentations"
         }, 
         {
             "location": "/videos/presentations/#aragon-presentation-videos", 
             "text": "", 
             "title": "Aragon Presentation Videos"
+        }, 
+        {
+            "location": "/videos/presentations/#democratizing-governance", 
+            "text": "by Luis Cuende at  Aragon Meetup - Helsinki", 
+            "title": "Democratizing Governance"
         }, 
         {
             "location": "/videos/presentations/#designing-future-proof-smart-contract-systems", 
