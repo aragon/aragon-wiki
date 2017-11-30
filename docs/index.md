@@ -20,22 +20,31 @@ Here's a brief summary of the contents:
     - Finalized versions of the [Aragon Governance Proposal](https://github.com/aragon/governance/issues) documents
     - Information about the Aragon multisig structure and wallets
 
+- Development  
+
+    - Technical descriptions and documentation for AragonOS, Aragon Core, and Aragon apps
+
+- Design  
+
+    - Visual assets of the Aragon project  
+    - App UI, brand guidelines, logos, merchandise, and more  
+
 - Meetings
 
-    - Information and agenda's of our public meetings
+    - Information and agendas for our public meetings  
 
 - Jobs
 
-    - Details about our culture, work conditions and guide for applying to work at Aragon
-    - Our current job openings
+    - Details about our culture, work conditions and guide for applying to work at Aragon  
+    - Our current job openings  
 
-- Blog posts
+- Blog posts  
 
-    - Index and links to all of our blog posts
+    - Index and links to all of our blog posts  
 
-- Videos
+- Videos  
 
-    - Links to all our videos
+    - Links to all our videos  
 
 
 ## What is Aragon?
