@@ -101,5 +101,4 @@ We believe that the **blockchain** and the **Internet** are changing the incenti
 **Dev Team**
 
 - **Senior Full Stack Web3 Engineer**: [Oliver Nordbjerg](https://twitter.com/ONordbjerg)
-- **Product Engineer**: [Harsh Vakharia](https://twitter.com/harshjv)
 - **Frontend Developer**: [Pierre Bertet](https://twitter.com/bpierre)
