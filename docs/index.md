@@ -20,9 +20,18 @@ Here's a brief summary of the contents:
     - Finalized versions of the [Aragon Governance Proposal](https://github.com/aragon/governance/issues) documents
     - Information about the Aragon multisig structure and wallets
 
+- Development  
+
+    - Technical descriptions and documentation for Aragon software projects
+    
+- Design
+
+   - Visual assets of the Aragon project
+   - App UI, brand guidelines, logos, merchandise, and more
+
 - Meetings
 
-    - Information and agenda's of our public meetings
+    - Information and agendas for our public meetings
 
 - Jobs
 
