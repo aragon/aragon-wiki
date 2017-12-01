@@ -86,7 +86,6 @@ pages:
   - Jobs:
     - Overview: 'jobs/index.md'
     - Openings:
-      - Operations Assistant: 'jobs/openings/ops.md'
       - EVM/Solidity Engineer: 'jobs/openings/solidity.md'
       - Frontend and web3 Developer: 'jobs/openings/frontend.md'
       - Product Manager: 'jobs/openings/product_manager.md'
