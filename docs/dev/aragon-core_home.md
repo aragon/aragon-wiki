@@ -2,7 +2,7 @@
 
 `aragon-core` is the home of the smart contracts used to run Aragon organizations. It contains abstractions for the kernel, the DAO and apps.
 
-The initial part of the [AragonOS document](../AragonOS/#1-kernel-and-the-access-control-list) goes in-depth on how the Kernel works.
+The initial part of the [AragonOS document](AragonOS/#1-kernel-and-the-access-control-list) goes in-depth on how the Kernel works.
 
 The project structure is as follows:
 
