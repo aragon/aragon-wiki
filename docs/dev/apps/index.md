@@ -9,4 +9,4 @@ At the moment, there are six apps as part of the [Aragon apps repo](https://gith
 - [Group](./group)
 - [Fundraising](./fundraising)
 - [Vault](./vault)
-- [Finance](./voting)
+- [Finance](./finance)
