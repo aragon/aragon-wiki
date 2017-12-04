@@ -1822,7 +1822,7 @@
         }, 
         {
             "location": "/jobs/", 
-            "text": "Job Openings\n\n\nCulture \ud83c\udf0d\n\n\n\n\nWe are a \nfully distributed\n company \u2013 we don't think talent is geographically centralized. We do offsites regularly for the team to meet and work together for a week.\n\n\nWe empower \ndeep work\n sessions, minimizing bureaucracy and leaving Monday for all meetings and internal calls.\n\n\nWe encourage team members to spend a substantial part of their paid work time on unrelated blockchain open source projects to speed up the development of the ecosystem.\n\n\nWe are \nopen source only\n.\n\n\nWe are a technology company. Our focus is \nproduct first\n.\n\n\n\n\nWork conditions \ud83d\ude80\n\n\n\n\nFull time\n commitment. Side projects and open source are accepted (and encouraged).\n\n\nCompletely \nremote\n position, no relocation required.\n\n\nVery competitive compensation.\n\n\nYou decide \nhow to allocate your salary in fiat, ETH or ANT\n.\n\n\nYearly bonus in ANT based on performance.\n\n\nWe empower autonomous workers with a proactive attitude and a love for time self-management.\n\n\n\n\nOpenings \ud83d\ude4b\ud83c\udffe\ud83d\ude4b\u200d\u2642\ufe0f\n\n\n\n\nOperations Assistant\n\n\nEVM/Solidity Engineer\n\n\nFrontend and web3 Developer\n\n\nDeveloper Relations\n\n\nProduct Manager\n\n\nDesign Lead\n\n\n\n\nApplying \ud83d\udcdd\n\n\n\n\n\n\nWrite an email with any info you consider relevant to \nhiring@aragon.one\n, with the subject \n${insert_position_here} opening application\n.\n\n\n\n\n\n\nThe generic things we are looking for in the application are:\n\n\n\n\n\n\nA couple paragraphs explaining with your involvement and experience in the crypto community.\n\n\n\n\n\n\nAll the references to your past work\n\n\n\n\nGitHub for developers. Since we are open source only, we require applicants for developer positions to have a very active and healthy GitHub profile.\n\n\nDribbble/Behance/portfolio for designers\n\n\nCV/LinkedIn for other positions\n\n\n\n\n\n\n\n\nWe really value people that have previously \ncontributed to the project\n in a voluntary manner, or that are \ncommunity members\n.\n\n\n\n\nWe value what you can do and your attitude doing it, not where/whether you went to school or college.\n\n\n\n\nMore specific instructions for each position can be found in the openings.", 
+            "text": "Job Openings\n\n\nCulture \ud83c\udf0d\n\n\n\n\nWe are a \nfully distributed\n company \u2013 we don't think talent is geographically centralized. We do offsites regularly for the team to meet and work together for a week.\n\n\nWe empower \ndeep work\n sessions, minimizing bureaucracy and leaving Monday for all meetings and internal calls.\n\n\nWe encourage team members to spend a substantial part of their paid work time on unrelated blockchain open source projects to speed up the development of the ecosystem.\n\n\nWe are \nopen source only\n.\n\n\nWe are a technology company. Our focus is \nproduct first\n.\n\n\n\n\nWork conditions \ud83d\ude80\n\n\n\n\nFull time\n commitment. Side projects and open source are accepted (and encouraged).\n\n\nCompletely \nremote\n position, no relocation required.\n\n\nVery competitive compensation.\n\n\nYou decide \nhow to allocate your salary in fiat, ETH or ANT\n.\n\n\nYearly bonus in ANT based on performance.\n\n\nWe empower autonomous workers with a proactive attitude and a love for time self-management.\n\n\n\n\nOpenings \ud83d\ude4b\ud83c\udffe\ud83d\ude4b\u200d\u2642\ufe0f\n\n\n\n\nEVM/Solidity Engineer\n\n\nFrontend and web3 Developer\n\n\nDeveloper Relations\n\n\nProduct Manager\n\n\nDesign Lead\n\n\n\n\nApplying \ud83d\udcdd\n\n\n\n\n\n\nWrite an email with any info you consider relevant to \nhiring@aragon.one\n, with the subject \n${insert_position_here} opening application\n.\n\n\n\n\n\n\nThe generic things we are looking for in the application are:\n\n\n\n\n\n\nA couple paragraphs explaining with your involvement and experience in the crypto community.\n\n\n\n\n\n\nAll the references to your past work\n\n\n\n\nGitHub for developers. Since we are open source only, we require applicants for developer positions to have a very active and healthy GitHub profile.\n\n\nDribbble/Behance/portfolio for designers\n\n\nCV/LinkedIn for other positions\n\n\n\n\n\n\n\n\nWe really value people that have previously \ncontributed to the project\n in a voluntary manner, or that are \ncommunity members\n.\n\n\n\n\nWe value what you can do and your attitude doing it, not where/whether you went to school or college.\n\n\n\n\nMore specific instructions for each position can be found in the openings.", 
             "title": "Overview"
         }, 
         {
@@ -1842,48 +1842,13 @@
         }, 
         {
             "location": "/jobs/#openings", 
-            "text": "Operations Assistant  EVM/Solidity Engineer  Frontend and web3 Developer  Developer Relations  Product Manager  Design Lead", 
+            "text": "EVM/Solidity Engineer  Frontend and web3 Developer  Developer Relations  Product Manager  Design Lead", 
             "title": "Openings \ud83d\ude4b\ud83c\udffe\ud83d\ude4b\u200d\u2642\ufe0f"
         }, 
         {
             "location": "/jobs/#applying", 
             "text": "Write an email with any info you consider relevant to  hiring@aragon.one , with the subject  ${insert_position_here} opening application .    The generic things we are looking for in the application are:    A couple paragraphs explaining with your involvement and experience in the crypto community.    All the references to your past work   GitHub for developers. Since we are open source only, we require applicants for developer positions to have a very active and healthy GitHub profile.  Dribbble/Behance/portfolio for designers  CV/LinkedIn for other positions     We really value people that have previously  contributed to the project  in a voluntary manner, or that are  community members .   We value what you can do and your attitude doing it, not where/whether you went to school or college.   More specific instructions for each position can be found in the openings.", 
             "title": "Applying \ud83d\udcdd"
-        }, 
-        {
-            "location": "/jobs/openings/ops/", 
-            "text": "Ops Assistant opening at Aragon\n\n\nWe are seeking an exceptional Operations Assistant responsible for building and maintaining internal processes, coordinating team offsites and other day to day tasks.\n\n\nResponsabilities\n\n\n\n\nOwn logistics and operations for team trips, offsites and events, including activities and other needs\n\n\nTrack team expenses, generate expenses reports and work with accountants\n\n\nOwn payroll processing. Manage relationships with third-party payroll service providers\n\n\nOwn immigration and visa processes\n\n\nProvide support to the team and enhance internal processes\n\n\n\n\nRequirements\n\n\n\n\nPassion for blockchain technology and the crypto world\n\n\nAbility to be proactive with minimal guidance in a rapidly evolving environment\n\n\nExcellent organizational and communications skills\n\n\nResourceable and excellent at anticipating needs\n\n\nComfort with ambiguity and excellent at problem solving and taking action\n\n\nStrong interest in process and system improvement\n\n\nDetail oriented\n\n\nExceptional people skills\n\n\nCreative, curious, persistent and kind\n\n\n\n\nGood to have\n\n\n\n\nStrong knowledge of the blockchain technology and technology in general\n\n\n\n\nHow to apply\n\n\n\n\n\n\nWrite an email with the following attachments plus any information you consider important to \nhiring@aragon.one\n, with the subject \nOps Assistant opening application\n.\n\n\n\n\n\n\nThe things we are looking for in the application are:\n\n\n\n\n\n\nCover letter with your involvement and experience in the crypto community\n\n\n\n\nYour CV/LinkedIn\n\n\n\n\nIf you haven't, please \nread more about our culture, work conditions, etc.", 
-            "title": "Operations Assistant"
-        }, 
-        {
-            "location": "/jobs/openings/ops/#ops-assistant-opening-at-aragon", 
-            "text": "We are seeking an exceptional Operations Assistant responsible for building and maintaining internal processes, coordinating team offsites and other day to day tasks.", 
-            "title": "Ops Assistant opening at Aragon"
-        }, 
-        {
-            "location": "/jobs/openings/ops/#responsabilities", 
-            "text": "Own logistics and operations for team trips, offsites and events, including activities and other needs  Track team expenses, generate expenses reports and work with accountants  Own payroll processing. Manage relationships with third-party payroll service providers  Own immigration and visa processes  Provide support to the team and enhance internal processes", 
-            "title": "Responsabilities"
-        }, 
-        {
-            "location": "/jobs/openings/ops/#requirements", 
-            "text": "Passion for blockchain technology and the crypto world  Ability to be proactive with minimal guidance in a rapidly evolving environment  Excellent organizational and communications skills  Resourceable and excellent at anticipating needs  Comfort with ambiguity and excellent at problem solving and taking action  Strong interest in process and system improvement  Detail oriented  Exceptional people skills  Creative, curious, persistent and kind", 
-            "title": "Requirements"
-        }, 
-        {
-            "location": "/jobs/openings/ops/#good-to-have", 
-            "text": "Strong knowledge of the blockchain technology and technology in general", 
-            "title": "Good to have"
-        }, 
-        {
-            "location": "/jobs/openings/ops/#how-to-apply", 
-            "text": "Write an email with the following attachments plus any information you consider important to  hiring@aragon.one , with the subject  Ops Assistant opening application .    The things we are looking for in the application are:    Cover letter with your involvement and experience in the crypto community   Your CV/LinkedIn", 
-            "title": "How to apply"
-        }, 
-        {
-            "location": "/jobs/openings/ops/#if-you-havent-please-read-more-about-our-culture-work-conditions-etc", 
-            "text": "", 
-            "title": "If you haven't, please read more about our culture, work conditions, etc."
         }, 
         {
             "location": "/jobs/openings/solidity/", 
