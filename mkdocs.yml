@@ -62,6 +62,14 @@ pages:
     - Community:
       - Community 06:
         - Agenda: 'meetings/community/06.md'
+        - Write-Up - Brett: 'meetings/community/write-ups/cm06/brett.md'
+        - Write-Up - John: 'meetings/community/write-ups/cm06/john.md'
+        - Write-Up - Jorge: 'meetings/community/write-ups/cm06/jorge.md'
+        - Write-Up - Luis: 'meetings/community/write-ups/cm06/luis.md'
+        - Write-Up - Luke: 'meetings/community/write-ups/cm06/luke.md'
+        - Write-Up - Maria: 'meetings/community/write-ups/cm06/maria.md'
+        - Write-Up - Oliver: 'meetings/community/write-ups/cm06/oliver.md'
+        - Write-Up - Pierre: 'meetings/community/write-ups/cm06/pierre.md'
         - Write-Up - Tatu: 'meetings/community/write-ups/cm06/tatu.md'
       - Community 05: 'meetings/community/05.md'
       - Community 04: 'meetings/community/04.md'
@@ -78,7 +86,6 @@ pages:
   - Jobs:
     - Overview: 'jobs/index.md'
     - Openings:
-      - Operations Assistant: 'jobs/openings/ops.md'
       - EVM/Solidity Engineer: 'jobs/openings/solidity.md'
       - Frontend and web3 Developer: 'jobs/openings/frontend.md'
       - Product Manager: 'jobs/openings/product_manager.md'

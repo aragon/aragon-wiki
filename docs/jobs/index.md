@@ -21,7 +21,6 @@
 
 ## Openings 🙋🏾🙋‍♂️
 
-- [Operations Assistant](openings/ops.md)
 - [EVM/Solidity Engineer](openings/solidity.md)
 - [Frontend and web3 Developer](openings/frontend.md)
 - [Developer Relations](openings/dev_rel.md)
