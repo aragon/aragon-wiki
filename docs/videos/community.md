@@ -1,5 +1,15 @@
 # Aragon Community Meeting Videos
 
+## [**Aragon Community Meeting 06**](https://www.youtube.com/watch?v=KBqbQYUlmH8)
+> Streamed live on Dec 1, 2017  
+> **Meeting agenda: [http://wiki.aragon.one/meetings/community/06/](http://wiki.aragon.one/meetings/community/06/)  
+AMA Thread: [https://www.reddit.com/r/aragonproject/comments/7g3043/aragon_community_meeting_06_ama_thread/](https://www.reddit.com/r/aragonproject/comments/7g3043/aragon_community_meeting_06_ama_thread/)**
+
+## [**Aragon Community Meeting 05**](https://www.youtube.com/watch?v=FTOGidL60vs)
+> Streamed live on Nov 10, 2017  
+> **Meeting agenda: [http://wiki.aragon.one/meetings/community/05/](http://wiki.aragon.one/meetings/community/05/)  
+AMA Thread: [https://www.reddit.com/r/aragonproject/comments/7bsd70/aragon_community_meeting_05_ama_thread/](https://www.reddit.com/r/aragonproject/comments/7bsd70/aragon_community_meeting_05_ama_thread/)**
+
 ## [**Aragon Community Meeting 04**](https://www.youtube.com/watch?v=Ulo1-WB6dEg)
 > Streamed live on Oct 13, 2017  
 > **Meeting agenda: [http://wiki.aragon.one/meetings/community/04/](http://wiki.aragon.one/meetings/community/04/)  
