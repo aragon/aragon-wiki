@@ -473,6 +473,13 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
+  <a href="#create-permission" title="Create Permission" class="md-nav__link">
+    Create Permission
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#grant-permission" title="Grant Permission" class="md-nav__link">
     Grant Permission
   </a>
@@ -487,8 +494,8 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#create-permission" title="Create Permission" class="md-nav__link">
-    Create Permission
+  <a href="#set-permission-manager" title="Set Permission Manager" class="md-nav__link">
+    Set Permission Manager
   </a>
   
 </li>
@@ -1516,6 +1523,13 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
+  <a href="#create-permission" title="Create Permission" class="md-nav__link">
+    Create Permission
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#grant-permission" title="Grant Permission" class="md-nav__link">
     Grant Permission
   </a>
@@ -1530,8 +1544,8 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#create-permission" title="Create Permission" class="md-nav__link">
-    Create Permission
+  <a href="#set-permission-manager" title="Set Permission Manager" class="md-nav__link">
+    Set Permission Manager
   </a>
   
 </li>
@@ -1645,6 +1659,7 @@
                 
                 <p><center></p>
 <h1 id="aragonos">AragonOS</h1>
+<p><em>Reflects <a href="https://github.com/aragon/aragon-core">aragon-core</a> 2.0.1 implementation. Updated Dec 4th, 2017</em></p>
 <p>An <a href="https://en.wikipedia.org/wiki/Exokernel">exokernel</a>-inspired architecture for modular, upgradeable and secure DAOs
 </center></p>
 <h2 id="introduction">Introduction</h2>
@@ -1672,43 +1687,49 @@
 <p>An Entity is any actor that is represented by an Ethereum address, such as a multisig (an account that needs multiple signatures before executing an action), an app (for example a voting app that will execute an action if token holders vote favorably) or a simple private key controlled account.</p>
 <p>The system can delegate permissions to groups of entities by implementing a Group app. As other apps, it can rely on the ACL for protecting important functions such as adding or removing members of the group. When group members want to execute a specific action, the Group app acts as a proxy contract that performs the action on behalf of the group.</p>
 <h3 id="permissions">Permissions</h3>
-<p>A Permission is assigned to an Entity and allows the <code>entity</code> to execute actions related to a particular <code>role</code> in a smart contract with address <code>app</code>. The three methods described in this section, <code>createPermission</code>, <code>grantPermission</code> and <code>revokePermission</code>, all live in the Kernel.</p>
-<p>If an Entity is the parent <em>Pa</em> of a Permission <em>P</em>, it has the power to grant or revoke access to <em>P</em> for any other Entity that has been granted <em>P</em> with parent <em>Pa</em>. This is achieved by calling:</p>
-<h4 id="grant-permission">Grant Permission</h4>
-<pre><code>kernel.grantPermission(address entity, address app, bytes32 role, address parent)
+<p>A <strong>Permission</strong> is defined as the ability to perform actions (grouped in a role)
+in a certain app instance (identified by its address).</p>
+<p>We refer to a <strong>Permission Instance</strong> to whether an entity has or doesn't have a
+certain <strong>Permission</strong>.</p>
+<p>When a permission is created, a <strong>Permission Manager</strong> is set for that specific
+<strong>Permission</strong>. The permission manager is able to grant or revoke permission
+instances for that permission.</p>
+<h4 id="create-permission">Create Permission</h4>
+<pre><code>kernel.createPermission(address entity, address app, bytes32 role, address manager)
 </code></pre>
 
-<p>The <code>entity</code> would then be allowed to call all actions that their <code>role</code> can perform on that particular <code>app</code>. This would be in effect until its permission <code>parent</code> revokes it by calling <code>revokePermission</code>.</p>
-<p>In order for an Entity <em>A</em> to be able to <code>grantPermission</code> that <strong>allows</strong> Entity <em>B</em> to perform actions in role <em>X</em> on a given app, all of the following conditions must be met:</p>
-<ol>
-<li>Entity <em>A</em> must already have permission <em>P</em> to perform role <em>X</em> actions.</li>
-<li>Entity <em>A</em> must be it’s own permission parent <em>Pa</em> for permission <em>P</em>.</li>
-<li>Entity <em>B</em> does have permission to perform actions of role <em>X</em> (avoids Entity <em>A</em> being able to takeover as parent by Entity <em>B</em>).</li>
-</ol>
-<p>When setting a Permission <em>P</em>, the one granting the permission can specify the Entity that will be the parent for <em>P</em>:</p>
-<ul>
-<li>If <code>parent ≠ entity</code>, this would grant a permission to <code>entity</code> which could be removed by <code>parent</code>.</li>
-<li>If <code>parent = entity</code>, it would be equivalent to permanently granting the permission to the <code>entity</code>, so that only the parent entity itself could revoke it. Making the receiving entity its own parent also allows it to grant the permission to other entities.</li>
-<li>Making <code>parent</code> an address whose private key is unknown (e.g. <em>0xdead</em>) would effectively prevent the permission to be transferred in the future, while at the same time making it irrevocable.</li>
-</ul>
-<p>The <code>grantPermission</code> action doesn’t need to be protected with the ACL as an entity can only make changes if it is the <code>parent</code> for a given permission.</p>
+<p><code>createPermission</code> will fail if any permission instance for that permission was created before.</p>
+<p>This call is mostly identical to <code>grantPermission</code>, with the exception that it allows the creation of a new permission from scratch if it doesn’t yet exist.</p>
+<p>The <code>createPermission</code> action needs to be protected by the ACL with a role. It is an important function that could be used in malicious ways. When the Kernel is initialized, it creates the permission for an address to create new permissions.</p>
+<p>If the ACL is checked for a permission that hasn’t been created yet, the ACL won’t allow the action to be performed by default.</p>
+<h4 id="grant-permission">Grant Permission</h4>
+<pre><code>kernel.grantPermission(address entity, address app, bytes32 role)
+</code></pre>
+
+<p>The <code>entity</code> would then be allowed to call all actions that their <code>role</code> can perform on that particular <code>app</code>. This would be in effect until the permission manager revokes it by calling <code>revokePermission</code>.</p>
+<p>The <code>grantPermission</code> action doesn’t need to be protected with the ACL as an entity can only make changes if it is the <code>manager</code> for a given permission.</p>
 <h4 id="revoke-permission">Revoke Permission</h4>
 <pre><code>kernel.revokePermission(address entity, address app, bytes32 role)
 </code></pre>
 
-<p><code>revokePermission</code> can be called at any time by the <code>parent</code> of a certain permission and will remove the ability of <code>entity</code> to have <code>role</code> on <code>app</code>.</p>
-<p>The <code>revokePermission</code> action doesn’t need to be protected by the ACL either, as an entity can only make changes if it is the <code>parent</code> for a given permission.</p>
-<p>Creating new permissions from scratch for a newly installed app requires the use of another method:</p>
-<h4 id="create-permission">Create Permission</h4>
-<pre><code>kernel.createPermission(address entity, address app, bytes32 role, address parent)
+<p><code>revokePermission</code> can be called at any time by the <code>manager</code> of a certain permission and will remove the ability of <code>entity</code> to have <code>role</code> on <code>app</code>.</p>
+<p>The <code>revokePermission</code> action doesn’t need to be protected by the ACL either, as an entity can only make changes if it is the <code>manager</code> for a given permission.</p>
+<p><code>createPermission</code>, <code>grantPermission</code> and <code>revokePermission</code> fire the same event that Aragon clients must cache and use to build a locally stored version of the ACL.</p>
+<pre><code>SetPermission(address indexed from, bytes32 indexed role, address indexed to, bool allowed)
 </code></pre>
 
-<p><code>createPermission</code> will fail if there is already an entity with that permission. For this to happen, the ACL keeps track of the number of entities that have been granted a certain permission. If the counter for a permission is 0, <code>createPermission</code> will succeed.</p>
-<p>This call is mostly identical to <code>grantPermission</code>, with the exception that it allows the creation of a new permission from scratch if it doesn’t yet exist.</p>
-<p>The <code>createPermission</code> action needs to be protected by the ACL with a role. It is an important function that could be used in malicious ways. When the Kernel is initialized, it creates the permission for an address to create new permissions.</p>
-<p>If the ACL is checked for a permission that hasn’t been created yet, the ACL won’t allow the action to be performed by default.</p>
-<p><code>createPermission</code>, <code>grantPermission</code> and <code>revokePermission</code> fire the same event that Aragon clients must cache and use to build a locally stored version of the ACL.</p>
-<pre><code>PermissionSet(address from, bytes32 role, address to, address parent, bool allowed)
+<h4 id="set-permission-manager">Set Permission Manager</h4>
+<pre><code>kernel.setPermissionManager(address newManager, address app, bytes32 role)
+</code></pre>
+
+<p>Only the permission manager of a permission can call this function to set a new manager.</p>
+<p>Setting a new permission manager results in the the old permission manager losing
+management power for that permission</p>
+<p><code>createPermission</code> executes a special case of setting permission manager for the
+first time. From that point forward, the manager for that permission can only be
+changed by the manager with <code>setPermissionManager</code>.</p>
+<p>Changing permission manager fires the following event:</p>
+<pre><code>ChangePermissionManager(address indexed app, bytes32 indexed role, address indexed manager)
 </code></pre>
 
 <h4 id="example">Example</h4>
@@ -1719,12 +1740,14 @@
 <code>createPermission(rootAddress, kernelAddress, PERMISSIONS_CREATOR_ROLE, rootAddress)</code></li>
 <li>Deploy the Voting app</li>
 <li>Make it so that the Voting app can call <code>createPermission</code>:<br />
-<code>grantPermission(votingAppAddress, PERMISSIONS_CREATOR_ROLE, kernelAddress, votingAppAddress)</code> (has to be executed by <code>rootAddress</code>)</li>
+<code>grantPermission(votingAppAddress, PERMISSIONS_CREATOR_ROLE, kernelAddress)</code> (has to be executed by <code>rootAddress</code>)</li>
 <li>Deploy the Vault app, which has a signature called <code>transferTokens</code></li>
 <li>Create a new vote to create the <code>TRANSFER_TOKENS_ROLE</code> permission<br />
 <code>createPermission(votingAppAddress, vaultAppAddress, TRANSFER_TOKENS_ROLE, votingAppAddress)</code></li>
 <li>If vote passes, the Voting app can then call <code>TRANSFER_TOKENS_ROLE</code> actions, which in this case is just <code>transferTokens</code> in the Vault</li>
 <li>Votes can be created to transfer funds</li>
+<li>The voting app will be able to revoke or regrant the permission as it is the
+permission manager for <code>TRANSFER_TOKENS_ROLE</code> on <code>vaultAppAddress</code></li>
 </ol>
 <p>An implementation of the explained ACL can be found in <a href="https://github.com/aragon/aragon-core/blob/dev/contracts/kernel/Kernel.sol">aragon-core’s Kernel</a> file.</p>
 <h4 id="checking-permissions">Checking Permissions</h4>
