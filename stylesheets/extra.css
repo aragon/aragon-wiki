@@ -65,3 +65,7 @@
 [title~="December"] {
     font-weight: bold;
 }
+
+.md-typeset blockquote {
+  border-left: .4rem solid #00CBE6;
+}
