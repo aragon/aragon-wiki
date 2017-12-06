@@ -1,5 +1,8 @@
 <center>
 # AragonOS
+
+*Reflects [aragon-core](https://github.com/aragon/aragon-core) 2.0.1 implementation. Updated Dec 4th, 2017*
+
 An [exokernel](https://en.wikipedia.org/wiki/Exokernel)-inspired architecture for modular, upgradeable and secure DAOs
 </center>
 
