@@ -26,8 +26,8 @@ Here's a brief summary of the contents:
 
 - Design
 
-   - Visual assets of the Aragon project
-   - App UI, brand guidelines, logos, merchandise, and more
+    - Visual assets of the Aragon project
+    - App UI, brand guidelines, logos, merchandise, and more
 
 - Meetings
 
