@@ -2,7 +2,7 @@
 
 We are looking for a developer relations to help third party developers create apps on top of the [Aragon dapp](https://github.com/aragon/aragon) and [AragonOS](http://wiki.aragon.one/dev/AragonOS/).
 
-### Responsabilities
+### Responsibilities
 
 - Nurture the Aragon dev ecosystem
 - Attend and organize hackathons, helping devs get excited and started developing on Aragon.
@@ -27,7 +27,7 @@ We are looking for a developer relations to help third party developers create a
 
 ### How to apply
 
-- Write an email with the following attachments plus any information you consider important to *hiring@aragon.one*, with the subject `Product Manager opening application`.
+- Write an email with the following attachments plus any information you consider important to *hiring@aragon.one*, with the subject `Developer Relations opening application`.
 
 - Please send along your GitHub profile, LinkedIn, and references we can get in touch with.
 
