@@ -1,26 +1,34 @@
-## Product Manager opening at Aragon
+##Technical Product Manager
+We're looking for a **Technical Product Manager** with a strong passion for open source, decentralization and freedom. You'll combine your strategic and technical knowledge to lead the development of the **[Aragon dapp](https://github.com/aragon/aragon)**.
 
-We are looking for a product manager to work on the [Aragon dapp](https://github.com/aragon/aragon).
+The successful candidate will be attentive to details, self-manager, highly proactive and ambitious with prior experience working or managing technical teams. You will have a deep understanding of the Aragon dapp and the ability to project the big picture. You're a charismatic leader, assertive and efficient.
 
-### Requirements
+###Description
+* Work in an **international remote team** through the complete product development cycle
+* Work with the development team to ensure delivery of **optimal product** within agreed **deadlines**
+* Define and plan the **long-term strategy and roadmap** for the Aragon dapp
+* Evaluate use cases and the evolution of the crypto ecosystem to identify the needs in **future versions**
+* Collaborate with key stakeholders to formulate and document product requirements
+* **Manage product priorities** and monitor progress throughout the entire development process
+* Ensure clear communication and coordination across teams
+* Identify and solve risks and misalignments
 
-- Technical expertise to understand what's happening under the hood.
-- Experience or very strong interest in managing remote teams.
-- Previous experience working in remote teams.
-- Very good **written communication** skills.
-- Being passionate about **decentralization**.
-- Being an autonomous individual with a proactive attitude and a love for **time self-management** (We are focus-driven work, not hours-driven).
-- Ability to adjust deadlines in a fast-moving environment.
-- Ability to manage fine-grained, specific moving parts of the project and its requirements.
+###Key Qualifications
+* **Deep understanding** of the **crypto ecosystem** and strong passion for **decentralization**
+* Prior experience working throughout the **whole development stack**
+* Experience working and/or **managing technical teams**, ideally in remote positions
+* Very good verbal and written communication skills
+* Proben ability to adjust deadlines in a fast-paced environment
+* Willingness to **roll up your sleeves** and do whatever is needed
+* Demonstrated attitude to **have fun** and **inspire others**
 
-### Good to have
+###Good to have
+* Experience scaling technical teams
+* Experience contributing in and/or maintaining open source projects outside or within the crypto ecosystem
+* Experience working with product management methodologies
 
-- Experience contributing or managing **open source projects**.
-
-### How to apply
-
-- Write an email with the following attachments plus any information you consider important to *hiring@aragon.one*, with the subject `Product Manager opening application`.
-
-- Please send along your GitHub profile, LinkedIn, and references we can get in touch with.
+###How to apply
+* Write an email with the following attachments plus any other information you consider important to _hiring@aragon.one_, with the subject `Product Manager opening application`.
+* Please send along your GitHub profile, Linkedin, and any other relevant documents or references
 
 ### If you haven't, please [read more about our culture, work conditions, etc.](../index.md)
