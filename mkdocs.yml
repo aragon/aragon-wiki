@@ -31,6 +31,7 @@ extra:
 pages:
   - Home: 'index.md'
   - Documentation:
+    - Whitepaper: 'documentation/whitepaper.md'
     - Governance:
       - Community Governance Model: 'documentation/Community_Governance_Model.md'
     - Multisigs:
