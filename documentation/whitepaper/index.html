@@ -1,0 +1,2697 @@
+
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
+      
+        <meta name="description" content="Wiki for the Aragon Project">
+      
+      
+        <link rel="canonical" href="https://wiki.aragon.one/documentation/whitepaper/">
+      
+      
+      
+        <link rel="shortcut icon" href="../../images/favicon.ico">
+      
+      <meta name="generator" content="mkdocs-0.16.3, mkdocs-material-1.10.1">
+    
+    
+      
+        <title>Whitepaper - Aragon Wiki</title>
+      
+    
+    
+      <script src="../../assets/javascripts/modernizr-e826f8942a.js"></script>
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/application-a20f419c8e.css">
+      
+        <link rel="stylesheet" href="../../assets/stylesheets/application-23f75ab9c7.palette.css">
+      
+    
+    
+      
+        
+        
+        
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700|Roboto+Mono">
+        <style>body,input{font-family:"Roboto","Helvetica Neue",Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono","Courier New",Courier,monospace}</style>
+      
+      <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    
+    
+      <link rel="stylesheet" href="../../stylesheets/extra.css">
+    
+    
+  </head>
+  
+  
+  
+  
+    <body data-md-color-primary="blue-grey" data-md-color-accent="cyan">
+  
+    <svg class="md-svg">
+      <defs>
+        
+        
+          <svg xmlns="http://www.w3.org/2000/svg" width="416" height="448" viewBox="0 0 416 448" id="github"><path fill="currentColor" d="M160 304q0 10-3.125 20.5t-10.75 19T128 352t-18.125-8.5-10.75-19T96 304t3.125-20.5 10.75-19T128 256t18.125 8.5 10.75 19T160 304zm160 0q0 10-3.125 20.5t-10.75 19T288 352t-18.125-8.5-10.75-19T256 304t3.125-20.5 10.75-19T288 256t18.125 8.5 10.75 19T320 304zm40 0q0-30-17.25-51T296 232q-10.25 0-48.75 5.25Q229.5 240 208 240t-39.25-2.75Q130.75 232 120 232q-29.5 0-46.75 21T56 304q0 22 8 38.375t20.25 25.75 30.5 15 35 7.375 37.25 1.75h42q20.5 0 37.25-1.75t35-7.375 30.5-15 20.25-25.75T360 304zm56-44q0 51.75-15.25 82.75-9.5 19.25-26.375 33.25t-35.25 21.5-42.5 11.875-42.875 5.5T212 416q-19.5 0-35.5-.75t-36.875-3.125-38.125-7.5-34.25-12.875T37 371.5t-21.5-28.75Q0 312 0 260q0-59.25 34-99-6.75-20.5-6.75-42.5 0-29 12.75-54.5 27 0 47.5 9.875t47.25 30.875Q171.5 96 212 96q37 0 70 8 26.25-20.5 46.75-30.25T376 64q12.75 25.5 12.75 54.5 0 21.75-6.75 42 34 40 34 99.5z"/></svg>
+        
+      </defs>
+    </svg>
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="drawer">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="search">
+    <label class="md-overlay" data-md-component="overlay" for="drawer"></label>
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid">
+    <div class="md-flex">
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <a href="https://wiki.aragon.one" title="Aragon Wiki" class="md-header-nav__button md-logo">
+          
+            
+              <img src="../../images/logo.svg" width="24" height="24">
+            
+          
+        </a>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <label class="md-icon md-icon--menu md-header-nav__button" for="drawer"></label>
+      </div>
+      <div class="md-flex__cell md-flex__cell--stretch">
+        <span class="md-flex__ellipsis md-header-nav__title">
+          
+            
+              
+                <span class="md-header-nav__parent">
+                  Documentation
+                </span>
+              
+            
+            Whitepaper
+          
+        </span>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        
+          <label class="md-icon md-icon--search md-header-nav__button" for="search"></label>
+          
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="search"></label>
+  <div class="md-search__inner">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" required placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="query">
+      <label class="md-icon md-search__icon" for="search"></label>
+      <button type="reset" class="md-icon md-search__icon" data-md-component="reset">&#xE5CD;</button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="result" data-md-lang-search="" data-md-lang-tokenizer="[\s\-]+">
+          <div class="md-search-result__meta" data-md-lang-result-none="No matching documents" data-md-lang-result-one="1 matching document" data-md-lang-result-other="# matching documents">
+            Type to start searching
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+        
+      </div>
+      
+        <div class="md-flex__cell md-flex__cell--shrink">
+          <div class="md-header-nav__source">
+            
+
+
+  
+
+
+  <a href="https://github.com/aragon/aragon-wiki" title="Go to repository" class="md-source" data-md-source="github">
+    
+      <div class="md-source__icon">
+        <svg viewBox="0 0 24 24" width="24" height="24">
+          <use xlink:href="#github" width="24" height="24"></use>
+        </svg>
+      </div>
+    
+    <div class="md-source__repository">
+      aragon/aragon-wiki
+    </div>
+  </a>
+
+          </div>
+        </div>
+      
+    </div>
+  </nav>
+</header>
+    
+    <div class="md-container">
+      
+      
+      <main class="md-main">
+        <div class="md-main__inner md-grid" data-md-component="container">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    <nav class="md-nav md-nav--primary" data-md-level="0">
+  <label class="md-nav__title md-nav__title--site" for="drawer">
+    <div class="md-nav__button md-logo">
+      
+        
+          <img src="../../images/logo.svg">
+        
+      
+    </div>
+    Aragon Wiki
+  </label>
+  
+    <div class="md-nav__source">
+      
+
+
+  
+
+
+  <a href="https://github.com/aragon/aragon-wiki" title="Go to repository" class="md-source" data-md-source="github">
+    
+      <div class="md-source__icon">
+        <svg viewBox="0 0 24 24" width="24" height="24">
+          <use xlink:href="#github" width="24" height="24"></use>
+        </svg>
+      </div>
+    
+    <div class="md-source__repository">
+      aragon/aragon-wiki
+    </div>
+  </a>
+
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../.." title="Home" class="md-nav__link">
+      Home
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2" checked>
+    
+    <label class="md-nav__link" for="nav-2">
+      Documentation
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-2">
+        Documentation
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="toc">
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="toc">
+        Whitepaper
+      </label>
+    
+    <a href="./" title="Whitepaper" class="md-nav__link md-nav__link--active">
+      Whitepaper
+    </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+  
+    <label class="md-nav__title" for="toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#abstract" title="Abstract" class="md-nav__link">
+    Abstract
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#table-of-contents" title="Table of contents" class="md-nav__link">
+    Table of contents
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1-introduction" title="1. Introduction" class="md-nav__link">
+    1. Introduction
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#11-about-aragon-core" title="1.1. About Aragon Core" class="md-nav__link">
+    1.1. About Aragon Core
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#12-current-limitations" title="1.2. Current limitations" class="md-nav__link">
+    1.2. Current limitations
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-aragon-core-organizations" title="2. Aragon Core organizations" class="md-nav__link">
+    2. Aragon Core organizations
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#21-organization-specs" title="2.1. Organization specs" class="md-nav__link">
+    2.1. Organization specs
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#22-implementation" title="2.2. Implementation" class="md-nav__link">
+    2.2. Implementation
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#23-modular-software" title="2.3 Modular Software" class="md-nav__link">
+    2.3 Modular Software
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#24-aragon-core-summary" title="2.4. Aragon Core summary" class="md-nav__link">
+    2.4. Aragon Core summary
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-dao-architecture-kernel-organs-and-applications" title="3. DAO architecture: Kernel, Organs and Applications" class="md-nav__link">
+    3. DAO architecture: Kernel, Organs and Applications
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#31-the-minimum-definition-of-a-dao" title="3.1. The minimum definition of a DAO" class="md-nav__link">
+    3.1. The minimum definition of a DAO
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#32-principles-of-the-dao" title="3.2. Principles of the DAO" class="md-nav__link">
+    3.2. Principles of the DAO
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#33-kernel-functions" title="3.3. Kernel Functions" class="md-nav__link">
+    3.3. Kernel Functions
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#34-kernel-basic-components" title="3.4 Kernel Basic Components" class="md-nav__link">
+    3.4 Kernel Basic Components
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-the-aragon-network" title="4. The Aragon Network" class="md-nav__link">
+    4. The Aragon Network
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-the-aragon-network-token-ant" title="5. The Aragon Network Token, ANT" class="md-nav__link">
+    5. The Aragon Network Token, ANT
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#51-network-kickoff-and-ant-issuance" title="5.1. Network Kickoff and ANT Issuance" class="md-nav__link">
+    5.1. Network Kickoff and ANT Issuance
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#52-a-continuous-token-model" title="5.2. A Continuous Token model" class="md-nav__link">
+    5.2. A Continuous Token model
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#53-network-governance" title="5.3 Network Governance" class="md-nav__link">
+    5.3 Network Governance
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#54-network-adaptability" title="5.4. Network Adaptability" class="md-nav__link">
+    5.4. Network Adaptability
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#55-further-uses-of-the-token" title="5.5. Further uses of the token" class="md-nav__link">
+    5.5. Further uses of the token
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#56-token-technical-features" title="5.6 Token technical features" class="md-nav__link">
+    5.6 Token technical features
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-summary" title="6. Summary" class="md-nav__link">
+    6. Summary
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#appendix-network-services" title="Appendix: Network Services" class="md-nav__link">
+    Appendix: Network Services
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#appendix-a-decentralized-arbitration-system-for-the-aragon-network" title="Appendix A: Decentralized arbitration system for the Aragon Network" class="md-nav__link">
+    Appendix A: Decentralized arbitration system for the Aragon Network
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-driving-factors" title="1. Driving factors" class="md-nav__link">
+    1. Driving factors
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-a-decentralized-liquid-forkable-jurisdiction" title="2. A decentralized, liquid, forkable jurisdiction" class="md-nav__link">
+    2. A decentralized, liquid, forkable jurisdiction
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#21-entities" title="2.1. Entities" class="md-nav__link">
+    2.1. Entities
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#22-ant-functionality-in-the-anj" title="2.2. ANT functionality in the ANJ" class="md-nav__link">
+    2.2. ANT functionality in the ANJ
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#23-judges" title="2.3. Judges" class="md-nav__link">
+    2.3. Judges
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-arbitration-mechanism" title="3. Arbitration mechanism" class="md-nav__link">
+    3. Arbitration mechanism
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#31-human-judges" title="3.1. Human judges" class="md-nav__link">
+    3.1. Human judges
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#32-prediction-marketplace" title="3.2. Prediction marketplace" class="md-nav__link">
+    3.2. Prediction marketplace
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#33-supreme-court" title="3.3. Supreme court" class="md-nav__link">
+    3.3. Supreme court
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#34-incentives-design" title="3.4. Incentives design" class="md-nav__link">
+    3.4. Incentives design
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-summary" title="4. Summary" class="md-nav__link">
+    4. Summary
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#appendix-b-aragon-network-smart-contract-security-and-upgradeability-strategy" title="Appendix B: Aragon Network smart contract security and upgradeability strategy" class="md-nav__link">
+    Appendix B: Aragon Network smart contract security and upgradeability strategy
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-components" title="1. Components" class="md-nav__link">
+    1. Components
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#11-proxy-libraries-for-upgradeable-smart-contracts" title="1.1. Proxy libraries for upgradeable smart contracts" class="md-nav__link">
+    1.1. Proxy libraries for upgradeable smart contracts
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#12-network-wide-bug-bounties" title="1.2. Network wide bug bounties" class="md-nav__link">
+    1.2. Network wide bug bounties
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#13-global-safe-stop" title="1.3. Global safe stop" class="md-nav__link">
+    1.3. Global safe stop
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#14-anj-action-against-bad-actors-in-an-organization" title="1.4. ANJ action against bad actors in an organization" class="md-nav__link">
+    1.4. ANJ action against bad actors in an organization
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-tradeoffs" title="2. Tradeoffs" class="md-nav__link">
+    2. Tradeoffs
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-summary" title="3. Summary" class="md-nav__link">
+    3. Summary
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#references" title="References" class="md-nav__link">
+    References
+  </a>
+  
+</li>
+      
+      
+      
+    </ul>
+  
+</nav>
+    
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2-2" type="checkbox" id="nav-2-2">
+    
+    <label class="md-nav__link" for="nav-2-2">
+      Governance
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-2-2">
+        Governance
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Community_Governance_Model/" title="Community Governance Model" class="md-nav__link">
+      Community Governance Model
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2-3" type="checkbox" id="nav-2-3">
+    
+    <label class="md-nav__link" for="nav-2-3">
+      Multisigs
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-2-3">
+        Multisigs
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../multisigs/overview/" title="Overview" class="md-nav__link">
+      Overview
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../multisigs/foundation/" title="Foundation" class="md-nav__link">
+      Foundation
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../multisigs/community/" title="Community" class="md-nav__link">
+      Community
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Development_Plan/" title="Development Plan" class="md-nav__link">
+      Development Plan
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Code_of_Conduct/" title="Aragon Code of Conduct" class="md-nav__link">
+      Aragon Code of Conduct
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../presentations/" title="Presentations" class="md-nav__link">
+      Presentations
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3">
+    
+    <label class="md-nav__link" for="nav-3">
+      Development
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-3">
+        Development
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../dev/" title="Overview" class="md-nav__link">
+      Overview
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../dev/AragonOS/" title="AragonOS" class="md-nav__link">
+      AragonOS
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3-3" type="checkbox" id="nav-3-3">
+    
+    <label class="md-nav__link" for="nav-3-3">
+      Aragon core
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-3-3">
+        Aragon core
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../dev/aragon-core_home/" title="Overview" class="md-nav__link">
+      Overview
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../dev/aragon-core_how_to_contribute/" title="How to contribute" class="md-nav__link">
+      How to contribute
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3-4" type="checkbox" id="nav-3-4">
+    
+    <label class="md-nav__link" for="nav-3-4">
+      Aragon apps
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-3-4">
+        Aragon apps
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../dev/apps/" title="Overview" class="md-nav__link">
+      Overview
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../dev/apps/voting/" title="Voting" class="md-nav__link">
+      Voting
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../dev/apps/token-manager/" title="Token Manager" class="md-nav__link">
+      Token Manager
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../dev/apps/group/" title="Group" class="md-nav__link">
+      Group
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../dev/apps/fundraising/" title="Fundraising" class="md-nav__link">
+      Fundraising
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../dev/apps/vault/" title="Vault" class="md-nav__link">
+      Vault
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../dev/apps/finance/" title="Finance" class="md-nav__link">
+      Finance
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-4" type="checkbox" id="nav-4">
+    
+    <label class="md-nav__link" for="nav-4">
+      Design
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-4">
+        Design
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../design/" title="Overview" class="md-nav__link">
+      Overview
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../design/logo/" title="Logo" class="md-nav__link">
+      Logo
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../design/identity_guidelines/" title="Identity Guidelines" class="md-nav__link">
+      Identity Guidelines
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../design/branding_proposal/" title="Branding Proposal" class="md-nav__link">
+      Branding Proposal
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../design/merch/" title="Merchandise" class="md-nav__link">
+      Merchandise
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-5" type="checkbox" id="nav-5">
+    
+    <label class="md-nav__link" for="nav-5">
+      Meetings
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-5">
+        Meetings
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-5-1" type="checkbox" id="nav-5-1">
+    
+    <label class="md-nav__link" for="nav-5-1">
+      Community
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-5-1">
+        Community
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-5-1-1" type="checkbox" id="nav-5-1-1">
+    
+    <label class="md-nav__link" for="nav-5-1-1">
+      Community 06
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="3">
+      <label class="md-nav__title" for="nav-5-1-1">
+        Community 06
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../meetings/community/06/" title="Agenda" class="md-nav__link">
+      Agenda
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../meetings/community/write-ups/cm06/brett/" title="Write-Up - Brett" class="md-nav__link">
+      Write-Up - Brett
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../meetings/community/write-ups/cm06/john/" title="Write-Up - John" class="md-nav__link">
+      Write-Up - John
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../meetings/community/write-ups/cm06/jorge/" title="Write-Up - Jorge" class="md-nav__link">
+      Write-Up - Jorge
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../meetings/community/write-ups/cm06/luis/" title="Write-Up - Luis" class="md-nav__link">
+      Write-Up - Luis
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../meetings/community/write-ups/cm06/luke/" title="Write-Up - Luke" class="md-nav__link">
+      Write-Up - Luke
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../meetings/community/write-ups/cm06/maria/" title="Write-Up - Maria" class="md-nav__link">
+      Write-Up - Maria
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../meetings/community/write-ups/cm06/oliver/" title="Write-Up - Oliver" class="md-nav__link">
+      Write-Up - Oliver
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../meetings/community/write-ups/cm06/pierre/" title="Write-Up - Pierre" class="md-nav__link">
+      Write-Up - Pierre
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../meetings/community/write-ups/cm06/tatu/" title="Write-Up - Tatu" class="md-nav__link">
+      Write-Up - Tatu
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../meetings/community/05/" title="Community 05" class="md-nav__link">
+      Community 05
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../meetings/community/04/" title="Community 04" class="md-nav__link">
+      Community 04
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../meetings/community/03/" title="Community 03" class="md-nav__link">
+      Community 03
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../meetings/community/02/" title="Community 02" class="md-nav__link">
+      Community 02
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../meetings/community/01/" title="Community 01" class="md-nav__link">
+      Community 01
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-5-2" type="checkbox" id="nav-5-2">
+    
+    <label class="md-nav__link" for="nav-5-2">
+      Aragon HQ
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-5-2">
+        Aragon HQ
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../meetings/hq/03/" title="HQ 03" class="md-nav__link">
+      HQ 03
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../meetings/hq/02/" title="HQ 02" class="md-nav__link">
+      HQ 02
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../meetings/hq/01/" title="HQ 01" class="md-nav__link">
+      HQ 01
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-5-3" type="checkbox" id="nav-5-3">
+    
+    <label class="md-nav__link" for="nav-5-3">
+      Dev
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-5-3">
+        Dev
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../meetings/dev/02/" title="Dev 02" class="md-nav__link">
+      Dev 02
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../meetings/dev/01/" title="Dev 01" class="md-nav__link">
+      Dev 01
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-6" type="checkbox" id="nav-6">
+    
+    <label class="md-nav__link" for="nav-6">
+      Jobs
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-6">
+        Jobs
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../jobs/" title="Overview" class="md-nav__link">
+      Overview
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-6-2" type="checkbox" id="nav-6-2">
+    
+    <label class="md-nav__link" for="nav-6-2">
+      Openings
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-6-2">
+        Openings
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../jobs/openings/solidity/" title="EVM/Solidity Engineer" class="md-nav__link">
+      EVM/Solidity Engineer
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../jobs/openings/frontend/" title="Frontend and web3 Developer" class="md-nav__link">
+      Frontend and web3 Developer
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../jobs/openings/product_manager/" title="Product Manager" class="md-nav__link">
+      Product Manager
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../jobs/openings/dev_rel/" title="Developer Relations" class="md-nav__link">
+      Developer Relations
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../jobs/openings/design/" title="Design Lead" class="md-nav__link">
+      Design Lead
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-7" type="checkbox" id="nav-7">
+    
+    <label class="md-nav__link" for="nav-7">
+      Blog posts
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-7">
+        Blog posts
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../blog/2017/" title="2017" class="md-nav__link">
+      2017
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-8" type="checkbox" id="nav-8">
+    
+    <label class="md-nav__link" for="nav-8">
+      Videos
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-8">
+        Videos
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../videos/tutorials/" title="Tutorials" class="md-nav__link">
+      Tutorials
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-8-2" type="checkbox" id="nav-8-2">
+    
+    <label class="md-nav__link" for="nav-8-2">
+      Meetings
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-8-2">
+        Meetings
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../videos/hq/" title="HQ" class="md-nav__link">
+      HQ
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../videos/community/" title="Community" class="md-nav__link">
+      Community
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../videos/dev/" title="Dev" class="md-nav__link">
+      Dev
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../videos/interviews/" title="Interviews" class="md-nav__link">
+      Interviews
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../videos/presentations/" title="Presentations" class="md-nav__link">
+      Presentations
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary">
+  
+  
+  
+    <label class="md-nav__title" for="toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#abstract" title="Abstract" class="md-nav__link">
+    Abstract
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#table-of-contents" title="Table of contents" class="md-nav__link">
+    Table of contents
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1-introduction" title="1. Introduction" class="md-nav__link">
+    1. Introduction
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#11-about-aragon-core" title="1.1. About Aragon Core" class="md-nav__link">
+    1.1. About Aragon Core
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#12-current-limitations" title="1.2. Current limitations" class="md-nav__link">
+    1.2. Current limitations
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-aragon-core-organizations" title="2. Aragon Core organizations" class="md-nav__link">
+    2. Aragon Core organizations
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#21-organization-specs" title="2.1. Organization specs" class="md-nav__link">
+    2.1. Organization specs
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#22-implementation" title="2.2. Implementation" class="md-nav__link">
+    2.2. Implementation
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#23-modular-software" title="2.3 Modular Software" class="md-nav__link">
+    2.3 Modular Software
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#24-aragon-core-summary" title="2.4. Aragon Core summary" class="md-nav__link">
+    2.4. Aragon Core summary
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-dao-architecture-kernel-organs-and-applications" title="3. DAO architecture: Kernel, Organs and Applications" class="md-nav__link">
+    3. DAO architecture: Kernel, Organs and Applications
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#31-the-minimum-definition-of-a-dao" title="3.1. The minimum definition of a DAO" class="md-nav__link">
+    3.1. The minimum definition of a DAO
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#32-principles-of-the-dao" title="3.2. Principles of the DAO" class="md-nav__link">
+    3.2. Principles of the DAO
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#33-kernel-functions" title="3.3. Kernel Functions" class="md-nav__link">
+    3.3. Kernel Functions
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#34-kernel-basic-components" title="3.4 Kernel Basic Components" class="md-nav__link">
+    3.4 Kernel Basic Components
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-the-aragon-network" title="4. The Aragon Network" class="md-nav__link">
+    4. The Aragon Network
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-the-aragon-network-token-ant" title="5. The Aragon Network Token, ANT" class="md-nav__link">
+    5. The Aragon Network Token, ANT
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#51-network-kickoff-and-ant-issuance" title="5.1. Network Kickoff and ANT Issuance" class="md-nav__link">
+    5.1. Network Kickoff and ANT Issuance
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#52-a-continuous-token-model" title="5.2. A Continuous Token model" class="md-nav__link">
+    5.2. A Continuous Token model
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#53-network-governance" title="5.3 Network Governance" class="md-nav__link">
+    5.3 Network Governance
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#54-network-adaptability" title="5.4. Network Adaptability" class="md-nav__link">
+    5.4. Network Adaptability
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#55-further-uses-of-the-token" title="5.5. Further uses of the token" class="md-nav__link">
+    5.5. Further uses of the token
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#56-token-technical-features" title="5.6 Token technical features" class="md-nav__link">
+    5.6 Token technical features
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-summary" title="6. Summary" class="md-nav__link">
+    6. Summary
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#appendix-network-services" title="Appendix: Network Services" class="md-nav__link">
+    Appendix: Network Services
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#appendix-a-decentralized-arbitration-system-for-the-aragon-network" title="Appendix A: Decentralized arbitration system for the Aragon Network" class="md-nav__link">
+    Appendix A: Decentralized arbitration system for the Aragon Network
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-driving-factors" title="1. Driving factors" class="md-nav__link">
+    1. Driving factors
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-a-decentralized-liquid-forkable-jurisdiction" title="2. A decentralized, liquid, forkable jurisdiction" class="md-nav__link">
+    2. A decentralized, liquid, forkable jurisdiction
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#21-entities" title="2.1. Entities" class="md-nav__link">
+    2.1. Entities
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#22-ant-functionality-in-the-anj" title="2.2. ANT functionality in the ANJ" class="md-nav__link">
+    2.2. ANT functionality in the ANJ
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#23-judges" title="2.3. Judges" class="md-nav__link">
+    2.3. Judges
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-arbitration-mechanism" title="3. Arbitration mechanism" class="md-nav__link">
+    3. Arbitration mechanism
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#31-human-judges" title="3.1. Human judges" class="md-nav__link">
+    3.1. Human judges
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#32-prediction-marketplace" title="3.2. Prediction marketplace" class="md-nav__link">
+    3.2. Prediction marketplace
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#33-supreme-court" title="3.3. Supreme court" class="md-nav__link">
+    3.3. Supreme court
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#34-incentives-design" title="3.4. Incentives design" class="md-nav__link">
+    3.4. Incentives design
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-summary" title="4. Summary" class="md-nav__link">
+    4. Summary
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#appendix-b-aragon-network-smart-contract-security-and-upgradeability-strategy" title="Appendix B: Aragon Network smart contract security and upgradeability strategy" class="md-nav__link">
+    Appendix B: Aragon Network smart contract security and upgradeability strategy
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-components" title="1. Components" class="md-nav__link">
+    1. Components
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#11-proxy-libraries-for-upgradeable-smart-contracts" title="1.1. Proxy libraries for upgradeable smart contracts" class="md-nav__link">
+    1.1. Proxy libraries for upgradeable smart contracts
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#12-network-wide-bug-bounties" title="1.2. Network wide bug bounties" class="md-nav__link">
+    1.2. Network wide bug bounties
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#13-global-safe-stop" title="1.3. Global safe stop" class="md-nav__link">
+    1.3. Global safe stop
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#14-anj-action-against-bad-actors-in-an-organization" title="1.4. ANJ action against bad actors in an organization" class="md-nav__link">
+    1.4. ANJ action against bad actors in an organization
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-tradeoffs" title="2. Tradeoffs" class="md-nav__link">
+    2. Tradeoffs
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-summary" title="3. Summary" class="md-nav__link">
+    3. Summary
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#references" title="References" class="md-nav__link">
+    References
+  </a>
+  
+</li>
+      
+      
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                
+                  <h1>Whitepaper</h1>
+                
+                <style>
+@import url('https://fonts.googleapis.com/css?family=Cutive+Mono');
+</style>
+
+<p><center style="font-family: 'Cutive Mono', monospace;">
+<strong>ARAGON NETWORK</strong><br />
+<strong>A DECENTRALIZED INFRASTRUCTURE FOR VALUE EXCHANGE</strong></p>
+<p>&nbsp;Luis Cuende&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Jorge Izquierdo<br />
+luis@aragon.one&nbsp;&nbsp;&nbsp;&nbsp;jorge@aragon.one </p>
+<p>Version 1.1.1<br />
+April 20th, 2017</p>
+<h2 id="abstract"><strong>Abstract</strong></h2>
+<p></center></p>
+<p><small style="font-family: 'Cutive Mono', monospace;">The Aragon Network is a token-governed digital jurisdiction that focuses on creating the best conditions for true global indiscriminatory economic growth. Essentially, the Aragon Network is an ecosystem where organizations, entrepreneurs, and investors can efficiently and securely transact without risk of technical bugs or malicious parties.</p>
+<p>Aragon Network organizations will be built using Aragon Core, a Solidity DAO frame-work and web-based decentralized app (dApp). Initially, Aragon Core will specialize in capitalist companies but is modular enough to accommodate other types of organizations.</p>
+<p>This paper first discusses the principles of an organization and the functions of Aragon Core. Next, Aragon Network’s token model and network governance will be explained. Finally, it defines the two principal services the Aragon Network should implement to ensure its success; a <em>decentralized court solution</em> and an <em>upgrade mechanism</em>. The <em>decentralized court solution</em> will serve to arbitrate human conflict beyond what can be reasonably written in a smart contract. The <em>upgrade mechanism</em> for Aragon Core organizations will facilitate useful upgrades needed to drive mainstream adoption by non-technical users. </p>
+<p>The <strong>Aragon Project</strong> is built on the progress made by thousands of individuals over the last decades. However, we would like to highlight the work of some individuals that have been highly influential to Aragon:</p>
+<ol>
+<li><strong>Ralph Merkle</strong>, one of the inventors of public key cryptography, Merkle Trees <a href="#references">[1]</a>, and extensive research, including research on DAO Democracy which has influenced our thinking greatly.</li>
+<li><strong>Satoshi Nakamoto</strong>, creator of Bitcoin <a href="#references">[2]</a>.</li>
+<li><strong>Vitalik Buterin</strong>, creator of Ethereum <a href="#references">[3]</a>, inventor of the concept of DAO and author of multiple articles that have deeply influenced our vision.</li>
+<li>The whole <strong>Ethereum community</strong> and developers, for the work on the web 3.0 and the fact that building dApps is a reality today. </li>
+</ol>
+<p>Early-access to the present paper was given to a number of individuals from the Ethereum and the broader Blockchain community. Authors deeply thank and acknowledge the comments and criticisms that have made the design of the Aragon Network and this whitepaper as good as it is. Any faults that remain are, of course, the authors’.</p>
+<p>In no particular order: <br />
+  - Simon de la Rouviere (Curation Markets and Societal Engineer, Consensys)<br />
+  - Manuel Araoz (CTO, Zeppelin)<br />
+  - Demian Brener (CEO, Zeppelin)<br />
+  - Fred Ehrsam (Cofounder, Coinbase)<br />
+  - Nick Grossman (GM, Union Square Ventures)<br />
+  - Joel Monegro (Fat Protocols author and Union Square Ventures)<br />
+  - Jake Brukhman (Founder, CoinFund)<br />
+  - Ryan Zurrer (GP, Polychain Capital)<br />
+  - Vincent Eli (CTO, Stabl)<br />
+  - Daniele Levi (CEO, Stampery)<br />
+  - Jean Amiouny (CEO, Shakepay)<br />
+  - Roy Breidi (CTO, Shakepay)<br />
+  - Brayton Williams (Partner, BoostVC)<br />
+  - Herb Stephens (Democracy Earth)<br />
+  - Santiago Siri (Democracy Earth)<br />
+  - Joe Urgo (CEO, Sourcerers)<br />
+  - Philipp Banhardt (Associate, Blueyard Capital)<br />
+  - Nick Tomaino (Author, The Control)<br />
+  - David Wachsman (Wachsman PR)<br />
+  - Stefano Bernardi (Partner, Mission and Market)<br />
+  - Zenel Batagelj (Cofound.it)<br />
+  - Jan Isakovic (CEO, Cofound.it)<br />
+  - Federico Ast (Crowdjury)<br />
+  - Alex Maslar (Major edition and improvements to the whitepaper)<br />
+  - Álvaro Rojas<br />
+  - Alberto Elias<br />
+  - Scott Stevenson<br />
+  - Gregory Landua<br />
+  - Kevin Chen<br />
+  - Alex Felix  </p>
+<h2 id="table-of-contents">Table of contents</h2>
+<ol>
+<li><a href="#1-introduction">Introduction</a><br />
+  1.1. <a href="#11-about-aragon-core">About Aragon Core</a><br />
+  1.2. <a href="#12-current-limitations">Current limitations</a>  </li>
+<li><a href="#2-aragon-core-organizations">Aragon Core organizations</a><br />
+  2.1. <a href="#21-organization-specs">Organization specs</a><br />
+  2.2. <a href="#22-implementation">Implementation</a><br />
+  2.3. <a href="#23-modular-software">Modular software</a><br />
+  2.4. <a href="#24-aragon-core-summary">Core summary</a>  </li>
+<li><a href="#3-dao-architecture-kernel-organs-and-applications">DAO architecture: Kernel, Organs and Applications</a><br />
+  3.1. <a href="#31-the-minimum-definition-of-a-dao">The minimum definition of a DAO</a><br />
+  3.2. <a href="#32-principles-of-the-dao">Principles of the DAO</a><br />
+  3.3. <a href="#33-kernel-functions">Kernel functions</a><br />
+  3.4. <a href="#34-kernel-basic-components">Kernel basic components</a>  </li>
+<li><a href="#4-the-aragon-network">The Aragon Network</a>  </li>
+<li><a href="#5-the-aragon-network-token-ant">ANT, The Aragon Network Token</a><br />
+  5.1. <a href="#51-network-kickoff-and-ant-issuance">Network Kickoff and ANT Issuance</a><br />
+  5.2. <a href="#52-a-continuous-token-model">A Continuos Token model</a><br />
+  5.3. <a href="#53-network-governance">Network Governance</a><br />
+  5.4. <a href="#54-network-adaptability">Network Adapatability</a><br />
+  5.5. <a href="#55-further-uses-of-the-token">Further uses of the token</a><br />
+  5.6. <a href="#56-token-technical-features">Token technical features</a>  </li>
+</ol>
+<p><a href="#appendix-network-services">Appendix</a><br />
+     A. <a href="#appendix-a-decentralized-arbitration-system-for-the-aragon-network">Decentralized arbitration system for the Aragon Network</a><br />
+     B. <a href="#appendix-b-aragon-network-smart-contract-security-and-upgradeability-strategy">Aragon Network smart contract security and upgradeability strategy</a>  </p>
+<h2 id="1-introduction">1. Introduction</h2>
+<h3 id="11-about-aragon-core"><strong>1.1. About Aragon Core</strong></h3>
+<p>Aragon is a dApp that lets anyone create and manage any kind of organization (companies, open source projects, NGOs, foundations, hedge funds...) on the Ethereum blockchain.</p>
+<p>Aragon implements basic features of an organization like a cap table, token transfers, voting, role assignments, fundraising, and accounting. The behavior of an Aragon organization is easily customized by changing the bylaws. In addition, Aragon organizations are extensible through third party modules that interact with the organizations' contracts.</p>
+<h3 id="12-current-limitations"><strong>1.2. Current limitations</strong></h3>
+<p>The properties of the Ethereum blockchain present unique opportunities for the creation and management of decentralized organizations, including immutability of records, transparency, and fast transactions. But in order to satisfy multiple requirements that human beings need in order to transact and create value, a layer on top of it needs to be created to align the incentives of everyone participating in the system.</p>
+<p>When designing Aragon Core, multiple issues were addressed that would deter most people from creating, running, or interacting with a decentralized organization. These include:</p>
+<p>Some of those issues are:</p>
+<ul>
+<li>
+<p><strong>Subjective breaches</strong>: Smart contracts can encode most of the possible breaches of contract, but there is always subjectivity in human relationships. A unbiased arbitration system is needed for cases where conflict is not explicitly resolved in the smart contract code.</p>
+</li>
+<li>
+<p><strong>Software bugs</strong>: The error is always between the chair and the keyboard. Code can contain bugs so the software needs to be easily upgradeable, and a sound bug bounty mechanism must exist to incentivize potential attackers to claim a bounty, rather than attack.</p>
+</li>
+<li>
+<p><strong>Reward systems</strong>: Monetization around certain protocols and systems is unclear at this point. Some players will be key to making organization possible, so a simple reward mechanism is needed.</p>
+</li>
+</ul>
+<h2 id="2-aragon-core-organizations">2. Aragon Core organizations</h2>
+<h3 id="21-organization-specs"><strong>2.1. Organization specs</strong></h3>
+<p>An organization has multiple needs, the main ones being:</p>
+<ul>
+<li><strong>Identity</strong>: This is the very first pillar since we need to establish each entity's identity before operating with them.</li>
+<li><strong>Ownership</strong>: Shares are a way to reward founders, investors, advisors, partners and employees and can determine the ownership and direction of the company.</li>
+<li><strong>Voting</strong>: The company's shareholders should be able to have a word over its actions. We will directly link this to ownership.</li>
+<li><strong>Capital</strong>: Since a venture can be risky and may need to acquire certain goods in order to operate or grow, capital in the form of investment/loans is needed.</li>
+<li><strong>People</strong>: In the end, it's human beings who build the organizations. Easy ways to on-board them (identity) and reward (payroll) them are needed.</li>
+<li><strong>Outreach</strong>: A company needs to target their audience in order for them to buy the company's product. In the Internet era, having a domain name is enough.</li>
+<li><strong>Payment processor</strong>: Organizations need to be paid. There needs to exist a way for them to capture payments easily.</li>
+<li><strong>Accounting</strong>: In order to manage expenses, burn rate and make business decisions, there is a need to maintain book-keeping.</li>
+<li><strong>Insurance</strong>: A company is usually risky and may need to buy insurance in case something unexpected goes wrong.</li>
+</ul>
+<p>Some of these create this dependency graph, which ends up being circular:</p>
+<ul>
+<li>Identity: No dependencies<ul>
+<li>Ownership: Depends on identity since you need to make sure you're interacting with the right entity<ul>
+<li>Voting: Depends on ownership since ownership implies control<ul>
+<li>Capital: Depends on voting since implies issuing shares<ul>
+<li>People: Depends on capital since you need it to hire people</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="22-implementation"><strong>2.2. Implementation</strong></h3>
+<p><strong>A. dApp runner</strong><br />
+A major advantage of the Ethereum development framework is the multiple ways of running dApps. When considering the default dApp runner for Aragon, we considered the pros and cons of multiple options (see figure 2.1.3 A for considerations).</p>
+<p>Figure 2.1.3 A: dApp runner comparison  </p>
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
+.tg .tg-1lom{font-weight:bold;background-color:#bec0bf;text-align:left;vertical-align:top}
+.tg .tg-yzt1{background-color:#efefef;vertical-align:top}
+.tg .tg-yw4l{vertical-align:top}
+</style>
+
+<table class="tg">
+  <tr>
+    <th class="tg-1lom">Runner</th>
+    <th class="tg-1lom">Description</th>
+    <th class="tg-1lom">Pros</th>
+    <th class="tg-1lom">Cons</th>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">MetaMask</td>
+    <td class="tg-yw4l">Google Chrome plugin that brings<br>Ethereum capabilities to the<br>Chrome browser - the user can<br>confirm or deny all unsigned<br>transactions</td>
+    <td class="tg-yw4l">- Low friction<br>- Easy to install and setup </td>
+    <td class="tg-yw4l">- Still in beta <br>- Chrome only <br>- Not a full node, need<br>to trust their <br>blockchain.</td>
+  </tr>
+  <tr>
+    <td class="tg-yzt1">Mist</td>
+    <td class="tg-yzt1">dApp browser that asks the user for<br>permissions before interacting with<br>the dApp</td>
+    <td class="tg-yzt1">- Full Ethereum node.<br>- 'Official' Ethereum dapp browser.<br>- Hardware wallets compatible.</td>
+    <td class="tg-yzt1">- Takes long to sync<br>- High friction (more<br>than 1 hour from in-<br> stall to using a dapp)</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">Parity</td>
+    <td class="tg-yw4l">Full node with dApp browser with a<br>Chrome extension</td>
+    <td class="tg-yw4l">- Full Ethereum node.<br>- Hardware walletscompatible</td>
+    <td class="tg-yw4l">- High friction (around<br>1 hour from install to<br>using a dapp)</td>
+  </tr>
+  <tr>
+    <td class="tg-yzt1">Native<br>Aragon app</td>
+    <td class="tg-yzt1">Built with Electron, native app that<br>runs natively on major desktop<br>platforms.</td>
+    <td class="tg-yzt1">- Control entire user<br>experience: introduce<br>new users toEthereum to use the<br>app.</td>
+    <td class="tg-yzt1">- Tons of reimplement-<br>ed functionality.<br>- Friction: Requires<br>downloading an app.</td>
+  </tr>
+</table>
+
+<p><br></p>
+<p>Even though Aragon Core currently runs on all the above configurations as a pure dApp, we have ultimately implemented the native Aragon app with an Electron wrapper for its intuitive installation and familiar user interface, and injected MetaMask because it provides the greatest control of the user experience.</p>
+<p>We will be pushing it as the default Aragon experience, and we think it will be friendly for people who have never heard of Ethereum to be introduced to it and be managing an Aragon Core organization in less than 15 minutes.</p>
+<p>Figure 2.1.3 B: Native Aragon app <a href="https://github.com/AragonOne/aragon/releases">0.3 alpha release</a>.</p>
+<p><a href="../whitepaper/03_alpha_release.png"><img alt="" src="../whitepaper/03_alpha_release.png" /></a></p>
+<p><strong>B. Identity</strong><br />
+When issuing new tokens or paying an employee, the organization needs to know that the assets are sent to the correct person. To address this requirement, we’re initially integrating Keybase to assign identities to cryptographic entities. We are currently investigating other identity providers to integrate with Aragon, including uPort.<br />
+We have published our thinking on managing identity in dApps in the Aragon blog <a href="#references">[4]</a>.</p>
+<p><strong>C. Permissions</strong><br />
+Identity drives us to permissions. Example of some permissions could be:</p>
+<ul>
+<li>Shareholder: Has the right to receive dividends, when emitted, and transfer the shares to another party if it doesn't go above a threshold set by the voting power.</li>
+<li>Executive: Has more permissions, can do some tasks without needing approval by voting.</li>
+</ul>
+<p>However, decentralized trustless (or trust-reduced) organizations can allow for much more flexible relationships of different individuals with the organization. Aragon organizations have customizable bylaws that allow for fine-grain customization into who can perform an action (ie, an executive can add an employee to the payroll) or what needs to happen (ie, a voting needs to be approved to issue tokens) before the action is allowed.</p>
+<p><strong>D. Reputation</strong><br />
+Reputation is very valuable in free markets. We want every interaction to be rated if wanted.<br />
+This enables organizations to value the work of a contractor, for example, and the contractor to value the company.<br />
+Since we have all the relationship audit trail in place, we can easily trace the interactions in order for the reviews to really be authentic. This will be fully anonymous, if wanted.</p>
+<p><strong>E. Onboarding</strong><br />
+When opening the app, you should be able to create an Ethereum account and safely back it up.<br />
+Afterwards, you should either:<br />
+- Input the address of the company you want to interact with<br />
+- Deploy a new company contract, in which case the dApp will automatically point itself to the contract's address</p>
+<p>The onboarding process should feel familiar to anyone, not only to the cryptocurrencies enthusiasts. That's why it should be that easy.</p>
+<p><strong>F. Ownership</strong><br />
+Ownership in an Aragon Core organization is transparent and transferable. Each stakeholder’s holdings are public, and a stakeholder has the right to transfer ownership to another party. There are four transparent functions of ownership built into Aragon Core.<br />
+These are:</p>
+<ul>
+<li>List all stakeholders (and their holdings)</li>
+<li>Issue shares, arbitrarily or with parameters</li>
+<li>Sell or transfer tokens</li>
+<li>Issue new tokens</li>
+</ul>
+<p>The organization can issue tokens with limited transferability according to a Vesting Calendar or a different criteria.</p>
+<p>It is important to note that all tokens issued will be compliant with the ERC20 token <a href="#references">[5]</a> standard. This means that a stakeholders’  addresses can be linked to a name or tag, or fetched by a secure identity provider.</p>
+<p><strong>G. Capital</strong><br />
+Startup organizations need to be able to quickly raise capital. For a traditional startup, this would mean riding the VC unicorn rollercoaster, crowdfunding through a third party (e.g. Kickstarter), applying for a business loan, or bothering friends, relatives, and connections for investments. Aragon Core organizations can easily issue new shares in exchange for capital without operating with a third party, both through direct sales and public offerings. <br />
+- Aragon Core organizations can issue shares directly to another party when the party sends the negotiated amount of currency.</p>
+<ul>
+<li>If an organization wants raise capital publicly, Aragon Core organizations can publish share offers in the marketplace. Investors can then directly contact to negotiate or invest in a hard limit number of shares.</li>
+</ul>
+<p><strong>H. Rewards</strong><br />
+Hiring and paying employees is unnecessarily complicated. Aragon Core simplifies the process. Aragon Core organizations will be able to put people on their payroll and issue them tokens under specific parameters, including time and/or task-based performance.</p>
+<p>The user interface will let the user choose the amount to pay, the frequency, the shares to reward, and the parameters. To make the process more efficient, rewards can be in any Ethereum based token (using decentralized exchanges like the ones powered by the 0x protocol <a href="#references">[6]</a>) or any cryptocurrency with solutions like Cosmos or Polkadot that enable inter-blockchain currency exchange.</p>
+<p>If fiat is preferred, there will also be an option to generate prefilled credit cards with fiat from the company's funds. A solution like Shake, which has an API to generate instant and anonymous VISA cards, can be directly integrated with Aragon Core.</p>
+<p><strong>I. Payment processor</strong><br />
+For incoming payments, clients will be able to buy crypto currencies that then can be converted to the entrepreneurs' currency choice by using services like ShapeShift. After the user has acquired the crypto currency, the user will proceed to the payment. But for them, it will be a single step and everything will be transparently handled in the background.<br />
+We foresee this as being the most common flow in the beginning, instead of users creating their wallets right away.</p>
+<p>We will integrate with cryptocurrency exchanges and providers in order to provide a smooth user experience, similar to Stripe's.</p>
+<p><strong>J. Accounting</strong><br />
+Accounting is fully built in, and we will eventually provide connections to third party visualization services, in order not to reinvent the wheel.</p>
+<h3 id="23-modular-software"><strong>2.3 Modular Software</strong></h3>
+<p>Aragon Core is all of the required pieces to run an organization with the minimum principles for an organization (see previous section for principle definitions) on the Ethereum network. However, organizations have unique needs that may not be available in the out-of-the-box Aragon Core software. To address this issue, we’ve built Aragon Core as a modular system that allows for additional functionality to be developed on top (see section 2.5 for technical details).</p>
+<p>We also envision developers using Aragon Core as the foundation for use cases not related to creating and running an organization. Potential use cases for Aragon Core that we’ve envisioned include:</p>
+<ul>
+<li>Political election voting module - a small prediction marketplace could check if elected officials stick to campaign promises and reward those who voted for them</li>
+<li>Contractor payment module - Pay contractors as they work for your project or achieve milestones</li>
+<li>Accounting module - Accounting module with advanced data visualization (beyond offered in Aragon Core)</li>
+</ul>
+<p>Importantly, all modules can be coded using standard web technologies. This lets the developer use the tool they like, while keeping strong sandboxing and security in place.</p>
+<h3 id="24-aragon-core-summary"><strong>2.4. Aragon Core summary</strong></h3>
+<p>Aragon Core is where custom logic for organizational behavior lives. In summary, the main components of the Aragon Core application layer are:</p>
+<ul>
+<li>bylaws that define user permissions, i.e. who can perform an action,  </li>
+<li>a governance system to make decisions,  </li>
+<li>a capital system for issuing and controlling tokens, and  </li>
+<li>an accounting system to manage funds.</li>
+</ul>
+<p>Each of these components work together to meet the principles of an efficient and fair organization in a decentralized way. In addition, the modular nature of the system enables Aragon Core organizations to customize the software to meet their unique needs, or retrofit Aragon Core to fit another application (like voting for a political election). Aragon Core will implement a Module System so further functionality could be built on top.</p>
+<h2 id="3-dao-architecture-kernel-organs-and-applications">3. DAO architecture: Kernel, Organs and Applications</h2>
+<p>The following sections discuss the minimum definition of a Decentralized Autonomous Organization (DAO) <a href="#references">[7]</a>, the principles of the DAO adopted by Aragon Core and the Aragon Network, and the structure and function of the DAO kernel.</p>
+<h3 id="31-the-minimum-definition-of-a-dao"><strong>3.1. The minimum definition of a DAO</strong></h3>
+<p>We believe a DAO should be defined at its minimum expression. This is defined as an organization that only possesses the capability to successfully update itself <a href="#references">[8]</a>, without losing its eternal identity.</p>
+<h3 id="32-principles-of-the-dao"><strong>3.2. Principles of the DAO</strong></h3>
+<p>Before defining the different components this kernel for the DAO has, let’s define what are the basic principles of the DAO that we want to accomplish.</p>
+<ul>
+<li><strong>She is</strong>. We need to recognize the eternal existance of the DAO as an entity that exists in the world.<ul>
+<li>A DAO will exist until herself decides to cease existing. At that point it will be gone forever.</li>
+<li>A DAO is able to self-update her most basic components and continue being recognized as the same entity.</li>
+</ul>
+</li>
+<li><strong>She owns</strong>. A DAO has internal capital and therefore owns property, principally in the form of digital assets (cryptocurrency, tokens, digital property such as domain names, IP…)</li>
+<li><strong>She acts</strong>. She can take action towards the outside world or towards herself. Her software executes computer code in the form of smart contracts.</li>
+<li><strong>She is governed</strong>. Besides its previously programmed actions, outside human or machine action will be able to trigger certain DAO actions.</li>
+</ul>
+<h3 id="33-kernel-functions"><strong>3.3. Kernel Functions</strong></h3>
+<p>A core function of the kernel is to act as a registry that defines the organs and their respective priority levels. It’s important to note that each organ has a unique priority level. Thus, if an new organ is set to a priority level that already exists, it will replace the original organ.</p>
+<p>The kernel is also responsible for accepting different types of entry point transactions and dispatching them to the organs using a standard API. The current entry-points supported by the kernel are:</p>
+<ul>
+<li><strong>Standard transfers</strong>, value transfer in ether: Vanilla Ethereum transactions that may have value attached to them.</li>
+<li><strong>Pre-authorized transfers</strong>, value transfer in ether: The kernel supports previously signed calls to the DAO by a certain sender. The sender can pre-sign a certain transaction payload and provide the signature (r, s, v values) to the party that will execute the transaction on their behalf. This could be another contract or part of the mechanism to implement state channels.</li>
+<li><strong>Token transactions</strong>, we consider tokens to be equally good value holding assets as ether, and we believe that at the application level they should be as powerful as ether. The kernel will accept token transfers (with data and therefore function execution) for all the standard methods. Implementations for the ERC23 <a href="#references">[9]</a> token receiver interface and the approveAndCall workflow from ConsenSys HumanStandardToken <a href="#references">[10]</a> are ready.</li>
+</ul>
+<p><em>Note that when the value transfer is in ether, the kernel will tokenize the ether in a standard token. This allows the DAO to interact with any tokenized asset while only implementing the sensitive logic once instead of implementing ether and tokens separately.</em></p>
+<p>Finally, the kernel functions as a gatekeeper for new transaction requests. When the kernel receives a request, it asks the priority 1 organ whether the requested transaction is allowed by that entity. If allowed, the kernel redirects the transaction to the priority 1 organ (i.e. the dispatch organ). If not allowed, the transaction fails and terminates.</p>
+<h3 id="34-kernel-basic-components"><strong>3.4 Kernel Basic Components</strong></h3>
+<p><strong>A. The dispatch organ – She acts I</strong><br />
+The dispatch organ determines if the requested transaction is allowed to be performed by the requestor. It contains the logic or asks an oracle at an upper level of the stack for the logic. As discussed in the previous section, the kernel asks for permission before performing any transactions.</p>
+<p>If the transaction is not permitted, the transaction fails. If permitted, the dispatch organ triages the request to the capable organ. It determines the organ to execute the transaction by checking each organ, including itself, in order of priority. The transaction will be executed by the first organ with the capability to execute the transaction.</p>
+<p><strong>B. The meta organs – She is</strong><br />
+The meta organ self-upgrades the DAO and controls self-destruction. It is responsible for updating both the root DAO reference to the kernel and the kernel organ registry.</p>
+<p><strong>C. The vault organ – She owns</strong><br />
+The vault organ secures the funds and properties that the DAO owns (token assets) and controls the ability to spend them.</p>
+<p><strong>D. The token organ – She is governed</strong><br />
+The token organ keeps track of DAO governance tokens. In addition, the token organ controls the logic for adding, replacing and removing tokens.</p>
+<p><strong>E. The application organ – She acts II</strong><br />
+The application layer for the DAO is an organ itself. Importantly, applications ran by this organ will have very little access to other organs for kernel and organ security (i.e. sandboxing).</p>
+<p>Here in the application layer is where most of the logic for the organization will live. Different applications (in the form of Ethereum contracts) will be installed providing the DAO with extra functionality. We will create a module or application 'store' so organizations can easily install re-usable components in their organizations.</p>
+<h2 id="4-the-aragon-network">4. The Aragon Network</h2>
+<p>The Aragon Network (AN) will be the first decentralized autonomous organization whose goal is to act as a digital jurisdiction that makes it extremely easy and friendly for organizations, entrepreneurs and investors to operate.</p>
+<p>The Aragon Network will be bootstrapped with a very thin Constitution voted by its governance. New laws can be added and they can be amended by the governance of the AN.</p>
+<p>Also a very important role of the core Aragon Network contracts will be to ensure membership of organizations in the network and check that they are following the stablished rules.</p>
+<p>The network will operate by accumulating capital in the form of fees to the operation of the organizations transacting on the network. This fees will contribute to the network internal capital, that the network governance will freely allocate. The main destination of these funds will probably be service providers to the network, that will be necessary for the network operations.</p>
+<p>These main services are:<br />
+- Development of the Aragon core contracts that allows running decentralized organizations.<br />
+- A decentralized court (Appendix A), with the possibility of freezing organizations.<br />
+- A contract upgradeability service for all Aragon Core contracts (Appendix B), with a built-in bug bounty mechanism.</p>
+<p>We can say that the Aragon Network will provide everything an organization needs to thrive. Looking for a real-world metaphor, the best one would be what Delaware is today for companies, investors and entrepreneurs.</p>
+<p>The Aragon Network is the far more efficient digital Delaware that lives in the blockchain.</p>
+<h2 id="5-the-aragon-network-token-ant">5. The Aragon Network Token, ANT</h2>
+<p>The same way currency represents wealth in a macroeconomic way, ANT represents the wealth of the decentralized Aragon-enabled economy.</p>
+<h3 id="51-network-kickoff-and-ant-issuance"><strong>5.1. Network Kickoff and ANT Issuance</strong></h3>
+<p>To kickstart the network, an uncapped number of ANT will be sold based on a predetermined price function that increases over time. The funds raised from the initial sale will be transferred to the Aragon Foundation to fund development of Aragon Core and the Aragon Network (Figure 5.1 B)</p>
+<p>Some time after the sale ends, a Community members multisig will deploy the Aragon Network once they consider it implements its stated mission and it is secure to do so. At this moment the network will initiate and governance decisions will begin to be made by ANT token holders. (Figure 5.1 A)</p>
+<p><a href="../whitepaper/figure_51a.png"><img alt="" src="../whitepaper/figure_51a.png" /></a>
+<strong>Figure 5.1 A: Aragon Network deployment mechanism</strong><br>
+<br><br></p>
+<p><a href="../whitepaper/figure_51b.png"><img alt="" src="../whitepaper/figure_51b.png" /></a>
+<strong>Figure 5.1 B: The Aragon Token Sale mechanism</strong></p>
+<h3 id="52-a-continuous-token-model"><strong>5.2. A Continuous Token model</strong></h3>
+<p>ANT will continue to be minted by the network following the initial sale and network deployment. Minting new tokens will have a cost, and a percentage of the fees (decided by governance) paid by organizations to join the network will fund the minting of new tokens. This creates an incentive for Aragon organizations to pay fees, as organizations that contribute more will receive more ANT. This means that the organization will be more influential in network decisions.</p>
+<p>The cost to mint new tokens will be determined by ANT token holders. This will likely be a contentious decision, and one where the basic economic principles of supply and demand need to be considered. For example, consider the scenario where the cost of minting tokens is too low. More and more tokens will be added to the supply, until supply greatly outweighs demand. This is a recipe for inflation and the value of individual ANT tokens will fall. Ultimately, we believe that token holders will eventually decide on a healthy equilibrium for inflation. By weighing the opinion of every stakeholder, the market will accurately reflect the optimal minting cost.</p>
+<h3 id="53-network-governance"><strong>5.3 Network Governance</strong></h3>
+<p>Initially, the Aragon Network will be a liquid democracy <a href="#references">[11]</a> (alternatives, such as futarchy <a href="#references">[12]</a>, are being considered and we are actively following done in this are) that makes token issuing, fund allocation, and network rules decisions. See figure 5.3 for more details about a sample decisions made by ANT token holders.</p>
+<p>This means that when the Network is deployed governance decisions will be made by ANT holders with a system of proposal and votings. This mechanism will allow for creating proposals that result in the mechanism being upgraded.</p>
+<p>Figure 5.3: Aragon Network governance decisions sample
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
+.tg .tg-rsd6{font-weight:bold;background-color:#bec0bf;text-align:center}
+.tg .tg-bsv2{background-color:#efefef}
+</style>
+<table class="tg">
+  <tr>
+    <th class="tg-rsd6">ANT issuance</th>
+    <th class="tg-rsd6">Fund allocation</th>
+    <th class="tg-rsd6">Network rules</th>
+  </tr>
+  <tr>
+    <td class="tg-031e">Set <b>token minting cost</b>: Price<br>for generating new ANT.</td>
+    <td class="tg-031e">Allocate funds as a <b>one-time<br>reward</b></td>
+    <td class="tg-031e"><b>Append bylaws</b> to initial consti-<br>tution</td>
+  </tr>
+  <tr>
+    <td class="tg-bsv2">Set tax in <b>percentage for rev-<br>enue</b> in any asset (ETH or to-<br>ken)</td>
+    <td class="tg-bsv2">Allocate funds as a repeating<br>reward to a <b>service provider</b></td>
+    <td class="tg-bsv2"><b>Remove bylaws</b></td>
+  </tr>
+  <tr>
+    <td class="tg-031e">Set tax in <b>percentage for rev-<br>enue</b> in ANT (Potentially lower to<br>incentivize ANT use)</td>
+    <td class="tg-031e">Allocate funds as a <b>global re-<br>ward</b> to all token holders</td>
+    <td class="tg-031e">Remove from network or freeze<br>organizations that <b>don’t abide</b>.</td>
+  </tr>
+</table></p>
+<h3 id="54-network-adaptability"><strong>5.4. Network Adaptability</strong></h3>
+<p>The Aragon Network will provide a series of basic services that are needed to make decentralized organizations widespread. However, our intent is that it will remain as global and open as possible.</p>
+<p>While the Aragon Network has some basic constitution and governance methods, everyone will be able to create another network inside the Aragon Network with a more specific set of laws. For example, you could create an organization, join the Aragon Network, and vote for a new set of laws specific to your organization. Effectively, organiza-tions will be able to use the Aragon Network’s services basic constitution and services as a framework, and build a custom set of rules to govern relationships inside organizations.</p>
+<h3 id="55-further-uses-of-the-token"><strong>5.5. Further uses of the token</strong></h3>
+<p>The ANT token will be the native token for all of the network services that require a token, either for governance or other functionalities. For example in the case of the court, holders will be able to use their tokens to help arbitration and get a rewarded.</p>
+<h3 id="56-token-technical-features"><strong>5.6 Token technical features</strong></h3>
+<p>ANT will be ERC20 compatible with some extra features on top such as clone-ability and Vesting Calendars built-in.</p>
+<h2 id="6-summary">6. Summary</h2>
+<p>The AN solves the core issues that may arise when running a fully decentralized organization, by providing services that work much better on a large scale and make Aragon organizations more efficient. It provides a way for the network to pay for its public goods.</p>
+<p>Figure 6: The Aragon Network flow <br />
+<a href="../whitepaper/figure_6.png"><img alt="" src="../whitepaper/figure_6.png" /></a></p>
+<h2 id="appendix-network-services">Appendix: Network Services</h2>
+<p>We have defined the two fundamental network services the AN will hire. These may or may not be developed by Aragon Dev.</p>
+<p>The following are not protocol specs but a brief definition of our research on the matter and the features that the AN would need from them.</p>
+<h3 id="appendix-a-decentralized-arbitration-system-for-the-aragon-network"><strong>Appendix A: Decentralized arbitration system for the Aragon Network</strong></h3>
+<h4 id="1-driving-factors"><strong>1. Driving factors</strong></h4>
+<p>When transacting in the market, trust breaches may emerge and cause disputes between stakeholders.</p>
+<p>Thanks to the trustless nature of smart contracts, a lot of that problem surface disappears, since terms can be previously established and no part can trick them afterwards. But there are terms that are impossible to describe with code, and therefore disputes will emerge because of them.</p>
+<p>Let's think about these two examples:</p>
+<ul>
+<li>An investor invests into an organization and receives some voting power. The organization founder then goes rogue and sends all investment money to his personal account. If this was an Aragon organization, the investor just had to make sure that transactions above a certain threshold have to be approved by a majority voting.</li>
+<li>A founder hires a new sysadmin in a SaaS organization. The employee then has access to their very valuable user database, and can steal it and use it for his own benefit. The code running on Ethereum doesn't really have any way to know what happened, therefore Aragon organizations are vulnerable to this human breach of trust.</li>
+</ul>
+<p>We believe there should be an opt-in system for participants that want to cover themselves against these kinds of human behavior.</p>
+<p>The traditional solution to this are government-powered jurisdictions. Since Aragon organizations are location and government-agnostic — they are meant to be run on the Ethereum network — we came out with a better solution.</p>
+<h4 id="2-a-decentralized-liquid-forkable-jurisdiction"><strong>2. A decentralized, liquid, forkable jurisdiction</strong></h4>
+<p>An Aragon Network Jurisdiction (ANJ) defines a set of contracts that:</p>
+<ul>
+<li>Provide arbitration for any given dispute between two parties.</li>
+<li>Allow ANT holders to vote on certain basic rules that the arbitrators will take in account.</li>
+</ul>
+<h4 id="21-entities"><strong>2.1. Entities</strong></h4>
+<p>Entities (such as organizations or employees) can participate in the network by giving the entire control of their contracts to the ANJ contract.</p>
+<p>Entities that interact between each other, for example an organization and an employee, will be able to state more details (than the ones already in the contract) of their desired relationship in any cryptographic way, for example timestamping a common document than is then signed by both parties.</p>
+<h4 id="22-ant-functionality-in-the-anj"><strong>2.2. ANT functionality in the ANJ</strong></h4>
+<ul>
+<li>Voting power for multiple decisions and purposes, such as a set of general basic rules and replacing judges in the Supreme Court.</li>
+<li>Ability to make bonds in order to open an arbitration.</li>
+</ul>
+<h4 id="23-judges"><strong>2.3. Judges</strong></h4>
+<p>Entities that want to be arbitrators can post a bond in order to participate as judges.</p>
+<h4 id="3-arbitration-mechanism"><strong>3. Arbitration mechanism</strong></h4>
+<p>In order to open an arbitration, the applicant should post a bond. This bond will be given back if the case is resolved in their favor, and will be taken if not.</p>
+<p>The arbitration petition can also be freezing, which means that it will immediately freeze the defendant's contracts (eg. in case an attacker is exploiting a bug). Only applicants that are among the defendant's organization shareholders will be allowed for this petition. (Figure A)</p>
+<p>For human verdicts, the decisions of the judges are submitted using a two-step reveal of their decision for keeping it private for the whole decision making and not allowing the verdicts of other judges to influence their decision. This scheme is used in the auctions for Ethereum Name Service domain name registry. It works as follows:</p>
+<ul>
+<li>After deciding on the verdict, the judge will generate a secret random number and submit the hash and their decision to the court, while keeping the secret private.</li>
+<li>When the period for submitting verdicts is over, judges must reveal what their verdict was by providing their secret number. Then every one can check the validity of their verdict. Failure to reveal the secret results in a big penalization of the judge bond.</li>
+<li>For preventing judge collusion, if anyone provides the secret number of a verdict for a judge (proving that he made it public), the judge will be penalized and a part of the judge bond will go to the entity that reveal the secret.</li>
+</ul>
+<h4 id="31-human-judges"><strong>3.1. Human judges</strong></h4>
+<p>When an arbitration is started:</p>
+<ul>
+<li>A sample of 5 judges that posted a bond will be chosen randomly from the network. If one of them refuses to participate it is sightly penalized and another one is chosen.</li>
+<li>These judges look at the ANJ's basic rules, then organization-specific rules (if any) and then any other materials sent to them encrypted by the parties.</li>
+<li>They post a bet plus a secret.</li>
+<li>When the arbitration is due, they reveal their secrets.</li>
+<li>The bond is given back/rewarded to the judges, plus measures take place to penalize the losing party.</li>
+<li>The judges that voted the right answer are rewarded with a non-transferable token called reputation, and the others are extremely penalized.</li>
+</ul>
+<h4 id="32-prediction-marketplace"><strong>3.2. Prediction marketplace</strong></h4>
+<p>If the applicant is not satisfied with the human judges resolution, they can request an upgrade (by posting a significantly larger bond) to the next level, which is a prediction marketplace in which all the network judges can participate. For this, we can use projects like <a href="https://augur.net/">Augur</a> or <a href="https://gnosis.pm/">Gnosis</a>.</p>
+<p>When an arbitration is started:</p>
+<ul>
+<li>These judges look at the ANJ basic rules, then organization-specific rules (if any) and then any other materials posted to the network.</li>
+<li>They post a bet plus a secret.</li>
+<li>When the arbitration is due, they reveal their secrets.</li>
+<li>The bond is given back/rewarded to the judges, plus measures take place to penalize the losing party.</li>
+<li>If the result is different that the one voted by the human judges in the previous step, all judges that voted the incorrect answer are extremely penalized.</li>
+</ul>
+<h4 id="33-supreme-court"><strong>3.3. Supreme court</strong></h4>
+<p>If the applicant is not satisfied with the two previous steps, they can request an upgrade (by posting a significantly larger bond) to the ultimate level, which is a court composed of the top 9 judges by ANJ payout.</p>
+<p>When an arbitration is started:</p>
+<ul>
+<li>These judges look at the ANJ basic rules, then organization-specific rules (if any) and then any other materials posted to the network.</li>
+<li>They post a bet plus a secret.</li>
+<li>When the arbitration is due, they reveal their secrets.</li>
+<li>The bond is given back/rewarded to the network, plus measures take place to penalize the losing party.</li>
+<li>If the result is different that the one voted by the human judges in the previous step, all judges that voted the incorrect answer are extremely penalized.</li>
+</ul>
+<p>These judges are paid a salary determined by the AN token holders and paid by the ANF. (Figure B)</p>
+<h4 id="34-incentives-design"><strong>3.4. Incentives design</strong></h4>
+<p>Looking at the way the system is designed, one can argue that judges and the whole network if asked will be economically incentivized to dismiss the applicants request for arbitration and take her bond money to be split among them.</p>
+<p>This makes the applicant know that chances are, if her case is not clear enough it will be dismissed. But the judges also know, that if they lie and dismiss cases just for their personal gain and the case is unanimously over ruled, their tokens/bonds will be burnt.</p>
+<p>The system is designed to incentivize as less arbitration as possible and more as a safeguard for honest parties in case they are taken advantage of.</p>
+<h4 id="4-summary"><strong>4. Summary</strong></h4>
+<p>An ANJ provides the tools needed to solve all the subjectability humans relationships bring to the table.</p>
+<p>It sets the incentives right for Aragon organizations to be a part of it, since:</p>
+<ul>
+<li>Parties that want to interact with the given organization will want certain guarantees in case there's a breach of trust not covered by the contracts.</li>
+<li>Some bugs could be stopped by opening an arbitration that could freeze all activity until the case is resolved.</li>
+</ul>
+<p>ANJ's voting processes are fully liquid, but in any case between some stakeholders and the rest, it could potentially be forked. This creates incentives for their governance model to work. However, we believe an ANJ creates notable network effects because:</p>
+<ul>
+<li>Interacting with other party will likely require them to be signed up too, since otherwise it opens a surface for breaches of trust.</li>
+<li>If it's extended, then all parties (including investors) are familiar with its basic rules.</li>
+</ul>
+<p>Figure A: An arbitration flow 
+<a href="../whitepaper/appendixa_figurea.png"><img alt="" src="../whitepaper/appendixa_figurea.png" /></a></p>
+<p>Figure B: ANJ incentives
+<a href="../whitepaper/appendixa_figureb.png"><img alt="" src="../whitepaper/appendixa_figureb.png" /></a></p>
+<h3 id="appendix-b-aragon-network-smart-contract-security-and-upgradeability-strategy">Appendix B: Aragon Network smart contract security and upgradeability strategy</h3>
+<p>The great thing and at the same time problem with smart contracts is that once you create them, they will exist in the blockchain and execute whatever code the developer wrote, which not always reproduces the exact intention of the creator of the contract.</p>
+<p>The most important example of this is The DAO hack, where an unexpected combination of actions, resulted in the contract sending tons of its money to the hacker. In this case, a Hard Fork was done at the protocol level to prevent the leak of funds.</p>
+<p>At Aragon we are creating the software needed to create and run DAOs, but in a scalable and easy way so people that have never heard of Ethereum can run their organizations using it.<br />
+We need to build a system where people unfamiliar with the matter will be able to run their organizations with the certainty that they will always be running the latest version of the software and that they are as secure as possible from attacks.</p>
+<p>This service will be available to all the participant organizations in the Aragon Network, but organizations can decide to what degree they rely on it, from total upgrade control (no code is modified in my organization if I don't approve it) to no control at all (keep me safe, I don't want to know anything), to a middle ground (don't normally upgrade me, but if there is a severe security threat do it automatically).</p>
+<p>This is still a work in progress, but it is an important addition to the network if we want to see thousands of secure DAOs emerge.</p>
+<h4 id="1-components"><strong>1. Components</strong></h4>
+<p>Described below are different components we currently have planned for ensuring the integrity of the network and individual organizations.</p>
+<h4 id="11-proxy-libraries-for-upgradeable-smart-contracts"><strong>1.1. Proxy libraries for upgradeable smart contracts</strong></h4>
+<p>The current way of deploying (serious) smart contract systems usually relies on performing a sound security audit of the contract, uploading it to the network and hope for the best. Since code is immutable law by default, it's not possible to roll out upgrades that may fix bugs or better map the programmer's original intention.</p>
+<p>Or maybe it is not a fault of the programmer of the smart contract, the consensus algorithm of the protocol is changed and the contract becomes vulnerable to a new attack vector.</p>
+<p>This is a problem when a system is not upgradeable and we think that the contract that was written today will be good forever. This might be true for simple systems, but not for DAOs or Networks as complex as Aragon.</p>
+<p>We have been doing research to solve this problem for months and our current solution is to try to encapsulate as much as the system business logic in Solidity libraries. Doing Library Driven Development <a href="https://blog.aragon.one/library-driven-development-in-solidity-2bebcaf88736">[J. Izquierdo, 2017]</a> and then instead of linking this business logic forever in the contract, having Proxy Dispatcher <a href="https://medium.com/zeppelin-blog/proxy-libraries-in-solidity-79fbe4b970fd">[M. Araoz, 2017]</a> contracts that will know what version of the library each organization is linked with. We are working with the best smart contract security firm Zeppelin to create this system of proxies that dispatches to the upgraded versions of libraries and we recently published about it.</p>
+<p>These techniques will allow for very thin organization contracts that just have storage and then redirect all the logic to these libraries that all organization uses.</p>
+<p>In the case of a bug is found, the new version of the library is deployed and every organization in the network is upgraded depending on their settings:</p>
+<ul>
+<li>Automatic upgrade.</li>
+<li>Notification to upgrade, but requires approval.</li>
+<li>Nothing at all, organization decides not to use upgradeability and handle it themselves.</li>
+</ul>
+<h4 id="12-network-wide-bug-bounties"><strong>1.2. Network wide bug bounties</strong></h4>
+<p>The side effect of having the same contract run by multiple organizations is that it becomes a target for hacking. On a more positive note, there are also stakeholders incentivized to allocate resources to ensure this hacking doesn't happen.</p>
+<p>The network will create a bug bounty program for all the contracts organizations rely on and the network contracts. History shows that when people are economically incentivized to do good, most people finding a bug will report it to the program and get the bounty, rather than looking for ways to harm more people.</p>
+<p>We are experiencing with the idea of making the bug bounty pretty automatic, by having a test suite for organization contracts on chain, and if someone is capable of breaking the tests, automatically pay them out depending on the severity.</p>
+<p>The upgradeabilty mechanism of the network fits very well with the bug bounty program, because the moment a vulnerability is found, the time that passes until it is solved for everyone in the upgrade track is minimized.</p>
+<h4 id="13-global-safe-stop"><strong>1.3. Global safe stop</strong></h4>
+<p>In case a severe bug or attack is detected, the Aragon Network will be able to stop all organization contracts (every organization that opted in for this) and perform an investigation and code upgrade before restoring the service.</p>
+<p>We will be developing a bot that will look at all public transactions coming to Aragon organizations and in case it detects weird behavior or unexpected state that might be a threat, it will page in someone from the Aragon Project. In case the bot determines the threat is big enough and action must be immediate, it could stop all organizations while the person in charge looks at the situation.</p>
+<p>This means that in less than 30 seconds an attack could be stopped for all organizations, and fixed immediately with the upgrade mechanism. In case of a false positive, the person paged in would restart activity for every one and the downtime shouldn't be greater than 10 minutes.</p>
+<h4 id="14-anj-action-against-bad-actors-in-an-organization"><strong>1.4. ANJ action against bad actors in an organization</strong></h4>
+<p>As defined in the Aragon Network Jurisdiction document, all organizations in the network agree to be bound to the ANJ decentralized court. This protects individual organization stakeholders from the pure objectivity of smart contracts, that makes it very difficult and unproductive to encode certain things.</p>
+<p>Once a case is created, the court will be able to change or undo actions in the organization contract. This is only a protective measure for stakeholders. By placing a big enough bond, a shareholder of an organization can submit a case to the ANJ and as a preventive measure freeze the organization. If the court decides the case wasn't legit, this person would lose their bond to the court (and part to the organization).</p>
+<h4 id="2-tradeoffs"><strong>2. Tradeoffs</strong></h4>
+<p>As with most good things in life, security comes with tradeoffs.<br />
+We can imagine a triangle very similar to Zooko's Triangle (Figure A) applied to building decentralized apps, with Security, Decentralization and Ease of Use at its edges. Prioritizing a lot on one, will certainly come at the expense of the other too.</p>
+<p><a href="../whitepaper/appendixb_figurea.png"><img alt="" src="../whitepaper/appendixb_figurea.png" /></a>
+Figure A: Zooko's Triangle</p>
+<p>We find all three very important, but it is very difficult to have a perfect system on the three fronts. Our vision with this is to create a system where every user or organization can choose what compromises they are comfortable making.</p>
+<p><strong>A. Security</strong><br />
+By security we mean the capacity to solve to bugs or threats in a timely manner.<br />
+<strong>B. Decentralization</strong><br />
+The problem with the upgrade mechanism is that at the end a trusted party is the one in charge of performing the software upgrades, which is a very centralizing factor. The Network may choose to add a voting scheme, in order for the upgrades to roll out only if they have been correctly peer reviewed.<br />
+That's why our upgrading mechanism is opt-in, there will be people who will decide not to have so much security and be the ones that accept a software update for their organization.<br />
+<strong>C. Ease of use</strong><br />
+The case in which you optimize security and decentralization, it certainly undermines ease of use as someone needs to understand the code of Aragon to upgrade the organization, which is a huge barrier.</p>
+<h4 id="3-summary"><strong>3. Summary</strong></h4>
+<p>With the methods outlined in this document, the Aragon Network can ensure:</p>
+<ul>
+<li>Future bug fixes and enhancements can be added to the contracts.</li>
+<li>Critical vulnerabilities' impact can be minimized thanks to the bug bounty program, the global safe stop and the ANJ actions.</li>
+</ul>
+<h2 id="references">References</h2>
+<p>[1] Ralph C. Merkle, 1988: "A digital signature based on a conventional encryption function" <a href="https://people.eecs.berkeley.edu/~raluca/cs261-f15/readings/merkle.pdf">https://people.eecs.berkeley.edu/~raluca/cs261-f15/readings/merkle.pdf</a><br />
+[2] S. Nakamoto, 2009: "Bitcoin: A Peer-to-Peer Electronic Cash System" <a href="https://bitcoin.org/bitcoin.pdf">https://bitcoin.org/bitcoin.pdf</a><br />
+[3] V. Buterin, 2013: "Ethereum: A Next-Generation Smart Contract and Decentralized Application Platform" <a href="https://github.com/ethereum/wiki/wiki/White-Paper">https://github.com/ethereum/wiki/wiki/White-Paper</a><br />
+[4] J. Izquierdo, 2017: "How Aragon approaches identity and the Ethereum Keybase Resolver" <a href="https://blog.aragon.one/how-aragon-approaches-identity-and-the-ethereum-key-base-resolver-d548133e4a26">https://blog.aragon.one/how-aragon-approaches-identity-and-the-ethereum-key-base-resolver-d548133e4a26</a><br />
+[5] F. Vogelsteller, 2015: "ERC 20 token standard" <a href="https://github.com/ethereum/EIPs/issues/20">https://github.com/ethereum/EIPs/issues/20</a><br />
+[6] W. Warren, A. Bandeali, 2017: "0x: An open protocol for decentralized exchange on the Ethereum blockchain" <a href="https://www.0xproject.com/pdfs/0x_white_paper.pdf">https://www.0xproject.com/pdfs/0x_white_paper.pdf</a><br />
+[7] V. Buterin, 2014: "DAOs, DACs, DAs and More: An Incomplete Terminology Guide" <a href="https://blog.ethereum.org/2014/05/06/daos-dacs-das-and-more-an-incomplete-terminology-guide/">https://blog.ethereum.org/2014/05/06/daos-dacs-das-and-more-an-incomplete-terminology-guide/</a><br />
+[8] Ralph C. Merkle, 2016: "DAOs, Democracy and Governance". Cryonics Magazine, July- August, Vol 37:4, pp 28-40; Alcor. <a href="http://merkle.com/papers/DAOdemocracyDraft.pdf">http://merkle.com/papers/DAOdemocracyDraft.pdf</a><br />
+[9] Dexaran, 2017: "ERC23 token standard" <a href="https://github.com/ethereum/EIPs/issues/223">https://github.com/ethereum/EIPs/issues/223</a><br />
+[10] Consensys, 2015: "HumanStandardToken" <a href="https://github.com/ConsenSys/Tokens/blob/master/contracts/HumanStandardToken.sol">https://github.com/ConsenSys/Tokens/blob/master/contracts/HumanStandardToken.sol</a><br />
+[11] Liquid Democracy: <a href="https://en.wikipedia.org/wiki/Delegative_democracy">https://en.wikipedia.org/wiki/Delegative_democracy</a><br />
+[12] R. Hanson, 2000: "Futarchy: Vote Values, But Bet Beliefs" <a href="http://hanson.gmu.edu/futarchy.html">http://hanson.gmu.edu/futarchy.html</a></p>
+<p></small></p>
+                
+                  
+                
+              
+              
+                
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid">
+        
+          <a href="../.." title="Home" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
+            </div>
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Previous
+                </span>
+                Home
+              </span>
+            </div>
+          </a>
+        
+        
+          <a href="../Community_Governance_Model/" title="Community Governance Model" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Next
+                </span>
+                Community Governance Model
+              </span>
+            </div>
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-forward md-footer-nav__button"></i>
+            </div>
+          </a>
+        
+      </nav>
+    </div>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+        powered by
+        <a href="http://www.mkdocs.org" title="MkDocs">MkDocs</a>
+        and
+        <a href="http://squidfunk.github.io/mkdocs-material/" title="Material for MkDocs">
+          Material for MkDocs</a>
+      </div>
+      
+        
+  <div class="md-footer-social">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+      <a href="https://github.com/aragon" class="md-footer-social__link fa fa-github"></a>
+    
+      <a href="https://blog.aragon.one/" class="md-footer-social__link fa fa-medium"></a>
+    
+      <a href="https://www.reddit.com/r/aragonproject/" class="md-footer-social__link fa fa-reddit"></a>
+    
+      <a href="https://twitter.com/AragonProject" class="md-footer-social__link fa fa-twitter"></a>
+    
+      <a href="https://www.linkedin.com/company/aragonproject/" class="md-footer-social__link fa fa-linkedin"></a>
+    
+  </div>
+
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="../../assets/javascripts/application-f3ab9e5ff8.js"></script>
+      
+      
+      <script>app.initialize({url:{base:"../.."}})</script>
+      
+    
+    
+      
+    
+  </body>
+</html>
