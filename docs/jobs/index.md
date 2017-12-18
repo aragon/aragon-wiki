@@ -67,17 +67,17 @@ More specific instructions for each position can be found in the openings.
 
 We don't think talent is geographically centralized and people are magically available at our disposal. We have a continuous hiring process where jobs are open worldwide until we find the right person **for Aragon and each role**. We built a hiring process where we're not the only ones testing but you also get to actively know us:
 
-**1. Submit Application**
+1. **Submit Application**
 We'll review your application and we may ask you for more info.
-**2. Initial Interview**
+2. **Initial Interview**
 If there's a potential fit, we'll schedule a call.
-**3. Challenge**
+3. **Challenge**
 We'll ask you to solve a real problem.
-**4. Meet the team**
+4. **Meet the team**
 If we liked your submission, you'll chat with the founder/s.
-**6. Offer**
+6. **Offer**
 If we see a full match, we'll extend you an offer.
-**7. Trial**
+7. **Trial**
 Since we're remote, if there's consensus, we'll work in person for a week before taking the final decision.
 
 ![Our awesome team](https://user-images.githubusercontent.com/718208/30906534-68c1bf34-a378-11e7-8d8a-4021eaa42f90.jpg)
