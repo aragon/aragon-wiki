@@ -1001,6 +1001,96 @@
             "title": "Default"
         }, 
         {
+            "location": "/design/identity_guidelines/", 
+            "text": "Identity Guidelines\n\n\nDownload as PDF\n\n\nContents\n\n\n\n\nWelcome\n  \n\n\nInspiration\n  \n\n\nLogo\n  \n\n\nIsotype\n  \n\n\nColor palette\n  \n\n\nTypography\n  \n\n\n\n\nWelcome\n\n\nWelcome to the fresh Aragon Brand Guidelines.\n\nThis document contains all you need to know about how the new identity should be used in different supports.\n\n\nWe hope you enjoy getting to know our brand better.\n\n\nInspiration\n\n\n\n\n\n\n\n\n\n\nLogo\n\n\nStructure\n\n\n\n\n\n\nColor\n\n\n\n\nIsotype\n\n\nStructure\n\n\n\n\n\n\nSpaces \n Scale\n\n\n\n\n\n\n\n\n\n\nColor\n\n\nColor palette\n\n\n\n\nTypography\n\n\n\n\nIconography\n\n\nIcon Family\n\n\n\n\nUI Styles\n\n\n\n\nThanks\n\n\n- Work by Owi Sixseven\u00ae", 
+            "title": "Identity Guidelines"
+        }, 
+        {
+            "location": "/design/identity_guidelines/#identity-guidelines", 
+            "text": "Download as PDF", 
+            "title": "Identity Guidelines"
+        }, 
+        {
+            "location": "/design/identity_guidelines/#contents", 
+            "text": "Welcome     Inspiration     Logo     Isotype     Color palette     Typography", 
+            "title": "Contents"
+        }, 
+        {
+            "location": "/design/identity_guidelines/#welcome", 
+            "text": "Welcome to the fresh Aragon Brand Guidelines. \nThis document contains all you need to know about how the new identity should be used in different supports.  We hope you enjoy getting to know our brand better.", 
+            "title": "Welcome"
+        }, 
+        {
+            "location": "/design/identity_guidelines/#inspiration", 
+            "text": "", 
+            "title": "Inspiration"
+        }, 
+        {
+            "location": "/design/identity_guidelines/#logo", 
+            "text": "", 
+            "title": "Logo"
+        }, 
+        {
+            "location": "/design/identity_guidelines/#structure", 
+            "text": "", 
+            "title": "Structure"
+        }, 
+        {
+            "location": "/design/identity_guidelines/#color", 
+            "text": "", 
+            "title": "Color"
+        }, 
+        {
+            "location": "/design/identity_guidelines/#isotype", 
+            "text": "", 
+            "title": "Isotype"
+        }, 
+        {
+            "location": "/design/identity_guidelines/#structure_1", 
+            "text": "", 
+            "title": "Structure"
+        }, 
+        {
+            "location": "/design/identity_guidelines/#spaces-scale", 
+            "text": "", 
+            "title": "Spaces &amp; Scale"
+        }, 
+        {
+            "location": "/design/identity_guidelines/#color_1", 
+            "text": "", 
+            "title": "Color"
+        }, 
+        {
+            "location": "/design/identity_guidelines/#color-palette", 
+            "text": "", 
+            "title": "Color palette"
+        }, 
+        {
+            "location": "/design/identity_guidelines/#typography", 
+            "text": "", 
+            "title": "Typography"
+        }, 
+        {
+            "location": "/design/identity_guidelines/#iconography", 
+            "text": "", 
+            "title": "Iconography"
+        }, 
+        {
+            "location": "/design/identity_guidelines/#icon-family", 
+            "text": "", 
+            "title": "Icon Family"
+        }, 
+        {
+            "location": "/design/identity_guidelines/#ui-styles", 
+            "text": "", 
+            "title": "UI Styles"
+        }, 
+        {
+            "location": "/design/identity_guidelines/#thanks", 
+            "text": "- Work by Owi Sixseven\u00ae", 
+            "title": "Thanks"
+        }, 
+        {
             "location": "/design/merch/", 
             "text": "Merchandise design\n\n\n\n\n\n\nDomain\n\n\nEagle\n\n\nSlogan\n\n\nT-shirt Sketch file", 
             "title": "Merchandise"
@@ -1837,23 +1927,28 @@
         }, 
         {
             "location": "/jobs/", 
-            "text": "Job Openings\n\n\nCulture \ud83c\udf0d\n\n\n\n\nWe are a \nfully distributed\n company \u2013 we don't think talent is geographically centralized. We do offsites regularly for the team to meet and work together for a week.\n\n\nWe empower \ndeep work\n sessions, minimizing bureaucracy and leaving Monday for all meetings and internal calls.\n\n\nWe encourage team members to spend a substantial part of their paid work time on unrelated blockchain open source projects to speed up the development of the ecosystem.\n\n\nWe are \nopen source only\n.\n\n\nWe are a technology company. Our focus is \nproduct first\n.\n\n\n\n\nWork conditions \ud83d\ude80\n\n\n\n\nFull time\n commitment. Side projects and open source are accepted (and encouraged).\n\n\nCompletely \nremote\n position, no relocation required.\n\n\nVery competitive compensation.\n\n\nYou decide \nhow to allocate your salary in fiat, ETH or ANT\n.\n\n\nYearly bonus in ANT based on performance.\n\n\nWe empower autonomous workers with a proactive attitude and a love for time self-management.\n\n\n\n\nOpenings \ud83d\ude4b\ud83c\udffe\ud83d\ude4b\u200d\u2642\ufe0f\n\n\n\n\nEVM/Solidity Engineer\n\n\nFrontend and web3 Developer\n\n\nDeveloper Relations\n\n\nProduct Manager\n\n\nDesign Lead\n\n\n\n\nApplying \ud83d\udcdd\n\n\n\n\n\n\nWrite an email with any info you consider relevant to \nhiring@aragon.one\n, with the subject \n${insert_position_here} opening application\n.\n\n\n\n\n\n\nThe generic things we are looking for in the application are:\n\n\n\n\n\n\nA couple paragraphs explaining with your involvement and experience in the crypto community.\n\n\n\n\n\n\nAll the references to your past work\n\n\n\n\nGitHub for developers. Since we are open source only, we require applicants for developer positions to have a very active and healthy GitHub profile.\n\n\nDribbble/Behance/portfolio for designers\n\n\nCV/LinkedIn for other positions\n\n\n\n\n\n\n\n\nWe really value people that have previously \ncontributed to the project\n in a voluntary manner, or that are \ncommunity members\n.\n\n\n\n\nWe value what you can do and your attitude doing it, not where/whether you went to school or college.\n\n\n\n\nMore specific instructions for each position can be found in the openings.", 
+            "text": "Job Openings\n\n\nAragon is an open source, decentralized, project fighting for the freedom to organize.\n\n\nWe believe that \ndecentralized organizations can solve the world's worst problems\n, read more about it \nhere\n.\n\n\nCulture \ud83c\udf0d\n\n\n\n\nWe believe and fight for \nfreedom\n.\n\n\nWe are \nopen source only\n.\n\n\nWe promote \ntransparency, communication and autonomy\n.\n\n\nWe advocate \nopen source\n and \ndecentralization\n.\n\n\nWe encourage \ncontributions to other open source projects\n within the crypto space to speed up the development of the ecosystem.\n\n\nWe work \nfocus-driven\n, not hours-driven.\n\n\nWe are a technology project supported by a community. Our focus is \nproduct first\n.\n\n\n\n\nWork conditions \ud83d\ude80\n\n\n\n\nWork with \ntop minds\n from the ecosystem and build \nrevolutionary products\n.\n\n\nFully remote positions\n. You're free to accommodate your optimal workspace.\n\n\nFull-time commitment\n - only focus can bring top productivity.\n\n\nCompetitive compensation\n based on your role, not your location.\n\n\nYou decide \nhow to allocate your salary\n - in fiat, ETH and/or ANT.\n\n\nWe nourish curiosity and inspiration by \nsupporting side projects\n.\n\n\n\n\nPerks \u2b50\ufe0f\n\n\n\n\nWork with an international team (free hosting in worldwide locations and local guides!).\n\n\nQuarterly \noff sites\n where we all meet in a peaceful location to work and connect with the team and ecosystem guests.\n\n\nFlexible paid-time off, so you can take your vacations when you need.\n\n\nOptional \nPersonal Development Plan\n if you want to take your growth a step further.\n\n\nEquipment and software licenses.\n\n\nOpportunities to attend and/or speak in relevant \nevents\n.\n\n\n\n\nOpenings \ud83d\ude4b\ud83c\udffe\ud83d\ude4b\u200d\u2642\ufe0f\n\n\n\n\nEVM/Solidity Engineer\n\n\nFrontend and web3 Developer\n\n\nDeveloper Relations\n\n\nProduct Manager\n\n\nDesign Lead\n\n\n\n\nApplying \ud83d\udcdd\n\n\n\n\n\n\nWrite an email with any info you consider relevant to \nhiring@aragon.one\n, with the subject \n${insert_position_here} opening application\n.\n\n\n\n\n\n\nThe generic things we are looking for in the application are:\n\n\n\n\n\n\nA couple paragraphs explaining your involvement and experience in the crypto community.\n\n\n\n\n\n\nAll the references to your past work\n\n\n\n\nGitHub for developers. Since we are open source only, we require applicants for developer positions to have a very active and healthy GitHub profile.\n\n\nDribbble/Behance/portfolio for designers\n\n\nCV/LinkedIn for other positions\n\n\n\n\n\n\n\n\nWe really value people that have previously \ncontributed to the project\n in a voluntary manner, or that are \ncommunity members\n.\n\n\n\n\nWe value what you can do and your attitude doing it, not where/whether you went to school or college.\n\n\n\n\nMore specific instructions for each position can be found in the openings.\n\n\nProcess \ud83e\udd13\n\n\nWe don't think talent is geographically centralized and people are magically available at our disposal. We have a continuous hiring process where jobs are open worldwide until we find the right person \nfor Aragon and each role\n. We built a hiring process where we're not the only ones testing but you also get to actively know us:\n\n\n1. Submit Application\n\nWe'll review your application and we may ask you for more info.\n\n2. Initial Interview\n\nIf there's a potential fit, we'll schedule a call.\n\n3. Challenge\n\nWe'll ask you to solve a real problem.\n\n4. Meet the team\n\nIf we liked your submission, you'll chat with the founder/s.\n\n6. Offer\n\nIf we see a full match, we'll extend you an offer.\n\n7. Trial\n\nSince we're remote, if there's consensus, we'll work in person for a week before taking the final decision.", 
             "title": "Overview"
         }, 
         {
             "location": "/jobs/#job-openings", 
-            "text": "", 
+            "text": "Aragon is an open source, decentralized, project fighting for the freedom to organize.  We believe that  decentralized organizations can solve the world's worst problems , read more about it  here .", 
             "title": "Job Openings"
         }, 
         {
             "location": "/jobs/#culture", 
-            "text": "We are a  fully distributed  company \u2013 we don't think talent is geographically centralized. We do offsites regularly for the team to meet and work together for a week.  We empower  deep work  sessions, minimizing bureaucracy and leaving Monday for all meetings and internal calls.  We encourage team members to spend a substantial part of their paid work time on unrelated blockchain open source projects to speed up the development of the ecosystem.  We are  open source only .  We are a technology company. Our focus is  product first .", 
+            "text": "We believe and fight for  freedom .  We are  open source only .  We promote  transparency, communication and autonomy .  We advocate  open source  and  decentralization .  We encourage  contributions to other open source projects  within the crypto space to speed up the development of the ecosystem.  We work  focus-driven , not hours-driven.  We are a technology project supported by a community. Our focus is  product first .", 
             "title": "Culture \ud83c\udf0d"
         }, 
         {
             "location": "/jobs/#work-conditions", 
-            "text": "Full time  commitment. Side projects and open source are accepted (and encouraged).  Completely  remote  position, no relocation required.  Very competitive compensation.  You decide  how to allocate your salary in fiat, ETH or ANT .  Yearly bonus in ANT based on performance.  We empower autonomous workers with a proactive attitude and a love for time self-management.", 
+            "text": "Work with  top minds  from the ecosystem and build  revolutionary products .  Fully remote positions . You're free to accommodate your optimal workspace.  Full-time commitment  - only focus can bring top productivity.  Competitive compensation  based on your role, not your location.  You decide  how to allocate your salary  - in fiat, ETH and/or ANT.  We nourish curiosity and inspiration by  supporting side projects .", 
             "title": "Work conditions \ud83d\ude80"
+        }, 
+        {
+            "location": "/jobs/#perks", 
+            "text": "Work with an international team (free hosting in worldwide locations and local guides!).  Quarterly  off sites  where we all meet in a peaceful location to work and connect with the team and ecosystem guests.  Flexible paid-time off, so you can take your vacations when you need.  Optional  Personal Development Plan  if you want to take your growth a step further.  Equipment and software licenses.  Opportunities to attend and/or speak in relevant  events .", 
+            "title": "Perks \u2b50\ufe0f"
         }, 
         {
             "location": "/jobs/#openings", 
@@ -1862,8 +1957,13 @@
         }, 
         {
             "location": "/jobs/#applying", 
-            "text": "Write an email with any info you consider relevant to  hiring@aragon.one , with the subject  ${insert_position_here} opening application .    The generic things we are looking for in the application are:    A couple paragraphs explaining with your involvement and experience in the crypto community.    All the references to your past work   GitHub for developers. Since we are open source only, we require applicants for developer positions to have a very active and healthy GitHub profile.  Dribbble/Behance/portfolio for designers  CV/LinkedIn for other positions     We really value people that have previously  contributed to the project  in a voluntary manner, or that are  community members .   We value what you can do and your attitude doing it, not where/whether you went to school or college.   More specific instructions for each position can be found in the openings.", 
+            "text": "Write an email with any info you consider relevant to  hiring@aragon.one , with the subject  ${insert_position_here} opening application .    The generic things we are looking for in the application are:    A couple paragraphs explaining your involvement and experience in the crypto community.    All the references to your past work   GitHub for developers. Since we are open source only, we require applicants for developer positions to have a very active and healthy GitHub profile.  Dribbble/Behance/portfolio for designers  CV/LinkedIn for other positions     We really value people that have previously  contributed to the project  in a voluntary manner, or that are  community members .   We value what you can do and your attitude doing it, not where/whether you went to school or college.   More specific instructions for each position can be found in the openings.", 
             "title": "Applying \ud83d\udcdd"
+        }, 
+        {
+            "location": "/jobs/#process", 
+            "text": "We don't think talent is geographically centralized and people are magically available at our disposal. We have a continuous hiring process where jobs are open worldwide until we find the right person  for Aragon and each role . We built a hiring process where we're not the only ones testing but you also get to actively know us:  1. Submit Application \nWe'll review your application and we may ask you for more info. 2. Initial Interview \nIf there's a potential fit, we'll schedule a call. 3. Challenge \nWe'll ask you to solve a real problem. 4. Meet the team \nIf we liked your submission, you'll chat with the founder/s. 6. Offer \nIf we see a full match, we'll extend you an offer. 7. Trial \nSince we're remote, if there's consensus, we'll work in person for a week before taking the final decision.", 
+            "title": "Process \ud83e\udd13"
         }, 
         {
             "location": "/jobs/openings/solidity/", 
@@ -1932,27 +2032,32 @@
         }, 
         {
             "location": "/jobs/openings/product_manager/", 
-            "text": "Product Manager opening at Aragon\n\n\nWe are looking for a product manager to work on the \nAragon dapp\n.\n\n\nRequirements\n\n\n\n\nTechnical expertise to understand what's happening under the hood.\n\n\nExperience or very strong interest in managing remote teams.\n\n\nPrevious experience working in remote teams.\n\n\nVery good \nwritten communication\n skills.\n\n\nBeing passionate about \ndecentralization\n.\n\n\nBeing an autonomous individual with a proactive attitude and a love for \ntime self-management\n (We are focus-driven work, not hours-driven).\n\n\nAbility to adjust deadlines in a fast-moving environment.\n\n\nAbility to manage fine-grained, specific moving parts of the project and its requirements.\n\n\n\n\nGood to have\n\n\n\n\nExperience contributing or managing \nopen source projects\n.\n\n\n\n\nHow to apply\n\n\n\n\n\n\nWrite an email with the following attachments plus any information you consider important to \nhiring@aragon.one\n, with the subject \nProduct Manager opening application\n.\n\n\n\n\n\n\nPlease send along your GitHub profile, LinkedIn, and references we can get in touch with.\n\n\n\n\n\n\nIf you haven't, please \nread more about our culture, work conditions, etc.", 
+            "text": "Technical Product Manager\n\n\nWe're looking for a \nTechnical Product Manager\n with a strong passion for open source, decentralization and freedom. You'll combine your strategic and technical knowledge to lead the development of the \nAragon DApp\n.\n\n\nThe successful candidate will be attentive to details, self-manager, highly proactive and ambitious with prior experience working or managing technical teams. You will have a deep understanding of the Aragon DApp and the ability to project the big picture. You're a charismatic leader, assertive and efficient.\n\n\nDescription\n\n\n\n\nWork in an \ninternational remote team\n through the complete product development cycle\n\n\nWork with the development team to ensure delivery of \noptimal product\n within agreed \ndeadlines\n\n\nDefine and plan the \nlong-term strategy and roadmap\n for the Aragon DApp\n\n\nEvaluate use cases and the evolution of the crypto ecosystem to identify the needs in \nfuture versions\n\n\nCollaborate with key stakeholders to formulate and document product requirements\n\n\nManage product priorities\n and monitor progress throughout the entire development process\n\n\nEnsure clear communication and coordination across teams\n\n\nIdentify and solve risks and misalignments\n\n\n\n\nKey Qualifications\n\n\n\n\nDeep understanding\n of the \ncrypto ecosystem\n and strong passion for \ndecentralization\n\n\nPrior experience working throughout the \nwhole development stack\n\n\nExperience working and/or \nmanaging technical teams\n, ideally in remote positions\n\n\nVery good verbal and written communication skills\n\n\nProven ability to adjust deadlines in a fast-paced environment\n\n\nWillingness to \nroll up your sleeves\n and do whatever is needed\n\n\nDemonstrated attitude to \nhave fun\n and \ninspire others\n\n\n\n\nGood to have\n\n\n\n\nExperience scaling technical teams\n\n\nExperience contributing in and/or maintaining open source projects outside or within the crypto ecosystem\n\n\nExperience working with product management methodologies\n\n\n\n\nHow to apply\n\n\n\n\nWrite an email with the following attachments plus any other information you consider important to \nhiring@aragon.one\n, with the subject \nProduct Manager opening application\n.\n\n\nPlease send along your GitHub profile, Linkedin, and any other relevant documents or references\n\n\n\n\nIf you haven't, please \nread more about our culture, work conditions, etc.", 
             "title": "Product Manager"
         }, 
         {
-            "location": "/jobs/openings/product_manager/#product-manager-opening-at-aragon", 
-            "text": "We are looking for a product manager to work on the  Aragon dapp .", 
-            "title": "Product Manager opening at Aragon"
+            "location": "/jobs/openings/product_manager/#technical-product-manager", 
+            "text": "We're looking for a  Technical Product Manager  with a strong passion for open source, decentralization and freedom. You'll combine your strategic and technical knowledge to lead the development of the  Aragon DApp .  The successful candidate will be attentive to details, self-manager, highly proactive and ambitious with prior experience working or managing technical teams. You will have a deep understanding of the Aragon DApp and the ability to project the big picture. You're a charismatic leader, assertive and efficient.", 
+            "title": "Technical Product Manager"
         }, 
         {
-            "location": "/jobs/openings/product_manager/#requirements", 
-            "text": "Technical expertise to understand what's happening under the hood.  Experience or very strong interest in managing remote teams.  Previous experience working in remote teams.  Very good  written communication  skills.  Being passionate about  decentralization .  Being an autonomous individual with a proactive attitude and a love for  time self-management  (We are focus-driven work, not hours-driven).  Ability to adjust deadlines in a fast-moving environment.  Ability to manage fine-grained, specific moving parts of the project and its requirements.", 
-            "title": "Requirements"
+            "location": "/jobs/openings/product_manager/#description", 
+            "text": "Work in an  international remote team  through the complete product development cycle  Work with the development team to ensure delivery of  optimal product  within agreed  deadlines  Define and plan the  long-term strategy and roadmap  for the Aragon DApp  Evaluate use cases and the evolution of the crypto ecosystem to identify the needs in  future versions  Collaborate with key stakeholders to formulate and document product requirements  Manage product priorities  and monitor progress throughout the entire development process  Ensure clear communication and coordination across teams  Identify and solve risks and misalignments", 
+            "title": "Description"
+        }, 
+        {
+            "location": "/jobs/openings/product_manager/#key-qualifications", 
+            "text": "Deep understanding  of the  crypto ecosystem  and strong passion for  decentralization  Prior experience working throughout the  whole development stack  Experience working and/or  managing technical teams , ideally in remote positions  Very good verbal and written communication skills  Proven ability to adjust deadlines in a fast-paced environment  Willingness to  roll up your sleeves  and do whatever is needed  Demonstrated attitude to  have fun  and  inspire others", 
+            "title": "Key Qualifications"
         }, 
         {
             "location": "/jobs/openings/product_manager/#good-to-have", 
-            "text": "Experience contributing or managing  open source projects .", 
+            "text": "Experience scaling technical teams  Experience contributing in and/or maintaining open source projects outside or within the crypto ecosystem  Experience working with product management methodologies", 
             "title": "Good to have"
         }, 
         {
             "location": "/jobs/openings/product_manager/#how-to-apply", 
-            "text": "Write an email with the following attachments plus any information you consider important to  hiring@aragon.one , with the subject  Product Manager opening application .    Please send along your GitHub profile, LinkedIn, and references we can get in touch with.", 
+            "text": "Write an email with the following attachments plus any other information you consider important to  hiring@aragon.one , with the subject  Product Manager opening application .  Please send along your GitHub profile, Linkedin, and any other relevant documents or references", 
             "title": "How to apply"
         }, 
         {
