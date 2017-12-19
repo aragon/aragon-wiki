@@ -6,7 +6,7 @@
     Type: Governance Model
     Status: Final, v1.2
     Created: 2017-07-12
-    Last updated: 2017-11-14
+    Last updated: 2017-12-19
     Requires:
 
 ## Abstract
@@ -48,7 +48,7 @@ Our Code of Conduct and Community Guidelines act as a basis for all our communit
 ## Meetings
 
 ### **Community Meeting**
-- *Monthly, second Friday of the month. Time 16.00 CEST.*
+- **Monthly, first Friday of the month. Time 17.00 CET.**
 
 > Team members will produce a write-up of the most important things they have worked on since last Community Meeting, the problems they have found and what they plan to do in the next weeks (that can be a bit blurry, and that's fine). These write-ups will be published as a [blog post](https://blog.aragon.one/) for the community to review on Monday before Friday's meeting.
 
