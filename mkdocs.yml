@@ -33,7 +33,8 @@ pages:
   - Documentation:
     - Whitepaper: 'documentation/whitepaper.md'
     - Governance:
-      - Community Governance Model: 'documentation/Community_Governance_Model.md'
+      - AGP2 - Community Governance Model: 'documentation/Community_Governance_Model.md'
+      - AGP5 - Migration to Open Source Messaging Platform: 'documentation/Migration_to_Open_Source_Messaging_Platform.md'
     - Multisigs:
       - Overview: 'documentation/multisigs/overview.md'
       - Foundation: 'documentation/multisigs/foundation.md'
@@ -104,3 +105,7 @@ pages:
       - Dev: 'videos/dev.md'
     - Interviews: 'videos/interviews.md'
     - Presentations: 'videos/presentations.md'
+  - Archive:
+    - Documentation:
+      - AGP5 - Rocket Chat comparison: 'archive/documentation/agp5/RocketChat.md'
+      - AGP5 - Riot comparison: 'archive/documentation/agp5/Riot.md'
