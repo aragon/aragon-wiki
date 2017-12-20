@@ -1,4 +1,4 @@
-## Aragon Community Meeting 07 Write-Up for November
+## Aragon Community Meeting 07 Write-Up for December
 
 ### Luis - Project Lead
 
