@@ -81,13 +81,6 @@ pages:
       - Community 03: 'meetings/community/03.md'
       - Community 02: 'meetings/community/02.md'
       - Community 01: 'meetings/community/01.md'
-    - Aragon HQ:
-      - HQ 03: 'meetings/hq/03.md'
-      - HQ 02: 'meetings/hq/02.md'
-      - HQ 01: 'meetings/hq/01.md'
-    - Dev:
-      - Dev 02: 'meetings/dev/02.md'
-      - Dev 01: 'meetings/dev/01.md'
   - Jobs:
     - Overview: 'jobs/index.md'
     - Openings:
@@ -101,12 +94,22 @@ pages:
   - Videos:
     - Tutorials: 'videos/tutorials.md'
     - Meetings:
-      - HQ: 'videos/hq.md'
       - Community: 'videos/community.md'
-      - Dev: 'videos/dev.md'
     - Interviews: 'videos/interviews.md'
     - Presentations: 'videos/presentations.md'
   - Archive:
     - Documentation:
       - AGP5 - Rocket Chat comparison: 'archive/documentation/agp5/RocketChat.md'
       - AGP5 - Riot comparison: 'archive/documentation/agp5/Riot.md'
+    - Meetings:
+      - Aragon HQ:
+        - HQ 01: 'archive/meetings/hq/01.md'
+        - HQ 02: 'archive/meetings/hq/02.md'
+        - HQ 03: 'archive/meetings/hq/03.md'
+      - Dev:
+        - Dev 01: 'archive/meetings/dev/01.md'
+        - Dev 02: 'archive/meetings/dev/02.md'
+    - Videos:
+      - Meetings:
+        - Aragon HQ: 'archive/videos/hq.md'
+        - Dev: 'archive/videos/dev.md'
