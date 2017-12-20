@@ -35,6 +35,7 @@ pages:
     - Governance:
       - AGP2 - Community Governance Model: 'documentation/Community_Governance_Model.md'
       - AGP5 - Migration to Open Source Messaging Platform: 'documentation/Migration_to_Open_Source_Messaging_Platform.md'
+      - AGP7 - Merge Aragon HQ and Community meetings: 'documentation/Merge_Aragon_HQ_and_Community_meetings.md'
     - Multisigs:
       - Overview: 'documentation/multisigs/overview.md'
       - Foundation: 'documentation/multisigs/foundation.md'
