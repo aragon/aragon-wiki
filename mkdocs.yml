@@ -43,6 +43,8 @@ pages:
     - Development Plan: 'documentation/Development_Plan.md'
     - Aragon Code of Conduct: 'documentation/Code_of_Conduct.md'
     - Presentations: 'documentation/presentations.md'
+    - Audit reports:
+      - Audit 01 by Adam Dossa: 'documentation/audits/audit01_report_dossa.md'
   - Development:
     - Overview: 'dev/index.md'
     - AragonOS: 'dev/AragonOS.md'
