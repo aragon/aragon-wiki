@@ -1,5 +1,7 @@
 # Aragon Contract Audit by Adam Dossa
 
+_[Download as PDF](audit01_report_dossa.pdf)_
+
 ## Introduction
 
 This audit report was undertaken by @adamdossa for the purpose of providing feedback to Aragon.  
