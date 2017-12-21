@@ -1,10 +1,12 @@
-# Aragon Contract Audit by Adam Dossa
+# Aragon 0.5 Audit by Adam Dossa
 
-_[Download as PDF](audit01_report_dossa.pdf)_
+*The original PDF report has been converted to Markdown for easier reading. You can download unmodified report from the auditor here:*
+
+*[Download original PDF](audit01_report_dossa.pdf)*
 
 ## Introduction
 
-This audit report was undertaken by @adamdossa for the purpose of providing feedback to Aragon.  
+This audit report was undertaken by [@adamdossa](https://github.com/adamdossa) for the purpose of providing feedback to Aragon.  
 It has been written without any express or implied warranty.
 
 The review focussed on the Solidity contract code in these repos, and covered:
