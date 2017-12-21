@@ -426,6 +426,56 @@
             "title": "Copyright"
         }, 
         {
+            "location": "/documentation/Merge_Aragon_HQ_and_Community_meetings/", 
+            "text": "Preamble\n\n\nAGP: 7\nTitle: Merge Aragon HQ and Community meetings\nAuthor: Luis Cuende, Jorge Izquierdo, Tatu K\u00e4rki\nType: Governance Enhancement / Communication\nStatus: Final, v1.0\nCreated: 2017-11-14\nLast updated: -\nRequires:\n\n\n\nAbstract\n\n\nThe tl;dr about the HQ meeting is as follows:\n\n\n\n\nDiscussion about the state of Aragon, near future plans and decisions that need to be made. 10 min presentations with slides from team members, in which each one will run through the most important things we have done during the month\n\n\n\n\nSince we're mostly running through slides, it makes sense for all team members to just work on them and publish them online. We can publish them on Mon, and then leave the whole week for the community to review it and prepare questions for the Community meeting on Fri.\n\n\nEvery team member should look at each other's slides and prepare for the call, asking any questions that may have emerged. The community should do the same.\n\n\nThis way, we both save time in meetings, while being even more accountable, since accessing slides would be easier for the community than watching a very long call.\n\n\nSpecification\n\n\nGoals\n\n\n\n\nReplace most part of the Aragon HQ meeting with publicly-accessible slides\n\n\nLeave all discussion related to the Aragon HQ meeting to the Community meeting, in order to unify them and reduce the time we spend on calls and \"office\" bureaucracy\n\n\n\n\nDescription\n\n\nTeam members will produce a write-up of the most important things they have worked on since last Community Meeting, the problems they have found and what they plan to do in the next weeks (that can be a bit blurry, and that's fine). These write-ups will be published as a \nblog post\n for the community to review on Monday before Friday's meeting.\n\n\nMeeting agenda will be created based on the topics the team members present in their write-ups and discussion entailed around these topics will take place in the meeting. Live chat audience of the meeting is encouraged to participate and comment on the discussion during the meeting.\n\n\nFollowing all the other things in the meeting agenda, an AMA (Ask Me Anything) will take place where the team answers questions by the community. The AMA questions can be posted at a dedicated thread on \n/r/aragonproject\n.\n\n\nUncertainties\n\n\nShould there be a break between discussion and AMA segments.\n\n\nContributions\n\n\nThanks to @shylybugs for commenting on the proposal.\n\n\nReferences\n\n\n\n\nhttp://wiki.aragon.one/documentation/Community_Governance_Model/\n\n\n\n\nCopyright\n\n\nCopyright and related rights waived via \nCC0\n.", 
+            "title": "AGP7 - Merge Aragon HQ and Community meetings"
+        }, 
+        {
+            "location": "/documentation/Merge_Aragon_HQ_and_Community_meetings/#preamble", 
+            "text": "AGP: 7\nTitle: Merge Aragon HQ and Community meetings\nAuthor: Luis Cuende, Jorge Izquierdo, Tatu K\u00e4rki\nType: Governance Enhancement / Communication\nStatus: Final, v1.0\nCreated: 2017-11-14\nLast updated: -\nRequires:", 
+            "title": "Preamble"
+        }, 
+        {
+            "location": "/documentation/Merge_Aragon_HQ_and_Community_meetings/#abstract", 
+            "text": "The tl;dr about the HQ meeting is as follows:   Discussion about the state of Aragon, near future plans and decisions that need to be made. 10 min presentations with slides from team members, in which each one will run through the most important things we have done during the month   Since we're mostly running through slides, it makes sense for all team members to just work on them and publish them online. We can publish them on Mon, and then leave the whole week for the community to review it and prepare questions for the Community meeting on Fri.  Every team member should look at each other's slides and prepare for the call, asking any questions that may have emerged. The community should do the same.  This way, we both save time in meetings, while being even more accountable, since accessing slides would be easier for the community than watching a very long call.", 
+            "title": "Abstract"
+        }, 
+        {
+            "location": "/documentation/Merge_Aragon_HQ_and_Community_meetings/#specification", 
+            "text": "", 
+            "title": "Specification"
+        }, 
+        {
+            "location": "/documentation/Merge_Aragon_HQ_and_Community_meetings/#goals", 
+            "text": "Replace most part of the Aragon HQ meeting with publicly-accessible slides  Leave all discussion related to the Aragon HQ meeting to the Community meeting, in order to unify them and reduce the time we spend on calls and \"office\" bureaucracy", 
+            "title": "Goals"
+        }, 
+        {
+            "location": "/documentation/Merge_Aragon_HQ_and_Community_meetings/#description", 
+            "text": "Team members will produce a write-up of the most important things they have worked on since last Community Meeting, the problems they have found and what they plan to do in the next weeks (that can be a bit blurry, and that's fine). These write-ups will be published as a  blog post  for the community to review on Monday before Friday's meeting.  Meeting agenda will be created based on the topics the team members present in their write-ups and discussion entailed around these topics will take place in the meeting. Live chat audience of the meeting is encouraged to participate and comment on the discussion during the meeting.  Following all the other things in the meeting agenda, an AMA (Ask Me Anything) will take place where the team answers questions by the community. The AMA questions can be posted at a dedicated thread on  /r/aragonproject .", 
+            "title": "Description"
+        }, 
+        {
+            "location": "/documentation/Merge_Aragon_HQ_and_Community_meetings/#uncertainties", 
+            "text": "Should there be a break between discussion and AMA segments.", 
+            "title": "Uncertainties"
+        }, 
+        {
+            "location": "/documentation/Merge_Aragon_HQ_and_Community_meetings/#contributions", 
+            "text": "Thanks to @shylybugs for commenting on the proposal.", 
+            "title": "Contributions"
+        }, 
+        {
+            "location": "/documentation/Merge_Aragon_HQ_and_Community_meetings/#references", 
+            "text": "http://wiki.aragon.one/documentation/Community_Governance_Model/", 
+            "title": "References"
+        }, 
+        {
+            "location": "/documentation/Merge_Aragon_HQ_and_Community_meetings/#copyright", 
+            "text": "Copyright and related rights waived via  CC0 .", 
+            "title": "Copyright"
+        }, 
+        {
             "location": "/documentation/multisigs/overview/", 
             "text": "Aragon Multisig structure\n\n\nHaving a good multisig structure is important for security, ANT holders' trust and ensuring the project can and will do everything as planned.\n\n\nThe Aragon sale will feature two multisigs:\n\n\n\n\nThe Aragon Foundation Multisig (Aragon core developers). \nRead more\n.\n\n\nThe Community Multisig. \nRead more\n.\n\n\n\n\nBoth use Gnosis Multisig at commit \n25fba5\n which was independently audited. Aragon multisigs were compiled using Solidity v0.4.8 with optimization disabled.", 
             "title": "Overview"
@@ -1227,13 +1277,13 @@
         }, 
         {
             "location": "/design/", 
-            "text": "Branding\n\n\n\n\nBranding Proposal\n includes the thought process behind the branding\n\n\nIdentity Guidelines\n includes information about the brand colors, the structure etc.\n\n\nAragon DApp 0.5\n\n\nLogo\n has multiple versions of the logo in SVG, PNG and JPG formats\n\n\nArtwork\n has multiple resources, from \nPowered by Aragon\n icons to graphic resources to be used in blog posts etc. \n(TO DO)\n\n\nMerchandise\n has T-shirt designs", 
+            "text": "Design\n\n\n\n\nBranding Proposal\n includes the thought process behind the branding\n\n\nIdentity Guidelines\n includes information about the brand colors, the structure etc.\n\n\nAragon DApp 0.5\n\n\nLogo\n has multiple versions of the logo in SVG, PNG and JPG formats\n\n\nArtwork\n has multiple resources, from \nPowered by Aragon\n icons to graphic resources to be used in blog posts etc. \n(TO DO)\n\n\nMerchandise\n has T-shirt designs", 
             "title": "Overview"
         }, 
         {
-            "location": "/design/#branding", 
+            "location": "/design/#design", 
             "text": "Branding Proposal  includes the thought process behind the branding  Identity Guidelines  includes information about the brand colors, the structure etc.  Aragon DApp 0.5  Logo  has multiple versions of the logo in SVG, PNG and JPG formats  Artwork  has multiple resources, from  Powered by Aragon  icons to graphic resources to be used in blog posts etc.  (TO DO)  Merchandise  has T-shirt designs", 
-            "title": "Branding"
+            "title": "Design"
         }, 
         {
             "location": "/design/logo/", 
@@ -2076,156 +2126,6 @@
             "title": "Agenda"
         }, 
         {
-            "location": "/meetings/hq/03/", 
-            "text": "Aragon HQ Meeting 03\n\n\nMeeting Date: October 27th, 4pm CEST\n\n\nMeeting video\n\n\nParticipants\n\n\n\n\n@luisivan\n\n\n@Smokyish\n\n\n@izqui\n\n\n@mariapao\n\n\n@lkngtn\n\n\n@bpierre\n\n\n@harshjv\n\n\n\n\nAgenda\n\n\n\n\nDiscussion about the state of Aragon, near future plans and decisions that need to be made. 10 min presentations with slides from team members, in which each one will run through the most important things we have done during the month, the problems they have found, and what they plan to do next month (that can be a bit blurry, and that's fine)", 
-            "title": "HQ 03"
-        }, 
-        {
-            "location": "/meetings/hq/03/#aragon-hq-meeting-03", 
-            "text": "", 
-            "title": "Aragon HQ Meeting 03"
-        }, 
-        {
-            "location": "/meetings/hq/03/#meeting-date-october-27th-4pm-cest", 
-            "text": "", 
-            "title": "Meeting Date: October 27th, 4pm CEST"
-        }, 
-        {
-            "location": "/meetings/hq/03/#meeting-video", 
-            "text": "", 
-            "title": "Meeting video"
-        }, 
-        {
-            "location": "/meetings/hq/03/#participants", 
-            "text": "@luisivan  @Smokyish  @izqui  @mariapao  @lkngtn  @bpierre  @harshjv", 
-            "title": "Participants"
-        }, 
-        {
-            "location": "/meetings/hq/03/#agenda", 
-            "text": "Discussion about the state of Aragon, near future plans and decisions that need to be made. 10 min presentations with slides from team members, in which each one will run through the most important things we have done during the month, the problems they have found, and what they plan to do next month (that can be a bit blurry, and that's fine)", 
-            "title": "Agenda"
-        }, 
-        {
-            "location": "/meetings/hq/02/", 
-            "text": "Aragon HQ Meeting 02\n\n\nMeeting Date: October 6th, 4pm CEST\n\n\nMeeting video\n\n\nParticipants\n\n\n\n\n@luisivan\n\n\n@Smokyish\n\n\n@izqui\n\n\n@onbjerg\n\n\n\n\nAgenda\n\n\n\n\nDiscussion about the state of Aragon, near future plans and decisions that need to be made. 10 min presentations with slides from team members, in which each one will run through the most important things we have done during the month, the problems they have found, and what they plan to do next month (that can be a bit blurry, and that's fine)", 
-            "title": "HQ 02"
-        }, 
-        {
-            "location": "/meetings/hq/02/#aragon-hq-meeting-02", 
-            "text": "", 
-            "title": "Aragon HQ Meeting 02"
-        }, 
-        {
-            "location": "/meetings/hq/02/#meeting-date-october-6th-4pm-cest", 
-            "text": "", 
-            "title": "Meeting Date: October 6th, 4pm CEST"
-        }, 
-        {
-            "location": "/meetings/hq/02/#meeting-video", 
-            "text": "", 
-            "title": "Meeting video"
-        }, 
-        {
-            "location": "/meetings/hq/02/#participants", 
-            "text": "@luisivan  @Smokyish  @izqui  @onbjerg", 
-            "title": "Participants"
-        }, 
-        {
-            "location": "/meetings/hq/02/#agenda", 
-            "text": "Discussion about the state of Aragon, near future plans and decisions that need to be made. 10 min presentations with slides from team members, in which each one will run through the most important things we have done during the month, the problems they have found, and what they plan to do next month (that can be a bit blurry, and that's fine)", 
-            "title": "Agenda"
-        }, 
-        {
-            "location": "/meetings/hq/01/", 
-            "text": "Aragon HQ Meeting 01\n\n\nMeeting Date: September 1th, 3pm CEST\n\n\nMeeting video\n\n\nParticipants\n\n\n\n\n@luisivan\n\n\n@Smokyish\n\n\n@izqui\n\n\n@mariapao\n\n\n@readevalprint\n\n\n\n\nAgenda\n\n\n\n\nDiscussion about the state of Aragon, near future plans and decisions that need to be made. 10 min presentations with slides from team members, in which each one will run through the most important things we have done during the month, the problems they have found, and what they plan to do next month (that can be a bit blurry, and that's fine)", 
-            "title": "HQ 01"
-        }, 
-        {
-            "location": "/meetings/hq/01/#aragon-hq-meeting-01", 
-            "text": "", 
-            "title": "Aragon HQ Meeting 01"
-        }, 
-        {
-            "location": "/meetings/hq/01/#meeting-date-september-1th-3pm-cest", 
-            "text": "", 
-            "title": "Meeting Date: September 1th, 3pm CEST"
-        }, 
-        {
-            "location": "/meetings/hq/01/#meeting-video", 
-            "text": "", 
-            "title": "Meeting video"
-        }, 
-        {
-            "location": "/meetings/hq/01/#participants", 
-            "text": "@luisivan  @Smokyish  @izqui  @mariapao  @readevalprint", 
-            "title": "Participants"
-        }, 
-        {
-            "location": "/meetings/hq/01/#agenda", 
-            "text": "Discussion about the state of Aragon, near future plans and decisions that need to be made. 10 min presentations with slides from team members, in which each one will run through the most important things we have done during the month, the problems they have found, and what they plan to do next month (that can be a bit blurry, and that's fine)", 
-            "title": "Agenda"
-        }, 
-        {
-            "location": "/meetings/dev/02/", 
-            "text": "Aragon Dev Meeting Agenda\n\n\nMeeting Date: July 21st, 2pm CEST\n\n\nMeeting video\n\n\nParticipants\n\n\n\n\n@readevalprint\n\n\n@onbjerg\n\n\n@luisivan\n\n\n@izqui facilitator\n\n\n@Smokyish to handle recording, live streaming and collection of questions by viewers\n\n\n\n\nAgenda\n\n\n\n\nWelcoming @onbjerg. How is research going?\n\n\nAccounting app progress (@readevalprint)\n\n\nPropose researching to see if \npopulus\n would be a viable framework (@readevalprint)\n\n\nKernel refactor update (@izqui)\n\n\nKickoff v0.5 (@all)\n\n\nv0.4 audit strategy and timeline (@izqui)\n\n\nWhat is everyone's focus/goals for next week (@everyone gets to talk)\n\n\nOther questions, comments or concerns by participants.\n\n\nQuestions, comments or concerns by live viewers.\n\n\nClosing meeting", 
-            "title": "Dev 02"
-        }, 
-        {
-            "location": "/meetings/dev/02/#aragon-dev-meeting-agenda", 
-            "text": "", 
-            "title": "Aragon Dev Meeting Agenda"
-        }, 
-        {
-            "location": "/meetings/dev/02/#meeting-date-july-21st-2pm-cest", 
-            "text": "", 
-            "title": "Meeting Date: July 21st, 2pm CEST"
-        }, 
-        {
-            "location": "/meetings/dev/02/#meeting-video", 
-            "text": "", 
-            "title": "Meeting video"
-        }, 
-        {
-            "location": "/meetings/dev/02/#participants", 
-            "text": "@readevalprint  @onbjerg  @luisivan  @izqui facilitator  @Smokyish to handle recording, live streaming and collection of questions by viewers", 
-            "title": "Participants"
-        }, 
-        {
-            "location": "/meetings/dev/02/#agenda", 
-            "text": "Welcoming @onbjerg. How is research going?  Accounting app progress (@readevalprint)  Propose researching to see if  populus  would be a viable framework (@readevalprint)  Kernel refactor update (@izqui)  Kickoff v0.5 (@all)  v0.4 audit strategy and timeline (@izqui)  What is everyone's focus/goals for next week (@everyone gets to talk)  Other questions, comments or concerns by participants.  Questions, comments or concerns by live viewers.  Closing meeting", 
-            "title": "Agenda"
-        }, 
-        {
-            "location": "/meetings/dev/01/", 
-            "text": "Proposed structure for these meetings by @Smokyish. To be tested in this first meeting.\n\n\nAragon Dev Meeting Agenda\n\n\nMeeting Date: July 7th, 2pm CEST\n\n\nMeeting video\n\n\nParticipants\n\n\n\n\n@harshjv\n\n\n@readevalprint\n\n\n@luisivan\n\n\n@izqui facilitator\n\n\n@Smokyish to handle recording, live streaming and collection of questions by viewers\n\n\n\n\nAgenda\n\n\n\n\nAccounting app progress (@readevalprint)\n\n\nOverall v0.4 refactor state and scoping of the v0.4 deliverable (@izqui)\n\n\nReview of this week sprint https://github.com/orgs/aragon/projects/1 (@izqui)\n\n\nMeta: opinions on sprint organization (@everyone except @izqui)\n\n\nv0.5 planning (@harshjv)\n\n\nVersioning protocol https://github.com/aragon/aragon/issues/19 (@luisivan)\n\n\nv0.5 web3 providers. uPort \n Ledger integration? Remove Metamask? (@izqui)\n\n\nWhat is everyone's focus/goals for next week (@everyone gets to talk)\n\n\nOther questions, comments or concerns by participants.\n\n\nQuestions, comments or concerns by live viewers.\n\n\nClosing meeting", 
-            "title": "Dev 01"
-        }, 
-        {
-            "location": "/meetings/dev/01/#aragon-dev-meeting-agenda", 
-            "text": "", 
-            "title": "Aragon Dev Meeting Agenda"
-        }, 
-        {
-            "location": "/meetings/dev/01/#meeting-date-july-7th-2pm-cest", 
-            "text": "", 
-            "title": "Meeting Date: July 7th, 2pm CEST"
-        }, 
-        {
-            "location": "/meetings/dev/01/#meeting-video", 
-            "text": "", 
-            "title": "Meeting video"
-        }, 
-        {
-            "location": "/meetings/dev/01/#participants", 
-            "text": "@harshjv  @readevalprint  @luisivan  @izqui facilitator  @Smokyish to handle recording, live streaming and collection of questions by viewers", 
-            "title": "Participants"
-        }, 
-        {
-            "location": "/meetings/dev/01/#agenda", 
-            "text": "Accounting app progress (@readevalprint)  Overall v0.4 refactor state and scoping of the v0.4 deliverable (@izqui)  Review of this week sprint https://github.com/orgs/aragon/projects/1 (@izqui)  Meta: opinions on sprint organization (@everyone except @izqui)  v0.5 planning (@harshjv)  Versioning protocol https://github.com/aragon/aragon/issues/19 (@luisivan)  v0.5 web3 providers. uPort   Ledger integration? Remove Metamask? (@izqui)  What is everyone's focus/goals for next week (@everyone gets to talk)  Other questions, comments or concerns by participants.  Questions, comments or concerns by live viewers.  Closing meeting", 
-            "title": "Agenda"
-        }, 
-        {
             "location": "/jobs/", 
             "text": "Job Openings\n\n\nAragon is an open source, decentralized, project fighting for the freedom to organize.\n\n\nWe believe that \ndecentralized organizations can solve the world's worst problems\n, read more about it \nhere\n.\n\n\nCulture \ud83c\udf0d\n\n\n\n\nWe believe and fight for \nfreedom\n.\n\n\nWe are \nopen source only\n.\n\n\nWe promote \ntransparency, communication and autonomy\n.\n\n\nWe advocate \nopen source\n and \ndecentralization\n.\n\n\nWe encourage \ncontributions to other open source projects\n within the crypto space to speed up the development of the ecosystem.\n\n\nWe work \nfocus-driven\n, not hours-driven.\n\n\nWe are a technology project supported by a community. Our focus is \nproduct first\n.\n\n\n\n\nWork conditions \ud83d\ude80\n\n\n\n\nWork with \ntop minds\n from the ecosystem and build \nrevolutionary products\n.\n\n\nFully remote positions\n. You're free to accommodate your optimal workspace.\n\n\nFull-time commitment\n - only focus can bring top productivity.\n\n\nCompetitive compensation\n based on your role, not your location.\n\n\nYou decide \nhow to allocate your salary\n - in fiat, ETH and/or ANT.\n\n\nWe nourish curiosity and inspiration by \nsupporting side projects\n.\n\n\n\n\nPerks \u2b50\ufe0f\n\n\n\n\nWork with an international team (free hosting in worldwide locations and local guides!).\n\n\nQuarterly \noff sites\n where we all meet in a peaceful location to work and connect with the team and ecosystem guests.\n\n\nFlexible paid-time off, so you can take your vacations when you need.\n\n\nOptional \nPersonal Development Plan\n if you want to take your growth a step further.\n\n\nEquipment and software licenses.\n\n\nOpportunities to attend and/or speak in relevant \nevents\n.\n\n\n\n\nOpenings \ud83d\ude4b\ud83c\udffe\ud83d\ude4b\u200d\u2642\ufe0f\n\n\n\n\nEVM/Solidity Engineer\n\n\nFrontend and web3 Developer\n\n\nDeveloper Relations\n\n\nProduct Manager\n\n\nDesign Lead\n\n\n\n\nApplying \ud83d\udcdd\n\n\n\n\n\n\nWrite an email with any info you consider relevant to \nhiring@aragon.one\n, with the subject \n${insert_position_here} opening application\n.\n\n\n\n\n\n\nThe generic things we are looking for in the application are:\n\n\n\n\n\n\nA couple paragraphs explaining your involvement and experience in the crypto community.\n\n\n\n\n\n\nAll the references to your past work\n\n\n\n\nGitHub for developers. Since we are open source only, we require applicants for developer positions to have a very active and healthy GitHub profile.\n\n\nDribbble/Behance/portfolio for designers\n\n\nCV/LinkedIn for other positions\n\n\n\n\n\n\n\n\nWe really value people that have previously \ncontributed to the project\n in a voluntary manner, or that are \ncommunity members\n.\n\n\n\n\nWe value what you can do and your attitude doing it, not where/whether you went to school or college.\n\n\n\n\nMore specific instructions for each position can be found in the openings.\n\n\nProcess \ud83e\udd13\n\n\nWe don't think talent is geographically centralized and people are magically available at our disposal. We have a continuous hiring process where jobs are open worldwide until we find the right person \nfor Aragon and each role\n. We built a hiring process where we're not the only ones testing but you also get to actively know us:\n\n\n\n\nSubmit Application\n\nWe'll review your application and we may ask you for more info.\n\n\nInitial Interview\n\nIf there's a potential fit, we'll schedule a call.\n\n\nChallenge\n\nWe'll ask you to solve a real problem.\n\n\nMeet the team\n\nIf we liked your submission, you'll chat with the founder/s.\n\n\nOffer\n\nIf we see a full match, we'll extend you an offer.\n\n\nTrial\n\nSince we're remote, if there's consensus, we'll work in person for a week before taking the final decision.", 
             "title": "Overview"
@@ -2861,31 +2761,6 @@
             "title": "Aragon Token Sale with Parity"
         }, 
         {
-            "location": "/videos/hq/", 
-            "text": "Aragon HQ Meeting Videos\n\n\nAragon HQ Meeting 03\n\n\n\n\nStreamed live on Oct 27, 2017\n\n\n\n\nAragon HQ Meeting 02\n\n\n\n\nStreamed live on Oct 6, 2017\n\n\n\n\nAragon HQ Meeting 01\n\n\n\n\nStreamed live on Sep 1, 2017", 
-            "title": "HQ"
-        }, 
-        {
-            "location": "/videos/hq/#aragon-hq-meeting-videos", 
-            "text": "", 
-            "title": "Aragon HQ Meeting Videos"
-        }, 
-        {
-            "location": "/videos/hq/#aragon-hq-meeting-03", 
-            "text": "Streamed live on Oct 27, 2017", 
-            "title": "Aragon HQ Meeting 03"
-        }, 
-        {
-            "location": "/videos/hq/#aragon-hq-meeting-02", 
-            "text": "Streamed live on Oct 6, 2017", 
-            "title": "Aragon HQ Meeting 02"
-        }, 
-        {
-            "location": "/videos/hq/#aragon-hq-meeting-01", 
-            "text": "Streamed live on Sep 1, 2017", 
-            "title": "Aragon HQ Meeting 01"
-        }, 
-        {
             "location": "/videos/community/", 
             "text": "Aragon Community Meeting Videos\n\n\nAragon Community Meeting 06\n\n\n\n\nStreamed live on Dec 1, 2017\n\n\nMeeting agenda: \nhttp://wiki.aragon.one/meetings/community/06/\n\nAMA Thread: \nhttps://www.reddit.com/r/aragonproject/comments/7g3043/aragon_community_meeting_06_ama_thread/\n\n\n\n\nAragon Community Meeting 05\n\n\n\n\nStreamed live on Nov 10, 2017\n\n\nMeeting agenda: \nhttp://wiki.aragon.one/meetings/community/05/\n\nAMA Thread: \nhttps://www.reddit.com/r/aragonproject/comments/7bsd70/aragon_community_meeting_05_ama_thread/\n\n\n\n\nAragon Community Meeting 04\n\n\n\n\nStreamed live on Oct 13, 2017\n\n\nMeeting agenda: \nhttp://wiki.aragon.one/meetings/community/04/\n\nAMA Thread: \nhttps://www.reddit.com/r/aragonproject/comments/75oivu/aragon_community_meeting_04_ama_thread/\n\n\n\n\nAragon Community Meeting 03\n\n\n\n\nStreamed live on Sep 8, 2017\n\n\nMeeting agenda: \nhttps://wiki.aragon.one/meetings/community/03/\n\nMeeting AMA thread: \nhttps://www.reddit.com/r/aragonproject/comments/6yhk0r/aragon_community_meeting_03_ama_thread/\n\n\n\n\nAragon Community Meeting 02\n\n\n\n\nStreamed live on Aug 18, 2017\n\n\nMeeting notes and agenda: \nhttps://wiki.aragon.one/meetings/community/02/\n\n\n\n\nAragon Community Meeting 01\n\n\n\n\nStreamed live on Jul 14, 2017\n\n\nMeeting notes and agenda: \nhttps://wiki.aragon.one/meetings/community/01/", 
             "title": "Community"
@@ -2924,26 +2799,6 @@
             "location": "/videos/community/#aragon-community-meeting-01", 
             "text": "Streamed live on Jul 14, 2017  Meeting notes and agenda:  https://wiki.aragon.one/meetings/community/01/", 
             "title": "Aragon Community Meeting 01"
-        }, 
-        {
-            "location": "/videos/dev/", 
-            "text": "Aragon Dev Meeting Videos\n\n\nWe had planned on having bi-weekly Dev Meetings, but wanted to reduce the amount of time spent in meetings. So they are now integrated into the Aragon HQ Meetings.\n\n\nAragon Dev Meeting 02\n\n\n\n\nStreamed live on Jul 21, 2017\n\n\nMeeting notes and agenda: \nhttps://wiki.aragon.one/meetings/dev/02/\n\n\n\n\nAragon Dev Meeting 01\n\n\n\n\nStreamed live on Jul 7, 2017\n\n\nMeeting notes and agenda: \nhttps://wiki.aragon.one/meetings/dev/01/", 
-            "title": "Dev"
-        }, 
-        {
-            "location": "/videos/dev/#aragon-dev-meeting-videos", 
-            "text": "We had planned on having bi-weekly Dev Meetings, but wanted to reduce the amount of time spent in meetings. So they are now integrated into the Aragon HQ Meetings.", 
-            "title": "Aragon Dev Meeting Videos"
-        }, 
-        {
-            "location": "/videos/dev/#aragon-dev-meeting-02", 
-            "text": "Streamed live on Jul 21, 2017  Meeting notes and agenda:  https://wiki.aragon.one/meetings/dev/02/", 
-            "title": "Aragon Dev Meeting 02"
-        }, 
-        {
-            "location": "/videos/dev/#aragon-dev-meeting-01", 
-            "text": "Streamed live on Jul 7, 2017  Meeting notes and agenda:  https://wiki.aragon.one/meetings/dev/01/", 
-            "title": "Aragon Dev Meeting 01"
         }, 
         {
             "location": "/videos/interviews/", 
@@ -3029,6 +2884,201 @@
             "location": "/archive/documentation/agp5/Riot/#cons", 
             "text": "UX is bad, specially for newcomers  Encryption / key exchange is buggy and keeps causing issues in encrypted channels, unfortunately  Lack of message pinning, editing and reactions, but as seen above, they're coming by the end of 2017  They are having  funding   issues  and require a very significant amount of capital to continue with the project for the next 18 months, at least.  This might be a lesser issue, but not confirmed  No customization options in the client for Projects  Self-deployed instances aren't necessary, but would incur monthly costs if used", 
             "title": "Cons"
+        }, 
+        {
+            "location": "/archive/meetings/hq/01/", 
+            "text": "Aragon HQ Meeting 01\n\n\nMeeting Date: September 1th, 3pm CEST\n\n\nMeeting video\n\n\nParticipants\n\n\n\n\n@luisivan\n\n\n@Smokyish\n\n\n@izqui\n\n\n@mariapao\n\n\n@readevalprint\n\n\n\n\nAgenda\n\n\n\n\nDiscussion about the state of Aragon, near future plans and decisions that need to be made. 10 min presentations with slides from team members, in which each one will run through the most important things we have done during the month, the problems they have found, and what they plan to do next month (that can be a bit blurry, and that's fine)", 
+            "title": "HQ 01"
+        }, 
+        {
+            "location": "/archive/meetings/hq/01/#aragon-hq-meeting-01", 
+            "text": "", 
+            "title": "Aragon HQ Meeting 01"
+        }, 
+        {
+            "location": "/archive/meetings/hq/01/#meeting-date-september-1th-3pm-cest", 
+            "text": "", 
+            "title": "Meeting Date: September 1th, 3pm CEST"
+        }, 
+        {
+            "location": "/archive/meetings/hq/01/#meeting-video", 
+            "text": "", 
+            "title": "Meeting video"
+        }, 
+        {
+            "location": "/archive/meetings/hq/01/#participants", 
+            "text": "@luisivan  @Smokyish  @izqui  @mariapao  @readevalprint", 
+            "title": "Participants"
+        }, 
+        {
+            "location": "/archive/meetings/hq/01/#agenda", 
+            "text": "Discussion about the state of Aragon, near future plans and decisions that need to be made. 10 min presentations with slides from team members, in which each one will run through the most important things we have done during the month, the problems they have found, and what they plan to do next month (that can be a bit blurry, and that's fine)", 
+            "title": "Agenda"
+        }, 
+        {
+            "location": "/archive/meetings/hq/02/", 
+            "text": "Aragon HQ Meeting 02\n\n\nMeeting Date: October 6th, 4pm CEST\n\n\nMeeting video\n\n\nParticipants\n\n\n\n\n@luisivan\n\n\n@Smokyish\n\n\n@izqui\n\n\n@onbjerg\n\n\n\n\nAgenda\n\n\n\n\nDiscussion about the state of Aragon, near future plans and decisions that need to be made. 10 min presentations with slides from team members, in which each one will run through the most important things we have done during the month, the problems they have found, and what they plan to do next month (that can be a bit blurry, and that's fine)", 
+            "title": "HQ 02"
+        }, 
+        {
+            "location": "/archive/meetings/hq/02/#aragon-hq-meeting-02", 
+            "text": "", 
+            "title": "Aragon HQ Meeting 02"
+        }, 
+        {
+            "location": "/archive/meetings/hq/02/#meeting-date-october-6th-4pm-cest", 
+            "text": "", 
+            "title": "Meeting Date: October 6th, 4pm CEST"
+        }, 
+        {
+            "location": "/archive/meetings/hq/02/#meeting-video", 
+            "text": "", 
+            "title": "Meeting video"
+        }, 
+        {
+            "location": "/archive/meetings/hq/02/#participants", 
+            "text": "@luisivan  @Smokyish  @izqui  @onbjerg", 
+            "title": "Participants"
+        }, 
+        {
+            "location": "/archive/meetings/hq/02/#agenda", 
+            "text": "Discussion about the state of Aragon, near future plans and decisions that need to be made. 10 min presentations with slides from team members, in which each one will run through the most important things we have done during the month, the problems they have found, and what they plan to do next month (that can be a bit blurry, and that's fine)", 
+            "title": "Agenda"
+        }, 
+        {
+            "location": "/archive/meetings/hq/03/", 
+            "text": "Aragon HQ Meeting 03\n\n\nMeeting Date: October 27th, 4pm CEST\n\n\nMeeting video\n\n\nParticipants\n\n\n\n\n@luisivan\n\n\n@Smokyish\n\n\n@izqui\n\n\n@mariapao\n\n\n@lkngtn\n\n\n@bpierre\n\n\n@harshjv\n\n\n\n\nAgenda\n\n\n\n\nDiscussion about the state of Aragon, near future plans and decisions that need to be made. 10 min presentations with slides from team members, in which each one will run through the most important things we have done during the month, the problems they have found, and what they plan to do next month (that can be a bit blurry, and that's fine)", 
+            "title": "HQ 03"
+        }, 
+        {
+            "location": "/archive/meetings/hq/03/#aragon-hq-meeting-03", 
+            "text": "", 
+            "title": "Aragon HQ Meeting 03"
+        }, 
+        {
+            "location": "/archive/meetings/hq/03/#meeting-date-october-27th-4pm-cest", 
+            "text": "", 
+            "title": "Meeting Date: October 27th, 4pm CEST"
+        }, 
+        {
+            "location": "/archive/meetings/hq/03/#meeting-video", 
+            "text": "", 
+            "title": "Meeting video"
+        }, 
+        {
+            "location": "/archive/meetings/hq/03/#participants", 
+            "text": "@luisivan  @Smokyish  @izqui  @mariapao  @lkngtn  @bpierre  @harshjv", 
+            "title": "Participants"
+        }, 
+        {
+            "location": "/archive/meetings/hq/03/#agenda", 
+            "text": "Discussion about the state of Aragon, near future plans and decisions that need to be made. 10 min presentations with slides from team members, in which each one will run through the most important things we have done during the month, the problems they have found, and what they plan to do next month (that can be a bit blurry, and that's fine)", 
+            "title": "Agenda"
+        }, 
+        {
+            "location": "/archive/meetings/dev/01/", 
+            "text": "Proposed structure for these meetings by @Smokyish. To be tested in this first meeting.\n\n\nAragon Dev Meeting Agenda\n\n\nMeeting Date: July 7th, 2pm CEST\n\n\nMeeting video\n\n\nParticipants\n\n\n\n\n@harshjv\n\n\n@readevalprint\n\n\n@luisivan\n\n\n@izqui facilitator\n\n\n@Smokyish to handle recording, live streaming and collection of questions by viewers\n\n\n\n\nAgenda\n\n\n\n\nAccounting app progress (@readevalprint)\n\n\nOverall v0.4 refactor state and scoping of the v0.4 deliverable (@izqui)\n\n\nReview of this week sprint https://github.com/orgs/aragon/projects/1 (@izqui)\n\n\nMeta: opinions on sprint organization (@everyone except @izqui)\n\n\nv0.5 planning (@harshjv)\n\n\nVersioning protocol https://github.com/aragon/aragon/issues/19 (@luisivan)\n\n\nv0.5 web3 providers. uPort \n Ledger integration? Remove Metamask? (@izqui)\n\n\nWhat is everyone's focus/goals for next week (@everyone gets to talk)\n\n\nOther questions, comments or concerns by participants.\n\n\nQuestions, comments or concerns by live viewers.\n\n\nClosing meeting", 
+            "title": "Dev 01"
+        }, 
+        {
+            "location": "/archive/meetings/dev/01/#aragon-dev-meeting-agenda", 
+            "text": "", 
+            "title": "Aragon Dev Meeting Agenda"
+        }, 
+        {
+            "location": "/archive/meetings/dev/01/#meeting-date-july-7th-2pm-cest", 
+            "text": "", 
+            "title": "Meeting Date: July 7th, 2pm CEST"
+        }, 
+        {
+            "location": "/archive/meetings/dev/01/#meeting-video", 
+            "text": "", 
+            "title": "Meeting video"
+        }, 
+        {
+            "location": "/archive/meetings/dev/01/#participants", 
+            "text": "@harshjv  @readevalprint  @luisivan  @izqui facilitator  @Smokyish to handle recording, live streaming and collection of questions by viewers", 
+            "title": "Participants"
+        }, 
+        {
+            "location": "/archive/meetings/dev/01/#agenda", 
+            "text": "Accounting app progress (@readevalprint)  Overall v0.4 refactor state and scoping of the v0.4 deliverable (@izqui)  Review of this week sprint https://github.com/orgs/aragon/projects/1 (@izqui)  Meta: opinions on sprint organization (@everyone except @izqui)  v0.5 planning (@harshjv)  Versioning protocol https://github.com/aragon/aragon/issues/19 (@luisivan)  v0.5 web3 providers. uPort   Ledger integration? Remove Metamask? (@izqui)  What is everyone's focus/goals for next week (@everyone gets to talk)  Other questions, comments or concerns by participants.  Questions, comments or concerns by live viewers.  Closing meeting", 
+            "title": "Agenda"
+        }, 
+        {
+            "location": "/archive/meetings/dev/02/", 
+            "text": "Aragon Dev Meeting Agenda\n\n\nMeeting Date: July 21st, 2pm CEST\n\n\nMeeting video\n\n\nParticipants\n\n\n\n\n@readevalprint\n\n\n@onbjerg\n\n\n@luisivan\n\n\n@izqui facilitator\n\n\n@Smokyish to handle recording, live streaming and collection of questions by viewers\n\n\n\n\nAgenda\n\n\n\n\nWelcoming @onbjerg. How is research going?\n\n\nAccounting app progress (@readevalprint)\n\n\nPropose researching to see if \npopulus\n would be a viable framework (@readevalprint)\n\n\nKernel refactor update (@izqui)\n\n\nKickoff v0.5 (@all)\n\n\nv0.4 audit strategy and timeline (@izqui)\n\n\nWhat is everyone's focus/goals for next week (@everyone gets to talk)\n\n\nOther questions, comments or concerns by participants.\n\n\nQuestions, comments or concerns by live viewers.\n\n\nClosing meeting", 
+            "title": "Dev 02"
+        }, 
+        {
+            "location": "/archive/meetings/dev/02/#aragon-dev-meeting-agenda", 
+            "text": "", 
+            "title": "Aragon Dev Meeting Agenda"
+        }, 
+        {
+            "location": "/archive/meetings/dev/02/#meeting-date-july-21st-2pm-cest", 
+            "text": "", 
+            "title": "Meeting Date: July 21st, 2pm CEST"
+        }, 
+        {
+            "location": "/archive/meetings/dev/02/#meeting-video", 
+            "text": "", 
+            "title": "Meeting video"
+        }, 
+        {
+            "location": "/archive/meetings/dev/02/#participants", 
+            "text": "@readevalprint  @onbjerg  @luisivan  @izqui facilitator  @Smokyish to handle recording, live streaming and collection of questions by viewers", 
+            "title": "Participants"
+        }, 
+        {
+            "location": "/archive/meetings/dev/02/#agenda", 
+            "text": "Welcoming @onbjerg. How is research going?  Accounting app progress (@readevalprint)  Propose researching to see if  populus  would be a viable framework (@readevalprint)  Kernel refactor update (@izqui)  Kickoff v0.5 (@all)  v0.4 audit strategy and timeline (@izqui)  What is everyone's focus/goals for next week (@everyone gets to talk)  Other questions, comments or concerns by participants.  Questions, comments or concerns by live viewers.  Closing meeting", 
+            "title": "Agenda"
+        }, 
+        {
+            "location": "/archive/videos/hq/", 
+            "text": "Aragon HQ Meeting Videos\n\n\nWe had monthly Aragon HQ Meetings, but wanted to reduce the amount of time spent in meetings. So they are now integrated into the Aragon Community Meetings as per \nAGP7: Merge Aragon HQ and Community meetings\n.\n\n\nAragon HQ Meeting 03\n\n\n\n\nStreamed live on Oct 27, 2017\n\n\n\n\nAragon HQ Meeting 02\n\n\n\n\nStreamed live on Oct 6, 2017\n\n\n\n\nAragon HQ Meeting 01\n\n\n\n\nStreamed live on Sep 1, 2017", 
+            "title": "Aragon HQ"
+        }, 
+        {
+            "location": "/archive/videos/hq/#aragon-hq-meeting-videos", 
+            "text": "We had monthly Aragon HQ Meetings, but wanted to reduce the amount of time spent in meetings. So they are now integrated into the Aragon Community Meetings as per  AGP7: Merge Aragon HQ and Community meetings .", 
+            "title": "Aragon HQ Meeting Videos"
+        }, 
+        {
+            "location": "/archive/videos/hq/#aragon-hq-meeting-03", 
+            "text": "Streamed live on Oct 27, 2017", 
+            "title": "Aragon HQ Meeting 03"
+        }, 
+        {
+            "location": "/archive/videos/hq/#aragon-hq-meeting-02", 
+            "text": "Streamed live on Oct 6, 2017", 
+            "title": "Aragon HQ Meeting 02"
+        }, 
+        {
+            "location": "/archive/videos/hq/#aragon-hq-meeting-01", 
+            "text": "Streamed live on Sep 1, 2017", 
+            "title": "Aragon HQ Meeting 01"
+        }, 
+        {
+            "location": "/archive/videos/dev/", 
+            "text": "Aragon Dev Meeting Videos\n\n\nWe had planned on having bi-weekly Dev Meetings, but wanted to reduce the amount of time spent in meetings. So they were integrated into the Aragon HQ Meetings.\n\n\nAragon Dev Meeting 02\n\n\n\n\nStreamed live on Jul 21, 2017\n\n\nMeeting notes and agenda: \nhttps://wiki.aragon.one/archive/meetings/dev/02/\n\n\n\n\nAragon Dev Meeting 01\n\n\n\n\nStreamed live on Jul 7, 2017\n\n\nMeeting notes and agenda: \nhttps://wiki.aragon.one/archive/meetings/dev/01/", 
+            "title": "Dev"
+        }, 
+        {
+            "location": "/archive/videos/dev/#aragon-dev-meeting-videos", 
+            "text": "We had planned on having bi-weekly Dev Meetings, but wanted to reduce the amount of time spent in meetings. So they were integrated into the Aragon HQ Meetings.", 
+            "title": "Aragon Dev Meeting Videos"
+        }, 
+        {
+            "location": "/archive/videos/dev/#aragon-dev-meeting-02", 
+            "text": "Streamed live on Jul 21, 2017  Meeting notes and agenda:  https://wiki.aragon.one/archive/meetings/dev/02/", 
+            "title": "Aragon Dev Meeting 02"
+        }, 
+        {
+            "location": "/archive/videos/dev/#aragon-dev-meeting-01", 
+            "text": "Streamed live on Jul 7, 2017  Meeting notes and agenda:  https://wiki.aragon.one/archive/meetings/dev/01/", 
+            "title": "Aragon Dev Meeting 01"
         }
     ]
 }
