@@ -1,4 +1,4 @@
-# Branding
+# Design
 
 - [Branding Proposal](branding_proposal) includes the thought process behind the branding
 - [Identity Guidelines](identity_guidelines) includes information about the brand colors, the structure etc.
