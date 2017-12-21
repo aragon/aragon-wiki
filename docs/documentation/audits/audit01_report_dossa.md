@@ -1,5 +1,10 @@
 # Aragon 0.5 Audit by Adam Dossa
 
+*This was the initial review of the AragonOS system that powers the v0.5 release of Aragon. Further audits and public bug
+bounty programs are scheduled to begin in early January 2018.*
+
+*All the changes triggered as result of the audit can be found in the [aragon-core](https://github.com/aragon/aragon-core/issues?utf8=✓&q=label%3Aaudit+) and [aragon-apps](https://github.com/aragon/aragon-apps/issues?utf8=✓&q=label%3Aaudit+) repos* 
+
 *The original PDF report has been converted to Markdown for easier reading. You can download unmodified report from the auditor here:*
 
 *[Download original PDF](audit01_report_dossa.pdf)*
