@@ -2337,7 +2337,7 @@
         }, 
         {
             "location": "/jobs/openings/frontend/", 
-            "text": "Frontend and Web3 Developer opening at Aragon\n\n\nWe are looking for a frontend and web3 wizard to work with us on the \nAragon dapp\n.\n\n\nRequirements\n\n\n\n\nExpert understanding\n on:\n\n\nES6/ES7\n\n\nVue and Electron\n\n\nClient-side storage\n\n\nResource optimization\n\n\nCSS, using preprocessors such as LESS or SASS\n\n\nRxJS\n\n\nService Workers, Animations, Device APIs...\n\n\nAbility (and a track record) to ship \nhigh quality, well crafted code\n.\n\n\nBeing passionate about \ndecentralization\n.\n\n\nBeing an autonomous individual with a proactive attitude and a love for \ntime self-management\n (We are focus-driven work, not hours-driven).\n\n\n\n\nGood to have\n\n\n\n\nExperience contributing or managing \nopen source projects\n.\n\n\nVery good \nwritten communication\n skills.\n\n\n\n\nHow to apply\n\n\n\n\n\n\nWrite an email with the following attachments plus any information you consider important to \nhiring@aragon.one\n, with the subject \nFrontend Dev opening application\n.\n\n\n\n\n\n\nPlease send along your GitHub profile. Since we are open source only, we require applicants for developer positions to have a very active and healthy GitHub profile.\n\n\n\n\n\n\nIf you haven't, please \nread more about our culture, work conditions, etc.", 
+            "text": "Frontend and Web3 Developer opening at Aragon\n\n\nWe are looking for a frontend and web3 wizard to work with us on the \nAragon dapp\n.\n\n\nRequirements\n\n\n\n\nExpert understanding\n on:\n\n\nES6/ES7\n\n\nReact and Electron\n\n\nClient-side storage\n\n\nResource optimization\n\n\nCSS, using preprocessors such as LESS or SASS\n\n\nRxJS\n\n\nService Workers, Animations, Device APIs...\n\n\nAbility (and a track record) to ship \nhigh quality, well crafted code\n.\n\n\nBeing passionate about \ndecentralization\n.\n\n\nBeing an autonomous individual with a proactive attitude and a love for \ntime self-management\n (We are focus-driven work, not hours-driven).\n\n\n\n\nGood to have\n\n\n\n\nExperience contributing or managing \nopen source projects\n.\n\n\nVery good \nwritten communication\n skills.\n\n\n\n\nHow to apply\n\n\n\n\n\n\nWrite an email with the following attachments plus any information you consider important to \nhiring@aragon.one\n, with the subject \nFrontend Dev opening application\n.\n\n\n\n\n\n\nPlease send along your GitHub profile. Since we are open source only, we require applicants for developer positions to have a very active and healthy GitHub profile.\n\n\n\n\n\n\nIf you haven't, please \nread more about our culture, work conditions, etc.", 
             "title": "Frontend and web3 Developer"
         }, 
         {
@@ -2347,7 +2347,7 @@
         }, 
         {
             "location": "/jobs/openings/frontend/#requirements", 
-            "text": "Expert understanding  on:  ES6/ES7  Vue and Electron  Client-side storage  Resource optimization  CSS, using preprocessors such as LESS or SASS  RxJS  Service Workers, Animations, Device APIs...  Ability (and a track record) to ship  high quality, well crafted code .  Being passionate about  decentralization .  Being an autonomous individual with a proactive attitude and a love for  time self-management  (We are focus-driven work, not hours-driven).", 
+            "text": "Expert understanding  on:  ES6/ES7  React and Electron  Client-side storage  Resource optimization  CSS, using preprocessors such as LESS or SASS  RxJS  Service Workers, Animations, Device APIs...  Ability (and a track record) to ship  high quality, well crafted code .  Being passionate about  decentralization .  Being an autonomous individual with a proactive attitude and a love for  time self-management  (We are focus-driven work, not hours-driven).", 
             "title": "Requirements"
         }, 
         {
@@ -3214,6 +3214,16 @@
             "location": "/archive/videos/dev/#aragon-dev-meeting-01", 
             "text": "Streamed live on Jul 7, 2017  Meeting notes and agenda:  https://wiki.aragon.one/archive/meetings/dev/01/", 
             "title": "Aragon Dev Meeting 01"
+        }, 
+        {
+            "location": "/translations/spanish/", 
+            "text": "Aragon wiki en espa\u00f1ol\n\n\nSi quieres ayudar a traducir al espa\u00f1ol, puedes hacerlo viendo que documentos\nnecesitan ser traducidos \naqu\u00ed\n. Si crees que deberiamos traducir alg\u00fan otro documento importante, por favor crea un nuevo issue en el \nrepositorio del wiki\n.\n\n\nLos archivos traducidos deben estar en el directorio \ntranslations/spanish/\n, despu\u00e9s de a\u00f1adir un archivo es necesario linkarlo en el \u00edndice \nmkdocs.yml\n.", 
+            "title": "Hola"
+        }, 
+        {
+            "location": "/translations/spanish/#aragon-wiki-en-espanol", 
+            "text": "Si quieres ayudar a traducir al espa\u00f1ol, puedes hacerlo viendo que documentos\nnecesitan ser traducidos  aqu\u00ed . Si crees que deberiamos traducir alg\u00fan otro documento importante, por favor crea un nuevo issue en el  repositorio del wiki .  Los archivos traducidos deben estar en el directorio  translations/spanish/ , despu\u00e9s de a\u00f1adir un archivo es necesario linkarlo en el \u00edndice  mkdocs.yml .", 
+            "title": "Aragon wiki en espa\u00f1ol"
         }
     ]
 }
