@@ -1587,7 +1587,7 @@
         }, 
         {
             "location": "/meetings/community/07/", 
-            "text": "Aragon Community Meeting 07 Agenda\n\n\nMeeting Date: January 5th, 5pm CEST\n\n\nMeeting video\n\n\nParticipants\n\n\n\n\n@luisivan\n\n\n@Smokyish, facilitator\n\n\n@izqui\n\n\n@mariapao\n\n\n@bpierre\n\n\n@lkngtn\n\n\n@onbjerg\n\n\n@john-light\n\n\n@sohkai\n\n\n@alexarwr\n\n\n\n\nAgenda\n\n\n\n\nDiscussion about the issues in the write-ups by team members\n\n\nRecent updates on the Project by @luisivan\n\n\nRecent updates on the Communications by @Smokyish\n\n\nRecent updates on the Community by @john-light\n\n\nAMA, Ask Me Anything, team answers \nquestions by the community\n\n\nClosing meeting\n\n\n\n\nWrite-Ups\n\n\n\n\nTeam members will produce a write-up of the most important things they have worked on since last Community Meeting, the problems they have found and what they plan to do in the next weeks (that can be a bit blurry, and that's fine). These write-ups will be published as a blog post for the community to review on Monday before Friday's meeting.\n\n\n\n\n\n\nAlexa - Operations Assistant\n\n\nBrett - EVM/Solidity/*\n\n\nJohn - Community Lead\n\n\nJorge - Tech Lead\n\n\nLuis - Project Lead\n\n\nOliver - Glue\n\n\nTatu - Communications Lead", 
+            "text": "Aragon Community Meeting 07 Agenda\n\n\nMeeting Date: January 5th, 5pm CEST\n\n\nMeeting video\n\n\nParticipants\n\n\n\n\n@luisivan\n\n\n@Smokyish, facilitator\n\n\n@izqui\n\n\n@mariapao\n\n\n@bpierre\n\n\n@lkngtn\n\n\n@onbjerg\n\n\n@john-light\n\n\n@sohkai\n\n\n@alexarwr\n\n\n\n\nAgenda\n\n\n\n\nDiscussion about the issues in the write-ups by team members\n\n\nRecent updates on the Project by @luisivan\n\n\nRecent updates on the Communications by @Smokyish\n\n\nRecent updates on the Community by @john-light\n\n\nAMA, Ask Me Anything, team answers \nquestions by the community\n\n\nClosing meeting\n\n\n\n\nWrite-Ups\n\n\n\n\nTeam members will produce a write-up of the most important things they have worked on since last Community Meeting, the problems they have found and what they plan to do in the next weeks (that can be a bit blurry, and that's fine). These write-ups will be published as a blog post for the community to review on Monday before Friday's meeting.\n\n\n\n\n\n\nAlexa - Operations Assistant\n\n\nBrett - EVM/Solidity/*\n\n\nJohn - Community Lead\n\n\nJorge - Tech Lead\n\n\nLuis - Project Lead\n\n\nLuke - Research Lead\n\n\nMaria - Head of Strategy and Operations\n\n\nOliver - Glue\n\n\nTatu - Communications Lead", 
             "title": "Agenda"
         }, 
         {
@@ -1617,7 +1617,7 @@
         }, 
         {
             "location": "/meetings/community/07/#write-ups", 
-            "text": "Team members will produce a write-up of the most important things they have worked on since last Community Meeting, the problems they have found and what they plan to do in the next weeks (that can be a bit blurry, and that's fine). These write-ups will be published as a blog post for the community to review on Monday before Friday's meeting.    Alexa - Operations Assistant  Brett - EVM/Solidity/*  John - Community Lead  Jorge - Tech Lead  Luis - Project Lead  Oliver - Glue  Tatu - Communications Lead", 
+            "text": "Team members will produce a write-up of the most important things they have worked on since last Community Meeting, the problems they have found and what they plan to do in the next weeks (that can be a bit blurry, and that's fine). These write-ups will be published as a blog post for the community to review on Monday before Friday's meeting.    Alexa - Operations Assistant  Brett - EVM/Solidity/*  John - Community Lead  Jorge - Tech Lead  Luis - Project Lead  Luke - Research Lead  Maria - Head of Strategy and Operations  Oliver - Glue  Tatu - Communications Lead", 
             "title": "Write-Ups"
         }, 
         {
@@ -1899,6 +1899,91 @@
             "location": "/meetings/community/write-ups/cm07/luis/#product", 
             "text": "Help with 0.5", 
             "title": "Product"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm07/luke/", 
+            "text": "Aragon Community Meeting 06 Write-Up for November\n\n\nLuke - Research Lead\n\n\nAragon Research Project\n\n\n\n\nCoordinating cross-project collaboration on AragonOS compatible implementations of Token Curated Registries and Liquid Democracy.\n\n\nCreated \nlabs repo\n for tracking research proposals   \n\n\n\n\nProposals\n\n\n\n\nALP01: Carbon Feedback for github issues\n\n\nALP02: Token-weighted github issue prioritization\n\n\nALP03: Proxy/Delegate Voting\n\n\nALP04: Delegation Chains\n\n\nALP05: Off-chain tabulation\n\n\nALP06: Decision Domain delegation\n\n\nALP07: Futarchy\n\n\n\n\nOther\n\n\n\n\nGovernance and Network Effects\n Medium post\n\n\nETHCommons: Cryptoeconomic Primitives\n Recorded call on youtube\n\n\nETHCommons: Decentralized Governance\n Recorded call on youtube\n\n\nDistrict0x: Governance Mixer\n Recorded call on youtube\n\n\n\n\nNext\n\n\nAragon Research Project\n\n\n\n\nProject kickoff and public timeline for TCR and Liquid Democracy working group. \n\n\nWork on improving community involvement and engagement in the labs process\n\n\n\n\nResearch\n\n\n\n\nContinue ongoing research efforts\n\n\nExperiment with Signaling/CarbonFeedback dapp", 
+            "title": "Write-Up - Luke"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm07/luke/#aragon-community-meeting-06-write-up-for-november", 
+            "text": "", 
+            "title": "Aragon Community Meeting 06 Write-Up for November"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm07/luke/#luke-research-lead", 
+            "text": "", 
+            "title": "Luke - Research Lead"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm07/luke/#aragon-research-project", 
+            "text": "Coordinating cross-project collaboration on AragonOS compatible implementations of Token Curated Registries and Liquid Democracy.  Created  labs repo  for tracking research proposals", 
+            "title": "Aragon Research Project"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm07/luke/#proposals", 
+            "text": "ALP01: Carbon Feedback for github issues  ALP02: Token-weighted github issue prioritization  ALP03: Proxy/Delegate Voting  ALP04: Delegation Chains  ALP05: Off-chain tabulation  ALP06: Decision Domain delegation  ALP07: Futarchy", 
+            "title": "Proposals"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm07/luke/#other", 
+            "text": "Governance and Network Effects  Medium post  ETHCommons: Cryptoeconomic Primitives  Recorded call on youtube  ETHCommons: Decentralized Governance  Recorded call on youtube  District0x: Governance Mixer  Recorded call on youtube", 
+            "title": "Other"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm07/luke/#next", 
+            "text": "", 
+            "title": "Next"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm07/luke/#aragon-research-project_1", 
+            "text": "Project kickoff and public timeline for TCR and Liquid Democracy working group.   Work on improving community involvement and engagement in the labs process", 
+            "title": "Aragon Research Project"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm07/luke/#research", 
+            "text": "Continue ongoing research efforts  Experiment with Signaling/CarbonFeedback dapp", 
+            "title": "Research"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm07/maria/", 
+            "text": "Aragon Community Meeting 07 Write-Up for December\n\n\nMaria \u2013 Strategy and Ops Lead\n\n\nStrategy\n\n\n\n\nWorked on Aragon Nest: started working on call for proposals/application process \n\n\nSupported the Aragon research project: contacted some of the projects participants\n\n\nContinued developing the other initiatives/projects we will be announcing in 2018\n\n\nWorked on the open source licenses to help the team decide on the best licenses for Aragon and started creating a AGP on software licenses\n\n\n\n\nOperations\n\n\n\n\nHelped onboarding Alexa: operations assitant\n\n\nWorked on team incentives\n\n\nWorked with accountants on several matters regarding the closing of the fiscal year\n\n\nWorked on the different legal matters\n\n\n\n\nNext\n\n\nStrategy\n\n\n\n\nLaunch Aragon Nest, announce the call for proposals/application process\n\n\nContinue working on the other initiatives/projects\n\n\n\n\nOperations\n\n\n\n\nOversee the work of our lawyers on: trademark policy and trademark registration, privacy policy, and terms of use", 
+            "title": "Write-Up - Maria"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm07/maria/#aragon-community-meeting-07-write-up-for-december", 
+            "text": "", 
+            "title": "Aragon Community Meeting 07 Write-Up for December"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm07/maria/#maria-strategy-and-ops-lead", 
+            "text": "", 
+            "title": "Maria \u2013 Strategy and Ops Lead"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm07/maria/#strategy", 
+            "text": "Worked on Aragon Nest: started working on call for proposals/application process   Supported the Aragon research project: contacted some of the projects participants  Continued developing the other initiatives/projects we will be announcing in 2018  Worked on the open source licenses to help the team decide on the best licenses for Aragon and started creating a AGP on software licenses", 
+            "title": "Strategy"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm07/maria/#operations", 
+            "text": "Helped onboarding Alexa: operations assitant  Worked on team incentives  Worked with accountants on several matters regarding the closing of the fiscal year  Worked on the different legal matters", 
+            "title": "Operations"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm07/maria/#next", 
+            "text": "", 
+            "title": "Next"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm07/maria/#strategy_1", 
+            "text": "Launch Aragon Nest, announce the call for proposals/application process  Continue working on the other initiatives/projects", 
+            "title": "Strategy"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm07/maria/#operations_1", 
+            "text": "Oversee the work of our lawyers on: trademark policy and trademark registration, privacy policy, and terms of use", 
+            "title": "Operations"
         }, 
         {
             "location": "/meetings/community/write-ups/cm07/oliver/", 
