@@ -35,6 +35,11 @@ Radspec is an alternative DSL to Natspec, but unlike Natspec, it is safe to use 
 
 - Did an initial prototype on APM as an Aragon app. This will allow people to easily have a governance layer over their package repositories, such as deciding who and when people can publish packages.
 
+#### Misc
+
+- Migrated all my tasks to Flow
+- Celebrated Yule 🎄
+
 ### Next
 
 #### Finish Radspec 1.0.0
