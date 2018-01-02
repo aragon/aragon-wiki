@@ -1587,7 +1587,7 @@
         }, 
         {
             "location": "/meetings/community/07/", 
-            "text": "Aragon Community Meeting 07 Agenda\n\n\nMeeting Date: January 5th, 5pm CEST\n\n\nMeeting video\n\n\nParticipants\n\n\n\n\n@luisivan\n\n\n@Smokyish, facilitator\n\n\n@izqui\n\n\n@mariapao\n\n\n@bpierre\n\n\n@lkngtn\n\n\n@onbjerg\n\n\n@john-light\n\n\n@sohkai\n\n\n@alexarwr\n\n\n\n\nAgenda\n\n\n\n\nDiscussion about the issues in the write-ups by team members\n\n\nRecent updates on the Project by @luisivan\n\n\nRecent updates on the Communications by @Smokyish\n\n\nRecent updates on the Community by @john-light\n\n\nAMA, Ask Me Anything, team answers \nquestions by the community\n\n\nClosing meeting\n\n\n\n\nWrite-Ups\n\n\n\n\nTeam members will produce a write-up of the most important things they have worked on since last Community Meeting, the problems they have found and what they plan to do in the next weeks (that can be a bit blurry, and that's fine). These write-ups will be published as a blog post for the community to review on Monday before Friday's meeting.\n\n\n\n\n\n\nAlexa - Operations Assistant\n\n\nBrett - EVM/Solidity/*\n\n\nJohn - Community Lead\n\n\nLuis - Project Lead\n\n\nOliver - Glue\n\n\nTatu - Communications Lead", 
+            "text": "Aragon Community Meeting 07 Agenda\n\n\nMeeting Date: January 5th, 5pm CEST\n\n\nMeeting video\n\n\nParticipants\n\n\n\n\n@luisivan\n\n\n@Smokyish, facilitator\n\n\n@izqui\n\n\n@mariapao\n\n\n@bpierre\n\n\n@lkngtn\n\n\n@onbjerg\n\n\n@john-light\n\n\n@sohkai\n\n\n@alexarwr\n\n\n\n\nAgenda\n\n\n\n\nDiscussion about the issues in the write-ups by team members\n\n\nRecent updates on the Project by @luisivan\n\n\nRecent updates on the Communications by @Smokyish\n\n\nRecent updates on the Community by @john-light\n\n\nAMA, Ask Me Anything, team answers \nquestions by the community\n\n\nClosing meeting\n\n\n\n\nWrite-Ups\n\n\n\n\nTeam members will produce a write-up of the most important things they have worked on since last Community Meeting, the problems they have found and what they plan to do in the next weeks (that can be a bit blurry, and that's fine). These write-ups will be published as a blog post for the community to review on Monday before Friday's meeting.\n\n\n\n\n\n\nAlexa - Operations Assistant\n\n\nBrett - EVM/Solidity/*\n\n\nJohn - Community Lead\n\n\nJorge - Tech Lead\n\n\nLuis - Project Lead\n\n\nOliver - Glue\n\n\nTatu - Communications Lead", 
             "title": "Agenda"
         }, 
         {
@@ -1617,7 +1617,7 @@
         }, 
         {
             "location": "/meetings/community/07/#write-ups", 
-            "text": "Team members will produce a write-up of the most important things they have worked on since last Community Meeting, the problems they have found and what they plan to do in the next weeks (that can be a bit blurry, and that's fine). These write-ups will be published as a blog post for the community to review on Monday before Friday's meeting.    Alexa - Operations Assistant  Brett - EVM/Solidity/*  John - Community Lead  Luis - Project Lead  Oliver - Glue  Tatu - Communications Lead", 
+            "text": "Team members will produce a write-up of the most important things they have worked on since last Community Meeting, the problems they have found and what they plan to do in the next weeks (that can be a bit blurry, and that's fine). These write-ups will be published as a blog post for the community to review on Monday before Friday's meeting.    Alexa - Operations Assistant  Brett - EVM/Solidity/*  John - Community Lead  Jorge - Tech Lead  Luis - Project Lead  Oliver - Glue  Tatu - Communications Lead", 
             "title": "Write-Ups"
         }, 
         {
@@ -1788,6 +1788,46 @@
         {
             "location": "/meetings/community/write-ups/cm07/light-cm07/#next", 
             "text": "Finish Aragon Interactive Demo Series planning document, write formal announcement once ready    Finish 2018 Community Growth and Engagement Plan    Help plan involvement in upcoming events    Review wiki, Rocket Chat, AragonProject subreddit, Github, and community code of conduct and update as needed    Keep community stats updated and be available to help out in community channels", 
+            "title": "Next"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm07/jorge/", 
+            "text": "Aragon Community Meeting 07 Write-Up for December\n\n\nJorge \u2013 Tech lead\n\n\nAragon Core\n\n\n\n\nPlanning next audits and public bounty program.\n\n\nImprovements on deployment for aragon-core.\n\n\n\n\nSecurity\n\n\n\n\nCan't extend more, but significant work occurred.\n\n\nImprovements are being implemented now.\n\n\n\n\nGeneral\n\n\n\n\nTons of code review.\n\n\nHelped structure new bonus model.\n\n\nInterviews for Aragon Nest and candidates.\n\n\n\n\nBlockers\n\n\n\n\nSmall Christmas vacation \ud83c\udf85\n\n\n\n\nNext\n\n\n\n\nKickoff audit II and bug bounty program (soon\u2122)\n\n\nv0.5 launch planning\n\n\nHire EVM and Front engineers.", 
+            "title": "Write-Up - Jorge"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm07/jorge/#aragon-community-meeting-07-write-up-for-december", 
+            "text": "", 
+            "title": "Aragon Community Meeting 07 Write-Up for December"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm07/jorge/#jorge-tech-lead", 
+            "text": "", 
+            "title": "Jorge \u2013 Tech lead"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm07/jorge/#aragon-core", 
+            "text": "Planning next audits and public bounty program.  Improvements on deployment for aragon-core.", 
+            "title": "Aragon Core"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm07/jorge/#security", 
+            "text": "Can't extend more, but significant work occurred.  Improvements are being implemented now.", 
+            "title": "Security"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm07/jorge/#general", 
+            "text": "Tons of code review.  Helped structure new bonus model.  Interviews for Aragon Nest and candidates.", 
+            "title": "General"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm07/jorge/#blockers", 
+            "text": "Small Christmas vacation \ud83c\udf85", 
+            "title": "Blockers"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm07/jorge/#next", 
+            "text": "Kickoff audit II and bug bounty program (soon\u2122)  v0.5 launch planning  Hire EVM and Front engineers.", 
             "title": "Next"
         }, 
         {
