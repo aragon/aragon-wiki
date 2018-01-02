@@ -6,7 +6,7 @@ We are looking for a frontend and web3 wizard to work with us on the [Aragon dap
 
 - **Expert understanding** on:
   - ES6/ES7
-  - Vue and Electron
+  - React and Electron
   - Client-side storage
   - Resource optimization
   - CSS, using preprocessors such as LESS or SASS
