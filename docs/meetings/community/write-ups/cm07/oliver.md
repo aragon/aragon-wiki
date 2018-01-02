@@ -26,6 +26,8 @@ Aragon CLI is the primary development tool for bootstrapping and publishing Arag
 
 Radspec is an alternative DSL to Natspec, but unlike Natspec, it is safe to use and it supports external calls via Web3.
 
+This is an important part of the overall UX of Aragon, since it will be used to turn transaction data into something human-readable.
+
 - Published the repository
 - Finished the lexer and the parser
 - Almost finished the evaluator
