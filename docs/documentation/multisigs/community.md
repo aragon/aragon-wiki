@@ -12,7 +12,7 @@ Required signatures: 3/5
 
 #### Joe Urgo
 
-CEO [Sourcerers](http://sourcerers.io) & [Dapp daily](https://dappdaily.com) author.
+CEO [District0x](http://district0x.io) & [Dapp daily](https://dappdaily.com) author.
 
 [Address](https://etherscan.io/address/0x75d83a0ae1543fd4b49594023977e1daf5a954c5). [Proof](https://etherscan.io/tx/0x796538ed7dd4d76953b045c6341129f8976fefeb160de72618dc28c50138cc5a). [Keybase](https://keybase.io/joeu).
 
