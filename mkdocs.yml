@@ -115,3 +115,5 @@ pages:
       - Meetings:
         - Aragon HQ: 'archive/videos/hq.md'
         - Dev: 'archive/videos/dev.md'
+  - Spanish:
+    - Hola: 'spanish/index.md'
