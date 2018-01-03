@@ -8,13 +8,13 @@ Versión 1.2
 
 ## **Introducción**
 
-Aragon is todo lo que necesitas para manejar organizaciones (compañías, ONGs, fundaciones, proyectos de código abierto…) sobre el blockchain de Ethereum. Implementa funcionalidades como tabla de capitalización, transferencia de tokens, votaciones, roles, recaudación de fondos y contabilidad. Las organizaciones de Aragon son fácilmente personalizables. Además, se pueden extender a través de la instalación de módulos de terceros.
+Aragon es todo lo que necesitas para manejar organizaciones (compañías, ONGs, fundaciones, proyectos de código abierto…) sobre el blockchain de Ethereum. Implementa funcionalidades como tabla de capitalización, transferencia de tokens, votaciones, roles, recaudación de fondos y contabilidad. Las organizaciones de Aragon son fácilmente personalizables. Además, se pueden extender a través de la instalación de módulos de terceros.
 
-Las organizaciones de Aragon podrán optar a unirse a la Red Aragon, la cual proveerá de servicios como la posibilidad de actualización o un sistema de corte de arbitraje descentralizado.
+Las organizaciones de Aragon podrán optar a unirse a La Aragon Network (AN), la cual proveerá de servicios como la posibilidad de actualización o un sistema de corte de arbitraje descentralizado.
 
-Para más información, por favor visita nuestra página web, nuestro Libro Blanco de Apps Descentralizadas (dapp) y nuestro Libro Blanco de la Red.
+Para más información, por favor visita nuestra página web, nuestro whitepaper de Apps Descentralizadas (dapp) y nuestro whitepaper de La Aragon Network.
 
-Este documento describe cómo Aragon Dev planea desarrollar la dapp de Aragon, la Red de Aragon y cómo Aragon Dev se posiciona en el contexto más amplio del Proyecto Aragon.
+Este documento describe cómo Aragon Dev planea desarrollar la dapp de Aragon, La Aragon Network y cómo Aragon Dev se posiciona en el contexto más amplio del Proyecto Aragon.
 
 ## **Historia y Visión**
 
@@ -31,7 +31,7 @@ A los 17 años, prototiparon un sustituto de Internet totalmente descentralizado
 Luis también ha sido reconocido en [30 Under 30 de Forbes](https://www.forbes.com/30-under-30-europe-2016/technology/#6662a3e4a4b3), así como [Innovator Under 35 de the
 MIT](http://www.innovatorsunder35.com/innovator/luis-cuende).
 
-Antes de construir Aragon, Luis y Jorge estaban en Silicon Valley tratando de resolver el problema de los trolls de las patentes con Unpatent. Después de darse cuenta lo rota que estaba la infraestructura de innovación – los trolls de patentes a la alza, Donald Trump ganando las elecciones, la burocracia comiéndose al emprendimiento – ellos decidieron enfocar todo su tiempo en construir la infraestructura sobre la cual se administrarán las nuevas compañías y organizaciones.
+Antes de construir Aragon, Luis y Jorge estaban en Silicon Valley tratando de resolver el problema de los trolles de patentes con Unpatent. Después de darse cuenta lo rota que estaba la infraestructura de innovación – los trolles de patentes a la alza, Donald Trump ganando las elecciones, la burocracia comiéndose al emprendimiento – ellos decidieron enfocar todo su tiempo en construir la infraestructura sobre la cual se administrarán las nuevas compañías y organizaciones.
 
 <center>
 <img src="../../images/development_plan/04.png">
@@ -47,7 +47,7 @@ Sin embargo, para que una organización descentralizada se extienda, necesitamos
 
 Queremos solucionar – ya sea nosotros o asociándose con otros – esos puntos para así poder expandir las organizaciones descentralizadas.
 
-Gracias a la dapp de Aragon y a la Red de Aragon, podremos solucionar esos puntos.
+Gracias a la dapp de Aragon y a La Aragon Network, podremos solucionar esos puntos.
 
 ## **Estructura Organizacional**
 
@@ -55,13 +55,13 @@ Gracias a la dapp de Aragon y a la Red de Aragon, podremos solucionar esos punto
 <img src="../../images/development_plan/05.png">
 </center>
 
-**La Comunidad Aragon**, definiendo los miembros de la comunidad que contribuyen a la dapp y a La Red, así como los dueños de tokens de La Red Aragon.
+**La Comunidad Aragon**, definiendo los miembros de la comunidad que contribuyen a la dapp y a La Aragon Network, así como los dueños de tokens de La Aragon Network.
 
 **Aragon MTU**, desde ahora **la Fundación**, es una organización sin ánimo de lucro basada en Estonia, que servirá como organización paraguas responsable de asignar recursos al resto de cuerpos para futuras investigaciones sobre criptomonedas y desarrollo llendo hacia delante. El consejo de la Fundación está conformado por Luis Cuende y Jorge Izquierdo. La Fundación se enfocará en procurar la misión, así como habilitar organizaciones operativas para llevar a cabo el trabajo del día a día. 
 
-La Fundación también servirá como una entidad de gobernanza que escuchará a la Comunidad hasta que la Red de Aragon esté completamente operativa, desde donde la total gobernanza de la Red será transferida a los propietarios de ANT.
+La Fundación también servirá como una entidad de gobernanza que escuchará a la Comunidad hasta que La Aragon Network esté completamente operativa, desde donde la total gobernanza de La Aragon Network será transferida a los propietarios de ANT.
 
-**Aragon Dev**, una coporación con fines de lucro que será fundada después de que la venta de tokens finalice, y servirá a la Fundación y empleará equipo que trabaje en la plataforma Aragon. También servirá como un proveedor de servicio para la Red Aragon.
+**Aragon Dev**, una coporación con fines de lucro que será fundada después de que la venta de tokens finalice, y servirá a la Fundación y empleará equipo que trabaje en la plataforma Aragon. También servirá como un proveedor de servicio para La Aragon Network.
 
 **Prioridades de los fondos.** La intención es que la Fundación despliegue los ingresos de la venta de tokens tal como se muestra en el documento Intended Use of Revenue, pero se reserva el derecho de hacer cambios si lo considera necesario.
 
@@ -205,7 +205,7 @@ Proporcionaremos una tienda de módulos e incorporaremos un sistema de incentivo
 
 Proporcionaremos diferentes opciones de actualización. Esto es a lo que apuntamos:
 
-- Actualizaciones automáticas: La Red actualizará automáticamente la organización.
+- Actualizaciones automáticas: La Aragon Network actualizará automáticamente la organización.
 - Actualizaciones delegadas: Un representante elegido por la organización llevará a cabo la actualización.
 - Actualizaciones por votación: La mayoría de votos aprobará las actualizaciones.
 ___
@@ -225,19 +225,19 @@ Este lanzamiento se enfocará en añadir:
 
 **Gobernanza básica para toda la red**
 
-El poder que tendrá la Red respecto a las organizaciones, votos de gobernanza para decidir en proveedores de servicios y funcionalidad de pagos. 
+El poder que tendrá La Aragon Network respecto a las organizaciones, votos de gobernanza para decidir en proveedores de servicios y funcionalidad de pagos. 
 
 **Creación de tokens ANT**
 
-La Red será responsable de la política de creación de ANT y se decidirá a través de la gobernanza de dicha Red. Algunas de las responsabilidades serán decidir la tasa de emisión, el precio y cómo las compañías pagarán por suscribirse a la Red.
+La Aragon Network será responsable de la política de creación de ANT y se decidirá a través de la gobernanza de la Red. Algunas de las responsabilidades serán decidir la tasa de emisión, el precio y cómo las compañías pagarán por suscribirse a La Aragon Network.
 
 **Propuesta inicial de Aragon Dev**
 
-Primera propuesta por Aragon Dev a La Red Aragon para recaudación de fondos y futuros hitos de desarrollo.
+Primera propuesta por Aragon Dev a La Aragon Network para recaudación de fondos y futuros hitos de desarrollo.
 
 **Integrar capacidad de actualización**
 
-Proporcionar capacidad de actualización como servicio de red para todas las organizaciones de la Red Aragon.
+Proporcionar capacidad de actualización como servicio de red para todas las organizaciones de La Aragon Network.
 ___
 <h3>Calendario de Lanzamiento</h3>
 
@@ -257,9 +257,9 @@ Este lanzamiento se enfocará en añadir:
 
 Proporcionar una corte descentralizada, que llamaremos la Jurisdicción Aragon, como servicio de red o trabajar con un proyecto de corte descentralizada para hacerlo funcionar con la Red.
 
-**Organización en la ANresponden a la ANJ**
+**Organización en la AN responden a la ANJ**
 
-Las organizaciones en la Red Aragon (Aragon Network, o AN) empiezan a estar bajo la Jurisdicción Aragon (Aragon Network Jursidiction, o ANJ).
+Las organizaciones en La Aragon Network (AN) empiezan a estar bajo la Jurisdicción Aragon (Aragon Network Jursidiction, o ANJ).
 
 **Propuesta de constitución**
 
@@ -287,7 +287,7 @@ _**zkSnarks**_ podría proporcionar mucho más privacidad a las compañías. Vot
 
 **Diferentes mecanismos de gobernanza**
 
-Hasta ahora, las compañías de Aragon y la Red serán entidades simples, líquidas y basadas en democracia.
+Hasta ahora, las compañías de Aragon y La Aragon Network serán entidades simples, líquidas y basadas en democracia.
 
 Estamos siguiendo de cerca la investigación y experimentación sobre otros mecanismos de gobernanza, como es el caso de **Futarchy**.
 
@@ -298,6 +298,3 @@ Estamos siguiendo de cerca la investigación y experimentación sobre otros meca
 </center>
 
 Esperamos iniciar a comercializar Aragon al público con este lanzamiento. Para cumplir esta misión, tendremos que enfocarnos fuertemente en diseño y la experiencia de usuario.
-
-
-
