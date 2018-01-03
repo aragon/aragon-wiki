@@ -1285,6 +1285,18 @@
 
 
   <li class="md-nav__item">
+    <a href="../../meetings/community/write-ups/cm07/pierre/" title="Write-Up - Pierre" class="md-nav__link">
+      Write-Up - Pierre
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
     <a href="../../meetings/community/write-ups/cm07/tatu/" title="Write-Up - Tatu" class="md-nav__link">
       Write-Up - Tatu
     </a>
@@ -2586,7 +2598,6 @@ April 20th, 2017</p>
 <h3 id="12-current-limitations"><strong>1.2. Current limitations</strong></h3>
 <p>The properties of the Ethereum blockchain present unique opportunities for the creation and management of decentralized organizations, including immutability of records, transparency, and fast transactions. But in order to satisfy multiple requirements that human beings need in order to transact and create value, a layer on top of it needs to be created to align the incentives of everyone participating in the system.</p>
 <p>When designing Aragon Core, multiple issues were addressed that would deter most people from creating, running, or interacting with a decentralized organization. These include:</p>
-<p>Some of those issues are:</p>
 <ul>
 <li>
 <p><strong>Subjective breaches</strong>: Smart contracts can encode most of the possible breaches of contract, but there is always subjectivity in human relationships. A unbiased arbitration system is needed for cases where conflict is not explicitly resolved in the smart contract code.</p>
@@ -2606,7 +2617,7 @@ April 20th, 2017</p>
 <li><strong>Ownership</strong>: Shares are a way to reward founders, investors, advisors, partners and employees and can determine the ownership and direction of the company.</li>
 <li><strong>Voting</strong>: The company's shareholders should be able to have a word over its actions. We will directly link this to ownership.</li>
 <li><strong>Capital</strong>: Since a venture can be risky and may need to acquire certain goods in order to operate or grow, capital in the form of investment/loans is needed.</li>
-<li><strong>People</strong>: In the end, it's human beings who build the organizations. Easy ways to on-board them (identity) and reward (payroll) them are needed.</li>
+<li><strong>People</strong>: In the end, it's human beings who build the organizations. Easy ways to on-board them (identity) and reward them (payroll) are needed.</li>
 <li><strong>Outreach</strong>: A company needs to target their audience in order for them to buy the company's product. In the Internet era, having a domain name is enough.</li>
 <li><strong>Payment processor</strong>: Organizations need to be paid. There needs to exist a way for them to capture payments easily.</li>
 <li><strong>Accounting</strong>: In order to manage expenses, burn rate and make business decisions, there is a need to maintain book-keeping.</li>
@@ -2721,7 +2732,7 @@ Hiring and paying employees is unnecessarily complicated. Aragon Core simplifies
 <p>The user interface will let the user choose the amount to pay, the frequency, the shares to reward, and the parameters. To make the process more efficient, rewards can be in any Ethereum based token (using decentralized exchanges like the ones powered by the 0x protocol <a href="#references">[6]</a>) or any cryptocurrency with solutions like Cosmos or Polkadot that enable inter-blockchain currency exchange.</p>
 <p>If fiat is preferred, there will also be an option to generate prefilled credit cards with fiat from the company's funds. A solution like Shake, which has an API to generate instant and anonymous VISA cards, can be directly integrated with Aragon Core.</p>
 <p><strong>I. Payment processor</strong><br />
-For incoming payments, clients will be able to buy crypto currencies that then can be converted to the entrepreneurs' currency choice by using services like ShapeShift. After the user has acquired the crypto currency, the user will proceed to the payment. But for them, it will be a single step and everything will be transparently handled in the background.<br />
+For incoming payments, clients will be able to buy cryptocurrencies that then can be converted to the entrepreneurs' currency choice by using services like ShapeShift. After the user has acquired the cryptocurrency, the user will proceed to the payment. But for them, it will be a single step and everything will be transparently handled in the background.<br />
 We foresee this as being the most common flow in the beginning, instead of users creating their wallets right away.</p>
 <p>We will integrate with cryptocurrency exchanges and providers in order to provide a smooth user experience, similar to Stripe's.</p>
 <p><strong>J. Accounting</strong><br />
@@ -2761,7 +2772,7 @@ Accounting is fully built in, and we will eventually provide connections to thir
 <li><strong>She is governed</strong>. Besides its previously programmed actions, outside human or machine action will be able to trigger certain DAO actions.</li>
 </ul>
 <h3 id="33-kernel-functions"><strong>3.3. Kernel Functions</strong></h3>
-<p>A core function of the kernel is to act as a registry that defines the organs and their respective priority levels. It’s important to note that each organ has a unique priority level. Thus, if an new organ is set to a priority level that already exists, it will replace the original organ.</p>
+<p>A core function of the kernel is to act as a registry that defines the organs and their respective priority levels. It’s important to note that each organ has a unique priority level. Thus, if a new organ is set to a priority level that already exists, it will replace the original organ.</p>
 <p>The kernel is also responsible for accepting different types of entry point transactions and dispatching them to the organs using a standard API. The current entry-points supported by the kernel are:</p>
 <ul>
 <li><strong>Standard transfers</strong>, value transfer in ether: Vanilla Ethereum transactions that may have value attached to them.</li>
@@ -2787,7 +2798,7 @@ The application layer for the DAO is an organ itself. Importantly, applications 
 <p>The Aragon Network (AN) will be the first decentralized autonomous organization whose goal is to act as a digital jurisdiction that makes it extremely easy and friendly for organizations, entrepreneurs and investors to operate.</p>
 <p>The Aragon Network will be bootstrapped with a very thin Constitution voted by its governance. New laws can be added and they can be amended by the governance of the AN.</p>
 <p>Also a very important role of the core Aragon Network contracts will be to ensure membership of organizations in the network and check that they are following the stablished rules.</p>
-<p>The network will operate by accumulating capital in the form of fees to the operation of the organizations transacting on the network. This fees will contribute to the network internal capital, that the network governance will freely allocate. The main destination of these funds will probably be service providers to the network, that will be necessary for the network operations.</p>
+<p>The network will operate by accumulating capital in the form of fees to the operation of the organizations transacting on the network. These fees will contribute to the network internal capital, that the network governance will freely allocate. The main destination of these funds will probably be service providers to the network, that will be necessary for the network operations.</p>
 <p>These main services are:<br />
 - Development of the Aragon core contracts that allows running decentralized organizations.<br />
 - A decentralized court (Appendix A), with the possibility of freezing organizations.<br />
@@ -2808,8 +2819,8 @@ The application layer for the DAO is an organ itself. Importantly, applications 
 <p>ANT will continue to be minted by the network following the initial sale and network deployment. Minting new tokens will have a cost, and a percentage of the fees (decided by governance) paid by organizations to join the network will fund the minting of new tokens. This creates an incentive for Aragon organizations to pay fees, as organizations that contribute more will receive more ANT. This means that the organization will be more influential in network decisions.</p>
 <p>The cost to mint new tokens will be determined by ANT token holders. This will likely be a contentious decision, and one where the basic economic principles of supply and demand need to be considered. For example, consider the scenario where the cost of minting tokens is too low. More and more tokens will be added to the supply, until supply greatly outweighs demand. This is a recipe for inflation and the value of individual ANT tokens will fall. Ultimately, we believe that token holders will eventually decide on a healthy equilibrium for inflation. By weighing the opinion of every stakeholder, the market will accurately reflect the optimal minting cost.</p>
 <h3 id="53-network-governance"><strong>5.3 Network Governance</strong></h3>
-<p>Initially, the Aragon Network will be a liquid democracy <a href="#references">[11]</a> (alternatives, such as futarchy <a href="#references">[12]</a>, are being considered and we are actively following done in this are) that makes token issuing, fund allocation, and network rules decisions. See figure 5.3 for more details about a sample decisions made by ANT token holders.</p>
-<p>This means that when the Network is deployed governance decisions will be made by ANT holders with a system of proposal and votings. This mechanism will allow for creating proposals that result in the mechanism being upgraded.</p>
+<p>Initially, the Aragon Network will be a liquid democracy <a href="#references">[11]</a> (alternatives, such as futarchy <a href="#references">[12]</a>, are being considered and we are actively following the research in this area) that makes token issuing, fund allocation, and network rules decisions. See figure 5.3 for more details about a sample decisions made by ANT token holders.</p>
+<p>This means that when the network is deployed governance decisions will be made by ANT holders with a system of proposal and votings. This mechanism will allow for creating proposals that result in the mechanism being upgraded.</p>
 <p>Figure 5.3: Aragon Network governance decisions sample
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;}
@@ -2842,7 +2853,7 @@ The application layer for the DAO is an organ itself. Importantly, applications 
 </table></p>
 <h3 id="54-network-adaptability"><strong>5.4. Network Adaptability</strong></h3>
 <p>The Aragon Network will provide a series of basic services that are needed to make decentralized organizations widespread. However, our intent is that it will remain as global and open as possible.</p>
-<p>While the Aragon Network has some basic constitution and governance methods, everyone will be able to create another network inside the Aragon Network with a more specific set of laws. For example, you could create an organization, join the Aragon Network, and vote for a new set of laws specific to your organization. Effectively, organiza-tions will be able to use the Aragon Network’s services basic constitution and services as a framework, and build a custom set of rules to govern relationships inside organizations.</p>
+<p>While the Aragon Network has some basic constitution and governance methods, everyone will be able to create another network inside the Aragon Network with a more specific set of laws. For example, you could create an organization, join the Aragon Network, and vote for a new set of laws specific to your organization. Effectively, organizations will be able to use the Aragon Network’s services basic constitution and services as a framework, and build a custom set of rules to govern relationships inside organizations.</p>
 <h3 id="55-further-uses-of-the-token"><strong>5.5. Further uses of the token</strong></h3>
 <p>The ANT token will be the native token for all of the network services that require a token, either for governance or other functionalities. For example in the case of the court, holders will be able to use their tokens to help arbitration and get a rewarded.</p>
 <h3 id="56-token-technical-features"><strong>5.6 Token technical features</strong></h3>
