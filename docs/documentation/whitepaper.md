@@ -101,8 +101,6 @@ The properties of the Ethereum blockchain present unique opportunities for the c
 
 When designing Aragon Core, multiple issues were addressed that would deter most people from creating, running, or interacting with a decentralized organization. These include:
 
-Some of those issues are:
-
   - **Subjective breaches**: Smart contracts can encode most of the possible breaches of contract, but there is always subjectivity in human relationships. A unbiased arbitration system is needed for cases where conflict is not explicitly resolved in the smart contract code.
 
   - **Software bugs**: The error is always between the chair and the keyboard. Code can contain bugs so the software needs to be easily upgradeable, and a sound bug bounty mechanism must exist to incentivize potential attackers to claim a bounty, rather than attack.
@@ -118,7 +116,7 @@ An organization has multiple needs, the main ones being:
 - **Ownership**: Shares are a way to reward founders, investors, advisors, partners and employees and can determine the ownership and direction of the company.
 - **Voting**: The company's shareholders should be able to have a word over its actions. We will directly link this to ownership.
 - **Capital**: Since a venture can be risky and may need to acquire certain goods in order to operate or grow, capital in the form of investment/loans is needed.
-- **People**: In the end, it's human beings who build the organizations. Easy ways to on-board them (identity) and reward (payroll) them are needed.
+- **People**: In the end, it's human beings who build the organizations. Easy ways to on-board them (identity) and reward them (payroll) are needed.
 - **Outreach**: A company needs to target their audience in order for them to buy the company's product. In the Internet era, having a domain name is enough.
 - **Payment processor**: Organizations need to be paid. There needs to exist a way for them to capture payments easily.
 - **Accounting**: In order to manage expenses, burn rate and make business decisions, there is a need to maintain book-keeping.
@@ -240,7 +238,7 @@ The user interface will let the user choose the amount to pay, the frequency, th
 If fiat is preferred, there will also be an option to generate prefilled credit cards with fiat from the company's funds. A solution like Shake, which has an API to generate instant and anonymous VISA cards, can be directly integrated with Aragon Core.
 
 **I. Payment processor**  
-For incoming payments, clients will be able to buy crypto currencies that then can be converted to the entrepreneurs' currency choice by using services like ShapeShift. After the user has acquired the crypto currency, the user will proceed to the payment. But for them, it will be a single step and everything will be transparently handled in the background.  
+For incoming payments, clients will be able to buy cryptocurrencies that then can be converted to the entrepreneurs' currency choice by using services like ShapeShift. After the user has acquired the cryptocurrency, the user will proceed to the payment. But for them, it will be a single step and everything will be transparently handled in the background.  
 We foresee this as being the most common flow in the beginning, instead of users creating their wallets right away.
 
 We will integrate with cryptocurrency exchanges and providers in order to provide a smooth user experience, similar to Stripe's.
@@ -286,7 +284,7 @@ Before defining the different components this kernel for the DAO has, let’s de
   - **She is governed**. Besides its previously programmed actions, outside human or machine action will be able to trigger certain DAO actions.
 
 ### **3.3. Kernel Functions**
-A core function of the kernel is to act as a registry that defines the organs and their respective priority levels. It’s important to note that each organ has a unique priority level. Thus, if an new organ is set to a priority level that already exists, it will replace the original organ.
+A core function of the kernel is to act as a registry that defines the organs and their respective priority levels. It’s important to note that each organ has a unique priority level. Thus, if a new organ is set to a priority level that already exists, it will replace the original organ.
 
 The kernel is also responsible for accepting different types of entry point transactions and dispatching them to the organs using a standard API. The current entry-points supported by the kernel are:
 
@@ -326,7 +324,7 @@ The Aragon Network will be bootstrapped with a very thin Constitution voted by i
 
 Also a very important role of the core Aragon Network contracts will be to ensure membership of organizations in the network and check that they are following the stablished rules.
 
-The network will operate by accumulating capital in the form of fees to the operation of the organizations transacting on the network. This fees will contribute to the network internal capital, that the network governance will freely allocate. The main destination of these funds will probably be service providers to the network, that will be necessary for the network operations.
+The network will operate by accumulating capital in the form of fees to the operation of the organizations transacting on the network. These fees will contribute to the network internal capital, that the network governance will freely allocate. The main destination of these funds will probably be service providers to the network, that will be necessary for the network operations.
 
 These main services are:  
 - Development of the Aragon core contracts that allows running decentralized organizations.  
@@ -359,9 +357,9 @@ ANT will continue to be minted by the network following the initial sale and net
 The cost to mint new tokens will be determined by ANT token holders. This will likely be a contentious decision, and one where the basic economic principles of supply and demand need to be considered. For example, consider the scenario where the cost of minting tokens is too low. More and more tokens will be added to the supply, until supply greatly outweighs demand. This is a recipe for inflation and the value of individual ANT tokens will fall. Ultimately, we believe that token holders will eventually decide on a healthy equilibrium for inflation. By weighing the opinion of every stakeholder, the market will accurately reflect the optimal minting cost.
 
 ### **5.3 Network Governance**
-Initially, the Aragon Network will be a liquid democracy [[11]](#references) (alternatives, such as futarchy [[12]](#references), are being considered and we are actively following done in this are) that makes token issuing, fund allocation, and network rules decisions. See figure 5.3 for more details about a sample decisions made by ANT token holders.
+Initially, the Aragon Network will be a liquid democracy [[11]](#references) (alternatives, such as futarchy [[12]](#references), are being considered and we are actively following the research in this area) that makes token issuing, fund allocation, and network rules decisions. See figure 5.3 for more details about a sample decisions made by ANT token holders.
 
-This means that when the Network is deployed governance decisions will be made by ANT holders with a system of proposal and votings. This mechanism will allow for creating proposals that result in the mechanism being upgraded.
+This means that when the network is deployed governance decisions will be made by ANT holders with a system of proposal and votings. This mechanism will allow for creating proposals that result in the mechanism being upgraded.
 
 Figure 5.3: Aragon Network governance decisions sample
 <style type="text/css">
@@ -397,7 +395,7 @@ Figure 5.3: Aragon Network governance decisions sample
 ### **5.4. Network Adaptability**
 The Aragon Network will provide a series of basic services that are needed to make decentralized organizations widespread. However, our intent is that it will remain as global and open as possible.
 
-While the Aragon Network has some basic constitution and governance methods, everyone will be able to create another network inside the Aragon Network with a more specific set of laws. For example, you could create an organization, join the Aragon Network, and vote for a new set of laws specific to your organization. Effectively, organiza-tions will be able to use the Aragon Network’s services basic constitution and services as a framework, and build a custom set of rules to govern relationships inside organizations.
+While the Aragon Network has some basic constitution and governance methods, everyone will be able to create another network inside the Aragon Network with a more specific set of laws. For example, you could create an organization, join the Aragon Network, and vote for a new set of laws specific to your organization. Effectively, organizations will be able to use the Aragon Network’s services basic constitution and services as a framework, and build a custom set of rules to govern relationships inside organizations.
 
 ### **5.5. Further uses of the token**
 The ANT token will be the native token for all of the network services that require a token, either for governance or other functionalities. For example in the case of the court, holders will be able to use their tokens to help arbitration and get a rewarded.
