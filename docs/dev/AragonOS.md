@@ -99,12 +99,6 @@ Removes `role` in `app` for an `entity`. Only callable by the `manager` of a cer
 
 The `revokePermission()` action doesn’t need to be protected by the ACL either, as an entity can only make changes if it is the `manager` for a given permission.
 
-[`createPermission()`](#create-permission), [`grantPermission()`](#grant-permission), and [`revokePermission()`](#revoke-permission) all fire the same `SetPermission` event that Aragon clients are expected to cache and process into a locally stored version of the ACL:
-
-```
-SetPermission(address indexed from, bytes32 indexed role, address indexed to, bool allowed)
-```
-
 #### Set Permission Manager
 
 ```
@@ -116,6 +110,14 @@ Changes the permission manager to `newManager`. Only callable by the `manager` o
 The new permission manager replaces the old permission manager, resulting in the old manager losing any management power over that permission.
 
 [`createPermission()`](#create-permission) executes a special case of this action to set the initial manager for the newly created permission. From that point forward, the manager can only be changed with `setPermissionManager()`.
+
+#### Events
+
+[`createPermission()`](#create-permission), [`grantPermission()`](#grant-permission), and [`revokePermission()`](#revoke-permission) all fire the same `SetPermission` event that Aragon clients are expected to cache and process into a locally stored version of the ACL:
+
+```
+SetPermission(address indexed from, bytes32 indexed role, address indexed to, bool allowed)
+```
 
 [`setPermissionManager()`](#set-permission-manager) fires the following event:
 
@@ -151,6 +153,8 @@ Consider kernel **K**, an entity **E**_0_, and an app **A**. **E**_0_ wants to p
 
 Calculating a forwarding path requires knowing what [forwarders](#forwarders) entity **E**_0_ can escalate actions through. The user or contract performing this action could then choose their preferred route to forward permissions in order to perform **A**_act_. For example, **E**_1_ may be a Voting app **V**, so the action would be to create a new vote that, in case of being approved, would call **A**_act_. Since **V** has role **A**_role_, it has permission to execute **A**_act_, and therefore we would have successfully completed a permission escalation.
 
+Permission escalations can be multiple levels deep. For example, imagine a user wants to invoke an action that requires a vote. If the only entity with permission to create a vote is the Token Manager app, then the user will have to forward their action first through the Token Manager and then through the Voting app. The Token Manager (see [reference implementation](https://github.com/aragon/aragon-apps/tree/master/apps/token-manager)) only allows a sender to forward actions if the sender owns tokens, so in this case, the user will also need to hold tokens before being able to start a vote.
+
 Note that a permission escalation can occur instantly or be delayed and require further action from other entities, like in the case of the Voting app.
 
 <center><img src="../../images/aragonos/permission_escalation.png"></center>
@@ -168,8 +172,6 @@ contract Forwarder {
 ```
 
 If a user wants to enact an action it cannot perform directly, it can check if there are forwarders. This checks for privileged entities that are accessible to any of the user's addresses for forwarding the action to.
-
-Permission escalations can be multiple levels deep. For example, imagine a user wants to invoke an action that requires a vote. If the only entity with permission to create a vote is the Token Manager app, then the user will have to forward their action first through the Token Manager and then through the Voting app. The Token Manager (see [reference implementation](https://github.com/aragon/aragon-apps/tree/master/apps/token-manager)) only allows a sender to forward actions if the sender owns tokens, so in this case, the user will also need to hold tokens before being able to start a vote.
 
 ##### EVM Call Script
 
@@ -267,13 +269,13 @@ By versioning both the app code address and the package content, we can build in
   - **Minor**: Major changes to the package contents, but still works with the current smart contract code. Users should be notified of the update.
   - **Major**: Any change to the smart contract app code with or without an accompanying frontend upgrade. User interaction is needed to upgrade.
 
-  By having this check performed at the smart contract level, we can load the correct version of the frontend just by looking at an instance of an app. This is done by checking that the version of a smart contract is linked to a given app by getting its `appId` and `appCode`.
-
   A correct version upgrade for a package is defined by the following rules:
 
   - Only one member of the version is increased by 1. The version components to the left of the raised member must stay the same and the components to the right must be 0.
     - Example: From 2.1.3 the only allowed raises are to 3.0.0 (major version), 2.2.0 (minor version), and 2.1.4 (patch version).
   - Changes to the app code address can only be done if the raise changes the major version (upgrading it to x.0.0 by the above rule).
+
+  By having this check performed at the smart contract level, we can load the correct version of the frontend just by looking at an instance of an app. This is done by checking that the version of a smart contract is linked to a given app by getting its `appId` and `appCode`.
 
 ### Additional Packaging Requirements
 
