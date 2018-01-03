@@ -90,7 +90,7 @@
                 </span>
               
                 <span class="md-header-nav__parent">
-                  Aragon apps
+                  Aragon Apps
                 </span>
               
             
@@ -494,11 +494,11 @@
       <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3-3" type="checkbox" id="nav-3-3">
     
     <label class="md-nav__link" for="nav-3-3">
-      Aragon core
+      aragon-core
     </label>
     <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
       <label class="md-nav__title" for="nav-3-3">
-        Aragon core
+        aragon-core
       </label>
       <ul class="md-nav__list" data-md-scrollfix>
         
@@ -544,11 +544,11 @@
       <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3-4" type="checkbox" id="nav-3-4" checked>
     
     <label class="md-nav__link" for="nav-3-4">
-      Aragon apps
+      Aragon Apps
     </label>
     <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
       <label class="md-nav__title" for="nav-3-4">
-        Aragon apps
+        Aragon Apps
       </label>
       <ul class="md-nav__list" data-md-scrollfix>
         
@@ -1901,7 +1901,8 @@
               
                 
                 
-                <h1 id="voting">Voting</h1>
+                <h1 id="voting"><a href="https://github.com/aragon/aragon-apps/tree/master/apps/voting">Voting</a></h1>
+<p><em><strong>Code in Github:</strong></em> <a href="https://github.com/aragon/aragon-apps/tree/master/apps/voting">aragon-apps/apps/voting</a></p>
 <p>The Voting app is an entity that will execute a set of actions on other entities if token holders of a particular token decide to do so.</p>
 <h3 id="app-initialization">App initialization</h3>
 <p>The Voting app is instantiated with a certain set of parameters that won’t be changeable for the lifetime of the app:</p>
@@ -1920,10 +1921,10 @@
 
 <p>A new vote is initialized with:</p>
 <ul>
-<li>Execution script: <a href="../../../AragonOS/#evm-call-script">EVM call script</a> to be executed on vote approval, contains a series of addresses and calldata payloads that will be executed.</li>
+<li>Execution script: <a href="../../AragonOS/#evm-call-script">EVM call script</a> to be executed on vote approval, contains a series of addresses and calldata payloads that will be executed.</li>
 <li>Metadata: An arbitrary string that can be used to describe the voting.</li>
 </ul>
-<p>The voting app conforms to the <a href="../../../AragonOS/#forwarders">AragonOS Forwarder interface</a>. A generic forward action will create a vote with the provided execution script and empty metadata.</p>
+<p>The voting app conforms to the <a href="../../AragonOS/#forwarders">AragonOS Forwarder interface</a>. A generic forward action will create a vote with the provided execution script and empty metadata.</p>
 <p>When a vote is created a reference to the previous block number is saved as the snapshot block for the vote. The reason the previous block number is used is to avoid double voting in the same block the vote is created. Whenever a vote is casted, the MiniMeToken associated with the app is checked for the token balance of the voter at the snapshot block.</p>
 <h4 id="casting-votes">Casting votes</h4>
 <pre><code>votingApp.vote(uint256 _voteId, bool _supports)
@@ -1953,7 +1954,7 @@
 <p>At any time, the minimum acceptance quorum for the new votes can be modified.</p>
 <p>Any open votes will maintain the value minimum acceptance quorum was when they were created.</p>
 <h4 id="forwarding">Forwarding</h4>
-<p><a href="../../../AragonOS/#forwarders">Forwarding</a> using the common interface executes a <code>votingApp.newVote(...)</code> action. ACL is checked for whether the sender has permissions to create a vote.</p>
+<p><a href="../../AragonOS/#forwarders">Forwarding</a> using the common interface executes a <code>votingApp.newVote(...)</code> action. ACL is checked for whether the sender has permissions to create a vote.</p>
                 
                   
                 

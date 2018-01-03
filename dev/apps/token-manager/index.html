@@ -90,7 +90,7 @@
                 </span>
               
                 <span class="md-header-nav__parent">
-                  Aragon apps
+                  Aragon Apps
                 </span>
               
             
@@ -494,11 +494,11 @@
       <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3-3" type="checkbox" id="nav-3-3">
     
     <label class="md-nav__link" for="nav-3-3">
-      Aragon core
+      aragon-core
     </label>
     <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
       <label class="md-nav__title" for="nav-3-3">
-        Aragon core
+        aragon-core
       </label>
       <ul class="md-nav__list" data-md-scrollfix>
         
@@ -544,11 +544,11 @@
       <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3-4" type="checkbox" id="nav-3-4" checked>
     
     <label class="md-nav__link" for="nav-3-4">
-      Aragon apps
+      Aragon Apps
     </label>
     <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
       <label class="md-nav__title" for="nav-3-4">
-        Aragon apps
+        Aragon Apps
       </label>
       <ul class="md-nav__list" data-md-scrollfix>
         
@@ -2143,7 +2143,8 @@
               
                 
                 
-                <h1 id="token-manager">Token Manager</h1>
+                <h1 id="token-manager"><a href="https://github.com/aragon/aragon-apps/tree/master/apps/token-manager">Token Manager</a></h1>
+<p><em><strong>Code in Github:</strong></em> <a href="https://github.com/aragon/aragon-apps/tree/master/apps/token-manager">aragon-apps/apps/token-manager</a></p>
 <p>Token Manager is an abstraction layer over the concept of the MiniMeToken controller. The controller of a MiniMeToken is an address that can mint and destroy tokens, it also gets a 'hook' call on every transfer and approval giving the controller the chance to note it and decide whether to let the transfer through.</p>
 <p>Its most important features are minting new tokens and locking token transferability over time (vesting).</p>
 <p>One Token Manager instance can manage one MiniMe token.</p>
@@ -2235,7 +2236,7 @@
 </ul>
 <h3 id="forwarder">Forwarder</h3>
 <p>Token Manager allows holders of its underlying token to execute external actions by identifying themselves as token holders. This can be used for allowing token holders to perform a particular action in the DAO (e.g create a vote) without the ACL having to know anything about tokens.</p>
-<p>For this, Token Manager conforms to the <a href="../../../AragonOS/#forwarders">AragonOS Forwarder interface</a> and forwards calls to holders that own at least one token.</p>
+<p>For this, Token Manager conforms to the <a href="../../AragonOS/#forwarders">AragonOS Forwarder interface</a> and forwards calls to holders that own at least one token.</p>
 <h3 id="limitations">Limitations</h3>
 <ul>
 <li>In order to avoid an attack in which too many token vestings are added to a holder to cause an out of gas, the amount of token vestings a holder is limited to 50.</li>
