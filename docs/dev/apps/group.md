@@ -1,4 +1,6 @@
-# Group
+# [Group](https://github.com/aragon/aragon-apps/tree/master/apps/group)
+
+_**Code in Github:**_ [aragon-apps/apps/group](https://github.com/aragon/aragon-apps/tree/master/apps/group)
 
 Group is a very simple app that keeps track of the membership status of entities to a list.
 
@@ -38,7 +40,7 @@ At any time group membership for any entity can be checked by calling this metho
 
 #### Forwarding
 
-[Forwarding](../../AragonOS/#forwarders) using the common interface executes the provided [EVM call script](../../AragonOS/#evm-call-script) if the sender is a member of the group.
+[Forwarding](../AragonOS/#forwarders) using the common interface executes the provided [EVM call script](../AragonOS/#evm-call-script) if the sender is a member of the group.
 
 ### Future improvements
 

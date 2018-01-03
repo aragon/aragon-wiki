@@ -1,4 +1,6 @@
-# Voting
+# [Voting](https://github.com/aragon/aragon-apps/tree/master/apps/voting)
+
+_**Code in Github:**_ [aragon-apps/apps/voting](https://github.com/aragon/aragon-apps/tree/master/apps/voting)
 
 The Voting app is an entity that will execute a set of actions on other entities if token holders of a particular token decide to do so.
 
@@ -24,10 +26,10 @@ votingApp.newVote(bytes _executionScript, string _metadata)
 
 A new vote is initialized with:
 
-- Execution script: [EVM call script](../../AragonOS/#evm-call-script) to be executed on vote approval, contains a series of addresses and calldata payloads that will be executed.
+- Execution script: [EVM call script](../AragonOS/#evm-call-script) to be executed on vote approval, contains a series of addresses and calldata payloads that will be executed.
 - Metadata: An arbitrary string that can be used to describe the voting.
 
-The voting app conforms to the [AragonOS Forwarder interface](../../AragonOS/#forwarders). A generic forward action will create a vote with the provided execution script and empty metadata.
+The voting app conforms to the [AragonOS Forwarder interface](../AragonOS/#forwarders). A generic forward action will create a vote with the provided execution script and empty metadata.
 
 When a vote is created a reference to the previous block number is saved as the snapshot block for the vote. The reason the previous block number is used is to avoid double voting in the same block the vote is created. Whenever a vote is casted, the MiniMeToken associated with the app is checked for the token balance of the voter at the snapshot block.
 
@@ -68,4 +70,4 @@ Any open votes will maintain the value minimum acceptance quorum was when they w
 
 #### Forwarding
 
-[Forwarding](../../AragonOS/#forwarders) using the common interface executes a `votingApp.newVote(...)` action. ACL is checked for whether the sender has permissions to create a vote.
+[Forwarding](../AragonOS/#forwarders) using the common interface executes a `votingApp.newVote(...)` action. ACL is checked for whether the sender has permissions to create a vote.

@@ -1,4 +1,6 @@
-# Finance
+# [Finance](https://github.com/aragon/aragon-apps/tree/master/apps/finance)
+
+_**Code in Github:**_ [aragon-apps/apps/finance](https://github.com/aragon/aragon-apps/tree/master/apps/finance)
 
 The purpose of the Finance app is to be the central point for keeping track of income and expenses in an organization, as well as performing payments.
 

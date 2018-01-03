@@ -48,10 +48,10 @@ pages:
   - Development:
     - Overview: 'dev/index.md'
     - AragonOS: 'dev/AragonOS.md'
-    - Aragon core:
+    - aragon-core:
       - Overview: 'dev/aragon-core_home.md'
       - How to contribute: 'dev/aragon-core_how_to_contribute.md'
-    - Aragon apps:
+    - Aragon Apps:
       - Overview: 'dev/apps/index.md'
       - Voting: 'dev/apps/voting.md'
       - Token Manager: 'dev/apps/token-manager.md'

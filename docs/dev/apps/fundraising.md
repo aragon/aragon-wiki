@@ -1,4 +1,6 @@
-# Fundraising
+# [Fundraising](https://github.com/aragon/aragon-apps/tree/master/apps/fundraising)
+
+_**Code in Github:**_ [aragon-apps/apps/fundraising](https://github.com/aragon/aragon-apps/tree/master/apps/fundraising)
 
 The Fundraising app allows to sell organization's tokens in return for other tokens. The sales that can be performed are simple capped sales with variable pricing over time. By tweaking some parameters, different sale dynamics can be achieved.
 
