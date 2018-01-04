@@ -55,7 +55,7 @@ contract TokenApp is App {
 
 An **Entity** is any actor that is represented by an Ethereum address, such as a multisig (an account that needs multiple signatures before executing an action), an app (for example, a voting app that only executes an action if token holders vote favorably), or a simple private key controlled account.
 
-The system can delegate permissions to groups of entities by implementing a Group app (see our [reference implementation](https://github.com/aragon/aragon-apps/tree/master/apps/group)). As in other apps, it can rely on the ACL for protecting important functions, such as adding or removing members of the group. When group members want to execute a specific action, the Group app acts as a proxy contract that performs the action on behalf of the group.
+The system can delegate permissions to groups of entities by implementing a [Group app](./apps/group). As in other apps, it can rely on the ACL for protecting important functions, such as adding or removing members of the group. When group members want to execute a specific action, the Group app acts as a proxy contract that performs the action on behalf of the group.
 
 ### Permissions
 
@@ -77,7 +77,7 @@ This action is identical to [`grantPermission()`](#grant-permission) except it a
 
 A role in the ACL protects access to `createPermission()` as this important function could be used in malicious ways. When the Kernel is initialized, it also creates the permission that grants the initializing address the ability to create new permissions.
 
-Note that creating permissions is made mandatory by the ACL. Any permission checks on permissions that don't exist are automatically failed: i.e. actions requiring yet-to-be-created permissions are disallowed by default.
+Note that creating permissions is made mandatory by the ACL: all actions requiring yet-to-be-created permissions are disallowed by default. Any permission checks on non-existent permissions are failed automatically.
 
 #### Grant Permission
 
@@ -95,7 +95,7 @@ The `grantPermission()` action doesn’t require protection with the ACL because
 kernel.revokePermission(address entity, address app, bytes32 role)
 ```
 
-Removes `role` in `app` for an `entity`. Only callable by the `manager` of a certain permission.
+Revokes `role` in `app` for an `entity`. Only callable by the `manager` of a certain permission.
 
 The `revokePermission()` action doesn’t need to be protected by the ACL either, as an entity can only make changes if it is the `manager` for a given permission.
 
@@ -127,7 +127,7 @@ ChangePermissionManager(address indexed app, bytes32 indexed role, address index
 
 #### Example
 
-As an example, the following steps show a complete flow for user "Root" to create a new DAO with the basic permissions set so that a Voting app ([reference implementation](https://github.com/aragon/aragon-apps/tree/master/apps/voting)) can manage the funds stored in a Vault app ([reference implmentation](https://github.com/aragon/aragon-apps/tree/master/apps/vault)):
+As an example, the following steps show a complete flow for user "Root" to create a new DAO with the basic permissions set so that a [Voting app](./apps/voting) can manage the funds stored in a [Vault app](./apps/vault):
 
 1. Deploy the Kernel
 2. Executing `kernel.initialize(rootAddress)` creates the "permissions creator" permission under the hood:
@@ -139,7 +139,7 @@ As an example, the following steps show a complete flow for user "Root" to creat
 6. Create a new vote via the Voting app to create the `TRANSFER_TOKENS_ROLE` permission
 `createPermission(votingAppAddress, vaultAppAddress, TRANSFER_TOKENS_ROLE, votingAppAddress)`
 7. If the vote passes, the Voting app then has access to all actions in the Vault protected by `TRANSFER_TOKENS_ROLE`, which in this case is just `transferTokens()`
-8. Transferring funds from the Vault can now be executed by creating votes
+8. Fund transfers from the Vault can now be controlled via votes from the Voting app. Each time a user wishes to transfer funds, they can create a new vote via the Voting app to propose an execution of the Vault's `transferTokens()` action. If, and only if, the vote passes, will the `transferTokens()` action be executed.
 
 Note that the Voting app is also able to revoke or regrant the `TRANSFER_TOKENS_ROLE` permission as it is that permission's manager on `vaultAppAddress`.
 
@@ -153,7 +153,7 @@ Consider kernel **K**, an entity **E**_0_, and an app **A**. **E**_0_ wants to p
 
 Calculating a forwarding path requires knowing what [forwarders](#forwarders) entity **E**_0_ can escalate actions through. The user or contract performing this action could then choose their preferred route to forward permissions in order to perform **A**_act_. For example, **E**_1_ may be a Voting app **V**, so the action would be to create a new vote that, in case of being approved, would call **A**_act_. Since **V** has role **A**_role_, it has permission to execute **A**_act_, and therefore we would have successfully completed a permission escalation.
 
-Permission escalations can be multiple levels deep. For example, imagine a user wants to invoke an action that requires a vote. If the only entity with permission to create a vote is the Token Manager app, then the user will have to forward their action first through the Token Manager and then through the Voting app. The Token Manager (see [reference implementation](https://github.com/aragon/aragon-apps/tree/master/apps/token-manager)) only allows a sender to forward actions if the sender owns tokens, so in this case, the user will also need to hold tokens before being able to start a vote.
+Permission escalations can be multiple levels deep. For example, imagine a user wants to invoke an action that requires a vote. If the only entity with permission to create a vote is the [Token Manager app](./apps/token-manager), then the user will have to forward their action first through the Token Manager and then through the Voting app. The Token Manager only allows a sender to forward actions if the sender owns tokens, so in this case, the user will also need to hold tokens before being able to start a vote.
 
 Note that a permission escalation can occur instantly or be delayed and require further action from other entities, like in the case of the Voting app.
 
@@ -175,7 +175,7 @@ If a user wants to enact an action it cannot perform directly, it can check if t
 
 ##### EVM Call Script
 
-The `evmCallScript` parameter above allows for executing multiple calls with just one transaction. This is useful, for example, in the case of votings, as it allows approving multiple actions with just one vote.
+The `evmCallScript` parameter in the [Forwarder's](#forwarders) interface allows for executing multiple calls with just one transaction. This is useful, for example, in the case of votings, as it allows approving multiple actions with just one vote.
 
 An `evmCallScript` is the concatenation of multiple `evmCallAction`s. A `evmCallAction` payload is:
 
