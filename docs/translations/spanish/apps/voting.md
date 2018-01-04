@@ -1,5 +1,8 @@
 
-# Voting
+# [Voting](https://github.com/aragon/aragon-apps/tree/master/apps/voting)
+
+_**Code in Github:**_ [aragon-apps/apps/voting](https://github.com/aragon/aragon-apps/tree/master/apps/voting)
+
 
 The Voting app es una entidad que ejecutará un conjunto de acciones en otras entidades si los titulares de tokens de un token en particular deciden hacerlo.
 
