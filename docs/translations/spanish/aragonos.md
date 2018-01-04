@@ -202,7 +202,7 @@ Nótese que , aunque esta acción es bastante fácil de completar, es extremadam
 
 Como las aplicaciones pueden ser usadas como entidades (p.ej. una voting app), es importante que cada aplicación sea capaz de mantener su dirección fija, para así mantener su identidad incluso si hay cambios de actualización por debajo de la lógica. Mantener una dirección fija también simplifica el proceso de actualización—de otra manera, cada actualización también tendría que requerir unos permisos asociados en la ACL para poder ser actualizada a la nueva dirección de la aplicación—.
 
-Un manera de conseguirlo es a través del concepto de un contrato [`AppProxy`](https://github.com/aragon/aragon-core/blob/dev/contracts/apps/AppProxy.sol) (inspirado por el [augur-core’s `Delegators`](https://github.com/AugurProject/augur-core/blob/develop/source/contracts/libraries/Delegator.sol)). El despliegue de una aplicación via un contrato `AppProxy` solo requiere una referencia al Kernel y a la identificación de la aplicación. Cuando una aplicación recibe una llamada, es interceptada por la función callback del proxy. En este punto, el proxy pregunta al Kernel por las últimas direcciones del código de la aplicación para un identificador de aplicación dado y versión. El contrato AppProxy entonces reenvía la llamada `delegatecall`ando hacia su dirección.
+Una manera de conseguirlo es a través del concepto de un contrato [`AppProxy`](https://github.com/aragon/aragon-core/blob/dev/contracts/apps/AppProxy.sol) (inspirado por el [augur-core’s `Delegators`](https://github.com/AugurProject/augur-core/blob/develop/source/contracts/libraries/Delegator.sol)). El despliegue de una aplicación via un contrato `AppProxy` solo requiere una referencia al Kernel y a la identificación de la aplicación. Cuando una aplicación recibe una llamada, es interceptada por la función callback del proxy. En este punto, el proxy pregunta al Kernel por las últimas direcciones del código de la aplicación para un identificador de aplicación dado y versión. El contrato AppProxy entonces reenvía la llamada `delegatecall`ando hacia su dirección.
 
 <center><img src="../../images/aragonos/appproxy_delegatecall.png"></center>
 
@@ -264,7 +264,7 @@ Mediante el versionado de tanto la dirección del código de la aplicación como
 
   - **Patch**: Cambios menores en el contenido del paquete (p.ej. frontend). Esta actualización puede ser realizada sin notificar al usuario.
   - **Minor**: Cambios mayores en el contenido del paquete, pero todavía funcionando con el actual código del contrato inteligente. Los usuarios deberían ser notificados de la actualización.
-  - **Major**: cualquier cambio en el código de la aplicación del contrato inteligente con o sin acompañamiento de una actualización del frontend. Se necesita interacción con el usuario para actualizar.
+  - **Major**: Cualquier cambio en el código de la aplicación del contrato inteligente con o sin acompañamiento de una actualización del frontend. Se necesita interacción con el usuario para actualizar.
   
   Mediante esta comprobación realizada a nivel de contrato inteligente, podemos cargar la versión correcta del frontend solo mirando una instancia de la aplicación. Esto se hace comprobando que la versión de un contrato inteligente está enlazada con una aplicación dada a través de su `appId` y `appCode`.
   
@@ -278,7 +278,7 @@ Mediante el versionado de tanto la dirección del código de la aplicación como
 
 El paquete que está almacenado off-chain debe contener un estándar [manifest.json](https://w3c.github.io/manifest/).
 
-También introducimos un archivo `eth.json` específico con las siguientes claves: para ayudar a conectar el frontend de una app con sus contratos inteligentes:
+También introducimos un archivo `eth.json` específico con las siguientes claves, para ayudar a conectar el frontend de una app con sus contratos inteligentes:
 
   - `abi`: Estándar [Ethereum Contract ABI](https://github.com/ethereum/wiki/wiki/Ethereum-Contract-ABI)
   - `bytecode`: Código de inicialización para desplegar el código de una aplicación en la red.
