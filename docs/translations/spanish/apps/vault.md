@@ -1,4 +1,3 @@
-Test
 # [Vault](https://github.com/aragon/aragon-apps/tree/master/apps/vault)
 
 _**Code in Github:**_ [aragon-apps/apps/vault](https://github.com/aragon/aragon-apps/tree/master/apps/vault)
