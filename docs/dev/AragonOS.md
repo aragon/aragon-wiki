@@ -30,7 +30,7 @@ A reference implementation of the Kernel and its ACL can be found here: [`Kernel
 
 **App**s are smart contracts that rely on the Kernel—the core of the operating system—for maintaining their ACL and upgrading their code. Apps can interact with users and other smart contracts by implementing **Action**s, where each action is a publicly-accessible function that may or may not be protected by the ACL. Any actions that are protected are only allowed to be executed if the caller is permitted by the ACL. Because apps are upgradeable, we expect them to exist for a long period of time and be safely responsible for owning assets on behalf of the DAO (e.g. tokens and ENS names).
 
-App instances are identified by their deployed Ethereum addresses.
+App instances are identified by their deployed Ethereum addresses. More than one instance of a particular app can be installed in a DAO at a time (e.g. multiple [Token Manager](./apps/token-manager) instances can be installed to control multiple tokens).
 
 ### Roles
 
@@ -207,7 +207,7 @@ One way of achieving this is through the concept of an [`AppProxy`](https://gith
 
 <center><img src="../../images/aragonos/appproxy_delegatecall.png"></center>
 
-Given that the Kernel keeps a centralized record of the latest version of the code for each app identifier, changing one reference in the Kernel effectively updates all instances of that app in organizations relying on the same Kernel. These upgrades could then be delegated to another contract, e.g. the Aragon Network, in case organizations don’t want to handle manual upgrades of their own apps.
+It should be noted that multiple `AppProxy` contracts can be installed in a DAO for the same app identifier (e.g. multiple [Fundraising](./apps/fundraising) `AppProxy` instances can be attached to the same Kernel to control multiple types of funding). As the Kernel keeps a centralized record of the latest version of the code for each app identifier, changing one reference in the Kernel effectively updates all instances of that app in that organization. These upgrades could then be delegated to another contract, e.g. the Aragon Network, in case organizations don’t want to handle manual upgrades of their own apps.
 
 #### Set App Code
 
@@ -215,9 +215,8 @@ Given that the Kernel keeps a centralized record of the latest version of the co
 kernel.setAppCode(bytes32 appId, address appCode)
 ```
 
-This action updates the implementation code registered for a given `appId`, such that all future calls to the app will use the new app code.
+This action updates the implementation code registered for a given `appId`, such that all future calls to the app will use the new app code. If multiple app instances are installed for the given `appId`, they are all updated at the same time with this action.
 
-Note that this effectively upgrades the app in all organizations that depend on the same Kernel.
 Note that all calls to an app will fail if an `appId` has not been set for its `appCode`.
 
 ## 3. Initialization
