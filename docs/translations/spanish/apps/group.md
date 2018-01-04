@@ -1,4 +1,7 @@
-# Group
+# [Group](https://github.com/aragon/aragon-apps/tree/master/apps/group)
+
+_**Code in Github:**_ [aragon-apps/apps/group](https://github.com/aragon/aragon-apps/tree/master/apps/group)
+
 
 Group es una aplicación muy simple que realiza un seguimiento del estado de membresía de las entidades en una lista.
 
