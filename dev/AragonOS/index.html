@@ -516,8 +516,8 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#apps" title="Apps" class="md-nav__link">
-    Apps
+  <a href="#apps-and-actions" title="Apps and Actions" class="md-nav__link">
+    Apps and Actions
   </a>
   
 </li>
@@ -573,6 +573,13 @@
 </li>
         
           <li class="md-nav__item">
+  <a href="#events" title="Events" class="md-nav__link">
+    Events
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#example" title="Example" class="md-nav__link">
     Example
   </a>
@@ -580,8 +587,8 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#checking-permissions" title="Checking Permissions" class="md-nav__link">
-    Checking Permissions
+  <a href="#adding-permissions" title="Adding Permissions" class="md-nav__link">
+    Adding Permissions
   </a>
   
 </li>
@@ -643,6 +650,19 @@
     2.2. App-space upgradeability
   </a>
   
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#set-app-code" title="Set App Code" class="md-nav__link">
+    Set App Code
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
         
       </ul>
@@ -661,6 +681,26 @@
   <a href="#4-app-discoverability-and-package-versioning" title="4. App discoverability and package versioning" class="md-nav__link">
     4. App discoverability and package versioning
   </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#app-repos" title="App Repos" class="md-nav__link">
+    App Repos
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#additional-packaging-requirements" title="Additional Packaging Requirements" class="md-nav__link">
+    Additional Packaging Requirements
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -1950,8 +1990,8 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#apps" title="Apps" class="md-nav__link">
-    Apps
+  <a href="#apps-and-actions" title="Apps and Actions" class="md-nav__link">
+    Apps and Actions
   </a>
   
 </li>
@@ -2007,6 +2047,13 @@
 </li>
         
           <li class="md-nav__item">
+  <a href="#events" title="Events" class="md-nav__link">
+    Events
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#example" title="Example" class="md-nav__link">
     Example
   </a>
@@ -2014,8 +2061,8 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#checking-permissions" title="Checking Permissions" class="md-nav__link">
-    Checking Permissions
+  <a href="#adding-permissions" title="Adding Permissions" class="md-nav__link">
+    Adding Permissions
   </a>
   
 </li>
@@ -2077,6 +2124,19 @@
     2.2. App-space upgradeability
   </a>
   
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#set-app-code" title="Set App Code" class="md-nav__link">
+    Set App Code
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
         
       </ul>
@@ -2095,6 +2155,26 @@
   <a href="#4-app-discoverability-and-package-versioning" title="4. App discoverability and package versioning" class="md-nav__link">
     4. App discoverability and package versioning
   </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#app-repos" title="App Repos" class="md-nav__link">
+    App Repos
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#additional-packaging-requirements" title="Additional Packaging Requirements" class="md-nav__link">
+    Additional Packaging Requirements
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -2115,23 +2195,26 @@
                 
                 <p><center></p>
 <h1 id="aragonos">AragonOS</h1>
-<p><em>Reflects <a href="https://github.com/aragon/aragon-core">aragon-core</a> 2.0.1 implementation. Updated Dec 4th, 2017</em></p>
-<p>An <a href="https://en.wikipedia.org/wiki/Exokernel">exokernel</a>-inspired architecture for modular, upgradeable and secure DAOs
+<p><em>Reflects <a href="https://github.com/aragon/aragon-core">aragon-core</a> 2.0.1 implementation. Updated Jan. 2nd, 2018.</em></p>
+<p>An <a href="https://en.wikipedia.org/wiki/Exokernel">exokernel</a>-inspired architecture for modular, upgradeable, and secure DAOs
 </center></p>
 <h2 id="introduction">Introduction</h2>
-<p>This exokernel-inspired architecture enables modular, upgradeable and secure DAOs (Decentralized Autonomous Organizations). A UNIX-inspired permissions system, that allows safe and efficient control over software resources by utilizing smart contracts.</p>
-<p>Smart contracts can define the rules and penalties around an agreement. They can also make decisions as well as enforce said commitments. Such as the ability to move large amounts of funds. But such significant responsibilities also make smart contracts a prime target for attacks.  Smart contracts are essential to to the Ethereum ecosystem. Testing and certifying them is not an absolute remedy because, inevitably, humans make mistakes.</p>
-<p>So how does one guarantee DAOs that run efficiently and securely? And with upgradeability, ensuring the safety and evolution of the Ethereum ecosystem?</p>
-<p>We present our take on our secure decentralized operating system: <em>AragonOS</em>.</p>
-<p>This document provides a technical overview about the architecture. For a less technical oriented introduction to AragonOS, you can check the <a href="https://blog.aragon.one/introducing-aragonos-say-hi-to-modular-and-extendable-organizations-8555af1076f3">announcement blogpost</a>.</p>
+<p>This exokernel-inspired architecture enables modular, upgradeable, and secure Decentralized Autonomous Organizations (DAOs). It implements a UNIX-inspired permissioning system with smart contracts to allow for safe and efficient control over software resources.</p>
+<p>Smart contracts, an essential component of the Ethereum ecosystem, can define the rules and penalties around an agreement. They can also make decisions and enforce prior commitments, such as transfering large amounts of funds. However, such significant responsibilities make smart contracts a prime target for attacks. Testing and auditing them are not absolute remedies because, inevitably, humans make mistakes.</p>
+<p>So, how does one guarantee DAOs that run efficiently and securely? And how do we provide upgrading capabilities to these DAOs, to ensure the safety and evolution of the Ethereum ecosystem?</p>
+<p>We present our secure decentralized operating system: <em>AragonOS</em>.</p>
+<p>This document provides a technical overview about the architecture. For a less technically-oriented introduction to AragonOS, you can check the <a href="https://blog.aragon.one/introducing-aragonos-say-hi-to-modular-and-extendable-organizations-8555af1076f3">announcement blogpost</a>.</p>
 <h2 id="1-kernel-and-the-access-control-list">1. Kernel and the Access Control List</h2>
-<p>The Access Control List (ACL) is the filter which determines whether an address has a certain role in the context of an app. It either permits or prohibits performing actions in a given context, such as an update, as well as determining the entities with power over that permission.</p>
-<p>The ACL permissions system is inspired by UNIX. ACL controls the permissions in the system afforded to a user and can ease the transfer of permissions. Similar to the <code>sudo</code> command in UNIX, users can escalate permissions, but with more flexibility and granularity.</p>
-<h3 id="apps">Apps</h3>
-<p>Apps are smart contracts that rely on the Kernel--the core of the operating system--for their own ACL and code upgrades. Because apps are upgradeable, we can rely on them to exist for a long period of time. This means it is safe for an app to be responsible for owning different assets on behalf of the DAO (e.g. tokens and ENS names). Apps can implement multiple actions and these actions can be protected or not by the ACL, in case one action is protected, execution of the action will only be allowed when permitted by the ACL.</p>
+<p>The <strong>Access Control List</strong> (ACL) is the filter which determines whether an <a href="#entity">entity</a> has a certain role in the context of an app. It either permits or prohibits performing actions, such as an update, in a given context, as well as determining the entities with power over that permission.</p>
+<p>The ACL permissioning system is inspired by UNIX. ACLs control the permissions afforded to a user in the system and can ease the transfer of said permissions. Similar to the <code>sudo</code> command in UNIX, users can escalate permissions, but with more flexibility and granularity.</p>
+<p>A reference implementation of the Kernel and its ACL can be found here: <a href="https://github.com/aragon/aragon-core/blob/dev/contracts/kernel/Kernel.sol"><code>Kernel.sol</code></a>.</p>
+<h3 id="apps-and-actions">Apps and Actions</h3>
+<p><strong>App</strong>s are smart contracts that rely on the Kernel—the core of the operating system—for maintaining their ACL and upgrading their code. Apps can interact with users and other smart contracts by implementing <strong>Action</strong>s, where each action is a publicly-accessible function that may or may not be protected by the ACL. Any actions that are protected are only allowed to be executed if the caller is permitted by the ACL. Because apps are upgradeable, we expect them to exist for a long period of time and be safely responsible for owning assets on behalf of the DAO (e.g. tokens and ENS names).</p>
+<p>App instances are identified by their deployed Ethereum addresses. More than one instance of a particular app can be installed in a DAO at a time (e.g. multiple <a href="../apps/token-manager">Token Manager</a> instances can be installed to control multiple tokens).</p>
 <h3 id="roles">Roles</h3>
-<p>Another feature in ensuring security within the ecosystem is the ease of delegating responsibilities for autonomous execution. Apps can define any number of roles and roles can group one or more actions behind them. In order to perform an action protected by the ACL, the entity wishing to perform it must have the permission to execute that role’s actions.</p>
-<p>Roles are always unique to each app. Being able to perform a given role in one app does not grant the permission to perform the role in other apps. An entity can have many roles in one app.</p>
+<p>Another feature in ensuring security within the ecosystem is the ease of delegating responsibilities for autonomous execution. Apps can define any number of <strong>Role</strong>s, where each role grants access to one or more of the app's actions as part of the app's ACL. Any entity wishing to perform an action protected by the ACL must have the necessary permissions by having a role that is capable of executing that action.</p>
+<p>Roles are always unique to each app. Having a given role in one app does not grant the permission to perform that same role in other apps.</p>
+<p>An entity can have many roles in one app.</p>
 <p>Example:</p>
 <pre><code>contract TokenApp is App {
     bytes32 constant public MINT_ROLE = 0x1234;
@@ -2139,84 +2222,76 @@
 }
 </code></pre>
 
+<p><code>TokenApp</code> is an app that defines one action, <code>mint()</code>, whose execution is controlled by <code>MINT_ROLE</code>.</p>
 <h3 id="entity">Entity</h3>
-<p>An Entity is any actor that is represented by an Ethereum address, such as a multisig (an account that needs multiple signatures before executing an action), an app (for example a voting app that will execute an action if token holders vote favorably) or a simple private key controlled account.</p>
-<p>The system can delegate permissions to groups of entities by implementing a Group app. As other apps, it can rely on the ACL for protecting important functions such as adding or removing members of the group. When group members want to execute a specific action, the Group app acts as a proxy contract that performs the action on behalf of the group.</p>
+<p>An <strong>Entity</strong> is any actor that is represented by an Ethereum address, such as a multisig (an account that needs multiple signatures before executing an action), an app (for example, a voting app that only executes an action if token holders vote favorably), or a simple private key controlled account.</p>
+<p>The system can delegate permissions to groups of entities by implementing a <a href="../apps/group">Group app</a>. As in other apps, it can rely on the ACL for protecting important functions, such as adding or removing members of the group. When group members want to execute a specific action, the Group app acts as a proxy contract that performs the action on behalf of the group.</p>
 <h3 id="permissions">Permissions</h3>
-<p>A <strong>Permission</strong> is defined as the ability to perform actions (grouped in a role)
-in a certain app instance (identified by its address).</p>
-<p>We refer to a <strong>Permission Instance</strong> to whether an entity has or doesn't have a
-certain <strong>Permission</strong>.</p>
-<p>When a permission is created, a <strong>Permission Manager</strong> is set for that specific
-<strong>Permission</strong>. The permission manager is able to grant or revoke permission
-instances for that permission.</p>
+<p>A <strong>Permission</strong> is defined as the ability to perform actions (grouped by roles) in a certain app instance (identified by its address).</p>
+<p>We refer to a <strong>Permission Instance</strong> as an entity holding a certain permission.</p>
+<p>When a permission is created, a <strong>Permission Manager</strong> is set for that specific permission. The permission manager is able to grant or revoke permission instances for that permission.</p>
 <h4 id="create-permission">Create Permission</h4>
 <pre><code>kernel.createPermission(address entity, address app, bytes32 role, address manager)
 </code></pre>
 
-<p><code>createPermission</code> will fail if any permission instance for that permission was created before.</p>
-<p>This call is mostly identical to <code>grantPermission</code>, with the exception that it allows the creation of a new permission from scratch if it doesn’t yet exist.</p>
-<p>The <code>createPermission</code> action needs to be protected by the ACL with a role. It is an important function that could be used in malicious ways. When the Kernel is initialized, it creates the permission for an address to create new permissions.</p>
-<p>If the ACL is checked for a permission that hasn’t been created yet, the ACL won’t allow the action to be performed by default.</p>
+<p><code>createPermission()</code> will fail if that permission has pre-existing permission instances.</p>
+<p>This action is identical to <a href="#grant-permission"><code>grantPermission()</code></a> except it allows the creation of a new permission if it doesn’t exist yet.</p>
+<p>A role in the ACL protects access to <code>createPermission()</code> as this important function could be used in malicious ways. When the Kernel is initialized, it also creates the permission that grants the initializing address the ability to create new permissions.</p>
+<p>Note that creating permissions is made mandatory by the ACL: all actions requiring yet-to-be-created permissions are disallowed by default. Any permission checks on non-existent permissions are failed automatically.</p>
 <h4 id="grant-permission">Grant Permission</h4>
 <pre><code>kernel.grantPermission(address entity, address app, bytes32 role)
 </code></pre>
 
-<p>The <code>entity</code> would then be allowed to call all actions that their <code>role</code> can perform on that particular <code>app</code>. This would be in effect until the permission manager revokes it by calling <code>revokePermission</code>.</p>
-<p>The <code>grantPermission</code> action doesn’t need to be protected with the ACL as an entity can only make changes if it is the <code>manager</code> for a given permission.</p>
+<p>Grants <code>role</code> in <code>app</code> for an <code>entity</code>. Only callable by the <code>manager</code> of a certain permission. This <code>entity</code> would then be allowed to call all actions that their <code>role</code> can perform on that particular <code>app</code> until the permission manager revokes their role with <code>revokePermission()</code>.</p>
+<p>The <code>grantPermission()</code> action doesn’t require protection with the ACL because an entity can only make changes to a permission if it is the permission's <code>manager</code>.</p>
 <h4 id="revoke-permission">Revoke Permission</h4>
 <pre><code>kernel.revokePermission(address entity, address app, bytes32 role)
 </code></pre>
 
-<p><code>revokePermission</code> can be called at any time by the <code>manager</code> of a certain permission and will remove the ability of <code>entity</code> to have <code>role</code> on <code>app</code>.</p>
-<p>The <code>revokePermission</code> action doesn’t need to be protected by the ACL either, as an entity can only make changes if it is the <code>manager</code> for a given permission.</p>
-<p><code>createPermission</code>, <code>grantPermission</code> and <code>revokePermission</code> fire the same event that Aragon clients must cache and use to build a locally stored version of the ACL.</p>
-<pre><code>SetPermission(address indexed from, bytes32 indexed role, address indexed to, bool allowed)
-</code></pre>
-
+<p>Revokes <code>role</code> in <code>app</code> for an <code>entity</code>. Only callable by the <code>manager</code> of a certain permission.</p>
+<p>The <code>revokePermission()</code> action doesn’t need to be protected by the ACL either, as an entity can only make changes if it is the <code>manager</code> for a given permission.</p>
 <h4 id="set-permission-manager">Set Permission Manager</h4>
 <pre><code>kernel.setPermissionManager(address newManager, address app, bytes32 role)
 </code></pre>
 
-<p>Only the permission manager of a permission can call this function to set a new manager.</p>
-<p>Setting a new permission manager results in the the old permission manager losing
-management power for that permission</p>
-<p><code>createPermission</code> executes a special case of setting permission manager for the
-first time. From that point forward, the manager for that permission can only be
-changed by the manager with <code>setPermissionManager</code>.</p>
-<p>Changing permission manager fires the following event:</p>
+<p>Changes the permission manager to <code>newManager</code>. Only callable by the <code>manager</code> of a certain permission.</p>
+<p>The new permission manager replaces the old permission manager, resulting in the old manager losing any management power over that permission.</p>
+<p><a href="#create-permission"><code>createPermission()</code></a> executes a special case of this action to set the initial manager for the newly created permission. From that point forward, the manager can only be changed with <code>setPermissionManager()</code>.</p>
+<h4 id="events">Events</h4>
+<p><a href="#create-permission"><code>createPermission()</code></a>, <a href="#grant-permission"><code>grantPermission()</code></a>, and <a href="#revoke-permission"><code>revokePermission()</code></a> all fire the same <code>SetPermission</code> event that Aragon clients are expected to cache and process into a locally stored version of the ACL:</p>
+<pre><code>SetPermission(address indexed from, bytes32 indexed role, address indexed to, bool allowed)
+</code></pre>
+
+<p><a href="#set-permission-manager"><code>setPermissionManager()</code></a> fires the following event:</p>
 <pre><code>ChangePermissionManager(address indexed app, bytes32 indexed role, address indexed manager)
 </code></pre>
 
 <h4 id="example">Example</h4>
-<p>As an example, the following shows a complete flow for user Root to create a new DAO that has the basic permissions set so a Voting app could manage funds in a Vault app:</p>
+<p>As an example, the following steps show a complete flow for user "Root" to create a new DAO with the basic permissions set so that a <a href="../apps/voting">Voting app</a> can manage the funds stored in a <a href="../apps/vault">Vault app</a>:</p>
 <ol>
 <li>Deploy the Kernel</li>
-<li>Performing <code>kernel.initialize(rootAddress)</code> creates the following permission under the hood:<br />
+<li>Executing <code>kernel.initialize(rootAddress)</code> creates the "permissions creator" permission under the hood:
 <code>createPermission(rootAddress, kernelAddress, PERMISSIONS_CREATOR_ROLE, rootAddress)</code></li>
 <li>Deploy the Voting app</li>
-<li>Make it so that the Voting app can call <code>createPermission</code>:<br />
-<code>grantPermission(votingAppAddress, PERMISSIONS_CREATOR_ROLE, kernelAddress)</code> (has to be executed by <code>rootAddress</code>)</li>
-<li>Deploy the Vault app, which has a signature called <code>transferTokens</code></li>
-<li>Create a new vote to create the <code>TRANSFER_TOKENS_ROLE</code> permission<br />
+<li>Grant the Voting app the ability to call <code>createPermission()</code>:
+<code>grantPermission(votingAppAddress, PERMISSIONS_CREATOR_ROLE, kernelAddress)</code> (must be executed by <code>rootAddress</code>)</li>
+<li>Deploy the Vault app, which has a action called <code>transferTokens()</code></li>
+<li>Create a new vote via the Voting app to create the <code>TRANSFER_TOKENS_ROLE</code> permission
 <code>createPermission(votingAppAddress, vaultAppAddress, TRANSFER_TOKENS_ROLE, votingAppAddress)</code></li>
-<li>If vote passes, the Voting app can then call <code>TRANSFER_TOKENS_ROLE</code> actions, which in this case is just <code>transferTokens</code> in the Vault</li>
-<li>Votes can be created to transfer funds</li>
-<li>The voting app will be able to revoke or regrant the permission as it is the
-permission manager for <code>TRANSFER_TOKENS_ROLE</code> on <code>vaultAppAddress</code></li>
+<li>If the vote passes, the Voting app then has access to all actions in the Vault protected by <code>TRANSFER_TOKENS_ROLE</code>, which in this case is just <code>transferTokens()</code></li>
+<li>Fund transfers from the Vault can now be controlled via votes from the Voting app. Each time a user wishes to transfer funds, they can create a new vote via the Voting app to propose an execution of the Vault's <code>transferTokens()</code> action. If, and only if, the vote passes, will the <code>transferTokens()</code> action be executed.</li>
 </ol>
-<p>An implementation of the explained ACL can be found in <a href="https://github.com/aragon/aragon-core/blob/dev/contracts/kernel/Kernel.sol">aragon-core’s Kernel</a> file.</p>
-<h4 id="checking-permissions">Checking Permissions</h4>
-<p>Apps can decide whether to protect actions behind the ACL or not, as for some actions it makes sense to have them completely public. Protecting an action behind the ACL is done simply by adding the authentication modifier which passes the role required for performing the action as a parameter. The auth modifier will check with the Kernel whether the entity performing the call has that role or not.</p>
+<p>Note that the Voting app is also able to revoke or regrant the <code>TRANSFER_TOKENS_ROLE</code> permission as it is that permission's manager on <code>vaultAppAddress</code>.</p>
+<h4 id="adding-permissions">Adding Permissions</h4>
+<p>Apps have the choice of which actions to protect behind the ACL, as some actions may make sense to be completely public. Protecting an action behind the ACL is done in the smart contract by simply adding the authentication modifier <a href="https://github.com/aragon/aragon-core/blob/a1b6694cdb33443c6ad8f2a8fd3badf82dbd720a/contracts/apps/App.sol#L6"><code>auth()</code></a> (passing the role required as a parameter) to the action. On executing the action, the <code>auth()</code> modifier checks with the Kernel whether the entity performing the call holds the required role or not.</p>
 <h4 id="escalating-permissions">Escalating Permissions</h4>
-<p>Consider kernel <strong>K</strong>, an entity <strong>E</strong><em>0</em> and an app <strong>A</strong>. <strong>E</strong> wants to perform action <strong>A</strong><em>sig</em> on app <strong>A</strong>. The client knows (provided as part of app metadata) that in order to perform <strong>A</strong><em>sig</em> an entity is required to have <strong>A</strong><em>role</em>.
-The client should know that <strong>E</strong><em>0</em> cannot directly call <strong>A</strong><em>sig</em>, as it doesn’t have that role, but that a list of Entities [<strong>E</strong><em>1</em>, <strong>E</strong><em>2</em>] do have that role on app <strong>A</strong>. The client should then show the user the multiple possible forwarding paths to pass the call to <strong>E</strong><em>1</em>, so then <strong>E</strong><em>0</em> could perform <strong>A</strong><em>sig</em>.</p>
-<p>Calculating a forwarding path requires knowing what Forwarders entity <strong>E</strong><em>0</em> can perform actions through.
-The user or contract performing this action could then choose their preferred route to forward permissions in order to perform <strong>A</strong><em>sig</em>. For example, <strong>E</strong><em>1</em> may be a Voting app <strong>V</strong>, so the action would be to create a new vote that, in case of being approved, would call <strong>A</strong><em>sig</em>. Since <strong>V</strong> has role <strong>A</strong><em>role</em> it has permission to execute <strong>A</strong><em>sig</em>, therefore we would have successfully completed a permission escalation.<br />
-Note that permission escalation can occur instantly or it can be delayed and require further action by other entities like in the case of the voting app.</p>
+<p>Consider kernel <strong>K</strong>, an entity <strong>E</strong><em>0</em>, and an app <strong>A</strong>. <strong>E</strong><em>0</em> wants to perform action <strong>A</strong><em>act</em> on app <strong>A</strong>. The client knows, from <a href="#additional-packaging-requirements">information provided as part of the app's metadata</a>, that in order to perform <strong>A</strong><em>act</em>, an entity is required to have <strong>A</strong><em>role</em>. Since <strong>E</strong><em>0</em> doesn't hold <strong>A</strong><em>role</em>, the client should know that <strong>E</strong><em>0</em> cannot directly call <strong>A</strong><em>act</em>, but that a list of entities [<strong>E</strong><em>1</em>, <strong>E</strong><em>2</em>, ...] do have that role on app <strong>A</strong>. The client should then show the user the multiple possible forwarding paths to pass the call to <strong>E</strong><em>1</em>, <strong>E</strong><em>2</em>, etc, such that <strong>E</strong><em>0</em> is able to perform <strong>A</strong><em>act</em> through another, higher-privileged, entity.</p>
+<p>Calculating a forwarding path requires knowing what <a href="#forwarders">forwarders</a> entity <strong>E</strong><em>0</em> can escalate actions through. The user or contract performing this action could then choose their preferred route to forward permissions in order to perform <strong>A</strong><em>act</em>. For example, <strong>E</strong><em>1</em> may be a Voting app <strong>V</strong>, so the action would be to create a new vote that, in case of being approved, would call <strong>A</strong><em>act</em>. Since <strong>V</strong> has role <strong>A</strong><em>role</em>, it has permission to execute <strong>A</strong><em>act</em>, and therefore we would have successfully completed a permission escalation.</p>
+<p>Permission escalations can be multiple levels deep. For example, imagine a user wants to invoke an action that requires a vote. If the only entity with permission to create a vote is the <a href="../apps/token-manager">Token Manager app</a>, then the user will have to forward their action first through the Token Manager and then through the Voting app. The Token Manager only allows a sender to forward actions if the sender owns tokens, so in this case, the user will also need to hold tokens before being able to start a vote.</p>
+<p>Note that a permission escalation can occur instantly or be delayed and require further action from other entities, like in the case of the Voting app.</p>
 <p><center><img src="../../images/aragonos/permission_escalation.png"></center></p>
 <h5 id="forwarders">Forwarders</h5>
-<p>In order to make permission escalation easier, we can define a common interface for how this happens:</p>
+<p>In order to make permission escalation easier, we define a common interface for <strong>Forwarder</strong>s:</p>
 <pre><code>contract Forwarder {
    bool isForwarder = true;
    function canForward(address sender, bytes evmCallScript) view returns (bool);
@@ -2224,80 +2299,83 @@ Note that permission escalation can occur instantly or it can be delayed and req
 }
 </code></pre>
 
+<p>If a user wants to enact an action it cannot perform directly, it can check if there are forwarders. This checks for privileged entities that are accessible to any of the user's addresses for forwarding the action to.</p>
 <h5 id="evm-call-script">EVM Call Script</h5>
-<p>The <code>evmCallScript</code> parameter allows for executing multiple calls with just one transaction. This is useful, for example, in the case of Votings, as it allows approving multiple actions in just one vote.</p>
-<p>An <code>evmCallScript</code> is the concatenation of multiple <code>evmCallActions</code>. A <code>evmCallActions</code> payload is:</p>
+<p>The <code>evmCallScript</code> parameter in the <a href="#forwarders">Forwarder's</a> interface allows for executing multiple calls with just one transaction. This is useful, for example, in the case of votings, as it allows approving multiple actions with just one vote.</p>
+<p>An <code>evmCallScript</code> is the concatenation of multiple <code>evmCallAction</code>s. A <code>evmCallAction</code> payload is:</p>
 <p><code>[ to (address: 20 bytes) ] [ calldataLength (uint32: 4 bytes)  ] [ calldata (calldataLength bytes) ]</code></p>
-<p>When executed, actions in the <code>evmCallScript</code> are executed one at a time using <em>CALL</em>. If just one of the actions fails (call returns 0), the entire execution is reverted.</p>
-<p>An implementation for EVM Call Script can be found here: <a href="https://github.com/aragon/aragon-core/blob/dev/contracts/common/EVMCallScript.sol"><code>EVMCallScript.sol</code></a>.</p>
-<p>If a user wants to enact an action it cannot perform directly, it can check if there are forwarders. This checks if there are entities which can perform the action that any of the user addresses can use.</p>
-<p>This can be multiple levels deep. For example, if a user address holds a number of tokens, the user is allowed to use the token manager entity. This is something that forwards when the sender owns tokens. The token manager entity is then the only one allowed to create a new vote.</p>
+<p>When executed, actions in the <code>evmCallScript</code> are executed one at a time using the <code>CALL</code> opcode. If any one of the actions fails (i.e. <code>CALL</code> returns 0), the entire execution is reverted.</p>
+<p>A reference implementation for EVM Call Script can be found here: <a href="https://github.com/aragon/aragon-core/blob/dev/contracts/common/EVMCallScript.sol"><code>EVMCallScript.sol</code></a>.</p>
 <h2 id="2-upgradeability">2. Upgradeability</h2>
-<p>Upgradeability of the system is achieved by using the <a href="https://github.com/aragon/aragon-core/blob/dev/contracts/common/DelegateProxy.sol">DelegateProxy</a> pattern. Kernel and apps (<code>KernelProxy</code> and <code>AppProxy</code>) both use DelegateProxy making some slight modifications.</p>
+<p>Upgradeability of the system is achieved by using the <a href="https://github.com/aragon/aragon-core/blob/dev/contracts/common/DelegateProxy.sol"><code>DelegateProxy</code></a> pattern. Kernel and apps (<a href="#21-kernel-upgradeability"><code>KernelProxy</code></a> and <a href="#22-app-space-upgradeability"><code>AppProxy</code></a>) both use <code>DelegateProxy</code> with some added functionality.</p>
 <p><center><img src="../../images/aragonos/delegateproxy.png"></center></p>
-<p>Given that new versions of apps or the kernel will run in the exact same context as previous versions, the old storage layout must be taken into account. Inheriting from the old contract storage before adding new storage variables is considered a safe practice. It is recommended to make sure the upgrade doesn't break the storage before pushing a new version. We will work on tooling to prevent issues with storage on upgrades.</p>
+<p>Given that new versions of apps or the kernel run in the exact same context as previous versions, the old storage layout must be taken into account. Inheriting from the old contract's storage before adding new storage variables is considered a safe practice. It is recommended to make sure the upgrade doesn't break the storage before pushing a new version. We will work on tooling to prevent issues with storage when upgrading.</p>
 <h3 id="21-kernel-upgradeability">2.1. Kernel upgradeability</h3>
-<p>For the <a href="https://github.com/aragon/aragon-core/blob/dev/contracts/kernel/Kernel.sol">Kernel</a> to be easily upgradeable, more efficient and cheaper to deploy, we will use a proxy type construct. Deploying a new DAO is done by deploying a <a href="https://github.com/aragon/aragon-core/blob/dev/contracts/kernel/KernelProxy.sol">KernelProxy</a> contract that just delegates all calls to a kernel implementation at a given address, while still maintaining its own storage. Upgrading the kernel is as easy as changing the reference to another implementation. Even though it is fairly easy to do, this action is really critical and should be protected accordingly.</p>
+<p>For the <a href="#1-kernel-and-the-access-control-list">Kernel</a> to be easily upgradeable, cheaply deployable, and more efficient, we use a proxy-type construct. Deploying a new DAO is done by deploying a <a href="https://github.com/aragon/aragon-core/blob/dev/contracts/kernel/KernelProxy.sol"><code>KernelProxy</code></a> contract that just delegates all calls to a kernel implementation at a given address, while still maintaining its own storage. Upgrading the kernel implementation in the proxy is as easy as changing its reference to another implementation's address.</p>
+<p>Note that, although this action is fairly easy to complete, it is extremely critical to the DAO and should be protected accordingly.</p>
 <h3 id="22-app-space-upgradeability">2.2. App-space upgradeability</h3>
-<p>As apps can be used as entities (e.g. a voting app) it is important that the apps can keep their addresses fixed for maintaining their identities even if their underlying logic changes. This is in order to keep the permissions not having to change at the kernel level with the upgrades.</p>
-<p>An idea of how this can be achieved is by using the concept of <a href="https://github.com/aragon/aragon-core/blob/dev/contracts/apps/AppProxy.sol">AppProxy</a> contracts (inspired by <a href="https://github.com/AugurProject/augur-core/blob/develop/source/contracts/libraries/Delegator.sol">augur-core’s Delegators</a>). Deploying an app with an AppProxy contract just needs a reference to the Kernel and the app identifier. When the app receives a call, it gets intercepted by the fallback function. At this point the proxy contract will ask the Kernel for the address of the latest version of the app code for a given app identifier. The <a href="https://github.com/aragon/aragon-core/blob/dev/contracts/apps/AppProxy.sol">AppProxy</a> contract will then <code>delegatecall</code> into this address, making sure that the latest version of the app is always running.</p>
+<p>As apps can be used as entities (e.g. a voting app), it is important that each app is able to keep its address fixed to maintain its identity even if an upgrade changes the underlying logic. Keeping a fixed address also simplifies the upgrade process—otherwise, each upgrade would also require any associated permissions in the ACL to be updated to the app's new address.</p>
+<p>One way of achieving this is through the concept of an <a href="https://github.com/aragon/aragon-core/blob/dev/contracts/apps/AppProxy.sol"><code>AppProxy</code></a> contract (inspired by <a href="https://github.com/AugurProject/augur-core/blob/develop/source/contracts/libraries/Delegator.sol">augur-core’s <code>Delegators</code></a>). Deploying an app via an <code>AppProxy</code> contract only requires a reference to the Kernel and the app identifier. When the app receives a call, it gets intercepted by the proxy's fallback function. At this point, the proxy asks the Kernel for the latest address of the app code for a given app identifier and version. The AppProxy contract then forwards the call by <code>delegatecall</code>ing into this address.</p>
 <p><center><img src="../../images/aragonos/appproxy_delegatecall.png"></center></p>
-<p>Given that the Kernel will have a centralized record of the latest version of the code for the app identifiers, changing one reference in the Kernel will effectively update all instances of the app relying on the Kernel. These upgrades could then be delegated to another contract, Aragon Network, in case the users don’t wish to handle manual upgrades of the apps.</p>
+<p>It should be noted that multiple <code>AppProxy</code> contracts can be installed in a DAO for the same app identifier (e.g. multiple <a href="../apps/fundraising">Fundraising</a> <code>AppProxy</code> instances can be attached to the same Kernel to control multiple types of funding). As the Kernel keeps a centralized record of the latest version of the code for each app identifier, changing one reference in the Kernel effectively updates all instances of that app in that organization. These upgrades could then be delegated to another contract, e.g. the Aragon Network, in case organizations don’t want to handle manual upgrades of their own apps.</p>
+<h4 id="set-app-code">Set App Code</h4>
 <pre><code>kernel.setAppCode(bytes32 appId, address appCode)
 </code></pre>
 
-<p>This action updates the implementation code registered for a given <code>appId</code>. That will effectively upgrade all apps that depend on the Kernel. Making it so that all future calls will use the new app code.
-In case the <code>appId</code> for an <code>appCode</code> hasn’t been set, all calls to the app will fail.</p>
+<p>This action updates the implementation code registered for a given <code>appId</code>, such that all future calls to the app will use the new app code. If multiple app instances are installed for the given <code>appId</code>, they are all updated at the same time with this action.</p>
+<p>Note that all calls to an app will fail if an <code>appId</code> has not been set for its <code>appCode</code>.</p>
 <h2 id="3-initialization">3. Initialization</h2>
-<p>The contract that gets deployed doesn’t contain the business logic for the component. This is due to the Kernel and apps relying on a Proxy-like architecture for upgradeability. It is merely a way to point to the given logic when called.</p>
-<p>This impedes the ability to call the Solidity constructor. Constructors are only ran when creating the contract, but not stored as part of the account code.</p>
-<p>Initialization is performed with a 'regular function' that should be called after the <code>AppProxy</code> contract has been deployed. To impede the attack in which a malicious actor tries to get an initialization transaction between the deployment and the legit initialization transaction, <code>AppProxy</code> allows to pass an initialization payload that will be executed on deployment. This allows to have atomic initialization of apps.</p>
-<p>It is important that this initialization function can only be called once. Instead of just saving a boolean when a component has been initialized, we store the block number when the initialization happened. This can then be used by client to know from which block they need to filter for events.</p>
+<p>The contracts that get deployed for each Kernel and app don't contain any business logic due to them relying on a proxy-like architecture for upgradeability. The proxy contracts are merely a way to point to the logic when called.</p>
+<p>However, this architecture impedes the ability to call the Solidity constructor. Constructors are run only on contract creation but not stored as part of the account code.</p>
+<p>We instead use a 'regular function' to perform initialization on each proxy. This function can only be called after the <code>AppProxy</code> contract has been deployed. To impede attacks in which a malicious actor tries to front-run an initialization transaction between the deployment and the legit initialization transaction, <code>AppProxy</code> allows you to pass an initialization payload that will only be executed on deployment, allowing for atomic initializations of apps.</p>
+<p>It is important that this initialization function can only be called once per proxy. Instead of just saving a boolean when a component has been initialized, we store the block number when the initialization occurred. Clients can then use this to know from which block they should filter for events.</p>
 <h2 id="4-app-discoverability-and-package-versioning">4. App discoverability and package versioning</h2>
-<p>An app <strong>A</strong> is nothing more than a simple AppProxy contract with a reference to a kernel <strong>K</strong> and an <code>appId</code>. If <strong>A</strong> doesn’t have any permissions, both incoming or outgoing, set in <strong>K</strong>, it effectively means that it’s irrelevant to the DAO, since nothing can call it and it cannot call anything. So the notion of installing an app is replaced with the notion of creating permissions for an app (what needs to happen for different functions of the app to be called and what can the app do in regard to other apps).</p>
-<p>All relevant apps in a DAO could be obtained by traversing its ACL, checking if an address there is an AppProxy, and checking if the AppProxy has a reference to the DAO’s kernel. If that happens, an app with the AppProxy’s <code>appId</code> is effectively installed in the DAO.</p>
-<p>Application identifiers (<code>appId</code>) can be used as a the identifier for the full package (frontend for the app and other artifacts).
-The <code>appId</code> of an app should be the ENS name for the package. The <code>namehash</code> function recursively hashes different components of a name (<a href="https://www.npmjs.com/package/eth-ens-namehash">reference implementation</a>)</p>
+<p>Technically, an app <strong>A</strong> is nothing more than a simple <a href="../22-app-space-upgradeability"><code>AppProxy</code></a> contract holding a reference to a kernel <strong>K</strong> and an <code>appId</code>. If <strong>A</strong> doesn’t have any permissions, both incoming and outgoing, set in <strong>K</strong>, <strong>A</strong> is effectively irrelevant to the DAO as nothing can call it and it cannot call anything. So the notion of installing an app is replaced with the notion of creating permissions for an app (i.e. defining what entities can do with the app and what the app can do in other apps).</p>
+<p>All relevant apps in a DAO should be discoverable by traversing its ACL, checking if any addresses are <code>AppProxy</code>s, and checking if those <code>AppProxy</code>s have a reference to the DAO’s kernel. If that is the case, then the apps matching those <code>AppProxy</code>s' <code>appId</code>s are considered installed in the DAO.</p>
+<p>Application identifiers (<code>appId</code>s) should be the <a href="https://www.npmjs.com/package/eth-ens-namehash"><code>namehash</code>ed</a> ENS name for the app's deployed contract:</p>
 <pre><code>appId = namehash(“voting.aragonpm.eth”)
 </code></pre>
 
-<p>Aragon owns <em>aragonpm.eth</em> and will allow developers to create packages, but the system is designed to be domain agnostic (for example, district0x could decide to have all their packages under <code>packages.district.eth</code>)</p>
-<p>After discovering an entity in the DAO that is an app, we can fetch its appId and because the appId is a ENS name, we can lookup in the ENS to find the full repo contract for an appId.</p>
+<p>An app's <code>appId</code> can be used as the identifier for its full package (including the app's frontend and other artifacts).</p>
+<p>Aragon owns and provides <code>aragonpm.eth</code> as a domain for developers to register their packages under. However, the system is designed to be domain agnostic: for example, district0x could decide to have all their packages under <code>packages.district.eth</code>.</p>
+<h3 id="app-repos">App Repos</h3>
+<p>After discovering an entity in the DAO that is an app, we can fetch its <code>appId</code> and use ENS to resolve its Repo contract:</p>
 <pre><code>repo = Resolver(ens.resolver(appId)).addr(appId)
 </code></pre>
 
-<p>Repo contracts conform to the original Aragon Versioning Protocol but add more on-chain checks for what a valid version update is.  </p>
-<p>The Repo has an owner which is an Ethereum address that can create new versions of the package. This ownership right can be transferred to another address by the owner.  </p>
-<p>A Repo allows to keep versioned state over:  </p>
+<p>Repo contracts conform to the original Aragon Versioning Protocol but add more on-chain checks for version upgrades.</p>
+<p>Each Repo has an owner which is an Ethereum address that can create new versions of the package. This ownership right can be transferred to another address by the owner.</p>
+<p>A Repo keeps versioned state over:</p>
 <ul>
-<li>Smart contract app code (<code>contractAddress</code>): the app code is the address of the deployed version of the app. The kernel can then point to this address and all instances of the app, depending on the kernel it will use.</li>
-<li>Package content (<code>contentURI</code>): defined by a location id of where the package is hosted (IPFS, Swarm, etc.) and a content hash to fetch it.</li>
+<li>Smart contract app code (<code>contractAddress</code>): the app code is the address of the deployed version of the app. The Kernel determines which version of the app it uses by pointing to the app code address associated with that version.</li>
+<li>Package content (<code>contentURI</code>): defined by a location ID of where the other components of the package (e.g. frontend) are hosted (IPFS, Swarm, etc.) and the content hash for fetching it.</li>
 </ul>
-<p>By having both the app code reference and the package content, we can assert some guarantees of what the semantic versioning means.</p>
+<p>By versioning both the app code address and the package content, we can build in additional expectations for the semantic versioning of apps:</p>
 <ul>
-<li><strong>Patch version</strong>: Minor changes to the package contents (frontend). Update can be performed silently for users.</li>
-<li><strong>Minor version</strong>: Major changes to the package contents, but still works with the current  smart contract code (frontend). Users should be notified of the update.</li>
-<li><strong>Major version</strong>: Changes to both the smart contracts and the frontend. In order to use this version of the frontend, an upgrade to new smart contract(s) is required. User interaction is needed to upgrade.</li>
+<li><strong>Patch</strong>: Minor changes to the package contents (e.g. frontend). Update can be performed silently for users.</li>
+<li><strong>Minor</strong>: Major changes to the package contents, but still works with the current smart contract code. Users should be notified of the update.</li>
+<li><strong>Major</strong>: Any change to the smart contract app code with or without an accompanying frontend upgrade. User interaction is needed to upgrade.</li>
 </ul>
-<p>By having this check performed at the smart contract level, we can load the correct version of the frontend just by looking at an instance of an app. This is done by checking that the version of a smart contract is linked to a given app by getting the appId and the appCode.</p>
-<p>A correct version raise for a package is defined by the following rules:</p>
+<p>A correct version upgrade for a package is defined by the following rules:</p>
 <ul>
-<li>It can only increase one member of the version by 1. The version components at the left of the raised member must stay the same and the components at the right must be 0.<ul>
-<li>Example: From 2.1.3 the only allowed rises are to 3.0.0 (major version), 2.2.0 (minor version) and 2.1.4 (patch version).</li>
+<li>Only one member of the version is increased by 1. The version components to the left of the raised member must stay the same and the components to the right must be 0.<ul>
+<li>Example: From 2.1.3 the only allowed raises are to 3.0.0 (major version), 2.2.0 (minor version), and 2.1.4 (patch version).</li>
 </ul>
 </li>
-<li>Changes to the app code address can only be done if the raise changes the major version (turning it into x.0.0 by the above rule).</li>
+<li>Changes to the app code address can only be done if the raise changes the major version (upgrading it to x.0.0 by the above rule).</li>
 </ul>
-<p>The package that is stored off-chain needs to contain a standard <a href="https://w3c.github.io/manifest/">manifest.json</a> file.
-Apart from that, making the interaction with the smart contracts possible, we introduce a specific <code>eth.json</code> file with the following keys:</p>
+<p>By having this check performed at the smart contract level, we can load the correct version of the frontend just by looking at an instance of an app. This is done by checking that the version of a smart contract is linked to a given app by getting its <code>appId</code> and <code>appCode</code>.</p>
+<h3 id="additional-packaging-requirements">Additional Packaging Requirements</h3>
+<p>The package that is stored off-chain must contain a standard <a href="https://w3c.github.io/manifest/">manifest.json</a>.</p>
+<p>We also introduce a specific <code>eth.json</code> file with the following keys, to help connect an app's frontend to its smart contracts:</p>
 <ul>
 <li><code>abi</code>: Standard <a href="https://github.com/ethereum/wiki/wiki/Ethereum-Contract-ABI">Ethereum Contract ABI</a></li>
-<li><code>bytecode</code>: Init code for deploying the app contract to the network.</li>
-<li><code>functions</code>: An array of all the relevant function signatures for the contract, with its <a href="https://github.com/ethereum/wiki/wiki/Ethereum-Natural-Specification-Format">natspec</a> description, argument names and whether the function is protected by the ACL or not. These can be automatically generated on package publish. What role is needed to call a function is specified in the function object.</li>
-<li><code>permissions</code>: An array of what permissions the app needs to have over other entities in order to work. This will probably be dependent on initialization parameters. For example: a Finance app will need permissions over the Vault it is initialized with.</li>
-<li><code>verification</code>: An object providing the needed information to independently verify the source code of the deployed code. Values needed are: <code>deployTxId</code>, <code>sourceCode</code> and the compiler settings, solc version and optimization settings.</li>
+<li><code>bytecode</code>: Initialization code for deploying the app code to the network.</li>
+<li><code>functions</code>: An array of all the relevant function signatures for the contract, with its <a href="https://github.com/ethereum/wiki/wiki/Ethereum-Natural-Specification-Format">natspec</a> description, argument names, and whether the function is protected by the ACL or not (and which role is required, if protected). These can be automatically generated on package publish.</li>
+<li><code>permissions</code>: An array of permissions the app needs to have over other entities in order to work. This will probably be dependent on initialization parameters. For example: a Finance app will need permissions over the Vault it is initialized with.</li>
+<li><code>verification</code>: An object providing the needed information to independently verify the source code of the deployed code. Required values include: <code>deployTxId</code>, <code>sourceCode</code>, and the compiler settings, solc version, and optimization settings.</li>
 </ul>
-<p>An initial implementation of the contracts supporting package management can be found on the apm-contracts Github <a href="https://github.com/aragon/apm-contracts">repo</a>.</p>
+<p>An initial implementation of the contracts supporting package management can be found in the <a href="https://github.com/aragon/apm-contracts">apm-contracts repo</a>.</p>
                 
                   
                 
