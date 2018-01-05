@@ -13,7 +13,7 @@ The Voting app is instantiated with a certain set of parameters that won’t be 
 - Minimum acceptance quorum: minimum % of all token supply that needs to approve in order for the voting to be executed.
 - Voting time: number of seconds a vote will be opened, if not closed prematurely for outstanding support.
 
-For percentages `10 ^ 18` is interpreted as `100` to allow fine tuning. This means expressing 50% is `50 * 10 ^ 16` or 1/3 of the quorum is `(10 ^ 18) / 3`.
+For percentages `10 ^ 18` is interpreted as `100` to allow fine tuning. This means expressing 50% is `50 * 10 ^ 18` or 1/3 of the quorum is `(10 ^ 18) / 3`.
 
 The only parameter that can be changed if 'Minimum acceptance quorum' for protecting against the case in which there is not enough voter turnout.
 
