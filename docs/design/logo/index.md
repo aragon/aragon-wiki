@@ -16,13 +16,13 @@
 
 ## Logotypes
 ### Default
-[SVG](svg/logotype.svg) | [PNG](png/logotype@2x.png) | [Light version SVG](svg/logotype_light.svg) | [Light version PNG](png/logotype_light@2x.png) | [Dark background JPG](jpg/logotype_dark@2x.png)
+[SVG](svg/logotype.svg) | [PNG](png/logotype@2x.png) | [Light version SVG](svg/logotype_light.svg) | [Light version PNG](png/logotype_light@2x.png) | [Dark background JPG](jpg/logotype_dark@2x.jpg)
 
 <img width="256" src="png/logotype.png"> <img width="256" src="jpg/logotype_dark.jpg">
 
 ## Isotypes
 ### Stroke
-[Sketch](svg/brand.sketch) | [PNG](png/stroke.png)
+[Sketch](svg/aragon_stroke.sketch) | [PNG](png/stroke.png)
 
 <img width="256" src="png/stroke.png">
 

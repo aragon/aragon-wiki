@@ -111,6 +111,10 @@ pages:
       - Community: 'videos/community.md'
     - Interviews: 'videos/interviews.md'
     - Presentations: 'videos/presentations.md'
+  - Press:
+      - Press Kit: 'press/press-kit.md'
+      - Media Mentions: 'press/media-mentions.md'
+      - Contact: 'press/contact.md'
   - Archive:
     - Documentation:
       - AGP5 - Rocket Chat comparison: 'archive/documentation/agp5/RocketChat.md'
