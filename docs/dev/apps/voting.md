@@ -13,11 +13,32 @@ The Voting app is instantiated with a certain set of parameters that won’t be 
 - Minimum acceptance quorum: minimum % of all token supply that needs to approve in order for the voting to be executed.
 - Voting time: number of seconds a vote will be opened, if not closed prematurely for outstanding support.
 
-For percentages `10 ^ 18` is interpreted as `100` to allow fine tuning. This means expressing 50% is `50 * 10 ^ 18` or 1/3 of the quorum is `(10 ^ 18) / 3`.
+The only parameter that can be changed is 'Minimum acceptance quorum' for protecting against the case in which there is not enough voter turnout.
 
-The only parameter that can be changed if 'Minimum acceptance quorum' for protecting against the case in which there is not enough voter turnout.
+### A Note on Percentages
+if you are a front end user you can skip this section, but if you are a developer and want to manipulate the [Voting contract](https://github.com/aragon/aragon-apps/blob/master/apps/voting/contracts/Voting.sol) directly these are some notes you should consider.
 
-### Vote lifecycle
+The variables "Support required" and "Minimum acceptance quorum" are percentages that are expressed between a minimum of 10^16 (that represents 1%) and a maximum of 10^18 (that represents 100%).
+You should pass to the smart contract the actual number, not the scientific notation so:
+- 10^16   is  10000000000000000   (or 1 with 16 zeros)
+- 10^18   is  1000000000000000000  (or 1 with 18 zeros)
+
+Here are a few percentages you can use 
+
+Percentage | Scientific Notation | actual input passed to the smart contract
+------------ | ------------- |  ------------- 
+1%     | 10^16         | 10000000000000000
+10%   | 10*10^16   | 100000000000000000
+20%   | 20*10^16   | 200000000000000000
+25%   | 25*10^16   | 250000000000000000
+50%   | 50*10^16   | 500000000000000000
+60%   | 60*10^16   | 600000000000000000
+70%   | 70*10^16   | 600000000000000000
+75%   | 75*10^16   | 750000000000000000
+100% | 100*10^16 | 1000000000000000000
+
+
+### Vote lifecycle
 
 #### Creation
 ```
