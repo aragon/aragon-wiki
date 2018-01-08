@@ -60,6 +60,9 @@ Here we have compiled resources and guides for press and media to use when refer
 [<img src="../../design/artwork/basic/10.jpeg">](../../design/artwork/basic/10.jpeg)
 [<img src="../../design/artwork/basic/11.png">](../../design/artwork/basic/11.png)
 [<img src="../../design/artwork/basic/12.jpg">](../../design/artwork/basic/12.jpg)
+[<img src="../../design/artwork/basic/13.png">](../../design/artwork/basic/13.png)
+[<img src="../../design/artwork/basic/14.png">](../../design/artwork/basic/14.png)
+[<img src="../../design/artwork/basic/15.png">](../../design/artwork/basic/15.png)
 
 #### Aragon Network Token
 
@@ -86,16 +89,92 @@ Here we have compiled resources and guides for press and media to use when refer
 
 ## Aragon Core Screenshots
 
+> _Please keep in mind that these are all currently **mockups** of the upcoming [v0.5 release](../../documentation/Development_Plan/#05-the-refactor-release)_
+
+### Home + Notifications
+
+[<img src="../press-kit/screenshots/0.5/Ownership/1.jpeg">](press-kit/screenshots/0.5/Notifications.jpeg)
+
+### Ownership
+
+> _Please keep in mind that these are all currently **mockups** of the upcoming [v0.5 release](../../documentation/Development_Plan/#05-the-refactor-release)_
+
+[<img src="../press-kit/screenshots/0.5/Ownership/1.jpeg">](press-kit/screenshots/0.5/Ownership/1.jpeg)
+
+[<img src="../press-kit/screenshots/0.5/Ownership/2.jpeg">](press-kit/screenshots/0.5/Ownership/2.jpeg)
+
+[<img src="../press-kit/screenshots/0.5/Ownership/3.jpeg">](press-kit/screenshots/0.5/Ownership/3.jpeg)
+
+[<img src="../press-kit/screenshots/0.5/Ownership/4.jpeg">](press-kit/screenshots/0.5/Ownership/4.jpeg)
+
+[<img src="../press-kit/screenshots/0.5/Ownership/5.jpeg">](press-kit/screenshots/0.5/Ownership/5.jpeg)
+
+[<img src="../press-kit/screenshots/0.5/Ownership/6.jpeg">](press-kit/screenshots/0.5/Ownership/6.jpeg)
+
+[<img src="../press-kit/screenshots/0.5/Ownership/7.jpeg">](press-kit/screenshots/0.5/Ownership/7.jpeg)
+
+### Voting
+
+> _Please keep in mind that these are all currently **mockups** of the upcoming [v0.5 release](../../documentation/Development_Plan/#05-the-refactor-release)_
+
+[<img src="../press-kit/screenshots/0.5/Voting/1.jpeg">](press-kit/screenshots/0.5/Voting/1.jpeg)
+
+[<img src="../press-kit/screenshots/0.5/Voting/2.jpeg">](press-kit/screenshots/0.5/Voting/2.jpeg)
+
+[<img src="../press-kit/screenshots/0.5/Voting/3.jpg">](press-kit/screenshots/0.5/Voting/3.jpg)
+
+[<img src="../press-kit/screenshots/0.5/Voting/4.jpeg">](press-kit/screenshots/0.5/Voting/4.jpeg)
+
+[<img src="../press-kit/screenshots/0.5/Voting/5.jpeg">](press-kit/screenshots/0.5/Voting/5.jpeg)
+
+[<img src="../press-kit/screenshots/0.5/Voting/6.jpg">](press-kit/screenshots/0.5/Voting/6.jpg)
+
+### Fundraising
+
+> _Please keep in mind that these are all currently **mockups** of the upcoming [v0.5 release](../../documentation/Development_Plan/#05-the-refactor-release)_
+
+[<img src="../press-kit/screenshots/0.5/Fundraising/1.jpeg">](press-kit/screenshots/0.5/Fundraising/1.jpeg)
+
+[<img src="../press-kit/screenshots/0.5/Fundraising/2.jpeg">](press-kit/screenshots/0.5/Fundraising/2.jpeg)
+
+[<img src="../press-kit/screenshots/0.5/Fundraising/3.jpeg">](press-kit/screenshots/0.5/Fundraising/3.jpeg)
+
+### Finance
+
+> _Please keep in mind that these are all currently **mockups** of the upcoming [v0.5 release](../../documentation/Development_Plan/#05-the-refactor-release)_
+
+[<img src="../press-kit/screenshots/0.5/Finance/1.jpeg">](press-kit/screenshots/0.5/Finance/1.jpeg)
+
+[<img src="../press-kit/screenshots/0.5/Finance/2.jpeg">](press-kit/screenshots/0.5/Finance/2.jpeg)
+
+[<img src="../press-kit/screenshots/0.5/Finance/3.jpeg">](press-kit/screenshots/0.5/Finance/3.jpeg)
+
+[<img src="../press-kit/screenshots/0.5/Finance/4.jpeg">](press-kit/screenshots/0.5/Finance/4.jpeg)
+
+### Bylaws
+
+> _Please keep in mind that these are all currently **mockups** of the upcoming [v0.5 release](../../documentation/Development_Plan/#05-the-refactor-release)_
+
+[<img src="../press-kit/screenshots/0.5/Bylaws/1.jpeg">](press-kit/screenshots/0.5/Bylaws/1.jpeg)
+
+[<img src="../press-kit/screenshots/0.5/Bylaws/2.jpeg">](press-kit/screenshots/0.5/Bylaws/2.jpeg)
+
+### Settings
+
+> _Please keep in mind that these are all currently **mockups** of the upcoming [v0.5 release](../../documentation/Development_Plan/#05-the-refactor-release)_
+
+[<img src="../press-kit/screenshots/0.5/Settings.jpg">](press-kit/screenshots/0.5/Settings.jpg)
+
 ## Team
 
-### Luis Cuende - Project Lead at Aragon
+### Luis Cuende - Co-Founder & Project Lead at Aragon
 > Luis has been awarded as the best underage European programmer in 2011, is a [Forbes 30 Under 30](https://www.forbes.com/30-under-30-europe-2016/technology/#6662a3e4a4b3), a [MIT TR35](http://www.innovatorsunder35.com/innovator/luis-cuende) and was an Advisor to the VP of the European Commission.
 
 > He cofounded the blockchain startup [Stampery](https://stampery.com/). Prior to founding startups, he created the world's first Linux distribution with facelogin.
 
 ![](press-kit/team/Luis_Aragon_Project_Lead.jpg)
 
-### Jorge Izquierdo - Tech Lead at Aragon
+### Jorge Izquierdo - Co-Founder & Tech Lead at Aragon
 > Curious hacker, creator of multiple apps for iOS, macOS and Pebble. Reached App Store's #2. Always tinkering with new tech. Named as a [2017 class of Thiel Fellows](https://www.businesswire.com/news/home/20170616005607/en).
 
 > Already convinced about the decentralized future of the Internet, he has been building toy projects such as a [mesh network](http://github.com/izqui/net) or a small [blockchain implementation](http://github.com/izqui/blockchain) since 2014.

@@ -62,6 +62,7 @@ pages:
   - Design:
     - Overview: 'design/index.md'
     - Logo: 'design/logo/index.md'
+    - Artwork: 'design/artwork/index.md'
     - Identity Guidelines: 'design/identity_guidelines.md'
     - Branding Proposal: 'design/branding_proposal.md'
     - Merchandise: 'design/merch/index.md'
