@@ -16,17 +16,19 @@ The Voting app is instantiated with a certain set of parameters that won’t be 
 The only parameter that can be changed is 'Minimum acceptance quorum' for protecting against the case in which there is not enough voter turnout.
 
 ### A Note on Percentages
-if you are a front end user you can skip this section, but if you are a developer and want to manipulate the [Voting contract](https://github.com/aragon/aragon-apps/blob/master/apps/voting/contracts/Voting.sol) directly these are some notes you should consider.
+If you are a front end user you can skip this section, but if you are a developer and want to manipulate the [Voting contract](https://github.com/aragon/aragon-apps/blob/master/apps/voting/contracts/Voting.sol) directly these are some notes you should consider.
 
-The variables "Support required" and "Minimum acceptance quorum" are percentages that are expressed between a minimum of 10^16 (that represents 1%) and a maximum of 10^18 (that represents 100%).
-You should pass to the smart contract the actual number, not the scientific notation so:
+The variables "Support required" and "Minimum acceptance quorum" are percentages that are expressed between zero and a maximum of 10^18 (that represents 100%). As a consequence, it's important to consider that 1% is actually represented by 10^16.
+
+Moreover you should pass to the smart contract the actual number, not the scientific notation so:
 - 10^16   is  10000000000000000   (or 1 with 16 zeros)
 - 10^18   is  1000000000000000000  (or 1 with 18 zeros)
 
 Here are a few percentages you can use 
 
 Percentage | Scientific Notation | actual input passed to the smart contract
------------- | ------------- |  ------------- 
+------------ | ------------- |  -------------
+0%     | 0         | 0
 1%     | 10^16         | 10000000000000000
 10%   | 10*10^16   | 100000000000000000
 20%   | 20*10^16   | 200000000000000000
