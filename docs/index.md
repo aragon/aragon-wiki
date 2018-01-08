@@ -46,6 +46,18 @@ Here's a brief summary of the contents:
 
     - Links to all our videos
 
+- Press
+
+    - Aragon Press Kit for Press/Media, some media mentions and contact information for media/press inquiries
+
+- Archive
+
+    - Old, deprecated documents and files that are kept for archiving purposes only
+
+- Translations
+
+    - Translations of documents into non-English languages
+
 
 ## What is Aragon?
 

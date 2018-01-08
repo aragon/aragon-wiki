@@ -62,6 +62,7 @@ pages:
   - Design:
     - Overview: 'design/index.md'
     - Logo: 'design/logo/index.md'
+    - Artwork: 'design/artwork/index.md'
     - Identity Guidelines: 'design/identity_guidelines.md'
     - Branding Proposal: 'design/branding_proposal.md'
     - Merchandise: 'design/merch/index.md'
@@ -111,6 +112,10 @@ pages:
       - Community: 'videos/community.md'
     - Interviews: 'videos/interviews.md'
     - Presentations: 'videos/presentations.md'
+  - Press:
+      - Press Kit: 'press/press-kit.md'
+      - Media Mentions: 'press/media-mentions.md'
+      - Contact: 'press/contact.md'
   - Archive:
     - Documentation:
       - AGP5 - Rocket Chat comparison: 'archive/documentation/agp5/RocketChat.md'
