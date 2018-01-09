@@ -48,7 +48,9 @@ Here's a brief summary of the contents:
 
 - Press
 
-    - Aragon Press Kit for Press/Media, some media mentions and contact information for media/press inquiries
+    - Aragon Press Kit for Press/Media
+    - Some media mentions
+    - Contact information for media/press inquiries
 
 - Archive
 
