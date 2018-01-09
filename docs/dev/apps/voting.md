@@ -24,7 +24,7 @@ Moreover you should pass to the smart contract the actual number, not the scient
 - 10^16   is  10000000000000000   (or 1 with 16 zeros)
 - 10^18   is  1000000000000000000  (or 1 with 18 zeros)
 
-Here are a few percentages you can use 
+Here are a few percentages you can use
 
 Percentage | Scientific Notation | actual input passed to the smart contract
 ------------ | ------------- |  -------------

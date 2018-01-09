@@ -55,7 +55,7 @@ contract TokenApp is App {
 
 An **Entity** is any actor that is represented by an Ethereum address, such as a multisig (an account that needs multiple signatures before executing an action), an app (for example, a voting app that only executes an action if token holders vote favorably), or a simple private key controlled account.
 
-The system can delegate permissions to groups of entities by implementing a [Group app](./apps/group). As in other apps, it can rely on the ACL for protecting important functions, such as adding or removing members of the group. When group members want to execute a specific action, the Group app acts as a proxy contract that performs the action on behalf of the group.
+The system can delegate permissions to groups of entities by implementing a [Group app](apps/group.md). As in other apps, it can rely on the ACL for protecting important functions, such as adding or removing members of the group. When group members want to execute a specific action, the Group app acts as a proxy contract that performs the action on behalf of the group.
 
 ### Permissions
 
@@ -127,7 +127,7 @@ ChangePermissionManager(address indexed app, bytes32 indexed role, address index
 
 #### Example
 
-As an example, the following steps show a complete flow for user "Root" to create a new DAO with the basic permissions set so that a [Voting app](./apps/voting) can manage the funds stored in a [Vault app](./apps/vault):
+As an example, the following steps show a complete flow for user "Root" to create a new DAO with the basic permissions set so that a [Voting app](apps/voting.md) can manage the funds stored in a [Vault app](apps/vault.md):
 
 1. Deploy the Kernel
 2. Executing `kernel.initialize(rootAddress)` creates the "permissions creator" permission under the hood:
@@ -231,7 +231,7 @@ It is important that this initialization function can only be called once per pr
 
 ## 4. App discoverability and package versioning
 
-Technically, an app **A** is nothing more than a simple [`AppProxy`](22-app-space-upgradeability) contract holding a reference to a kernel **K** and an `appId`. If **A** doesn’t have any permissions, both incoming and outgoing, set in **K**, **A** is effectively irrelevant to the DAO as nothing can call it and it cannot call anything. So the notion of installing an app is replaced with the notion of creating permissions for an app (i.e. defining what entities can do with the app and what the app can do in other apps).
+Technically, an app **A** is nothing more than a simple [`AppProxy`](#22-app-space-upgradeability) contract holding a reference to a kernel **K** and an `appId`. If **A** doesn’t have any permissions, both incoming and outgoing, set in **K**, **A** is effectively irrelevant to the DAO as nothing can call it and it cannot call anything. So the notion of installing an app is replaced with the notion of creating permissions for an app (i.e. defining what entities can do with the app and what the app can do in other apps).
 
 All relevant apps in a DAO should be discoverable by traversing its ACL, checking if any addresses are `AppProxy`s, and checking if those `AppProxy`s have a reference to the DAO’s kernel. If that is the case, then the apps matching those `AppProxy`s' `appId`s are considered installed in the DAO.
 

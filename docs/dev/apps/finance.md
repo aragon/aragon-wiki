@@ -36,7 +36,7 @@ Once a budget has been set for a token, the Finance app will only allow the budg
 
 Initializing a Finance app requires the following parameters:
 
-- **Vault:** a reference to a [Vault](./vault) instance that the Finance app will use for depositing and spending tokens. In order for it to work correctly, the Finance app **must have permissions to transfer Vault's tokens**.
+- **Vault:** a reference to a [Vault](vault.md) instance that the Finance app will use for depositing and spending tokens. In order for it to work correctly, the Finance app **must have permissions to transfer Vault's tokens**.
 - **Ether token**: address of the EtherToken instance used as ether.
 - **Accounting period duration**: the initial duration for accounting periods. Can later be changed for future periods.
 

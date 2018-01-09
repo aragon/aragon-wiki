@@ -8,7 +8,7 @@ More complex sale types can be implemented as 3rd party applications.
 
 ### Dependencies and permissions
 
-- `Token Manager`: On initialization it requires a reference to a `Token Manager` instance. One fundraising app instance is only able to 'sell' the underlying token managed by its `Token Manager`. **The fundraising app must be granted permissions to mint tokens on the Token Manager**. The Token Manager must have been initialized in `Native mode` so it can arbitrarily mint new tokens (See [Token Manager spec](./token-manager)).
+- `Token Manager`: On initialization it requires a reference to a `Token Manager` instance. One fundraising app instance is only able to 'sell' the underlying token managed by its `Token Manager`. **The fundraising app must be granted permissions to mint tokens on the Token Manager**. The Token Manager must have been initialized in `Native mode` so it can arbitrarily mint new tokens (See [Token Manager spec](token-manager.md)).
 
 - `Vault`: A reference to a `vault` is also required on initialization. However, there is no direct interaction with the vault, it is just used as the address where sale proceeds are deposited (vanilla ERC20 transfers).
 
@@ -78,7 +78,7 @@ fundraising.buyTokens(uint256 saleId) // called by token
 ```
 Requires the sender to make a `transferAndCall()` as in the [ERC677 standard](https://github.com/ethereum/EIPs/issues/677) (still evolving and being discussed), setting the fundraising app as receiver and adding the correct data payload.
 
-Raising ether can be done by setting the raised token to an EtherToken (ideally the one used by the [Finance app](./finance) for discoverability). Given that aragon-core's EtherToken implementation conforms to ERC677, buying with ether can be done by wrapping the ether using `etherToken.wrap()` and then doing a `transferAndCall(...)` or using the shortcut `wrapAndCall(...)` which performs both actions.
+Raising ether can be done by setting the raised token to an EtherToken (ideally the one used by the [Finance app](finance.md) for discoverability). Given that aragon-core's EtherToken implementation conforms to ERC677, buying with ether can be done by wrapping the ether using `etherToken.wrap()` and then doing a `transferAndCall(...)` or using the shortcut `wrapAndCall(...)` which performs both actions.
 
 Please note that this section is subject to change as the [ERC677 discussion](https://github.com/ethereum/EIPs/issues/677) evolves.
 
