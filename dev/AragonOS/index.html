@@ -2321,7 +2321,7 @@
 <p><code>TokenApp</code> is an app that defines one action, <code>mint()</code>, whose execution is controlled by <code>MINT_ROLE</code>.</p>
 <h3 id="entity">Entity</h3>
 <p>An <strong>Entity</strong> is any actor that is represented by an Ethereum address, such as a multisig (an account that needs multiple signatures before executing an action), an app (for example, a voting app that only executes an action if token holders vote favorably), or a simple private key controlled account.</p>
-<p>The system can delegate permissions to groups of entities by implementing a <a href="../apps/group">Group app</a>. As in other apps, it can rely on the ACL for protecting important functions, such as adding or removing members of the group. When group members want to execute a specific action, the Group app acts as a proxy contract that performs the action on behalf of the group.</p>
+<p>The system can delegate permissions to groups of entities by implementing a <a href="../apps/group/">Group app</a>. As in other apps, it can rely on the ACL for protecting important functions, such as adding or removing members of the group. When group members want to execute a specific action, the Group app acts as a proxy contract that performs the action on behalf of the group.</p>
 <h3 id="permissions">Permissions</h3>
 <p>A <strong>Permission</strong> is defined as the ability to perform actions (grouped by roles) in a certain app instance (identified by its address).</p>
 <p>We refer to a <strong>Permission Instance</strong> as an entity holding a certain permission.</p>
@@ -2363,7 +2363,7 @@
 </code></pre>
 
 <h4 id="example">Example</h4>
-<p>As an example, the following steps show a complete flow for user "Root" to create a new DAO with the basic permissions set so that a <a href="../apps/voting">Voting app</a> can manage the funds stored in a <a href="../apps/vault">Vault app</a>:</p>
+<p>As an example, the following steps show a complete flow for user "Root" to create a new DAO with the basic permissions set so that a <a href="../apps/voting/">Voting app</a> can manage the funds stored in a <a href="../apps/vault/">Vault app</a>:</p>
 <ol>
 <li>Deploy the Kernel</li>
 <li>Executing <code>kernel.initialize(rootAddress)</code> creates the "permissions creator" permission under the hood:
@@ -2426,7 +2426,7 @@
 <p>We instead use a 'regular function' to perform initialization on each proxy. This function can only be called after the <code>AppProxy</code> contract has been deployed. To impede attacks in which a malicious actor tries to front-run an initialization transaction between the deployment and the legit initialization transaction, <code>AppProxy</code> allows you to pass an initialization payload that will only be executed on deployment, allowing for atomic initializations of apps.</p>
 <p>It is important that this initialization function can only be called once per proxy. Instead of just saving a boolean when a component has been initialized, we store the block number when the initialization occurred. Clients can then use this to know from which block they should filter for events.</p>
 <h2 id="4-app-discoverability-and-package-versioning">4. App discoverability and package versioning</h2>
-<p>Technically, an app <strong>A</strong> is nothing more than a simple <a href="../22-app-space-upgradeability"><code>AppProxy</code></a> contract holding a reference to a kernel <strong>K</strong> and an <code>appId</code>. If <strong>A</strong> doesn’t have any permissions, both incoming and outgoing, set in <strong>K</strong>, <strong>A</strong> is effectively irrelevant to the DAO as nothing can call it and it cannot call anything. So the notion of installing an app is replaced with the notion of creating permissions for an app (i.e. defining what entities can do with the app and what the app can do in other apps).</p>
+<p>Technically, an app <strong>A</strong> is nothing more than a simple <a href="#22-app-space-upgradeability"><code>AppProxy</code></a> contract holding a reference to a kernel <strong>K</strong> and an <code>appId</code>. If <strong>A</strong> doesn’t have any permissions, both incoming and outgoing, set in <strong>K</strong>, <strong>A</strong> is effectively irrelevant to the DAO as nothing can call it and it cannot call anything. So the notion of installing an app is replaced with the notion of creating permissions for an app (i.e. defining what entities can do with the app and what the app can do in other apps).</p>
 <p>All relevant apps in a DAO should be discoverable by traversing its ACL, checking if any addresses are <code>AppProxy</code>s, and checking if those <code>AppProxy</code>s have a reference to the DAO’s kernel. If that is the case, then the apps matching those <code>AppProxy</code>s' <code>appId</code>s are considered installed in the DAO.</p>
 <p>Application identifiers (<code>appId</code>s) should be the <a href="https://www.npmjs.com/package/eth-ens-namehash"><code>namehash</code>ed</a> ENS name for the app's deployed contract:</p>
 <pre><code>appId = namehash(“voting.aragonpm.eth”)

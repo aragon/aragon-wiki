@@ -2070,7 +2070,7 @@
 <h3 id="dependencies-and-permissions">Dependencies and permissions</h3>
 <ul>
 <li>
-<p><code>Token Manager</code>: On initialization it requires a reference to a <code>Token Manager</code> instance. One fundraising app instance is only able to 'sell' the underlying token managed by its <code>Token Manager</code>. <strong>The fundraising app must be granted permissions to mint tokens on the Token Manager</strong>. The Token Manager must have been initialized in <code>Native mode</code> so it can arbitrarily mint new tokens (See <a href="../token-manager">Token Manager spec</a>).</p>
+<p><code>Token Manager</code>: On initialization it requires a reference to a <code>Token Manager</code> instance. One fundraising app instance is only able to 'sell' the underlying token managed by its <code>Token Manager</code>. <strong>The fundraising app must be granted permissions to mint tokens on the Token Manager</strong>. The Token Manager must have been initialized in <code>Native mode</code> so it can arbitrarily mint new tokens (See <a href="../token-manager/">Token Manager spec</a>).</p>
 </li>
 <li>
 <p><code>Vault</code>: A reference to a <code>vault</code> is also required on initialization. However, there is no direct interaction with the vault, it is just used as the address where sale proceeds are deposited (vanilla ERC20 transfers).</p>
@@ -2145,7 +2145,7 @@
 </code></pre>
 
 <p>Requires the sender to make a <code>transferAndCall()</code> as in the <a href="https://github.com/ethereum/EIPs/issues/677">ERC677 standard</a> (still evolving and being discussed), setting the fundraising app as receiver and adding the correct data payload.</p>
-<p>Raising ether can be done by setting the raised token to an EtherToken (ideally the one used by the <a href="../finance">Finance app</a> for discoverability). Given that aragon-core's EtherToken implementation conforms to ERC677, buying with ether can be done by wrapping the ether using <code>etherToken.wrap()</code> and then doing a <code>transferAndCall(...)</code> or using the shortcut <code>wrapAndCall(...)</code> which performs both actions.</p>
+<p>Raising ether can be done by setting the raised token to an EtherToken (ideally the one used by the <a href="../finance/">Finance app</a> for discoverability). Given that aragon-core's EtherToken implementation conforms to ERC677, buying with ether can be done by wrapping the ether using <code>etherToken.wrap()</code> and then doing a <code>transferAndCall(...)</code> or using the shortcut <code>wrapAndCall(...)</code> which performs both actions.</p>
 <p>Please note that this section is subject to change as the <a href="https://github.com/ethereum/EIPs/issues/677">ERC677 discussion</a> evolves.</p>
 <h4 id="closing-sale">Closing sale</h4>
 <pre><code>fundraising.closeSale(uint256 _saleId)
