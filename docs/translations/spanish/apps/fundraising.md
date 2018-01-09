@@ -29,7 +29,7 @@ Ambos parámetros no son modificables después de la inicialización.
 	- Un período tiene un precio inicial y final. Si no son lo mismo, el precio de una marca de tiempo determinada se interpola linealmente en función del tiempo.
 	- Las ventas pueden tener hasta 50 períodos.
 
-![](./rsc/fundraising_periods.png)
+![](../../../dev/apps/rsc/fundraising_periods.png)
 
 - **Caps**: De manera predeterminada, todas las ventas tienen un tope en dos aspectos, la apertura de uncamping se puede hacer estableciéndola en un número muy grande. Establecer una o ambas tapas para UINT256_MAX debe ser interpretado por el cliente como deshabilitado en ese aspecto.
 	- **Max raised**: Cantidad máxima del token que se sube que acepta una venta.
