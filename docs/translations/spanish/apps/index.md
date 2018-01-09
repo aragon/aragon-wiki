@@ -4,9 +4,9 @@ Aragón mantiene un conjunto de aplicaciones predeterminadas que se pueden usar 
 
 Por el momento, hay seis aplicaciones como parte de la [**aragon-apps**repository](https://github.com/aragon/aragon-apps):
 
-- [Voting](./voting)
-- [Token Manager](./token-manager)
-- [Group](./group)
-- [Fundraising](./fundraising)
-- [Vault](./vault)
-- [Finance](./finance)
+- [Voting](./voting.md)
+- [Token Manager](./token-manager.md)
+- [Group](./group.md)
+- [Fundraising](./fundraising.md)
+- [Vault](./vault.md)
+- [Finance](./finance.md)
