@@ -605,6 +605,13 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#a-note-on-percentages" title="A Note on Percentages" class="md-nav__link">
+    A Note on Percentages
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#vote-lifecycle" title="Vote lifecycle" class="md-nav__link">
     Vote lifecycle
   </a>
@@ -1911,6 +1918,13 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#a-note-on-percentages" title="A Note on Percentages" class="md-nav__link">
+    A Note on Percentages
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#vote-lifecycle" title="Vote lifecycle" class="md-nav__link">
     Vote lifecycle
   </a>
@@ -1984,8 +1998,75 @@
 <li>Minimum acceptance quorum: minimum % of all token supply that needs to approve in order for the voting to be executed.</li>
 <li>Voting time: number of seconds a vote will be opened, if not closed prematurely for outstanding support.</li>
 </ul>
-<p>For percentages <code>10 ^ 18</code> is interpreted as <code>100</code> to allow fine tuning. This means expressing 50% is <code>50 * 10 ^ 16</code> or 1/3 of the quorum is <code>(10 ^ 18) / 3</code>.</p>
-<p>The only parameter that can be changed if 'Minimum acceptance quorum' for protecting against the case in which there is not enough voter turnout.</p>
+<p>The only parameter that can be changed is 'Minimum acceptance quorum' for protecting against the case in which there is not enough voter turnout.</p>
+<h3 id="a-note-on-percentages">A Note on Percentages</h3>
+<p>If you are a front end user you can skip this section, but if you are a developer and want to manipulate the <a href="https://github.com/aragon/aragon-apps/blob/master/apps/voting/contracts/Voting.sol">Voting contract</a> directly these are some notes you should consider.</p>
+<p>The variables "Support required" and "Minimum acceptance quorum" are percentages that are expressed between zero and a maximum of 10^18 (that represents 100%). As a consequence, it's important to consider that 1% is actually represented by 10^16.</p>
+<p>Moreover you should pass to the smart contract the actual number, not the scientific notation so:
+- 10^16   is  10000000000000000   (or 1 with 16 zeros)
+- 10^18   is  1000000000000000000  (or 1 with 18 zeros)</p>
+<p>Here are a few percentages you can use </p>
+<table>
+<thead>
+<tr>
+<th>Percentage</th>
+<th>Scientific Notation</th>
+<th>actual input passed to the smart contract</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0%</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>1%</td>
+<td>10^16</td>
+<td>10000000000000000</td>
+</tr>
+<tr>
+<td>10%</td>
+<td>10*10^16</td>
+<td>100000000000000000</td>
+</tr>
+<tr>
+<td>20%</td>
+<td>20*10^16</td>
+<td>200000000000000000</td>
+</tr>
+<tr>
+<td>25%</td>
+<td>25*10^16</td>
+<td>250000000000000000</td>
+</tr>
+<tr>
+<td>50%</td>
+<td>50*10^16</td>
+<td>500000000000000000</td>
+</tr>
+<tr>
+<td>60%</td>
+<td>60*10^16</td>
+<td>600000000000000000</td>
+</tr>
+<tr>
+<td>70%</td>
+<td>70*10^16</td>
+<td>700000000000000000</td>
+</tr>
+<tr>
+<td>75%</td>
+<td>75*10^16</td>
+<td>750000000000000000</td>
+</tr>
+<tr>
+<td>100%</td>
+<td>100*10^16</td>
+<td>1000000000000000000</td>
+</tr>
+</tbody>
+</table>
 <h3 id="vote-lifecycle">Vote lifecycle</h3>
 <h4 id="creation">Creation</h4>
 <pre><code>votingApp.newVote(bytes _executionScript, string _metadata)
