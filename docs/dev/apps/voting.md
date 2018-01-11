@@ -1,4 +1,6 @@
-# Voting
+# [Voting](https://github.com/aragon/aragon-apps/tree/master/apps/voting)
+
+_**Code in Github:**_ [aragon-apps/apps/voting](https://github.com/aragon/aragon-apps/tree/master/apps/voting)
 
 The Voting app is an entity that will execute a set of actions on other entities if token holders of a particular token decide to do so.
 
@@ -11,11 +13,34 @@ The Voting app is instantiated with a certain set of parameters that won’t be 
 - Minimum acceptance quorum: minimum % of all token supply that needs to approve in order for the voting to be executed.
 - Voting time: number of seconds a vote will be opened, if not closed prematurely for outstanding support.
 
-For percentages `10 ^ 18` is interpreted as `100` to allow fine tuning. This means expressing 50% is `50 * 10 ^ 16` or 1/3 of the quorum is `(10 ^ 18) / 3`.
+The only parameter that can be changed is 'Minimum acceptance quorum' for protecting against the case in which there is not enough voter turnout.
 
-The only parameter that can be changed if 'Minimum acceptance quorum' for protecting against the case in which there is not enough voter turnout.
+### A Note on Percentages
+If you are a front end user you can skip this section, but if you are a developer and want to manipulate the [Voting contract](https://github.com/aragon/aragon-apps/blob/master/apps/voting/contracts/Voting.sol) directly these are some notes you should consider.
 
-### Vote lifecycle
+The variables "Support required" and "Minimum acceptance quorum" are percentages that are expressed between zero and a maximum of 10^18 (that represents 100%). As a consequence, it's important to consider that 1% is actually represented by 10^16.
+
+Moreover you should pass to the smart contract the actual number, not the scientific notation so:
+- 10^16   is  10000000000000000   (or 1 with 16 zeros)
+- 10^18   is  1000000000000000000  (or 1 with 18 zeros)
+
+Here are a few percentages you can use
+
+Percentage | Scientific Notation | actual input passed to the smart contract
+------------ | ------------- |  -------------
+0%     | 0         | 0
+1%     | 10^16         | 10000000000000000
+10%   | 10*10^16   | 100000000000000000
+20%   | 20*10^16   | 200000000000000000
+25%   | 25*10^16   | 250000000000000000
+50%   | 50*10^16   | 500000000000000000
+60%   | 60*10^16   | 600000000000000000
+70%   | 70*10^16   | 700000000000000000
+75%   | 75*10^16   | 750000000000000000
+100% | 100*10^16 | 1000000000000000000
+
+
+### Vote lifecycle
 
 #### Creation
 ```
@@ -24,10 +49,10 @@ votingApp.newVote(bytes _executionScript, string _metadata)
 
 A new vote is initialized with:
 
-- Execution script: [EVM call script](../../AragonOS/#evm-call-script) to be executed on vote approval, contains a series of addresses and calldata payloads that will be executed.
+- Execution script: [EVM call script](../AragonOS/#evm-call-script) to be executed on vote approval, contains a series of addresses and calldata payloads that will be executed.
 - Metadata: An arbitrary string that can be used to describe the voting.
 
-The voting app conforms to the [AragonOS Forwarder interface](../../AragonOS/#forwarders). A generic forward action will create a vote with the provided execution script and empty metadata.
+The voting app conforms to the [AragonOS Forwarder interface](../AragonOS/#forwarders). A generic forward action will create a vote with the provided execution script and empty metadata.
 
 When a vote is created a reference to the previous block number is saved as the snapshot block for the vote. The reason the previous block number is used is to avoid double voting in the same block the vote is created. Whenever a vote is casted, the MiniMeToken associated with the app is checked for the token balance of the voter at the snapshot block.
 
@@ -68,4 +93,4 @@ Any open votes will maintain the value minimum acceptance quorum was when they w
 
 #### Forwarding
 
-[Forwarding](../../AragonOS/#forwarders) using the common interface executes a `votingApp.newVote(...)` action. ACL is checked for whether the sender has permissions to create a vote.
+[Forwarding](../AragonOS/#forwarders) using the common interface executes a `votingApp.newVote(...)` action. ACL is checked for whether the sender has permissions to create a vote.

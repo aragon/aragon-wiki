@@ -48,10 +48,10 @@ pages:
   - Development:
     - Overview: 'dev/index.md'
     - AragonOS: 'dev/AragonOS.md'
-    - Aragon core:
+    - aragon-core:
       - Overview: 'dev/aragon-core_home.md'
       - How to contribute: 'dev/aragon-core_how_to_contribute.md'
-    - Aragon apps:
+    - Aragon Apps:
       - Overview: 'dev/apps/index.md'
       - Voting: 'dev/apps/voting.md'
       - Token Manager: 'dev/apps/token-manager.md'
@@ -62,11 +62,24 @@ pages:
   - Design:
     - Overview: 'design/index.md'
     - Logo: 'design/logo/index.md'
+    - Artwork: 'design/artwork/index.md'
     - Identity Guidelines: 'design/identity_guidelines.md'
     - Branding Proposal: 'design/branding_proposal.md'
     - Merchandise: 'design/merch/index.md'
   - Meetings:
     - Community:
+      - Community 07:
+        - Agenda: 'meetings/community/07.md'
+        - Write-Up - Alexa: 'meetings/community/write-ups/cm07/alexa.md'
+        - Write-Up - Brett: 'meetings/community/write-ups/cm07/brett.md'
+        - Write-Up - John: 'meetings/community/write-ups/cm07/light-cm07.md'
+        - Write-Up - Jorge: 'meetings/community/write-ups/cm07/jorge.md'
+        - Write-Up - Luis: 'meetings/community/write-ups/cm07/luis.md'
+        - Write-Up - Luke: 'meetings/community/write-ups/cm07/luke.md'
+        - Write-Up - Maria: 'meetings/community/write-ups/cm07/maria.md'
+        - Write-Up - Oliver: 'meetings/community/write-ups/cm07/oliver.md'
+        - Write-Up - Pierre: 'meetings/community/write-ups/cm07/pierre.md'
+        - Write-Up - Tatu: 'meetings/community/write-ups/cm07/tatu.md'
       - Community 06:
         - Agenda: 'meetings/community/06.md'
         - Write-Up - Brett: 'meetings/community/write-ups/cm06/brett.md'
@@ -99,6 +112,10 @@ pages:
       - Community: 'videos/community.md'
     - Interviews: 'videos/interviews.md'
     - Presentations: 'videos/presentations.md'
+  - Press:
+      - Press Kit: 'press/press-kit.md'
+      - Media Mentions: 'press/media-mentions.md'
+      - Contact: 'press/contact.md'
   - Archive:
     - Documentation:
       - AGP5 - Rocket Chat comparison: 'archive/documentation/agp5/RocketChat.md'
@@ -118,7 +135,9 @@ pages:
   - Translations:
     - Spanish:
       - Hola: 'translations/spanish/index.md'
-      - Aragon apps:
+      - AragonOS: 'translations/spanish/aragonos.md'
+      - Development Plan: 'translations/spanish/devplan.md'
+    - Aragon apps:
       - Overview: 'translations/spanish/apps/index.md'
       - Voting: 'translations/spanish/apps/voting.md'
       - Token Manager: 'translations/spanish/apps/token-manager.md'
@@ -126,3 +145,6 @@ pages:
       - Fundraising: 'translations/spanish/apps/fundraising.md'
       - Vault: 'translations/spanish/apps/vault.md'
       - Finance: 'translations/spanish/apps/finance.md'
+
+      
+

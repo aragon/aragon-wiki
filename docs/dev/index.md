@@ -3,7 +3,7 @@
 ## [node-aragon](https://github.com/aragon/node-aragon)
 *Owned by [onbjerg](https://github.com/onbjerg)*
 
-Glue between aragon-core (Solidity contracts) and the Aragon dapp. 
+Glue between aragon-core (Solidity contracts) and the Aragon dapp.
 
 What it provides:
 
@@ -136,7 +136,7 @@ Its main goals are:
 * Finding the client-side counterparty to a smart contract. If a smart contract exposes a reference to the package (appId concept in AragonOS), the Package Manager can be used to look-up for the dApp frontend code for that version of the smart contract.
 
 ## [aragon-apps](https://github.com/aragon/aragon-apps)
-*Owned by [harshjv](http://github.com/harshjv) et al.*
+*Owned by [izqui](http://github.com/izqui) et al.*
 
 * Frontend for Aragon apps
 
@@ -207,4 +207,3 @@ What it provides:
 * Design for all default apps
 
 * Design for all UI components
-

@@ -1,4 +1,6 @@
-# Token Manager
+# [Token Manager](https://github.com/aragon/aragon-apps/tree/master/apps/token-manager)
+
+_**Code in Github:**_ [aragon-apps/apps/token-manager](https://github.com/aragon/aragon-apps/tree/master/apps/token-manager)
 
 Token Manager is an abstraction layer over the concept of the MiniMeToken controller. The controller of a MiniMeToken is an address that can mint and destroy tokens, it also gets a 'hook' call on every transfer and approval giving the controller the chance to note it and decide whether to let the transfer through.
 
@@ -129,7 +131,7 @@ For every vesting, the amount:
 
 Token Manager allows holders of its underlying token to execute external actions by identifying themselves as token holders. This can be used for allowing token holders to perform a particular action in the DAO (e.g create a vote) without the ACL having to know anything about tokens.
 
-For this, Token Manager conforms to the [AragonOS Forwarder interface](../../AragonOS/#forwarders) and forwards calls to holders that own at least one token.
+For this, Token Manager conforms to the [AragonOS Forwarder interface](../AragonOS/#forwarders) and forwards calls to holders that own at least one token.
 
 ### Limitations
 
