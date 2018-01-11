@@ -210,6 +210,12 @@ Experimenting with new governance models has been a very risky endeavour during 
 
 > - **Community Lead**: [John Light](https://twitter.com/lightcoin)
 
+&nbsp;
+
+>
+
+> - **Operations Assistant**: [Alexa Weaver](https://twitter.com/alexa_rwr)
+
 **Dev Team**
 
 > <img src="images/team_members/Oliver_128.png">
