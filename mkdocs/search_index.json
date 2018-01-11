@@ -2977,7 +2977,7 @@
         }, 
         {
             "location": "/jobs/openings/frontend/", 
-            "text": "Frontend and Web3 Developer opening at Aragon\n\n\nWe are looking for a frontend and web3 wizard to work with us on the \nAragon dapp\n.\n\n\nRequirements\n\n\n\n\nExpert understanding\n on:\n\n\nES6/ES7\n\n\nReact and Electron\n\n\nClient-side storage\n\n\nResource optimization\n\n\nCSS, using preprocessors such as LESS or SASS\n\n\nRxJS\n\n\nService Workers, Animations, Device APIs...\n\n\nAbility (and a track record) to ship \nhigh quality, well crafted code\n.\n\n\nBeing passionate about \ndecentralization\n.\n\n\nBeing an autonomous individual with a proactive attitude and a love for \ntime self-management\n (We are focus-driven work, not hours-driven).\n\n\n\n\nGood to have\n\n\n\n\nExperience contributing or managing \nopen source projects\n.\n\n\nVery good \nwritten communication\n skills.\n\n\n\n\nHow to apply\n\n\n\n\n\n\nWrite an email with the following attachments plus any information you consider important to \nhiring@aragon.one\n, with the subject \nFrontend Dev opening application\n.\n\n\n\n\n\n\nPlease send along your GitHub profile. Since we are open source only, we require applicants for developer positions to have a very active and healthy GitHub profile.\n\n\n\n\n\n\nIf you haven't, please \nread more about our culture, work conditions, etc.", 
+            "text": "Frontend and Web3 Developer opening at Aragon\n\n\nWe are looking for a frontend and web3 wizard to work with us on the \nAragon dapp\n.\n\n\nRequirements\n\n\n\n\nExpert understanding\n on:\n\n\nES6/ES7\n\n\nReact and Electron\n\n\nClient-side storage\n\n\nResource optimization\n\n\nCSS, using preprocessors such as LESS or SASS\n\n\nRxJS\n\n\nService Workers, Animations, Device APIs...\n\n\nAbility (and a track record) to ship \nhigh quality, well crafted code\n.\n\n\nBeing passionate about \ndecentralization\n.\n\n\nBeing an autonomous individual with a proactive attitude and a love for \ntime self-management\n (We are focus-driven work, not hours-driven).\n\n\n\n\nGood to have\n\n\n\n\nExperience contributing or managing \nopen source projects\n.\n\n\nVery good \nwritten communication\n skills.\n\n\n\n\nHow to apply\n\n\n\n\n\n\nWrite an email with the following attachments plus any information you consider important to \nhiring@aragon.one\n, with the subject \nFrontend Dev opening application\n.\n\n\n\n\n\n\nPlease send along your GitHub profile. Since we are open source only, we require applicants for developer positions to have a very active and healthy GitHub profile.\n\n\n\n\n\n\nPlease send the following challenge completed.\n\n\n\n\n\n\nChallenge\n\n\nDescription\n\n\nBuild a small app to explore the latest blocks on Ethereum. The goal of the app is to provide a way to glance at the recent Ether transfers happening on the blockchain.\n\n\nRequirements\n\n\n\n\nDisplay the ten latest blocks.\n\n\nAllow the user to see the transactions from a block. Only the transactions sending Ether should be displayed.\n\n\nAllow the user to see some details about a transaction.\n\n\n\n\nNotes\n\n\n\n\nYou can use any library you feel comfortable with.\n\n\nThe app will be loaded in a browser with MetaMask.\n\n\nFeel free to interpret the requirements in any way that you think could be interesting.\n\n\nThe app doesn\u2019t need to follow the Aragon visual identity.\n\n\nDon\u2019t hesitate to ask any question to the team :-)\n\n\n\n\nThe submission will be evaluated on the following points:\n\n\n\n\nCode quality / readability / testability\n\n\nUX / visual solutions\n\n\nPerceived performance\n\n\nAccessibility\n\n\n\n\nIf you haven't, please \nread more about our culture, work conditions, etc.", 
             "title": "Frontend and web3 Developer"
         }, 
         {
@@ -2997,8 +2997,33 @@
         }, 
         {
             "location": "/jobs/openings/frontend/#how-to-apply", 
-            "text": "Write an email with the following attachments plus any information you consider important to  hiring@aragon.one , with the subject  Frontend Dev opening application .    Please send along your GitHub profile. Since we are open source only, we require applicants for developer positions to have a very active and healthy GitHub profile.", 
+            "text": "Write an email with the following attachments plus any information you consider important to  hiring@aragon.one , with the subject  Frontend Dev opening application .    Please send along your GitHub profile. Since we are open source only, we require applicants for developer positions to have a very active and healthy GitHub profile.    Please send the following challenge completed.", 
             "title": "How to apply"
+        }, 
+        {
+            "location": "/jobs/openings/frontend/#challenge", 
+            "text": "", 
+            "title": "Challenge"
+        }, 
+        {
+            "location": "/jobs/openings/frontend/#description", 
+            "text": "Build a small app to explore the latest blocks on Ethereum. The goal of the app is to provide a way to glance at the recent Ether transfers happening on the blockchain.", 
+            "title": "Description"
+        }, 
+        {
+            "location": "/jobs/openings/frontend/#requirements_1", 
+            "text": "Display the ten latest blocks.  Allow the user to see the transactions from a block. Only the transactions sending Ether should be displayed.  Allow the user to see some details about a transaction.", 
+            "title": "Requirements"
+        }, 
+        {
+            "location": "/jobs/openings/frontend/#notes", 
+            "text": "You can use any library you feel comfortable with.  The app will be loaded in a browser with MetaMask.  Feel free to interpret the requirements in any way that you think could be interesting.  The app doesn\u2019t need to follow the Aragon visual identity.  Don\u2019t hesitate to ask any question to the team :-)", 
+            "title": "Notes"
+        }, 
+        {
+            "location": "/jobs/openings/frontend/#the-submission-will-be-evaluated-on-the-following-points", 
+            "text": "Code quality / readability / testability  UX / visual solutions  Perceived performance  Accessibility", 
+            "title": "The submission will be evaluated on the following points:"
         }, 
         {
             "location": "/jobs/openings/frontend/#if-you-havent-please-read-more-about-our-culture-work-conditions-etc", 
@@ -3537,13 +3562,18 @@
         }, 
         {
             "location": "/videos/community/", 
-            "text": "Aragon Community Meeting Videos\n\n\nAragon Community Meeting 06\n\n\n\n\nStreamed live on Dec 1, 2017\n\n\nMeeting agenda: \nhttp://wiki.aragon.one/meetings/community/06/\n\nAMA Thread: \nhttps://www.reddit.com/r/aragonproject/comments/7g3043/aragon_community_meeting_06_ama_thread/\n\n\n\n\nAragon Community Meeting 05\n\n\n\n\nStreamed live on Nov 10, 2017\n\n\nMeeting agenda: \nhttp://wiki.aragon.one/meetings/community/05/\n\nAMA Thread: \nhttps://www.reddit.com/r/aragonproject/comments/7bsd70/aragon_community_meeting_05_ama_thread/\n\n\n\n\nAragon Community Meeting 04\n\n\n\n\nStreamed live on Oct 13, 2017\n\n\nMeeting agenda: \nhttp://wiki.aragon.one/meetings/community/04/\n\nAMA Thread: \nhttps://www.reddit.com/r/aragonproject/comments/75oivu/aragon_community_meeting_04_ama_thread/\n\n\n\n\nAragon Community Meeting 03\n\n\n\n\nStreamed live on Sep 8, 2017\n\n\nMeeting agenda: \nhttps://wiki.aragon.one/meetings/community/03/\n\nMeeting AMA thread: \nhttps://www.reddit.com/r/aragonproject/comments/6yhk0r/aragon_community_meeting_03_ama_thread/\n\n\n\n\nAragon Community Meeting 02\n\n\n\n\nStreamed live on Aug 18, 2017\n\n\nMeeting notes and agenda: \nhttps://wiki.aragon.one/meetings/community/02/\n\n\n\n\nAragon Community Meeting 01\n\n\n\n\nStreamed live on Jul 14, 2017\n\n\nMeeting notes and agenda: \nhttps://wiki.aragon.one/meetings/community/01/", 
+            "text": "Aragon Community Meeting Videos\n\n\nAragon Community Meeting 07\n\n\n\n\nStreamed live on Jan 5, 2018\n\n\nMeeting agenda: \nhttps://wiki.aragon.one/meetings/community/07/\n\nAMA Thread: \nhttps://www.reddit.com/r/aragonproject/comments/7nrj68/aragon_community_meeting_07_ama_thread/\n\n\n\n\nAragon Community Meeting 06\n\n\n\n\nStreamed live on Dec 1, 2017\n\n\nMeeting agenda: \nhttp://wiki.aragon.one/meetings/community/06/\n\nAMA Thread: \nhttps://www.reddit.com/r/aragonproject/comments/7g3043/aragon_community_meeting_06_ama_thread/\n\n\n\n\nAragon Community Meeting 05\n\n\n\n\nStreamed live on Nov 10, 2017\n\n\nMeeting agenda: \nhttp://wiki.aragon.one/meetings/community/05/\n\nAMA Thread: \nhttps://www.reddit.com/r/aragonproject/comments/7bsd70/aragon_community_meeting_05_ama_thread/\n\n\n\n\nAragon Community Meeting 04\n\n\n\n\nStreamed live on Oct 13, 2017\n\n\nMeeting agenda: \nhttp://wiki.aragon.one/meetings/community/04/\n\nAMA Thread: \nhttps://www.reddit.com/r/aragonproject/comments/75oivu/aragon_community_meeting_04_ama_thread/\n\n\n\n\nAragon Community Meeting 03\n\n\n\n\nStreamed live on Sep 8, 2017\n\n\nMeeting agenda: \nhttps://wiki.aragon.one/meetings/community/03/\n\nMeeting AMA thread: \nhttps://www.reddit.com/r/aragonproject/comments/6yhk0r/aragon_community_meeting_03_ama_thread/\n\n\n\n\nAragon Community Meeting 02\n\n\n\n\nStreamed live on Aug 18, 2017\n\n\nMeeting notes and agenda: \nhttps://wiki.aragon.one/meetings/community/02/\n\n\n\n\nAragon Community Meeting 01\n\n\n\n\nStreamed live on Jul 14, 2017\n\n\nMeeting notes and agenda: \nhttps://wiki.aragon.one/meetings/community/01/", 
             "title": "Community"
         }, 
         {
             "location": "/videos/community/#aragon-community-meeting-videos", 
             "text": "", 
             "title": "Aragon Community Meeting Videos"
+        }, 
+        {
+            "location": "/videos/community/#aragon-community-meeting-07", 
+            "text": "Streamed live on Jan 5, 2018  Meeting agenda:  https://wiki.aragon.one/meetings/community/07/ \nAMA Thread:  https://www.reddit.com/r/aragonproject/comments/7nrj68/aragon_community_meeting_07_ama_thread/", 
+            "title": "Aragon Community Meeting 07"
         }, 
         {
             "location": "/videos/community/#aragon-community-meeting-06", 
