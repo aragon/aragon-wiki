@@ -1,3 +1,6 @@
+## [**Democratizing Governance**](slides/Helsinki.pdf)
+by Luis Cuende at [**Aragon Meetup - Helsinki**](https://www.meetup.com/Aragon-Meetup/events/245079105/)  
+[Video of the presentation](https://www.youtube.com/watch?v=AULH7Qw7RCk)
 
 ## [**Designing future-proof smart contract systems**](slides/devcon3.pdf)
 by Jorge Izquierdo at [**Devcon3**](https://ethereumfoundation.org/devcon3/)  
