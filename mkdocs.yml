@@ -118,3 +118,11 @@ pages:
   - Translations:
     - Spanish:
       - Hola: 'translations/spanish/index.md'
+      - Aragon apps:
+      - Overview: 'translations/spanish/apps/index.md'
+      - Voting: 'translations/spanish/apps/voting.md'
+      - Token Manager: 'translations/spanish/apps/token-manager.md'
+      - Group: 'translations/spanish/apps/group.md'
+      - Fundraising: 'translations/spanish/apps/fundraising.md'
+      - Vault: 'translations/spanish/apps/vault.md'
+      - Finance: 'translations/spanish/apps/finance.md'
