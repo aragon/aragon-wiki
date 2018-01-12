@@ -74,7 +74,3 @@
 label[for="toc"] + ul > li > a + nav > ul > li > a {
   color: #bdbdbd;
 }
-
-label[for="toc"] + ul > li > a + nav > ul > li > a:hover {
-  color: #536dfe;
-}
