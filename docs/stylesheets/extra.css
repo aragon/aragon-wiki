@@ -19,99 +19,99 @@
   border-left: 0.4rem solid #00d3e3;
 }
 
-[title~="January"] {
+[title="January"] {
   font-weight: bold;
 }
 
-[title~="January"] + nav > ul > li:nth-child(even) {
+[title="January"] + nav > ul > li:nth-child(even) {
   color: #8a8888;
 }
 
-[title~="February"] {
+[title="February"] {
   font-weight: bold;
 }
 
-[title~="February"] + nav > ul > li:nth-child(even) {
+[title="February"] + nav > ul > li:nth-child(even) {
   color: #8a8888;
 }
 
-[title~="March"] {
+[title="March"] {
   font-weight: bold;
 }
 
-[title~="March"] + nav > ul > li:nth-child(even) {
+[title="March"] + nav > ul > li:nth-child(even) {
   color: #8a8888;
 }
 
-[title~="April"] {
+[title="April"] {
   font-weight: bold;
 }
 
-[title~="April"] + nav > ul > li:nth-child(even) {
+[title="April"] + nav > ul > li:nth-child(even) {
   color: #8a8888;
 }
 
-[title~="May"] {
+[title="May"] {
   font-weight: bold;
 }
 
-[title~="May"] + nav > ul > li:nth-child(even) {
+[title="May"] + nav > ul > li:nth-child(even) {
   color: #8a8888;
 }
 
-[title~="June"] {
+[title="June"] {
   font-weight: bold;
 }
 
-[title~="June"] + nav > ul > li:nth-child(even) {
+[title="June"] + nav > ul > li:nth-child(even) {
   color: #8a8888;
 }
 
-[title~="July"] {
+[title="July"] {
   font-weight: bold;
 }
 
-[title~="July"] + nav > ul > li:nth-child(even) {
+[title="July"] + nav > ul > li:nth-child(even) {
   color: #8a8888;
 }
 
-[title~="August"] {
+[title="August"] {
   font-weight: bold;
 }
 
-[title~="August"] + nav > ul > li:nth-child(even) {
+[title="August"] + nav > ul > li:nth-child(even) {
   color: #8a8888;
 }
 
-[title~="September"] {
+[title="September"] {
   font-weight: bold;
 }
 
-[title~="September"] + nav > ul > li:nth-child(even) {
+[title="September"] + nav > ul > li:nth-child(even) {
   color: #8a8888;
 }
 
-[title~="October"] {
+[title="October"] {
   font-weight: bold;
 }
 
-[title~="October"] + nav > ul > li:nth-child(even) {
+[title="October"] + nav > ul > li:nth-child(even) {
   color: #8a8888;
 }
 
-[title~="November"] {
+[title="November"] {
   font-weight: bold;
 }
 
-[title~="November"] + nav > ul > li:nth-child(even) {
+[title="November"] + nav > ul > li:nth-child(even) {
   color: #8a8888;
 }
 
-[title~="December"] {
+[title="December"] {
   font-weight: bold;
 }
 
-[title~="December"] + nav > ul > li:nth-child(even) {
+[title="December"] + nav > ul > li:nth-child(even) {
   color: #8a8888;
 }
 
