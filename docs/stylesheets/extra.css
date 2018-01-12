@@ -23,54 +23,98 @@
   font-weight: bold;
 }
 
+[title~="January"] + nav > ul > li:nth-child(even) {
+  color: #8a8888;
+}
+
 [title~="February"] {
   font-weight: bold;
+}
+
+[title~="February"] + nav > ul > li:nth-child(even) {
+  color: #8a8888;
 }
 
 [title~="March"] {
   font-weight: bold;
 }
 
+[title~="March"] + nav > ul > li:nth-child(even) {
+  color: #8a8888;
+}
+
 [title~="April"] {
   font-weight: bold;
+}
+
+[title~="April"] + nav > ul > li:nth-child(even) {
+  color: #8a8888;
 }
 
 [title~="May"] {
   font-weight: bold;
 }
 
+[title~="May"] + nav > ul > li:nth-child(even) {
+  color: #8a8888;
+}
+
 [title~="June"] {
   font-weight: bold;
+}
+
+[title~="June"] + nav > ul > li:nth-child(even) {
+  color: #8a8888;
 }
 
 [title~="July"] {
   font-weight: bold;
 }
 
+[title~="July"] + nav > ul > li:nth-child(even) {
+  color: #8a8888;
+}
+
 [title~="August"] {
   font-weight: bold;
+}
+
+[title~="August"] + nav > ul > li:nth-child(even) {
+  color: #8a8888;
 }
 
 [title~="September"] {
   font-weight: bold;
 }
 
+[title~="September"] + nav > ul > li:nth-child(even) {
+  color: #8a8888;
+}
+
 [title~="October"] {
   font-weight: bold;
+}
+
+[title~="October"] + nav > ul > li:nth-child(even) {
+  color: #8a8888;
 }
 
 [title~="November"] {
   font-weight: bold;
 }
 
+[title~="November"] + nav > ul > li:nth-child(even) {
+  color: #8a8888;
+}
+
 [title~="December"] {
   font-weight: bold;
 }
 
-.md-typeset blockquote {
-  border-left: 0.4rem solid #00cbe6;
+[title~="December"] + nav > ul > li:nth-child(even) {
+  color: #8a8888;
 }
 
-label[for="toc"] + ul > li > a + nav > ul > li > a {
-  color: #bdbdbd;
+.md-typeset blockquote {
+  border-left: 0.4rem solid #00cbe6;
 }
