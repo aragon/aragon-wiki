@@ -105,6 +105,7 @@ pages:
       - Developer Relations: 'jobs/openings/dev_rel.md'
       - Design Lead: 'jobs/openings/design.md'
   - Blog posts:
+    - 2018: 'blog/2018.md'
     - 2017: 'blog/2017.md'
   - Videos:
     - Tutorials: 'videos/tutorials.md'
