@@ -3,8 +3,8 @@
 ### Jorge - Tech Lead
 
 #### Security Audits
-- The first security audits for [aragon-core](https://github.com/aragon/aragon-core/) and [aragon-apps](https://github.com/aragon/aragon-apps/) were completed.
-- No major issues were found, though it triggered [some](https://github.com/aragon/aragon-core/issues?utf8=✓&q=label%3Aaudit+) [changes](https://github.com/aragon/aragon-apps/issues?utf8=✓&q=label%3Aaudit+).
+- The first security audits for [aragonOS](https://github.com/aragon/aragonOS/) and [aragon-apps](https://github.com/aragon/aragon-apps/) were completed.
+- No major issues were found, though it triggered [some](https://github.com/aragon/aragonOS/issues?utf8=✓&q=label%3Aaudit+) [changes](https://github.com/aragon/aragon-apps/issues?utf8=✓&q=label%3Aaudit+).
 - Audit report will be made public soon.
 
 #### AragonID (credits to @Brett)

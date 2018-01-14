@@ -48,9 +48,9 @@ pages:
   - Development:
     - Overview: 'dev/index.md'
     - AragonOS: 'dev/AragonOS.md'
-    - aragon-core:
-      - Overview: 'dev/aragon-core_home.md'
-      - How to contribute: 'dev/aragon-core_how_to_contribute.md'
+    - aragonOS:
+      - Overview: 'dev/aragonOS_index.md'
+      - How to contribute: 'dev/aragonOS_how_to_contribute.md'
     - Aragon Apps:
       - Overview: 'dev/apps/index.md'
       - Voting: 'dev/apps/voting.md'

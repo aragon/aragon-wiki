@@ -5,7 +5,7 @@
 #### Aragon Core
 
 - Planning next audits and public bounty program.
-- Improvements on deployment for aragon-core.
+- Improvements on deployment for aragonOS.
 
 #### Security
 

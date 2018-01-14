@@ -3,7 +3,7 @@
 ## [node-aragon](https://github.com/aragon/node-aragon)
 *Owned by [onbjerg](https://github.com/onbjerg)*
 
-Glue between aragon-core (Solidity contracts) and the Aragon dapp.
+Glue between aragonOS (Solidity contracts) and the Aragon dapp.
 
 What it provides:
 
@@ -62,7 +62,7 @@ What it provides:
 
 * Its goal is to make it so that app developers can build an app using only Aragon UI: no custom styles, no custom behaviours. Ideally, all the core apps will just use the Aragon UI components, without any form of customization.
 
-* It doesn’t provide anything to interact with aragon-core: that’s the purpose of node-aragon.
+* It doesn’t provide anything to interact with aragonOS: that’s the purpose of node-aragon.
 
 * But it does provide a great integration with the node-aragon API.
 

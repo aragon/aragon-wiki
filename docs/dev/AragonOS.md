@@ -1,7 +1,7 @@
 <center>
 # AragonOS
 
-*Reflects [aragon-core](https://github.com/aragon/aragon-core) 2.0.1 implementation. Updated Jan. 2nd, 2018.*
+*Reflects [aragonOS](https://github.com/aragon/aragonOS) 2.0.1 implementation. Updated Jan. 14th, 2018.*
 
 An [exokernel](https://en.wikipedia.org/wiki/Exokernel)-inspired architecture for modular, upgradeable, and secure DAOs
 </center>
@@ -24,7 +24,7 @@ The **Access Control List** (ACL) is the filter which determines whether an [ent
 
 The ACL permissioning system is inspired by UNIX. ACLs control the permissions afforded to a user in the system and can ease the transfer of said permissions. Similar to the `sudo` command in UNIX, users can escalate permissions, but with more flexibility and granularity.
 
-A reference implementation of the Kernel and its ACL can be found here: [`Kernel.sol`](https://github.com/aragon/aragon-core/blob/dev/contracts/kernel/Kernel.sol).
+A reference implementation of the Kernel and its ACL can be found here: [`Kernel.sol`](https://github.com/aragon/aragonOS/blob/dev/contracts/kernel/Kernel.sol).
 
 ### Apps and Actions
 
@@ -145,7 +145,7 @@ Note that the Voting app is also able to revoke or regrant the `TRANSFER_TOKENS_
 
 #### Adding Permissions
 
-Apps have the choice of which actions to protect behind the ACL, as some actions may make sense to be completely public. Protecting an action behind the ACL is done in the smart contract by simply adding the authentication modifier [`auth()`](https://github.com/aragon/aragon-core/blob/a1b6694cdb33443c6ad8f2a8fd3badf82dbd720a/contracts/apps/App.sol#L6) (passing the role required as a parameter) to the action. On executing the action, the `auth()` modifier checks with the Kernel whether the entity performing the call holds the required role or not.
+Apps have the choice of which actions to protect behind the ACL, as some actions may make sense to be completely public. Protecting an action behind the ACL is done in the smart contract by simply adding the authentication modifier [`auth()`](https://github.com/aragon/aragonOS/blob/a1b6694cdb33443c6ad8f2a8fd3badf82dbd720a/contracts/apps/App.sol#L6) (passing the role required as a parameter) to the action. On executing the action, the `auth()` modifier checks with the Kernel whether the entity performing the call holds the required role or not.
 
 #### Escalating Permissions
 
@@ -183,11 +183,11 @@ An `evmCallScript` is the concatenation of multiple `evmCallAction`s. A `evmCall
 
 When executed, actions in the `evmCallScript` are executed one at a time using the `CALL` opcode. If any one of the actions fails (i.e. `CALL` returns 0), the entire execution is reverted.
 
-A reference implementation for EVM Call Script can be found here: [`EVMCallScript.sol`](https://github.com/aragon/aragon-core/blob/dev/contracts/common/EVMCallScript.sol).
+A reference implementation for EVM Call Script can be found here: [`EVMCallScript.sol`](https://github.com/aragon/aragonOS/blob/dev/contracts/common/EVMCallScript.sol).
 
 ## 2. Upgradeability
 
-Upgradeability of the system is achieved by using the [`DelegateProxy`](https://github.com/aragon/aragon-core/blob/dev/contracts/common/DelegateProxy.sol) pattern. Kernel and apps ([`KernelProxy`](#21-kernel-upgradeability) and [`AppProxy`](#22-app-space-upgradeability)) both use `DelegateProxy` with some added functionality.
+Upgradeability of the system is achieved by using the [`DelegateProxy`](https://github.com/aragon/aragonOS/blob/dev/contracts/common/DelegateProxy.sol) pattern. Kernel and apps ([`KernelProxy`](#21-kernel-upgradeability) and [`AppProxy`](#22-app-space-upgradeability)) both use `DelegateProxy` with some added functionality.
 
 <center><img src="../../images/aragonos/delegateproxy.png"></center>
 
@@ -195,7 +195,7 @@ Given that new versions of apps or the kernel run in the exact same context as p
 
 ### 2.1. Kernel upgradeability
 
-For the [Kernel](#1-kernel-and-the-access-control-list) to be easily upgradeable, cheaply deployable, and more efficient, we use a proxy-type construct. Deploying a new DAO is done by deploying a [`KernelProxy`](https://github.com/aragon/aragon-core/blob/dev/contracts/kernel/KernelProxy.sol) contract that just delegates all calls to a kernel implementation at a given address, while still maintaining its own storage. Upgrading the kernel implementation in the proxy is as easy as changing its reference to another implementation's address.
+For the [Kernel](#1-kernel-and-the-access-control-list) to be easily upgradeable, cheaply deployable, and more efficient, we use a proxy-type construct. Deploying a new DAO is done by deploying a [`KernelProxy`](https://github.com/aragon/aragonOS/blob/dev/contracts/kernel/KernelProxy.sol) contract that just delegates all calls to a kernel implementation at a given address, while still maintaining its own storage. Upgrading the kernel implementation in the proxy is as easy as changing its reference to another implementation's address.
 
 Note that, although this action is fairly easy to complete, it is extremely critical to the DAO and should be protected accordingly.
 
@@ -203,7 +203,7 @@ Note that, although this action is fairly easy to complete, it is extremely crit
 
 As apps can be used as entities (e.g. a voting app), it is important that each app is able to keep its address fixed to maintain its identity even if an upgrade changes the underlying logic. Keeping a fixed address also simplifies the upgrade process—otherwise, each upgrade would also require any associated permissions in the ACL to be updated to the app's new address.
 
-One way of achieving this is through the concept of an [`AppProxy`](https://github.com/aragon/aragon-core/blob/dev/contracts/apps/AppProxy.sol) contract (inspired by [augur-core’s `Delegators`](https://github.com/AugurProject/augur-core/blob/develop/source/contracts/libraries/Delegator.sol)). Deploying an app via an `AppProxy` contract only requires a reference to the Kernel and the app identifier. When the app receives a call, it gets intercepted by the proxy's fallback function. At this point, the proxy asks the Kernel for the latest address of the app code for a given app identifier and version. The AppProxy contract then forwards the call by `delegatecall`ing into this address.
+One way of achieving this is through the concept of an [`AppProxy`](https://github.com/aragon/aragonOS/blob/dev/contracts/apps/AppProxy.sol) contract (inspired by [augur-core’s `Delegators`](https://github.com/AugurProject/augur-core/blob/develop/source/contracts/libraries/Delegator.sol)). Deploying an app via an `AppProxy` contract only requires a reference to the Kernel and the app identifier. When the app receives a call, it gets intercepted by the proxy's fallback function. At this point, the proxy asks the Kernel for the latest address of the app code for a given app identifier and version. The AppProxy contract then forwards the call by `delegatecall`ing into this address.
 
 <center><img src="../../images/aragonos/appproxy_delegatecall.png"></center>
 

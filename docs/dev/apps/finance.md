@@ -61,7 +61,7 @@ token.transferAndCall(finance, amount, string reference)
 
 Performing a ERC677 `transferAndCall(...)` to the Finance app will also trigger a deposit (intercepted with the `tokenFallback`). The data passed as payload to transferAndCall is used directly as the reference for the deposit.
 
-Given that aragon-core's EtherToken implementation conforms to ERC677, depositing Ether to the Finance app can be done by wrapping the ether using `etherToken.wrap()` and then doing a `transferAndCall(...)` or using the shortcut `wrapAndCall(...)` which performs both actions.
+Given that aragonOS' EtherToken implementation conforms to ERC677, depositing Ether to the Finance app can be done by wrapping the ether using `etherToken.wrap()` and then doing a `transferAndCall(...)` or using the shortcut `wrapAndCall(...)` which performs both actions.
 
 Please note that this section is subject to change as the [ERC677 discussion](https://github.com/ethereum/EIPs/issues/677) evolves.
 

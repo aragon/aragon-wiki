@@ -3,11 +3,13 @@
 *This was the initial review of the AragonOS system that powers the v0.5 release of Aragon. Further audits and public bug
 bounty programs are scheduled to begin in early January 2018.*
 
-*All the changes triggered as result of the audit can be found in the [aragon-core](https://github.com/aragon/aragon-core/issues?utf8=✓&q=label%3Aaudit+) and [aragon-apps](https://github.com/aragon/aragon-apps/issues?utf8=✓&q=label%3Aaudit+) repos* 
+*All the changes triggered as result of the audit can be found in the [aragonOS](https://github.com/aragon/aragonOS/issues?utf8=✓&q=label%3Aaudit+) and [aragon-apps](https://github.com/aragon/aragon-apps/issues?utf8=✓&q=label%3Aaudit+) repos*
 
 *The original PDF report has been converted to Markdown for easier reading. You can download unmodified report from the auditor here:*
 
 *[Download original PDF](audit01_report_dossa.pdf)*
+
+_The repository `aragon-core` has been renamed to `aragonOS` after this audit took place and that change has been reflected in this document. See the PDF file above for the untouched original report._ 
 
 ## Introduction
 
@@ -23,8 +25,8 @@ The review focussed on the Solidity contract code in these repos, and covered:
 
 The review was performed using the code tagged with `audit1` at the following commits.
 
-`aragon-core`:  
-[https://github.com/aragon/aragon-core/tree/audit1/contracts](https://github.com/aragon/aragon-core/tree/audit1/contracts)
+`aragonOS`:  
+[https://github.com/aragon/aragonOS/tree/audit1/contracts](https://github.com/aragon/aragonOS/tree/audit1/contracts)
 
 `aragon-apps`:  
 [https://github.com/aragon/aragon-apps/tree/audit1/apps](https://github.com/aragon/aragon-apps/tree/audit1/apps)
@@ -53,7 +55,7 @@ reviewed and corrected (including linter updates) via:
 [https://github.com/aragon/aragon-apps/commit/c239847065eebb2f2b3ea2dbc264b8a25cd788cd](https://github.com/aragon/aragon-apps/commit/c239847065eebb2f2b3ea2dbc264b8a25cd788cd)</small>  
 as well as many other incremental improvements which have been made during and after this audit process.
 
-## aragon-core/contracts/kernel
+## aragonOS/contracts/kernel
 
 These contracts form the core Kernel implementation. The Kernel manages app and Kernel permissions and provides a layer of indirection to access apps (allowing apps, including the Kernel, to be upgraded as necessary).
 
@@ -79,14 +81,14 @@ Some possible future improvements were identified, specifically:
 - managing the instantiation / initialisation of contracts (see below section for more details).
 - continuing to work on documentation to make the permission framework as clear as possible.
 
-## aragon-core/contracts/apps **and** aragon-core/contracts/common
+## aragonOS/contracts/apps **and** aragonOS/contracts/common
 
 These contracts contains the logic required for both proxy contracts (which allow the underlying "business logic" contracts to be upgraded) and forwarding (which allows entities to forward transaction scripts to other entities for execution).
 
 ### Issues
 
 - Pre-Byzantium logic could now be removed from `DelegateProxy` as `returndatasize` opcodes are now available. This has now been resolved via:  
-<small>[https://github.com/aragon/aragon-core/pull/145](https://github.com/aragon/aragon-core/pull/145)</small>  
+<small>[https://github.com/aragon/aragonOS/pull/145](https://github.com/aragon/aragonOS/pull/145)</small>  
 - The use of `delegatecall` to execute underlying App logic is a clever way of preserving state and Ether value in the `DelegateProxy` whilst using the code / business logic of an upgradable `App` contract. The below represent areas that could be clarified in the documentation, rather than bugs in the code.
   - Since the `App` code is expected to have state / storage, this imposes a limitation that any new upgraded version of the `App` has a superset of the previous contract which it is replacing.
   - Since state is maintained in the `DelegateProxy` contract, not the underlying `App` contract, this may cause some practical issues with third-party apps such as exchanges or etherscan.io (for example I don't believe the "Read Contract" functionality on etherscan.io would work as the ABI wouldn't have the relevant functions on the `DelegateProxy` contract, and the state on the `App` contract wouldn't reflect updates).
@@ -94,7 +96,7 @@ These contracts contains the logic required for both proxy contracts (which allo
 <small>[https://github.com/aragon/aragon-wiki/commit/c3a734c651a04052cea0dc80753079a4a6a9ab82](https://github.com/aragon/aragon-wiki/commit/c3a734c651a04052cea0dc80753079a4a6a9ab82)</small>
 - One of the identified issues related to the instantiation and initialisation of `AppProxy` contracts not being atomic. In the expected use-cases, where `AppProxy` contracts are instantiated and initialised through a factory process (within a single atomic transaction) this is not problematic, but there is
 some potential for this structure to be abused in unexpected use-cases, allowing a malicious user to front-run `AppProxy` contracts. The Aragon team discussed various options internally and an approach was implemented to allow an optional `initializePayload` to be passed to the `AppProxy` constructor, which can be used to initialise the contract as part of its instantiation.  
-<small>[https://github.com/aragon/aragon-core/pull/148](https://github.com/aragon/aragon-core/pull/148)</small>
+<small>[https://github.com/aragon/aragonOS/pull/148](https://github.com/aragon/aragonOS/pull/148)</small>
 
 ### Possible Improvements
 

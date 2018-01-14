@@ -1,7 +1,7 @@
 <center>
 # AragonOS
 
-*Refleja la implememtación [aragon-core](https://github.com/aragon/aragon-core) 2.0.1. Actualizado el 4 de Diciembre de 2017.*
+*Refleja la implememtación [aragonOS](https://github.com/aragon/aragonOS) 2.0.1. Actualizado el 4 de Diciembre de 2017.*
 
 Una arquitectura inspirada en [exokernels](https://es.wikipedia.org/wiki/Exon%C3%BAcleo), para DAOs modulares, actualizables y seguras.
 </center>
@@ -26,7 +26,7 @@ El sistema de permisos de la ACL está inspirado en UNIX. Las ACLs controlan los
 
 ### Aplicaciones
 
-Las **Aplicaciones** son contratos inteligentes que dependen del Kernel—el kernel del sistema operativo—para su propia ACL y actualizar su código. Ya que las aplicaciones son actualizables, podemos esperar que existan por un largo período de tiempo. Esto significa que es seguro para una aplicación ser responsable de la posesión de distintos activos en nombre de la DAO (p.ej. tokens y nombre ENS). Las aplicaciones pueden implementar múltiples acciones y estas acciones pueden estar protegidas o no por la ACL. En caso de que una acción esté protegida, la ejecución de la acción sólo se permitirá cuando lo autorice la ACL. 
+Las **Aplicaciones** son contratos inteligentes que dependen del Kernel—el kernel del sistema operativo—para su propia ACL y actualizar su código. Ya que las aplicaciones son actualizables, podemos esperar que existan por un largo período de tiempo. Esto significa que es seguro para una aplicación ser responsable de la posesión de distintos activos en nombre de la DAO (p.ej. tokens y nombre ENS). Las aplicaciones pueden implementar múltiples acciones y estas acciones pueden estar protegidas o no por la ACL. En caso de que una acción esté protegida, la ejecución de la acción sólo se permitirá cuando lo autorice la ACL.
 
 ### Roles
 
@@ -129,7 +129,7 @@ Como un ejemplo, los siguientes pasos muestran el flujo completo para un usuario
 8. Los votos pueden ser creados para transferir fondos.
 9. La Voting app podrá revocar o re-conceder el permiso ya que es el gestor de permisos para `TRANSFER_TOKENS_ROLE` en `vaultAppAddress`.
 
-Una implementación de la ACL explicada puede encontrarse en el archivo [aragon-core’s Kernel](https://github.com/aragon/aragon-core/blob/dev/contracts/kernel/Kernel.sol).
+Una implementación de la ACL explicada puede encontrarse en el archivo [aragonOS’s Kernel](https://github.com/aragon/aragonOS/blob/dev/contracts/kernel/Kernel.sol).
 
 #### Comprobar permisos
 
@@ -168,7 +168,7 @@ Un `evmCallScript` es la concatencación de múltiples `evmCallActions`. Una car
 
 Cuando son ejecutadas, las acciones en el `evmCallScript` son ejecutadas una cada vez usando el `CALL` opcode. Si alguna de las acciones fallase (p.ej. `CALL` retorna 0), la ejecución completa es revertida.
 
-La referencia de implementación para EVM Call Script puede ser encontrada aquí: [`EVMCallScript.sol`](https://github.com/aragon/aragon-core/blob/dev/contracts/common/EVMCallScript.sol).
+La referencia de implementación para EVM Call Script puede ser encontrada aquí: [`EVMCallScript.sol`](https://github.com/aragon/aragonOS/blob/dev/contracts/common/EVMCallScript.sol).
 
 Si un usuario quiere realizar una acción que no puede ser llevada a cabo directamente, puede comprobar si hay forwarders. Esto comprueba si hay entidades que pueden realizar la acción que cualquiera de las direcciones de usuario puede usar.
 
@@ -176,7 +176,7 @@ Esto puede tener múltiples niveles de profundidad. Por ejemplo, si un usuario m
 
 ## 2. Capacidad de actualización
 
-La capacidad de actualización del sistema se consigue mediante el uso del patrón [`DelegateProxy`](https://github.com/aragon/aragon-core/blob/dev/contracts/common/DelegateProxy.sol). El Kernel y las Aplicaciones (`KernelProxy` y `AppProxy`) usan el DelegateProxy con algunas ligeras modificaciones.
+La capacidad de actualización del sistema se consigue mediante el uso del patrón [`DelegateProxy`](https://github.com/aragon/aragonOS/blob/dev/contracts/common/DelegateProxy.sol). El Kernel y las Aplicaciones (`KernelProxy` y `AppProxy`) usan el DelegateProxy con algunas ligeras modificaciones.
 
 <center><img src="../../images/aragonos/delegateproxy.png"></center>
 
@@ -184,13 +184,13 @@ Dada la ejecución de nuevas versiones de aplicaciones o del kernel en el mismo 
 
 ### 2.1. Capacidad de actualización del Kernel
 
-Para que el [Kernel](#1-kernel-and-the-access-control-list) sea fácilmente actualizable, rápidamente desplegable, y más eficiente, usamos un constructo tipo proxy. El despliegue de una nueva DAO se consigue mediante el despliegue de un contrato [`KernelProxy`](https://github.com/aragon/aragon-core/blob/dev/contracts/kernel/KernelProxy.sol) que simplemente delega todas las llamadas a una implementacion de un kernel en una dirección dada, mientras que sigue manteniendo su propio alamacenamiento. La actualización de la implementación del kernel en el proxy es tan fácil como cambiar su referencia a otra dirección de implementación. Incluso aunque esta acción es bastante fácil de completar, es extremadamente crítica para la DAO y debería ser protegida en concordancia.
+Para que el [Kernel](#1-kernel-and-the-access-control-list) sea fácilmente actualizable, rápidamente desplegable, y más eficiente, usamos un constructo tipo proxy. El despliegue de una nueva DAO se consigue mediante el despliegue de un contrato [`KernelProxy`](https://github.com/aragon/aragonOS/blob/dev/contracts/kernel/KernelProxy.sol) que simplemente delega todas las llamadas a una implementacion de un kernel en una dirección dada, mientras que sigue manteniendo su propio alamacenamiento. La actualización de la implementación del kernel en el proxy es tan fácil como cambiar su referencia a otra dirección de implementación. Incluso aunque esta acción es bastante fácil de completar, es extremadamente crítica para la DAO y debería ser protegida en concordancia.
 
 ### 2.2. Capacidad de actualización del espacio de aplicaciones
 
 Como las aplicaciones pueden ser usadas como entidades (p.ej. una voting app), es importante que cada aplicación sea capaz de mantener su dirección fija, para así mantener su identidad incluso si hay cambios de actualización por debajo de la lógica. Esto es para mantener los permisos sin cambios a nivel de kernel con las actualizaciones.
 
-Una idea de como esto puede ser conseguido es a través del concepto de un contrato [`AppProxy`](https://github.com/aragon/aragon-core/blob/dev/contracts/apps/AppProxy.sol) (inspirado por el [augur-core’s `Delegators`](https://github.com/AugurProject/augur-core/blob/develop/source/contracts/libraries/Delegator.sol)). El despliegue de una aplicación via un contrato `AppProxy` solo requiere una referencia al Kernel y a la identificación de la aplicación. Cuando una aplicación recibe una llamada, es interceptada por la función callback del proxy. En este punto, el proxy pregunta al Kernel por las últimas direcciones del código de la aplicación para un identificador de aplicación dado y versión. El contrato AppProxy entonces reenvía la llamada `delegatecall` hacia su dirección, asegurándose de que la última versión de la aplicación está siempre corriendo.
+Una idea de como esto puede ser conseguido es a través del concepto de un contrato [`AppProxy`](https://github.com/aragon/aragonOS/blob/dev/contracts/apps/AppProxy.sol) (inspirado por el [augur-core’s `Delegators`](https://github.com/AugurProject/augur-core/blob/develop/source/contracts/libraries/Delegator.sol)). El despliegue de una aplicación via un contrato `AppProxy` solo requiere una referencia al Kernel y a la identificación de la aplicación. Cuando una aplicación recibe una llamada, es interceptada por la función callback del proxy. En este punto, el proxy pregunta al Kernel por las últimas direcciones del código de la aplicación para un identificador de aplicación dado y versión. El contrato AppProxy entonces reenvía la llamada `delegatecall` hacia su dirección, asegurándose de que la última versión de la aplicación está siempre corriendo.
 
 <center><img src="../../images/aragonos/appproxy_delegatecall.png"></center>
 
@@ -203,7 +203,7 @@ Esta acción actualiza el código de implementación registrado para un `appId` 
 
 ## 3. Inicialización
 
-Los contratos que se despliegan no contienen ninguna lógica de negocio para el componente. Esto es debido a que el Kernel y las Aplicaciones dependen de una arquitectura tipo Proxy para su actualización. 
+Los contratos que se despliegan no contienen ninguna lógica de negocio para el componente. Esto es debido a que el Kernel y las Aplicaciones dependen de una arquitectura tipo Proxy para su actualización.
 
 Esto impide la habilidad de llamar al constructor. Los constructures solo son ejecutados en la creación de un contrato pero no son almacenados como parte del código de cuenta.
 
@@ -245,9 +245,9 @@ Mediante la referencia del código de la aplicación y el contenido del paquete,
   - **Patch**: Cambios menores en el contenido del paquete (frontend). Esta actualización puede ser realizada sin notificar al usuario.
   - **Minor**: Cambios mayores en el contenido del paquete, pero todavía funcionando con el actual código del contrato inteligente (frontend). Los usuarios deberían ser notificados de la actualización.
   - **Major**: Cambios en los contratos inteligentes y el frontend. Para usar esta versión del frontend, se requiere una actualización a los contratos inteligentes nuevos. Se requiere interacción con el usuario para la actualización.
-  
+
 Mediante esta comprobación realizada a nivel de contrato inteligente, podemos cargar la versión correcta del frontend solo mirando una instancia de la aplicación. Esto se hace mediante la comprobación de que la versión de un contrato inteligente está enlazada a una aplicación dada a través de la recuperación del appId y el appCode.
-  
+
   Una actualización de versión correcta para un paquete está definida por las siguientes reglas:
 
   - Solo un miembro de la versión será incrementado en 1. Los componentes de la versión a la izquierda del número elevando deben permanecer igual y los componentes a su derecha deben ser igual a 0.

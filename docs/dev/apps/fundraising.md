@@ -78,7 +78,7 @@ fundraising.buyTokens(uint256 saleId) // called by token
 ```
 Requires the sender to make a `transferAndCall()` as in the [ERC677 standard](https://github.com/ethereum/EIPs/issues/677) (still evolving and being discussed), setting the fundraising app as receiver and adding the correct data payload.
 
-Raising ether can be done by setting the raised token to an EtherToken (ideally the one used by the [Finance app](finance.md) for discoverability). Given that aragon-core's EtherToken implementation conforms to ERC677, buying with ether can be done by wrapping the ether using `etherToken.wrap()` and then doing a `transferAndCall(...)` or using the shortcut `wrapAndCall(...)` which performs both actions.
+Raising ether can be done by setting the raised token to an EtherToken (ideally the one used by the [Finance app](finance.md) for discoverability). Given that aragonOS' EtherToken implementation conforms to ERC677, buying with ether can be done by wrapping the ether using `etherToken.wrap()` and then doing a `transferAndCall(...)` or using the shortcut `wrapAndCall(...)` which performs both actions.
 
 Please note that this section is subject to change as the [ERC677 discussion](https://github.com/ethereum/EIPs/issues/677) evolves.
 
