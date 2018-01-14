@@ -475,8 +475,8 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#aragon-corecontractskernel" title="aragon-core/contracts/kernel" class="md-nav__link">
-    aragon-core/contracts/kernel
+  <a href="#aragonoscontractskernel" title="aragonOS/contracts/kernel" class="md-nav__link">
+    aragonOS/contracts/kernel
   </a>
   
     <nav class="md-nav">
@@ -502,8 +502,8 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#aragon-corecontractsapps-and-aragon-corecontractscommon" title="aragon-core/contracts/apps and aragon-core/contracts/common" class="md-nav__link">
-    aragon-core/contracts/apps and aragon-core/contracts/common
+  <a href="#aragonoscontractsapps-and-aragonoscontractscommon" title="aragonOS/contracts/apps and aragonOS/contracts/common" class="md-nav__link">
+    aragonOS/contracts/apps and aragonOS/contracts/common
   </a>
   
     <nav class="md-nav">
@@ -748,11 +748,11 @@
       <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3-3" type="checkbox" id="nav-3-3">
     
     <label class="md-nav__link" for="nav-3-3">
-      aragon-core
+      aragonOS
     </label>
     <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
       <label class="md-nav__title" for="nav-3-3">
-        aragon-core
+        aragonOS
       </label>
       <ul class="md-nav__list" data-md-scrollfix>
         
@@ -763,7 +763,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../../../dev/aragon-core_home/" title="Overview" class="md-nav__link">
+    <a href="../../../dev/aragonOS_index/" title="Overview" class="md-nav__link">
       Overview
     </a>
   </li>
@@ -775,7 +775,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../../../dev/aragon-core_how_to_contribute/" title="How to contribute" class="md-nav__link">
+    <a href="../../../dev/aragonOS_how_to_contribute/" title="How to contribute" class="md-nav__link">
       How to contribute
     </a>
   </li>
@@ -2129,8 +2129,8 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#aragon-corecontractskernel" title="aragon-core/contracts/kernel" class="md-nav__link">
-    aragon-core/contracts/kernel
+  <a href="#aragonoscontractskernel" title="aragonOS/contracts/kernel" class="md-nav__link">
+    aragonOS/contracts/kernel
   </a>
   
     <nav class="md-nav">
@@ -2156,8 +2156,8 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#aragon-corecontractsapps-and-aragon-corecontractscommon" title="aragon-core/contracts/apps and aragon-core/contracts/common" class="md-nav__link">
-    aragon-core/contracts/apps and aragon-core/contracts/common
+  <a href="#aragonoscontractsapps-and-aragonoscontractscommon" title="aragonOS/contracts/apps and aragonOS/contracts/common" class="md-nav__link">
+    aragonOS/contracts/apps and aragonOS/contracts/common
   </a>
   
     <nav class="md-nav">
@@ -2348,9 +2348,10 @@
                 <h1 id="aragon-05-audit-by-adam-dossa">Aragon 0.5 Audit by Adam Dossa</h1>
 <p><em>This was the initial review of the AragonOS system that powers the v0.5 release of Aragon. Further audits and public bug
 bounty programs are scheduled to begin in early January 2018.</em></p>
-<p><em>All the changes triggered as result of the audit can be found in the <a href="https://github.com/aragon/aragon-core/issues?utf8=✓&amp;q=label%3Aaudit+">aragon-core</a> and <a href="https://github.com/aragon/aragon-apps/issues?utf8=✓&amp;q=label%3Aaudit+">aragon-apps</a> repos</em> </p>
+<p><em>All the changes triggered as result of the audit can be found in the <a href="https://github.com/aragon/aragonOS/issues?utf8=✓&amp;q=label%3Aaudit+">aragonOS</a> and <a href="https://github.com/aragon/aragon-apps/issues?utf8=✓&amp;q=label%3Aaudit+">aragon-apps</a> repos</em></p>
 <p><em>The original PDF report has been converted to Markdown for easier reading. You can download unmodified report from the auditor here:</em></p>
 <p><em><a href="../audit01_report_dossa.pdf">Download original PDF</a></em></p>
+<p><em>The repository <code>aragon-core</code> has been renamed to <code>aragonOS</code> after this audit took place and that change has been reflected in this document. See the PDF file above for the untouched original report.</em> </p>
 <h2 id="introduction">Introduction</h2>
 <p>This audit report was undertaken by <a href="https://github.com/adamdossa">@adamdossa</a> for the purpose of providing feedback to Aragon.<br />
 It has been written without any express or implied warranty.</p>
@@ -2362,8 +2363,8 @@ It has been written without any express or implied warranty.</p>
 <li>confusing functionality or naming</li>
 </ul>
 <p>The review was performed using the code tagged with <code>audit1</code> at the following commits.</p>
-<p><code>aragon-core</code>:<br />
-<a href="https://github.com/aragon/aragon-core/tree/audit1/contracts">https://github.com/aragon/aragon-core/tree/audit1/contracts</a></p>
+<p><code>aragonOS</code>:<br />
+<a href="https://github.com/aragon/aragonOS/tree/audit1/contracts">https://github.com/aragon/aragonOS/tree/audit1/contracts</a></p>
 <p><code>aragon-apps</code>:<br />
 <a href="https://github.com/aragon/aragon-apps/tree/audit1/apps">https://github.com/aragon/aragon-apps/tree/audit1/apps</a></p>
 <p>We used RocketChat to coordinate the review and help resolve questions during the review process.</p>
@@ -2384,7 +2385,7 @@ reviewed and corrected (including linter updates) via:<br />
 <a href="https://github.com/aragon/aragon-apps/commit/c239847065eebb2f2b3ea2dbc264b8a25cd788cd">https://github.com/aragon/aragon-apps/commit/c239847065eebb2f2b3ea2dbc264b8a25cd788cd</a></small><br />
 as well as many other incremental improvements which have been made during and after this audit process.</li>
 </ul>
-<h2 id="aragon-corecontractskernel">aragon-core/contracts/kernel</h2>
+<h2 id="aragonoscontractskernel">aragonOS/contracts/kernel</h2>
 <p>These contracts form the core Kernel implementation. The Kernel manages app and Kernel permissions and provides a layer of indirection to access apps (allowing apps, including the Kernel, to be upgraded as necessary).</p>
 <h3 id="issues">Issues</h3>
 <p>There were a few areas of the documentation which were either out-dated, or possibly confusing.<br />
@@ -2405,12 +2406,12 @@ These included:</p>
 <li>managing the instantiation / initialisation of contracts (see below section for more details).</li>
 <li>continuing to work on documentation to make the permission framework as clear as possible.</li>
 </ul>
-<h2 id="aragon-corecontractsapps-and-aragon-corecontractscommon">aragon-core/contracts/apps <strong>and</strong> aragon-core/contracts/common</h2>
+<h2 id="aragonoscontractsapps-and-aragonoscontractscommon">aragonOS/contracts/apps <strong>and</strong> aragonOS/contracts/common</h2>
 <p>These contracts contains the logic required for both proxy contracts (which allow the underlying "business logic" contracts to be upgraded) and forwarding (which allows entities to forward transaction scripts to other entities for execution).</p>
 <h3 id="issues_1">Issues</h3>
 <ul>
 <li>Pre-Byzantium logic could now be removed from <code>DelegateProxy</code> as <code>returndatasize</code> opcodes are now available. This has now been resolved via:<br />
-<small><a href="https://github.com/aragon/aragon-core/pull/145">https://github.com/aragon/aragon-core/pull/145</a></small>  </li>
+<small><a href="https://github.com/aragon/aragonOS/pull/145">https://github.com/aragon/aragonOS/pull/145</a></small>  </li>
 <li>The use of <code>delegatecall</code> to execute underlying App logic is a clever way of preserving state and Ether value in the <code>DelegateProxy</code> whilst using the code / business logic of an upgradable <code>App</code> contract. The below represent areas that could be clarified in the documentation, rather than bugs in the code.</li>
 <li>Since the <code>App</code> code is expected to have state / storage, this imposes a limitation that any new upgraded version of the <code>App</code> has a superset of the previous contract which it is replacing.</li>
 <li>Since state is maintained in the <code>DelegateProxy</code> contract, not the underlying <code>App</code> contract, this may cause some practical issues with third-party apps such as exchanges or etherscan.io (for example I don't believe the "Read Contract" functionality on etherscan.io would work as the ABI wouldn't have the relevant functions on the <code>DelegateProxy</code> contract, and the state on the <code>App</code> contract wouldn't reflect updates).</li>
@@ -2418,7 +2419,7 @@ These included:</p>
 <small><a href="https://github.com/aragon/aragon-wiki/commit/c3a734c651a04052cea0dc80753079a4a6a9ab82">https://github.com/aragon/aragon-wiki/commit/c3a734c651a04052cea0dc80753079a4a6a9ab82</a></small></li>
 <li>One of the identified issues related to the instantiation and initialisation of <code>AppProxy</code> contracts not being atomic. In the expected use-cases, where <code>AppProxy</code> contracts are instantiated and initialised through a factory process (within a single atomic transaction) this is not problematic, but there is
 some potential for this structure to be abused in unexpected use-cases, allowing a malicious user to front-run <code>AppProxy</code> contracts. The Aragon team discussed various options internally and an approach was implemented to allow an optional <code>initializePayload</code> to be passed to the <code>AppProxy</code> constructor, which can be used to initialise the contract as part of its instantiation.<br />
-<small><a href="https://github.com/aragon/aragon-core/pull/148">https://github.com/aragon/aragon-core/pull/148</a></small></li>
+<small><a href="https://github.com/aragon/aragonOS/pull/148">https://github.com/aragon/aragonOS/pull/148</a></small></li>
 </ul>
 <h3 id="possible-improvements_1">Possible Improvements</h3>
 <ul>

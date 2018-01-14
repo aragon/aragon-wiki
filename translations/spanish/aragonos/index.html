@@ -492,11 +492,11 @@
       <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3-3" type="checkbox" id="nav-3-3">
     
     <label class="md-nav__link" for="nav-3-3">
-      aragon-core
+      aragonOS
     </label>
     <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
       <label class="md-nav__title" for="nav-3-3">
-        aragon-core
+        aragonOS
       </label>
       <ul class="md-nav__list" data-md-scrollfix>
         
@@ -507,7 +507,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../../../dev/aragon-core_home/" title="Overview" class="md-nav__link">
+    <a href="../../../dev/aragonOS_index/" title="Overview" class="md-nav__link">
       Overview
     </a>
   </li>
@@ -519,7 +519,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../../../dev/aragon-core_how_to_contribute/" title="How to contribute" class="md-nav__link">
+    <a href="../../../dev/aragonOS_how_to_contribute/" title="How to contribute" class="md-nav__link">
       How to contribute
     </a>
   </li>
@@ -2229,7 +2229,7 @@
                 
                 <p><center></p>
 <h1 id="aragonos">AragonOS</h1>
-<p><em>Refleja la implememtación <a href="https://github.com/aragon/aragon-core">aragon-core</a> 2.0.1. Actualizado el 4 de Diciembre de 2017.</em></p>
+<p><em>Refleja la implememtación <a href="https://github.com/aragon/aragonOS">aragonOS</a> 2.0.1. Actualizado el 4 de Diciembre de 2017.</em></p>
 <p>Una arquitectura inspirada en <a href="https://es.wikipedia.org/wiki/Exon%C3%BAcleo">exokernels</a>, para DAOs modulares, actualizables y seguras.
 </center></p>
 <h2 id="introduccion">Introducción</h2>
@@ -2242,7 +2242,7 @@
 <p>La <strong>Lista de Control de Acceso</strong> (del inglés, ACL) es el filtro que determina si una dirección tiene un cierto rol en el contexto de una aplicación. Permite o prohíbe la ejecución de acciones en un contexto dado, tales como actualizaciones, así como las determinación de las entidades con poder sobre dicho permiso.</p>
 <p>El sistema de permisos de la ACL está inspirado en UNIX. Las ACLs controlan los permisos otorgados a un usuario y pueden facilitar la transferencia de los permisos mencionados. De manera similar al comando <code>sudo</code> en UNIX, los usuarios pueden escalar permisos, pero con más flexibilidad y granularidad.</p>
 <h3 id="aplicaciones">Aplicaciones</h3>
-<p>Las <strong>Aplicaciones</strong> son contratos inteligentes que dependen del Kernel—el kernel del sistema operativo—para su propia ACL y actualizar su código. Ya que las aplicaciones son actualizables, podemos esperar que existan por un largo período de tiempo. Esto significa que es seguro para una aplicación ser responsable de la posesión de distintos activos en nombre de la DAO (p.ej. tokens y nombre ENS). Las aplicaciones pueden implementar múltiples acciones y estas acciones pueden estar protegidas o no por la ACL. En caso de que una acción esté protegida, la ejecución de la acción sólo se permitirá cuando lo autorice la ACL. </p>
+<p>Las <strong>Aplicaciones</strong> son contratos inteligentes que dependen del Kernel—el kernel del sistema operativo—para su propia ACL y actualizar su código. Ya que las aplicaciones son actualizables, podemos esperar que existan por un largo período de tiempo. Esto significa que es seguro para una aplicación ser responsable de la posesión de distintos activos en nombre de la DAO (p.ej. tokens y nombre ENS). Las aplicaciones pueden implementar múltiples acciones y estas acciones pueden estar protegidas o no por la ACL. En caso de que una acción esté protegida, la ejecución de la acción sólo se permitirá cuando lo autorice la ACL.</p>
 <h3 id="roles">Roles</h3>
 <p>Otra característica para garantizar la seguridad en el ecosistema es la posibilidad de delegación de responsabilidades para la ejecución autónoma. Las Aplicaciones pueden definir un número determinado de roles y los roles pueden agrupar una o más acciones detrás. Para realizar una acción protegida por la ACL, la entidad que desee realizarla deberá disopner de los permisos necesarios para ejecutar las acciones de ese rol.</p>
 <p>Los Roles son siempre únicos para cada aplicación. Disponer de un rol en una aplicación no garantiza el permiso para la posesión del mismo rol en otras aplicaciones. Una entidad puede tener muchos roles en una aplicación.</p>
@@ -2311,7 +2311,7 @@
 <li>Los votos pueden ser creados para transferir fondos.</li>
 <li>La Voting app podrá revocar o re-conceder el permiso ya que es el gestor de permisos para <code>TRANSFER_TOKENS_ROLE</code> en <code>vaultAppAddress</code>.</li>
 </ol>
-<p>Una implementación de la ACL explicada puede encontrarse en el archivo <a href="https://github.com/aragon/aragon-core/blob/dev/contracts/kernel/Kernel.sol">aragon-core’s Kernel</a>.</p>
+<p>Una implementación de la ACL explicada puede encontrarse en el archivo <a href="https://github.com/aragon/aragonOS/blob/dev/contracts/kernel/Kernel.sol">aragonOS’s Kernel</a>.</p>
 <h4 id="comprobar-permisos">Comprobar permisos</h4>
 <p>Las Aplicaciones pueden decidir si protegen acciones detrás de la ACL o no, ya que tiene sentido que algunas acciones sean completamente públicas. La protección de una acción detrás de la ACL se hace simplemente añadiendo el modificador de autenticación que pasa el rol requerido para realizar la acción como un parámetro. El modificador auth comprobará con el Kernel si la entidad realizando la llamada tiene ese rol o no.</p>
 <h4 id="escalar-permisos">Escalar Permisos</h4>
@@ -2335,18 +2335,18 @@ Nótese que el escalado de permisos puede ocurrir instantáneamente o puede retr
 <p>Un <code>evmCallScript</code> es la concatencación de múltiples <code>evmCallActions</code>. Una carga de pago de una <code>evmCallAction</code> puede ser:</p>
 <p><code>[ to (address: 20 bytes) ] [ calldataLength (uint32: 4 bytes)  ] [ calldata (calldataLength bytes) ]</code></p>
 <p>Cuando son ejecutadas, las acciones en el <code>evmCallScript</code> son ejecutadas una cada vez usando el <code>CALL</code> opcode. Si alguna de las acciones fallase (p.ej. <code>CALL</code> retorna 0), la ejecución completa es revertida.</p>
-<p>La referencia de implementación para EVM Call Script puede ser encontrada aquí: <a href="https://github.com/aragon/aragon-core/blob/dev/contracts/common/EVMCallScript.sol"><code>EVMCallScript.sol</code></a>.</p>
+<p>La referencia de implementación para EVM Call Script puede ser encontrada aquí: <a href="https://github.com/aragon/aragonOS/blob/dev/contracts/common/EVMCallScript.sol"><code>EVMCallScript.sol</code></a>.</p>
 <p>Si un usuario quiere realizar una acción que no puede ser llevada a cabo directamente, puede comprobar si hay forwarders. Esto comprueba si hay entidades que pueden realizar la acción que cualquiera de las direcciones de usuario puede usar.</p>
 <p>Esto puede tener múltiples niveles de profundidad. Por ejemplo, si un usuario mantiene un número de tokens, se permite que el usuario use la entidad gestor de tokens. Esto es algo que se pasa cuando el remitente posee tokens. Entonces se permite solo una vez que la entidad gestora de tokens cree un nuevo voto.</p>
 <h2 id="2-capacidad-de-actualizacion">2. Capacidad de actualización</h2>
-<p>La capacidad de actualización del sistema se consigue mediante el uso del patrón <a href="https://github.com/aragon/aragon-core/blob/dev/contracts/common/DelegateProxy.sol"><code>DelegateProxy</code></a>. El Kernel y las Aplicaciones (<code>KernelProxy</code> y <code>AppProxy</code>) usan el DelegateProxy con algunas ligeras modificaciones.</p>
+<p>La capacidad de actualización del sistema se consigue mediante el uso del patrón <a href="https://github.com/aragon/aragonOS/blob/dev/contracts/common/DelegateProxy.sol"><code>DelegateProxy</code></a>. El Kernel y las Aplicaciones (<code>KernelProxy</code> y <code>AppProxy</code>) usan el DelegateProxy con algunas ligeras modificaciones.</p>
 <p><center><img src="../../images/aragonos/delegateproxy.png"></center></p>
 <p>Dada la ejecución de nuevas versiones de aplicaciones o del kernel en el mismo contexto exacto que las versiones anteriores, la disposición del almacenamiento anterior tiene que ser tomada en consideración. Heredar del alamacenamiento del contrato anterior antes de añadir nuevas variables de almacenamiento es considerado una práctica segura. Es recomendado asegurarse de que la actualización no rompe el almacenamiento antes de desplegar la nueva versión. Trabajaremos en herramientas que prevengan problemas con el almacenamiento durante una actualización.</p>
 <h3 id="21-capacidad-de-actualizacion-del-kernel">2.1. Capacidad de actualización del Kernel</h3>
-<p>Para que el <a href="#1-kernel-and-the-access-control-list">Kernel</a> sea fácilmente actualizable, rápidamente desplegable, y más eficiente, usamos un constructo tipo proxy. El despliegue de una nueva DAO se consigue mediante el despliegue de un contrato <a href="https://github.com/aragon/aragon-core/blob/dev/contracts/kernel/KernelProxy.sol"><code>KernelProxy</code></a> que simplemente delega todas las llamadas a una implementacion de un kernel en una dirección dada, mientras que sigue manteniendo su propio alamacenamiento. La actualización de la implementación del kernel en el proxy es tan fácil como cambiar su referencia a otra dirección de implementación. Incluso aunque esta acción es bastante fácil de completar, es extremadamente crítica para la DAO y debería ser protegida en concordancia.</p>
+<p>Para que el <a href="#1-kernel-and-the-access-control-list">Kernel</a> sea fácilmente actualizable, rápidamente desplegable, y más eficiente, usamos un constructo tipo proxy. El despliegue de una nueva DAO se consigue mediante el despliegue de un contrato <a href="https://github.com/aragon/aragonOS/blob/dev/contracts/kernel/KernelProxy.sol"><code>KernelProxy</code></a> que simplemente delega todas las llamadas a una implementacion de un kernel en una dirección dada, mientras que sigue manteniendo su propio alamacenamiento. La actualización de la implementación del kernel en el proxy es tan fácil como cambiar su referencia a otra dirección de implementación. Incluso aunque esta acción es bastante fácil de completar, es extremadamente crítica para la DAO y debería ser protegida en concordancia.</p>
 <h3 id="22-capacidad-de-actualizacion-del-espacio-de-aplicaciones">2.2. Capacidad de actualización del espacio de aplicaciones</h3>
 <p>Como las aplicaciones pueden ser usadas como entidades (p.ej. una voting app), es importante que cada aplicación sea capaz de mantener su dirección fija, para así mantener su identidad incluso si hay cambios de actualización por debajo de la lógica. Esto es para mantener los permisos sin cambios a nivel de kernel con las actualizaciones.</p>
-<p>Una idea de como esto puede ser conseguido es a través del concepto de un contrato <a href="https://github.com/aragon/aragon-core/blob/dev/contracts/apps/AppProxy.sol"><code>AppProxy</code></a> (inspirado por el <a href="https://github.com/AugurProject/augur-core/blob/develop/source/contracts/libraries/Delegator.sol">augur-core’s <code>Delegators</code></a>). El despliegue de una aplicación via un contrato <code>AppProxy</code> solo requiere una referencia al Kernel y a la identificación de la aplicación. Cuando una aplicación recibe una llamada, es interceptada por la función callback del proxy. En este punto, el proxy pregunta al Kernel por las últimas direcciones del código de la aplicación para un identificador de aplicación dado y versión. El contrato AppProxy entonces reenvía la llamada <code>delegatecall</code> hacia su dirección, asegurándose de que la última versión de la aplicación está siempre corriendo.</p>
+<p>Una idea de como esto puede ser conseguido es a través del concepto de un contrato <a href="https://github.com/aragon/aragonOS/blob/dev/contracts/apps/AppProxy.sol"><code>AppProxy</code></a> (inspirado por el <a href="https://github.com/AugurProject/augur-core/blob/develop/source/contracts/libraries/Delegator.sol">augur-core’s <code>Delegators</code></a>). El despliegue de una aplicación via un contrato <code>AppProxy</code> solo requiere una referencia al Kernel y a la identificación de la aplicación. Cuando una aplicación recibe una llamada, es interceptada por la función callback del proxy. En este punto, el proxy pregunta al Kernel por las últimas direcciones del código de la aplicación para un identificador de aplicación dado y versión. El contrato AppProxy entonces reenvía la llamada <code>delegatecall</code> hacia su dirección, asegurándose de que la última versión de la aplicación está siempre corriendo.</p>
 <p><center><img src="../../images/aragonos/appproxy_delegatecall.png"></center></p>
 <p>Dado que el Kernel mantiene un registro centralizado de la última versión del código para cada identificador de aplicación, el cambio de una referencia en el Kernel actualiza de manera efectiva todas las instancias de esa aplicación en las organizaciones que dependen del mismo Kernel. Estas actualizaciones podrían ser delegadas a otro contrato, Aragon Network, en caso de organizaciones que no quieran encargarse de la actualización manual de sus propias aplicaciones.</p>
 <pre><code>kernel.setAppCode(bytes32 appId, address appCode)
@@ -2354,7 +2354,7 @@ Nótese que el escalado de permisos puede ocurrir instantáneamente o puede retr
 
 <p>Esta acción actualiza el código de implementación registrado para un <code>appId</code> dado. Esto actualiza efectivamente la aplicación en todas las organizaciones que dependen del mismo Kernel. Si un <code>appId</code>no ha sido establecido para ese <code>appCode</code>, todas las llamadas a una aplicación fallarán.</p>
 <h2 id="3-inicializacion">3. Inicialización</h2>
-<p>Los contratos que se despliegan no contienen ninguna lógica de negocio para el componente. Esto es debido a que el Kernel y las Aplicaciones dependen de una arquitectura tipo Proxy para su actualización. </p>
+<p>Los contratos que se despliegan no contienen ninguna lógica de negocio para el componente. Esto es debido a que el Kernel y las Aplicaciones dependen de una arquitectura tipo Proxy para su actualización.</p>
 <p>Esto impide la habilidad de llamar al constructor. Los constructures solo son ejecutados en la creación de un contrato pero no son almacenados como parte del código de cuenta.</p>
 <p>La inicialización es realizada mediante una 'función regular' quedebería ser llamada solo después de que un contrato <code>AppProxy</code> sea desplegado. Para impedir ataques en los que el actor malicioso intenta hacer frente a una transacción de inicialización entre el despliegue y la transacción legítima de inicialización, el <code>AppProxy</code> te permite pasar sólo la carga de pago de inicialización que será ejecutada durante el despliegue, permitiendo la inicialización atómica de las aplicaciones.</p>
 <p>Es importante resaltar que esta función de inicialización puede ser llamada solo una vez por proxy. En vez de simplemente guardar un buleano cuando un componente ha sido inicializado, nosotros almacenamos un número de bloque cuando la inicialización ha ocurrido. Los clientes puede usar esto para saber desde qué bloque deberían filtrar para eventos.</p>

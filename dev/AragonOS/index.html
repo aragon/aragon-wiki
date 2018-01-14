@@ -723,11 +723,11 @@
       <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3-3" type="checkbox" id="nav-3-3">
     
     <label class="md-nav__link" for="nav-3-3">
-      aragon-core
+      aragonOS
     </label>
     <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
       <label class="md-nav__title" for="nav-3-3">
-        aragon-core
+        aragonOS
       </label>
       <ul class="md-nav__list" data-md-scrollfix>
         
@@ -738,7 +738,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../aragon-core_home/" title="Overview" class="md-nav__link">
+    <a href="../aragonOS_index/" title="Overview" class="md-nav__link">
       Overview
     </a>
   </li>
@@ -750,7 +750,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../aragon-core_how_to_contribute/" title="How to contribute" class="md-nav__link">
+    <a href="../aragonOS_how_to_contribute/" title="How to contribute" class="md-nav__link">
       How to contribute
     </a>
   </li>
@@ -2303,7 +2303,7 @@
                 
                 <p><center></p>
 <h1 id="aragonos">AragonOS</h1>
-<p><em>Reflects <a href="https://github.com/aragon/aragon-core">aragon-core</a> 2.0.1 implementation. Updated Jan. 2nd, 2018.</em></p>
+<p><em>Reflects <a href="https://github.com/aragon/aragonOS">aragonOS</a> 2.0.1 implementation. Updated Jan. 14th, 2018.</em></p>
 <p>An <a href="https://en.wikipedia.org/wiki/Exokernel">exokernel</a>-inspired architecture for modular, upgradeable, and secure DAOs
 </center></p>
 <h2 id="introduction">Introduction</h2>
@@ -2315,7 +2315,7 @@
 <h2 id="1-kernel-and-the-access-control-list">1. Kernel and the Access Control List</h2>
 <p>The <strong>Access Control List</strong> (ACL) is the filter which determines whether an <a href="#entity">entity</a> has a certain role in the context of an app. It either permits or prohibits performing actions, such as an update, in a given context, as well as determining the entities with power over that permission.</p>
 <p>The ACL permissioning system is inspired by UNIX. ACLs control the permissions afforded to a user in the system and can ease the transfer of said permissions. Similar to the <code>sudo</code> command in UNIX, users can escalate permissions, but with more flexibility and granularity.</p>
-<p>A reference implementation of the Kernel and its ACL can be found here: <a href="https://github.com/aragon/aragon-core/blob/dev/contracts/kernel/Kernel.sol"><code>Kernel.sol</code></a>.</p>
+<p>A reference implementation of the Kernel and its ACL can be found here: <a href="https://github.com/aragon/aragonOS/blob/dev/contracts/kernel/Kernel.sol"><code>Kernel.sol</code></a>.</p>
 <h3 id="apps-and-actions">Apps and Actions</h3>
 <p><strong>App</strong>s are smart contracts that rely on the Kernel—the core of the operating system—for maintaining their ACL and upgrading their code. Apps can interact with users and other smart contracts by implementing <strong>Action</strong>s, where each action is a publicly-accessible function that may or may not be protected by the ACL. Any actions that are protected are only allowed to be executed if the caller is permitted by the ACL. Because apps are upgradeable, we expect them to exist for a long period of time and be safely responsible for owning assets on behalf of the DAO (e.g. tokens and ENS names).</p>
 <p>App instances are identified by their deployed Ethereum addresses. More than one instance of a particular app can be installed in a DAO at a time (e.g. multiple <a href="../apps/token-manager">Token Manager</a> instances can be installed to control multiple tokens).</p>
@@ -2391,7 +2391,7 @@
 </ol>
 <p>Note that the Voting app is also able to revoke or regrant the <code>TRANSFER_TOKENS_ROLE</code> permission as it is that permission's manager on <code>vaultAppAddress</code>.</p>
 <h4 id="adding-permissions">Adding Permissions</h4>
-<p>Apps have the choice of which actions to protect behind the ACL, as some actions may make sense to be completely public. Protecting an action behind the ACL is done in the smart contract by simply adding the authentication modifier <a href="https://github.com/aragon/aragon-core/blob/a1b6694cdb33443c6ad8f2a8fd3badf82dbd720a/contracts/apps/App.sol#L6"><code>auth()</code></a> (passing the role required as a parameter) to the action. On executing the action, the <code>auth()</code> modifier checks with the Kernel whether the entity performing the call holds the required role or not.</p>
+<p>Apps have the choice of which actions to protect behind the ACL, as some actions may make sense to be completely public. Protecting an action behind the ACL is done in the smart contract by simply adding the authentication modifier <a href="https://github.com/aragon/aragonOS/blob/a1b6694cdb33443c6ad8f2a8fd3badf82dbd720a/contracts/apps/App.sol#L6"><code>auth()</code></a> (passing the role required as a parameter) to the action. On executing the action, the <code>auth()</code> modifier checks with the Kernel whether the entity performing the call holds the required role or not.</p>
 <h4 id="escalating-permissions">Escalating Permissions</h4>
 <p>Consider kernel <strong>K</strong>, an entity <strong>E</strong><em>0</em>, and an app <strong>A</strong>. <strong>E</strong><em>0</em> wants to perform action <strong>A</strong><em>act</em> on app <strong>A</strong>. The client knows, from <a href="#additional-packaging-requirements">information provided as part of the app's metadata</a>, that in order to perform <strong>A</strong><em>act</em>, an entity is required to have <strong>A</strong><em>role</em>. Since <strong>E</strong><em>0</em> doesn't hold <strong>A</strong><em>role</em>, the client should know that <strong>E</strong><em>0</em> cannot directly call <strong>A</strong><em>act</em>, but that a list of entities [<strong>E</strong><em>1</em>, <strong>E</strong><em>2</em>, ...] do have that role on app <strong>A</strong>. The client should then show the user the multiple possible forwarding paths to pass the call to <strong>E</strong><em>1</em>, <strong>E</strong><em>2</em>, etc, such that <strong>E</strong><em>0</em> is able to perform <strong>A</strong><em>act</em> through another, higher-privileged, entity.</p>
 <p>Calculating a forwarding path requires knowing what <a href="#forwarders">forwarders</a> entity <strong>E</strong><em>0</em> can escalate actions through. The user or contract performing this action could then choose their preferred route to forward permissions in order to perform <strong>A</strong><em>act</em>. For example, <strong>E</strong><em>1</em> may be a Voting app <strong>V</strong>, so the action would be to create a new vote that, in case of being approved, would call <strong>A</strong><em>act</em>. Since <strong>V</strong> has role <strong>A</strong><em>role</em>, it has permission to execute <strong>A</strong><em>act</em>, and therefore we would have successfully completed a permission escalation.</p>
@@ -2413,17 +2413,17 @@
 <p>An <code>evmCallScript</code> is the concatenation of multiple <code>evmCallAction</code>s. A <code>evmCallAction</code> payload is:</p>
 <p><code>[ to (address: 20 bytes) ] [ calldataLength (uint32: 4 bytes)  ] [ calldata (calldataLength bytes) ]</code></p>
 <p>When executed, actions in the <code>evmCallScript</code> are executed one at a time using the <code>CALL</code> opcode. If any one of the actions fails (i.e. <code>CALL</code> returns 0), the entire execution is reverted.</p>
-<p>A reference implementation for EVM Call Script can be found here: <a href="https://github.com/aragon/aragon-core/blob/dev/contracts/common/EVMCallScript.sol"><code>EVMCallScript.sol</code></a>.</p>
+<p>A reference implementation for EVM Call Script can be found here: <a href="https://github.com/aragon/aragonOS/blob/dev/contracts/common/EVMCallScript.sol"><code>EVMCallScript.sol</code></a>.</p>
 <h2 id="2-upgradeability">2. Upgradeability</h2>
-<p>Upgradeability of the system is achieved by using the <a href="https://github.com/aragon/aragon-core/blob/dev/contracts/common/DelegateProxy.sol"><code>DelegateProxy</code></a> pattern. Kernel and apps (<a href="#21-kernel-upgradeability"><code>KernelProxy</code></a> and <a href="#22-app-space-upgradeability"><code>AppProxy</code></a>) both use <code>DelegateProxy</code> with some added functionality.</p>
+<p>Upgradeability of the system is achieved by using the <a href="https://github.com/aragon/aragonOS/blob/dev/contracts/common/DelegateProxy.sol"><code>DelegateProxy</code></a> pattern. Kernel and apps (<a href="#21-kernel-upgradeability"><code>KernelProxy</code></a> and <a href="#22-app-space-upgradeability"><code>AppProxy</code></a>) both use <code>DelegateProxy</code> with some added functionality.</p>
 <p><center><img src="../../images/aragonos/delegateproxy.png"></center></p>
 <p>Given that new versions of apps or the kernel run in the exact same context as previous versions, the old storage layout must be taken into account. Inheriting from the old contract's storage before adding new storage variables is considered a safe practice. It is recommended to make sure the upgrade doesn't break the storage before pushing a new version. We will work on tooling to prevent issues with storage when upgrading.</p>
 <h3 id="21-kernel-upgradeability">2.1. Kernel upgradeability</h3>
-<p>For the <a href="#1-kernel-and-the-access-control-list">Kernel</a> to be easily upgradeable, cheaply deployable, and more efficient, we use a proxy-type construct. Deploying a new DAO is done by deploying a <a href="https://github.com/aragon/aragon-core/blob/dev/contracts/kernel/KernelProxy.sol"><code>KernelProxy</code></a> contract that just delegates all calls to a kernel implementation at a given address, while still maintaining its own storage. Upgrading the kernel implementation in the proxy is as easy as changing its reference to another implementation's address.</p>
+<p>For the <a href="#1-kernel-and-the-access-control-list">Kernel</a> to be easily upgradeable, cheaply deployable, and more efficient, we use a proxy-type construct. Deploying a new DAO is done by deploying a <a href="https://github.com/aragon/aragonOS/blob/dev/contracts/kernel/KernelProxy.sol"><code>KernelProxy</code></a> contract that just delegates all calls to a kernel implementation at a given address, while still maintaining its own storage. Upgrading the kernel implementation in the proxy is as easy as changing its reference to another implementation's address.</p>
 <p>Note that, although this action is fairly easy to complete, it is extremely critical to the DAO and should be protected accordingly.</p>
 <h3 id="22-app-space-upgradeability">2.2. App-space upgradeability</h3>
 <p>As apps can be used as entities (e.g. a voting app), it is important that each app is able to keep its address fixed to maintain its identity even if an upgrade changes the underlying logic. Keeping a fixed address also simplifies the upgrade process—otherwise, each upgrade would also require any associated permissions in the ACL to be updated to the app's new address.</p>
-<p>One way of achieving this is through the concept of an <a href="https://github.com/aragon/aragon-core/blob/dev/contracts/apps/AppProxy.sol"><code>AppProxy</code></a> contract (inspired by <a href="https://github.com/AugurProject/augur-core/blob/develop/source/contracts/libraries/Delegator.sol">augur-core’s <code>Delegators</code></a>). Deploying an app via an <code>AppProxy</code> contract only requires a reference to the Kernel and the app identifier. When the app receives a call, it gets intercepted by the proxy's fallback function. At this point, the proxy asks the Kernel for the latest address of the app code for a given app identifier and version. The AppProxy contract then forwards the call by <code>delegatecall</code>ing into this address.</p>
+<p>One way of achieving this is through the concept of an <a href="https://github.com/aragon/aragonOS/blob/dev/contracts/apps/AppProxy.sol"><code>AppProxy</code></a> contract (inspired by <a href="https://github.com/AugurProject/augur-core/blob/develop/source/contracts/libraries/Delegator.sol">augur-core’s <code>Delegators</code></a>). Deploying an app via an <code>AppProxy</code> contract only requires a reference to the Kernel and the app identifier. When the app receives a call, it gets intercepted by the proxy's fallback function. At this point, the proxy asks the Kernel for the latest address of the app code for a given app identifier and version. The AppProxy contract then forwards the call by <code>delegatecall</code>ing into this address.</p>
 <p><center><img src="../../images/aragonos/appproxy_delegatecall.png"></center></p>
 <p>It should be noted that multiple <code>AppProxy</code> contracts can be installed in a DAO for the same app identifier (e.g. multiple <a href="../apps/fundraising">Fundraising</a> <code>AppProxy</code> instances can be attached to the same Kernel to control multiple types of funding). As the Kernel keeps a centralized record of the latest version of the code for each app identifier, changing one reference in the Kernel effectively updates all instances of that app in that organization. These upgrades could then be delegated to another contract, e.g. the Aragon Network, in case organizations don’t want to handle manual upgrades of their own apps.</p>
 <h4 id="set-app-code">Set App Code</h4>
@@ -2517,7 +2517,7 @@
           </a>
         
         
-          <a href="../aragon-core_home/" title="Overview" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+          <a href="../aragonOS_index/" title="Overview" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
             <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
               <span class="md-flex__ellipsis">
                 <span class="md-footer-nav__direction">
