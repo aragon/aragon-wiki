@@ -32,6 +32,7 @@ pages:
   - Home: 'index.md'
   - Documentation:
     - Whitepaper: 'documentation/whitepaper.md'
+    - aragonOS: 'documentation/aragonOS.md'
     - Governance:
       - AGP2 - Community Governance Model: 'documentation/Community_Governance_Model.md'
       - AGP5 - Migration to Open Source Messaging Platform: 'documentation/Migration_to_Open_Source_Messaging_Platform.md'
@@ -47,7 +48,6 @@ pages:
       - Audit 01 by Adam Dossa: 'documentation/audits/audit01_report_dossa.md'
   - Development:
     - Overview: 'dev/index.md'
-    - AragonOS: 'dev/AragonOS.md'
     - aragonOS:
       - Overview: 'dev/aragonOS_index.md'
       - How to contribute: 'dev/aragonOS_how_to_contribute.md'
@@ -136,5 +136,5 @@ pages:
   - Translations:
     - Spanish:
       - Hola: 'translations/spanish/index.md'
-      - AragonOS: 'translations/spanish/aragonos.md'
+      - aragonOS: 'translations/spanish/aragonos.md'
       - Development Plan: 'translations/spanish/devplan.md'

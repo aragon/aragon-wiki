@@ -1,5 +1,5 @@
 <center>
-# AragonOS
+# aragonOS
 
 *Reflects [aragonOS](https://github.com/aragon/aragonOS) 2.0.1 implementation. Updated Jan. 14th, 2018.*
 
@@ -14,9 +14,9 @@ Smart contracts, an essential component of the Ethereum ecosystem, can define th
 
 So, how does one guarantee DAOs that run efficiently and securely? And how do we provide upgrading capabilities to these DAOs, to ensure the safety and evolution of the Ethereum ecosystem?
 
-We present our secure decentralized operating system: _AragonOS_.
+We present our secure decentralized operating system: _aragonOS_.
 
-This document provides a technical overview about the architecture. For a less technically-oriented introduction to AragonOS, you can check the [announcement blogpost](https://blog.aragon.one/introducing-aragonos-say-hi-to-modular-and-extendable-organizations-8555af1076f3).
+This document provides a technical overview about the architecture. For a less technically-oriented introduction to aragonOS, you can check the [announcement blog post](https://blog.aragon.one/introducing-aragonos-say-hi-to-modular-and-extendable-organizations-8555af1076f3).
 
 ## 1. Kernel and the Access Control List
 

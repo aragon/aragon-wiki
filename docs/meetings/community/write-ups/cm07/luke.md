@@ -3,8 +3,8 @@
 ### Luke - Research Lead
 
 #### Aragon Research Project
-- Coordinating cross-project collaboration on AragonOS compatible implementations of Token Curated Registries and Liquid Democracy.
-- Created [labs repo](https://github.com/aragon/labs) for tracking research proposals   
+- Coordinating cross-project collaboration on aragonOS compatible implementations of Token Curated Registries and Liquid Democracy.
+- Created [labs repo](https://github.com/aragon/labs) for tracking research proposals
 
 #### Proposals
 - [ALP01: Carbon Feedback for github issues](https://github.com/aragon/labs/issues/1)
@@ -24,10 +24,9 @@
 ### Next
 
 #### Aragon Research Project
-- Project kickoff and public timeline for TCR and Liquid Democracy working group. 
+- Project kickoff and public timeline for TCR and Liquid Democracy working group.
 - Work on improving community involvement and engagement in the labs process
 
 #### Research
 - Continue ongoing research efforts
 - Experiment with Signaling/CarbonFeedback dapp
-

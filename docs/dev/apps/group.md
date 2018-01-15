@@ -40,7 +40,7 @@ At any time group membership for any entity can be checked by calling this metho
 
 #### Forwarding
 
-[Forwarding](../AragonOS/#forwarders) using the common interface executes the provided [EVM call script](../AragonOS/#evm-call-script) if the sender is a member of the group.
+[Forwarding](../../documentation/aragonOS/#forwarders) using the common interface executes the provided [EVM call script](../../documentation/aragonOS/#evm-call-script) if the sender is a member of the group.
 
 ### Future improvements
 

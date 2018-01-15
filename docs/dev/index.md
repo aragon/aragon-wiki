@@ -15,7 +15,7 @@ What it provides:
 
 * A way for developers to create *raw* transactions that are externally signed
 
-    * Permission escalation as defined in AragonOS is handled in this step
+    * Permission escalation as defined in aragonOS is handled in this step
 
 * A way for developers to see, install and uninstall applications (through an API in the wrapper)
 
@@ -125,7 +125,7 @@ Components list (temporary names):
 
 Contracts that implement the Aragon Package Manager spec and the Aragon Versioning Protocol.
 
-The Aragon Package Manager allows for management and discoverability of applications to be run in the context of AragonOS organizations.
+The Aragon Package Manager allows for management and discoverability of applications to be run in the context of aragonOS organizations.
 
 Its main goals are:
 
@@ -133,7 +133,7 @@ Its main goals are:
 
 * Update publishing in a secure way. Leveraging Ethereum accounts for authentication, allows to use complex governance mechanisms to push updates.
 
-* Finding the client-side counterparty to a smart contract. If a smart contract exposes a reference to the package (appId concept in AragonOS), the Package Manager can be used to look-up for the dApp frontend code for that version of the smart contract.
+* Finding the client-side counterparty to a smart contract. If a smart contract exposes a reference to the package (appId concept in aragonOS), the Package Manager can be used to look-up for the dApp frontend code for that version of the smart contract.
 
 ## [aragon-apps](https://github.com/aragon/aragon-apps)
 *Owned by [izqui](http://github.com/izqui) et al.*

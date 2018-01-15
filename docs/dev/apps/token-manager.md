@@ -131,7 +131,7 @@ For every vesting, the amount:
 
 Token Manager allows holders of its underlying token to execute external actions by identifying themselves as token holders. This can be used for allowing token holders to perform a particular action in the DAO (e.g create a vote) without the ACL having to know anything about tokens.
 
-For this, Token Manager conforms to the [AragonOS Forwarder interface](../AragonOS/#forwarders) and forwards calls to holders that own at least one token.
+For this, Token Manager conforms to the [aragonOS Forwarder interface](../../documentation/aragonOS/#forwarders) and forwards calls to holders that own at least one token.
 
 ### Limitations
 

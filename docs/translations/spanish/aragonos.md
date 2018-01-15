@@ -1,5 +1,5 @@
 <center>
-# AragonOS
+# aragonOS
 
 *Refleja la implememtación [aragonOS](https://github.com/aragon/aragonOS) 2.0.1. Actualizado el 4 de Diciembre de 2017.*
 
@@ -14,9 +14,9 @@ Los contratos inteligentes pueden definir las reglas y sanciones alrededor de un
 
 Entonces, ¿cómo podemos garantizar que las DAOs funcionan de forma eficiente y segura? Y, ¿con capacidades de actualización, manteniendo la seguridad y la evolución del ecosistema Ethereum?
 
-Presentamos nuestro sistema operativo seguro y descentralizado: _AragonOS_.
+Presentamos nuestro sistema operativo seguro y descentralizado: _aragonOS_.
 
-Este documento provee una revisión técnica acerca de su arquitectura. Para una introducción menos técnica orientada a AragonOS puedes revisar el [announcement blogpost](https://blog.aragon.one/introducing-aragonos-say-hi-to-modular-and-extendable-organizations-8555af1076f3).
+Este documento provee una revisión técnica acerca de su arquitectura. Para una introducción menos técnica orientada a aragonOS puedes revisar el [announcement blogpost](https://blog.aragon.one/introducing-aragonos-say-hi-to-modular-and-extendable-organizations-8555af1076f3).
 
 ## 1. Kernel y Lista de Control de Acceso
 
