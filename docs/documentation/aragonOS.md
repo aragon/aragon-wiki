@@ -30,7 +30,7 @@ A reference implementation of the Kernel and its ACL can be found here: [`Kernel
 
 **App**s are smart contracts that rely on the Kernel—the core of the operating system—for maintaining their ACL and upgrading their code. Apps can interact with users and other smart contracts by implementing **Action**s, where each action is a publicly-accessible function that may or may not be protected by the ACL. Any actions that are protected are only allowed to be executed if the caller is permitted by the ACL. Because apps are upgradeable, we expect them to exist for a long period of time and be safely responsible for owning assets on behalf of the DAO (e.g. tokens and ENS names).
 
-App instances are identified by their deployed Ethereum addresses. More than one instance of a particular app can be installed in a DAO at a time (e.g. multiple [Token Manager](./apps/token-manager) instances can be installed to control multiple tokens).
+App instances are identified by their deployed Ethereum addresses. More than one instance of a particular app can be installed in a DAO at a time (e.g. multiple [Token Manager](../dev/apps/token-manager) instances can be installed to control multiple tokens).
 
 ### Roles
 
@@ -55,7 +55,7 @@ contract TokenApp is App {
 
 An **Entity** is any actor that is represented by an Ethereum address, such as a multisig (an account that needs multiple signatures before executing an action), an app (for example, a voting app that only executes an action if token holders vote favorably), or a simple private key controlled account.
 
-The system can delegate permissions to groups of entities by implementing a [Group app](apps/group.md). As in other apps, it can rely on the ACL for protecting important functions, such as adding or removing members of the group. When group members want to execute a specific action, the Group app acts as a proxy contract that performs the action on behalf of the group.
+The system can delegate permissions to groups of entities by implementing a [Group app](../dev/apps/group.md). As in other apps, it can rely on the ACL for protecting important functions, such as adding or removing members of the group. When group members want to execute a specific action, the Group app acts as a proxy contract that performs the action on behalf of the group.
 
 ### Permissions
 
@@ -127,7 +127,7 @@ ChangePermissionManager(address indexed app, bytes32 indexed role, address index
 
 #### Example
 
-As an example, the following steps show a complete flow for user "Root" to create a new DAO with the basic permissions set so that a [Voting app](apps/voting.md) can manage the funds stored in a [Vault app](apps/vault.md):
+As an example, the following steps show a complete flow for user "Root" to create a new DAO with the basic permissions set so that a [Voting app](../dev/apps/voting.md) can manage the funds stored in a [Vault app](../dev/apps/vault.md):
 
 1. Deploy the Kernel
 2. Executing `kernel.initialize(rootAddress)` creates the "permissions creator" permission under the hood:
@@ -153,7 +153,7 @@ Consider kernel **K**, an entity **E**_0_, and an app **A**. **E**_0_ wants to p
 
 Calculating a forwarding path requires knowing what [forwarders](#forwarders) entity **E**_0_ can escalate actions through. The user or contract performing this action could then choose their preferred route to forward permissions in order to perform **A**_act_. For example, **E**_1_ may be a Voting app **V**, so the action would be to create a new vote that, in case of being approved, would call **A**_act_. Since **V** has role **A**_role_, it has permission to execute **A**_act_, and therefore we would have successfully completed a permission escalation.
 
-Permission escalations can be multiple levels deep. For example, imagine a user wants to invoke an action that requires a vote. If the only entity with permission to create a vote is the [Token Manager app](./apps/token-manager), then the user will have to forward their action first through the Token Manager and then through the Voting app. The Token Manager only allows a sender to forward actions if the sender owns tokens, so in this case, the user will also need to hold tokens before being able to start a vote.
+Permission escalations can be multiple levels deep. For example, imagine a user wants to invoke an action that requires a vote. If the only entity with permission to create a vote is the [Token Manager app](../dev/apps/token-manager), then the user will have to forward their action first through the Token Manager and then through the Voting app. The Token Manager only allows a sender to forward actions if the sender owns tokens, so in this case, the user will also need to hold tokens before being able to start a vote.
 
 Note that a permission escalation can occur instantly or be delayed and require further action from other entities, like in the case of the Voting app.
 
