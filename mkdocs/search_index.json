@@ -3137,7 +3137,7 @@
         }, 
         {
             "location": "/blog/2018/", 
-            "text": "Aragon blog posts 2018\n\n\nJanuary\n\n\nAragon Q4 Development Update\n\n\nProgress of development from the last quarter of 2017\n\n\n\n\nIn the last quarter of 2017 we were heads down developing everything for the version 0.5 release of the Aragon Core app.\n\n\n\n\nAragon Team Update: December 2017\n\n\nWritten reviews of what the team members have been up to\n\n\n\n\nTeam members will produce a write-up of the most important things they have worked on since last Community Meeting, the problems they have found and what they plan to do in the next weeks (that can be a bit blurry, and that\u2019s fine). These write-ups will be published as a blog post for the community to review on Monday before Friday\u2019s meeting.", 
+            "text": "Aragon blog posts 2018\n\n\nJanuary\n\n\nAragon Q4 Transparency Report\n\n\nA recap of what has been going on with Aragon during Q4 2017\n\n\n\n\nAs per our Transparency Model, we do quarterly Transparency Reports of our use of funds and about the overall progress of the project.\n\n\n\n\nAragon Q4 Development Update\n\n\nProgress of development from the last quarter of 2017\n\n\n\n\nIn the last quarter of 2017 we were heads down developing everything for the version 0.5 release of the Aragon Core app.\n\n\n\n\nAragon Team Update: December 2017\n\n\nWritten reviews of what the team members have been up to\n\n\n\n\nTeam members will produce a write-up of the most important things they have worked on since last Community Meeting, the problems they have found and what they plan to do in the next weeks (that can be a bit blurry, and that\u2019s fine). These write-ups will be published as a blog post for the community to review on Monday before Friday\u2019s meeting.", 
             "title": 2018
         }, 
         {
@@ -3149,6 +3149,11 @@
             "location": "/blog/2018/#january", 
             "text": "", 
             "title": "January"
+        }, 
+        {
+            "location": "/blog/2018/#aragon-q4-transparency-report", 
+            "text": "A recap of what has been going on with Aragon during Q4 2017   As per our Transparency Model, we do quarterly Transparency Reports of our use of funds and about the overall progress of the project.", 
+            "title": "Aragon Q4 Transparency Report"
         }, 
         {
             "location": "/blog/2018/#aragon-q4-development-update", 
