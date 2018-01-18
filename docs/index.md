@@ -2,16 +2,16 @@
 
 ![](images/logo_text_right_dark.png)
 
-We believe [Decentralized organizations can solve the world’s worst problems](https://blog.aragon.one/decentralized-organizations-can-solve-the-worlds-worst-problems-840db6255d12). That's why we are building Aragon.
+We believe [decentralized organizations can solve the world’s worst problems](https://blog.aragon.one/decentralized-organizations-can-solve-the-worlds-worst-problems-840db6255d12). That's why we are building Aragon.
 
 This wiki for the Aragon Project contains much of the content and resources available publicly.
 
-If you feel like contributing to the wiki, like changing or adding things, feel free to submit a [Pull Request](https://github.com/aragon/aragon-wiki/pulls) at [https://github.com/aragon/aragon-wiki](https://github.com/aragon/aragon-wiki)
+If you feel like contributing to the wiki, like changing or adding things, feel free to create an [Issue](https://github.com/aragon/aragon-wiki/issues) or submit a [Pull Request](https://github.com/aragon/aragon-wiki/pulls) at [https://github.com/aragon/aragon-wiki](https://github.com/aragon/aragon-wiki).
 
 For our website visit [aragon.one](https://aragon.one).
 
 ## What does the wiki contain?
-Here's a brief summary of the contents:
+You can use the menu to the left to navigate the wiki. Here is a brief summary of the contents:
 
 - Documentation
 
@@ -90,9 +90,9 @@ Aragon organizations can be upgraded seamlessly using our aragonOS architecture.
 
 The Aragon Network Token, ANT, puts the power into the hands of the people participating in the operation of the Network. Every single aspect of the Network will be governed by those willing to make an effort for a better future.
 
-### Aragon Core
+## Aragon Core
 
-<h2>Decentralized application to run your organization</h2>
+<h3>Decentralized application to run your organization</h3>
 
 <h4 style="color:#00CBE6;">TRANSFER TOKENS</h4>
 **Tokens represent your stake in the organization**
@@ -132,9 +132,9 @@ Permissions can be granular and assigned in fine detail. You can choose to give 
 
 By assigning different permissions to people, you can create the kind of organizational structure that is best suited for your needs.
 
-### Aragon Network
+## Aragon Network
 
-<h2>Ensuring the success of decentralized organizations</h2>
+<h3>Ensuring the success of decentralized organizations</h3>
 
 **Putting the power back into the hands of the users**
 
@@ -149,9 +149,9 @@ Our mission is to make the Aragon Network an autonomous organization itself, whi
 
 [Aragon Governance Proposals](https://github.com/aragon/governance/issues) is a system for community members to join the discussion and create proposals affecting Aragon.
 
-Everyone is welcome to [join in and aid](https://github.com/aragon/governance/issues) in forging the future of how Aragon will shape out to be. Together we can build the exciting future which we want.
+Everyone is welcome to [join in and aid](https://github.com/aragon/governance/issues) in forging the future of how Aragon will shape out to be. Together we can build the exciting future we want to see.
 
-### Why Aragon?
+## Why Aragon?
 
 > Aragon was born to bring transparency and independent governance to the forefront of managing an organization. We want to give the users the freedom they deserve to run their lives.
 
@@ -166,7 +166,19 @@ We believe that the progression of modern technology solutions, such as the inve
 
 Experimenting with new governance models has been a very risky endeavour during previous iterations of society. Now, for the first time in human history, we can let a thousand new governance models emerge, all from the comfort of our laptops.
 
-### Team
+## Community channels
+
+Aragon Chat - https://aragon.chat
+
+Reddit - https://www.reddit.com/r/aragonproject/
+
+Twitter - https://twitter.com/aragonproject
+
+LinkedIn - https://www.linkedin.com/company/aragonproject/
+
+YouTube - https://www.youtube.com/c/AragonProject
+
+## Team
 
 **Founders**
 
