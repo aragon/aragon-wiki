@@ -92,7 +92,7 @@ The Aragon Network Token, ANT, puts the power into the hands of the people parti
 
 ### Aragon Core
 
-<h3>Decentralized application to run your organization</h3>
+<h2>Decentralized application to run your organization</h2>
 
 <h4 style="color:#00CBE6;">TRANSFER TOKENS</h4>
 **Tokens represent your stake in the organization**
@@ -134,7 +134,7 @@ By assigning different permissions to people, you can create the kind of organiz
 
 ### Aragon Network
 
-<h3>Ensuring the success of decentralized organizations</h3>
+<h2>Ensuring the success of decentralized organizations</h2>
 
 **Putting the power back into the hands of the users**
 
