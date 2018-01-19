@@ -90,7 +90,7 @@ Aragon organizations can be upgraded seamlessly using our aragonOS architecture.
 
 The Aragon Network Token, ANT, puts the power into the hands of the people participating in the operation of the Network. Every single aspect of the Network will be governed by those willing to make an effort for a better future.
 
-## Aragon Core
+### Aragon Core
 
 <h3>Decentralized application to run your organization</h3>
 
@@ -132,7 +132,7 @@ Permissions can be granular and assigned in fine detail. You can choose to give 
 
 By assigning different permissions to people, you can create the kind of organizational structure that is best suited for your needs.
 
-## Aragon Network
+### Aragon Network
 
 <h3>Ensuring the success of decentralized organizations</h3>
 
@@ -151,7 +151,7 @@ Our mission is to make the Aragon Network an autonomous organization itself, whi
 
 Everyone is welcome to [join in and aid](https://github.com/aragon/governance/issues) in forging the future of how Aragon will shape out to be. Together we can build the exciting future we want to see.
 
-## Why Aragon?
+### Why Aragon?
 
 > Aragon was born to bring transparency and independent governance to the forefront of managing an organization. We want to give the users the freedom they deserve to run their lives.
 
