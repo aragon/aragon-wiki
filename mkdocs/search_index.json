@@ -1537,7 +1537,7 @@
         }, 
         {
             "location": "/design/artwork/", 
-            "text": "Aragon Artwork\n\n\nDifferent kinds of resources, from \nPowered by Aragon\n icons to graphic resources to be used in blog posts etc.\n\n\nGeneral\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAragon Network Token\n\n\n\n\n\n\n\n\n\n\nAragon Network Jurisdiction\n\n\n\n\nAragon Company Registry\n\n\n\n\nAragon Chat\n\n\n\n\nGradient Background", 
+            "text": "Aragon Artwork\n\n\nDifferent kinds of resources, from \nPowered by Aragon\n icons to graphic resources to be used in blog posts etc.\n\n\nGeneral\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAragon Network Token\n\n\n\n\n\n\n\n\n\n\nAragon Network Jurisdiction\n\n\n\n\nAragon Company Registry\n\n\n\n\nAragon Chat\n\n\n\n\nAragon Nest\n\n\n\n\nGradient Background", 
             "title": "Artwork"
         }, 
         {
@@ -1569,6 +1569,11 @@
             "location": "/design/artwork/#aragon-chat", 
             "text": "", 
             "title": "Aragon Chat"
+        }, 
+        {
+            "location": "/design/artwork/#aragon-nest", 
+            "text": "", 
+            "title": "Aragon Nest"
         }, 
         {
             "location": "/design/artwork/#gradient-background", 
