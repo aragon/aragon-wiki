@@ -118,6 +118,16 @@ pages:
       - Press Kit: 'press/press-kit.md'
       - Media Mentions: 'press/media-mentions.md'
       - Contact: 'press/contact.md'
+  - Aragon Nest:
+      - Overview: 'nest/index.md'
+      - Guides:
+        - Guide for submitting a Proposal for a grant: 'nest/guides/guide_for_submitting_a_proposal_for_grants.md'
+        - Guide for submitting a new Request for funding: 'nest/guides/guide_for_submitting_a_request_for_funding.md'
+      - Templates:
+        - New Issue Template: 'nest/templates/ISSUE_TEMPLATE.md'
+        - New Pull Request Template: 'nest/templates/PULL_REQUEST_TEMPLATE.md'
+        - team.md Template: 'nest/templates/team.md'
+        - roadmap.md Template: 'nest/templates/roadmap.md'
   - Archive:
     - Documentation:
       - AGP5 - Rocket Chat comparison: 'archive/documentation/agp5/RocketChat.md'
