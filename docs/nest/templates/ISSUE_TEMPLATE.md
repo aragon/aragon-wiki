@@ -1,7 +1,7 @@
 # New Issue Template
 This is the basic structure you should follow when submitting a new Issue in the [**`aragon/nest` repository**](https://github.com/aragon/nest)
 
-_See the [Guide for submitting a proposal for grants](../Guide_for_submitting_a_proposal_for_grants.md) for further details on submitting a grant proposal_
+_See the [Guide for submitting a proposal for grants](../guides/guide_for_submitting_a_proposal_for_grants.md) for further details on submitting a grant proposal_
 <small>
 ```
 # Aragon Nest Proposal: Eagles on the blockchain

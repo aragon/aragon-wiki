@@ -1,7 +1,7 @@
 # New Pull Request Template
 This is the basic structure you should follow when submitting a new Pull Request in the [**`aragon/nest` repository**](https://github.com/aragon/nest)
 
-_See the [Guide for submitting a new Request for funding](../Guide_for_submitting_a_request_for_funding.md) for further details on submitting a request for funding_
+_See the [Guide for submitting a new Request for funding](../guides/guide_for_submitting_a_request_for_funding.md) for further details on submitting a request for funding_
 <small>
 ```
 # Request for Nest membership and funding (#1)
