@@ -128,6 +128,7 @@ pages:
         - New Pull Request Template: 'nest/templates/PULL_REQUEST_TEMPLATE.md'
         - team.md Template: 'nest/templates/team.md'
         - roadmap.md Template: 'nest/templates/roadmap.md'
+      - FAQ: 'nest/faqs.md'
   - Archive:
     - Documentation:
       - AGP5 - Rocket Chat comparison: 'archive/documentation/agp5/RocketChat.md'
