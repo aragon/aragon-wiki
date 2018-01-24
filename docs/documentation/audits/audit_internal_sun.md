@@ -2,6 +2,8 @@
 
 _This was an internal audit by [Brett Sun/@sohkai](https://github.com/sohkai), Aragon’s EVM Engineer of the `aragonOS` and `aragon-apps` that power the v0.5 release of Aragon._
 
+_[Original report in Github](https://github.com/sohkai/aragonOS/blob/brett-audit/audit.md)_
+
 _Date: Jan 22-23 2018_
 
 ## Overview
