@@ -9,7 +9,7 @@ _Date: Jan 22-23 2018_
 ## Overview
 
 - Reviewed `aragonOS` @ [8073ed1438c5fa65c45bd0c14cc5433e273656f9](https://github.com/aragon/aragonOS/commit/8073ed1438c5fa65c45bd0c14cc5433e273656f9)
-- Reviewed `aragon-apps` @ [e8e931e4ff389bfc6d8682f99c067f808f321366](https://github.com/aragon/aragon-apps/commit/e8e931e4ff389bfc6d8682f99c067f808f321366); linked as [submodule in this repo](./aragon-apps)
+- Reviewed `aragon-apps` @ [e8e931e4ff389bfc6d8682f99c067f808f321366](https://github.com/aragon/aragon-apps/commit/e8e931e4ff389bfc6d8682f99c067f808f321366); linked as submodule in the [repo](https://github.com/sohkai/aragonOS/tree/brett-audit)
     - Will wait until `aragon-apps` is upgraded to `aragonOS 3.0.0` before running Oyente and unit tests as some contracts in `aragonOS` have moved in `3.0.0` (causing compile issues)
 - Slight, non-logical modifications were made to some contracts for running [Solgraph](#solgraph) (see [cd431a899af22b6f67787a8fc6cf7e1c60f8a6a7](https://github.com/sohkai/aragon-apps/commit/cd431a899af22b6f67787a8fc6cf7e1c60f8a6a7)); **these changes should not be adopted**
 - Slight, non-logical modifications were made to some contracts for running [Oyente](#oyente) (see [475b72f81c1a6fd136391ff1bf3a93228fb57d91](https://github.com/sohkai/aragonOS/commit/475b72f81c1a6fd136391ff1bf3a93228fb57d91)); **these changes should not be adopted**
@@ -216,9 +216,9 @@ done
 
 ### Oyente
 
-- In non-lib files, Oyente only reported a single potential error: [EtherToken.sol](./oyente/results/common/EtherToken) (transaction order dependency)
+- In non-lib files, Oyente only reported a single potential error: [EtherToken.sol](https://github.com/sohkai/aragonOS/tree/brett-audit/oyente/results/common) (transaction order dependency)
     - On analysis, this does not seem to be a real problem. The only time re-ordering would have an effect would be if someone tried to take out more than their total balance in multiple (different value) transactions. The total amount withdrawn would be indeterminate but no contract invariants would be invalidated. Re-entrancy shouldn't be a problem either, as all state changes happen before the call to `transfer()`.
-- Oyente also reported a potential re-entrancy error in [MiniMeToken.sol](./oyente/results/lib/minime/MiniMeToken)
+- Oyente also reported a potential re-entrancy error in [MiniMeToken.sol](https://github.com/sohkai/aragonOS/blob/brett-audit/oyente/results/lib/minime/MiniMeToken)
     - On analysis, this does not seem to be a real problem
 - Note that Oyente wasn't able to parse interface files, but even if it could, it wouldn't find any issues in them
 
