@@ -218,13 +218,13 @@ YouTube - https://www.youtube.com/c/AragonProject
 
 &nbsp;
 
->
+> <img src="images/team_members/John_128.png">
 
 > - **Community Lead**: [John Light](https://twitter.com/lightcoin)
 
 &nbsp;
 
->
+> <img src="images/team_members/Alexa_128.png">
 
 > - **Operations Assistant**: [Alexa Weaver](https://twitter.com/alexa_rwr)
 
