@@ -1632,13 +1632,18 @@
         }, 
         {
             "location": "/design/artwork/", 
-            "text": "Aragon Artwork\n\n\nDifferent kinds of resources, from \nPowered by Aragon\n icons to graphic resources to be used in blog posts etc.\n\n\nGeneral\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAragon Network Token\n\n\n\n\n\n\n\n\n\n\nAragon Network Jurisdiction\n\n\n\n\nAragon Company Registry\n\n\n\n\nAragon Chat\n\n\n\n\nAragon Nest\n\n\n\n\nGradient Background", 
+            "text": "Aragon Artwork\n\n\nDifferent kinds of resources, from \nPowered by Aragon\n icons to graphic resources to be used in blog posts etc.\n\n\nPowered by Aragon\n\n\n\n\nContributed by \n@elioqoshi\n\n\nDark Color SVG\n | \nDark Color PNG\n\n\n\n\n\n\n\n\n\n\nDark Monochrome SVG\n | \nDark Monochrome PNG\n\n\n\n\n\n\n\n\n\n\nLight Color SVG\n | \nLight Color PNG\n\n\n\n\n\n\n\n\n\n\nLight Monochrome SVG\n | \nLight Monochrome PNG\n\n\n\n\n\n\nGeneral\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAragon Network Token\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAragon Network Jurisdiction\n\n\n\n\nAragon Company Registry\n\n\n\n\nAragon Chat\n\n\n\n\nAragon Nest\n\n\n\n\nGradient Background", 
             "title": "Artwork"
         }, 
         {
             "location": "/design/artwork/#aragon-artwork", 
             "text": "Different kinds of resources, from  Powered by Aragon  icons to graphic resources to be used in blog posts etc.", 
             "title": "Aragon Artwork"
+        }, 
+        {
+            "location": "/design/artwork/#powered-by-aragon", 
+            "text": "Contributed by  @elioqoshi  Dark Color SVG  |  Dark Color PNG      Dark Monochrome SVG  |  Dark Monochrome PNG      Light Color SVG  |  Light Color PNG      Light Monochrome SVG  |  Light Monochrome PNG", 
+            "title": "Powered by Aragon"
         }, 
         {
             "location": "/design/artwork/#general", 
