@@ -108,7 +108,18 @@
 
 > Mr. Alisie partnered with Vitalik Buterin in 2011 to launch Bitcoin Magazine and later joined him to found Ethereum. He served as strategic manager and vice president of the Ethereum Foundation. The other Aragon advisors are Dai Foundation COO Kenny Rowe and CoinFund cofounder Jake Brukhman.
 
+## Audio Interviews
+
+### [An Ethereum Podcast: Episode #11 | Guest: Luis Cuende and Maria Gomez from Aragon](http://thebitcoinpodcast.com/an-ethereum-podcast-episode-11/)
+> Join us to hear more about their new grants program, Aragon Nest as well as how they continue to think about how they are in the process of transforming their DAO-producing organization into a DAO.
+
+### [The Boost VC Podcast| Season 2, Ep. 14: Governance, Decentralized Organizations and Valuing Blockchain Technology with Aragon Co-Founder Luis Cuende](https://simplecast.com/s/816fdfc7)
+> Listen in as Aragon co-founder Luis Cuende offers his profound insight on the growing popularity of cryptocurrency in Spain, fueled in part by the push for Catalonian independence.
+
 ## Video Interviews
+
+### [FLOSS Weekly 467: Aragon](https://twit.tv/shows/floss-weekly/episodes/467?autostart=false)
+> Aragon was born to bring transparency and independent governance to the forefront of managing an organization. Luis is an Advisor to Primitive, a Silicon Valley-based company building the future of programming with Virtual Reality, and he's been listed by MIT as one of their Innovators under 35. Plus, Luis is a former Advisor to the VP of the European Commission.
 
 ### [CoinFund Q&A: Aragon](https://www.youtube.com/watch?v=U35jr3UOBXc)
 > Video Interview with Jake Brukhman
