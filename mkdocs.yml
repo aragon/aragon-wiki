@@ -46,6 +46,7 @@ pages:
     - Presentations: 'documentation/presentations.md'
     - Audit reports:
       - Audit 01 by Adam Dossa: 'documentation/audits/audit01_report_dossa.md'
+    - Community Content: 'documentation/community_content.md'
     - Third-party Projects: 'projects/index.md'
   - Development:
     - Overview: 'dev/index.md'
