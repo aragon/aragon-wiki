@@ -93,7 +93,7 @@ Here we have compiled resources and guides for press and media to use when refer
 
 ### Home + Notifications
 
-[<img src="../press-kit/screenshots/0.5/Ownership/1.jpeg">](press-kit/screenshots/0.5/Notifications.jpeg)
+[<img src="../press-kit/screenshots/0.5/Notifications.jpeg">](press-kit/screenshots/0.5/Notifications.jpeg)
 
 ### Ownership
 
