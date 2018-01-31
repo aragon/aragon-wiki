@@ -4,7 +4,7 @@
 
 #### Aragon Labs
 - Kicked off Modular Token Curated Registry working group
-- Kicked of Liquid Democracy working group
+- Kicked off Liquid Democracy working group
 - Aragon Labs Announcement Blog (Publishing Soon!)
 - Started LiquidPledging Integration project with Giveth
 
@@ -18,6 +18,7 @@
 ### Next
 
 #### Aragon Labs
+- Working group wiki documentation
 - Finish Liquid Democracy Specification and start development
 - Help port TCR pattern to aragonOS
 - Work on improving community involvement and engagement with Labs, proposal discussion, experiment incentivization, etc.
