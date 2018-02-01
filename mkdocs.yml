@@ -71,6 +71,18 @@ pages:
     - Merchandise: 'design/merch/index.md'
   - Meetings:
     - Community:
+      - Community 08:
+        - Agenda: 'meetings/community/08.md'
+        - Write-Up - Alexa: 'meetings/community/write-ups/cm08/alexa.md'
+        - Write-Up - Brett: 'meetings/community/write-ups/cm08/brett.md'
+        - Write-Up - John: 'meetings/community/write-ups/cm08/light-cm08.md'
+        - Write-Up - Jorge: 'meetings/community/write-ups/cm08/jorge.md'
+        - Write-Up - Luis: 'meetings/community/write-ups/cm08/luis.md'
+        - Write-Up - Luke: 'meetings/community/write-ups/cm08/luke.md'
+        - Write-Up - Maria: 'meetings/community/write-ups/cm08/maria.md'
+        - Write-Up - Oliver: 'meetings/community/write-ups/cm08/oliver.md'
+        - Write-Up - Pierre: 'meetings/community/write-ups/cm08/pierre.md'
+        - Write-Up - Tatu: 'meetings/community/write-ups/cm08/tatu.md'
       - Community 07:
         - Agenda: 'meetings/community/07.md'
         - Write-Up - Alexa: 'meetings/community/write-ups/cm07/alexa.md'
