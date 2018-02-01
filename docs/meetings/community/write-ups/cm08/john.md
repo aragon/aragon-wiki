@@ -1,31 +1,33 @@
-# Last month
+## Aragon Community Meeting 08 Write-Up for January 2018
 
-## Started work on a community github repo
+### John Light - Community Lead
+
+#### Started work on a community github repo
 
 - README.md
 - CONTRIBUTING.md
 - UNLICENSE.md
 
-## Wrapping up work on the first draft of the Aragon Community Guide
+#### Wrapping up work on the first draft of the Aragon Community Guide
 
 - Community definition
 - Collaboration enablers
 - Project governance
 
-## Aragon announcement distribution
+#### Aragon announcement distribution
 
 - Q4 Development Report
 - Q4 Transparency Report
 - Launch of Aragon Nest
 - aragonOS 3.0 release
 
-## Q1 travel planning
+#### Q1 travel planning
 
-## Community stats
+#### Community stats
 
-_TBD_ 
+_TBD_
 
-# Next month
+### Next month
 
 - Finish Aragon Interactive Demo Series planning document, write formal announcement once ready
 

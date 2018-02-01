@@ -1,6 +1,6 @@
-# Aragon Community Meeting 07 Write-Up for December 2017
+## Aragon Community Meeting 07 Write-Up for December 2017
 
-## John Light - Community Lead
+### John Light - Community Lead
 
 #### Finish onboarding for new role
 

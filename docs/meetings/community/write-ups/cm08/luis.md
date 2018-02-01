@@ -1,4 +1,4 @@
-## Aragon Community Meeting 08 Write-Up for December
+## Aragon Community Meeting 08 Write-Up for January 2018
 
 ### Luis - Project Lead
 
@@ -27,7 +27,7 @@
 #### Communications
 - Helped Tatu with Aragon Nest launch blog post
 - Interview in Evan Van Ness' podcast, together with Maria
-- Interview in FLOSS Weekly 
+- Interview in FLOSS Weekly
 
 #### Governance
 

@@ -1,4 +1,4 @@
-## Aragon Community Meeting 08 Write-Up for Jan 2018
+## Aragon Community Meeting 08 Write-Up for January 2018
 
 ### Jorge – Tech lead
 
