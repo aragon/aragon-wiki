@@ -22,7 +22,7 @@
 - Finish Liquid Democracy Specification and start development
 - Help port TCR pattern to aragonOS
 - Work on improving community involvement and engagement with Labs, proposal discussion, experiment incentivization, etc.
--
+
 #### Research
 - Continue ongoing research efforts related to Aragon Network Governance
 - Experiment with Signaling/CarbonFeedback and Off-chain tabulation
