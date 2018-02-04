@@ -1,4 +1,4 @@
-## Aragon Community Meeting 07 Write-Up for December
+## Aragon Community Meeting 08 Write-Up for January 2018
 
 ### Alexa - Operations Assistant
 

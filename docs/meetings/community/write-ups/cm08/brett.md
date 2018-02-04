@@ -1,4 +1,4 @@
-## Aragon Community Meeting 08 Write-Up for February
+## Aragon Community Meeting 08 Write-Up for January 2018
 
 ### Brett - EVM/Solidity/\* Engineer
 
