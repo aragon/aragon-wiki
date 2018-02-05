@@ -72,6 +72,7 @@ pages:
   - Meetings:
     - Community:
       - Community 08:
+        - Agenda: 'meetings/community/08.md'
         - Write-Up - Alexa: 'meetings/community/write-ups/cm08/alexa.md'
         - Write-Up - Brett: 'meetings/community/write-ups/cm08/brett.md'
         - Write-Up - John: 'meetings/community/write-ups/cm08/john.md'
