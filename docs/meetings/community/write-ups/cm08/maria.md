@@ -35,4 +35,3 @@
 
 - Oversee accounting to make sure all different tax and accounting obligations are met
 - Start working with an accounting firm on the auditing of the annual accounts
-- Continue the efforst on having a bank account

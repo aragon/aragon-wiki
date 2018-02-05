@@ -7,7 +7,6 @@ Organized and Booked Q1 Team Offsite
 
 #### Payments
 - Worked on finding payment service providers
-- Met with our new CFO to set up payment in ETH and ANT
 - Sent final reports from December to our accountants to close out FY2017
 - Making payments to service providers, ordering equipment for the team, paying conference sponsorships and community awards and lots of small details like that
 - January Payroll
