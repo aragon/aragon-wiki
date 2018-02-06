@@ -116,7 +116,6 @@ pages:
     - Openings:
       - EVM/Solidity Engineer: 'jobs/openings/solidity.md'
       - Frontend and web3 Developer: 'jobs/openings/frontend.md'
-      - Product Manager: 'jobs/openings/product_manager.md'
       - Developer Relations: 'jobs/openings/dev_rel.md'
   - Blog posts:
     - 2018: 'blog/2018.md'
