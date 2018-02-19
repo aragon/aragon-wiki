@@ -14,7 +14,6 @@ The goal of the program is to attract talent to research and build the necessary
 - Discussion regarding the program at [**#nest channel in Aragon Chat**](https://aragon.chat/channel/nest)
 - Browse the current [**proposals for grants**](https://github.com/aragon/nest/issues)
 - Browse the current [**requests for funding**](https://github.com/aragon/nest/pulls)
-- See Aragon Nest in the [Aragon Wiki](https://wiki.aragon.one/nest/)
 
 ## For people looking to get funding for their project
 _To those working or who want to work on something that may be of interest for providing a grant_
