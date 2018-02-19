@@ -168,15 +168,15 @@ Experimenting with new governance models has been a very risky endeavour during 
 
 ## Community channels
 
-Aragon Chat - https://aragon.chat
+Aragon Chat - [https://aragon.chat](https://aragon.chat)
 
-Reddit - https://www.reddit.com/r/aragonproject/
+Reddit - [https://www.reddit.com/r/aragonproject/](https://www.reddit.com/r/aragonproject/)
 
-Twitter - https://twitter.com/aragonproject
+Twitter - [https://twitter.com/aragonproject](https://twitter.com/aragonproject)
 
-LinkedIn - https://www.linkedin.com/company/aragonproject/
+LinkedIn - [https://www.linkedin.com/company/aragonproject/](https://www.linkedin.com/company/aragonproject/)
 
-YouTube - https://www.youtube.com/c/AragonProject
+YouTube - [https://www.youtube.com/c/AragonProject](https://www.youtube.com/c/AragonProject)
 
 ## Team
 
