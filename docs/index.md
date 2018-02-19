@@ -224,6 +224,12 @@ YouTube - https://www.youtube.com/c/AragonProject
 
 &nbsp;
 
+> <img src="images/team_members/Jouni_128.png">
+
+> - **Design Lead**: [Jouni Helminen](https://twitter.com/dharmaone)
+
+&nbsp;
+
 > <img src="images/team_members/Alexa_128.png">
 
 > - **Operations Assistant**: [Alexa Weaver](https://twitter.com/alexa_rwr)
@@ -245,3 +251,9 @@ YouTube - https://www.youtube.com/c/AragonProject
 > <img src="images/team_members/Brett_128.png">
 
 > - **EVM Engineer**: [Brett Sun](https://twitter.com/sohkai)
+
+&nbsp;
+
+> <img src="images/team_members/Bingen_128.png">
+
+> - **Solidity Engineer**: [Bingen Eguzkitza](https://twitter.com/bingentxu)
