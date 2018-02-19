@@ -1,6 +1,8 @@
 <center>
 <img src="../../images/logo_text_under_dark.png">
 # Development Plan
+_**This documentation is currently outdated and will be updated in Q2 2018**_
+
 version 1.2
 
 <img src="../../images/development_plan/01.png">
