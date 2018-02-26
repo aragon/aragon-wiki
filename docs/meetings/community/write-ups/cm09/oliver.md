@@ -1,4 +1,4 @@
-## Aragon Community Meeting 09 Write-Up for February
+## Aragon Community Meeting 09 Write-Up for February 2018
 
 ### Oliver - Glue
 

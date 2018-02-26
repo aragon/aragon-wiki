@@ -1,4 +1,4 @@
-## Aragon Community Meeting 09 Write-Up for Month
+## Aragon Community Meeting 09 Write-Up for February 2018
 
 ### ßingen - Solidity Engineer
 
@@ -31,4 +31,3 @@ Continue the search for a DevOps candidate.
 
 - ScalingNOW in Barcelona
 - EthCC in Paris
-

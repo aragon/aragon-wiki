@@ -75,7 +75,6 @@ pages:
     - Community:
       - Community 09:
         - Agenda: 'meetings/community/09.md'
-<<<<<<< HEAD
         - Write-Up - Bingen: 'meetings/community/write-ups/cm09/bingen.md'
         - Write-Up - Brett: 'meetings/community/write-ups/cm09/brett.md'
         - Write-Up - John: 'meetings/community/write-ups/cm09/john.md'
@@ -87,9 +86,6 @@ pages:
         - Write-Up - Oliver: 'meetings/community/write-ups/cm09/oliver.md'
         - Write-Up - Pierre: 'meetings/community/write-ups/cm09/pierre.md'
         - Write-Up - Tatu: 'meetings/community/write-ups/cm09/tatu.md'
-=======
-        - Write-Up - Jouni: 'meetings/community/write-ups/cm09/jouni.md'
->>>>>>> dc3ca61ab064532d7fe0a125ba0aa7fd27ea50c3
       - Community 08:
         - Agenda: 'meetings/community/08.md'
         - Write-Up - Alexa: 'meetings/community/write-ups/cm08/alexa.md'

@@ -1,4 +1,4 @@
-## Aragon Community Meeting 08 Write-Up for January 2018
+## Aragon Community Meeting 09 Write-Up for February 2018
 
 ### Maria - Strategy and Operations Lead
 
@@ -20,4 +20,3 @@
 
 #### Strategy
 - Focus on pushing forward the several strategy initiatives we are working on
-
