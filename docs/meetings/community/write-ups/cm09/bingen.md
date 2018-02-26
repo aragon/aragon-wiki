@@ -3,7 +3,7 @@
 ### ßingen - Solidity Engineer
 
 #### Onboarding
-Met the team during the trial and onboarding week in Madrid and the offsite in Xàbia.
+Met the team during the trial and onboarding week in Madrid and the offsite 01.
 
 #### Aragon Apps
 - New [Payroll](https://github.com/aragon/aragon-apps/tree/master/future-apps/payroll) app.
