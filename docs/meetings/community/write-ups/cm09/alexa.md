@@ -4,7 +4,7 @@
 
 #### Q1 Offsite
 
-#### ACCOUNTING
+#### Accounting
 - Started helping Luis more with finding financial service providers
 - Making payments to service providers, travel arrangements for the team, paying conference sponsorships, and lots of small details like that
 - January 2018 Reporting
