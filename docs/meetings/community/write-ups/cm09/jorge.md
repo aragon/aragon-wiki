@@ -77,3 +77,5 @@ details soon.
 - Madrid Blockchain for Good, Google and ethcc.io presentations
 - Continue submitting EIPs for some of our work: [smart contract ecrecover](https://github.com/0xProject/ZEIPs/issues/7#issuecomment-355280219), and decentralized source code verification.
 - Continue coordinating audits and bug bounties to mainnet deployment.
+- Start work on Aragon Network prototypes
+- Taking some in March time off after launch
