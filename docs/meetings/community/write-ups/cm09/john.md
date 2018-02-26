@@ -14,7 +14,7 @@
 - Met local Aragon and Ethereum community members
 - Wrote recap blog post
 
-#### Started work on 30 DAOs in 30 Days initiative
+#### Started work on Building DAOs initiative
 
 - Pre-planning
 - Applicant pipeline
@@ -28,7 +28,7 @@ _TBD_
 
 ### Next month
 
-- Assist with 30 DAOs in 30 Days initiative
+- Assist with Building DAOs initiative
 
 - Finish Aragon Interactive Demo Series planning document, write formal announcement once ready
 
