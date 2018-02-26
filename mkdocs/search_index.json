@@ -1791,6 +1791,686 @@
             "title": "Merchandise design"
         }, 
         {
+            "location": "/meetings/community/09/", 
+            "text": "Aragon Community Meeting 09 Agenda\n\n\nMeeting Date: March 2nd, 5pm CEST\n\n\nMeeting video\n\n\nParticipants\n\n\n\n\n@luisivan\n\n\n@Smokyish, facilitator\n\n\n@izqui\n\n\n@mariapao\n\n\n@bpierre\n\n\n@lkngtn\n\n\n@onbjerg\n\n\n@john-light\n\n\n@sohkai\n\n\n@alexarwr\n\n\n\n\nAgenda\n\n\n\n\nDiscussion about the issues in the write-ups by team members\n\n\nRecent updates on the Project by @izqui\n\n\nRecent updates on the Community by @john-light\n\n\nAMA, Ask Me Anything, team answers \nquestions by the community\n\n\nClosing meeting\n\n\n\n\nWrite-Ups\n\n\n\n\nTeam members will produce a write-up of the most important things they have worked on since last Community Meeting, the problems they have found and what they plan to do in the next weeks (that can be a bit blurry, and that's fine). These write-ups will be published as a blog post for the community to review on Monday before Friday's meeting.\n\n\n\n\n\n\nAlexa - Operations Assistant\n\n\nBrett - EVM/Solidity/*\n\n\nBingen - Solidity Engineer\n\n\nJohn - Community Lead\n\n\nJorge - Tech Lead\n\n\nJouni - Design Lead\n\n\nLuis - Project Lead\n\n\nLuke - Research Lead\n\n\nMaria - Head of Strategy and Operations\n\n\nOliver - Glue\n\n\nPierre - Frontend Developer\n\n\nTatu - Communications Lead", 
+            "title": "Agenda"
+        }, 
+        {
+            "location": "/meetings/community/09/#aragon-community-meeting-09-agenda", 
+            "text": "", 
+            "title": "Aragon Community Meeting 09 Agenda"
+        }, 
+        {
+            "location": "/meetings/community/09/#meeting-date-march-2nd-5pm-cest", 
+            "text": "", 
+            "title": "Meeting Date: March 2nd, 5pm CEST"
+        }, 
+        {
+            "location": "/meetings/community/09/#meeting-video", 
+            "text": "", 
+            "title": "Meeting video"
+        }, 
+        {
+            "location": "/meetings/community/09/#participants", 
+            "text": "@luisivan  @Smokyish, facilitator  @izqui  @mariapao  @bpierre  @lkngtn  @onbjerg  @john-light  @sohkai  @alexarwr", 
+            "title": "Participants"
+        }, 
+        {
+            "location": "/meetings/community/09/#agenda", 
+            "text": "Discussion about the issues in the write-ups by team members  Recent updates on the Project by @izqui  Recent updates on the Community by @john-light  AMA, Ask Me Anything, team answers  questions by the community  Closing meeting", 
+            "title": "Agenda"
+        }, 
+        {
+            "location": "/meetings/community/09/#write-ups", 
+            "text": "Team members will produce a write-up of the most important things they have worked on since last Community Meeting, the problems they have found and what they plan to do in the next weeks (that can be a bit blurry, and that's fine). These write-ups will be published as a blog post for the community to review on Monday before Friday's meeting.    Alexa - Operations Assistant  Brett - EVM/Solidity/*  Bingen - Solidity Engineer  John - Community Lead  Jorge - Tech Lead  Jouni - Design Lead  Luis - Project Lead  Luke - Research Lead  Maria - Head of Strategy and Operations  Oliver - Glue  Pierre - Frontend Developer  Tatu - Communications Lead", 
+            "title": "Write-Ups"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm09/alexa/", 
+            "text": "Aragon Community Meeting 09 Write-Up for February 2018\n\n\nAlexa - Operations Assistant\n\n\nQ1 Offsite\n\n\nAccounting\n\n\n\n\nStarted helping Luis more with finding financial service providers\n\n\nMaking payments to service providers, travel arrangements for the team, paying conference sponsorships, and lots of small details like that\n\n\nJanuary 2018 Reporting\n\n\nPayroll\n\n\n\n\nNext\n\n\n\n\nHelp with onboarding paperwork for new hires\n\n\nHelp with Multi-Sig Transparency reporting\n\n\nQ2 Offsite Planning\n\n\nLogistics for lots of Events/Meetups/Conferences", 
+            "title": "Write-Up - Alexa"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm09/alexa/#aragon-community-meeting-09-write-up-for-february-2018", 
+            "text": "", 
+            "title": "Aragon Community Meeting 09 Write-Up for February 2018"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm09/alexa/#alexa-operations-assistant", 
+            "text": "", 
+            "title": "Alexa - Operations Assistant"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm09/alexa/#q1-offsite", 
+            "text": "", 
+            "title": "Q1 Offsite"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm09/alexa/#accounting", 
+            "text": "Started helping Luis more with finding financial service providers  Making payments to service providers, travel arrangements for the team, paying conference sponsorships, and lots of small details like that  January 2018 Reporting  Payroll", 
+            "title": "Accounting"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm09/alexa/#next", 
+            "text": "Help with onboarding paperwork for new hires  Help with Multi-Sig Transparency reporting  Q2 Offsite Planning  Logistics for lots of Events/Meetups/Conferences", 
+            "title": "Next"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm09/bingen/", 
+            "text": "Aragon Community Meeting 09 Write-Up for February 2018\n\n\n\u00dfingen - Solidity Engineer\n\n\nOnboarding\n\n\nMet the team during the trial and onboarding week in Madrid and the offsite 01.\n\n\nAragon Apps\n\n\n\n\nNew \nPayroll\n app.\n\n\nMet with auditors, a couple of minor fixes to finance app as a result.\n\n\n\n\nAragon Labs\n\n\n\n\nMet with Luke and Eduardo Medina from Democracy Earth\n\n\nParticipated in the discussion to set \nLiquid Democracy requirements\n\n\n\n\nHiring\n\n\nHelped reviewing Solidity and DevOps candidate submissions.\n\n\nNext\n\n\nAragon Labs\n\n\nContinue the work with Liquid Democracy specs and start building it on top of AragonOS\n\n\nAragon OS/ Aragon Apps\n\n\nHelp with anything needed, especially for audit review and 0.5 launch.\n\n\nHiring\n\n\nContinue the search for a DevOps candidate.\n\n\nEvents\n\n\n\n\nScalingNOW in Barcelona\n\n\nEthCC in Paris", 
+            "title": "Write-Up - Bingen"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm09/bingen/#aragon-community-meeting-09-write-up-for-february-2018", 
+            "text": "", 
+            "title": "Aragon Community Meeting 09 Write-Up for February 2018"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm09/bingen/#ingen-solidity-engineer", 
+            "text": "", 
+            "title": "\u00dfingen - Solidity Engineer"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm09/bingen/#onboarding", 
+            "text": "Met the team during the trial and onboarding week in Madrid and the offsite 01.", 
+            "title": "Onboarding"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm09/bingen/#aragon-apps", 
+            "text": "New  Payroll  app.  Met with auditors, a couple of minor fixes to finance app as a result.", 
+            "title": "Aragon Apps"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm09/bingen/#aragon-labs", 
+            "text": "Met with Luke and Eduardo Medina from Democracy Earth  Participated in the discussion to set  Liquid Democracy requirements", 
+            "title": "Aragon Labs"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm09/bingen/#hiring", 
+            "text": "Helped reviewing Solidity and DevOps candidate submissions.", 
+            "title": "Hiring"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm09/bingen/#next", 
+            "text": "", 
+            "title": "Next"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm09/bingen/#aragon-labs_1", 
+            "text": "Continue the work with Liquid Democracy specs and start building it on top of AragonOS", 
+            "title": "Aragon Labs"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm09/bingen/#aragon-os-aragon-apps", 
+            "text": "Help with anything needed, especially for audit review and 0.5 launch.", 
+            "title": "Aragon OS/ Aragon Apps"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm09/bingen/#hiring_1", 
+            "text": "Continue the search for a DevOps candidate.", 
+            "title": "Hiring"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm09/bingen/#events", 
+            "text": "ScalingNOW in Barcelona  EthCC in Paris", 
+            "title": "Events"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm09/brett/", 
+            "text": "Aragon Community Meeting 09 Write-Up for February 2018\n\n\nBrett - EVM/Solidity/* Engineer\n\n\nAragon UI (@aragon/aragon-ui)\n\n\n\n\nSmall tweaks and quality of life additions\n\n\nRefactored Info implementation\n\n\nAdded SafeLink\n\n\n\n\nAragon (@aragon/aragon)\n\n\n\n\nInitial background worker implementation (without integration with aragon.js)\n\n\nAdd signer UI implementation\n\n\n\n\nAragonOS (@aragon/aragonOS)\n\n\n\n\nMet with auditors and continued feedback / discussion cycles\n\n\nTweaks and changes for 0.5 release\n\n\n\n\nNext\n\n\nAragon Apps\n\n\n\n\nBackground script for all 0.5 apps\n\n\n\n\nAragon Dapp\n\n\n\n\nHelp integration with aragon.js\n\n\nLaunch launch launch 0.5!\n\n\n\n\nAragonOS\n\n\n\n\nAddress auditor feedback and gear up towards a mainnet release", 
+            "title": "Write-Up - Brett"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm09/brett/#aragon-community-meeting-09-write-up-for-february-2018", 
+            "text": "", 
+            "title": "Aragon Community Meeting 09 Write-Up for February 2018"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm09/brett/#brett-evmsolidity42-engineer", 
+            "text": "", 
+            "title": "Brett - EVM/Solidity/* Engineer"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm09/brett/#aragon-ui-aragonaragon-ui", 
+            "text": "Small tweaks and quality of life additions  Refactored Info implementation  Added SafeLink", 
+            "title": "Aragon UI (@aragon/aragon-ui)"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm09/brett/#aragon-aragonaragon", 
+            "text": "Initial background worker implementation (without integration with aragon.js)  Add signer UI implementation", 
+            "title": "Aragon (@aragon/aragon)"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm09/brett/#aragonos-aragonaragonos", 
+            "text": "Met with auditors and continued feedback / discussion cycles  Tweaks and changes for 0.5 release", 
+            "title": "AragonOS (@aragon/aragonOS)"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm09/brett/#next", 
+            "text": "", 
+            "title": "Next"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm09/brett/#aragon-apps", 
+            "text": "Background script for all 0.5 apps", 
+            "title": "Aragon Apps"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm09/brett/#aragon-dapp", 
+            "text": "Help integration with aragon.js  Launch launch launch 0.5!", 
+            "title": "Aragon Dapp"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm09/brett/#aragonos", 
+            "text": "Address auditor feedback and gear up towards a mainnet release", 
+            "title": "AragonOS"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm09/john/", 
+            "text": "Aragon Community Meeting 09 Write-Up for February 2018\n\n\nJohn Light - Community Lead\n\n\nHosted Community Guide workshop with core team\n\n\n\n\nCommunity teams\n\n\nLicenses and contributing guidelines\n\n\nVarious other feedback\n\n\n\n\nAttended ETHDenver\n\n\n\n\nCo-organized meetup with other community leaders\n\n\nMet local Aragon and Ethereum community members\n\n\nWrote recap blog post\n\n\n\n\nStarted work on 30 DAOs in 30 Days initiative\n\n\n\n\nPre-planning\n\n\nApplicant pipeline\n\n\nAnnouncement draft\n\n\n\n\nQ1 travel planning\n\n\nCommunity stats\n\n\nTBD\n\n\nNext month\n\n\n\n\n\n\nAssist with 30 DAOs in 30 Days initiative\n\n\n\n\n\n\nFinish Aragon Interactive Demo Series planning document, write formal announcement once ready\n\n\n\n\n\n\nRelease Aragon Community Guide v1.0 for peer review\n\n\n\n\n\n\nOpen up aragon/community repo on GitHub for public contribution\n\n\n\n\n\n\nTraveling to Berlin, Prague, Paris to meet the local community, planning a local Aragon community gathering\n\n\n\n\n\n\nKeep wiki and community stats updated and be available to help out in community channels", 
+            "title": "Write-Up - John"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm09/john/#aragon-community-meeting-09-write-up-for-february-2018", 
+            "text": "", 
+            "title": "Aragon Community Meeting 09 Write-Up for February 2018"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm09/john/#john-light-community-lead", 
+            "text": "", 
+            "title": "John Light - Community Lead"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm09/john/#hosted-community-guide-workshop-with-core-team", 
+            "text": "Community teams  Licenses and contributing guidelines  Various other feedback", 
+            "title": "Hosted Community Guide workshop with core team"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm09/john/#attended-ethdenver", 
+            "text": "Co-organized meetup with other community leaders  Met local Aragon and Ethereum community members  Wrote recap blog post", 
+            "title": "Attended ETHDenver"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm09/john/#started-work-on-30-daos-in-30-days-initiative", 
+            "text": "Pre-planning  Applicant pipeline  Announcement draft", 
+            "title": "Started work on 30 DAOs in 30 Days initiative"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm09/john/#q1-travel-planning", 
+            "text": "", 
+            "title": "Q1 travel planning"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm09/john/#community-stats", 
+            "text": "TBD", 
+            "title": "Community stats"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm09/john/#next-month", 
+            "text": "Assist with 30 DAOs in 30 Days initiative    Finish Aragon Interactive Demo Series planning document, write formal announcement once ready    Release Aragon Community Guide v1.0 for peer review    Open up aragon/community repo on GitHub for public contribution    Traveling to Berlin, Prague, Paris to meet the local community, planning a local Aragon community gathering    Keep wiki and community stats updated and be available to help out in community channels", 
+            "title": "Next month"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm09/jorge/", 
+            "text": "Aragon Community Meeting 09 Write-Up for February 2018\n\n\nJorge \u2013 Tech lead\n\n\nMegatrial week\n\n\n\n\nThe first week of February, we did a trial week for Jouni, Bingen and Chris,\nthe trial was successful for the three of them and we are super happy that they\njoined us.\n\n\n\n\nOffsite\n\n\n\n\n\n\nDid some very productive workshops on User Stories, the split of the Foundation\nand companies, Pay protocol and to transfer fund sovereignty to the AN.\n\n\n\n\n\n\nPlanning for the development of Whitepaper v2 and prototypes of the Aragon\nNetwork. I will be personally working on the Aragon Network as soon as v0.5 is\nlaunched.\n\n\n\n\n\n\nDid an internal roadmap for the initial part of 2018.\n\n\n\n\n\n\nIn general, we were very happy to see how many things in our Dev Plan can probably\nbe executed sooner than we expected thanks to core infrastructure work, such as aOS,\npaying off.\n\n\n\n\n\n\nThanks to the team for coming but specially to our amazing advisors, Jake and Brayton,\nand our investors, Joel and Chris. Having people that don't work with us on a daily\nbasis living with us for a week was invaluable.\n\n\n\n\n\n\nStandards\n\n\n\n\nERC897: Delegate Proxy w/ Manu (Zeppelin) https://github.com/ethereum/EIPs/pull/897\n\n\nERC900: Simple staking interface w/ Dean (Harbour)\nhttps://github.com/ethereum/EIPs/pull/900\n\n\n\n\nWe will continue working on standardization of most of our work to allow better\ninterop with other projects and support from common infrastructure such as wallets\nor block explorers.\n\n\nWe started a standards working group with Colony, DAOStack, Harbour and Zeppelin.\n\n\nStaking app\n\n\n\n\n\n\nThe Staking app that Oliver started, have received some more work and is now\nbeing worked on as part of aragon-apps https://github.com/aragon/aragon-apps/pull/101\n\n\n\n\n\n\nIt is a very important component that will be used in Aragon's modular generic TCR\nimplementation and the Aragon Network.\n\n\n\n\n\n\nETHDenver\n\n\n\n\n\n\nIt was a really productive week and we were super pleased with what people built.\n\n\n\n\n\n\nPersonal thoughts: https://twitter.com/izqui9/status/966338031719415809\n\n\n\n\n\n\nDoing a postmortem soon to analyze what went well and poorly and how to improve\nfor future hackathons. We will be doing a lot more as they are really valuable.\n\n\n\n\n\n\nAudits and bug bounty\n\n\n\n\n\n\nWHG audit is progressing. Part of the team met the auditors in BCN for two\nvery productive days.\nSome architectural improvements have been proposed and are in the way of being\nimplemented. In general we are getting green light and it is not going to be\na stopper for launch.\n\n\n\n\n\n\nWe are making arrangements for another audit that will begin during the first\nhalf of March. This will audit deployed code to the mainnet and will be the\ngreen light towards launch.\n\n\n\n\n\n\nA live bug bounty will begin during the first half of March. Expect more\ndetails soon.\n\n\n\n\n\n\nNext\n\n\n\n\nLaunch Aragon v0.5\n\n\nMadrid Blockchain for Good, Google and ethcc.io presentations\n\n\nContinue submitting EIPs for some of our work: \nsmart contract ecrecover\n, and decentralized source code verification.\n\n\nContinue coordinating audits and bug bounties to mainnet deployment.\n\n\nStart work on Aragon Network prototypes\n\n\nTaking some in March time off after launch", 
+            "title": "Write-Up - Jorge"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm09/jorge/#aragon-community-meeting-09-write-up-for-february-2018", 
+            "text": "", 
+            "title": "Aragon Community Meeting 09 Write-Up for February 2018"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm09/jorge/#jorge-tech-lead", 
+            "text": "", 
+            "title": "Jorge \u2013 Tech lead"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm09/jorge/#megatrial-week", 
+            "text": "The first week of February, we did a trial week for Jouni, Bingen and Chris,\nthe trial was successful for the three of them and we are super happy that they\njoined us.", 
+            "title": "Megatrial week"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm09/jorge/#offsite", 
+            "text": "Did some very productive workshops on User Stories, the split of the Foundation\nand companies, Pay protocol and to transfer fund sovereignty to the AN.    Planning for the development of Whitepaper v2 and prototypes of the Aragon\nNetwork. I will be personally working on the Aragon Network as soon as v0.5 is\nlaunched.    Did an internal roadmap for the initial part of 2018.    In general, we were very happy to see how many things in our Dev Plan can probably\nbe executed sooner than we expected thanks to core infrastructure work, such as aOS,\npaying off.    Thanks to the team for coming but specially to our amazing advisors, Jake and Brayton,\nand our investors, Joel and Chris. Having people that don't work with us on a daily\nbasis living with us for a week was invaluable.", 
+            "title": "Offsite"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm09/jorge/#standards", 
+            "text": "ERC897: Delegate Proxy w/ Manu (Zeppelin) https://github.com/ethereum/EIPs/pull/897  ERC900: Simple staking interface w/ Dean (Harbour)\nhttps://github.com/ethereum/EIPs/pull/900   We will continue working on standardization of most of our work to allow better\ninterop with other projects and support from common infrastructure such as wallets\nor block explorers.  We started a standards working group with Colony, DAOStack, Harbour and Zeppelin.", 
+            "title": "Standards"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm09/jorge/#staking-app", 
+            "text": "The Staking app that Oliver started, have received some more work and is now\nbeing worked on as part of aragon-apps https://github.com/aragon/aragon-apps/pull/101    It is a very important component that will be used in Aragon's modular generic TCR\nimplementation and the Aragon Network.", 
+            "title": "Staking app"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm09/jorge/#ethdenver", 
+            "text": "It was a really productive week and we were super pleased with what people built.    Personal thoughts: https://twitter.com/izqui9/status/966338031719415809    Doing a postmortem soon to analyze what went well and poorly and how to improve\nfor future hackathons. We will be doing a lot more as they are really valuable.", 
+            "title": "ETHDenver"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm09/jorge/#audits-and-bug-bounty", 
+            "text": "WHG audit is progressing. Part of the team met the auditors in BCN for two\nvery productive days.\nSome architectural improvements have been proposed and are in the way of being\nimplemented. In general we are getting green light and it is not going to be\na stopper for launch.    We are making arrangements for another audit that will begin during the first\nhalf of March. This will audit deployed code to the mainnet and will be the\ngreen light towards launch.    A live bug bounty will begin during the first half of March. Expect more\ndetails soon.", 
+            "title": "Audits and bug bounty"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm09/jorge/#next", 
+            "text": "Launch Aragon v0.5  Madrid Blockchain for Good, Google and ethcc.io presentations  Continue submitting EIPs for some of our work:  smart contract ecrecover , and decentralized source code verification.  Continue coordinating audits and bug bounties to mainnet deployment.  Start work on Aragon Network prototypes  Taking some in March time off after launch", 
+            "title": "Next"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm09/jouni/", 
+            "text": "Aragon Community Meeting 09 Write-Up for February 2018\n\n\nJouni - Design Lead\n\n\nAragon app UI\n\n\n\n\nDesigned first version of the Payroll Aragon app - https://github.com/aragon/design\n\n\nDesigned first version of the Finance Aragon app - https://github.com/aragon/design\n\n\nFinished onboarding wizard design for 0.5 - https://invis.io/TNF9UAPW5\n\n\nDesigned icons for App store and Labs\n\n\n\n\nAragon Brand\n\n\n\n\nDesigned a family of logos for Aragon sub-brands - Aragon Nest, Aragon Labs\n\n\nStarted establishing a visual identity for Aragon illustrations\n\n\nStarted a video ident motion design used for all Aragon videos\n\n\n\n\nAragon comms\n\n\n\n\nMade an illustration in new illustration style for ETHDenver blog post\n\n\nVarious other blog illustrations\n\n\n\n\nNext\n\n\nAragon Brand\n\n\n\n\nStart working with Pierre on expanding the Apps UI docs to a full styleguide/design system to help community devs implement great dapps of their own\n\n\nDesign logos for other Aragon sub-brands\n\n\n\n\nUser Research\n\n\n\n\nSet up user testing sessions with early users of 0.5\n\n\nIdentify the main difficulties users face using the app and propose design solutions\n\n\n\n\nAragon app UI\n\n\n\n\nPolish new Aragon apps (Payroll, Finance etc) ready for release\n\n\nReview existing 0.5 UI/UX patterns and iterate the UX based on user feedback\n\n\n\n\nAragon comms\n\n\n\n\nContinue supporting blog posts and other comms with illustrations and graphics", 
+            "title": "Write-Up - Jouni"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm09/jouni/#aragon-community-meeting-09-write-up-for-february-2018", 
+            "text": "", 
+            "title": "Aragon Community Meeting 09 Write-Up for February 2018"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm09/jouni/#jouni-design-lead", 
+            "text": "", 
+            "title": "Jouni - Design Lead"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm09/jouni/#aragon-app-ui", 
+            "text": "Designed first version of the Payroll Aragon app - https://github.com/aragon/design  Designed first version of the Finance Aragon app - https://github.com/aragon/design  Finished onboarding wizard design for 0.5 - https://invis.io/TNF9UAPW5  Designed icons for App store and Labs", 
+            "title": "Aragon app UI"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm09/jouni/#aragon-brand", 
+            "text": "Designed a family of logos for Aragon sub-brands - Aragon Nest, Aragon Labs  Started establishing a visual identity for Aragon illustrations  Started a video ident motion design used for all Aragon videos", 
+            "title": "Aragon Brand"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm09/jouni/#aragon-comms", 
+            "text": "Made an illustration in new illustration style for ETHDenver blog post  Various other blog illustrations", 
+            "title": "Aragon comms"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm09/jouni/#next", 
+            "text": "", 
+            "title": "Next"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm09/jouni/#aragon-brand_1", 
+            "text": "Start working with Pierre on expanding the Apps UI docs to a full styleguide/design system to help community devs implement great dapps of their own  Design logos for other Aragon sub-brands", 
+            "title": "Aragon Brand"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm09/jouni/#user-research", 
+            "text": "Set up user testing sessions with early users of 0.5  Identify the main difficulties users face using the app and propose design solutions", 
+            "title": "User Research"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm09/jouni/#aragon-app-ui_1", 
+            "text": "Polish new Aragon apps (Payroll, Finance etc) ready for release  Review existing 0.5 UI/UX patterns and iterate the UX based on user feedback", 
+            "title": "Aragon app UI"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm09/jouni/#aragon-comms_1", 
+            "text": "Continue supporting blog posts and other comms with illustrations and graphics", 
+            "title": "Aragon comms"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm09/luis/", 
+            "text": "Aragon Community Meeting 09 Write-Up for February 2018\n\n\nLuis - Project Lead\n\n\nHiring\n\n\n\n\nStarted search for DevOps contractor\n\n\nTrial week with Bingen, Jouni and Chris\n\n\nPrepared Chris' onboarding week\n\n\n\n\nStrategy\n\n\n\n\nWorked on expanding the plan for the Foundation/company split\n\n\nParticipated in offsite workshop regarding Nest\n\n\n\n\nDesign\n\n\n\n\nHand over design to Jouni\n\n\n\n\nInternal\n\n\n\n\nWorked on agenda for team offsite + survey about the offsite\n\n\nFinal touches to team handbook\n\n\n\n\nLegal\n\n\n\n\nUpdated licenses in all repos\n\n\nImplemented Contributor License Agreement for all repos\n\n\n\n\nCommunications\n\n\n\n\nReviewed multiple blog posts\n\n\nWorked on Foundation/company split blog post\n\n\nInterview in The Bitcoin Podcast\n\n\nInterview in Software Engineering Daily\n\n\n\n\nGovernance\n\n\n\n\nParticipated in workshops regarding the Aragon Network during the team offsite\n\n\nWork on planning the governance transition from the Foundation to the  Network\n\n\n\n\nNext\n\n\nHiring\n\n\n\n\nHelp onboard Chris as Product Manager\n\n\nContinue the search for a Developer Relations candidate\n\n\n\n\nInternal\n\n\n\n\nHelp nail down a place for the next team offsite\n\n\n\n\nStrategy\n\n\n\n\nContinue making progress on encouraging multiple teams to work/build on Aragon\n\n\nGive first Nest grant out!\n\n\n\n\nProduct\n\n\n\n\nLaunch 0.5!\n\n\n\n\nEvents\n\n\n\n\nScalingNOW in Barcelona\n\n\nEthCC in Paris", 
+            "title": "Write-Up - Luis"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm09/luis/#aragon-community-meeting-09-write-up-for-february-2018", 
+            "text": "", 
+            "title": "Aragon Community Meeting 09 Write-Up for February 2018"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm09/luis/#luis-project-lead", 
+            "text": "", 
+            "title": "Luis - Project Lead"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm09/luis/#hiring", 
+            "text": "Started search for DevOps contractor  Trial week with Bingen, Jouni and Chris  Prepared Chris' onboarding week", 
+            "title": "Hiring"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm09/luis/#strategy", 
+            "text": "Worked on expanding the plan for the Foundation/company split  Participated in offsite workshop regarding Nest", 
+            "title": "Strategy"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm09/luis/#design", 
+            "text": "Hand over design to Jouni", 
+            "title": "Design"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm09/luis/#internal", 
+            "text": "Worked on agenda for team offsite + survey about the offsite  Final touches to team handbook", 
+            "title": "Internal"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm09/luis/#legal", 
+            "text": "Updated licenses in all repos  Implemented Contributor License Agreement for all repos", 
+            "title": "Legal"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm09/luis/#communications", 
+            "text": "Reviewed multiple blog posts  Worked on Foundation/company split blog post  Interview in The Bitcoin Podcast  Interview in Software Engineering Daily", 
+            "title": "Communications"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm09/luis/#governance", 
+            "text": "Participated in workshops regarding the Aragon Network during the team offsite  Work on planning the governance transition from the Foundation to the  Network", 
+            "title": "Governance"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm09/luis/#next", 
+            "text": "", 
+            "title": "Next"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm09/luis/#hiring_1", 
+            "text": "Help onboard Chris as Product Manager  Continue the search for a Developer Relations candidate", 
+            "title": "Hiring"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm09/luis/#internal_1", 
+            "text": "Help nail down a place for the next team offsite", 
+            "title": "Internal"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm09/luis/#strategy_1", 
+            "text": "Continue making progress on encouraging multiple teams to work/build on Aragon  Give first Nest grant out!", 
+            "title": "Strategy"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm09/luis/#product", 
+            "text": "Launch 0.5!", 
+            "title": "Product"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm09/luis/#events", 
+            "text": "ScalingNOW in Barcelona  EthCC in Paris", 
+            "title": "Events"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm09/luke/", 
+            "text": "Aragon Community Meeting 09 Write-Up for February 2018\n\n\nLuke - Research Lead\n\n\nAragon Labs\n\n\n\n\nLiquid Democracy Working Group\n\n\nTCR Working Group\n\n\n\n\nOther\n\n\n\n\nETHDenver\n (Stream links below, sorry its facebook!)\n\n\nETHDenver: Getting Started with aragonOS (\n50:38\n)\n\n\nETHDenver: Practical Considerations for on-chain governance (\n23:24\n)\n\n\nETHDenver: Decentralized Governance panel (\n1:14:21\n)\n\n\nResearch related to Aragon Network\n\n\n\n\nNext\n\n\nAragon Labs\n\n\n\n\nLiquid Democracy and TCR repos\n\n\nContributor guides\n\n\n\n\nResearch\n\n\n\n\nContinue ongoing research efforts related to Aragon Network Governance\n\n\nExperiment with Signaling/CarbonFeedback for ANT Holders", 
+            "title": "Write-Up - Luke"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm09/luke/#aragon-community-meeting-09-write-up-for-february-2018", 
+            "text": "", 
+            "title": "Aragon Community Meeting 09 Write-Up for February 2018"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm09/luke/#luke-research-lead", 
+            "text": "", 
+            "title": "Luke - Research Lead"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm09/luke/#aragon-labs", 
+            "text": "Liquid Democracy Working Group  TCR Working Group", 
+            "title": "Aragon Labs"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm09/luke/#other", 
+            "text": "ETHDenver  (Stream links below, sorry its facebook!)  ETHDenver: Getting Started with aragonOS ( 50:38 )  ETHDenver: Practical Considerations for on-chain governance ( 23:24 )  ETHDenver: Decentralized Governance panel ( 1:14:21 )  Research related to Aragon Network", 
+            "title": "Other"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm09/luke/#next", 
+            "text": "", 
+            "title": "Next"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm09/luke/#aragon-labs_1", 
+            "text": "Liquid Democracy and TCR repos  Contributor guides", 
+            "title": "Aragon Labs"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm09/luke/#research", 
+            "text": "Continue ongoing research efforts related to Aragon Network Governance  Experiment with Signaling/CarbonFeedback for ANT Holders", 
+            "title": "Research"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm09/maria/", 
+            "text": "Aragon Community Meeting 09 Write-Up for February 2018\n\n\nMaria - Strategy and Operations Lead\n\n\nStrategy\n\n\n\n\nWorked on the Nest project: reviewed proposals and request for founding, and talked to people and teams interested in the program\n\n\nWorked on the proxy project. Talked to several people interested in helping with the project\n\n\nWorked on other strategy projects I can't talked about yet\n\n\nStarted working on the plan for the Foundation/company split and the related leadership transfer from the Foundation to the Network\n\n\nParticpated in a event in NYC on regulatory issues of new technologies\n\n\n\n\nOperations\n\n\n\n\nWorked on several legal matters\n\n\n\n\nOther\n\n\n\n\nReviewed the foundation/company split blog post\n\n\nAttended the offsite of the team and particpated in all the different workshops and acitivities\n\n\n\n\nNext\n\n\nStrategy\n\n\n\n\nFocus on pushing forward the several strategy initiatives we are working on", 
+            "title": "Write-Up - Maria"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm09/maria/#aragon-community-meeting-09-write-up-for-february-2018", 
+            "text": "", 
+            "title": "Aragon Community Meeting 09 Write-Up for February 2018"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm09/maria/#maria-strategy-and-operations-lead", 
+            "text": "", 
+            "title": "Maria - Strategy and Operations Lead"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm09/maria/#strategy", 
+            "text": "Worked on the Nest project: reviewed proposals and request for founding, and talked to people and teams interested in the program  Worked on the proxy project. Talked to several people interested in helping with the project  Worked on other strategy projects I can't talked about yet  Started working on the plan for the Foundation/company split and the related leadership transfer from the Foundation to the Network  Particpated in a event in NYC on regulatory issues of new technologies", 
+            "title": "Strategy"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm09/maria/#operations", 
+            "text": "Worked on several legal matters", 
+            "title": "Operations"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm09/maria/#other", 
+            "text": "Reviewed the foundation/company split blog post  Attended the offsite of the team and particpated in all the different workshops and acitivities", 
+            "title": "Other"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm09/maria/#next", 
+            "text": "", 
+            "title": "Next"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm09/maria/#strategy_1", 
+            "text": "Focus on pushing forward the several strategy initiatives we are working on", 
+            "title": "Strategy"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm09/oliver/", 
+            "text": "Aragon Community Meeting 09 Write-Up for February 2018\n\n\nOliver - Glue\n\n\nEvents / Onboarding\n\n\nOffsite\n\n\nSpent a week with the Arafam at the Q1 offsite.\n\n\nTrial week\n\n\nWorked with Bingen, Jouni and Chris during their trial week.\n\n\nAudits\n\n\nMet with auditors and yanked out APM-specific logic to it's own library because of it, amongst oher things.\n\n\nETHDenver\n\n\nSpent a week at ETHDenver helping people hack on Aragon. People built super exciting and cool stuff, and we learned a lot about the state of our tools and documentation, too! Can't wait to see what people will build in the future :)\n\n\nDocumentation\n\n\nPut togeher some rough documentation for the following things (primarily because of ETHDenver):\n\n\n\n\nAragon CLI\n\n\naragon.js\n\n\nCreated a rough \"developer portal\" (hack.aragon.one)\n\n\n\n\naragon.js\n\n\nReleased a few beta versions, each with their own things. Summarised:\n\n\n\n\nTransaction pathing works\n\n\nReading state works\n\n\nBasic cache is implemented\n\n\nBasic support for notifications is implemented\n\n\nListening for events has been implemented\n\n\nSome meta-changes (CI, crude documentation, bug fixes and shuffling some things around)\n\n\n\n\nNext\n\n\nAragon CLI\n\n\nA lot of things have changed in aragonOS, so Aragon CLI has some pending work\n\n\n\n\nShould be compatible with permission escalation, since APM is now a DAO\n\n\nplayground\n and \nbootstrap\n commands for better dev experience\n\n\n\n\naragon.js\n\n\n\n\nMore tests, more stable API\n\n\nBetter documentation\n\n\n\n\nProduct\n\n\n\n\nLaunch 0.5\n\n\n\n\nEvents\n\n\n\n\nScalingNOW in Barcelona\n\n\nEthCC in Paris", 
+            "title": "Write-Up - Oliver"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm09/oliver/#aragon-community-meeting-09-write-up-for-february-2018", 
+            "text": "", 
+            "title": "Aragon Community Meeting 09 Write-Up for February 2018"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm09/oliver/#oliver-glue", 
+            "text": "", 
+            "title": "Oliver - Glue"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm09/oliver/#events-onboarding", 
+            "text": "", 
+            "title": "Events / Onboarding"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm09/oliver/#offsite", 
+            "text": "Spent a week with the Arafam at the Q1 offsite.", 
+            "title": "Offsite"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm09/oliver/#trial-week", 
+            "text": "Worked with Bingen, Jouni and Chris during their trial week.", 
+            "title": "Trial week"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm09/oliver/#audits", 
+            "text": "Met with auditors and yanked out APM-specific logic to it's own library because of it, amongst oher things.", 
+            "title": "Audits"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm09/oliver/#ethdenver", 
+            "text": "Spent a week at ETHDenver helping people hack on Aragon. People built super exciting and cool stuff, and we learned a lot about the state of our tools and documentation, too! Can't wait to see what people will build in the future :)", 
+            "title": "ETHDenver"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm09/oliver/#documentation", 
+            "text": "Put togeher some rough documentation for the following things (primarily because of ETHDenver):   Aragon CLI  aragon.js  Created a rough \"developer portal\" (hack.aragon.one)", 
+            "title": "Documentation"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm09/oliver/#aragonjs", 
+            "text": "Released a few beta versions, each with their own things. Summarised:   Transaction pathing works  Reading state works  Basic cache is implemented  Basic support for notifications is implemented  Listening for events has been implemented  Some meta-changes (CI, crude documentation, bug fixes and shuffling some things around)", 
+            "title": "aragon.js"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm09/oliver/#next", 
+            "text": "", 
+            "title": "Next"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm09/oliver/#aragon-cli", 
+            "text": "A lot of things have changed in aragonOS, so Aragon CLI has some pending work   Should be compatible with permission escalation, since APM is now a DAO  playground  and  bootstrap  commands for better dev experience", 
+            "title": "Aragon CLI"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm09/oliver/#aragonjs_1", 
+            "text": "More tests, more stable API  Better documentation", 
+            "title": "aragon.js"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm09/oliver/#product", 
+            "text": "Launch 0.5", 
+            "title": "Product"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm09/oliver/#events", 
+            "text": "ScalingNOW in Barcelona  EthCC in Paris", 
+            "title": "Events"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm09/pierre/", 
+            "text": "Aragon Community Meeting 09 Write-Up for February 2018\n\n\nPierre - UI \n Interaction Developer\n\n\nAragon / Aragon Apps\n\n\n\n\nConnect Aragon to aragon.js.\n\n\nConnect Voting app to aragon.js.\n\n\nAdd a \ndemo template\n to test the app with some data.\n\n\n\n\nAragon UI\n\n\n\n\nAdd \nCountDown\n.\n\n\nAdd a generic \nBadge\n component.\n\n\nSidePanel: scrollable view.\n\n\nGallery: Navigation Groups + Homepage illustration.\n\n\nRelease \n0.4\n and \n0.5\n.\n\n\n\n\nNext\n\n\nAragon / Aragon Apps\n\n\nGetting everything ready for 0.5.\n\n\n\n\nToken Manager.\n\n\nOnboarding screens.\n\n\nError + loading states.\n\n\n\n\nAragon UI\n\n\n\n\nAdd more components as needed.\n\n\nAdd a focus state accross components.\n\n\nImprove visual consistency.\n\n\nRemove flow from components.\n\n\nBlog post to introduce Aragon UI and its goals for 1.0.", 
+            "title": "Write-Up - Pierre"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm09/pierre/#aragon-community-meeting-09-write-up-for-february-2018", 
+            "text": "", 
+            "title": "Aragon Community Meeting 09 Write-Up for February 2018"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm09/pierre/#pierre-ui-interaction-developer", 
+            "text": "", 
+            "title": "Pierre - UI &amp; Interaction Developer"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm09/pierre/#aragon-aragon-apps", 
+            "text": "Connect Aragon to aragon.js.  Connect Voting app to aragon.js.  Add a  demo template  to test the app with some data.", 
+            "title": "Aragon / Aragon Apps"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm09/pierre/#aragon-ui", 
+            "text": "Add  CountDown .  Add a generic  Badge  component.  SidePanel: scrollable view.  Gallery: Navigation Groups + Homepage illustration.  Release  0.4  and  0.5 .", 
+            "title": "Aragon UI"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm09/pierre/#next", 
+            "text": "", 
+            "title": "Next"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm09/pierre/#aragon-aragon-apps_1", 
+            "text": "Getting everything ready for 0.5.   Token Manager.  Onboarding screens.  Error + loading states.", 
+            "title": "Aragon / Aragon Apps"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm09/pierre/#aragon-ui_1", 
+            "text": "Add more components as needed.  Add a focus state accross components.  Improve visual consistency.  Remove flow from components.  Blog post to introduce Aragon UI and its goals for 1.0.", 
+            "title": "Aragon UI"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm09/tatu/", 
+            "text": "Aragon Community Meeting 09 Write-Up for February 2018\n\n\nTatu - Communications Lead\n\n\nAragon Feedback Survey\n\n\nDesigning, preparing and creating the first large Aragon feedback survey to go out after v0.5 release.\n\n\nEvents\n\n\n\n\nSponsorship and participation of Aragon to \nETHDenver\n\n\nSponsorship and participation of Aragon to \nEthCC\n\n\nParticipation of Aragon to \nSignature Berlin\n \n \nBerlin Blockchain Hackathon\n\n\n\n\nUpdate \nwebsite\n\n\nAdding contact info and blog to nav menu.\n\n\nBlog posts\n\n\n\n\nBringing DAOs back\u200a\u2014\u200aAragon Monthly\n\n\nAragon Team Update: January 2018\n\n\nCo-Authored \nAnnouncing Aragon Labs\n\n\nAragon at ETHDenver\n\n\nTeam Interviews: Bingen, Aragon\u2019s Solidity Engineer\n\n\nTeam Interviews: Jouni, Aragon\u2019s Design Lead\n\n\n\n\nProvide feedback, help edit \n polish posts, review blog posts by others\n\n\n\n\nDecentralizing Aragon\u2019s development\n\n\nAragon @ ETHDenver Recap\n\n\n\n\nAragon videos\n\n\nContinue working on getting Aragon videos ready.\n\n\nAragon Monthly\n\n\nContinue to work on securing content and have things progress with \nAragon Monthly\n.\n\n\nNext\n\n\nWiki\n\n\nKeeping Wiki up to date and adding content\n\n\nAragon Monthly\n\n\nPublish Issue 02 and send out the monthly newsletter, help community and staff contributors in creating and curating content\n\n\nBlog\n\n\n\n\nAnnounce Aragon Core alpha v0.5\n\n\nOther possible announcements, updates, interviews\n\n\n\n\nContinue working on overall communication strategy\n\n\nPublish the feedback survey, gather and analyze data from it\n\n\nStart preparing communications for all the things Aragon", 
+            "title": "Write-Up - Tatu"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm09/tatu/#aragon-community-meeting-09-write-up-for-february-2018", 
+            "text": "", 
+            "title": "Aragon Community Meeting 09 Write-Up for February 2018"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm09/tatu/#tatu-communications-lead", 
+            "text": "", 
+            "title": "Tatu - Communications Lead"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm09/tatu/#aragon-feedback-survey", 
+            "text": "Designing, preparing and creating the first large Aragon feedback survey to go out after v0.5 release.", 
+            "title": "Aragon Feedback Survey"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm09/tatu/#events", 
+            "text": "Sponsorship and participation of Aragon to  ETHDenver  Sponsorship and participation of Aragon to  EthCC  Participation of Aragon to  Signature Berlin     Berlin Blockchain Hackathon", 
+            "title": "Events"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm09/tatu/#update-website", 
+            "text": "Adding contact info and blog to nav menu.", 
+            "title": "Update website"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm09/tatu/#blog-posts", 
+            "text": "Bringing DAOs back\u200a\u2014\u200aAragon Monthly  Aragon Team Update: January 2018  Co-Authored  Announcing Aragon Labs  Aragon at ETHDenver  Team Interviews: Bingen, Aragon\u2019s Solidity Engineer  Team Interviews: Jouni, Aragon\u2019s Design Lead   Provide feedback, help edit   polish posts, review blog posts by others   Decentralizing Aragon\u2019s development  Aragon @ ETHDenver Recap", 
+            "title": "Blog posts"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm09/tatu/#aragon-videos", 
+            "text": "Continue working on getting Aragon videos ready.", 
+            "title": "Aragon videos"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm09/tatu/#aragon-monthly", 
+            "text": "Continue to work on securing content and have things progress with  Aragon Monthly .", 
+            "title": "Aragon Monthly"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm09/tatu/#next", 
+            "text": "", 
+            "title": "Next"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm09/tatu/#wiki", 
+            "text": "Keeping Wiki up to date and adding content", 
+            "title": "Wiki"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm09/tatu/#aragon-monthly_1", 
+            "text": "Publish Issue 02 and send out the monthly newsletter, help community and staff contributors in creating and curating content", 
+            "title": "Aragon Monthly"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm09/tatu/#blog", 
+            "text": "Announce Aragon Core alpha v0.5  Other possible announcements, updates, interviews", 
+            "title": "Blog"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm09/tatu/#continue-working-on-overall-communication-strategy", 
+            "text": "", 
+            "title": "Continue working on overall communication strategy"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm09/tatu/#publish-the-feedback-survey-gather-and-analyze-data-from-it", 
+            "text": "", 
+            "title": "Publish the feedback survey, gather and analyze data from it"
+        }, 
+        {
+            "location": "/meetings/community/write-ups/cm09/tatu/#start-preparing-communications-for-all-the-things-aragon", 
+            "text": "", 
+            "title": "Start preparing communications for all the things Aragon"
+        }, 
+        {
             "location": "/meetings/community/08/", 
             "text": "Aragon Community Meeting 08 Agenda\n\n\nMeeting Date: February 13th, 5pm CEST\n\n\nMeeting video\n\n\nParticipants\n\n\n\n\n@luisivan\n\n\n@Smokyish, facilitator\n\n\n@izqui\n\n\n@mariapao\n\n\n@bpierre\n\n\n@lkngtn\n\n\n@onbjerg\n\n\n@john-light\n\n\n@sohkai\n\n\n@alexarwr\n\n\n\n\nAgenda\n\n\n\n\nDiscussion about the issues in the write-ups by team members\n\n\nRecent updates on the Project by @izqui\n\n\nRecent updates on the Community by @john-light\n\n\nAMA, Ask Me Anything, team answers \nquestions by the community\n\n\nClosing meeting\n\n\n\n\nWrite-Ups\n\n\n\n\nTeam members will produce a write-up of the most important things they have worked on since last Community Meeting, the problems they have found and what they plan to do in the next weeks (that can be a bit blurry, and that's fine). These write-ups will be published as a blog post for the community to review on Monday before Friday's meeting.\n\n\n\n\n\n\nAlexa - Operations Assistant\n\n\nBrett - EVM/Solidity/*\n\n\nJohn - Community Lead\n\n\nJorge - Tech Lead\n\n\nLuis - Project Lead\n\n\nLuke - Research Lead\n\n\nMaria - Head of Strategy and Operations\n\n\nOliver - Glue\n\n\nPierre - Frontend Developer\n\n\nTatu - Communications Lead", 
             "title": "Agenda"
@@ -3717,7 +4397,7 @@
         }, 
         {
             "location": "/blog/2018/", 
-            "text": "Aragon blog posts 2018\n\n\nFebruary\n\n\nTeam Interviews: Jouni, Aragon\u2019s Design Lead\n\n\nJouni is an experienced designer who\u2019s looking to change the future of society and work\n\n\n\n\nThis time on Team Interviews Jouni, Aragon\u2019s new Design Lead! We get into his previous work designing open source software, what kind of impact technology can have on our global living environment and how he sees Ethereum and the blockchain technology potentially shaping the future of society and work.\n\n\n\n\nTeam Interviews: Bingen, Aragon\u2019s Solidity Engineer\n\n\nBingen is a developer and an open source advocate joining Aragon to make the world a better place\n\n\n\n\nToday our Team Interview is with Bingen, Aragon\u2019s new Solidity Engineer\u200a\u2014\u200awe talked about his interest to make the world a better place through Aragon, and what are his thoughts on Ethereum.\n\n\n\n\nAragon at ETHDenver\n\n\nAragon is a proud sponsor, mentor, and bounty provider at the ETHDenver hackathon\n\n\n\n\nFor all of February 16\u201318, 2018 you can find several of Aragon team members at the ETHDenver hackathon. We\u2019re proud to be sponsoring this exciting event and are very much looking forward to seeing what people come up with there.\n\n\n\n\nDecentralizing Aragon\u2019s development\n\n\nSplitting the Foundation from the core devs, and kickstarting funding for other teams to work on Aragon\n\n\n\n\nFor the project to be as resilient as possible, the development of the project should not be controlled by a single central entity. It should be in the hands of the community and multiple different development teams.\n\n\n\n\nAnnouncing Aragon Labs\n\n\nWhere research meets development\n\n\n\n\nThe goal of Aragon Labs is to enable experimental research and development efforts that move fast and some times break (minor) things. Running these experiments allows us to learn from these experiences. And we can re-iterate and run these experiments for as long as we need. Until we are confident that our tools and products have become stable and mature. That their development has reached a point that signifies them ready to secure valuable ecosystems such as the Aragon Network itself.\n\n\n\n\nAragon Team Update: January 2018\n\n\nWritten reviews of what the team members have been up to\n\n\n\n\nTeam members will produce a write-up of the most important things they have worked on since last Community Meeting, the problems they have found and what they plan to do in the next weeks (that can be a bit blurry, and that\u2019s fine). These write-ups will be published as a blog post for the community to review on Monday before Friday\u2019s meeting.\n\n\n\n\nBringing DAOs back\u200a\u2014\u200aAragon Monthly\n\n\nAragon Monthly is a community curated digital newspaper about DAOs and the Aragon ecosystem\n\n\n\n\nDecentralized Autonomous Organizations aka DAOs have for too long been a taboo few dared to speak out loud. The catastrophic failure of The DAO ensured that the topic of decentralized organizations was pushed into oblivion.\n\n\n\n\nJanuary\n\n\nIntroducing aragonOS 3.0 alpha, the new operating system for protocols and DApps\n\n\nSmart contract codebase has been frozen, audit with WHG starts today and announcement for Aragon v0.5 release schedule\n\n\n\n\nThe scope of Aragon\u2019s influence has been broadening ever since the team started growing from just myself and Luis to a dozen of brilliant freedom fighters... We\u2019ve gone from it being a nice way to manage a traditional business to a full-stack governance platform for sovereign individuals, organizations, and protocols in the blockchain.\n\n\n\n\nLaunch of Aragon Nest\n\n\nGrants program is open for submissions\n\n\n\n\nAt the end of 2017 we presented Aragon Nest to the community and encouraged people to start coming up with ideas for the launch... Now the time has come to launch the program.\n\n\n\n\nAragon Q4 Transparency Report\n\n\nA recap of what has been going on with Aragon during Q4 2017\n\n\n\n\nAs per our Transparency Model, we do quarterly Transparency Reports of our use of funds and about the overall progress of the project.\n\n\n\n\nAragon Q4 Development Update\n\n\nProgress of development from the last quarter of 2017\n\n\n\n\nIn the last quarter of 2017 we were heads down developing everything for the version 0.5 release of the Aragon Core app.\n\n\n\n\nAragon Team Update: December 2017\n\n\nWritten reviews of what the team members have been up to\n\n\n\n\nTeam members will produce a write-up of the most important things they have worked on since last Community Meeting, the problems they have found and what they plan to do in the next weeks (that can be a bit blurry, and that\u2019s fine). These write-ups will be published as a blog post for the community to review on Monday before Friday\u2019s meeting.", 
+            "text": "Aragon blog posts 2018\n\n\nFebruary\n\n\nAragon @ ETHDenver Recap\n\n\nAn incredible weekend of building and bonding with the Denver community\n\n\n\n\nThis past weekend several members of the Aragon team, including Jorge, Luke, Oliver, and myself (John), attended ETHDenver in Colorado, USA. ETHDenver is an Ethereum community event featuring a hackathon and workshops.\n\n\n\n\nTeam Interviews: Jouni, Aragon\u2019s Design Lead\n\n\nJouni is an experienced designer who\u2019s looking to change the future of society and work\n\n\n\n\nThis time on Team Interviews Jouni, Aragon\u2019s new Design Lead! We get into his previous work designing open source software, what kind of impact technology can have on our global living environment and how he sees Ethereum and the blockchain technology potentially shaping the future of society and work.\n\n\n\n\nTeam Interviews: Bingen, Aragon\u2019s Solidity Engineer\n\n\nBingen is a developer and an open source advocate joining Aragon to make the world a better place\n\n\n\n\nToday our Team Interview is with Bingen, Aragon\u2019s new Solidity Engineer\u200a\u2014\u200awe talked about his interest to make the world a better place through Aragon, and what are his thoughts on Ethereum.\n\n\n\n\nAragon at ETHDenver\n\n\nAragon is a proud sponsor, mentor, and bounty provider at the ETHDenver hackathon\n\n\n\n\nFor all of February 16\u201318, 2018 you can find several of Aragon team members at the ETHDenver hackathon. We\u2019re proud to be sponsoring this exciting event and are very much looking forward to seeing what people come up with there.\n\n\n\n\nDecentralizing Aragon\u2019s development\n\n\nSplitting the Foundation from the core devs, and kickstarting funding for other teams to work on Aragon\n\n\n\n\nFor the project to be as resilient as possible, the development of the project should not be controlled by a single central entity. It should be in the hands of the community and multiple different development teams.\n\n\n\n\nAnnouncing Aragon Labs\n\n\nWhere research meets development\n\n\n\n\nThe goal of Aragon Labs is to enable experimental research and development efforts that move fast and some times break (minor) things. Running these experiments allows us to learn from these experiences. And we can re-iterate and run these experiments for as long as we need. Until we are confident that our tools and products have become stable and mature. That their development has reached a point that signifies them ready to secure valuable ecosystems such as the Aragon Network itself.\n\n\n\n\nAragon Team Update: January 2018\n\n\nWritten reviews of what the team members have been up to\n\n\n\n\nTeam members will produce a write-up of the most important things they have worked on since last Community Meeting, the problems they have found and what they plan to do in the next weeks (that can be a bit blurry, and that\u2019s fine). These write-ups will be published as a blog post for the community to review on Monday before Friday\u2019s meeting.\n\n\n\n\nBringing DAOs back\u200a\u2014\u200aAragon Monthly\n\n\nAragon Monthly is a community curated digital newspaper about DAOs and the Aragon ecosystem\n\n\n\n\nDecentralized Autonomous Organizations aka DAOs have for too long been a taboo few dared to speak out loud. The catastrophic failure of The DAO ensured that the topic of decentralized organizations was pushed into oblivion.\n\n\n\n\nJanuary\n\n\nIntroducing aragonOS 3.0 alpha, the new operating system for protocols and DApps\n\n\nSmart contract codebase has been frozen, audit with WHG starts today and announcement for Aragon v0.5 release schedule\n\n\n\n\nThe scope of Aragon\u2019s influence has been broadening ever since the team started growing from just myself and Luis to a dozen of brilliant freedom fighters... We\u2019ve gone from it being a nice way to manage a traditional business to a full-stack governance platform for sovereign individuals, organizations, and protocols in the blockchain.\n\n\n\n\nLaunch of Aragon Nest\n\n\nGrants program is open for submissions\n\n\n\n\nAt the end of 2017 we presented Aragon Nest to the community and encouraged people to start coming up with ideas for the launch... Now the time has come to launch the program.\n\n\n\n\nAragon Q4 Transparency Report\n\n\nA recap of what has been going on with Aragon during Q4 2017\n\n\n\n\nAs per our Transparency Model, we do quarterly Transparency Reports of our use of funds and about the overall progress of the project.\n\n\n\n\nAragon Q4 Development Update\n\n\nProgress of development from the last quarter of 2017\n\n\n\n\nIn the last quarter of 2017 we were heads down developing everything for the version 0.5 release of the Aragon Core app.\n\n\n\n\nAragon Team Update: December 2017\n\n\nWritten reviews of what the team members have been up to\n\n\n\n\nTeam members will produce a write-up of the most important things they have worked on since last Community Meeting, the problems they have found and what they plan to do in the next weeks (that can be a bit blurry, and that\u2019s fine). These write-ups will be published as a blog post for the community to review on Monday before Friday\u2019s meeting.", 
             "title": 2018
         }, 
         {
@@ -3729,6 +4409,11 @@
             "location": "/blog/2018/#february", 
             "text": "", 
             "title": "February"
+        }, 
+        {
+            "location": "/blog/2018/#aragon-ethdenver-recap", 
+            "text": "An incredible weekend of building and bonding with the Denver community   This past weekend several members of the Aragon team, including Jorge, Luke, Oliver, and myself (John), attended ETHDenver in Colorado, USA. ETHDenver is an Ethereum community event featuring a hackathon and workshops.", 
+            "title": "Aragon @ ETHDenver Recap"
         }, 
         {
             "location": "/blog/2018/#team-interviews-jouni-aragons-design-lead", 
