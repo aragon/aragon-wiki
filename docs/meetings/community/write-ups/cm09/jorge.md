@@ -24,7 +24,7 @@ be executed sooner than we expected thanks to core infrastructure work, such as 
 paying off.
 
 - Thanks to the team for coming but specially to our amazing advisors, Jake and Brayton,
-and our investors, Joel and Chris. Having people that don't work with us on a daily
+and our partners, Joel and Chris. Having people that don't work with us on a daily
 basis living with us for a week was invaluable.
 
 #### Standards
