@@ -11,7 +11,7 @@ Met the team during the trial and onboarding week in Madrid and the offsite 01.
 
 #### Aragon Labs
 - Met with Luke and Eduardo Medina from Democracy Earth
-- Participated in the discussion to set [Liquid Democracy requirements](https://docs.google.com/document/d/1fw_gpxaMsV-tJHpKz8jU22cciLBREQ5vB3T6nvvJbtU/edit)
+- Participated in the discussion to set Liquid Democracy requirements
 
 #### Hiring
 Helped reviewing Solidity and DevOps candidate submissions.
@@ -30,4 +30,3 @@ Continue the search for a DevOps candidate.
 #### Events
 
 - ScalingNOW in Barcelona
-- EthCC in Paris
