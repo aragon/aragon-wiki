@@ -1857,7 +1857,7 @@
         }, 
         {
             "location": "/meetings/community/write-ups/cm09/bingen/", 
-            "text": "Aragon Community Meeting 09 Write-Up for February 2018\n\n\n\u00dfingen - Solidity Engineer\n\n\nOnboarding\n\n\nMet the team during the trial and onboarding week in Madrid and the offsite 01.\n\n\nAragon Apps\n\n\n\n\nNew \nPayroll\n app.\n\n\nMet with auditors, a couple of minor fixes to finance app as a result.\n\n\n\n\nAragon Labs\n\n\n\n\nMet with Luke and Eduardo Medina from Democracy Earth\n\n\nParticipated in the discussion to set \nLiquid Democracy requirements\n\n\n\n\nHiring\n\n\nHelped reviewing Solidity and DevOps candidate submissions.\n\n\nNext\n\n\nAragon Labs\n\n\nContinue the work with Liquid Democracy specs and start building it on top of AragonOS\n\n\nAragon OS/ Aragon Apps\n\n\nHelp with anything needed, especially for audit review and 0.5 launch.\n\n\nHiring\n\n\nContinue the search for a DevOps candidate.\n\n\nEvents\n\n\n\n\nScalingNOW in Barcelona\n\n\nEthCC in Paris", 
+            "text": "Aragon Community Meeting 09 Write-Up for February 2018\n\n\n\u00dfingen - Solidity Engineer\n\n\nOnboarding\n\n\nMet the team during the trial and onboarding week in Madrid and the offsite 01.\n\n\nAragon Apps\n\n\n\n\nNew \nPayroll\n app.\n\n\nMet with auditors, a couple of minor fixes to finance app as a result.\n\n\n\n\nAragon Labs\n\n\n\n\nMet with Luke and Eduardo Medina from Democracy Earth\n\n\nParticipated in the discussion to set Liquid Democracy requirements\n\n\n\n\nHiring\n\n\nHelped reviewing Solidity and DevOps candidate submissions.\n\n\nNext\n\n\nAragon Labs\n\n\nContinue the work with Liquid Democracy specs and start building it on top of AragonOS\n\n\nAragon OS/ Aragon Apps\n\n\nHelp with anything needed, especially for audit review and 0.5 launch.\n\n\nHiring\n\n\nContinue the search for a DevOps candidate.\n\n\nEvents\n\n\n\n\nScalingNOW in Barcelona", 
             "title": "Write-Up - Bingen"
         }, 
         {
@@ -1882,7 +1882,7 @@
         }, 
         {
             "location": "/meetings/community/write-ups/cm09/bingen/#aragon-labs", 
-            "text": "Met with Luke and Eduardo Medina from Democracy Earth  Participated in the discussion to set  Liquid Democracy requirements", 
+            "text": "Met with Luke and Eduardo Medina from Democracy Earth  Participated in the discussion to set Liquid Democracy requirements", 
             "title": "Aragon Labs"
         }, 
         {
@@ -1912,7 +1912,7 @@
         }, 
         {
             "location": "/meetings/community/write-ups/cm09/bingen/#events", 
-            "text": "ScalingNOW in Barcelona  EthCC in Paris", 
+            "text": "ScalingNOW in Barcelona", 
             "title": "Events"
         }, 
         {
@@ -1967,7 +1967,7 @@
         }, 
         {
             "location": "/meetings/community/write-ups/cm09/john/", 
-            "text": "Aragon Community Meeting 09 Write-Up for February 2018\n\n\nJohn Light - Community Lead\n\n\nHosted Community Guide workshop with core team\n\n\n\n\nCommunity teams\n\n\nLicenses and contributing guidelines\n\n\nVarious other feedback\n\n\n\n\nAttended ETHDenver\n\n\n\n\nCo-organized meetup with other community leaders\n\n\nMet local Aragon and Ethereum community members\n\n\nWrote recap blog post\n\n\n\n\nStarted work on 30 DAOs in 30 Days initiative\n\n\n\n\nPre-planning\n\n\nApplicant pipeline\n\n\nAnnouncement draft\n\n\n\n\nQ1 travel planning\n\n\nCommunity stats\n\n\nTBD\n\n\nNext month\n\n\n\n\n\n\nAssist with 30 DAOs in 30 Days initiative\n\n\n\n\n\n\nFinish Aragon Interactive Demo Series planning document, write formal announcement once ready\n\n\n\n\n\n\nRelease Aragon Community Guide v1.0 for peer review\n\n\n\n\n\n\nOpen up aragon/community repo on GitHub for public contribution\n\n\n\n\n\n\nTraveling to Berlin, Prague, Paris to meet the local community, planning a local Aragon community gathering\n\n\n\n\n\n\nKeep wiki and community stats updated and be available to help out in community channels", 
+            "text": "Aragon Community Meeting 09 Write-Up for February 2018\n\n\nJohn Light - Community Lead\n\n\nHosted Community Guide workshop with core team\n\n\n\n\nCommunity teams\n\n\nLicenses and contributing guidelines\n\n\nVarious other feedback\n\n\n\n\nAttended ETHDenver\n\n\n\n\nCo-organized meetup with other community leaders\n\n\nMet local Aragon and Ethereum community members\n\n\nWrote recap blog post\n\n\n\n\nStarted work on Building DAOs initiative\n\n\n\n\nPre-planning\n\n\nApplicant pipeline\n\n\nAnnouncement draft\n\n\n\n\nQ1 travel planning\n\n\nCommunity stats\n\n\nTBD\n\n\nNext month\n\n\n\n\n\n\nAssist with Building DAOs initiative\n\n\n\n\n\n\nFinish Aragon Interactive Demo Series planning document, write formal announcement once ready\n\n\n\n\n\n\nRelease Aragon Community Guide v1.0 for peer review\n\n\n\n\n\n\nOpen up aragon/community repo on GitHub for public contribution\n\n\n\n\n\n\nTraveling to Berlin, Prague, Paris to meet the local community, planning a local Aragon community gathering\n\n\n\n\n\n\nKeep wiki and community stats updated and be available to help out in community channels", 
             "title": "Write-Up - John"
         }, 
         {
@@ -1991,9 +1991,9 @@
             "title": "Attended ETHDenver"
         }, 
         {
-            "location": "/meetings/community/write-ups/cm09/john/#started-work-on-30-daos-in-30-days-initiative", 
+            "location": "/meetings/community/write-ups/cm09/john/#started-work-on-building-daos-initiative", 
             "text": "Pre-planning  Applicant pipeline  Announcement draft", 
-            "title": "Started work on 30 DAOs in 30 Days initiative"
+            "title": "Started work on Building DAOs initiative"
         }, 
         {
             "location": "/meetings/community/write-ups/cm09/john/#q1-travel-planning", 
@@ -2007,7 +2007,7 @@
         }, 
         {
             "location": "/meetings/community/write-ups/cm09/john/#next-month", 
-            "text": "Assist with 30 DAOs in 30 Days initiative    Finish Aragon Interactive Demo Series planning document, write formal announcement once ready    Release Aragon Community Guide v1.0 for peer review    Open up aragon/community repo on GitHub for public contribution    Traveling to Berlin, Prague, Paris to meet the local community, planning a local Aragon community gathering    Keep wiki and community stats updated and be available to help out in community channels", 
+            "text": "Assist with Building DAOs initiative    Finish Aragon Interactive Demo Series planning document, write formal announcement once ready    Release Aragon Community Guide v1.0 for peer review    Open up aragon/community repo on GitHub for public contribution    Traveling to Berlin, Prague, Paris to meet the local community, planning a local Aragon community gathering    Keep wiki and community stats updated and be available to help out in community channels", 
             "title": "Next month"
         }, 
         {
