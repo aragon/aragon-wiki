@@ -10,7 +10,7 @@ We're looking for a Developer Relations to help third party developers create ap
 - Nurture and support the Aragon dev ecosystem
 - Attend and organize hackathons, helping devs get excited and started developing on Aragon
 - Support external contributors
-- Source, screen and select interesting projects that might be eligible for grants
+- Source, screen and select interesting projects that might be eligible for [Nest grants](https://blog.aragon.one/introducing-aragon-nest-1aa8c91c0566)
 
 ### Requirements
 
