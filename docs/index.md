@@ -10,56 +10,57 @@ If you feel like contributing to the wiki, like changing or adding things, feel 
 
 For our website visit [aragon.one](https://aragon.one).
 
-## What does the wiki contain?
+## **What does the wiki contain?**
 You can use the menu to the left to navigate the wiki. Here is a brief summary of the contents:
 
-- Documentation
+- **<u>Documentation</u>**
 
     - Documents and papers related to the project
     - Developer resources
     - Finalized versions of the [Aragon Governance Proposal](https://github.com/aragon/governance/issues) documents
     - Information about the Aragon multisig structure and wallets
 
-- Development
+- **<u>Development</u>**
 
     - Technical descriptions and documentation for Aragon software projects
 
-- Design
+- **<u>Design</u>**
 
     - Visual assets of the Aragon project
     - App UI, brand guidelines, logos, merchandise, and more
 
-- Meetings
+- **<u>Meetings</u>**
 
     - Information and agendas for our public meetings
 
-- Jobs
+- **<u>Jobs</u>**
 
     - Details about our culture, work conditions and guide for applying to work at Aragon
     - Our current job openings
 
-- Blog posts
+- **<u>Blog posts</u>**
 
     - Index and links to all of our blog posts
 
-- Videos
+- **<u>Videos</u>**
 
     - Links to all our videos
 
-- Press
+- **<u>Press</u>**
 
     - Aragon Press Kit for Press/Media
     - Some media mentions
     - Contact information for media/press inquiries
 
-- Archive
+- **<u>Archive</u>**
 
     - Old, deprecated documents and files that are kept for archiving purposes only
 
-- Translations
+- **<u>Translations</u>**
 
     - Translations of documents into non-English languages
 
+___
 
 ## What is Aragon?
 
@@ -90,7 +91,7 @@ Aragon organizations can be upgraded seamlessly using our aragonOS architecture.
 
 The Aragon Network Token, ANT, puts the power into the hands of the people participating in the operation of the Network. Every single aspect of the Network will be governed by those willing to make an effort for a better future.
 
-### Aragon Core
+### **Aragon Core**
 
 <h2>Decentralized application to run your organization</h2>
 
@@ -132,7 +133,7 @@ Permissions can be granular and assigned in fine detail. You can choose to give 
 
 By assigning different permissions to people, you can create the kind of organizational structure that is best suited for your needs.
 
-### Aragon Network
+### **Aragon Network**
 
 <h2>Ensuring the success of decentralized organizations</h2>
 
@@ -151,7 +152,7 @@ Our mission is to make the Aragon Network an autonomous organization itself, whi
 
 Everyone is welcome to [join in and aid](https://github.com/aragon/governance/issues) in forging the future of how Aragon will shape out to be. Together we can build the exciting future we want to see.
 
-### Why Aragon?
+### **Why Aragon?**
 
 > Aragon was born to bring transparency and independent governance to the forefront of managing an organization. We want to give the users the freedom they deserve to run their lives.
 
@@ -180,7 +181,7 @@ YouTube - [https://www.youtube.com/c/AragonProject](https://www.youtube.com/c/Ar
 
 ## Team
 
-**Founders**
+**<h2>Founders</h2>**
 
 <img src="images/team_members/Luis_256.png" style="width:192px">
 
@@ -198,7 +199,7 @@ YouTube - [https://www.youtube.com/c/AragonProject](https://www.youtube.com/c/Ar
 
 > Already convinced about the decentralized future of the Internet, he has been building toy projects such as a [mesh network](http://github.com/izqui/net) or a small [blockchain implementation](http://github.com/izqui/blockchain) since 2014.
 
-**Operations and Communications**
+**<h2>Operations and Communications</h2>**
 
 ><img src="images/team_members/Maria_256.png" style="width:192px">
 
@@ -234,7 +235,7 @@ YouTube - [https://www.youtube.com/c/AragonProject](https://www.youtube.com/c/Ar
 
 > - **Operations Assistant**: [Alexa Weaver](https://twitter.com/alexa_rwr)
 
-**Dev Team**
+**<h2>Dev Team</h2>**
 
 > <img src="images/team_members/Chris_256.png" style="width:192px">
 
