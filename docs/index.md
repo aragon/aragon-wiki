@@ -182,7 +182,7 @@ YouTube - [https://www.youtube.com/c/AragonProject](https://www.youtube.com/c/Ar
 
 **Founders**
 
-<img src="images/team_members/Luis_128.png">
+<img src="images/team_members/Luis_256.png" style="width:192px">
 
 - **Project Lead**: [Luis Cuende](https://twitter.com/licuende)
 
@@ -190,70 +190,76 @@ YouTube - [https://www.youtube.com/c/AragonProject](https://www.youtube.com/c/Ar
 
 > He cofounded the blockchain startup [Stampery](https://stampery.com/). Prior to founding startups, he created the world's first Linux distribution with facelogin.
 
-<img src="images/team_members/Jorge_128.png">
+<img src="images/team_members/Jorge_256.png" style="width:192px">
 
 - **Tech Lead**: [Jorge Izquierdo](https://twitter.com/izqui9)
 
-> Curious hacker, creator of multiple apps for iOS, macOS and Pebble. Reached App Store's #2. Always tinkering with new tech.
+> Curious hacker, creator of multiple apps for iOS and macOS. Reached App Store's #2. Always tinkering with new tech. Named as a [2017 class of Thiel Fellows](https://www.businesswire.com/news/home/20170616005607/en).
 
 > Already convinced about the decentralized future of the Internet, he has been building toy projects such as a [mesh network](http://github.com/izqui/net) or a small [blockchain implementation](http://github.com/izqui/blockchain) since 2014.
 
 **Operations and Communications**
 
-><img src="images/team_members/Maria_128.png">
+><img src="images/team_members/Maria_256.png" style="width:192px">
 
 > - **Strategy & Operations Lead**: [María Gómez](https://twitter.com/MyPaoG)
 
 &nbsp;
 
-> <img src="images/team_members/Tatu_128.png">
+> <img src="images/team_members/Tatu_256.png" style="width:192px">
 
 > - **Communications Lead**: [Tatu Kärki](https://twitter.com/smokyish)
 
 &nbsp;
 
-> <img src="images/team_members/Luke_128.png">
+> <img src="images/team_members/Luke_256.png" style="width:192px">
 
 > - **Research Lead**: [Luke Duncan](https://twitter.com/lkngtn)
 
 &nbsp;
 
-> <img src="images/team_members/John_128.png">
+> <img src="images/team_members/John_256.png" style="width:192px">
 
 > - **Community Lead**: [John Light](https://twitter.com/lightcoin)
 
 &nbsp;
 
-> <img src="images/team_members/Jouni_128.png">
+> <img src="images/team_members/Jouni_256.png" style="width:192px">
 
 > - **Design Lead**: [Jouni Helminen](https://twitter.com/dharmaone)
 
 &nbsp;
 
-> <img src="images/team_members/Alexa_128.png">
+> <img src="images/team_members/Alexa_256.png" style="width:192px">
 
 > - **Operations Assistant**: [Alexa Weaver](https://twitter.com/alexa_rwr)
 
 **Dev Team**
 
-> <img src="images/team_members/Oliver_128.png">
+> <img src="images/team_members/Chris_256.png" style="width:192px">
+
+> - **Product Manager**: [Chris Remus](https://twitter.com/cjremus)
+
+&nbsp;
+
+> <img src="images/team_members/Oliver_256.png" style="width:192px">
 
 > - **Web3 Engineer**: [Oliver Nordbjerg](https://twitter.com/ONordbjerg)
 
 &nbsp;
 
-> <img src="images/team_members/Pierre_128.png">
+> <img src="images/team_members/Pierre_256.png" style="width:192px">
 
 > - **UI & Interaction Developer**: [Pierre Bertet](https://twitter.com/bpierre)
 
 &nbsp;
 
-> <img src="images/team_members/Brett_128.png">
+> <img src="images/team_members/Brett_256.png" style="width:192px">
 
 > - **EVM Engineer**: [Brett Sun](https://twitter.com/sohkai)
 
 &nbsp;
 
-> <img src="images/team_members/Bingen_128.png">
+> <img src="images/team_members/Bingen_256.png" style="width:192px">
 
 > - **Solidity Engineer**: [Bingen Eguzkitza](https://twitter.com/bingentxu)

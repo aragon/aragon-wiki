@@ -175,7 +175,7 @@ Here we have compiled resources and guides for press and media to use when refer
 ![](press-kit/team/Luis_Aragon_Project_Lead.jpg)
 
 ### Jorge Izquierdo - Co-Founder & Tech Lead at Aragon
-> Curious hacker, creator of multiple apps for iOS, macOS and Pebble. Reached App Store's #2. Always tinkering with new tech. Named as a [2017 class of Thiel Fellows](https://www.businesswire.com/news/home/20170616005607/en).
+> Curious hacker, creator of multiple apps for iOS and macOS. Reached App Store's #2. Always tinkering with new tech. Named as a [2017 class of Thiel Fellows](https://www.businesswire.com/news/home/20170616005607/en).
 
 > Already convinced about the decentralized future of the Internet, he has been building toy projects such as a [mesh network](http://github.com/izqui/net) or a small [blockchain implementation](http://github.com/izqui/blockchain) since 2014.
 
