@@ -3,7 +3,7 @@ var _paq = _paq || [];
 _paq.push(['trackPageView']);
 _paq.push(['enableLinkTracking']);
 (function() {
-  var u="//vps511859.ovh.net/staats/";
+  var u="//arastats.eu/staats/";
   _paq.push(['setTrackerUrl', u+'piwik.php']);
   _paq.push(['setSiteId', '2']);
   var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
