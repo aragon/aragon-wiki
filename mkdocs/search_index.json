@@ -827,8 +827,13 @@
         }, 
         {
             "location": "/documentation/presentations/", 
-            "text": "Democratizing Governance\n\n\nby Luis Cuende at \nAragon Meetup - Helsinki\n\n\nVideo of the presentation\n\n\nDesigning future-proof smart contract systems\n\n\nby Jorge Izquierdo at \nDevcon3\n\n\nVideo of the presentation\n\n\nGovernance: Main challenges and 3 possible models\n\n\nby Luis Cuende at \nM-0", 
+            "text": "Approaching Infinity: Governance \n The Case for Experimentation\n\n\nby Brett Sun at \nBlockstack Signature Berlin 2018\n\n\nVideo of the presentation\n\n\nDemocratizing Governance\n\n\nby Luis Cuende at \nAragon Meetup - Helsinki\n\n\nVideo of the presentation\n\n\nDesigning future-proof smart contract systems\n\n\nby Jorge Izquierdo at \nDevcon3\n\n\nVideo of the presentation\n\n\nGovernance: Main challenges and 3 possible models\n\n\nby Luis Cuende at \nM-0", 
             "title": "Presentations"
+        }, 
+        {
+            "location": "/documentation/presentations/#approaching-infinity-governance-the-case-for-experimentation", 
+            "text": "by Brett Sun at  Blockstack Signature Berlin 2018  Video of the presentation", 
+            "title": "Approaching Infinity: Governance &amp; The Case for Experimentation"
         }, 
         {
             "location": "/documentation/presentations/#democratizing-governance", 
@@ -5012,13 +5017,18 @@
         }, 
         {
             "location": "/videos/presentations/", 
-            "text": "Aragon Presentation Videos\n\n\nDemocratizing Governance\n\n\nby Luis Cuende at \nAragon Meetup - Helsinki\n\n\nSlides of the presentation\n\n\nDesigning future-proof smart contract systems\n\n\nby Jorge Izquierdo at \nDevcon3\n\n\nSlides of the presentation", 
+            "text": "Aragon Presentation Videos\n\n\nApproaching Infinity: Governance \n The Case for Experimentation\n\n\nby Brett Sun at \nBlockstack Signature Berlin 2018\n\n\nSlides of the presentation\n\n\nDemocratizing Governance\n\n\nby Luis Cuende at \nAragon Meetup - Helsinki\n\n\nSlides of the presentation\n\n\nDesigning future-proof smart contract systems\n\n\nby Jorge Izquierdo at \nDevcon3\n\n\nSlides of the presentation", 
             "title": "Presentations"
         }, 
         {
             "location": "/videos/presentations/#aragon-presentation-videos", 
             "text": "", 
             "title": "Aragon Presentation Videos"
+        }, 
+        {
+            "location": "/videos/presentations/#approaching-infinity-governance-the-case-for-experimentation", 
+            "text": "by Brett Sun at  Blockstack Signature Berlin 2018  Slides of the presentation", 
+            "title": "Approaching Infinity: Governance &amp; The Case for Experimentation"
         }, 
         {
             "location": "/videos/presentations/#democratizing-governance", 
