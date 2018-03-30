@@ -1,17 +1,13 @@
-## Frontend and Web3 Developer opening at Aragon
+## Frontend/Web3 Developer opening at Aragon
 
-We are looking for a frontend and web3 wizard to work with us on the [Aragon dapp](https://github.com/aragon/aragon).
+Aragon is an open source, decentralized project fighting for the freedom to organize. We believe that decentralized organizations can solve the world's worst problems.
+
+We're looking for a Frontend Developer to work with us on the [Aragon Labs](https://blog.aragon.one/announcing-aragon-labs-a679693429ae), [Aragon Core app](https://github.com/aragon/aragon), and [aragonOS](http://wiki.aragon.one/documentation/aragonOS/). Our Frontend Developer must not only be a frontend and web3 wizard but also a nonconformist. That means that our ideal candidate is not only a respected engineer but also a decentralization advocate.
 
 ### Requirements
 
 - **Expert understanding** on:
-  - ES6/ES7
-  - React and Electron
-  - Client-side storage
-  - Resource optimization
-  - CSS, using preprocessors such as LESS or SASS
-  - RxJS
-  - Service Workers, Animations, Device APIs...
+ES6/ES7, React, React Native and Electron, Client-side storage, Resource optimization, CSS, using preprocessors such as LESS or SASS, RxJS, Service Workers, Animations and Device APIs.
 - Ability (and a track record) to ship **high quality, well crafted code**.
 - Being passionate about **decentralization**.
 - Being an autonomous individual with a proactive attitude and a love for **time self-management** (We are focus-driven work, not hours-driven).
@@ -26,8 +22,8 @@ We are looking for a frontend and web3 wizard to work with us on the [Aragon dap
 - Write an email with the following attachments plus any information you consider important to *hiring@aragon.one*, with the subject `Frontend Dev opening application`.
 
 - Please send along your GitHub profile. Since we are open source only, we require applicants for developer positions to have a very active and healthy GitHub profile.
-
-- Please send the following challenge completed.
+- Bonus: Why did Aragon caught your attention? Which challenge within the crypto space are you more interested in?
+- Please send the following challenge completed:
 
 #### Challenge
 
