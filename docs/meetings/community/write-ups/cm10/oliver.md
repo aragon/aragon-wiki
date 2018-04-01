@@ -11,12 +11,12 @@
 #### Aragon.js
 
 - An extreme amount of gas limit tweaks to onboarding
-- Add RPC messages for interacting with external contracts (https://github.com/aragon/aragon.js/pull/76)
-- Make sure the cache works in non-browser environments (https://github.com/aragon/aragon.js/pull/72)
-- Application identifiers (https://github.com/aragon/aragon.js/pull/77)
-- An Aragon RPC message provider for development purposes (https://github.com/aragon/aragon.js/pull/79)
-- Refactored to use APM.js (https://github.com/aragon/aragon.js/pull/80)
-- Changed the way accounts are detected for transaction pathing (https://github.com/aragon/aragon.js/pull/93)
+- Add RPC messages for interacting with external contracts ([aragon/aragon.js#76](https://github.com/aragon/aragon.js/pull/76))
+- Make sure the cache works in non-browser environments ([aragon/aragon.js#72](https://github.com/aragon/aragon.js/pull/72))
+- Application identifiers ([aragon/aragon.js#77](https://github.com/aragon/aragon.js/pull/77))
+- An Aragon RPC message provider for development purposes ([aragon/aragon.js#79](https://github.com/aragon/aragon.js/pull/79))
+- Refactored to use APM.js ([aragon/aragon.js#80](https://github.com/aragon/aragon.js/pull/80))
+- Changed the way accounts are detected for transaction pathing ([aragon/aragon.js#93](https://github.com/aragon/aragon.js/pull/93))
 - Added RPC messages for a few other things
   - The accounts a user currently controls (to allow for per-user notifications and per-user UI)
   - A method to "unwrap" EVM callscripts and describe what each step in the script does in a human way (used in the voting app)
@@ -26,10 +26,10 @@
 
 - Renamed the CLI to `aragon` (the name `aragon-dev-cli` is now deprecated)
 - Implemented new `grant` command together with Jorge, allowing people to grant permissions on APM repositories
-- Started work on initial polish (https://github.com/aragon/aragon-dev-cli/pull/53 and https://github.com/aragon/aragon-dev-cli/pull/52)
+- Started work on initial polish ([aragon/aragon-dev-cli#53](https://github.com/aragon/aragon-dev-cli/pull/53) and [aragon/aragon-dev-cli#52](https://github.com/aragon/aragon-dev-cli/pull/52))
   - Ironed out some bugs, edge cases and annoying things we learned from launching Aragon 0.5
   - Better overall feel and performance of CLI
-- Started work on `run` command (https://github.com/aragon/aragon-dev-cli/pull/55)
+- Started work on `run` command ([aragon/aragon-dev-cli#55](https://github.com/aragon/aragon-dev-cli/pull/55))
   - Makes it easier to test your apps locally, which is essential for the developer experience
 
 #### Radspec
@@ -43,17 +43,17 @@
 
 #### APM Serve
 
-- Worked on performance improvements together with Pierre (https://github.com/aragon/apm-serve/pull/5)
+- Worked on performance improvements together with Pierre ([aragon/apm-serve#5](https://github.com/aragon/apm-serve/pull/5))
 - Streamlined some of the code with a small refactor
 
 #### Dapp
 
-- Small bug fix for app list not loading correctly with Brett (https://github.com/aragon/aragon/pull/161)
-- Tweaks to signer view to display transaction path correctly for 0.5 (https://github.com/aragon/aragon/pull/175)
+- Small bug fix for app list not loading correctly with Brett ([aragon/aragon#161](https://github.com/aragon/aragon/pull/161))
+- Tweaks to signer view to display transaction path correctly for 0.5 ([aragon/aragon#175](https://github.com/aragon/aragon/pull/175))
 
 #### Apps
 
-- Tweaked the Radspec strings to make them a bit better for 0.5 (although it is still a work in progress - actively looking for community feedback on this one) (https://github.com/aragon/aragon-apps/pull/162)
+- Tweaked the Radspec strings to make them a bit better for 0.5 (although it is still a work in progress - actively looking for community feedback on this one) ([aragon/aragon-apps#162](https://github.com/aragon/aragon-apps/pull/162))
 
 ##### Voting
 
