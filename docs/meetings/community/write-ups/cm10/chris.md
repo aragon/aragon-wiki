@@ -1,4 +1,6 @@
- Chris - Product Manager
+## Aragon Community Meeting 10 Write-Up for March 2018
+
+### Chris - Product Manager
 
 #### Complete Onboarding
 - Provide feedback on and input to Team Handbook
