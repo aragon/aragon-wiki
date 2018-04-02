@@ -18,7 +18,7 @@
 - Continue working on [Nest](https://github.com/aragon/nest) and Proxy
 - Continue working on the Foundation/Company split and the decentralization of the development of the project
 - Work on a project related to Zug
-
+- Continue supporting the Aragon Netowrk and Aragon Labs efforts
 
 #### Events
 - Participate in the [Pillar Unchained Summit](https://www.bostonunchained.com/) in Boston
