@@ -74,6 +74,7 @@ pages:
   - Meetings:
     - Community:
       - Community 10:
+        - Agenda: 'meetings/community/10.md'
         - Write-Up - Alexa: 'meetings/community/write-ups/cm10/alexa.md'
         - Write-Up - Bingen: 'meetings/community/write-ups/cm10/bingen.md'
         - Write-Up - Brett: 'meetings/community/write-ups/cm10/brett.md'
