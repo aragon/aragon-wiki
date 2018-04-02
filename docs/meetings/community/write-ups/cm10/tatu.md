@@ -43,6 +43,7 @@ Keeping Wiki up to date and adding content
 Publish Issue 02 and send out the monthly newsletter, help community and staff contributors in creating and curating content
 
 #### Blog
+Write, review, edit and plan our upcoming blog posts.
 
 #### Continue working on overall communication strategy
 
