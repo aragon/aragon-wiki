@@ -53,6 +53,8 @@ implementation and the Aragon Network.
 
 - Personal thoughts: https://twitter.com/izqui9/status/966338031719415809
 
+- Leading up to ETHDenver we did a ton of work on documentation to get it to a point where people could use aragonOS and our tooling to build apps on top of Aragon. People were able to do so, but documentation will require some more work during the following months.
+
 - Doing a postmortem soon to analyze what went well and poorly and how to improve
 for future hackathons. We will be doing a lot more as they are really valuable.
 
