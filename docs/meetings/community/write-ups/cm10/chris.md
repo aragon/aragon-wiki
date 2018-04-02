@@ -3,6 +3,7 @@
 ### Chris - Product Manager
 
 #### Complete Onboarding
+- Attend on boarding week in Madrid to work with Jorge and Luis
 - Provide feedback on and input to Team Handbook
 - Provide input for team interview blog post
 - Complete initial 1-on-1 conversations with team members
@@ -20,8 +21,8 @@
 - Pierre
 
 #### Support 0.5 Release
-- Monthly update call
-- Q&A with their team
+- Draft overall product management process flow diagram
+- Share diagram with team for input
 
 ### Next
 
