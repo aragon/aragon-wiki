@@ -51,7 +51,7 @@ This can be solved by CryptoEagles, which enables the trading of virtual eagles 
 
 ## Grant size
 
-Funding: Up to $100k in ETH, split into chunks paid out over achieved deliverables.
+Funding: from $50k up to $100k in ETH, split into chunks paid out over achieved deliverables.
 
 Success reward: Up to $50k in ANT, given out when all deliverables are ready.
 
@@ -92,7 +92,7 @@ Testnet launch will be expected during March 2018, with mainnet launch being Jun
 >
 > <h2> Grant size</h2>
 >
-> Funding: Up to $100k in ETH, split into chunks paid out over achieved deliverables.
+> Funding: from 50k up to $100k in ETH, split into chunks paid out over achieved deliverables.
 >
 > Success reward: Up to $50k in ANT, given out when all deliverables are ready.
 >

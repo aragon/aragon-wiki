@@ -1,3 +1,7 @@
+## [**Approaching Infinity: Governance & The Case for Experimentation**](slides/Blockstack_Berlin.pdf)
+by Brett Sun at [**Blockstack Signature Berlin 2018**](https://blockstack.org/berlin2018/)  
+[Video of the presentation](https://www.youtube.com/watch?v=nn1HsC99wcM)
+
 ## [**Democratizing Governance**](slides/Helsinki.pdf)
 by Luis Cuende at [**Aragon Meetup - Helsinki**](https://www.meetup.com/Aragon-Meetup/events/245079105/)  
 [Video of the presentation](https://www.youtube.com/watch?v=AULH7Qw7RCk)
