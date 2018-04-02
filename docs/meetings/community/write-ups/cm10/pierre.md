@@ -2,7 +2,7 @@
 
 ### Pierre - UI & Interaction Developer
 
-#### Aragon / Aragon Apps
+#### [Aragon](https://github.com/aragon/aragon) / [Aragon Apps](https://github.com/aragon/aragon-apps)
 
 - Onboarding screens (including a way to declare the fields needed for a template and the configuration UI).
 - Added some loading states (menu, home screen).
@@ -10,19 +10,19 @@
 - Add testing features to the settings app for 0.5
 - Finish and release 0.5! ✨
 
-#### Aragon UI
+#### [Aragon UI](https://github.com/aragon/aragon-ui)
 
 - Tweaks and fixes for 0.5.
 
 ### Next
 
-#### Aragon / Aragon Apps
+#### [Aragon](https://github.com/aragon/aragon) / [Aragon Apps](https://github.com/aragon/aragon-apps)
 
 - Get the notifications system ready for release.
 - Permissions app.
 - Provide better error states.
 
-#### Aragon UI
+#### [Aragon UI](https://github.com/aragon/aragon-ui)
 
 - Move the layout we are using in apps into a component (or a set of components).
 - Add a focus state accross components.

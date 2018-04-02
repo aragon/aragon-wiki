@@ -1,16 +1,16 @@
-## Aragon Community Meeting 10 Write-Up for April 2018
+## Aragon Community Meeting 10 Write-Up for March 2018
 
 ### Luis - Project Lead
 
 #### Strategy
-- Plan on more teams working on Aragon this year
+- Plan on [more teams working on Aragon](https://blog.aragon.one/decentralizing-aragons-development-5062fd6d135d) this year
 - Bought aragon.org!
-- Decisions on Nest
+- Decisions on [Nest](https://github.com/aragon/nest)
 
 #### Design
 
-- https://github.com/aragon/aragon/issues/135
-- https://github.com/aragon/aragon/issues/180
+- [https://github.com/aragon/aragon/issues/135](https://github.com/aragon/aragon/issues/135)
+- [https://github.com/aragon/aragon/issues/180](https://github.com/aragon/aragon/issues/180)
 
 #### Internal
 - Moving to Switzerland, both Jorge and me!
@@ -20,7 +20,7 @@
 
 - Started hedging ETH into other cryptos
 - Multiple meetings in Switzerland
-- Token buyback
+- [Token buyback](https://blog.aragon.one/token-buyback-transparency-report-dc89ca2935b)
 
 #### Legal
 
@@ -31,36 +31,34 @@
 - Multiple other smaller legal aspects
 
 #### Communications
-- Reviewed multiple blog posts
-- Final reviews on the video
+- Reviewed multiple [blog posts](https://blog.aragon.one/)
+- Final reviews on [the video](https://www.youtube.com/watch?v=AqjIWmiAidw)
 - Getting final approval from interviewees
 
 #### Events
 
-- EthCC!
+- [EthCC](https://ethcc.io/)!
 
 ### Next
 
 #### Strategy
 
-- Allocate more work time to designing the Aragon Network
+- Allocate more work time to designing the [Aragon Network](https://aragon.one/network)
 
 #### Hiring
 
-- Continue the search for a Frontend Dev candidate
-
-
-- Continue the search for a Developer Relations candidate
+- Continue the search for a [Frontend Dev](../../../../jobs/openings/frontend.md) candidate
+- Continue the search for a [Developer Relations](../../../../jobs/openings/dev_rel.md) candidate
 
 #### Internal
 - Finalize move to Switzerland
 
 #### Communications
-- Announce first batch of Nest grantees!
+- Announce first batch of [Nest](https://github.com/aragon/nest) grantees!
 
 #### Product
 - Create an Aragon app to test developer experience
 
 #### Events
 
-- Blockchain Summit!
+- [Blockchain Summit](https://blockchainsummit.ch/events/zug-2018)!

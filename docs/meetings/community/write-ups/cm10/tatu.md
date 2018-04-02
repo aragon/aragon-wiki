@@ -17,7 +17,7 @@
 Polishing the first large Aragon feedback survey to go out after v0.5 release.
 
 #### Events
-- Participated in [Signature Berlin](https://www.eventbrite.com/e/blockstack-berlin-a-signature-fund-event-tickets-39425916979) & [Berlin Blockchain Hackathon](https://www.ticketbase.com/events/berlin-hackathon)
+- Participated in [Signature Berlin](https://blockstack.org/berlin2018) & [Berlin Blockchain Hackathon](https://www.ticketbase.com/events/berlin-hackathon)
 - Participated in [EthCC (Ethereum Community Conference)](https://ethcc.io/)
 - Join [Blockchain Summit Crypto Valley](https://blockchainsummit.ch/events/zug-2018) as a Presenting Partner
 - Help prepare Aragons participation in [Ethereum Community Tour Asia](http://ethtour.asia/)

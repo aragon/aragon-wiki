@@ -4,7 +4,7 @@
 
 #### Finally launched Aragon v0.5! 🚀🦅
 
-- Release notes: https://github.com/aragon/aragon/releases/tag/0.5.0
+- Release notes: [https://github.com/aragon/aragon/releases/tag/0.5.0](https://github.com/aragon/aragon/releases/tag/0.5.0)
 
 - So proud the work the entire team has done to get us here 💞
 
@@ -43,24 +43,23 @@ Registry in the Ethereum mainnet, making it the first mainnet live Aragon DAO.
 #### Standards
 
 - [ERC900](https://github.com/ethereum/EIPs/pull/900) has been **merged!**:
-http://eips.ethereum.org/EIPS/eip-900
+[http://eips.ethereum.org/EIPS/eip-900](http://eips.ethereum.org/EIPS/eip-900)
 
 
 #### Events
 
-- Attended and presented at **EthCC** in Paris, which was an incredible conference.
+- Attended and presented at **[EthCC](https://ethcc.io/)** in Paris, which was an incredible conference.
 So good to catch up with friends and fellow buidlers. Presentation video:
-https://www.youtube.com/watch?v=ik1VlTgD53w
+[https://www.youtube.com/watch?v=ik1VlTgD53w](https://www.youtube.com/watch?v=ik1VlTgD53w)
 
-- Spoke at Madrid Blockchain for Good rocks, Google Crypto Meetup (private)
+- Spoke at [Madrid Blockchain for Good rocks](https://www.meetup.com/blockchain4goodSP/events/247991158/), Google Crypto Meetup (private)
 
-- Helped organize Aragon's presence in an upcoming tour around Asia with other
-Ethereum projects in Europe. Tour will happen April 15th-May 6th, more details
-will follow!
+- Helped organize Aragon's presence in an upcoming [tour around Asia with other
+Ethereum projects](http://ethtour.asia/) in Europe. Tour will happen April 15th-May 6th, more details will follow!
 
 #### Audits and bug bounty
 
-- We have been working on [improving aragonOS](https://github.com/aragon/aragonOS/issues?utf8=✓&q=is%3Aissue+label%3A%22audit%3A+whg%22+) and [aragon-apps]((https://github.com/aragon/aragon-apps/issues?utf8=✓&q=is%3Aissue+label%3A%22audit%3A+whg%22+))
+- We have been working on [improving aragonOS](https://github.com/aragon/aragonOS/issues?utf8=✓&q=is%3Aissue+label%3A%22audit%3A+whg%22+) and [aragon-apps](https://github.com/aragon/aragon-apps/issues?utf8=✓&q=is%3Aissue+label%3A%22audit%3A+whg%22+)
 based on WHG feedback. Our fixes will be now reviewed by them again and a final
 report will be produced.
 
@@ -76,6 +75,6 @@ mainnet DAO.
 - Help with Aragon Network whitepaper v2 and continue Network prototyping
 - Help [District0x](https://blog.district0x.io/introducing-district-staking-3bf1fbc092ce)
 and Status prototype their future Aragon mainnet deployments
-- Start Aragon Core live bug bounty in the mainnet
+- Start [Aragon Core](https://aragon.one/core) live bug bounty in the mainnet
 - Coordinate audit #2 and finalize audit #1
-- Offsite #2 and Asian Tour with other European projects!
+- Offsite #2 and [Asian Tour with other European projects](http://ethtour.asia/)!

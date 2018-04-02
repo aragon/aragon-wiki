@@ -4,9 +4,9 @@
 
 #### Eurotrip with Aragon team
 
-- Blockstack Berlin
-- Prague @ Paralelni Polis
-- EthCC + community meetup
+- [Blockstack Berlin](https://blockstack.org/berlin2018)
+- Prague @ [Paralelni Polis](https://www.paralelnipolis.cz/o-nas/en/)
+- [EthCC](https://ethcc.io/) + [community meetup](https://www.eventbrite.com/e/aragon-community-meet-and-greet-tickets-43953863188)
 
 #### Q2 travel planning
 
