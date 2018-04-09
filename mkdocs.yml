@@ -34,7 +34,7 @@ pages:
   - Home: 'index.md'
   - Documentation:
     - Whitepaper: 'documentation/whitepaper.md'
-    - aragonOS: 'documentation/aragonOS.md'
+    - aragonOS: 'submodules/aragonOS/docs/aragonOS.md'
     - Governance:
       - AGP2 - Community Governance Model: 'documentation/Community_Governance_Model.md'
       - AGP5 - Migration to Open Source Messaging Platform: 'documentation/Migration_to_Open_Source_Messaging_Platform.md'
@@ -55,6 +55,7 @@ pages:
     - Overview: 'dev/index.md'
     - aragonOS:
       - Overview: 'dev/aragonOS_index.md'
+      - Documentation: 'submodules/aragonOS/docs/aragonOS.md'
       - How to contribute: 'dev/aragonOS_how_to_contribute.md'
     - Aragon Apps:
       - Overview: 'dev/apps/index.md'
