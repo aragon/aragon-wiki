@@ -65,6 +65,8 @@ pages:
       - Fundraising: 'dev/apps/fundraising.md'
       - Vault: 'dev/apps/vault.md'
       - Finance: 'dev/apps/finance.md'
+    - Hacking on Aragon:
+      - Overview: 'submodules/hack/README.md'
   - Design:
     - Overview: 'design/index.md'
     - Logo: 'design/logo/index.md'
