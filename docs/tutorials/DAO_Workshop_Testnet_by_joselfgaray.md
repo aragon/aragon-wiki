@@ -112,7 +112,7 @@ After assigning tokens to a couple of addresses, your Token Manager should look 
 
 ![](images/dao_workshop15.png)
 
-For a more technical description of the Token Manager, see [here](../../dev/apps/token-manager.md).
+For a more technical description of the Token Manager, see [here](../dev/apps/token-manager.md).
 
 ##### ✋ Voting
 The Voting app is an entity that will execute a set of actions on other entities if token holders of the DAO decide to do so. To open up a new vote, click on the top right corner “New Vote” button. Then, we must simply state what the vote is for, and click on Begin Vote. You’ll have to confirm the transaction through MetaMask (it’ll open itself automatically).
@@ -127,7 +127,7 @@ There, we have the Status of the vote, the Quorum (this is set when setting up t
 
 In the Workshop’s case, I am holder of 76% of the DAO’s tokens, so as soon as I voted on something (you automatically vote Yes when creating a vote) the vote was closed (as seen in the screenshot). This was confusing at first, but makes sense mathematically; Quorum and Support were met as soon as I voted! I would recommend to keep this in mind when allocating tokens for testing purposes with your fellow creators or partners, otherwise you won’t be able to really try out Voting.
 
-For a more technical description of the Voting app, see [here](../../dev/apps/voting.md).
+For a more technical description of the Voting app, see [here](../dev/apps/voting.md).
 
 ##### 💰 Finance
 The purpose of the Finance app is keeping track of income and expenses in your organization, as well as performing payments. At first, your finances will look somewhat empty, as the DAO holds no funds of her own yet.
@@ -142,7 +142,7 @@ Now that the DAO owns funds, you can perform payments by clicking on the “New 
 
 ![](images/dao_workshop20.png)
 
-For a more technical description of the Finance app, see [here](../../dev/apps/finance.md).
+For a more technical description of the Finance app, see [here](../dev/apps/finance.md).
 
 ##### 🔩 Settings
 You can find the Organization’s and the Apps’ addresses in the Settings tab. You should not send funds to the DAO by transacting with the Organization’s address! I made this mistake and wasted a bit of my time, I guess.
@@ -158,7 +158,7 @@ The Token Manager and the Voting app of your DAO also have their own addresses, 
 
 ![](images/dao_workshop23.png)
 
-To check out more info about the current and future Aragon apps, [visit the wiki](../../index.md).
+To check out more info about the current and future Aragon apps, [visit the wiki](../index.md).
 
 #### 💙 Bonus Step: enjoy the journey!
 These are the basic things you need to know to set up and operate a DAO with Aragon’s current software. Now it’s time to have fun! The team is always active in the [community chat](https://aragon.chat/), so for any further doubts it’s a good idea to reach @light or @tatu there; they’ll quickly help you solve your problems. Some questions were recurring in the chat and social media, so I thought I’d contribute with an explanatory post summarizing the 3 initial steps for anyone to create a Decentralized Autonomous Organization.
