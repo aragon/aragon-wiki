@@ -187,7 +187,7 @@ YouTube - [https://www.youtube.com/c/AragonProject](https://www.youtube.com/c/Ar
 
 - **Project Lead**: [Luis Cuende](https://twitter.com/licuende)
 
-> Luis has been awarded as the best underage European programmer in 2011, is a [Forbes 30 Under 30](https://www.forbes.com/30-under-30-europe-2016/technology/#6662a3e4a4b3), a [MIT TR35](http://www.innovatorsunder35.com/innovator/luis-cuende) and was an Advisor to the VP of the European Commission.
+> Luis has been awarded as the best underage European programmer in 2011, is a [Forbes 30 Under 30](https://www.forbes.com/30-under-30-europe-2016/technology/#6662a3e4a4b3), a [MIT TR35](https://www.innovatorsunder35.com/innovator/luis-cuende) and was an Advisor to the VP of the European Commission.
 
 > He cofounded the blockchain startup [Stampery](https://stampery.com/). Prior to founding startups, he created the world's first Linux distribution with facelogin.
 
@@ -197,7 +197,7 @@ YouTube - [https://www.youtube.com/c/AragonProject](https://www.youtube.com/c/Ar
 
 > Curious hacker, creator of multiple apps for iOS and macOS. Reached App Store's #2. Always tinkering with new tech. Named as a [2017 class of Thiel Fellows](https://www.businesswire.com/news/home/20170616005607/en).
 
-> Already convinced about the decentralized future of the Internet, he has been building toy projects such as a [mesh network](http://github.com/izqui/net) or a small [blockchain implementation](http://github.com/izqui/blockchain) since 2014.
+> Already convinced about the decentralized future of the Internet, he has been building toy projects such as a [mesh network](https://github.com/izqui/net) or a small [blockchain implementation](https://github.com/izqui/blockchain) since 2014.
 
 **<h2>Operations and Communications</h2>**
 

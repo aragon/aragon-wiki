@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 19.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+<svg version="1.1" id="Capa_1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 986.2 331.3" style="enable-background:new 0 0 986.2 331.3;" xml:space="preserve">
 <style type="text/css">
 	.st0{fill:url(#SVGID_1_);}
@@ -25,7 +25,7 @@
 	.st19{clip-path:url(#SVGID_30_);fill:#FFFFFF;}
 </style>
 <g>
-	
+
 		<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="1981.9636" y1="2444.4961" x2="2163.2969" y2="2444.4961" gradientTransform="matrix(-0.2964 0.9551 -0.9551 -0.2964 3154.6836 -1144.0933)">
 		<stop  offset="3.919654e-02" style="stop-color:#2CF4E1"/>
 		<stop  offset="1" style="stop-color:#2CB2E1"/>
@@ -100,7 +100,7 @@
 </g>
 <g>
 	<defs>
-		<polygon id="SVGID_11_" points="424.6,131.7 391.3,207.9 404.9,207.9 412.7,189.6 417.6,177.9 430.6,147.6 443.7,177.9 
+		<polygon id="SVGID_11_" points="424.6,131.7 391.3,207.9 404.9,207.9 412.7,189.6 417.6,177.9 430.6,147.6 443.7,177.9
 			448.6,189.6 456.2,207.9 470.3,207.9 437,131.7 		"/>
 	</defs>
 	<use xlink:href="#SVGID_11_"  style="overflow:visible;fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;"/>
@@ -120,7 +120,7 @@
 </g>
 <g>
 	<defs>
-		<polygon id="SVGID_15_" points="611.2,130.1 577.9,206.3 591.5,206.3 599.3,188.1 604.2,176.3 617.2,146 630.3,176.3 635.1,188.1 
+		<polygon id="SVGID_15_" points="611.2,130.1 577.9,206.3 591.5,206.3 599.3,188.1 604.2,176.3 617.2,146 630.3,176.3 635.1,188.1
 			642.8,206.3 656.9,206.3 623.6,130.1 		"/>
 	</defs>
 	<use xlink:href="#SVGID_15_"  style="overflow:visible;fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;"/>
@@ -161,7 +161,7 @@
 </g>
 <g>
 	<defs>
-		<polygon id="SVGID_23_" points="927.3,130.7 927.3,183 886.8,130.7 874.4,130.7 874.4,206.3 887.5,206.3 887.5,152.5 929.3,206.3 
+		<polygon id="SVGID_23_" points="927.3,130.7 927.3,183 886.8,130.7 874.4,130.7 874.4,206.3 887.5,206.3 887.5,152.5 929.3,206.3
 			940.4,206.3 940.4,130.7 		"/>
 	</defs>
 	<use xlink:href="#SVGID_23_"  style="overflow:visible;fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;"/>
