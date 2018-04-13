@@ -9,25 +9,25 @@ Hey there fellow creators! This post aims to be a resource for anyone who wants 
 
 The style of the guidelines that follow is very basic: someone with pretty much no knowledge of cryptocurrencies or Ethereum should get a solid understanding of the mechanics on how to create a DAO on top of Aragon following 3 simple steps.
 
-> Aragon’s beta version is now live on the Rinkeby Testnet, and here we’ll talk about that version (Aragon 0.5 — The Architect). For future deploys, we’ll make additional posts.
+> _Aragon’s beta version is now live on the Rinkeby Testnet, and here we’ll talk about that version (Aragon 0.5 — The Architect). For future deploys, we’ll make additional posts._
 
 ### The Basics
 #### What is a DAO?
-DAO stands for Decentralized Autonomous Organization. It is an organization built on top of the Ethereum blockchain, a set of smart contracts that allow for organizations to operate following new governance models that will make even Silicon Valley startups seem traditional. I wrote more deeply about Decentralized Autonomous Organizations' nature here.
+DAO stands for Decentralized Autonomous Organization. It is an organization built on top of the Ethereum blockchain, a set of smart contracts that allow for organizations to operate following new governance models that will make even Silicon Valley startups seem _traditional_. I wrote more deeply about Decentralized Autonomous Organizations' nature [here](https://medium.com/@joselfgaray/nature-the-ugly-daockling-2-7b3371b55fcd).
 
 #### Benefits of a DAO
 - Can’t be censored
 - Programmable governance modules for different organization models
-- Tokens easily and transparently distributed
-- Operates under a digital jurisdiction in our current digital era
+- [Tokens](https://blockgeeks.com/guides/ethereum-token/) easily and transparently distributed
+- Operates under a [digital jurisdiction](https://blog.aragon.one/introducing-the-aragon-network-20b998e2caba) in our current digital era
 - No central power can be corrupted
 - Easier to attract talent around the globe to contribute to the organization’s mission
 - Various entities: people, other orgs, software…
 - Transparent transactions
-- … many more!
+- _... many more!_
 
 #### What does Aragon do?
-Aragon does many useful things! First and foremost, Aragon provides simple software for the setup of any organization. Within a few clicks and very little cost, you can start running a digital organization. Sounds good huh? It also provides a digital jurisdiction for governance and dispute resolution: the Aragon Network.
+Aragon does many useful things! First and foremost, Aragon [provides simple software for the setup of any organization](https://blog.aragon.one/aragon-core-v0-5-the-architect-release-327c7163b89c). Within a few clicks and very little cost, you can start running a digital organization. Sounds good huh? It also provides a digital jurisdiction for governance and dispute resolution: [the Aragon Network](https://blog.aragon.one/introducing-the-aragon-network-20b998e2caba).
 
 To understand Aragon’s mission in the crypto & DAO space, you can check a little post I made about it, or watch an awesome video released by the team!
 
@@ -38,21 +38,21 @@ To understand Aragon’s mission in the crypto & DAO space, you can check a litt
 <a href="https://www.youtube.com/watch?v=AqjIWmiAidw"><img src="../images/dao_workshop_fight_for_freedom.png" /></a>
 
 ### Getting Started
-So, you’ve decided you’re creating an organization in 21st century fashion? Awesome! Let’s dive into the 3 simple steps you have to follow to get started using the software that will facilitate the organization’s operations from now on.
+So, you’ve decided you’re creating an organization in 21st century fashion? Awesome! Let’s dive into the **3 simple steps** you have to follow to get started using the software that will facilitate the organization’s operations from now on.
 
 #### 🍼 Step 1: basic Ethereum tools
 We’ll take for granted you know a little bit about what a blockchain is and what Ethereum does (if not, there’s plenty of information online for you to dive into). Yet, some tools and terms might seem confusing, so we’ll outline some very easy to follow definitions about key tools that you must know to set up a DAO.
 
-Ether: Ethereum’s currency/token. The fees to set up the organization, vote, etc. will be paid in ether.
+**Ether**: Ethereum’s currency/token. The fees to set up the organization, vote, etc. will be paid in ether.
 
-(Rinkeby) Testnet: Ethereum network built for testing purposes where the ether transacted is virtual; doesn’t hold real value. Aragon 0.5 — The Architect is deployed on this testnet. To get faucet funds for the Rinkeby Testnet, follow this link.
+**(Rinkeby) Testnet**: Ethereum network built for testing purposes where the ether transacted is virtual; _doesn’t hold real value_. Aragon 0.5 — The Architect is deployed on this testnet. To get faucet funds for the Rinkeby Testnet, [follow this link](https://faucet.rinkeby.io/).
 
-MetaMask is a browser extension that allows you to interact with Ethereum Dapps (like Aragon) directly from Chrome, Firefox or Brave. More info and installation help can be found here.
+**MetaMask** is a browser extension that allows you to interact with Ethereum Dapps (like Aragon) directly from Chrome, Firefox or Brave. More info and installation help can be found [here](https://metamask.io/).
 
-Etherscan allows you to explore and search the Ethereum blockchain for transactions, addresses, tokens, prices and other activities taking place on Ethereum. Aragon 0.5 will point us to Etherscan when we want to check transaction history of the apps, and some other activities we’ll see now.
+[**Etherscan**](https://etherscan.io/) allows you to explore and search the Ethereum blockchain for transactions, addresses, tokens, prices and other activities taking place on Ethereum. Aragon 0.5 will point us to Etherscan when we want to check transaction history of the apps, and some other activities we’ll see now.
 
 #### 🐣 Step 2: create the DAO
-Ready to create your DAO? Visit aragon.one and click on the blue button on the top right corner that says “Try Aragon Core 0.5”. That will open up a very intuitive initial menu where you must provide the basic infrastructure of your organization.
+Ready to create your DAO? Visit [aragon.one](https://aragon.one/) and click on the blue button on the top right corner that says “Try Aragon Core 0.5”. That will open up a very intuitive initial menu where you must provide the basic infrastructure of your organization.
 
 ![](images/dao_workshop02.png)
 
@@ -60,7 +60,7 @@ First, you will have to choose between using Democracy or Multisig for your Toke
 
 ![](images/dao_workshop03.png)
 
-Second, you must claim a domain name in _____.aragonid.eth fashion. We chose workshop.aragonid.eth, as shown below, and clicked Next.
+Second, you must claim a domain name in _____._aragonid.eth_ fashion. We chose workshop.aragonid.eth, as shown below, and clicked Next.
 
 ![](images/dao_workshop04.png)
 
@@ -85,7 +85,7 @@ When we click on the blue Get Started button, we are entering our Aragon DAO for
 
 ![](images/dao_workshop09.png)
 
-P.S. This is the creation process for a DAO on Aragon. To enter the DAO afterwards, we must simply open it after clicking “Try Aragon Core 0.5” on aragon.one by entering its name and clicking on “Open organization”, as shown below.
+P.S. This is the creation process for a DAO on Aragon. To enter the DAO afterwards, we must simply open it after clicking “Try Aragon Core 0.5” on [aragon.one](http://aragon.one/) by entering its name and clicking on “Open organization”, as shown below.
 
 ![](images/dao_workshop10.png)
 
@@ -112,7 +112,7 @@ After assigning tokens to a couple of addresses, your Token Manager should look 
 
 ![](images/dao_workshop15.png)
 
-For a more technical description of the Token Manager, see here.
+For a more technical description of the Token Manager, see [here](../../dev/apps/token-manager.md).
 
 ##### ✋ Voting
 The Voting app is an entity that will execute a set of actions on other entities if token holders of the DAO decide to do so. To open up a new vote, click on the top right corner “New Vote” button. Then, we must simply state what the vote is for, and click on Begin Vote. You’ll have to confirm the transaction through MetaMask (it’ll open itself automatically).
@@ -127,7 +127,7 @@ There, we have the Status of the vote, the Quorum (this is set when setting up t
 
 In the Workshop’s case, I am holder of 76% of the DAO’s tokens, so as soon as I voted on something (you automatically vote Yes when creating a vote) the vote was closed (as seen in the screenshot). This was confusing at first, but makes sense mathematically; Quorum and Support were met as soon as I voted! I would recommend to keep this in mind when allocating tokens for testing purposes with your fellow creators or partners, otherwise you won’t be able to really try out Voting.
 
-For a more technical description of the Voting app, see here.
+For a more technical description of the Voting app, see [here](../../dev/apps/voting.md).
 
 ##### 💰 Finance
 The purpose of the Finance app is keeping track of income and expenses in your organization, as well as performing payments. At first, your finances will look somewhat empty, as the DAO holds no funds of her own yet.
@@ -142,7 +142,7 @@ Now that the DAO owns funds, you can perform payments by clicking on the “New 
 
 ![](images/dao_workshop20.png)
 
-For a more technical description of the Finance app, see here.
+For a more technical description of the Finance app, see [here](../../dev/apps/finance.md).
 
 ##### 🔩 Settings
 You can find the Organization’s and the Apps’ addresses in the Settings tab. You should not send funds to the DAO by transacting with the Organization’s address! I made this mistake and wasted a bit of my time, I guess.
@@ -158,9 +158,11 @@ The Token Manager and the Voting app of your DAO also have their own addresses, 
 
 ![](images/dao_workshop23.png)
 
-To check out more info about the current and future Aragon apps, visit the wiki.
+To check out more info about the current and future Aragon apps, [visit the wiki](../../index.md).
 
 #### 💙 Bonus Step: enjoy the journey!
-These are the basic things you need to know to set up and operate a DAO with Aragon’s current software. Now it’s time to have fun! The team is always active in the community chat, so for any further doubts it’s a good idea to reach @light or @tatu there; they’ll quickly help you solve your problems. Some questions were recurring in the chat and social media, so I thought I’d contribute with an explanatory post summarizing the 3 initial steps for anyone to create a Decentralized Autonomous Organization.
+These are the basic things you need to know to set up and operate a DAO with Aragon’s current software. Now it’s time to have fun! The team is always active in the [community chat](https://aragon.chat/), so for any further doubts it’s a good idea to reach @light or @tatu there; they’ll quickly help you solve your problems. Some questions were recurring in the chat and social media, so I thought I’d contribute with an explanatory post summarizing the 3 initial steps for anyone to create a Decentralized Autonomous Organization.
 
-Thanks a lot for reading! You may comment below what’s the purpose of your DAO or tell me on Twitter @ joselfgaray 💡
+Thanks a lot for reading! You may comment below what’s the purpose of your DAO or [tell me on Twitter @ joselfgaray](https://twitter.com/joselfgaray) 💡
+
+_**Disclaimer**_: _Published in the wiki with the permission of [joselfgaray](https://twitter.com/joselfgaray)_
