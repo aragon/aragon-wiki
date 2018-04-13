@@ -179,6 +179,7 @@ pages:
       - FAQ: 'nest/faqs.md'
   - Archive:
     - Documentation:
+      - aragonOS v2.0.1: 'archive/documentation/aragonOS_201.md'
       - AGP5 - Rocket Chat comparison: 'archive/documentation/agp5/RocketChat.md'
       - AGP5 - Riot comparison: 'archive/documentation/agp5/Riot.md'
     - Meetings:

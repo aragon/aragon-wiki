@@ -1,10 +1,10 @@
 # Third-Party Projects
 
-## Using [aragonOS](../documentation/aragonOS.md)
-> These are projects that are currently already using the [aragonOS architecture](../documentation/aragonOS.md) or parts of it
+## Using [aragonOS](../submodules/aragonOS/docs/aragonOS.md)
+> These are projects that are currently already using the [aragonOS architecture](../submodules/aragonOS/docs/aragonOS.md) or parts of it
 
 - [Decentraland](https://decentraland.org/)
-> Uses [Proxy](http://localhost:8000/documentation/aragonOS/#2-upgradeability) feature from aragonOS as a part of their project
+> Uses [Proxy](../../documentation/aragonOS/#2-upgradeability) feature from aragonOS as a part of their project
 
 ## Powered by Aragon
 > **Aragon Core and Aragon Network are NOT live on the Mainnet yet, _no project can be Powered by Aragon at this time_, this is just a list of projects that have publicly announced their interest in utilizing Aragon in the future!**

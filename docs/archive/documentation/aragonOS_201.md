@@ -55,7 +55,7 @@ contract TokenApp is App {
 
 An **Entity** is any actor that is represented by an Ethereum address, such as a multisig (an account that needs multiple signatures before executing an action), an app (for example, a voting app that only executes an action if token holders vote favorably), or a simple private key controlled account.
 
-The system can delegate permissions to groups of entities by implementing a [Group app](../dev/apps/group.md). As in other apps, it can rely on the ACL for protecting important functions, such as adding or removing members of the group. When group members want to execute a specific action, the Group app acts as a proxy contract that performs the action on behalf of the group.
+The system can delegate permissions to groups of entities by implementing a [Group app](../../dev/apps/group.md). As in other apps, it can rely on the ACL for protecting important functions, such as adding or removing members of the group. When group members want to execute a specific action, the Group app acts as a proxy contract that performs the action on behalf of the group.
 
 ### Permissions
 
@@ -127,7 +127,7 @@ ChangePermissionManager(address indexed app, bytes32 indexed role, address index
 
 #### Example
 
-As an example, the following steps show a complete flow for user "Root" to create a new DAO with the basic permissions set so that a [Voting app](../dev/apps/voting.md) can manage the funds stored in a [Vault app](../dev/apps/vault.md):
+As an example, the following steps show a complete flow for user "Root" to create a new DAO with the basic permissions set so that a [Voting app](../../dev/apps/voting.md) can manage the funds stored in a [Vault app](../../dev/apps/vault.md):
 
 1. Deploy the Kernel
 2. Executing `kernel.initialize(rootAddress)` creates the "permissions creator" permission under the hood:
@@ -157,7 +157,7 @@ Permission escalations can be multiple levels deep. For example, imagine a user 
 
 Note that a permission escalation can occur instantly or be delayed and require further action from other entities, like in the case of the Voting app.
 
-<center><img src="../../images/aragonos/permission_escalation.png"></center>
+<center><img src="../images/permission_escalation.png"></center>
 
 ##### Forwarders
 
@@ -189,7 +189,7 @@ A reference implementation for EVM Call Script can be found here: [`EVMCallScrip
 
 Upgradeability of the system is achieved by using the [`DelegateProxy`](https://github.com/aragon/aragonOS/blob/dev/contracts/common/DelegateProxy.sol) pattern. Kernel and apps ([`KernelProxy`](#21-kernel-upgradeability) and [`AppProxy`](#22-app-space-upgradeability)) both use `DelegateProxy` with some added functionality.
 
-<center><img src="../../images/aragonos/delegateproxy.png"></center>
+<center><img src="../images/delegateproxy.png"></center>
 
 Given that new versions of apps or the kernel run in the exact same context as previous versions, the old storage layout must be taken into account. Inheriting from the old contract's storage before adding new storage variables is considered a safe practice. It is recommended to make sure the upgrade doesn't break the storage before pushing a new version. We will work on tooling to prevent issues with storage when upgrading.
 
@@ -205,7 +205,7 @@ As apps can be used as entities (e.g. a voting app), it is important that each a
 
 One way of achieving this is through the concept of an [`AppProxy`](https://github.com/aragon/aragonOS/blob/dev/contracts/apps/AppProxy.sol) contract (inspired by [augur-core’s `Delegators`](https://github.com/AugurProject/augur-core/blob/develop/source/contracts/libraries/Delegator.sol)). Deploying an app via an `AppProxy` contract only requires a reference to the Kernel and the app identifier. When the app receives a call, it gets intercepted by the proxy's fallback function. At this point, the proxy asks the Kernel for the latest address of the app code for a given app identifier and version. The AppProxy contract then forwards the call by `delegatecall`ing into this address.
 
-<center><img src="../../images/aragonos/appproxy_delegatecall.png"></center>
+<center><img src="../images/appproxy_delegatecall.png"></center>
 
 It should be noted that multiple `AppProxy` contracts can be installed in a DAO for the same app identifier (e.g. multiple [Fundraising](./apps/fundraising) `AppProxy` instances can be attached to the same Kernel to control multiple types of funding). As the Kernel keeps a centralized record of the latest version of the code for each app identifier, changing one reference in the Kernel effectively updates all instances of that app in that organization. These upgrades could then be delegated to another contract, e.g. the Aragon Network, in case organizations don’t want to handle manual upgrades of their own apps.
 
