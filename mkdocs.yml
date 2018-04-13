@@ -45,8 +45,6 @@ pages:
       - Community: 'documentation/multisigs/community.md'
     - Development Plan: 'documentation/Development_Plan.md'
     - Aragon Code of Conduct: 'documentation/Code_of_Conduct.md'
-    - Tutorials:
-      - DAO Workshop (Testnet) by joselfgaray: 'documentation/tutorials/DAO_Workshop_Testnet_by_joselfgaray.md'
     - Presentations: 'documentation/presentations.md'
     - Audit reports:
       - Audit 01 by Adam Dossa: 'documentation/audits/audit01_report_dossa.md'
@@ -69,6 +67,8 @@ pages:
       - Finance: 'dev/apps/finance.md'
     - Hacking on Aragon:
       - Overview: 'submodules/hack/README.md'
+  - Tutorials:
+    - DAO Workshop For Aragon Core v0.5: 'tutorials/DAO_Workshop_Testnet_by_joselfgaray.md'
   - Design:
     - Overview: 'design/index.md'
     - Logo: 'design/logo/index.md'
