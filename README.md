@@ -7,6 +7,7 @@ If you feel like contributing to the wiki, like changing or adding things, feel 
 To deploy changes in the wiki to web:
 
 - Install [MkDocs](http://www.mkdocs.org/)
+- Clone repo with `git clone {repo_url} --recursive`
 - Push changes to `master` branch
 - `pip install mkdocs-material`
 - In the `aragon-wiki` directory, run `mkdocs gh-deploy`
