@@ -6,7 +6,7 @@ site_description: 'Wiki for the Aragon Project'
 theme:     'material'
 site_favicon: 'images/favicon.ico'
 extra_css:
-  - 'stylesheets/extra.css'
+  - 'stylesheets/extra_style.css'
 extra_javascript:
   - 'javascript/extra_js.js'
 extra:
