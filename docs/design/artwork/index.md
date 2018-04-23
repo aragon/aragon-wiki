@@ -18,6 +18,20 @@ ___
 > [Light Monochrome SVG](Powered_By/SVG/Powered_By_Light_Monochrome.svg) | [Light Monochrome PNG](Powered_By/PNG/Powered_By_Light_Monochrome.png)
 [<img src="../artwork/Powered_By/PNG/Powered_By_Light_Monochrome.png">](Powered_By/PNG/Powered_By_Light_Monochrome.png)
 
+## Governed by Aragon
+
+> [Dark Color SVG](Governed_By/Governed_By_Dark_Color.svg) | [Dark Color PNG](Governed_By/Governed_By_Dark_Color.png)
+[<img src="../artwork/Governed_By/Governed_By_Dark_Color.png">](Governed_By/Governed_By_Dark_Color.png)
+___
+> [Dark Monochrome SVG](Governed_By/Governed_By_Dark_Monochrome.svg) | [Dark Monochrome PNG](Governed_By/Governed_By_Dark_Monochrome.png)
+[<img src="../artwork/Governed_By/Governed_By_Dark_Monochrome.png">](Governed_By/Governed_By_Dark_Monochrome.png)
+___
+> [Light Color SVG](Governed_By/Governed_By_Light_Color.svg) | [Light Color PNG](Governed_By/Governed_By_Light_Color.png)
+[<img src="../artwork/Governed_By/Governed_By_Light_Color.png">](Governed_By/Governed_By_Light_Color.png)
+___
+> [Light Monochrome SVG](Governed_By/Governed_By_Light_Monochrome.svg) | [Light Monochrome PNG](Governed_By/Governed_By_Light_Monochrome.png)
+[<img src="../artwork/Governed_By/Governed_By_Light_Monochrome.png">](Governed_By/Governed_By_Light_Monochrome.png)
+
 ## General
 
 [<img src="../artwork/basic/01.jpg">](basic/01.jpg)
