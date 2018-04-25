@@ -24,11 +24,11 @@ A “Token project with Democracy” is a DAO where the vote cast by a token hol
 
 #### Step 3. Claim a domain name then click “Next”
 
-Aragon Core uses the Ethereum Name System (ENS) to assign names to DAOs. 
-
-**Note: This name currently cannot be changed.**
+Aragon Core uses the Ethereum Name System (ENS) to assign names to DAOs.
 
 TODO: note character limits
+
+_Note: This name currently cannot be changed._
 
 ![](https://raw.githubusercontent.com/aragon/aragon-wiki/master/docs/images/user_guide/thedaoname.png)
 
@@ -40,7 +40,7 @@ TODO: note character limits
 
 “Vote Duration” is the length of time that the vote will be open for participation. For example, if the Vote Duration is set to 24 Hours (H), then tokenholders have 24H to participate in the vote. After the 24 hours is over, if the vote has not been approved by a majority of tokenholders and/or does not make quorum, then the vote will automatically fail. If the vote makes quorum and receives approval by a majority of tokenholders by the end of the Vote Duration, then the vote will automatically pass.
 
-**Note: These parameters cannot currently be changed.**
+_Note: These parameters cannot currently be changed._
 
 ![](https://raw.githubusercontent.com/aragon/aragon-wiki/master/docs/images/user_guide/democracysettings.png)
 
@@ -48,7 +48,7 @@ TODO: note character limits
 
 TODO: note character limits
 
-**Note: The token name and symbol cannot currently be changed.**
+_Note: The token name and symbol cannot currently be changed._
 
 ![](https://raw.githubusercontent.com/aragon/aragon-wiki/master/docs/images/user_guide/daotokens.png)
 
@@ -84,7 +84,7 @@ You can mint new tokens by following these steps:
 
 Enter the address of the recipient of the tokens and the number of new tokens you want to mint and assign to that address, then click “Assign Tokens”.
 
-**Note: If you assign more tokens to other members than you have issued to yourself, you could lose control of your DAO to the other token holders. To maintain control, you will have to always control more tokens than are necessary for a vote to both reach the Min. Quorum and Support thresholds.**
+_Note: If you assign more tokens to other members than you have issued to yourself, you could lose control of your DAO to the other token holders. To maintain control, you will have to always control more tokens than are necessary for a vote to both reach the Min. Quorum and Support thresholds._
 
 ![](https://raw.githubusercontent.com/aragon/aragon-wiki/master/docs/images/user_guide/daoaddmember.png)
 
