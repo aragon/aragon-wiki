@@ -3,7 +3,8 @@
 ### ßingen - Solidity Engineer
 
 #### Aragon OS / Aragon Apps
-Helped getting everything ready for next audit.
+- Helped getting everything ready for next audit.
+- Started working on Survey app.
 
 #### Aragon Labs
 Started working on TCR implementation.
@@ -17,7 +18,8 @@ Attended the first post-Architect Aragon offsite.
 ### Next
 
 #### Aragon OS / Aragon Apps
-Help fixing issues reported by the auditors.
+- Help fixing issues reported by the auditors.
+- Finish Survey app.
 
 #### Aragon Labs
 - Finish first draft of TCR.
