@@ -78,6 +78,8 @@ pages:
     - Merchandise: 'design/merch/index.md'
   - Meetings:
     - Community:
+      - Community 11:
+        - Agenda: 'meetings/community/11.md'
       - Community 10:
         - Agenda: 'meetings/community/10.md'
         - Write-Up - Alexa: 'meetings/community/write-ups/cm10/alexa.md'
