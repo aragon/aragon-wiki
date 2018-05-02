@@ -14,13 +14,13 @@
 +
 +#### Events
 +
-+- Participated in the regulation panel of the Pillar (Off) the chain summit in Boston
++- Participated in the governance panel of the Pillar (Off) the chain summit in Boston
 +
 +### Next
 +
 +#### Strategy
 +
-+- Continue working on the above referred strategy projects 
++- Continue working on the above referred strategy projects
 +- Issue new proposals for nest
 +
 +#### Communications
