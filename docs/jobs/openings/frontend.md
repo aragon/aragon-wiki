@@ -4,23 +4,31 @@ Aragon is an open source, decentralized project fighting for the freedom to orga
 
 We're looking for a Frontend Developer to work with us on the [Aragon Labs](https://blog.aragon.one/announcing-aragon-labs-a679693429ae), [Aragon Core app](https://github.com/aragon/aragon), and [aragonOS](http://wiki.aragon.one/documentation/aragonOS/). Our Frontend Developer must not only be a frontend and web3 wizard but also a nonconformist. That means that our ideal candidate is not only a respected engineer but also a decentralization advocate.
 
+### Responsibilities
+
+- Develop the frontend for Aragon Labs, Aragon Core app and aragonOS’s.
+- Work with our Design Lead to transport ideas and designs into modern, clean, and readable code.
+- Research, develop, test and implement features on web applications built with modern technologies.
+- Collaborate with the product team to define new product features.
+
 ### Requirements
 
-- **Expert understanding** on:
-ES6/ES7, React, React Native and Electron, Client-side storage, Resource optimization, CSS, using preprocessors such as LESS or SASS, RxJS, Service Workers, Animations and Device APIs.
-- Ability (and a track record) to ship **high quality, well crafted code**.
-- Being passionate about **decentralization**.
-- Being an autonomous individual with a proactive attitude and a love for **time self-management** (We are focus-driven work, not hours-driven).
+- Expert understanding on: ES6/ES7, React, React Native and Electron, Client-side storage, Resource optimization, CSS, using preprocessors such as LESS or SASS, RxJS, Service Workers, Animations and Device APIs.
+- Experience working with Web3 technologies.
+- Proven ability to ship quality, well crafted code within tight deadlines.
+- Being passionate about open source and decentralization.
+- Being an autonomous individual with a proactive attitude and a love for time self-management. We work focus-driven, not hours-driven.
 
 ### Good to have
 
-- Experience contributing or managing **open source projects**.
-- Very good **written communication** skills.
+- Previous experience contributing or managing open source projects.
+- Previous experience working remotely.
+- Very good written communication skills.
+- Attention to UX/UI design. 
 
 ### How to apply
 
 - Write an email with the following attachments plus any information you consider important to *hiring@aragon.one*, with the subject `Frontend Dev opening application`.
-
 - Please send along your GitHub profile. Since we are open source only, we require applicants for developer positions to have a very active and healthy GitHub profile.
 - Bonus: Why did Aragon caught your attention? Which challenge within the crypto space are you more interested in?
 - Please send the following challenge completed:
