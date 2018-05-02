@@ -6,8 +6,8 @@ We're looking for a Frontend Developer to work with us on the [Aragon Labs](http
 
 ### Responsibilities
 
-- Develop the frontend for Aragon Labs, Aragon Core app and aragonOS’s.
-- Work with our Design Lead to transport ideas and designs into modern, clean, and readable code.
+- Develop the frontend for [Aragon Labs](https://blog.aragon.one/announcing-aragon-labs-a679693429ae), [Aragon Core](https://aragon.one/core) app and [aragonOS’ interfaces](https://aragon.one/os).
+- Work with our Design Lead to transform ideas and designs into modern, clean, and readable code.
 - Research, develop, test and implement features on web applications built with modern technologies.
 - Collaborate with the product team to define new product features.
 
@@ -24,7 +24,7 @@ We're looking for a Frontend Developer to work with us on the [Aragon Labs](http
 - Previous experience contributing or managing open source projects.
 - Previous experience working remotely.
 - Very good written communication skills.
-- Attention to UX/UI design. 
+- Attention to UX/UI design.
 
 ### How to apply
 
