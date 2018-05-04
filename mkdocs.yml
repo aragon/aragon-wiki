@@ -69,6 +69,7 @@ pages:
     - Hacking on Aragon:
       - Overview: 'submodules/hack/README.md'
   - Tutorials:
+    - Aragon Core User Guide: 'tutorials/Aragon_Core_User_Guide.md'
     - DAO Workshop For Aragon Core v0.5: 'tutorials/DAO_Workshop_Testnet_by_joselfgaray.md'
   - Design:
     - Overview: 'design/index.md'
