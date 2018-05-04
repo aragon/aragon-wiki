@@ -5,22 +5,19 @@ repo_url: 'https://github.com/aragon/aragon-wiki'
 site_description: 'Wiki for the Aragon Project'
 theme:
   name: 'material'
-    palette:
-      primary: 'indigo'
-      accent: 'indigo'
-site_favicon: 'images/favicon.ico'
+  palette:
+    primary: 'blue grey'
+    accent: 'cyan'
+  font:
+      text: 'Overpass'
+      code: 'Overpass Mono'
+  logo: 'images/logo.svg'
+  favicon: 'images/favicon.ico'
 extra_css:
   - 'stylesheets/extra_style.css'
 extra_javascript:
   - 'javascript/extra_js.js'
 extra:
-  palette:
-    primary: 'blue grey'
-    accent:  'cyan'
-  logo:    'images/logo.svg'
-  font:
-    text: 'Roboto'
-    code: 'Roboto Mono'
   social:
     - type: 'github'
       link: 'https://github.com/aragon'
