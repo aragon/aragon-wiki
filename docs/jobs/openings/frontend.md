@@ -13,7 +13,7 @@ We're looking for a Frontend Developer to work with us on the [Aragon Labs](http
 
 ### Requirements
 
-- Modern JavaScript (ES6+) and Web APIs, CSS, React (Web and Native), resource optimization, development tools.
+- Expert understanding on: Modern JavaScript (ES6+) and Web APIs, CSS, React (Web and Native), resource optimization, development tools.
 - Experience working with Web3 technologies.
 - Proven ability to ship quality, well crafted code within tight deadlines.
 - Being passionate about open source and decentralization.
