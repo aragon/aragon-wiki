@@ -104,6 +104,12 @@
     
         
     <url>
+     <loc>https://wiki.aragon.one/tutorials/Aragon_Core_User_Guide/</loc>
+     <lastmod>2018-05-04</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
      <loc>https://wiki.aragon.one/tutorials/DAO_Workshop_Testnet_by_joselfgaray/</loc>
      <lastmod>2018-05-04</lastmod>
      <changefreq>daily</changefreq>
