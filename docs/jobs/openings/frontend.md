@@ -1,6 +1,6 @@
 ## Frontend Developer opening at Aragon
 
-Aragon is an open source, decentralized project fighting for the freedom to organize. We believe that decentralized organizations can solve the world's worst problems.
+Aragon is an open source, decentralized project [fighting for the freedom](https://www.youtube.com/watch?v=AqjIWmiAidw) to organize. We believe that decentralized organizations can solve the world's worst problems.
 
 We're looking for a Frontend Developer to work with us on the [Aragon Labs](https://blog.aragon.one/announcing-aragon-labs-a679693429ae), [Aragon Core app](https://github.com/aragon/aragon), and [aragonOS](http://wiki.aragon.one/documentation/aragonOS/). Our Frontend Developer must not only be a frontend and web3 wizard but also a nonconformist. That means that our ideal candidate is not only a respected engineer but also a decentralization advocate.
 
