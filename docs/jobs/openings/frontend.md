@@ -1,4 +1,4 @@
-## Frontend/Web3 Developer opening at Aragon
+## Frontend Developer opening at Aragon
 
 Aragon is an open source, decentralized project fighting for the freedom to organize. We believe that decentralized organizations can solve the world's worst problems.
 
@@ -6,7 +6,7 @@ We're looking for a Frontend Developer to work with us on the [Aragon Labs](http
 
 ### Responsibilities
 
-- Develop the frontend for [Aragon Labs](https://blog.aragon.one/announcing-aragon-labs-a679693429ae), [Aragon Core](https://aragon.one/core) app and [aragonOS’ interfaces](https://aragon.one/os).
+- Develop, ship, and maintain quality frontends for the [Aragon Labs](https://blog.aragon.one/announcing-aragon-labs-a679693429ae) and [Aragon Core](https://aragon.one/core) app projects, working closely with our [UI toolkit](https://github.com/aragon/aragon-ui).
 - Work with our Design Lead to transform ideas and designs into modern, clean, and readable code.
 - Research, develop, test and implement features on web applications built with modern technologies.
 - Collaborate with the product team to define new product features.
