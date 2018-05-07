@@ -38,8 +38,10 @@ We believe that **decentralized organizations can solve the world's worst proble
 
 ## Openings 🙋🏾🙋‍♂️
 
+* [Web3 Developer](openings/web3.md)
 * [EVM/Solidity Engineer](openings/solidity.md)
 * [Frontend Developer](openings/frontend.md)
+* [Office Manager](openings/office-manager.md)
 * [UI Developer at Aragon − Contract Position](openings/ui-developer-contract.md)
 
 
