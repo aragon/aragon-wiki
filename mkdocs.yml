@@ -154,6 +154,7 @@ pages:
   - Jobs:
     - Overview: 'jobs/index.md'
     - Openings:
+      - Web3 Developer: 'jobs/openings/web3.md'
       - EVM/Solidity Engineer: 'jobs/openings/solidity.md'
       - Frontend Developer: 'jobs/openings/frontend.md'
       - Office Manager: 'jobs/openings/office-manager.md'
