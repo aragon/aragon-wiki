@@ -22,36 +22,6 @@ We are looking for an Ethereum wizard to work with us on [Aragon Core](https://g
 
 ### How to apply
 
-- Write the code (deployable to the EVM), publish it on GitHub (public or private) and send link to repo plus any information you consider important to *hiring@aragon.one*, with the subject `Solidity opening application`.
-
-- The code we are looking for could be comformant to the following interface. Feel free to remove/add any functions as you see fit:
-
-```
-// For the sake of simplicity lets assume USD is a ERC20 token
-// Also lets assume we can 100% trust the exchange rate oracle
-contract PayrollInterface {
-  /* OWNER ONLY */
-  function addEmployee(address accountAddress, address[] allowedTokens, uint256 initialYearlyUSDSalary);
-  function setEmployeeSalary(uint256 employeeId, uint256 yearlyUSDSalary);
-  function removeEmployee(uint256 employeeId);
-
-  function addFunds() payable;
-  function scapeHatch();
-  // function addTokenFunds()? // Use approveAndCall or ERC223 tokenFallback
-
-  function getEmployeeCount() constant returns (uint256);
-  function getEmployee(uint256 employeeId) constant returns (address employee); // Return all important info too
-
-  function calculatePayrollBurnrate() constant returns (uint256); // Monthly usd amount spent in salaries
-  function calculatePayrollRunway() constant returns (uint256); // Days until the contract can run out of funds
-
-  /* EMPLOYEE ONLY */
-  function determineAllocation(address[] tokens, uint256[] distribution); // only callable once every 6 months
-  function payday(); // only callable once a month
-
-  /* ORACLE ONLY */
-  function setExchangeRate(address token, uint256 usdExchangeRate); // uses decimals from token
-}
-```
+Write the contract component of a new Aragon App that either improves upon one of our current [apps](https://github.com/aragon/aragon-apps) or is an entirely new use case that you think will wow us. The final contract should be deployable to the EVM (ignoring gas costs) and published to GitHub (public or private). Send us the link to the repo plus any information you consider important to *hiring@aragon.one*, with the subject `Solidity opening application`.
 
 ### If you haven't, please [read more about our culture, work conditions, etc.](../index.md)
