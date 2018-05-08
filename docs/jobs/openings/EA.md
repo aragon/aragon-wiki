@@ -13,7 +13,7 @@ We’re looking for an Executive Assistant to support the Aragon founders with o
 * Prepare and keep track of expense reports, invoices and cashflows.
 
 ### Who you are
-* You put attention to details, organization and process.
+* You put attention to details, organization, and process.
 * You have the ability to anticipate needs and find effective solutions with common sense.
 * You have a high sense to protect and respect privacy.
 * You have some knowledge about the crypto space and you’re excited to learn more.
@@ -30,7 +30,7 @@ We’re looking for an Executive Assistant to support the Aragon founders with o
 ### How to apply
 * Write an email with the following attachments plus any information you consider important to `hiring@aragon.one`, with the subject `Executive Assistant opening application`.
 * Attach your LinkedIn and Twitter, or similar: personal website, CV, Reddit, others.
-* Let us know why did Aragon caught your attention? How this role is going to add value to you?
+* Let us know why did Aragon catch your attention? How is this role going to add value to you?
 
 We’ll try our best to get back to you within one week!
 
