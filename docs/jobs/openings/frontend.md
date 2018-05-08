@@ -13,9 +13,9 @@ We're looking for a Frontend Developer to work with us on the [Aragon Labs](http
 
 ### Requirements
 
-- Expert understanding on: Modern JavaScript (ES6+) and Web APIs, CSS, React (Web and Native), resource optimization, development tools.
+- Expert understanding of: Modern JavaScript (ES6+) and Web APIs, CSS, React (Web and Native), resource optimization, development tools.
 - Experience working with Web3 technologies.
-- Proven ability to ship quality, well crafted code within tight deadlines.
+- Proven ability to ship quality, well-crafted code within tight deadlines.
 - Being passionate about open source and decentralization.
 - Being an autonomous individual with a proactive attitude and a love for time self-management. We work focus-driven, not hours-driven.
 
@@ -30,7 +30,7 @@ We're looking for a Frontend Developer to work with us on the [Aragon Labs](http
 
 - Write an email with the following attachments plus any information you consider important to *hiring@aragon.one*, with the subject `Frontend Dev opening application`.
 - Please send along your GitHub profile. Since we are open source only, we require applicants for developer positions to have a very active and healthy GitHub profile.
-- Bonus: Why did Aragon caught your attention? Which challenge within the crypto space are you more interested in?
+- Bonus: Why did Aragon catch your attention? Which challenge within the crypto space are you more interested in?
 - Please send the following challenge completed:
 
 #### Challenge
@@ -48,7 +48,7 @@ Build a small app to explore the latest blocks on Ethereum. The goal of the app 
 ##### Notes
 
 - You can use any library you feel comfortable with.
-- The app will be loaded in a browser with MetaMask.
+- The app will be loaded into a browser with MetaMask.
 - Feel free to interpret the requirements in any way that you think could be interesting.
 - The app doesn’t need to follow the Aragon visual identity.
 - Don’t hesitate to ask any question to the team :-)
