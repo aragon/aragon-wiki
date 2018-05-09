@@ -42,6 +42,7 @@ We believe that **decentralized organizations can solve the world's worst proble
 * [EVM/Solidity Engineer](openings/solidity.md)
 * [Frontend Developer](openings/frontend.md)
 * [Office Manager](openings/office-manager.md)
+* [Executive Assistant](openings/exec-assistant.md)
 * [UI Developer at Aragon − Contract Position](openings/ui-developer-contract.md)
 
 

@@ -6,7 +6,7 @@ We’re looking for an Executive Assistant to support the Aragon founders with o
 
 ### Where you’ll contribute
 * Management of complex calendar scheduling across multiple invitees, locations and time zones.
-* Anticipate needs and provide high-level administrative support to Luis and Jorge.
+* Anticipate needs and provide high-level administrative support to [Luis and Jorge](../../#team).
 * Plan and organize events logistics with Alexa by coordinating domestic and international travel.
 * Prioritize and follow-up legal, financial and accounting projects.
 * Facilitate meetings by structuring agendas, taking notes and following up.
