@@ -18,7 +18,7 @@ We’re looking for an Executive Assistant to support the Aragon founders with o
 * You have a high sense to protect and respect privacy.
 * You have some knowledge about the crypto space and you’re excited to learn more.
 * You have excellent written and spoken English communication skills.
-* You’re comfortable working with online tools for reporting and project, calendar, inbox and password management, among others.
+* You’re comfortable working with online tools for reporting and project, calendar, inbox and password management, among other tools.
 * You’re highly responsible, a self-starter, proactive and have the ability to adapt to fast-paced environments.
 
 ### Nice to have
