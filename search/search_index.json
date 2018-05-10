@@ -2312,7 +2312,7 @@
         }, 
         {
             "location": "/design/logo/", 
-            "text": "Logo\n\n\nBrand in Sketch format\n\n\nImagetypes\n\n\nHorizontal\n\n\nSVG\n | \nPNG\n | \nLight text SVG\n | \nLight text PNG\n | \nDark background JPG\n\n\n \n\n\nVertical\n\n\nPNG\n | \nLight text PNG\n | \nDark background JPG\n\n\n \n\n\nLogotypes\n\n\nDefault\n\n\nSVG\n | \nPNG\n | \nLight version SVG\n | \nLight version PNG\n | \nDark background JPG\n\n\n \n\n\nIsotypes\n\n\nStroke\n\n\nSketch\n | \nPNG\n\n\n\n\nDefault\n\n\nSVG\n | \nPNG", 
+            "text": "Logo\n\n\nBrand in Sketch format\n\n\nImagetypes\n\n\nHorizontal\n\n\nSVG\n | \nAI\n | \nPNG\n | \nLight text SVG\n | \nLight text AI\n | \nLight text PNG\n | \nDark background JPG\n\n\n \n\n\nVertical\n\n\nPNG\n | \nLight text PNG\n | \nDark background JPG\n\n\n \n\n\nHorizontal Greyscale\n\n\nSVG\n | \nAI\n | \nPNG\n\n\n\n\nLogotypes\n\n\nDefault\n\n\nSVG\n | \nPNG\n | \nLight version SVG\n | \nLight version PNG\n | \nDark background JPG\n\n\n \n\n\nIsotypes\n\n\nStroke\n\n\nSketch\n | \nPNG\n\n\n\n\nDefault\n\n\nSVG\n | \nPNG\n | \nEPS\n | \nAI", 
             "title": "Logo"
         }, 
         {
@@ -2332,13 +2332,18 @@
         }, 
         {
             "location": "/design/logo/#horizontal", 
-            "text": "SVG  |  PNG  |  Light text SVG  |  Light text PNG  |  Dark background JPG", 
+            "text": "SVG  |  AI  |  PNG  |  Light text SVG  |  Light text AI  |  Light text PNG  |  Dark background JPG", 
             "title": "Horizontal"
         }, 
         {
             "location": "/design/logo/#vertical", 
             "text": "PNG  |  Light text PNG  |  Dark background JPG", 
             "title": "Vertical"
+        }, 
+        {
+            "location": "/design/logo/#horizontal-greyscale", 
+            "text": "SVG  |  AI  |  PNG", 
+            "title": "Horizontal Greyscale"
         }, 
         {
             "location": "/design/logo/#logotypes", 
@@ -2362,12 +2367,12 @@
         }, 
         {
             "location": "/design/logo/#default_1", 
-            "text": "SVG  |  PNG", 
+            "text": "SVG  |  PNG  |  EPS  |  AI", 
             "title": "Default"
         }, 
         {
             "location": "/design/artwork/", 
-            "text": "Aragon Artwork\n\n\nDifferent kinds of resources, from \nPowered by Aragon\n icons to graphic resources to be used in blog posts etc.\n\n\nPowered by Aragon\n\n\n\n\nContributed by \n@elioqoshi\n\n\nDark Color SVG\n | \nDark Color PNG\n\n\n\n\n\n\n\n\n\n\nDark Monochrome SVG\n | \nDark Monochrome PNG\n\n\n\n\n\n\n\n\n\n\nLight Color SVG\n | \nLight Color PNG\n\n\n\n\n\n\n\n\n\n\nLight Monochrome SVG\n | \nLight Monochrome PNG\n\n\n\n\n\n\nGoverned by Aragon\n\n\n\n\nDark Color SVG\n | \nDark Color PNG\n\n\n\n\n\n\n\n\n\n\nDark Monochrome SVG\n | \nDark Monochrome PNG\n\n\n\n\n\n\n\n\n\n\nLight Color SVG\n | \nLight Color PNG\n\n\n\n\n\n\n\n\n\n\nLight Monochrome SVG\n | \nLight Monochrome PNG\n\n\n\n\n\n\nGeneral\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAragon Network Token\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAragon Network Jurisdiction\n\n\n\n\nAragon Company Registry\n\n\n\n\nAragon Chat\n\n\n\n\nAragon Nest\n\n\n\n\nGradient Background", 
+            "text": "Aragon Artwork\n\n\nDifferent kinds of resources, from \nPowered by Aragon\n icons to graphic resources to be used in blog posts etc.\n\n\nPowered by Aragon\n\n\n\n\nContributed by \n@elioqoshi\n\n\nDark Color SVG\n | \nDark Color PNG\n\n\n\n\n\n\n\n\n\n\nDark Monochrome SVG\n | \nDark Monochrome PNG\n\n\n\n\n\n\n\n\n\n\nLight Color SVG\n | \nLight Color PNG\n\n\n\n\n\n\n\n\n\n\nLight Monochrome SVG\n | \nLight Monochrome PNG\n\n\n\n\n\n\nGoverned by Aragon\n\n\n\n\nDark Color SVG\n | \nDark Color PNG\n\n\n\n\n\n\n\n\n\n\nDark Monochrome SVG\n | \nDark Monochrome PNG\n\n\n\n\n\n\n\n\n\n\nLight Color SVG\n | \nLight Color PNG\n\n\n\n\n\n\n\n\n\n\nLight Monochrome SVG\n | \nLight Monochrome PNG\n\n\n\n\n\n\nGeneral\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAragon Network Token\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAragon Network Jurisdiction\n\n\n\n\nAragon Company Registry\n\n\n\n\nAragon Chat\n\n\n\n\nAragon Nest\n\n\n\n\n\n\n\n\n\n\n\n\nAragon Labs\n\n\n\n\nGradient Background", 
             "title": "Artwork"
         }, 
         {
@@ -2414,6 +2419,11 @@
             "location": "/design/artwork/#aragon-nest", 
             "text": "", 
             "title": "Aragon Nest"
+        }, 
+        {
+            "location": "/design/artwork/#aragon-labs", 
+            "text": "", 
+            "title": "Aragon Labs"
         }, 
         {
             "location": "/design/artwork/#gradient-background", 
