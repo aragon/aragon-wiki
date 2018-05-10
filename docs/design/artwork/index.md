@@ -68,6 +68,24 @@ ___
 ___
 [<img src="../artwork/basic/17.png">](basic/17.png)
 ___
+[<img src="../artwork/basic/18.png">](basic/18.png)
+___
+[<img src="../artwork/basic/19.jpg">](basic/19.jpg)
+___
+[<img src="../artwork/basic/20.png">](basic/20.png)
+___
+[<img src="../artwork/basic/21.png">](basic/21.png)
+___
+[<img src="../artwork/basic/22.png">](basic/22.png)
+___
+[<img src="../artwork/basic/23.png">](basic/23.png)
+___
+[<img src="../artwork/basic/24.jpg">](basic/24.jpg)
+___
+[<img src="../artwork/basic/25.jpg">](basic/25.jpg)
+____
+[<img src="../artwork/basic/26.jpg">](basic/26.jpg)
+
 ## Aragon Network Token
 
 [<img src="../artwork/ANT/ANT01.jpg">](ANT/ANT01.jpg)
@@ -93,6 +111,14 @@ ___
 ## Aragon Nest
 
 [<img src="../artwork/Nest/01.png">](Nest/01.png)
+___
+[<img src="../artwork/Nest/02.png">](Nest/02.png)
+___
+[<img src="../artwork/Nest/03.jpg">](Nest/03.jpg)
+
+## Aragon Labs
+
+[<img src="../artwork/Labs/01.png">](Labs/01.png)
 
 ## Gradient Background
 

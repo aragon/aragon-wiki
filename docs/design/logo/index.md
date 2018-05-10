@@ -5,7 +5,7 @@
 ## Imagetypes
 
 ### Horizontal
-[SVG](svg/imagetype.svg) | [PNG](png/imagetype@2x.png) | [Light text SVG](svg/imagetype_light.svg) | [Light text PNG](png/imagetype_light@2x.png) | [Dark background JPG](jpg/imagetype_dark@2x.jpg)
+[SVG](svg/imagetype.svg) | [AI](svg/imagetype.ai) | [PNG](png/imagetype@2x.png) | [Light text SVG](svg/imagetype_light.svg) | [Light text AI](svg/imagetype_light.ai) | [Light text PNG](png/imagetype_light@2x.png) | [Dark background JPG](jpg/imagetype_dark@2x.jpg)
 
 <img width="256" src="png/imagetype.png"> <img width="256" src="jpg/imagetype_dark.jpg">
 
@@ -13,6 +13,11 @@
 [PNG](png/imagetype_vertical@2x.png) | [Light text PNG](png/imagetype_vertical_light@2x.png) | [Dark background JPG](jpg/imagetype_vertical_dark@2x.jpg)
 
 <img width="256" src="png/imagetype_vertical.png"> <img width="256" src="jpg/imagetype_vertical_dark.jpg">
+
+### Horizontal Greyscale
+[SVG](svg/imagetype_horizontal_greyscale.svg) | [AI](svg/imagetype_horizontal_greyscale.ai) | [PNG](png/imagetype_horizontal_greyscale.png)
+
+<img width="256" src="png/imagetype_horizontal_greyscale.png">
 
 ## Logotypes
 ### Default
@@ -27,6 +32,6 @@
 <img width="256" src="png/stroke.png">
 
 ### Default
-[SVG](svg/isotype.svg) | [PNG](png/isotype@2x.png)
+[SVG](svg/isotype.svg) | [PNG](png/isotype@2x.png) | [EPS](svg/aragon-logo.eps) | [AI](svg/isotype.ai)
 
 <img width="256" src="png/isotype.png">
