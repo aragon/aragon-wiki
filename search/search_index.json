@@ -2011,6 +2011,371 @@
             "title": "Limitations"
         }, 
         {
+            "location": "/submodules/aragon.js/README/", 
+            "text": "Website\n    \n\n    \n | \n\n    \n\n      Documentation\n    \n\n    \n | \n\n    \n\n      Contributing\n    \n\n    \n | \n\n    \n\n      Chat\n    \n\n  \n\n\n\n\n\naragon.js Basic Overview\n\n\nThe layer between \nAragon Core\n and the Aragon web- and desktop \napplication\n. Use it to build third-party apps for Aragon, or to roll your own front-end.\n\n\nInstall\n\n\nnpm i @aragon/client\n\n\n\n\nQuick Start\n\n\nconst Aragon = require('@aragon/client')\n\n// Set up app\nconst app = new Aragon()\n\n// Set app identifier\n// Just an example, should be more descriptive (e.g. for our token manager, we use the ticker of the token it manages)\napp.identify(Math.random())\n\n// Listen to events and build app state\nconst state$ = app.store((state, event) =\n {\n  // Initial state\n  if (state === null) state = 0\n\n  // Build state\n  if (event.event === 'Decrement') {\n    state--\n\n    // Send notification\n \u00a0 \u00a0app.notify('Counter decremented', `The counter was decremented to ${state}`)\n \u00a0}\n  if (event.event === 'Increment') {\n    state++\n    app.notify('Counter incremented', `The counter was incremented to ${state}`)\n  }\n\n  return state\n})\n\n// Log out the state\nstate$.subscribe(console.log)\n\n// Send an intent to the wrapper\napp.increment().subscribe(\n \u00a0(txHash) =\n console.log(`Success! Incremented in tx ${txHash}`),\n \u00a0(err) =\n console.log(`Could not increment: ${err}`)\n)\n\n\n\n\nDocumentation\n\n\nFor wrappers, see \nhere\n.\n\n\nFor apps, see \nhere\n.\n\n\nContributing\n\n\nPlease take a look at our \ncontributing\n guidelines if you're interested in helping!", 
+            "title": "Overview"
+        }, 
+        {
+            "location": "/submodules/aragon.js/README/#aragonjs-basic-overview", 
+            "text": "The layer between  Aragon Core  and the Aragon web- and desktop  application . Use it to build third-party apps for Aragon, or to roll your own front-end.", 
+            "title": "aragon.js Basic Overview"
+        }, 
+        {
+            "location": "/submodules/aragon.js/README/#install", 
+            "text": "npm i @aragon/client", 
+            "title": "Install"
+        }, 
+        {
+            "location": "/submodules/aragon.js/README/#quick-start", 
+            "text": "const Aragon = require('@aragon/client')\n\n// Set up app\nconst app = new Aragon()\n\n// Set app identifier\n// Just an example, should be more descriptive (e.g. for our token manager, we use the ticker of the token it manages)\napp.identify(Math.random())\n\n// Listen to events and build app state\nconst state$ = app.store((state, event) =  {\n  // Initial state\n  if (state === null) state = 0\n\n  // Build state\n  if (event.event === 'Decrement') {\n    state--\n\n    // Send notification\n \u00a0 \u00a0app.notify('Counter decremented', `The counter was decremented to ${state}`)\n \u00a0}\n  if (event.event === 'Increment') {\n    state++\n    app.notify('Counter incremented', `The counter was incremented to ${state}`)\n  }\n\n  return state\n})\n\n// Log out the state\nstate$.subscribe(console.log)\n\n// Send an intent to the wrapper\napp.increment().subscribe(\n \u00a0(txHash) =  console.log(`Success! Incremented in tx ${txHash}`),\n \u00a0(err) =  console.log(`Could not increment: ${err}`)\n)", 
+            "title": "Quick Start"
+        }, 
+        {
+            "location": "/submodules/aragon.js/README/#documentation", 
+            "text": "For wrappers, see  here .  For apps, see  here .", 
+            "title": "Documentation"
+        }, 
+        {
+            "location": "/submodules/aragon.js/README/#contributing", 
+            "text": "Please take a look at our  contributing  guidelines if you're interested in helping!", 
+            "title": "Contributing"
+        }, 
+        {
+            "location": "/submodules/aragon.js/docs/APP/", 
+            "text": "Aragon App\n\n\nAn Aragon app.\n\n\nThis class handles communicating with the wrapper using Aragon RPC.\n\n\nThe class itself contains \"magic methods\", that is, undefined methods\nwill instead become an intent that is sent to the wrapper.\n\n\nFor example:\n\n\napp.transfer('foo', 'bar')\n\n\n\n\nwill result in an intent to send a transaction to the application proxy,\ninvoking the contract function \ntransfer\n with the parameters \nfoo\n and \nbar\n.\n\n\nParameters\n\n\n\n\nrpc\n \nObject\n?\n An RPC provider (will default to using the PostMessage API)\n\n\n\n\nevents\n\n\nGet events from the application contract.\n\n\nReturns \nObservable\n An observable of contract events (as defined in Web3)\n\n\ncache\n\n\nCache a value for the application.\n\n\nParameters\n\n\n\n\nkey\n \nstring\n The cache key\n\n\nvalue\n \nstring\n The value to cache\n\n\n\n\nReturns \nstring\n Will pass through \nvalue\n\n\nnotify\n\n\nSend a notification.\n\n\nParameters\n\n\n\n\ntitle\n \nstring\n The notification title\n\n\nbody\n \nstring\n The notification body\n\n\ncontext\n \nObject\n The application context to send back if the notification is clicked (optional, default \n{}\n)\n\n\ndate\n \nDate\n The notification's timestamp\n\n\n\n\nReturns \nvoid\n\n\nstate\n\n\nObserve the application state.\n\n\nReturns \nObservable\n An observable of application states over time.\n\n\nstore\n\n\nListens for events, passes them through \nreducer\n, caches the resulting state\nand returns that state.\n\n\nThe reducer takes the signature \n(state, event)\n a l\u00e1 Redux.\n\n\nParameters\n\n\n\n\nreducer\n \nreducer\n\n\n\n\nReturns \nObservable\n An observable of the resulting state from reducing events\n\n\ncall\n\n\nPerform a call to the application contract.\n\n\nParameters\n\n\n\n\nmethod\n \nstring\n The method to call\n\n\nparams\n \n...any\n Parameters for the call\n\n\n\n\nReturns \nObservable\n An observable that emits the return value(s) of the call.\n\n\nreducer\n\n\nA state reducer a l\u00e1 Redux.\n\n\nType: \nFunction\n\n\nParameters\n\n\n\n\nstate\n \nany\n\n\nevent\n \nObject\n\n\n\n\nReturns \nObject\n The next state", 
+            "title": "App"
+        }, 
+        {
+            "location": "/submodules/aragon.js/docs/APP/#aragon-app", 
+            "text": "", 
+            "title": "Aragon App"
+        }, 
+        {
+            "location": "/submodules/aragon.js/docs/APP/#an-aragon-app", 
+            "text": "This class handles communicating with the wrapper using Aragon RPC.  The class itself contains \"magic methods\", that is, undefined methods\nwill instead become an intent that is sent to the wrapper.  For example:  app.transfer('foo', 'bar')  will result in an intent to send a transaction to the application proxy,\ninvoking the contract function  transfer  with the parameters  foo  and  bar .", 
+            "title": "An Aragon app."
+        }, 
+        {
+            "location": "/submodules/aragon.js/docs/APP/#parameters", 
+            "text": "rpc   Object ?  An RPC provider (will default to using the PostMessage API)", 
+            "title": "Parameters"
+        }, 
+        {
+            "location": "/submodules/aragon.js/docs/APP/#events", 
+            "text": "Get events from the application contract.  Returns  Observable  An observable of contract events (as defined in Web3)", 
+            "title": "events"
+        }, 
+        {
+            "location": "/submodules/aragon.js/docs/APP/#cache", 
+            "text": "Cache a value for the application.", 
+            "title": "cache"
+        }, 
+        {
+            "location": "/submodules/aragon.js/docs/APP/#parameters_1", 
+            "text": "key   string  The cache key  value   string  The value to cache   Returns  string  Will pass through  value", 
+            "title": "Parameters"
+        }, 
+        {
+            "location": "/submodules/aragon.js/docs/APP/#notify", 
+            "text": "Send a notification.", 
+            "title": "notify"
+        }, 
+        {
+            "location": "/submodules/aragon.js/docs/APP/#parameters_2", 
+            "text": "title   string  The notification title  body   string  The notification body  context   Object  The application context to send back if the notification is clicked (optional, default  {} )  date   Date  The notification's timestamp   Returns  void", 
+            "title": "Parameters"
+        }, 
+        {
+            "location": "/submodules/aragon.js/docs/APP/#state", 
+            "text": "Observe the application state.  Returns  Observable  An observable of application states over time.", 
+            "title": "state"
+        }, 
+        {
+            "location": "/submodules/aragon.js/docs/APP/#store", 
+            "text": "Listens for events, passes them through  reducer , caches the resulting state\nand returns that state.  The reducer takes the signature  (state, event)  a l\u00e1 Redux.", 
+            "title": "store"
+        }, 
+        {
+            "location": "/submodules/aragon.js/docs/APP/#parameters_3", 
+            "text": "reducer   reducer   Returns  Observable  An observable of the resulting state from reducing events", 
+            "title": "Parameters"
+        }, 
+        {
+            "location": "/submodules/aragon.js/docs/APP/#call", 
+            "text": "Perform a call to the application contract.", 
+            "title": "call"
+        }, 
+        {
+            "location": "/submodules/aragon.js/docs/APP/#parameters_4", 
+            "text": "method   string  The method to call  params   ...any  Parameters for the call   Returns  Observable  An observable that emits the return value(s) of the call.", 
+            "title": "Parameters"
+        }, 
+        {
+            "location": "/submodules/aragon.js/docs/APP/#reducer", 
+            "text": "A state reducer a l\u00e1 Redux.  Type:  Function", 
+            "title": "reducer"
+        }, 
+        {
+            "location": "/submodules/aragon.js/docs/APP/#parameters_5", 
+            "text": "state   any  event   Object   Returns  Object  The next state", 
+            "title": "Parameters"
+        }, 
+        {
+            "location": "/submodules/aragon.js/docs/WRAPPER/", 
+            "text": "Aragon Wrapper\n\n\nAn Aragon wrapper.\n\n\nParameters\n\n\n\n\ndaoAddress\n \nstring\n The address of the DAO.\n\n\noptions\n \nObject\n Wrapper options. (optional, default \n{}\n)\n\n\noptions.provider\n \nany\n The Web3 provider to use for blockchain communication (optional, default \nws://rinkeby.aragon.network:8546\n)\n\n\noptions.ensRegistryAddress\n \nString\n The address of the ENS registry (optional, default \nnull\n)\n\n\n\n\n\n\n\n\nExamples\n\n\nconst aragon = new Aragon('0xdeadbeef')\n\n// Initialises the wrapper and logs the installed apps\naragon.init(() =\n {\n  aragon.apps.subscribe(\n    (apps) =\n console.log(apps)\n  )\n})\n\n\n\n\ninit\n\n\nInitialise the wrapper.\n\n\nReturns \nPromise\nvoid\n\n\ninitAcl\n\n\nInitialise the ACL.\n\n\nReturns \nPromise\nvoid\n\n\ngetAppProxyValues\n\n\nGet proxy metadata (\nappId\n, address of the kernel, ...).\n\n\nParameters\n\n\n\n\nproxyAddress\n \nstring\n The address of the proxy to get metadata from\n\n\n\n\nReturns \nPromise\nObject\n\n\nisApp\n\n\nCheck if an object is an app.\n\n\nParameters\n\n\n\n\napp\n \nObject\n\n\n\n\nReturns \nboolean\n\n\ninitApps\n\n\nInitialise apps observable.\n\n\nReturns \nvoid\n\n\ninitForwarders\n\n\nInitialise forwarder observable.\n\n\nReturns \nvoid\n\n\nrunApp\n\n\nRun an app.\n\n\nParameters\n\n\n\n\nsandbox\n \nObject\n An object that is compatible with the PostMessage API.\n\n\nproxyAddress\n \nstring\n The address of the app proxy.\n\n\n\n\nReturns \nObject\n\n\ngetAccounts\n\n\nGet the available accounts for the current user.\n\n\nReturns \nPromise\nArray\nstring\n An array of addresses\n\n\ngetTransactionPath\n\n\nCalculate the transaction path for a transaction to \ndestination\n\nthat invokes \nmethodName\n with \nparams\n.\n\n\nParameters\n\n\n\n\ndestination\n \nstring\n\n\nmethodName\n \nstring\n\n\nparams\n \nArray\nany\n\n\n\n\nReturns \nArray\nObject\n An array of Ethereum transactions that describe each step in the path\n\n\ncalculateTransactionPath\n\n\nCalculate the transaction path for a transaction to \ndestination\n\nthat invokes \nmethodName\n with \nparams\n.\n\n\nParameters\n\n\n\n\nsender\n \nstring\n\n\ndestination\n \nstring\n\n\nmethodName\n \nstring\n\n\nparams\n \nArray\nany\n\n\n\n\nReturns \nArray\nObject\n An array of Ethereum transactions that describe each step in the path", 
+            "title": "Wrapper"
+        }, 
+        {
+            "location": "/submodules/aragon.js/docs/WRAPPER/#aragon-wrapper", 
+            "text": "", 
+            "title": "Aragon Wrapper"
+        }, 
+        {
+            "location": "/submodules/aragon.js/docs/WRAPPER/#an-aragon-wrapper", 
+            "text": "", 
+            "title": "An Aragon wrapper."
+        }, 
+        {
+            "location": "/submodules/aragon.js/docs/WRAPPER/#parameters", 
+            "text": "daoAddress   string  The address of the DAO.  options   Object  Wrapper options. (optional, default  {} )  options.provider   any  The Web3 provider to use for blockchain communication (optional, default  ws://rinkeby.aragon.network:8546 )  options.ensRegistryAddress   String  The address of the ENS registry (optional, default  null )", 
+            "title": "Parameters"
+        }, 
+        {
+            "location": "/submodules/aragon.js/docs/WRAPPER/#examples", 
+            "text": "const aragon = new Aragon('0xdeadbeef')\n\n// Initialises the wrapper and logs the installed apps\naragon.init(() =  {\n  aragon.apps.subscribe(\n    (apps) =  console.log(apps)\n  )\n})", 
+            "title": "Examples"
+        }, 
+        {
+            "location": "/submodules/aragon.js/docs/WRAPPER/#init", 
+            "text": "Initialise the wrapper.  Returns  Promise void", 
+            "title": "init"
+        }, 
+        {
+            "location": "/submodules/aragon.js/docs/WRAPPER/#initacl", 
+            "text": "Initialise the ACL.  Returns  Promise void", 
+            "title": "initAcl"
+        }, 
+        {
+            "location": "/submodules/aragon.js/docs/WRAPPER/#getappproxyvalues", 
+            "text": "Get proxy metadata ( appId , address of the kernel, ...).", 
+            "title": "getAppProxyValues"
+        }, 
+        {
+            "location": "/submodules/aragon.js/docs/WRAPPER/#parameters_1", 
+            "text": "proxyAddress   string  The address of the proxy to get metadata from   Returns  Promise Object", 
+            "title": "Parameters"
+        }, 
+        {
+            "location": "/submodules/aragon.js/docs/WRAPPER/#isapp", 
+            "text": "Check if an object is an app.", 
+            "title": "isApp"
+        }, 
+        {
+            "location": "/submodules/aragon.js/docs/WRAPPER/#parameters_2", 
+            "text": "app   Object   Returns  boolean", 
+            "title": "Parameters"
+        }, 
+        {
+            "location": "/submodules/aragon.js/docs/WRAPPER/#initapps", 
+            "text": "Initialise apps observable.  Returns  void", 
+            "title": "initApps"
+        }, 
+        {
+            "location": "/submodules/aragon.js/docs/WRAPPER/#initforwarders", 
+            "text": "Initialise forwarder observable.  Returns  void", 
+            "title": "initForwarders"
+        }, 
+        {
+            "location": "/submodules/aragon.js/docs/WRAPPER/#runapp", 
+            "text": "Run an app.", 
+            "title": "runApp"
+        }, 
+        {
+            "location": "/submodules/aragon.js/docs/WRAPPER/#parameters_3", 
+            "text": "sandbox   Object  An object that is compatible with the PostMessage API.  proxyAddress   string  The address of the app proxy.   Returns  Object", 
+            "title": "Parameters"
+        }, 
+        {
+            "location": "/submodules/aragon.js/docs/WRAPPER/#getaccounts", 
+            "text": "Get the available accounts for the current user.  Returns  Promise Array string  An array of addresses", 
+            "title": "getAccounts"
+        }, 
+        {
+            "location": "/submodules/aragon.js/docs/WRAPPER/#gettransactionpath", 
+            "text": "Calculate the transaction path for a transaction to  destination \nthat invokes  methodName  with  params .", 
+            "title": "getTransactionPath"
+        }, 
+        {
+            "location": "/submodules/aragon.js/docs/WRAPPER/#parameters_4", 
+            "text": "destination   string  methodName   string  params   Array any   Returns  Array Object  An array of Ethereum transactions that describe each step in the path", 
+            "title": "Parameters"
+        }, 
+        {
+            "location": "/submodules/aragon.js/docs/WRAPPER/#calculatetransactionpath", 
+            "text": "Calculate the transaction path for a transaction to  destination \nthat invokes  methodName  with  params .", 
+            "title": "calculateTransactionPath"
+        }, 
+        {
+            "location": "/submodules/aragon.js/docs/WRAPPER/#parameters_5", 
+            "text": "sender   string  destination   string  methodName   string  params   Array any   Returns  Array Object  An array of Ethereum transactions that describe each step in the path", 
+            "title": "Parameters"
+        }, 
+        {
+            "location": "/submodules/aragon.js/CONTRIBUTING/", 
+            "text": "Contributing to Aragon.js\n\n\n:tada: Thank you for being interested in contributing to an Aragon Project! :tada:\n\n\nThe following is a set of guidelines and helpful pointers for contributing to Aragon.js. The keyword here is \nguidelines\n, not rules. As such, use your best judgement and feel free to propose changes to even this document.\n\n\nCode of Conduct\n\n\nEveryone participating in this project is governed by the \nAragon Code of Conduct\n. By participating, you are expected to uphold this code as well.\n\n\nPlease report unacceptable behavior to a maintainer through either Twitter or by shooting us an e-mail at contact [at] aragon.one.\n\n\nI Just Have A Question\n\n\nPlease don't file an issue with questions. It's easier for you and for us if you go directly to \nour chat\n, since it will keep our repositories clean and you will get a faster response.\n\n\nHow Can I Contribute?\n\n\nReporting Bugs\n\n\nThis section guides you through submitting a bug report. This helps contributors and maintainers understand your report, reproduce the behavior, and in turn squash the bug.\n\n\nBefore submitting a bug report, please make sure that you've searched through the issues and that there isn't already an issue describing the issue you are having.\n\n\nHow Do I Submit A Good Bug Report?\n\n\nBugs are tracked as \nGitHub issues\n.\n\n\nExplain the problem and include additional details to help maintainers reproduce the problem:\n\n\n\n\nUse a clear and descriptive title\n for the issue to identify the problem.\n\n\nDescribe the exact steps which reproduce the problem\n in as many details as possible.\n\n\nProvide specific examples to demonstrate the steps\n. Include links to files or GitHub projects, or copy/pasteable snippets, which you use in those examples. If you're providing snippets in the issue, use \nMarkdown code blocks\n.\n\n\nDescribe the behavior you observed after following the steps\n and point out what exactly is the problem with that behavior.\n\n\nExplain which behavior you expected to see instead and why.\n\n\nPost a screenshot or a dump of the developer console\n\n\nIf the problem wasn't triggered by a specific action\n, describe what you were doing before the problem happened and share more information using the guidelines below.\n\n\n\n\nProvide more context by answering these questions:\n\n\n\n\nDid the problem start happening recently\n (e.g. after updating to a new version) or was this always a problem?\n\n\nIf the problem started happening recently, \ncan you reproduce the problem in an older version of Aragon.js?\n What's the most recent version in which the problem doesn't happen?\n\n\nCan you reliably reproduce the issue?\n If not, provide details about how often the problem happens and under which conditions it normally happens.\n\n\n\n\nInclude details about your configuration and environment:\n\n\n\n\nWhich version of Node are you using?\n You can get the exact version by running \nnode -v\n in your terminal.\n\n\nWhat's the name and version of the browser you're using\n?\n\n\n\n\nSuggesting Enhancements\n\n\nThis section guides you through submitting an enhancement suggestion, including completely new features and minor improvements to existing functionality. Following these guidelines helps maintainers and the community understand your suggestion.\n\n\nBefore creating enhancement suggestions, please check that there is not already an existing feature suggestion for your feature, as you might find out that you don't need to create one. When you are creating an enhancement suggestion, please include as many details as possible.\n\n\nHow Do I Submit A Good Enhancement Suggestion?\n\n\nEnhancement suggestions are tracked as \nGitHub issues\n. Create an issue on that repository and provide the following information:\n\n\n\n\nUse a clear and descriptive title\n for the issue to identify the suggestion.\n\n\nProvide a step-by-step description of the suggested enhancement\n in as many details as possible.\n\n\nProvide specific examples to demonstrate the steps\n. Include copy/pasteable snippets which you use in those examples, as \nMarkdown code blocks\n.\n\n\nDescribe the current behavior\n and \nexplain which behavior you expected to see instead\n and why.\n\n\nExplain why this enhancement would be useful\n to most users and isn't something that can or should be implemented as a community package.\n\n\n\n\nPull Requests\n\n\n\n\nDo not include issue numbers in the PR title\n\n\nFollow the \nJavaScript\n styleguide.\n\n\nEnd all files with a newline\n\n\nAvoid platform-dependent code\n\n\nPlace requires in the following order:\n\n\nBuilt in Node Modules (such as \npath\n)\n\n\nLocal Modules (using relative paths)\n\n\n\n\n\n\n\n\nYour First Code Contribution\n\n\nUnsure where to begin contributing? You can start by looking through these \ngood first issue\n issues:\n\n\n\n\nGood first issue\n - issues which should only require a few lines of code, and a test or two.\n\n\n\n\nStyleguides\n\n\nCommits\n\n\n\n\nUse the present tense (\"Add feature\" not \"Added feature\")\n\n\nUse the imperative mood (\"Move cursor to...\" not \"Moves cursor to...\")\n\n\nLimit the first line to 72 characters or less\n\n\nReference issues and pull requests liberally after the first line\n\n\n\n\n\n\nA good rule of thumb is that your commit message follows these rules if you can prefix it with \"This commit will ...\" and it makes sense.\n\n\nFor example, \"This commit will \nadd a feature\n\" vs \"This commit will \nadded a feature\n\".\n\n\n\n\nJavaScript\n\n\nAll JavaScript must adhere to \nJavaScript Standard Style\n.\n\n\n\n\nPrefer the object spread operator (\n{...anotherObj}\n) to \nObject.assign()\n\n\nInline \nexport\ns with expressions whenever possible\n\n\n\n\n  js\n  // Use this:\n  export default class ClassName {\n\n  }\n\n  // Instead of:\n  class ClassName {\n\n  }\n  export default ClassName", 
+            "title": "Contributing guidelines"
+        }, 
+        {
+            "location": "/submodules/aragon.js/CONTRIBUTING/#contributing-to-aragonjs", 
+            "text": ":tada: Thank you for being interested in contributing to an Aragon Project! :tada:  The following is a set of guidelines and helpful pointers for contributing to Aragon.js. The keyword here is  guidelines , not rules. As such, use your best judgement and feel free to propose changes to even this document.", 
+            "title": "Contributing to Aragon.js"
+        }, 
+        {
+            "location": "/submodules/aragon.js/CONTRIBUTING/#code-of-conduct", 
+            "text": "Everyone participating in this project is governed by the  Aragon Code of Conduct . By participating, you are expected to uphold this code as well.  Please report unacceptable behavior to a maintainer through either Twitter or by shooting us an e-mail at contact [at] aragon.one.", 
+            "title": "Code of Conduct"
+        }, 
+        {
+            "location": "/submodules/aragon.js/CONTRIBUTING/#i-just-have-a-question", 
+            "text": "Please don't file an issue with questions. It's easier for you and for us if you go directly to  our chat , since it will keep our repositories clean and you will get a faster response.", 
+            "title": "I Just Have A Question"
+        }, 
+        {
+            "location": "/submodules/aragon.js/CONTRIBUTING/#how-can-i-contribute", 
+            "text": "", 
+            "title": "How Can I Contribute?"
+        }, 
+        {
+            "location": "/submodules/aragon.js/CONTRIBUTING/#reporting-bugs", 
+            "text": "This section guides you through submitting a bug report. This helps contributors and maintainers understand your report, reproduce the behavior, and in turn squash the bug.  Before submitting a bug report, please make sure that you've searched through the issues and that there isn't already an issue describing the issue you are having.", 
+            "title": "Reporting Bugs"
+        }, 
+        {
+            "location": "/submodules/aragon.js/CONTRIBUTING/#how-do-i-submit-a-good-bug-report", 
+            "text": "Bugs are tracked as  GitHub issues .  Explain the problem and include additional details to help maintainers reproduce the problem:   Use a clear and descriptive title  for the issue to identify the problem.  Describe the exact steps which reproduce the problem  in as many details as possible.  Provide specific examples to demonstrate the steps . Include links to files or GitHub projects, or copy/pasteable snippets, which you use in those examples. If you're providing snippets in the issue, use  Markdown code blocks .  Describe the behavior you observed after following the steps  and point out what exactly is the problem with that behavior.  Explain which behavior you expected to see instead and why.  Post a screenshot or a dump of the developer console  If the problem wasn't triggered by a specific action , describe what you were doing before the problem happened and share more information using the guidelines below.   Provide more context by answering these questions:   Did the problem start happening recently  (e.g. after updating to a new version) or was this always a problem?  If the problem started happening recently,  can you reproduce the problem in an older version of Aragon.js?  What's the most recent version in which the problem doesn't happen?  Can you reliably reproduce the issue?  If not, provide details about how often the problem happens and under which conditions it normally happens.   Include details about your configuration and environment:   Which version of Node are you using?  You can get the exact version by running  node -v  in your terminal.  What's the name and version of the browser you're using ?", 
+            "title": "How Do I Submit A Good Bug Report?"
+        }, 
+        {
+            "location": "/submodules/aragon.js/CONTRIBUTING/#suggesting-enhancements", 
+            "text": "This section guides you through submitting an enhancement suggestion, including completely new features and minor improvements to existing functionality. Following these guidelines helps maintainers and the community understand your suggestion.  Before creating enhancement suggestions, please check that there is not already an existing feature suggestion for your feature, as you might find out that you don't need to create one. When you are creating an enhancement suggestion, please include as many details as possible.", 
+            "title": "Suggesting Enhancements"
+        }, 
+        {
+            "location": "/submodules/aragon.js/CONTRIBUTING/#how-do-i-submit-a-good-enhancement-suggestion", 
+            "text": "Enhancement suggestions are tracked as  GitHub issues . Create an issue on that repository and provide the following information:   Use a clear and descriptive title  for the issue to identify the suggestion.  Provide a step-by-step description of the suggested enhancement  in as many details as possible.  Provide specific examples to demonstrate the steps . Include copy/pasteable snippets which you use in those examples, as  Markdown code blocks .  Describe the current behavior  and  explain which behavior you expected to see instead  and why.  Explain why this enhancement would be useful  to most users and isn't something that can or should be implemented as a community package.", 
+            "title": "How Do I Submit A Good Enhancement Suggestion?"
+        }, 
+        {
+            "location": "/submodules/aragon.js/CONTRIBUTING/#pull-requests", 
+            "text": "Do not include issue numbers in the PR title  Follow the  JavaScript  styleguide.  End all files with a newline  Avoid platform-dependent code  Place requires in the following order:  Built in Node Modules (such as  path )  Local Modules (using relative paths)", 
+            "title": "Pull Requests"
+        }, 
+        {
+            "location": "/submodules/aragon.js/CONTRIBUTING/#your-first-code-contribution", 
+            "text": "Unsure where to begin contributing? You can start by looking through these  good first issue  issues:   Good first issue  - issues which should only require a few lines of code, and a test or two.", 
+            "title": "Your First Code Contribution"
+        }, 
+        {
+            "location": "/submodules/aragon.js/CONTRIBUTING/#styleguides", 
+            "text": "", 
+            "title": "Styleguides"
+        }, 
+        {
+            "location": "/submodules/aragon.js/CONTRIBUTING/#commits", 
+            "text": "Use the present tense (\"Add feature\" not \"Added feature\")  Use the imperative mood (\"Move cursor to...\" not \"Moves cursor to...\")  Limit the first line to 72 characters or less  Reference issues and pull requests liberally after the first line    A good rule of thumb is that your commit message follows these rules if you can prefix it with \"This commit will ...\" and it makes sense.  For example, \"This commit will  add a feature \" vs \"This commit will  added a feature \".", 
+            "title": "Commits"
+        }, 
+        {
+            "location": "/submodules/aragon.js/CONTRIBUTING/#javascript", 
+            "text": "All JavaScript must adhere to  JavaScript Standard Style .   Prefer the object spread operator ( {...anotherObj} ) to  Object.assign()  Inline  export s with expressions whenever possible     js\n  // Use this:\n  export default class ClassName {\n\n  }\n\n  // Instead of:\n  class ClassName {\n\n  }\n  export default ClassName", 
+            "title": "JavaScript"
+        }, 
+        {
+            "location": "/submodules/aragon-dev-cli/README/", 
+            "text": "Aragon CLI\n\n\n\n\n\n\n\n\n\n\nAragon CLI is a tool for creating, testing and publishing Aragon applications.\n\n\nInstallation\n\n\nInstall Aragon CLI by running\n\n\nnpm install -g @aragon/cli\n\n\n\n\nConfiguration\n\n\nIn order to publish apps you need to create a keyfile in your home directory with the following values:\n\n\n{\n  \nkey\n: \nsnip\n\n  \nrpc\n: \nwss://rinkeby.infura.io/ws\n,\n  \nens\n: \n0xfbae32d1cde628bc45f51efc8cc4fa1415447e\n\n}\n\n\n\n\n\n\nNote that the ENS registry address is an Aragon deployment\n\n\n\n\nPlease note that you need to replace \nsnip\n with private key with \nno password\n. This is a temporary measure and will be changed in the near future. \nPlease only use this on testnets for development\n.\n\n\nSave the file as \n.localkey.json\n in your home directory. You can now publish apps.\n\n\nTo use other networks, you can change the \nrpc\n and \nens\n keys.\n\n\nUsage\n\n\nApps\n\n\naragon init\n\n\n$ aragon init \nAPP_NAME\n [TEMPLATE]\n\n\n\n\nCreates a new directory pre-populated with files from a template. \nAPP_NAME\n must be a full ENS name, such as \nfoo.aragonpm.eth\n, where the top-level name is an APM registry.\n\n\nTEMPLATE\n defaults to \nreact\n, but it can be any valid name of a GitHub repository in the format of \nAUTHOR\n/\nREPOSITORY\n.\n\n\nFinally, templates with a single short name (such as \nreact\n or \nbare\n) are treated as official Aragon templates. These can always be found at \nhttps://github.com/aragon/aragon-\nTEMPLATE\n-boilerplate\n.\n\n\naragon run\n\n\n$ aragon run [--port PORT]\n\n\n\n\nRun the app in the current directory locally.\n\n\nThis command does the following:\n\n\n\n\nStarts a local chain\n\n\nStarts IPFS\n\n\nDeploys all of the base smart contracts needed for aragonOS to work (ENS, APM, DAO templates, ...)\n\n\nCreates a DAO\n\n\nRuns the build script of the app (if specified in \npackage.json\n)\n\n\nPublishes the app locally\n\n\nInstalls it on your freshly created local DAO\n\n\nStarts the wrapper and opens up your DAO in your browser\n\n\n\n\nThe local chain is started at \nPORT\n, which defaults to 8545.\n\n\nThe publish step of the app works exactly as \naragon publish\n, described below.\n\n\naragon publish\n\n\n$ aragon publish [CONTRACT_ADDRESS] [--files PATTERN] [--ignore PATTERN] [--skip-confirm] [--only-artifacts]\n\n\n\n\nPublishes a new (or the first!) version of your app.\n\n\nIf the APM repository does not exist at your app's full name, then we try to create a new repository for you at the APM registry from the app name. This usually happens the first time you publish, unless you create your repository manually beforehand.\n\n\nThe files specified by \n--files\n (defaults to \n.\n, i.e. all files in the current directory) will be published to IPFS for publishing. Specify \n--files\n multiple times to include multiple files or directories.\n\n\nAll files in your \n.gitignore\n (if any) will be ignored, along with all gitignore-like patterns specified by \n--ignore\n (which can be specified multiple times for multiple patterns).\n\n\nBefore publishing, your smart contract source code is scanned to generate an artifact containing additional metadata about it, such as the different methods of your contract, their Radspec descriptions (if any) and what roles they are guarded by. Specify \n--only-artifacts\n if you only want this artifact.\n\n\nIf \n--skip-confirm\n is specified the command will not wait for the transaction to receive confirmations.\n\n\naragon version\n\n\n$ aragon version \nBUMP\n\n\n\n\n\nBumps the version of your Aragon app, where a valid \nBUMP\n is either \nmajor\n, \nminor\n or \npatch\n.\n\n\nNote that you are only allowed to release a version with a new smart contract address if the bump specified is major.\n\n\naragon versions\n\n\n$ aragon versions\n\n\n\n\nView a list of published versions for the app in the current directory.\n\n\nDAOs\n\n\naragon grant\n\n\nNote: This command is deprecated and will be replaced with a new one in the near future\n\n\n$ aragon grant \nADDRESS\n [--skip-confirm]\n\n\n\n\nGrants permission for \nADDRESS\n to interact with the APM repository of the app in the current directory.\n\n\nIf \n--skip-confirm\n is specified the command will not wait for the transaction to receive confirmations.\n\n\nRecipes\n\n\nCreating and publishing an application\n\n\naragon init polls.aragonpm.test\ncd polls\naragon publish\n\n\n\n\nPublishing a new version\n\n\naragon version minor\naragon publish\n\n\n\n\nScaffolding from a custom template\n\n\naragon init polls.aragonpm.test username/gh-repo", 
+            "title": "Aragon CLI"
+        }, 
+        {
+            "location": "/submodules/aragon-dev-cli/README/#aragon-cli", 
+            "text": "Aragon CLI is a tool for creating, testing and publishing Aragon applications.", 
+            "title": "Aragon CLI"
+        }, 
+        {
+            "location": "/submodules/aragon-dev-cli/README/#installation", 
+            "text": "Install Aragon CLI by running  npm install -g @aragon/cli", 
+            "title": "Installation"
+        }, 
+        {
+            "location": "/submodules/aragon-dev-cli/README/#configuration", 
+            "text": "In order to publish apps you need to create a keyfile in your home directory with the following values:  {\n   key :  snip \n   rpc :  wss://rinkeby.infura.io/ws ,\n   ens :  0xfbae32d1cde628bc45f51efc8cc4fa1415447e \n}   Note that the ENS registry address is an Aragon deployment   Please note that you need to replace  snip  with private key with  no password . This is a temporary measure and will be changed in the near future.  Please only use this on testnets for development .  Save the file as  .localkey.json  in your home directory. You can now publish apps.  To use other networks, you can change the  rpc  and  ens  keys.", 
+            "title": "Configuration"
+        }, 
+        {
+            "location": "/submodules/aragon-dev-cli/README/#usage", 
+            "text": "", 
+            "title": "Usage"
+        }, 
+        {
+            "location": "/submodules/aragon-dev-cli/README/#apps", 
+            "text": "", 
+            "title": "Apps"
+        }, 
+        {
+            "location": "/submodules/aragon-dev-cli/README/#aragon-init", 
+            "text": "$ aragon init  APP_NAME  [TEMPLATE]  Creates a new directory pre-populated with files from a template.  APP_NAME  must be a full ENS name, such as  foo.aragonpm.eth , where the top-level name is an APM registry.  TEMPLATE  defaults to  react , but it can be any valid name of a GitHub repository in the format of  AUTHOR / REPOSITORY .  Finally, templates with a single short name (such as  react  or  bare ) are treated as official Aragon templates. These can always be found at  https://github.com/aragon/aragon- TEMPLATE -boilerplate .", 
+            "title": "aragon init"
+        }, 
+        {
+            "location": "/submodules/aragon-dev-cli/README/#aragon-run", 
+            "text": "$ aragon run [--port PORT]  Run the app in the current directory locally.  This command does the following:   Starts a local chain  Starts IPFS  Deploys all of the base smart contracts needed for aragonOS to work (ENS, APM, DAO templates, ...)  Creates a DAO  Runs the build script of the app (if specified in  package.json )  Publishes the app locally  Installs it on your freshly created local DAO  Starts the wrapper and opens up your DAO in your browser   The local chain is started at  PORT , which defaults to 8545.  The publish step of the app works exactly as  aragon publish , described below.", 
+            "title": "aragon run"
+        }, 
+        {
+            "location": "/submodules/aragon-dev-cli/README/#aragon-publish", 
+            "text": "$ aragon publish [CONTRACT_ADDRESS] [--files PATTERN] [--ignore PATTERN] [--skip-confirm] [--only-artifacts]  Publishes a new (or the first!) version of your app.  If the APM repository does not exist at your app's full name, then we try to create a new repository for you at the APM registry from the app name. This usually happens the first time you publish, unless you create your repository manually beforehand.  The files specified by  --files  (defaults to  . , i.e. all files in the current directory) will be published to IPFS for publishing. Specify  --files  multiple times to include multiple files or directories.  All files in your  .gitignore  (if any) will be ignored, along with all gitignore-like patterns specified by  --ignore  (which can be specified multiple times for multiple patterns).  Before publishing, your smart contract source code is scanned to generate an artifact containing additional metadata about it, such as the different methods of your contract, their Radspec descriptions (if any) and what roles they are guarded by. Specify  --only-artifacts  if you only want this artifact.  If  --skip-confirm  is specified the command will not wait for the transaction to receive confirmations.", 
+            "title": "aragon publish"
+        }, 
+        {
+            "location": "/submodules/aragon-dev-cli/README/#aragon-version", 
+            "text": "$ aragon version  BUMP   Bumps the version of your Aragon app, where a valid  BUMP  is either  major ,  minor  or  patch .  Note that you are only allowed to release a version with a new smart contract address if the bump specified is major.", 
+            "title": "aragon version"
+        }, 
+        {
+            "location": "/submodules/aragon-dev-cli/README/#aragon-versions", 
+            "text": "$ aragon versions  View a list of published versions for the app in the current directory.", 
+            "title": "aragon versions"
+        }, 
+        {
+            "location": "/submodules/aragon-dev-cli/README/#daos", 
+            "text": "", 
+            "title": "DAOs"
+        }, 
+        {
+            "location": "/submodules/aragon-dev-cli/README/#aragon-grant", 
+            "text": "Note: This command is deprecated and will be replaced with a new one in the near future  $ aragon grant  ADDRESS  [--skip-confirm]  Grants permission for  ADDRESS  to interact with the APM repository of the app in the current directory.  If  --skip-confirm  is specified the command will not wait for the transaction to receive confirmations.", 
+            "title": "aragon grant"
+        }, 
+        {
+            "location": "/submodules/aragon-dev-cli/README/#recipes", 
+            "text": "", 
+            "title": "Recipes"
+        }, 
+        {
+            "location": "/submodules/aragon-dev-cli/README/#creating-and-publishing-an-application", 
+            "text": "aragon init polls.aragonpm.test\ncd polls\naragon publish", 
+            "title": "Creating and publishing an application"
+        }, 
+        {
+            "location": "/submodules/aragon-dev-cli/README/#publishing-a-new-version", 
+            "text": "aragon version minor\naragon publish", 
+            "title": "Publishing a new version"
+        }, 
+        {
+            "location": "/submodules/aragon-dev-cli/README/#scaffolding-from-a-custom-template", 
+            "text": "aragon init polls.aragonpm.test username/gh-repo", 
+            "title": "Scaffolding from a custom template"
+        }, 
+        {
             "location": "/submodules/hack/README/", 
             "text": "Hacking on Aragon (WIP)\n\n\nThis guide is intended to help developers who aren't familiar with the Aragon stack to get hacking quickly. We will walk you through setting up your development environment from scratch and provide links to relevant documentation.\n\n\nCheckout our new \nBuild your first Aragon app guide\n\n\nSetting up a dev environment\n\n\nFirst you will need to install \naragon-dev-cli\n:\n\n\nnpm install -g @aragon/cli\n\n\n\n\nYou will also need Truffle 4.0.5:\n\n\nnpm i -g truffle@4.0.5\n\n\n\n\nOnce \naragon-dev-cli\n is installed, the easiest way to create your first Aragon app is by initializing the project with a template:\n\n\naragon-dev-cli init [your-app-name].open.aragonpm.eth [boilerplate: \nreact\n or \nbare\n, defaults to \nreact\n]\n\n\n\n\nThe values to be decided are:\n\n\n\n\n\n\nApp name\n: the app's name in the community \nopen.aragonpm.eth\n Aragon Package Manager registry on Rinkeby. That is our public registry where Repos can be created on a first come first serve basis. Please note that after publishing the package for the first time, you will own the repo name and subsequent attempts to register that package will fail.\n\n\n\n\n\n\nTemplate\n: the template to initialize the frontend part of your app. Right now you can choose between \nreact\n or \nbare\n.\n\n\n\n\n\n\nCoding your app smart contracts and the \narapp.json\n file\n\n\nNote\n: the following assumes you will want to build an Aragon app that can be integrated into the main Aragon dapp. If you'd like to just build on top of the smart contract permissioning and upgradability features of aragonOS, you can build your smart contracts and frontend as a completely independent dapp using whatever tools you like.\n\n\nThe stock \nAragon Apps\n are a good example of how to build aragonOS compatible apps.\n\n\nA few takeaways to get started quick:\n\n\n\n\nJust by subclassing from the \nAragonApp\n baseclass, your contract is supercharged into an Aragon App.\n\n\nAdd the \nauth\n modifier to any function that you wish to protect behind the ACL. The role modifier takes a \nbytes32\n role identifier. In order for \naragon-dev-cli\n to correctly auto-generate artifacts for your app, roles must be set like this (same constant name and hashed string):\n\n\n\n\nbytes32 constant public MY_FUNC_ROLE = keccak256(\nMY_FUNC_ROLE\n);\nfunction myFunc(...) auth(MY_FUNC_ROLE) external { ... }\n\n\n\n\n\n\n\n\nYou can modify the template and migrations of your app to accommodate it to your usecase, by default \nnpm run deploy:rpc\n will migrate your contract, deploy a local APM registry and deploy an instance using a template. For more template examples, you can check the templates directory in aragon-apps.\n\n\n\n\n\n\nIn the \narapp.json\n file, all basic app metadata resides. It serves as an intermediary file that \naragon-dev-cli\n combines with some values that it extracts from the source code directly such as roles and notice descriptions from functions. \naragon-dev-cli\n ends up producing an \nartifact.json\n file that is used by \naragon.js\n to correctly display apps.\n\n\n\n\n\n\nBuilding your app front-end\n\n\nApps are not only contracts, they're also a front-end. To run apps in a secure manner, they have been sandboxed and only allowed to communicate through another protocol (Aragon RPC) as opposed to using Web3 directly.\n\n\nThis is where aragon.js plays its part. We provide a simple JavaScript library that handles RPC calls to the main Aragon dapp (called the wrapper, because it \"wraps\" the apps).\n\n\nTo get started, run \nnpm i @aragon/client\n. This library provides helper methods for doing contract calls, transactions and event filtering.\n\n\nAragon.js is built using RxJS observables. To learn more about them, please refer to the RxJS documentation \nhere\n\n\nAn API reference for \n@aragon/client\n can be found \nhere\n.\n\n\nApplication state\n\n\nAragon.js is built around an event-sourced approach, so to build up your application state, we encourage you to listen for events and cache the application state.\n\n\nTransactions and permission escalation\n\n\nTransactions sent from apps to the wrapper are not executed directly - instead, they're what we call \nintents\n. Apps publish an intent to the wrapper, and the wrapper will traverse the ACL looking for possible paths whereby this intent can be fullfilled. To learn more about this, read about \npermission escalation\n \nhere\n.\n\n\nThere is a full guide on how to build a simple Aragon app \nhere\n.\n\n\nBackground jobs\n\n\nYour application can specify a file that will be run inside a WebWorker in \nmanifest.json\n under the \nscript\n key.\n\n\nAs a rule of thumb, it is a good idea to build up your application state and send notifications from your WebWorker. Your front-end should just listen for changes in the application state (\napp.state()\n) and render that.\n\n\nRunning locally\n\n\nThis command will deploy a DAO and everything you need, including installing your app on a local chain (that the command will start for you):\n\n\naragon run\n\n\n\n\nIn order to point the dapp to your local chain, you need to clone and follow the instructions in this pull request: https://github.com/aragon/aragon/pull/214\n\n\nTo open your DAO when you're running the dapp locally, go to \nhttp://localhost:3000/#/\nyour dao address\n.\n\n\nPlease note that this requires a local IPFS node to be running. Also, watch mode is not implemented yet, so when you make a change, you need to re-run the command.\n\n\nPublising to the Rinkeby APM\n\n\nIn order to publish you need to create a keyfile in your local directory with the following values:\n\n\n{\n  \nkey\n: \nsnip\n\n  \nrpc\n: \nwss://rinkeby.infura.io/ws\n,\n  \nens\n: \n0xfbae32d1cde628bc45f51efc8cc4fa1415447e\n\n}\n\n\n\n\nPlease note that you need to replace \nsnip\n with private key with \nno password\n and that this key \nis only for Rinkeby, so it should only have Rinkeby Ether and you should never use it outside of the hackathon\n.\n\n\nSave the file as \n.localkey.json\n in your home directory. You can now run the following command to publish your app:\n\n\naragon-dev-cli publish", 
             "title": "Overview"

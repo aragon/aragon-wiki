@@ -99,6 +99,18 @@
      <changefreq>daily</changefreq>
     </url>
         
+    <url>
+     <loc>https://wiki.aragon.one/submodules/aragon-dev-cli/README/</loc>
+     <lastmod>2018-05-11</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>https://wiki.aragon.one</loc>
+     <lastmod></lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
     
 
     
