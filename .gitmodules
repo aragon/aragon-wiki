@@ -7,3 +7,6 @@
 [submodule "docs/submodules/aragon.js"]
 	path = docs/submodules/aragon.js
 	url = git@github.com:aragon/aragon.js.git
+[submodule "docs/submodules/aragon-dev-cli"]
+	path = docs/submodules/aragon-dev-cli
+	url = https://github.com/aragon/aragon-dev-cli.git
