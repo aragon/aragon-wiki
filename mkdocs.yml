@@ -46,6 +46,7 @@ pages:
       - Community: 'documentation/multisigs/community.md'
     - Development Plan: 'documentation/Development_Plan.md'
     - Aragon Code of Conduct: 'documentation/Code_of_Conduct.md'
+    - Aragon Trademark Policy: 'documentation/Trademark_policy.md'
     - Presentations: 'documentation/presentations.md'
     - Audit reports:
       - Audit 01 by Adam Dossa: 'documentation/audits/audit01_report_dossa.md'
