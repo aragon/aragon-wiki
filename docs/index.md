@@ -243,12 +243,6 @@ YouTube - [https://www.youtube.com/c/AragonProject](https://www.youtube.com/c/Ar
 
 &nbsp;
 
-> <img src="images/team_members/Oliver_256.png" style="width:192px">
-
-> - **Web3 Engineer**: [Oliver Nordbjerg](https://twitter.com/ONordbjerg)
-
-&nbsp;
-
 > <img src="images/team_members/Pierre_256.png" style="width:192px">
 
 > - **UI & Interaction Developer**: [Pierre Bertet](https://twitter.com/bpierre)
