@@ -55,5 +55,3 @@
 ## 6. Policy Revision
 
 **6.1** Aragon reserves the right to revise this Trademark Policy without prior notice.
-
-</font>
