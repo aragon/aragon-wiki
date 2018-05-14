@@ -1,13 +1,8 @@
 # Aragon Trademark Policy
 
-<style>
-@import url('https://fonts.googleapis.com/css?family=Cutive+Mono');
-</style>
-<center style="font-family: 'Cutive Mono', monospace;">
 **Aragon**  
 **Trademark Policy**
 </center>
-<font style="font-family: 'Cutive Mono', monospace;">
 
 ## 1. Introduction
 
