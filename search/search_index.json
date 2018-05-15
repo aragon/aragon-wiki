@@ -1277,7 +1277,7 @@
         }, 
         {
             "location": "/projects/", 
-            "text": "Third-Party Projects\n\n\nUsing \naragonOS\n\n\n\n\nThese are projects that are currently already using the \naragonOS architecture\n or parts of it\n\n\n\n\n\n\nDecentraland\n\n\nUses \nProxy\n feature from aragonOS as a part of their project\n\n\n\n\n\n\n\n\nPowered by Aragon\n\n\n\n\nAragon Core and Aragon Network are NOT live on the Mainnet yet, \nno project can be Powered by Aragon at this time\n, this is just a list of projects that have publicly announced their interest in utilizing Aragon in the future!\n\n\nThis is list of existing projects that have publicly announced their plan \nto become\n \"\nPowered by Aragon\n\":\n\n\n\n\n\n\nDistrict0x\n\n\nRequest Network\n\n\nSpice VC\n\n\nSwarm\n\n\nAuctus", 
+            "text": "Third-Party Projects\n\n\nUsing \naragonOS\n\n\n\n\nThese are projects that are currently already using the \naragonOS architecture\n or parts of it\n\n\n\n\n\n\nDecentraland\n\n\nUses \nProxy\n feature from aragonOS as a part of their project\n\n\n\n\n\n\n\n\nPowered by Aragon\n\n\n\n\nAragon Core and Aragon Network are NOT live on the Mainnet yet, \nno project can be Powered by Aragon at this time\n, this is just a list of projects that have publicly announced their interest in utilizing Aragon in the future!\n\n\nThis is list of existing projects that have publicly announced their plan \nto become\n \"\nPowered by Aragon\n\":\n\n\n\n\n\n\n\n\nDistrict0x\n\n\n\n\n\n\nRequest Network\n\n\n\n\n\n\nSpice VC\n\n\n\n\n\n\nSwarm Fund\n\n\n\n\n\n\nAuctus\n\n\n\n\n\n\nDemocracy Earth\n\n\n\n\n\n\nAlthea\n\n\n\n\n\n\n\n\n\n\nThat Planning Tab", 
             "title": "Third-party Projects"
         }, 
         {
@@ -1292,7 +1292,7 @@
         }, 
         {
             "location": "/projects/#powered-by-aragon", 
-            "text": "Aragon Core and Aragon Network are NOT live on the Mainnet yet,  no project can be Powered by Aragon at this time , this is just a list of projects that have publicly announced their interest in utilizing Aragon in the future!  This is list of existing projects that have publicly announced their plan  to become  \" Powered by Aragon \":    District0x  Request Network  Spice VC  Swarm  Auctus", 
+            "text": "Aragon Core and Aragon Network are NOT live on the Mainnet yet,  no project can be Powered by Aragon at this time , this is just a list of projects that have publicly announced their interest in utilizing Aragon in the future!  This is list of existing projects that have publicly announced their plan  to become  \" Powered by Aragon \":     District0x    Request Network    Spice VC    Swarm Fund    Auctus    Democracy Earth    Althea      That Planning Tab", 
             "title": "Powered by Aragon"
         }, 
         {
