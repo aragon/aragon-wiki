@@ -12,7 +12,21 @@
 > This is list of existing projects that have publicly announced their plan **to become** "_Powered by Aragon_":
 
 - [District0x](https://district0x.io)
+
 - [Request Network](https://request.network)
-- [Spice VC](http://www.spicevc.com)
-- [Swarm](http://swarm.fund)
+
+- [Spice VC](https://www.spicevc.com)
+
+- [Swarm Fund](http://swarm.fund)
+
 - [Auctus](https://auctus.org/)
+
+- [Democracy Earth](https://democracy.earth)
+
+- [Althea](https://altheamesh.com/)
+
+![](../images/projects/althea.jpg)
+
+- [That Planning Tab](https://github.com/aragon/nest/pull/24)
+
+![](../images/projects/that_planning_tab.jpg)
