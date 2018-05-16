@@ -193,7 +193,7 @@ For more context, we've published two blog posts about why it makes sense to [de
 
 ### Aragon One
 
-<img src="design/logo/aragon_one/png/Logo_white_long_transparent.png" style="width:75%">
+<img src="design/logo/aragon_one/png/aragon-one-lineart-black-transparent.png" style="width:75%">
 
 > Aragon One is a for-profit company that encompasses the foundational team working on the Aragon project. The company is currently established in Switzerland, although we want it to function as a DAO as much as possible.
 

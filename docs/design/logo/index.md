@@ -42,15 +42,23 @@
 
 ### Imagetypes
 
-#### Horizontal
+#### Horizontal Gradient
+[Transparent background Light PNG](aragon_one/png/aragon-one-lineart-black-transparent.png) | [Dark PNG](aragon_one/png/Logo_stroke_black_long.png)
+
+<img width="256" src="aragon_one/png/aragon-one-lineart-black-transparent.png"> <img width="256" src="aragon_one/png/Logo_stroke_black_long.png">
+
+#### Horizontal Greyscale
 [Light PNG](aragon_one/png/Logo_black_long.png) | [Dark PNG](aragon_one/png/Logo_white_long.png)  
-[Transparent background White PNG](aragon_one/png/Logo_black_long_transparent.png) | [Transparent background Dark PNG](aragon_one/png/Logo_white_long_transparent.png)
+[Transparent background Light PNG](aragon_one/png/Logo_black_long_transparent.png) | [Transparent background Dark PNG](aragon_one/png/Logo_white_long_transparent.png)
 
 <img width="256" src="aragon_one/png/Logo_white_long.png"> <img width="256" src="aragon_one/png/Logo_black_long.png">
 
 #### Vertical
+[Gradient Light PNG](aragon_one/png/Logo_stroke_black_square.png) | [No Text Light PNG](aragon_one/png/Logo_stroke.png) |  
 [Light PNG](aragon_one/png/Logo_black_square.png) | [Dark PNG](aragon_one/png/Logo_white_square.png)  
 [Transparent background Light PNG](aragon_one/png/Logo_black_square_transparent.png) | [Transparent background Dark PNG](aragon_one/png/Logo_white_square_transparent.png)
+
+<img width="256" src="aragon_one/png/Logo_stroke_black_square.png"> <img width="256" src="aragon_one/png/Logo_stroke.png"> 
 
 <img width="256" src="aragon_one/png/Logo_white_square.png"> <img width="256" src="aragon_one/png/Logo_black_square.png">
 
