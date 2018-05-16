@@ -179,13 +179,29 @@ LinkedIn - [https://www.linkedin.com/company/aragonproject/](https://www.linkedi
 
 YouTube - [https://www.youtube.com/c/AragonProject](https://www.youtube.com/c/AragonProject)
 
-## Team
+## Teams
 
-**<h2>Founders</h2>**
+> _To encourage other teams to work on Aragon, we will be splitting off the Foundation to form a company of core developers. Everyone currently employed by the Foundation will become employees of a new company funded by the Foundation. That way, **we level the playing field for other teams to join the core development of the project**._
+
+With [Aragon Nest](https://github.com/aragon/nest) we are already supporting projects that are not necessarily sustainable by themselves yet, but are crucial to the Aragon and Ethereum ecosystems.
+
+**We will expand the scope of Nest to start funding alternative teams** that have a desire to work on the [**Aragon Core client**](https://aragon.one/core), [**aragonOS**](https://aragon.one/os) and on [**Aragon Apps**](https://wiki.aragon.one/dev/apps/).
+
+Since we released the first version of the [Aragon whitepaper](documentation/whitepaper.md), we knew that it was important to **split the non-profit entity** overseeing the project [**from the actual companies or teams working on its development**](https://blog.aragon.one/the-path-to-mainstream-decentralized-organizations-d95a89d3cac4).
+
+For more context, we've published two blog posts about why it makes sense to [decentralize Aragon's development](https://blog.aragon.one/decentralizing-aragons-development-5062fd6d135d), and [the steps forward for the non-profit entity](https://blog.aragon.one/decentralizing-aragons-development-ii-minimum-viable-foundation-8ec1f9a13ebc) along with [the Aragon Manifesto](https://blog.aragon.one/the-aragon-manifesto-4a21212eac03).
+
+### Aragon One
+
+<img src="design/logo/aragon_one/png/Logo_white_long_transparent.png" style="width:75%">
+
+> Aragon One is a for-profit company that encompasses the foundational team working on the Aragon project. The company is currently established in Switzerland, although we want it to function as a DAO as much as possible.
+
+> Funding for the company will come in a form of a grant given by the project's non-profit entity, in similar terms to the ones that the entity will provide to future teams that will be working on the project as well.
 
 <img src="images/team_members/Luis_256.png" style="width:192px">
 
-- **Project Lead**: [Luis Cuende](https://twitter.com/licuende)
+- **CEO / Chief Executive Officer**: [Luis Cuende](https://twitter.com/licuende)
 
 > Luis has been awarded as the best underage European programmer in 2011, is a [Forbes 30 Under 30](https://www.forbes.com/30-under-30-europe-2016/technology/#6662a3e4a4b3), a [MIT TR35](https://www.innovatorsunder35.com/innovator/luis-cuende) and was an Advisor to the VP of the European Commission.
 
@@ -193,14 +209,12 @@ YouTube - [https://www.youtube.com/c/AragonProject](https://www.youtube.com/c/Ar
 
 <img src="images/team_members/Jorge_256.png" style="width:192px">
 
-- **Tech Lead**: [Jorge Izquierdo](https://twitter.com/izqui9)
+- **CTO / Chief Technical Officer**: [Jorge Izquierdo](https://twitter.com/izqui9)
 
 > Curious hacker, creator of multiple apps for iOS and macOS. Reached App Store's #2. Always tinkering with new tech. Named as a [2017 class of Thiel Fellows](https://www.businesswire.com/news/home/20170616005607/en).
 
 > Already convinced about the decentralized future of the Internet, he has been building toy projects such as a [mesh network](https://github.com/izqui/net) or a small [blockchain implementation](https://github.com/izqui/blockchain) since 2014.
-
-**<h2>Operations and Communications</h2>**
-
+___
 ><img src="images/team_members/Maria_256.png" style="width:192px">
 
 > - **Strategy & Operations Lead**: [María Gómez](https://twitter.com/MyPaoG)
