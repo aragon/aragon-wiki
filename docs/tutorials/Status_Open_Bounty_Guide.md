@@ -76,7 +76,7 @@ In this example, the instructions for contributing are located in the README.md 
 
 You can either use the GitHub Web UI, a Desktop Git UI, or a Command Line Interface text editor to submit your Pull Request. If you have never used Git or GitHub before, there is a helpful “Git for beginners” guide [here](https://handbook.enspiral.com/guides/github_for_beginners.html) and a more in-depth guide [here](https://services.github.com/on-demand/).
 
-[](images/status_ob_guide/12_github5.png)
+![](images/status_ob_guide/12_github5.png)
 
 If your Pull Request is accepted and merged, then the Status Open Bounty app will pay out the advertised bounty to the address that you added to your profile in Step 4.
 
