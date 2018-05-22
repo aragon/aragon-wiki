@@ -148,8 +148,6 @@ Its main goals are:
 
     * Voting
 
-    * Groups
-
     * Fundraising
 
     * Finance
