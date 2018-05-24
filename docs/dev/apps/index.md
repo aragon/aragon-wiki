@@ -6,7 +6,6 @@ At the moment, there are six apps as part of the [**aragon-apps** repository](ht
 
 - [Voting](voting.md)
 - [Token Manager](token-manager.md)
-- [Group](group.md)
 - [Fundraising](fundraising.md)
 - [Vault](vault.md)
 - [Finance](finance.md)
