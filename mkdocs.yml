@@ -63,7 +63,6 @@ pages:
       - Overview: 'dev/apps/index.md'
       - Voting: 'dev/apps/voting.md'
       - Token Manager: 'dev/apps/token-manager.md'
-      - Group: 'dev/apps/group.md'
       - Fundraising: 'dev/apps/fundraising.md'
       - Vault: 'dev/apps/vault.md'
       - Finance: 'dev/apps/finance.md'
@@ -79,6 +78,7 @@ pages:
   - Tutorials:
     - Aragon Core User Guide: 'tutorials/Aragon_Core_User_Guide.md'
     - DAO Workshop For Aragon Core v0.5: 'tutorials/DAO_Workshop_Testnet_by_joselfgaray.md'
+    - How to claim an Aragon bounty using Status Open Bounty: 'tutorials/Status_Open_Bounty_Guide.md'
   - Design:
     - Overview: 'design/index.md'
     - Logo: 'design/logo/index.md'
