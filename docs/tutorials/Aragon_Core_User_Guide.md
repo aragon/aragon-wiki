@@ -26,8 +26,6 @@ A “Token project with Democracy” is a DAO where the vote cast by a token hol
 
 Aragon Core uses the Ethereum Name System (ENS) to assign names to DAOs.
 
-TODO: note character limits
-
 _Note: This name currently cannot be changed._
 
 ![](https://raw.githubusercontent.com/aragon/aragon-wiki/master/docs/images/user_guide/thedaoname.png)
@@ -45,8 +43,6 @@ _Note: These parameters cannot currently be changed._
 ![](https://raw.githubusercontent.com/aragon/aragon-wiki/master/docs/images/user_guide/democracysettings.png)
 
 #### Step 5. Choose token name and symbol then click “Next”
-
-TODO: note character limits
 
 _Note: The token name and symbol cannot currently be changed._
 
