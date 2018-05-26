@@ -7,7 +7,7 @@
 In addition to a working laptop or desktop computer with a decent internet connection, you will need the following to start using Aragon Core:
 
 - Up-to-date [Brave](https://brave.com/), [Chrome](https://www.google.com/chrome/)/[Chromium](https://www.chromium.org/getting-involved/download-chromium), [Firefox](https://www.mozilla.org/firefox/), or [Opera](https://www.opera.com/download) web browser installed.
-- Up-to-date [MetaMask](https://metamask.io/) browser extension installed. Use the "Old UI", not the “Beta UI”. If you are currently using the Beta UI, you can switch to the Old UI by toggling the UI switch on the Settings page of your MetaMask extension. To use Aragon on testnet, switch the network setting in MetaMask to Rinkeby Test Network.
+- Up-to-date [MetaMask](https://metamask.io/) browser extension installed. Use the "Old UI", not the “Beta UI”. If you are currently using the Beta UI, you can switch to the Old UI by toggling the UI switch on the Settings page of your MetaMask extension. Aragon Core currently only runs on testnet, so make sure the network in MetaMask is set to Rinkeby Test Network.
 - Test ether for the Ethereum Rinkeby test network. This test ether is used to pay for gas when creating and participating in DAOs on testnet. You can try the [Rinkeby faucet](https://faucet.rinkeby.io/) or post your Ethereum Rinkeby testnet address in the [#faucet channel on Aragon Chat](https://aragon.chat/faucet) to receive test ether for free. If you post your faucet request in the Aragon Chat, please wait patiently for an Aragon team member to see your message.
 
 ## Create a new Democracy DAO
