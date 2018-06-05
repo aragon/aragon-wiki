@@ -3545,7 +3545,7 @@
 <p><img alt="" src="https://raw.githubusercontent.com/aragon/aragon-wiki/master/docs/images/user_guide/daofinancereview.png" /></p>
 <h2 id="create-a-multisig-dao-wip">Create a Multisig DAO [WIP]</h2>
 <p>A “Token project with Multisig” is a DAO where the resources of the DAO are controlled by members of a multisig contract. For example, in a 2-of-2 multisig DAO, two signatures from two different specified accounts are required for a proposal to pass. </p>
-<p>If more tokens are minted for additional accounts, then the number of signatures required will increase as well. For example, starting with a 2-of-2 multisig and issuing one token to a new account will make the DAO a 3-of-3 multisig.</p>
+<p>If more tokens are minted for additional accounts, then the number of signatures required will increase as well to maintain the required Min. Quorum. For example, starting with a 2-of-3 multisig (66% Min. Quorum) and issuing one token to a new account will make the DAO a 3-of-4 multisig, issuing one more token to yet another new account will make the DAO a 4-of-5 multisig, and so on.</p>
 <p>Each token-holder in a multisig organization can only hold one token at a time. An error will be shown and the transaction will fail if you attempt to mint additional tokens for existing token-holders.</p>
                 
                   
