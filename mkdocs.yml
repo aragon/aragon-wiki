@@ -215,3 +215,5 @@ pages:
       - Hola: 'translations/spanish/index.md'
       - aragonOS: 'translations/spanish/aragonos.md'
       - Development Plan: 'translations/spanish/devplan.md'
+    - Português (Portuguese):
+      - Ola: 'translations/portuguese/index.md'
