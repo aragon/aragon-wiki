@@ -272,7 +272,7 @@ Follow these steps to create a new transfer from the Finance app:
 
 Go to the Settings app and press the “Request test tokens” button. Open MetaMask to sign and send the transaction. About a minute or so after your transaction is confirmed, test tokens will be sent to the Finance app address of your DAO. You can then create a new transfer to send these tokens to another address.
 
-[](https://github.com/aragon/aragon-wiki/blob/john-light-patch-1/docs/images/user_guide/daosettings1.png)
+![](https://github.com/aragon/aragon-wiki/blob/john-light-patch-1/docs/images/user_guide/daosettings1.png)
 
 #### Step 2. Click “New Transfer” to initiate a new transfer from the Finance app
 
