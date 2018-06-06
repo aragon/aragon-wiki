@@ -236,7 +236,7 @@ Now you need to sign two transactions in MetaMask to create your organization. O
 
 #### Step 7. Click “Get Started”
 
-Your new Democracy DAO is ready to go!
+Your new Multisig DAO is ready to go!
 
 ![](images/multisig_guide/6_multisigready.png)
 
