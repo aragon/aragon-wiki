@@ -324,7 +324,7 @@ _Note: Each token-holder in a multisig organization can only hold one token at a
 
 As mentioned before, in a Multisig DAO m-of-n tokenholders are needed to approve every action. Click “Sign Transaction” to sign the transaction that creates a new vote to assign the new token you want to mint.
 
-Note: Creating a vote will currently automatically make your account vote “Yes” on the proposal. You can change your vote by opening the vote in the Voting app, clicking the “No” button, and signing the transaction to change your vote to “No”.
+_Note: Creating a vote will currently automatically make your account vote “Yes” on the proposal. You can change your vote by opening the vote in the Voting app, clicking the “No” button, and signing the transaction to change your vote to “No”._
 
 ![](images/multisig_guide/24_multisignewsign.png)
 
