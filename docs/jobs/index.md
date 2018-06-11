@@ -39,8 +39,9 @@ We believe that **decentralized organizations can solve the world's worst proble
 ## Openings 🙋🏾🙋‍♂️
 
 * [Web3 Developer](openings/web3.md)
-* [EVM/Solidity Engineer](openings/solidity.md)
 * [Frontend Developer](openings/frontend.md)
+* [Web Developer](openings/web.md)
+* [EVM/Solidity Engineer](openings/solidity.md)
 * [Developer Relations](openings/dev_rel.md)
 * [Office Manager](openings/office-manager.md)
 * [Executive Assistant](openings/exec-assistant.md)
