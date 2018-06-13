@@ -1,6 +1,6 @@
 # Aragon Community multisig – Beef beef [0xbeefbeef03c7e5a1c29e0aa675f8e16aee0a5fad](https://etherscan.io/address/0xbeefbeef03c7e5a1c29e0aa675f8e16aee0a5fad)
 
-Required signatures: 3/5
+Required signatures: 4/6
 
 ## Signers
 
@@ -41,6 +41,11 @@ Founder of [AKASHA](https://akasha.world), cofounder of [Ethereum](https://ether
 [Address](https://etherscan.io/address/0xfdbeebf23663577804248126559addb6785a5f8f). [Proof](https://etherscan.io/tx/0xe16626c5995b5633dc07b3bcc123bc046385abbdfb5b47c3da0e5eece74f19e4). [Keybase](https://keybase.io/mihaialisie).
 
 
+#### Griff Green
+
+Founder of [Giveth](https://giveth.io) and cofounder of the [White Hat Group](https://mashable.com/2017/07/26/ethereum-stolen-white-hat-group-rescued.amp)
+
+[Address](https://etherscan.io/address/0x839395e20bbb182fa440d08f850e6c7a8f6f0780). [Proof](https://etherscan.io/tx/0x53e2d8f9f5ba85f1ea9966af7db621ce08cd4b3732b331ba97247c0a29c6e388). [Keybase](https://keybase.io/griffgreen).
 
 ### Proof notes
 
@@ -66,4 +71,4 @@ To verify them (this example uses a macOS system):
 
 - Deploying the Aragon Network is a huge responsibility, and that's why we consider it a community effort. AragonDev will provide the bytecode for such network, but without support from the community it won't be deployed.
 
-- In case of a deadlock, the multisig will be a 4/6 multisig assuming that the Aragon Foundation multisig cannot sign. Support from the community multisig this plus one of the founders can solve the deadlock.
+- In case of a deadlock, the Aragon multisig will be a 5/7 multisig assuming that the Aragon Foundation multisig cannot sign. Support from the community multisig can solve the deadlock within the Aragon Multisig.
