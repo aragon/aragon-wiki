@@ -204,7 +204,7 @@ A “Token project with Multisig” is a DAO where the resources of the DAO are 
 
 If more tokens are minted for additional accounts, then the number of signatures required may increase as well to maintain the required Min. Quorum. For example, starting with a 2-of-3 multisig (66% Min. Quorum) and issuing one token to a new account will make the DAO a 3-of-4 multisig, issuing one more token to yet another new account will make the DAO a 4-of-5 multisig, and so on.
 
-![](aragon/aragon-wiki/tree/master/images/multisig_guide/1_multisigorg.png)
+![](images/multisig_guide/1_multisigorg.png)
 
 #### Step 3. Claim a domain name then click “Next”
 
@@ -212,7 +212,7 @@ Aragon Core uses the Ethereum Name System (ENS) to assign names to DAOs.
 
 _Note: This name currently cannot be changed._
 
-![](aragon/aragon-wiki/tree/master/images/multisig_guide/2_multisigorg.png)
+![](images/multisig_guide/2_multisigorg.png)
 
 #### Step 4. Enter the accounts and the parameters of the multisig contract
 
@@ -220,13 +220,13 @@ First enter the addresses of the accounts that you want to be members of the mul
 
 _Note: These accounts cannot currently be removed from the multisig. Accounts can only be added by minting a token for them to join the multisig._
 
-![](aragon/aragon-wiki/tree/master/images/multisig_guide/3_multisigsigners.png)
+![](images/multisig_guide/3_multisigsigners.png)
 
 #### Step 5. Choose token name and symbol then click “Next”
 
 _Note: The token name and symbol cannot currently be changed._
 
-![](aragon/aragon-wiki/tree/master/images/multisig_guide/4_multisigtoken.png)
+![](images/multisig_guide/4_multisigtoken.png)
 
 #### Step 6. Sign organization creation transactions
 
@@ -238,7 +238,7 @@ Now you need to sign two transactions in MetaMask to create your organization. O
 
 Your new Multisig DAO is ready to go!
 
-![](aragon/aragon-wiki/tree/master/images/multisig_guide/6_multisigready.png)
+![](images/multisig_guide/6_multisigready.png)
 
 ## Explore the Multisig DAO
 
