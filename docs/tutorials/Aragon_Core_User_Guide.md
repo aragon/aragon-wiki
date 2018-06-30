@@ -252,7 +252,7 @@ The Home app welcomes you to your DAO and offers you several options for differe
 
 The voting app makes it easy for you to poll your fellow DAO tokenholders about their position on an infinite range of topics. Votes initiated by other Aragon apps also show up in the Voting app. For example, assigning tokens using the Token Manager or moving funds from the Finance app are each actions that require a vote by tokenholders in a Multisig DAO.
 
-![](aragon/aragon-wiki/master/docs/images/user_guide/daovoting.png)
+![](images/user_guide/daovoting.png)
 
 ### Settings app
 
