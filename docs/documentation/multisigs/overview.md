@@ -4,7 +4,9 @@ Having a good multisig structure is important for security, ANT holders' trust a
 
 The Aragon sale will feature two multisigs:
 
-- The Aragon Foundation Multisig (Aragon core developers). [Read more](foundation.md).
-- The Community Multisig. [Read more](community.md).
+- The Aragon Foundation Multisig
+    - [**Read more**](foundation.md).
+- The Community Multisig.
+    - [**Read more**](community.md).
 
 Both use Gnosis Multisig at commit [25fba5](https://github.com/ConsenSys/gnosis-contracts/blob/25fba563d95bbc8361c7de75801c38ce368cab85/contracts/solidity/Wallets/MultiSigWallet.sol) which was independently audited. Aragon multisigs were compiled using Solidity v0.4.8 with optimization disabled.
