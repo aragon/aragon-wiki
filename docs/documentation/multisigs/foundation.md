@@ -18,15 +18,10 @@ Required signatures: 2/3
 [Address](https://etherscan.io/address/0xbeefbeef03c7e5a1c29e0aa675f8e16aee0a5fad)  
 [**Read more**](community.md)
 
-
-
-
 ## Responsibilities
 
 - The Aragon Foundation multisig will be the address responsible to control the whole token sale process.
 - It will hold the Aragon Foundation ether funds and ANT tokens. It will make the token allocations for founders and early contributors.
-
-
 
 ## Rationale
 
