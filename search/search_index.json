@@ -772,17 +772,17 @@
         }, 
         {
             "location": "/documentation/multisigs/overview/", 
-            "text": "Aragon Multisig structure\n\n\nHaving a good multisig structure is important for security, ANT holders' trust and ensuring the project can and will do everything as planned.\n\n\nThe Aragon sale will feature two multisigs:\n\n\n\n\nThe Aragon Foundation Multisig (Aragon core developers). \nRead more\n.\n\n\nThe Community Multisig. \nRead more\n.\n\n\n\n\nBoth use Gnosis Multisig at commit \n25fba5\n which was independently audited. Aragon multisigs were compiled using Solidity v0.4.8 with optimization disabled.", 
+            "text": "Aragon Multisig structure\n\n\nHaving a good multisig structure is important for security, ANT holders' trust and ensuring the project can and will do everything as planned.\n\n\nThe Aragon sale will feature two multisigs:\n\n\n\n\nThe Aragon Foundation Multisig\n\n\nRead more\n.\n\n\n\n\n\n\nThe Community Multisig.\n\n\nRead more\n.\n\n\n\n\n\n\n\n\nBoth use Gnosis Multisig at commit \n25fba5\n which was independently audited. Aragon multisigs were compiled using Solidity v0.4.8 with optimization disabled.", 
             "title": "Overview"
         }, 
         {
             "location": "/documentation/multisigs/overview/#aragon-multisig-structure", 
-            "text": "Having a good multisig structure is important for security, ANT holders' trust and ensuring the project can and will do everything as planned.  The Aragon sale will feature two multisigs:   The Aragon Foundation Multisig (Aragon core developers).  Read more .  The Community Multisig.  Read more .   Both use Gnosis Multisig at commit  25fba5  which was independently audited. Aragon multisigs were compiled using Solidity v0.4.8 with optimization disabled.", 
+            "text": "Having a good multisig structure is important for security, ANT holders' trust and ensuring the project can and will do everything as planned.  The Aragon sale will feature two multisigs:   The Aragon Foundation Multisig  Read more .    The Community Multisig.  Read more .     Both use Gnosis Multisig at commit  25fba5  which was independently audited. Aragon multisigs were compiled using Solidity v0.4.8 with optimization disabled.", 
             "title": "Aragon Multisig structure"
         }, 
         {
             "location": "/documentation/multisigs/foundation/", 
-            "text": "Aragon Foundation Multisig \u2013 Caf\u00e9 Latte \n0xcafe1a77e84698c83ca8931f54a755176ef75f2c\n\n\nRequired signatures: 2/3\n\n\nSigners\n\n\n\n\nLuis Cuende, Aragon Project Lead. \nAddress\n. \nProof\n\n\nJorge Izquierdo, Aragon Tech Lead. \nAddress\n. \nProof\n.\n\n\nCommunity Multisig \u2013 \nAddress\n. \nRead more\n.\n\n\n\n\nResponsibilities\n\n\n\n\nThe Aragon Foundation multisig will be the address responsible to control the whole token sale process.\n\n\nIt will hold the Aragon Foundation ether funds and ANT tokens. It will make the token allocations for founders and early contributors.\n\n\n\n\nRationale\n\n\n\n\n\n\nThe decision to introduce the Community Multisig is that in case of a disagreement between Jorge or Luis, no one can extort the other part into locking the multisig forever. With support from the Community Multisig, whoever has the project and community best interests at heart and can convince the community, will be able to kick the other founder out of the multisig, and the project will continue its course.\n\n\n\n\n\n\nAlso, if Luis or Jorge were to lose their access to their key, the community multisig could be used to restore access to another key.", 
+            "text": "Aragon Foundation Multisig \u2013 Caf\u00e9 Latte \n0xcafe1a77e84698c83ca8931f54a755176ef75f2c\n\n\nRequired signatures: 2/3\n\n\nSigners\n\n\nLuis Cuende, Aragon One CEO\n\n\nAddress\n\n\nProof\n\n\nJorge Izquierdo, Aragon One CTO\n\n\nAddress\n\n\nProof\n\n\nCommunity Multisig\n\n\nAddress\n\n\nRead more\n\n\nResponsibilities\n\n\n\n\nThe Aragon Foundation multisig will be the address responsible to control the whole token sale process.\n\n\nIt will hold the Aragon Foundation ether funds and ANT tokens. It will make the token allocations for founders and early contributors.\n\n\n\n\nRationale\n\n\n\n\n\n\nThe decision to introduce the Community Multisig is that in case of a disagreement between Jorge or Luis, no one can extort the other part into locking the multisig forever. With support from the Community Multisig, whoever has the project and community best interests at heart and can convince the community, will be able to kick the other founder out of the multisig, and the project will continue its course.\n\n\n\n\n\n\nAlso, if Luis or Jorge were to lose their access to their key, the community multisig could be used to restore access to another key.", 
             "title": "Foundation"
         }, 
         {
@@ -792,8 +792,23 @@
         }, 
         {
             "location": "/documentation/multisigs/foundation/#signers", 
-            "text": "Luis Cuende, Aragon Project Lead.  Address .  Proof  Jorge Izquierdo, Aragon Tech Lead.  Address .  Proof .  Community Multisig \u2013  Address .  Read more .", 
+            "text": "", 
             "title": "Signers"
+        }, 
+        {
+            "location": "/documentation/multisigs/foundation/#luis-cuende-aragon-one-ceo", 
+            "text": "Address  Proof", 
+            "title": "Luis Cuende, Aragon One CEO"
+        }, 
+        {
+            "location": "/documentation/multisigs/foundation/#jorge-izquierdo-aragon-one-cto", 
+            "text": "Address  Proof", 
+            "title": "Jorge Izquierdo, Aragon One CTO"
+        }, 
+        {
+            "location": "/documentation/multisigs/foundation/#community-multisig", 
+            "text": "Address  Read more", 
+            "title": "Community Multisig"
         }, 
         {
             "location": "/documentation/multisigs/foundation/#responsibilities", 
@@ -807,7 +822,7 @@
         }, 
         {
             "location": "/documentation/multisigs/community/", 
-            "text": "Aragon Community multisig \u2013 Beef beef \n0xbeefbeef03c7e5a1c29e0aa675f8e16aee0a5fad\n\n\nRequired signatures: 5/7\n\n\nSigners\n\n\nAragon Foundation Multisig\n\n\nAddress\n. \nRead more\n.\n\n\nJoe Urgo\n\n\nCEO \nDistrict0x\n \n \nDapp daily\n author.\n\n\nAddress\n. \nProof\n. \nKeybase\n.\n\n\nKenny Rowe\n\n\nCOO of Dai Foundation. Governance at \nMakerDAO\n.\n\n\nAddress\n. \nProof\n. \nKeybase\n.\n\n\nJake Brukhman\n\n\nCofounder of \nCoinFund\n.\n\n\nAddress\n. \nProof\n. \nKeybase\n.\n\n\nMihai Alisie\n\n\nFounder of \nAKASHA\n, cofounder of \nEthereum\n and \nBitcoin Magazine\n\n\nAddress\n. \nProof\n. \nKeybase\n.\n\n\nGriff Green\n\n\nFounder of \nGiveth\n and cofounder of the \nWhite Hat Group\n\n\nAddress\n. \nProof\n. \nKeybase\n.\n\n\nPlaceholder\n\n\nPlaceholder\n is a venture capital partnership founded by \nJoel Monegro\n and \nChris Burniske\n that invests in decentralized information networks\n\n\nAddress\n. \nProof\n. \nKeybase\n.\n\n\nProof notes\n\n\nThe proofs are a hex-encoded PGP signature that contains an English string representing his agreement with being part of the multisig, as well as his ownership of the address he will use for it.\n\n\nTo verify them (this example uses a macOS system):\n\n\n\n\nObtain the data attached to the Ethereum transaction from the proof. Convert it to ASCII.\n\n\nIf you have Keybase installed, just run \nkeybase pgp verify -m \"{proof_message_here}\"\n\n\nIf you do not have Keybase installed, you can go to the multisig participant's Keybase profile, obtain his PGP key, and verify using GPG/PGP\n\n\n\n\nResponsibilities\n\n\n\n\nThe community multisig will serve ANT holders and the broader crypto community to ensure Aragon's stated mission is carried.\n\n\nThe community multisig will be responsible for deploying the Aragon Network code (provided by AragonDev, Aragon core developers group) once it is considered secure to do it and it matches the original expectations of it.\n\n\nSolving hypothetic deadlock problems in the Aragon Foundation multisig to ensure resources won't get locked and the project will continue its course.\n\n\n\n\nRationale\n\n\n\n\n\n\nDeploying the Aragon Network is a huge responsibility, and that's why we consider it a community effort. AragonDev will provide the bytecode for such network, but without support from the community it won't be deployed.\n\n\n\n\n\n\nIn case of a deadlock, the Aragon multisig will be a 5/7 multisig assuming that the Aragon Foundation multisig cannot sign. Support from the community multisig can solve the deadlock within the Aragon Multisig.", 
+            "text": "Aragon Community multisig \u2013 Beef beef \n0xbeefbeef03c7e5a1c29e0aa675f8e16aee0a5fad\n\n\nRequired signatures: 5/7\n\n\nSigners\n\n\nAragon Foundation Multisig\n\n\nAddress\n\n\nRead more\n\n\nJoe Urgo\n\n\n\n\nCEO \nDistrict0x\n \n \nDapp daily\n author.\n\n\n\n\nAddress\n\n\nProof\n\n\nKeybase\n\n\nKenny Rowe\n\n\n\n\nCOO of \nRChain Cooperative\n. Formerly COO at \nMakerDAO\n.\n\n\n\n\nAddress\n\n\nProof\n\n\nKeybase\n\n\nJake Brukhman\n\n\n\n\nCofounder of \nCoinFund\n.\n\n\n\n\nAddress\n\n\nProof\n\n\nKeybase\n\n\nMihai Alisie\n\n\n\n\nFounder of \nAKASHA\n, cofounder of \nEthereum\n and \nBitcoin Magazine\n\n\n\n\nAddress\n\n\nProof\n\n\nKeybase\n\n\nGriff Green\n\n\n\n\nFounder of \nGiveth\n and cofounder of the \nWhite Hat Group\n\n\n\n\nAddress\n\n\nProof\n\n\nKeybase\n\n\nPlaceholder\n\n\n\n\nPlaceholder\n is a venture capital partnership founded by \nJoel Monegro\n and \nChris Burniske\n that invests in decentralized information networks\n\n\n\n\nAddress\n\n\nProof\n\n\nKeybase\n\n\nProof notes\n\n\nThe proofs are a hex-encoded PGP signature that contains an English string representing his agreement with being part of the multisig, as well as his ownership of the address he will use for it.\n\n\nTo verify them (this example uses a macOS system):\n\n\n\n\nObtain the data attached to the Ethereum transaction from the proof. Convert it to ASCII.\n\n\nIf you have Keybase installed, just run \nkeybase pgp verify -m \"{proof_message_here}\"\n\n\nIf you do not have Keybase installed, you can go to the multisig participant's Keybase profile, obtain his PGP key, and verify using GPG/PGP\n\n\n\n\nResponsibilities\n\n\n\n\nThe Community multisig will serve ANT holders and the broader crypto community to ensure Aragon's stated mission is carried out.\n\n\nThe Community multisig will be responsible for deploying the Aragon Network code (provided by Aragon One or dev teams funded by the Aragon Foundation) once it is considered secure to do it and it matches the original expectations of it.\n\n\nThe Community multisig has the power to decide the ANT control power, and the power will eventually be set to the Aragon Network.\n\n\nIf needed, the Community multisig can also perform a token migration.\n\n\n\n\n\n\nSolving hypothetic deadlock problems in the Aragon Foundation multisig to ensure resources won't get locked and the project will continue its course.\n\n\n\n\nRationale\n\n\n\n\n\n\nDeploying the Aragon Network is a huge responsibility, and that's why we consider it a community effort. Aragon One or dev teams funded by the Aragon Foundation will provide the bytecode for such network, but without support from the community it won't be deployed.\n\n\n\n\n\n\nThe community multisig becomes a \n5/6\n multisig if the Foundation cannot sign. One of the key holders in the Foundation multisig + the Community multisig can solve any deadlock by replacing the other key in the Foundation multisig.", 
             "title": "Community"
         }, 
         {
@@ -822,37 +837,37 @@
         }, 
         {
             "location": "/documentation/multisigs/community/#aragon-foundation-multisig", 
-            "text": "Address .  Read more .", 
+            "text": "Address  Read more", 
             "title": "Aragon Foundation Multisig"
         }, 
         {
             "location": "/documentation/multisigs/community/#joe-urgo", 
-            "text": "CEO  District0x     Dapp daily  author.  Address .  Proof .  Keybase .", 
+            "text": "CEO  District0x     Dapp daily  author.   Address  Proof  Keybase", 
             "title": "Joe Urgo"
         }, 
         {
             "location": "/documentation/multisigs/community/#kenny-rowe", 
-            "text": "COO of Dai Foundation. Governance at  MakerDAO .  Address .  Proof .  Keybase .", 
+            "text": "COO of  RChain Cooperative . Formerly COO at  MakerDAO .   Address  Proof  Keybase", 
             "title": "Kenny Rowe"
         }, 
         {
             "location": "/documentation/multisigs/community/#jake-brukhman", 
-            "text": "Cofounder of  CoinFund .  Address .  Proof .  Keybase .", 
+            "text": "Cofounder of  CoinFund .   Address  Proof  Keybase", 
             "title": "Jake Brukhman"
         }, 
         {
             "location": "/documentation/multisigs/community/#mihai-alisie", 
-            "text": "Founder of  AKASHA , cofounder of  Ethereum  and  Bitcoin Magazine  Address .  Proof .  Keybase .", 
+            "text": "Founder of  AKASHA , cofounder of  Ethereum  and  Bitcoin Magazine   Address  Proof  Keybase", 
             "title": "Mihai Alisie"
         }, 
         {
             "location": "/documentation/multisigs/community/#griff-green", 
-            "text": "Founder of  Giveth  and cofounder of the  White Hat Group  Address .  Proof .  Keybase .", 
+            "text": "Founder of  Giveth  and cofounder of the  White Hat Group   Address  Proof  Keybase", 
             "title": "Griff Green"
         }, 
         {
             "location": "/documentation/multisigs/community/#placeholder", 
-            "text": "Placeholder  is a venture capital partnership founded by  Joel Monegro  and  Chris Burniske  that invests in decentralized information networks  Address .  Proof .  Keybase .", 
+            "text": "Placeholder  is a venture capital partnership founded by  Joel Monegro  and  Chris Burniske  that invests in decentralized information networks   Address  Proof  Keybase", 
             "title": "Placeholder"
         }, 
         {
@@ -862,12 +877,12 @@
         }, 
         {
             "location": "/documentation/multisigs/community/#responsibilities", 
-            "text": "The community multisig will serve ANT holders and the broader crypto community to ensure Aragon's stated mission is carried.  The community multisig will be responsible for deploying the Aragon Network code (provided by AragonDev, Aragon core developers group) once it is considered secure to do it and it matches the original expectations of it.  Solving hypothetic deadlock problems in the Aragon Foundation multisig to ensure resources won't get locked and the project will continue its course.", 
+            "text": "The Community multisig will serve ANT holders and the broader crypto community to ensure Aragon's stated mission is carried out.  The Community multisig will be responsible for deploying the Aragon Network code (provided by Aragon One or dev teams funded by the Aragon Foundation) once it is considered secure to do it and it matches the original expectations of it.  The Community multisig has the power to decide the ANT control power, and the power will eventually be set to the Aragon Network.  If needed, the Community multisig can also perform a token migration.    Solving hypothetic deadlock problems in the Aragon Foundation multisig to ensure resources won't get locked and the project will continue its course.", 
             "title": "Responsibilities"
         }, 
         {
             "location": "/documentation/multisigs/community/#rationale", 
-            "text": "Deploying the Aragon Network is a huge responsibility, and that's why we consider it a community effort. AragonDev will provide the bytecode for such network, but without support from the community it won't be deployed.    In case of a deadlock, the Aragon multisig will be a 5/7 multisig assuming that the Aragon Foundation multisig cannot sign. Support from the community multisig can solve the deadlock within the Aragon Multisig.", 
+            "text": "Deploying the Aragon Network is a huge responsibility, and that's why we consider it a community effort. Aragon One or dev teams funded by the Aragon Foundation will provide the bytecode for such network, but without support from the community it won't be deployed.    The community multisig becomes a  5/6  multisig if the Foundation cannot sign. One of the key holders in the Foundation multisig + the Community multisig can solve any deadlock by replacing the other key in the Foundation multisig.", 
             "title": "Rationale"
         }, 
         {
