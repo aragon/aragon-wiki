@@ -211,8 +211,3 @@ pages:
       - Meetings:
         - Aragon HQ: 'archive/videos/hq.md'
         - Dev: 'archive/videos/dev.md'
-  - Translations:
-    - Español (Spanish):
-      - Hola: 'translations/spanish/index.md'
-      - aragonOS: 'translations/spanish/aragonos.md'
-      - Development Plan: 'translations/spanish/devplan.md'
