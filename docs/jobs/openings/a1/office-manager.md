@@ -32,3 +32,5 @@ We are looking for an Office Manager to help us maintain our head quarters, and 
 - Location: Zug, Switzerland.
 - Opportunity to dive into various ecosystem and business areas (blockchain, human resources, personal development, governance research, security research, programming, community, hackathons, etc.).
 - Opportunity to go to relevant crypto-ecosystem events.
+
+### If you haven't, please [read more about our culture, work conditions, etc.](../../index.md)

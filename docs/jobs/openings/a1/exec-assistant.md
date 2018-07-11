@@ -32,4 +32,4 @@ We’re looking for an Executive Assistant in Zug, Switzerland to support the Ar
 
 We’ll try our best to get back to you within one week!
 
-### If you haven't, please [read more about our culture, work conditions, etc.](../index.md)
+### If you haven't, please [read more about our culture, work conditions, etc.](../../index.md)

@@ -22,4 +22,4 @@ We are looking for an Ethereum wizard to work with us on [Aragon Core](https://g
 
 Write the contract component of a new Aragon App that either improves upon one of our current [apps](https://github.com/aragon/aragon-apps) or is an entirely new use case that you think will wow us. The final contract should be deployable to the EVM (ignoring gas costs) and published to GitHub (public or private). Send us the link to the repo plus any information you consider important to *hiring@aragon.one*, with the subject `Solidity opening application`.
 
-### If you haven't, please [read more about our culture, work conditions, etc.](../index.md)
+### If you haven't, please [read more about our culture, work conditions, etc.](../../index.md)

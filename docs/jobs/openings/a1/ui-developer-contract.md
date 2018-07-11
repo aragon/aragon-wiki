@@ -29,4 +29,4 @@ Consider applying if you have the ability to ship high quality UI code that is m
 - Please send along your GitHub profile. Since we are open source only, we require applicants for developer positions to have a very active and healthy GitHub profile.
 - Please send some projects you are proud of with a description of your role working on them.
 
-### If you haven't, please [read more about our culture, work conditions, etc.](../index.md)
+### If you haven't, please [read more about our culture, work conditions, etc.](../../index.md)
