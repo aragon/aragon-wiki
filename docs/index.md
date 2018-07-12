@@ -56,10 +56,6 @@ You can use the menu to the left to navigate the wiki. Here is a brief summary o
 
     - Old, deprecated documents and files that are kept for archiving purposes only
 
-- **<u>Translations</u>**
-
-    - Translations of documents into non-English languages
-
 ___
 
 ## What is Aragon?
