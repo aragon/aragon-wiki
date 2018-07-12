@@ -1,3 +1,5 @@
+# Web Developer opening at Aragon One
+
 Aragon is an open source, decentralized project [fighting for the freedom](https://www.youtube.com/watch?v=AqjIWmiAidw) to organize. We believe that decentralized organizations can solve the world's worst problems.
 
 We're looking for a Web Developer to work with us creating and maintaining stunning websites and landing pages for all of Aragon. Our Web Developer must not only be a frontend wizard but also care about detail and have a taste for good design. Our ideal candidate is not only a respected engineer but also a decentralization advocate.

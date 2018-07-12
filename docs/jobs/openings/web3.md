@@ -1,3 +1,5 @@
+# Web3 Developer opening at Aragon One
+
 Aragon is an open source, decentralized project fighting for the freedom to organize. We believe that decentralized organizations can solve the world’s worst problems.
 
 We’re looking for a Web3 Developer to help us bridge smart contracts to a frontend. Internally, we call this position "Glue". Our Web3 Developer is ideally not only a Javascript expert but also a decentralization evangelist—someone who enjoys researching and testing new Web3 technologies.
@@ -25,7 +27,7 @@ We’re looking for a Web3 Developer to help us bridge smart contracts to a fron
 ### How to apply
 
 - Write an email with the following attachments plus any information you consider important to *hiring@aragon.one*, with the subject `Web3 Dev opening application`.
-- Please send along your GitHub profile. 
+- Please send along your GitHub profile.
 - Bonus: Why did Aragon catch your attention? Which challenges within the crypto space are you more interested in?
 
 ### If you haven't, please [read more about our culture, work conditions, etc.](../index.md)

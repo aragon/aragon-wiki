@@ -1,5 +1,6 @@
-We are looking for an Office Manager to help us maintain our head quarters, and supervise and organize office services. The ideal candidate must not only be someone highly efficient, fast-thinker and problem-solver but also eager to learn and adapt to fast-moving environments.
+# Office Manager opening at Aragon One
 
+We are looking for an Office Manager to help us maintain our head quarters, and supervise and organize office services. The ideal candidate must not only be someone highly efficient, fast-thinker and problem-solver but also eager to learn and adapt to fast-moving environments.
 
 ### Responsibilities
 

@@ -1,3 +1,5 @@
+# Developer Relations opening at Aragon One
+
 Aragon is an open source, decentralized project fighting for the freedom to organize. We believe that decentralized organizations can solve the world's worst problems.
 
 We're looking for a Developer Relations to help third party developers create apps on top of the [Aragon dapp](https://github.com/aragon/aragon) and [aragonOS](http://wiki.aragon.one/documentation/aragonOS/). Our Dev Rels must be someone passionate in helping others understand technical subjects through technical writing, networking and educating people. That means that our ideal Dev Rels is not only a legit developer but also an Aragon Technical Evangelist.
