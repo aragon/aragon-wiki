@@ -28,4 +28,4 @@ We’re looking for a Web3 Developer to help us bridge smart contracts to a fron
 - Please send along your GitHub profile. 
 - Bonus: Why did Aragon catch your attention? Which challenges within the crypto space are you more interested in?
 
-### If you haven't, please [read more about our culture, work conditions, etc.](../../index.md)
+### If you haven't, please [read more about our culture, work conditions, etc.](../index.md)

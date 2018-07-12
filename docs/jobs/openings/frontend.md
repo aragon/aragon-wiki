@@ -58,4 +58,4 @@ Build a small app to explore the latest blocks on Ethereum. The goal of the app 
 - Perceived performance
 - Accessibility
 
-### If you haven't, please [read more about our culture, work conditions, etc.](../../index.md)
+### If you haven't, please [read more about our culture, work conditions, etc.](../index.md)

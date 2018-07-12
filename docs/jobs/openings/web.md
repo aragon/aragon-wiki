@@ -57,4 +57,4 @@ Build a landing page for one of the components of the Aragon project. You can ch
 - Perceived performance
 - Accessibility
 
-### If you haven't, please [read more about our culture, work conditions, etc.](../../index.md)
+### If you haven't, please [read more about our culture, work conditions, etc.](../index.md)

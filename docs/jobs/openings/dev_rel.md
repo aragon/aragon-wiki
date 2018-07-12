@@ -33,4 +33,4 @@ We're looking for a Developer Relations to help third party developers create ap
 - Please send along your GitHub, LinkedIn/CV, Twitter/Reddit profiles, and references we can get in touch with.
 - Bonus: Why did Aragon caught your attention? Which challenge within the crypto space you find more interesting?
 
-### If you haven't, please [read more about our culture, work conditions, etc.](../../index.md)
+### If you haven't, please [read more about our culture, work conditions, etc.](../index.md)
