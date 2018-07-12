@@ -150,14 +150,15 @@ pages:
   - Jobs:
     - Overview: 'jobs/index.md'
     - Openings:
-      - Web3 Developer: 'jobs/openings/web3.md'
-      - Frontend Developer: 'jobs/openings/frontend.md'
-      - Web Developer: 'jobs/openings/web.md'
-      - EVM/Solidity Engineer: 'jobs/openings/solidity.md'
-      - Developer Relations: 'jobs/openings/dev_rel.md'
-      - Office Manager: 'jobs/openings/office-manager.md'
-      - Executive Assistant: 'jobs/openings/exec-assistant.md'
-      - UI Developer - Contract Position: 'jobs/openings/ui-developer-contract.md'
+      - Aragon One:
+        - Web3 Developer: 'jobs/openings/web3.md'
+        - Frontend Developer: 'jobs/openings/frontend.md'
+        - Web Developer: 'jobs/openings/web.md'
+        - EVM/Solidity Engineer: 'jobs/openings/solidity.md'
+        - Developer Relations: 'jobs/openings/dev_rel.md'
+        - Office Manager: 'jobs/openings/office-manager.md'
+        - Executive Assistant: 'jobs/openings/exec-assistant.md'
+        - UI Developer Contractor: 'jobs/openings/ui-developer-contract.md'
   - Blog posts:
     - 2018: 'blog/2018.md'
     - 2017: 'blog/2017.md'

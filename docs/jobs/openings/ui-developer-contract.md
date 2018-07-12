@@ -1,4 +1,4 @@
-## UI Developer at Aragon − Contract Position
+# UI Developer at Aragon One − Contract Position
 
 We are looking for a user interface developer to work with us on [Aragon](https://github.com/aragon/aragon) and [the Aragon Apps](https://github.com/aragon/aragon-apps).
 

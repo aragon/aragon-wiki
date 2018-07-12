@@ -181,11 +181,11 @@ YouTube - [https://www.youtube.com/c/AragonProject](https://www.youtube.com/c/Ar
 
 With [Aragon Nest](https://github.com/aragon/nest) we are already supporting projects that are not necessarily sustainable by themselves yet, but are crucial to the Aragon and Ethereum ecosystems.
 
-**We will expand the scope of Nest to start funding alternative teams** that have a desire to work on the [**Aragon Core client**](https://aragon.one/core), [**aragonOS**](https://aragon.one/os) and on [**Aragon Apps**](https://wiki.aragon.one/dev/apps/).
+**We will expand the scope of Nest to start funding alternative teams** that have a desire to work on the [**Aragon Core client**](https://hack.aragon.org/docs/getting-started.html), [**aragonOS**](https://hack.aragon.org/docs/aragonos-ref.html) and on [**Aragon Apps**](dev/apps/).
 
 Since we released the first version of the [Aragon whitepaper](documentation/whitepaper.md), we knew that it was important to **split the non-profit entity** overseeing the project [**from the actual companies or teams working on its development**](https://blog.aragon.one/the-path-to-mainstream-decentralized-organizations-d95a89d3cac4).
 
-For more context, we've published two blog posts about why it makes sense to [decentralize Aragon's development](https://blog.aragon.one/decentralizing-aragons-development-5062fd6d135d), and [the steps forward for the non-profit entity](https://blog.aragon.one/decentralizing-aragons-development-ii-minimum-viable-foundation-8ec1f9a13ebc) along with [the Aragon Manifesto](https://blog.aragon.one/the-aragon-manifesto-4a21212eac03).
+For more context, we've published three blog posts about why it makes sense to [decentralize Aragon's development](https://blog.aragon.one/decentralizing-aragons-development-5062fd6d135d), [the steps forward for the non-profit entity](https://blog.aragon.one/decentralizing-aragons-development-ii-minimum-viable-foundation-8ec1f9a13ebc) and [onboarding new teams](https://blog.aragon.one/decentralizing-aragons-development-iii-onboarding-new-teams-32786cb805a5) along with [the Aragon Manifesto](https://blog.aragon.one/the-aragon-manifesto-4a21212eac03).
 
 ### Aragon One
 

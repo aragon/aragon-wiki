@@ -1,7 +1,6 @@
-## Office Manager Job Opening
+# Office Manager opening at Aragon One
 
 We are looking for an Office Manager to help us maintain our head quarters, and supervise and organize office services. The ideal candidate must not only be someone highly efficient, fast-thinker and problem-solver but also eager to learn and adapt to fast-moving environments.
-
 
 ### Responsibilities
 
@@ -34,3 +33,5 @@ We are looking for an Office Manager to help us maintain our head quarters, and 
 - Location: Zug, Switzerland.
 - Opportunity to dive into various ecosystem and business areas (blockchain, human resources, personal development, governance research, security research, programming, community, hackathons, etc.).
 - Opportunity to go to relevant crypto-ecosystem events.
+
+### If you haven't, please [read more about our culture, work conditions, etc.](../index.md)
