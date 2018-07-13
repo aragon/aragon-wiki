@@ -30,7 +30,7 @@ As used in this Agreement, the following terms have the meanings indicated below
 
 3.1. You grant to Us a perpetual or to the maximum extent permitted by the relevant law, worldwide, non-exclusive, transferable, royalty-free, irrevocable license over any patent claims including, without limitation, method, process, and apparatus claims which You own, control or have the right to grant, now or in the future, with the right to sublicense these rights to multiple tiers of sublicensees, to make, have made, use, sell, offer for sale, import and otherwise transfer the Contribution. This license is granted only to the extent that the exercise of the licensed rights infringes such patent claims; and provided that this license is conditioned upon compliance with clause 4.1. below.
 
-### 4. Sublicenses 
+### 4. Sublicenses
 
 4.1. We agree to license the Contribution only under the terms of the license or licenses which We are using on the Submission Date for the work of authorship which is made available by Us to third parties or under any FOSS licenses of the Free Software Foundation or any Open Source license approved by the Open Source Initiative or any license created or drafted by Aragon, provided that such Aragon license contains essentially the same terms and conditions or is granted under essentially the same principles than those of the aforementioned licenses. In addition, We may license the Media in the Contribution under Creative Commons License, or under any license created or drafted by Aragon, provided that such Aragon license contains essentially the same terms and conditions or is granted under essentially the same principles than those of the Creative Commons License.
 
