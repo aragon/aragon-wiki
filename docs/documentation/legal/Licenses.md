@@ -60,21 +60,21 @@ When deciding about what would be the best open source licenses under which rele
 
 ### Labs
 
-- **aragon/labs** _(Labs applicants_): CC-0
+- **aragon/labs** _(Labs applicants_): CC0
 - **aragonlabs/plcr** (_Partial Commit Reveal Voting app_): GPLv3
 - **aragonlabs/curation** (_Curation app for TCRs_): GPLv3
 - **aragonlabs/registry** (_Registry for TCRs_): GPLv3
 
 ### Media
 
-- **aragon/design**: CC-0
+- **aragon/design**: CC0
 
 - **aragon/deployments**: AGPLv3 (_contains backups to source code_)
 
-- **aragon/hack** (_Developer documentation_): CC-0
+- **aragon/hack** (_Developer documentation_): CC0
 
     - **aragon/aragon-example-application**: MIT
-    - **aragon/specs**: CC-0
+    - **aragon/specs**: CC0
 
 - **aragon/multisig-transparency**: GPLv3 (_forked from gnosis/MultiSigWallet_)
 
@@ -89,15 +89,15 @@ When deciding about what would be the best open source licenses under which rele
     - **aragon/sg.aragon.one** (_Asia event website_): AGPLv3
     - **aragon/tw.aragon.one** (_Asia event website_): AGPLv3
 
-- **aragon/whitepaper**: CC-0
+- **aragon/whitepaper**: CC0
 
-- **aragon/aragon-monthly** (_Monthly newspaper_): CC-0
+- **aragon/aragon-monthly** (_Monthly newspaper_): CC0
 
-- **aragon/aragon-wiki**: CC-0
+- **aragon/aragon-wiki**: CC0
 
-- **aragon/nest** (_Nest grants program_): CC-0
+- **aragon/nest** (_Nest grants program_): CC0
 
-- **aragon/community**: CC-0
+- **aragon/community**: CC0
 
 - **aragon/governance**: GPLv3
 
@@ -109,3 +109,11 @@ When deciding about what would be the best open source licenses under which rele
 
 - Other repos under the [**aragon Github organization**](https://github.com/aragon)
 - Other repos under the [**aragonlabs Github organization**](https://github.com/aragonlabs)
+
+## Information about the licences used
+
+- [**LGPLv3**: https://www.gnu.org/licenses/lgpl-3.0.html](https://www.gnu.org/licenses/lgpl-3.0.html)
+- [**GPLv3**: https://www.gnu.org/licenses/gpl-3.0.en.html](https://www.gnu.org/licenses/gpl-3.0.en.html)
+- [**AGPLv3**: https://www.gnu.org/licenses/agpl-3.0.en.html](https://www.gnu.org/licenses/agpl-3.0.en.html)
+- [**MIT**: https://opensource.org/licenses/MIT](https://opensource.org/licenses/MIT)
+- [**CC0**: https://creativecommons.org/publicdomain/zero/1.0/legalcode](https://creativecommons.org/publicdomain/zero/1.0/legalcode)
