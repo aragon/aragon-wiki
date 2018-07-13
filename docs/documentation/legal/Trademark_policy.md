@@ -1,9 +1,5 @@
 # Aragon Trademark Policy
 
-**Aragon**  
-**Trademark Policy**
-</center>
-
 ## 1. Introduction
 
 **1.1** Aragon is a project that aims to disintermediate the creation and maintenance of organizational structures by using blockchain technology. The Aragon project is described in the website [https://aragon.one/](https://aragon.one/).
