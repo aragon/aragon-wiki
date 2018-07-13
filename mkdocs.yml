@@ -41,7 +41,7 @@ pages:
       - Foundation: 'documentation/multisigs/foundation.md'
       - Community: 'documentation/multisigs/community.md'
     - Development Plan: 'documentation/Development_Plan.md'
-    - Aragon Code of Conduct: 'documentation/Code_of_Conduct.md'
+    - Code of Conduct: 'documentation/Code_of_Conduct.md'
     - Legal:
       - Software Licenses: 'documentation/legal/Licenses.md'
       - Contributor License Agreement: 'documentation/legal/CLA.md'
