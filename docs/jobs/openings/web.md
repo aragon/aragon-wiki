@@ -1,4 +1,4 @@
-## Web Developer opening at Aragon
+# Web Developer opening at Aragon One
 
 Aragon is an open source, decentralized project [fighting for the freedom](https://www.youtube.com/watch?v=AqjIWmiAidw) to organize. We believe that decentralized organizations can solve the world's worst problems.
 

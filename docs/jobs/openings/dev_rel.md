@@ -1,4 +1,4 @@
-## Developer Relations opening at Aragon
+# Developer Relations opening at Aragon One
 
 Aragon is an open source, decentralized project fighting for the freedom to organize. We believe that decentralized organizations can solve the world's worst problems.
 

@@ -50,7 +50,7 @@ _Note: The token name and symbol cannot currently be changed._
 
 #### Step 6. Sign organization creation transactions
 
-Now you need to sign two transactions in MetaMask to create your organization. Open MetaMask if the wallet window does not open automatically. Set the gas limit for each transaction at 6,660,000 to ensure that the transactions succeed. The second transaction may show up in MetaMask as a transaction with a blue dot next to it, indicating that it needs to be signed. Click the blue dot to open the transaction and sign it.
+Now you need to sign two transactions in MetaMask to create your organization. Open MetaMask if the wallet window does not open automatically. Set the gas limit for each transaction at 6,600,000 to ensure that the transactions succeed. The second transaction may show up in MetaMask as a transaction with a blue dot next to it, indicating that it needs to be signed. Click the blue dot to open the transaction and sign it.
 
 ![](images/user_guide/daomm1.png)
 
@@ -216,9 +216,9 @@ _Note: This name currently cannot be changed._
 
 #### Step 4. Enter the accounts and the parameters of the multisig contract
 
-First enter the addresses of the accounts that you want to be members of the multisig. Then set the number of signatures out of those accounts that will be required to approve votes in the multisig. For example, you can enter three accounts and require any two of their signatures to approve a vote.
+First enter the addresses of the accounts that you want to be members of the multisig. Then set the number of signatures out of those accounts that will be required to approve votes in the multisig. For example, you can enter three accounts and require any two of their signatures to approve a vote. Up to six signers can be added during the DAO creation process. If you need additional signers, you can add them after the DAO is created by minting a token for each of the accounts you want to join the DAO.
 
-_Note: These accounts cannot currently be removed from the multisig. Accounts can only be added by minting a token for them to join the multisig._
+_Note: These accounts cannot currently be removed from the multisig._
 
 ![](images/multisig_guide/3_multisigsigners.png)
 
@@ -230,7 +230,7 @@ _Note: The token name and symbol cannot currently be changed._
 
 #### Step 6. Sign organization creation transactions
 
-Now you need to sign two transactions in MetaMask to create your organization. Open MetaMask if the wallet window does not open automatically. Set the gas limit for each transaction at 6,660,000 to ensure that the transactions succeed. The second transaction may show up in MetaMask as a transaction with a blue dot next to it, indicating that it needs to be signed. Click the blue dot to open the transaction and sign it.
+Now you need to sign two transactions in MetaMask to create your organization. Open MetaMask if the wallet window does not open automatically. If your multisig DAO has two or less signers, set the gas limit for each transaction at 6,600,000 to ensure that the transactions succeed. If your multisig DAO has three or more signers, set the gas limit to 7,200,000. The second transaction may show up in MetaMask as a transaction with a blue dot next to it, indicating that it needs to be signed. Click the blue dot to open the transaction and sign it.
 
 ![](images/user_guide/daomm1.png)
 

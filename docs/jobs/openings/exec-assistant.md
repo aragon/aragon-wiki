@@ -1,8 +1,8 @@
-## Executive Assistant opening @ Aragon (Zug, Switzerland)
+# Executive Assistant opening at Aragon One (Zug, Switzerland)
 
 Aragon is an open source, decentralized project [fighting for the freedom](https://www.youtube.com/watch?v=AqjIWmiAidw) to organize. We believe that decentralized organizations can solve the world's worst problems.
 
-We’re looking for an Executive Assistant to support the Aragon founders with organization, coordination and time optimization. The ideal candidate must not only be someone highly efficient, with love for time self-management and adaptive to fast-paced environments, but also curious and eager to learn about decentralization.
+We’re looking for an Executive Assistant in Zug, Switzerland to support the Aragon One founders with organization, coordination and time optimization. The ideal candidate must not only be someone highly efficient, with love for time self-management and adaptive to fast-paced environments, but also curious and eager to learn about decentralization.
 
 ### Where you’ll contribute
 * Management of complex calendar scheduling across multiple invitees, locations and time zones.
