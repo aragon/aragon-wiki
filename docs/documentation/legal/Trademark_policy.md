@@ -14,7 +14,7 @@
 
 **2.1** The Aragon Trademarks comprise the word trademark Aragon, the stylized trademark Aragon, the eagle logotype, the figurative trademark combining the stylized word Aragon and the eagle logotype, the word trademarks Aragon Nest and Aragon Network, and any other trademark developed by Aragon in the future, either registered or not.
 
-**2.2** A non-exhaustive list of the Aragon Trademarks is available at the website [http://wiki.aragon.one/design/logo/](http://wiki.aragon.one/design/logo/). This list will be updated as any further trademarks are created by Aragon.
+**2.2** A non-exhaustive list of the Aragon Trademarks is available at the website [http://wiki.aragon.one/design/logo/](../../design/logo/). This list will be updated as any further trademarks are created by Aragon.
 
 ## 3. Trademark Ownership
 
@@ -40,9 +40,9 @@
 
 **4.3** Any use of the Aragon Trademarks, other than the nominative use of the word trademark Aragon, is not authorized and will require a trademark license granted by Aragon.
 
-**4.4** Members of the Aragon community who develop any product, software, technology or service that is related to Aragon and aragonOS, may be authorized to use the logotype “Powered by Aragon” (which is available at the website [http://wiki.aragon.one/design/artwork/](http://wiki.aragon.one/design/artwork/)).
+**4.4** Members of the Aragon community who develop any product, software, technology or service that is related to Aragon and aragonOS, may be authorized to use the logotype “Powered by Aragon” (which is available at the website [http://wiki.aragon.one/design/artwork/](../../design/artwork/)).
 
-**4.5** Furthermore, any project that is governed by Aragon or that uses aragonOS or any other Aragon technology for governance with its relevant token holders may be authorized to use the logotype “Governed by Aragon” (which is available at the website [http://wiki.aragon.one/design/artwork/](http://wiki.aragon.one/design/artwork/)).
+**4.5** Furthermore, any project that is governed by Aragon or that uses aragonOS or any other Aragon technology for governance with its relevant token holders may be authorized to use the logotype “Governed by Aragon” (which is available at the website [http://wiki.aragon.one/design/artwork/](../../design/artwork/)).
 
 ## 5. Notice on Abusive Use
 
