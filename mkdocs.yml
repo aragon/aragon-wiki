@@ -44,7 +44,7 @@ pages:
       - Foundation: 'documentation/multisigs/foundation.md'
       - Community: 'documentation/multisigs/community.md'
     - Development Plan: 'documentation/Development_Plan.md'
-    - Aragon Code of Conduct: 'documentation/Code_of_Conduct.md'
+    - Code of Conduct: 'documentation/Code_of_Conduct.md'
     - Aragon Trademark Policy: 'documentation/Trademark_policy.md'
     - Presentations: 'documentation/presentations.md'
     - Audit reports:
@@ -53,7 +53,7 @@ pages:
     - Third-party Projects: 'projects/index.md'
   - Development:
     - Overview: 'dev/index.md'
-    - Aragon Apps:
+    - Apps:
       - Overview: 'dev/apps/index.md'
       - Voting: 'dev/apps/voting.md'
       - Token Manager: 'dev/apps/token-manager.md'
