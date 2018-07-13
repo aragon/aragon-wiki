@@ -50,7 +50,6 @@ pages:
     - Audit reports:
       - Audit 01 by Adam Dossa: 'documentation/audits/audit01_report_dossa.md'
       - Audit (Internal) by Brett Sun: 'documentation/audits/audit_internal_sun.md'
-    - Community Content: 'documentation/community_content.md'
     - Third-party Projects: 'projects/index.md'
   - Development:
     - Overview: 'dev/index.md'
@@ -170,7 +169,6 @@ pages:
   - Press:
       - Press Kit: 'press/press-kit.md'
       - Media Mentions: 'press/media-mentions.md'
-      - Contact: 'press/contact.md'
   - Nest grants: 'nest/index.md'
   - Archive:
     - Documentation:
