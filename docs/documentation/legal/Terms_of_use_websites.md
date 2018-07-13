@@ -2,7 +2,7 @@
 
 ## Terms of Use
 
-These Terms of Use constitute an agreement between you ("User" or "You") and Aragon Association _(Verein)_ ("We" or "Aragon") regarding your access to and use of [https://aragon.org](https://aragon.org), including any content, functionality and services offered on or through [https://aragon.org](https://aragon.one), [https://blog.aragon.org](https://blog.aragon.org), [https://wiki.aragon.org](https://wiki.aragon.org), [https://hack.aragon.org](https://hack.aragon.org), (together, the "Website" or "Site"). By accessing and using the Website you accept and agree to be bound by these Terms of Use in addition to Aragon´s Privacy Policy, Cookies Policy and all applicable laws of your jurisdiction and all of it as it may be modified, changed, supplemented or updated from time to time. Please read these Terms of Use before using the Website ("Terms").
+These Terms of Use constitute an agreement between you ("**User**" or "**You**") and Aragon Association _(Verein)_ ("**We**" or "**Aragon**") regarding your access to and use of [**https://aragon.org**](https://aragon.org), including any content, functionality and services offered on or through [**https://aragon.org**](https://aragon.one), [**https://blog.aragon.org**](https://blog.aragon.org), [**https://wiki.aragon.org**](https://wiki.aragon.org), [**https://hack.aragon.org**](https://hack.aragon.org), [**https://research.aragon.org**](https://research.aragon.org), (together, the "**Website**" or "**Site**"). By accessing and using the Website you accept and agree to be bound by these Terms of Use in addition to Aragon´s Privacy Policy, Cookies Policy and all applicable laws of your jurisdiction and all of it as it may be modified, changed, supplemented or updated from time to time. Please read these Terms of Use before using the Website ("**Terms**").
 
 If you do not agree with the Terms you shall not access or use the Site.
 
@@ -91,4 +91,3 @@ If any provision of these Terms of Use is held by a court or other tribunal of c
 ### 15. Entire Agreement
 
 These Terms of Use and our Privacy Policy constitute the sole and entire agreement between You and Aragon with respect to the Site and supersede all prior and contemporaneous understandings, agreements, representations and warranties, both written and oral, with respect to the Site.
-
