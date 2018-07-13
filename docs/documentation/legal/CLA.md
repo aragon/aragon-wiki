@@ -1,4 +1,4 @@
-# Aragon Contributor License Agreement
+# Aragon Contributor License Agreement (CLA)
 
 By Submitting any Contribution (all as defined below), You agree to the terms and conditions set forth in this contributor license agreement (hereinafter the "**Agreement**").
 
