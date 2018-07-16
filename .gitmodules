@@ -1,3 +1,0 @@
-[submodule "docs/submodules/aragonOS"]
-	path = docs/submodules/aragonOS
-	url = git@github.com:aragon/aragonOS.git

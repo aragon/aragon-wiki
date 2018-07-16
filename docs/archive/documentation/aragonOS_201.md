@@ -55,7 +55,7 @@ contract TokenApp is App {
 
 An **Entity** is any actor that is represented by an Ethereum address, such as a multisig (an account that needs multiple signatures before executing an action), an app (for example, a voting app that only executes an action if token holders vote favorably), or a simple private key controlled account.
 
-The system can delegate permissions to groups of entities by implementing a [Group app](../../dev/apps/group.md). As in other apps, it can rely on the ACL for protecting important functions, such as adding or removing members of the group. When group members want to execute a specific action, the Group app acts as a proxy contract that performs the action on behalf of the group.
+The system can delegate permissions to groups of entities by implementing a Group app. As in other apps, it can rely on the ACL for protecting important functions, such as adding or removing members of the group. When group members want to execute a specific action, the Group app acts as a proxy contract that performs the action on behalf of the group.
 
 ### Permissions
 
