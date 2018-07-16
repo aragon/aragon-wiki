@@ -2,37 +2,27 @@
 
 ## Aragon's licenses
 
-When deciding about what would be the best open source licenses under which release components of the Aragon project, it was important that those licenses would empower and give total freedom to those who seek to improve the software and contribute it back to the community, without allowing big corporates or other for-profit entities to benefit from it without giving back. This is the reasoning behind these choices.
+When deciding about what are the best open source licenses to release components of the Aragon project, one of the main characterists that those licenses need to have is the empowerment and freedom to those who seek to improve the software and contribute it back to the community. Actions from for-profit entities that benefit from open source without giving back should be decentivized. The other main characterist is the respect of user’s freedom: “Freedom to run, copy, distribute, study, change and improve a program”. Users, individually and collectively, should control the software and not the other way around. This is the main and broad reasoning behind our choices. 
+
+More specifically, when a tool offer unique capabilities and functionality we want the future generations of those tools to remain free (libre). When tools are utility-type codebases and is key to gain as much adoption and standardization as possible, a more permissive license makes sense. Also, in cases of non-software materials is better to have a non-software license such as the CC0. 
+
+The following are examples of some of the components of the Aragon Project and its relevant licenses. Please keep in mind that this is not a exhautive list:
+
 
 ### Tooling
 
-- **aragon/apm.js**: LGPLv3
+- **aragon/apm.js**: LGPLv3 
 
 - **aragon/apm-serve**: GPLv3
 
 - **aragon/aragon.js**: AGPLv3
 
+- **aragon/cli**: GPLv3
+
 - **aragon/radspec**: MIT
 
     - a**ragon/radspec-nearly** (_experimental grammar set for radspec_): MIT
 
-- **aragon/cli**: GPLv3
-
-    - **aragon/aragon-bare-boilerplate**: MIT
-    - **aragon/aragon-react-boilerplate**: MIT
-    - **aragon/aragon-react-kit-boilerplate**: MIT
-
-- **aragon/aragen**: GPLv3
-
-- **aragon/aragon-id**: GPLv3
-
-- **aragon/geth-devnet**: MIT
-
-- **aragon/araserver** (_private_): GPLv3
-
-- **aragon/ppf** (_private_): GPLv3
-
-- **aragon/pig** (_private_): MIT
 
 ### Core infrastructure
 
@@ -52,15 +42,10 @@ When deciding about what would be the best open source licenses under which rele
 
 - **aragon/aragon-ui**: MIT
 
-- **aragon/headless** (_private_): GPLv3
-
 - **aragon/aragon-network-token**: GPLv3
-
-- **aragon/shell** (_private_): GPLv3
 
 ### Labs
 
-- **aragon/labs** _(Labs applicants_): CC0
 - **aragonlabs/plcr** (_Partial Commit Reveal Voting app_): GPLv3
 - **aragonlabs/curation** (_Curation app for TCRs_): GPLv3
 - **aragonlabs/registry** (_Registry for TCRs_): GPLv3
@@ -79,15 +64,6 @@ When deciding about what would be the best open source licenses under which rele
 - **aragon/multisig-transparency**: GPLv3 (_forked from gnosis/MultiSigWallet_)
 
 - **aragon/website** (_Website_): AGPLv3
-
-    - **aragon/aragon-web** (_Website components_): MIT
-    - **aragon/asia.aragon.one** (_Asia event website_): AGPLv3
-    - **aragon/cn.aragon.one** (_Asia event website_): AGPLv3
-    - **aragon/hk.aragon.one** (_Asia event website_): AGPLv3
-    - **aragon/jp.aragon.one** (_Asia event website_): AGPLv3
-    - **aragon/kr.aragon.one** (_Asia event website_): AGPLv3
-    - **aragon/sg.aragon.one** (_Asia event website_): AGPLv3
-    - **aragon/tw.aragon.one** (_Asia event website_): AGPLv3
 
 - **aragon/whitepaper**: CC0
 
