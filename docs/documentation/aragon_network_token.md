@@ -49,7 +49,7 @@ https://blog.aragon.one/token-sale-audit-results-abea34b61209
 
 In addition to buying and selling ANT peer-to-peer, ANT can be bought or sold using the services in the list below.
 
-_Disclaimer: Nothing on this page should be taken as investment advice. Inclusion of a service does not constitute an endorsement of the service by the Aragon Foundation or any other member of the Aragon project. Please do your own research before purchasing ANT or using any of the listed services to buy or sell ANT. Keep your funds safe and only do business with people for whom you have a good reason to trust._
+_Disclaimer: Nothing on this page should be taken as investment advice. Inclusion of a service does not constitute an endorsement of the service by the Aragon Foundation or any other member of the Aragon project. Please do your own research before trading ANT or using any of the listed services to trade ANT. Keep your funds safe and only do business with people for whom you have a good reason to trust._
 
 **Exchanges:**
 
