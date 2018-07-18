@@ -1,4 +1,4 @@
-![](insert link to ANT image here)
+![](../images/aragon_network_token/ant.jpeg)
 
 # Aragon Network Token
 
