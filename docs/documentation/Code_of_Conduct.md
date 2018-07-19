@@ -84,33 +84,31 @@ Aragon project's chat channels descriptions tell you what is considered proper o
 
 Keep your messages [DRY](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself), don't repeat yourself, choose a proper channel to post your message, link or other communication and only post that on one channel. There is also no need to post the same image or message daily or repeatedly. If something is posted on #announcements by the Aragon team, there is no need to post the same message/link to other channels, just refer people to the post at #announcements.
 
-- **#announcements**: This channel is reserved for announcements by the Aragon team and discussion on the channel is limited to Aragon team members only. The proper channel for community member to discuss the announcements made on this channel is #general.
+### Channel descriptions
 
-- **#ant-trader**: Discussion related to the ANT token and trading it. Topics like ANT related exchanges and price speculation are allowed. Anything related trying to manipulate people or markets, price pump/dump for personal or other gains is not allowed.
+- **#announcements:** This channel is reserved for announcements by the Aragon team and discussion on the channel is limited to Aragon team members only. The proper channel for community member to discuss the announcements made on this channel is #general.
 
-- **#aragon-network**: Discussion related to the economics and the governance of the Aragon Network.
+- **#ant-trader:** Discussion related to the ANT token and trading it. Topics like ANT related exchanges and price speculation are allowed. Anything related trying to manipulate people or markets, price pump/dump for personal or other gains is not allowed.
 
-- **#daos**: Discussion relating to Decentralized/distributed Autonomous Organizations, including in and outside of Aragon.
+- **#check-in:** Weekly check-ins by Aragon community members.
 
-- **#dev**: Anything related to the development of Aragon. Including questions on how to contribute in Github, technical questions, bug reports etc.
+- **#dev:** Anything related to the development of Aragon. Including questions on how to contribute in Github, technical questions, bug reports etc.
 
-- **#feedback**: Feedback about the Aragon app, including questions on how to use the app and bug reports are always welcome, feedback from users is invaluable to us and will help us make a better product.
+- **#dev-help:** Aragon development troubleshooting and help-related discussions.
 
-- **#fillet**: Discussion about <https://getfillet.com/> and their upcoming use of Aragon.
+- **#faucet:** Share your Rinkeby testnet address to request testnet ETH here.
 
-- **#general**: This is our main channel. Discussion about Aragon, Ethereum and Blockchain technology, and anything related to these fields is welcome.
+- **#feedback:** Feedback about the Aragon app, including questions on how to use the app and bug reports are always welcome, feedback from users is invaluable to us and will help us make a better product.
 
-- **#governance**: Discussion around decentralized governance and governance models
+- **#general:** This is our main channel. Discussion about Aragon, Ethereum and Blockchain technology, and anything related to these fields is welcome.
 
-- **#intros**: Please introduce yourself to the community, let us know a little bit about yourself so we can all get to know each other. We're friendly people and would love to hear what brought you over to the Aragon community.
+- **#governance:** Discussion around decentralized governance and governance models
 
-- **#random**: Any discussion that is off-topic on other channels is welcome here. For example, this is the place to promote your project or share an interesting news article (as long as it follows our Code of Conduct).
+- **#intros:** Please introduce yourself to the community, let us know a little bit about yourself so we can all get to know each other. We're friendly people and would love to hear what brought you over to the Aragon community.
 
-- **#spanish**: Discussions in Spanish are welcome here. Discusión española aquí, por favor.
+- **#monthly:** Collaboration on the Aragon Monthly newspaper. https://monthly.aragon.one
 
-- **#token-sale**: Any discussion about the Aragon token sale. This may include discussion about the use of the MiniMe Token by Giveth, token vesting, Smart Contracts used, use of a hidden cap, security audits related to the token sale and other token sale related issues. Trading and speculation about the token is not welcome here.
-
-- **#usecases**: Discussion about use cases for Aragon. Any current, potential, or future use cases you might see is appreciated here. We want to hear what the community thinks as good use cases for Aragon.
+- **#random:** Any discussion that is off-topic on other channels is welcome here. For example, this is the place to promote your project or share an interesting news article (as long as it follows our Code of Conduct).
 
 ## Attribution
 
