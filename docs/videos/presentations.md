@@ -18,6 +18,13 @@ by Brett Sun and John Light at [**SF Cryptocurrency Devs meetup**](https://www.m
 ## [**SFCDevs Presents: From the Eyes of an Eagle: The Technical Landscape of Aragon**](https://www.youtube.com/watch?v=jFjWjkhLPZ8)
 by Brett Sun at [**SF Cryptocurrency Devs meetup**](https://www.meetup.com/SF-Cryptocurrency-Devs/events/249946893/)
 
+## [**Luis - Radspec: A Safe Alternative to Ethereum's Natspec to Make Transactions Human-readable**](https://www.youtube.com/watch?v=O9DSrLZyLUs)
+by Luis Cuende at [**Web3 UX Unconference**](https://www.youtube.com/channel/UC5rc5OmS0BlqMbUfFrXpxag)
+
+## [**Luis Cuende - From Zero to a Community-driven DAO in 15 minutes**](https://youtu.be/NJ9StJThxZY?t=2h46m24s)
+by Luis Cuende at [**EDCON**](https://edcon.io/)  
+[Slides of the presentation](../documentation/slides/luis_edcon2018.pdf)
+
 ## [**aragonOS walkthrough with Luis Cuende**](https://www.youtube.com/watch?v=lpTHw0qRfwM)
 by Luis Cuende at [**Primitive**](https://primitive.io)
 
