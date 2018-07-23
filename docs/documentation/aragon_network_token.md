@@ -4,7 +4,7 @@
 
 ## Overview
 
-The Aragon Network Token (ticker symbol: ANT) is the native token of the Aragon Network. ANT is primarily used for the governance of the Aragon network. After the launch of the Aragon Network, it will also be possible to use ANT to collateralize agreements made by members of the Aragon Network. More information about the use of ANT in the Aragon Network can be found in the Aragon Network [whitepaper](https://github.com/aragon/whitepaper).
+The Aragon Network Token (ticker symbol: ANT) is the native token of the Aragon Network. ANT is primarily used for the governance of the Aragon Network. After the launch of the Aragon Network, it will also be possible to use ANT to collateralize agreements made by members of the Aragon Network. More information about the use of ANT in the Aragon Network can be found in the Aragon Network [whitepaper](https://github.com/aragon/whitepaper).
 
 ## Initial token distribution
 
@@ -12,18 +12,15 @@ ANT was initially created and distributed as a result of a [public token sale](h
 
 **Sources:**
 
-https://blog.aragon.one/aragon-network-token-sale-terms-8998f63a3429
-
-https://blog.aragon.one/pre-sale-transparency-report-333e310304c
-
-https://blog.aragon.one/the-aragon-token-sale-the-numbers-12d03c8b97d3
+- [Aragon Network token sale terms](https://blog.aragon.one/aragon-network-token-sale-terms-8998f63a3429)
+- [Pre-sale transparency report](https://blog.aragon.one/pre-sale-transparency-report-333e310304c)
+- [The Aragon token sale: the numbers](https://blog.aragon.one/the-aragon-token-sale-the-numbers-12d03c8b97d3)
 
 ### Initial supply breakdown
 
 Pre-sale: W ANT  
 Public sale: 27500000 ANT  
-Foundation grant: Y ANT  
-Founder grant: Z ANT  
+Foundation grant: 5941428.57142857 ANT
 
 Total supply: 39609523.80952380954 ANT*
 
@@ -43,7 +40,7 @@ ANT is an ERC-20 token using the MiniMe standard. As Aragon co-founder Jorge Izq
 
 **Sources:**
 
-https://blog.aragon.one/token-sale-audit-results-abea34b61209
+[Token sale audit results](https://blog.aragon.one/token-sale-audit-results-abea34b61209)
 
 ## Trade ANT
 
@@ -53,26 +50,17 @@ _Disclaimer: Nothing on this page should be taken as investment advice. Inclusio
 
 **Exchanges:**
 
-Bitplace - https://www.bitplace.to
-
-Bittrex - https://bittrex.com
-
-ShapeShift - https://shapeshift.io
-
-Ethfinex - https://www.ethfinex.com
-
-UpBit - https://upbit.com
-
-Liqui - https://liqui.io
-
-IDEX - https://idex.market
-
-HitBTC - https://hitbtc.com
-
-Radar Relay - https://radarrelay.com/
-
-EtherDelta - https://etherdelta.com/
+- Bitplace - https://www.bitplace.to
+- Bittrex - https://bittrex.com
+- ShapeShift - https://shapeshift.io
+- Ethfinex - https://www.ethfinex.com
+- UpBit - https://upbit.com
+- Liqui - https://liqui.io
+- IDEX - https://idex.market
+- HitBTC - https://hitbtc.com
+- Radar Relay - https://radarrelay.com/
+- EtherDelta - https://etherdelta.com/
 
 **OTC Brokers:**
 
-Cumberland Mining - https://cumberlandmining.com/
+- Cumberland Mining - https://cumberlandmining.com/
