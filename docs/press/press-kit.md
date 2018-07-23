@@ -180,3 +180,7 @@ Here we have compiled resources and guides for press and media to use when refer
 > Already convinced about the decentralized future of the Internet, he has been building toy projects such as a [mesh network](http://github.com/izqui/net) or a small [blockchain implementation](http://github.com/izqui/blockchain) since 2014.
 
 ![](press-kit/team/Jorge_Aragon_Tech_Lead.jpg)
+
+## Aragon Press/Media Contact
+
+If you want to get in touch with us about a interview, commentary or other media/press related matter, please send an email to [media@aragon.one](mailto:media@aragon.one)
