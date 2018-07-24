@@ -52,14 +52,14 @@ _Disclaimer: Nothing on this page should be taken as investment advice. Inclusio
 
 - Bitplace - https://www.bitplace.to
 - Bittrex - https://bittrex.com
-- ShapeShift - https://shapeshift.io
-- Ethfinex - https://www.ethfinex.com
-- UpBit - https://upbit.com
-- Liqui - https://liqui.io
-- IDEX - https://idex.market
-- HitBTC - https://hitbtc.com
-- Radar Relay - https://radarrelay.com/
 - EtherDelta - https://etherdelta.com/
+- Ethfinex - https://www.ethfinex.com
+- HitBTC - https://hitbtc.com
+- IDEX - https://idex.market
+- Liqui - https://liqui.io
+- Radar Relay - https://radarrelay.com/
+- ShapeShift - https://shapeshift.io
+- UpBit - https://upbit.com
 
 **OTC Brokers:**
 
