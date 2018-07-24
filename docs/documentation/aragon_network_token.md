@@ -28,7 +28,7 @@ Total supply: 39609523.80952380954 ANT*
 
 **Sources:**
 
-https://etherscan.io/token/0x960b236A07cf122663c4303350609A66A7B288C0
+- [Etherscan](https://etherscan.io/token/0x960b236A07cf122663c4303350609A66A7B288C0)
 
 ## Technical details
 
@@ -40,7 +40,7 @@ ANT is an ERC-20 token using the MiniMe standard. As Aragon co-founder Jorge Izq
 
 **Sources:**
 
-[Token sale audit results](https://blog.aragon.one/token-sale-audit-results-abea34b61209)
+- [Token sale audit results](https://blog.aragon.one/token-sale-audit-results-abea34b61209)
 
 ## Trade ANT
 
