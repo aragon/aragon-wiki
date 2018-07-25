@@ -556,6 +556,56 @@
             "title": "15. Entire Agreement"
         },
         {
+            "location": "/documentation/legal/Privacy_policy/",
+            "text": "Aragon Privacy Policy\n\n\nAragon contact details: contact@aragon.one\n\n\nMail for requests and queries on privacy: contact@aragon.one\n\n\nPersonal data we process\n\n\nAragon only processes personal data regarding:\n\n\n\n\n\n\nAragon users: professional contact data as necessary to manage and render our services. \n\n\n\n\n\n\nAragon newsletter subscribers: particularly, we collect their email address, first and last name. \n\n\n\n\n\n\nAragon token holders: Aragon has no access to any personal data related to the holders of Aragon cryptographic tokens, other than the relevant Ethereum addresses.\n\n\n\n\n\n\nAragon users, newsletter subscribers and token holders are hereafter referred as Data Subjects.\n\n\nPurposes\n\n\nWe only process the personal data of Data Subjects for the purposes of rendering our services.\n\n\nLegal basis\n\n\nAragon processes personal data to the extent that at least one of the following applies:\n\n\n\n\n\n\nThe Data Subject has given consent for one or more specific purposes. \n\n\n\n\n\n\nProcessing is necessary for the performance of our agreements with the Data Subjects. \n\n\n\n\n\n\nProcessing is necessary to comply with our legal obligations.\n\n\n\n\n\n\nDisclosure to other recipients\n\n\nAragon does not share the personal data of the Data Subjects with any third party, other than to Aragon providers to the extent necessary to render our services or to competent authorities if required under a mandatory regulation or requirement.\n\n\nData retention period\n\n\nAragon only retains personal data for so long as necessary to render our services or to comply with a legal obligation.\n\n\nSecurity\n\n\nWe implement appropriate technical and organizational measures to ensure a level of security appropriate to the risk, including blockchain technology, to help protect information from unauthorized access, destruction, use, modification, or disclosure.\n\n\nData Subjects\u2019 rights\n\n\nData Subjects can exercise their rights addressing their queries to Aragon (see contact details above) were they can request access to and rectification or erasure of personal data or restriction of processing or to object to processing.\n\n\nData Subjects also have the right to lodge a complaint with the relevant competent authorities in Switzerland.\n\n\nCookies\n\n\nAragon collects information from running the Aragon Website (as described in our terms of Use) and uses information, provided to us by you. When you visit the Website, or use our products, we collect information sent to us by your computer, mobile phone, or other access device. This information may include your IP address, device information including, but not limited to, identifier, name, and type, operating system, mobile network information and standard web log information, such as your browser type, and the pages you accessed on our Website. When you use a location-enabled device with our Website and products, we may collect geographical location data or use various means to determine the location, such as sensor data from your device that may, for instance, provide data on nearby cell towers and Wi-Fi access spots. However, we will not release your personally-identifying information to any third party without your consent, except as set forth herein.\n\n\nWhen you access the Website, or use our products or services we (or a service provider on our behalf) may place small data files called cookies on your computer or other device. We use these technologies to recognize you as our user; customize our Website and advertising; measure promotional effectiveness and collect information about your computer or other access device to mitigate risk, help prevent fraud, and promote trust and safety.\n\n\nIn principle we do not, but we may store and process your personal information on our servers, where our facilities or our service providers are located. We protect your information using physical, technical, and administrative security measures to reduce the risks of loss, misuse, unauthorized access, disclosure, and alteration. Some of the safeguards we use are firewalls and data encryption, physical access controls to our data centers, and information access authorization controls.\n\n\nWe also authorize access to personal information only for those employees who require it to fulfil their job responsibilities. All our physical, electronic, and procedural safeguards are designed to comply with applicable laws and regulations. Data may from time to time be stored also in other locations.",
+            "title": "Privacy policy"
+        },
+        {
+            "location": "/documentation/legal/Privacy_policy/#aragon-privacy-policy",
+            "text": "Aragon contact details: contact@aragon.one  Mail for requests and queries on privacy: contact@aragon.one",
+            "title": "Aragon Privacy Policy"
+        },
+        {
+            "location": "/documentation/legal/Privacy_policy/#personal-data-we-process",
+            "text": "Aragon only processes personal data regarding:    Aragon users: professional contact data as necessary to manage and render our services.     Aragon newsletter subscribers: particularly, we collect their email address, first and last name.     Aragon token holders: Aragon has no access to any personal data related to the holders of Aragon cryptographic tokens, other than the relevant Ethereum addresses.    Aragon users, newsletter subscribers and token holders are hereafter referred as Data Subjects.",
+            "title": "Personal data we process"
+        },
+        {
+            "location": "/documentation/legal/Privacy_policy/#purposes",
+            "text": "We only process the personal data of Data Subjects for the purposes of rendering our services.",
+            "title": "Purposes"
+        },
+        {
+            "location": "/documentation/legal/Privacy_policy/#legal-basis",
+            "text": "Aragon processes personal data to the extent that at least one of the following applies:    The Data Subject has given consent for one or more specific purposes.     Processing is necessary for the performance of our agreements with the Data Subjects.     Processing is necessary to comply with our legal obligations.",
+            "title": "Legal basis"
+        },
+        {
+            "location": "/documentation/legal/Privacy_policy/#disclosure-to-other-recipients",
+            "text": "Aragon does not share the personal data of the Data Subjects with any third party, other than to Aragon providers to the extent necessary to render our services or to competent authorities if required under a mandatory regulation or requirement.",
+            "title": "Disclosure to other recipients"
+        },
+        {
+            "location": "/documentation/legal/Privacy_policy/#data-retention-period",
+            "text": "Aragon only retains personal data for so long as necessary to render our services or to comply with a legal obligation.",
+            "title": "Data retention period"
+        },
+        {
+            "location": "/documentation/legal/Privacy_policy/#security",
+            "text": "We implement appropriate technical and organizational measures to ensure a level of security appropriate to the risk, including blockchain technology, to help protect information from unauthorized access, destruction, use, modification, or disclosure.",
+            "title": "Security"
+        },
+        {
+            "location": "/documentation/legal/Privacy_policy/#data-subjects-rights",
+            "text": "Data Subjects can exercise their rights addressing their queries to Aragon (see contact details above) were they can request access to and rectification or erasure of personal data or restriction of processing or to object to processing.  Data Subjects also have the right to lodge a complaint with the relevant competent authorities in Switzerland.",
+            "title": "Data Subjects\u2019 rights"
+        },
+        {
+            "location": "/documentation/legal/Privacy_policy/#cookies",
+            "text": "Aragon collects information from running the Aragon Website (as described in our terms of Use) and uses information, provided to us by you. When you visit the Website, or use our products, we collect information sent to us by your computer, mobile phone, or other access device. This information may include your IP address, device information including, but not limited to, identifier, name, and type, operating system, mobile network information and standard web log information, such as your browser type, and the pages you accessed on our Website. When you use a location-enabled device with our Website and products, we may collect geographical location data or use various means to determine the location, such as sensor data from your device that may, for instance, provide data on nearby cell towers and Wi-Fi access spots. However, we will not release your personally-identifying information to any third party without your consent, except as set forth herein.  When you access the Website, or use our products or services we (or a service provider on our behalf) may place small data files called cookies on your computer or other device. We use these technologies to recognize you as our user; customize our Website and advertising; measure promotional effectiveness and collect information about your computer or other access device to mitigate risk, help prevent fraud, and promote trust and safety.  In principle we do not, but we may store and process your personal information on our servers, where our facilities or our service providers are located. We protect your information using physical, technical, and administrative security measures to reduce the risks of loss, misuse, unauthorized access, disclosure, and alteration. Some of the safeguards we use are firewalls and data encryption, physical access controls to our data centers, and information access authorization controls.  We also authorize access to personal information only for those employees who require it to fulfil their job responsibilities. All our physical, electronic, and procedural safeguards are designed to comply with applicable laws and regulations. Data may from time to time be stored also in other locations.",
+            "title": "Cookies"
+        },
+        {
             "location": "/documentation/presentations/",
             "text": "Approaching Infinity: Governance & The Case for Experimentation\n\n\nby Brett Sun at \nBlockstack Signature Berlin 2018\n\n\nVideo of the presentation\n\n\nDemocratizing Governance\n\n\nby Luis Cuende at \nAragon Meetup - Helsinki\n\n\nVideo of the presentation\n\n\nDesigning future-proof smart contract systems\n\n\nby Jorge Izquierdo at \nDevcon3\n\n\nVideo of the presentation\n\n\nGovernance: Main challenges and 3 possible models\n\n\nby Luis Cuende at \nM-0",
             "title": "Presentations"
