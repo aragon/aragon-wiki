@@ -48,7 +48,7 @@ As used in this Agreement, the following terms have the meanings indicated below
 
 6.3. In no event shall either party be liable under this Agreement for any indirect, consequential, punitive or exemplary damages or any loss of profit, whether present or future.
 
-### 7. grants and bounties
+### 7. Grants and bounties
 
 7.1. Aragon may in the framework of this Agreement and at its sole discretion, grant You a certain amount of Funds as bounty or reward for your contribution.
 
