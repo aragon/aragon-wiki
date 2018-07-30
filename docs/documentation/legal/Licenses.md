@@ -2,16 +2,16 @@
 
 ## Aragon's licenses
 
-When deciding about what are the best open source licenses to release components of the Aragon project, one of the main characterists that those licenses need to have is the empowerment and freedom to those who seek to improve the software and contribute it back to the community. Actions from for-profit entities that benefit from open source without giving back should be decentivized. The other main characterist is the respect of user’s freedom: “Freedom to run, copy, distribute, study, change and improve a program”. Users, individually and collectively, should control the software and not the other way around. This is the main and broad reasoning behind our choices. 
+When deciding about what are the best open source licenses to release components of the Aragon Project, one of the main characteristics that those licenses need to have is the empowerment and freedom to those who seek to improve the software and contribute it back to the community. Actions from for-profit entities that benefit from open source without giving back should be disincentivized. The other main characteristic is the respect of user’s freedom: “Freedom to run, copy, distribute, study, change and improve a program”. Users, individually and collectively, should control the software and not the other way around. This is the main and broad reasoning behind our choices.
 
-More specifically, when a tool offer unique capabilities and functionality we want the future generations of those tools to remain free (libre). When tools are utility-type codebases and is key to gain as much adoption and standardization as possible, a more permissive license makes sense. Also, in cases of non-software materials is better to have a non-software license such as the CC0. 
+More specifically, when a tool offers unique capabilities and functionality we want the future generations of those tools to remain free (libre). When tools are utility-type codebases and is key to gain as much adoption and standardization as possible, a more permissive licensing makes sense. Also, in cases of non-software materials it is better to have a non-software license such as the CC0.
 
-The following are examples of some of the components of the Aragon Project and its relevant licenses. Please keep in mind that this is not a exhautive list:
+The following are examples of some of the components of the Aragon Project and its relevant licenses. Please keep in mind that this is not an exhaustive list:
 
 
 ### Tooling
 
-- **aragon/apm.js**: LGPLv3 
+- **aragon/apm.js**: LGPLv3
 
 - **aragon/apm-serve**: GPLv3
 
@@ -21,7 +21,7 @@ The following are examples of some of the components of the Aragon Project and i
 
 - **aragon/radspec**: MIT
 
-    - a**ragon/radspec-nearly** (_experimental grammar set for radspec_): MIT
+    - **aragon/radspec-nearly** (_experimental grammar set for radspec_): MIT
 
 
 ### Core infrastructure
