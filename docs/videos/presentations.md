@@ -1,13 +1,23 @@
 # Aragon Presentation Videos
 
+## [**Building Modular Organizations**](https://www.youtube.com/watch?v=Zpu8tvCCpNQ)
+by Brett Sun at [**DappCon**](https://www.dappcon.io/)  
+[Slides of the presentation](../documentation/slides/Aragon_DappCon.pdf)
+
+## [**Developing Decentralized Networks - Aragon**](https://youtu.be/7JxMj8Woylo?t=1h28m44s)
+by Tatu Kärki at [**Helsinki Ethereum Meetup**](https://www.meetup.com/Helsinki-Ethereum-Meetup/)  
+[Slides of the presentation](../documentation/slides/Tatu_Helsinki.pdf)
+
 ## [**Aragon Dev Meetup at BlueYard - Building upgradeable organizations on the blockchain**](https://www.youtube.com/watch?v=atEnUHLaPE0)
-by Brett Sun at [**BlueYard Capital**](http://blueyard.com/)
+by Brett Sun at [**BlueYard Capital**](http://blueyard.com/)  
+[Slides of the presentation](../documentation/slides/Aragon_Blueyard.pdf)
 
 ## [**Gitcoin Livestream #1: Aragon Project**](https://www.youtube.com/watch?v=lpTHw0qRfwM)
 by Tatu Kärki at [**Gitcoin**](https://gitcoin.co/)
 
 ## [**ETHBuenosAires: Your First Aragon App**](https://www.youtube.com/watch?v=zboAzSq3Dz8)
-by Jorge Izquierdo and Luke Duncan at [**ETHBuenosAires**](https://ethbuenosaires.com/)
+by Jorge Izquierdo and Luke Duncan at [**ETHBuenosAires**](https://ethbuenosaires.com/)  
+[Slides of the presentation](../documentation/slides/EthBAWorkshop.pdf)
 
 ## [**ETHBuenosAires Keynote: Aragon - Luis Cuende**](https://www.youtube.com/watch?v=nwq5d1zeGjk&t=86s)
 by Luis Cuende at [**ETHBuenosAires**](https://ethbuenosaires.com/)
@@ -16,10 +26,16 @@ by Luis Cuende at [**ETHBuenosAires**](https://ethbuenosaires.com/)
 by Brett Sun and John Light at [**SF Cryptocurrency Devs meetup**](https://www.meetup.com/SF-Cryptocurrency-Devs/events/249946893/)
 
 ## [**SFCDevs Presents: From the Eyes of an Eagle: The Technical Landscape of Aragon**](https://www.youtube.com/watch?v=jFjWjkhLPZ8)
-by Brett Sun at [**SF Cryptocurrency Devs meetup**](https://www.meetup.com/SF-Cryptocurrency-Devs/events/249946893/)
+by Brett Sun at [**SF Cryptocurrency Devs meetup**](https://www.meetup.com/SF-Cryptocurrency-Devs/events/249946893/)  
+[Slides of the presentation](../documentation/slides/Aragon_SF_technical.pdf)
 
 ## [**Luis - Radspec: A Safe Alternative to Ethereum's Natspec to Make Transactions Human-readable**](https://www.youtube.com/watch?v=O9DSrLZyLUs)
-by Luis Cuende at [**Web3 UX Unconference**](https://www.youtube.com/channel/UC5rc5OmS0BlqMbUfFrXpxag)
+by Luis Cuende at [**Web3 UX Unconference**](https://www.youtube.com/channel/UC5rc5OmS0BlqMbUfFrXpxag)  
+[Slides of the presentation](../documentation/slides/Web3_UX_unconf.pdf)
+
+## [**Ethereum Community Tour Asia: Japan - Aragon**](https://www.youtube.com/watch?v=DfHlspnVEkE)
+by Tatu Kärki at [**Ethereum Japan Meetup**](https://www.meetup.com/Ethereum-Japan/)  
+[Slides of the presentation](../documentation/slides/Aragon_Asia-Japan.pdf)
 
 ## [**Luis Cuende - From Zero to a Community-driven DAO in 15 minutes**](https://youtu.be/NJ9StJThxZY?t=2h46m24s)
 by Luis Cuende at [**EDCON**](https://edcon.io/)  
@@ -32,6 +48,9 @@ by Luis Cuende at [**Primitive**](https://primitive.io)
 by Brett Sun at [**Blockstack Signature Berlin 2018**](https://blockstack.org/berlin2018)  
 [Slides of the presentation](../documentation/slides/Blockstack_Berlin.pdf)
 
+## [**The Aragon Masterplan**](../documentation/slides/the-aragon-masterplan.pdf)
+by Jorge Izquierdo at **Google Crypto Meetup**
+
 ## [**Democratizing Governance**](https://www.youtube.com/watch?v=AULH7Qw7RCk)
 by Luis Cuende at [**Aragon Meetup - Helsinki**](https://www.meetup.com/Aragon-Meetup/events/245079105/)  
 [Slides of the presentation](../documentation/slides/Helsinki.pdf)
@@ -42,3 +61,6 @@ by María Gomez at [**Innovations Forum Blockchain Day**](http://innovationsforu
 ## [**Designing future-proof smart contract systems**](https://www.youtube.com/watch?v=sJ7VECqHFAg)
 by Jorge Izquierdo at [**Devcon3**](https://ethereumfoundation.org/devcon3/)  
 [Slides of the presentation](../documentation/slides/devcon3.pdf)
+
+## [**Governance: Main challenges and 3 possible models**](../documentation/slides/M0.pdf)
+by Luis Cuende at [**M-0**](https://m-0.melonport.com/)
