@@ -36,7 +36,7 @@
         <meta name="lang:search.tokenizer" content="[\s\-]+">
       
       <link rel="shortcut icon" href="../../../images/favicon.ico">
-      <meta name="generator" content="mkdocs-0.17.2, mkdocs-material-2.7.0">
+      <meta name="generator" content="mkdocs-0.17.3, mkdocs-material-2.7.3">
     
     
       
@@ -44,7 +44,7 @@
       
     
     
-      <link rel="stylesheet" href="../../../assets/stylesheets/application.78aab2dc.css">
+      <link rel="stylesheet" href="../../../assets/stylesheets/application.8d40d89b.css">
       
         <link rel="stylesheet" href="../../../assets/stylesheets/application-palette.6079476c.css">
       
@@ -95,8 +95,8 @@
         
       </defs>
     </svg>
-    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="drawer">
-    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="search">
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="search" autocomplete="off">
     <label class="md-overlay" data-md-component="overlay" for="drawer"></label>
     
       <a href="#software-licences" tabindex="1" class="md-skip">
@@ -569,7 +569,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../../presentations/" title="Presentations" class="md-nav__link">
+    <a href="../../../videos/presentations/" title="Presentations" class="md-nav__link">
       Presentations
     </a>
   </li>
@@ -2670,7 +2670,9 @@
                 
                 <h1 id="software-licences">Software Licences</h1>
 <h2 id="aragons-licenses">Aragon's licenses</h2>
-<p>When deciding about what would be the best open source licenses under which release components of the Aragon project, it was important that those licenses would empower and give total freedom to those who seek to improve the software and contribute it back to the community, without allowing big corporates or other for-profit entities to benefit from it without giving back. This is the reasoning behind these choices.</p>
+<p>When deciding about what are the best open source licenses to release components of the Aragon Project, one of the main characteristics that those licenses need to have is the empowerment and freedom to those who seek to improve the software and contribute it back to the community. Actions from for-profit entities that benefit from open source without giving back should be disincentivized. The other main characteristic is the respect of user’s freedom: “Freedom to run, copy, distribute, study, change and improve a program”. Users, individually and collectively, should control the software and not the other way around. This is the main and broad reasoning behind our choices.</p>
+<p>More specifically, when a tool offers unique capabilities and functionality we want the future generations of those tools to remain free (libre). When tools are utility-type codebases and is key to gain as much adoption and standardization as possible, a more permissive licensing makes sense. Also, in cases of non-software materials it is better to have a non-software license such as the CC0.</p>
+<p>The following are examples of some of the components of the Aragon Project and its relevant licenses. Please keep in mind that this is not an exhaustive list:</p>
 <h3 id="tooling">Tooling</h3>
 <ul>
 <li>
@@ -2683,36 +2685,13 @@
 <p><strong>aragon/aragon.js</strong>: AGPLv3</p>
 </li>
 <li>
+<p><strong>aragon/cli</strong>: GPLv3</p>
+</li>
+<li>
 <p><strong>aragon/radspec</strong>: MIT</p>
 <ul>
-<li>a<strong>ragon/radspec-nearly</strong> (<em>experimental grammar set for radspec</em>): MIT</li>
+<li><strong>aragon/radspec-nearly</strong> (<em>experimental grammar set for radspec</em>): MIT</li>
 </ul>
-</li>
-<li>
-<p><strong>aragon/cli</strong>: GPLv3</p>
-<ul>
-<li><strong>aragon/aragon-bare-boilerplate</strong>: MIT</li>
-<li><strong>aragon/aragon-react-boilerplate</strong>: MIT</li>
-<li><strong>aragon/aragon-react-kit-boilerplate</strong>: MIT</li>
-</ul>
-</li>
-<li>
-<p><strong>aragon/aragen</strong>: GPLv3</p>
-</li>
-<li>
-<p><strong>aragon/aragon-id</strong>: GPLv3</p>
-</li>
-<li>
-<p><strong>aragon/geth-devnet</strong>: MIT</p>
-</li>
-<li>
-<p><strong>aragon/araserver</strong> (<em>private</em>): GPLv3</p>
-</li>
-<li>
-<p><strong>aragon/ppf</strong> (<em>private</em>): GPLv3</p>
-</li>
-<li>
-<p><strong>aragon/pig</strong> (<em>private</em>): MIT</p>
 </li>
 </ul>
 <h3 id="core-infrastructure">Core infrastructure</h3>
@@ -2741,18 +2720,11 @@
 <p><strong>aragon/aragon-ui</strong>: MIT</p>
 </li>
 <li>
-<p><strong>aragon/headless</strong> (<em>private</em>): GPLv3</p>
-</li>
-<li>
 <p><strong>aragon/aragon-network-token</strong>: GPLv3</p>
-</li>
-<li>
-<p><strong>aragon/shell</strong> (<em>private</em>): GPLv3</p>
 </li>
 </ul>
 <h3 id="labs">Labs</h3>
 <ul>
-<li><strong>aragon/labs</strong> <em>(Labs applicants</em>): CC0</li>
 <li><strong>aragonlabs/plcr</strong> (<em>Partial Commit Reveal Voting app</em>): GPLv3</li>
 <li><strong>aragonlabs/curation</strong> (<em>Curation app for TCRs</em>): GPLv3</li>
 <li><strong>aragonlabs/registry</strong> (<em>Registry for TCRs</em>): GPLv3</li>
@@ -2777,16 +2749,6 @@
 </li>
 <li>
 <p><strong>aragon/website</strong> (<em>Website</em>): AGPLv3</p>
-<ul>
-<li><strong>aragon/aragon-web</strong> (<em>Website components</em>): MIT</li>
-<li><strong>aragon/asia.aragon.one</strong> (<em>Asia event website</em>): AGPLv3</li>
-<li><strong>aragon/cn.aragon.one</strong> (<em>Asia event website</em>): AGPLv3</li>
-<li><strong>aragon/hk.aragon.one</strong> (<em>Asia event website</em>): AGPLv3</li>
-<li><strong>aragon/jp.aragon.one</strong> (<em>Asia event website</em>): AGPLv3</li>
-<li><strong>aragon/kr.aragon.one</strong> (<em>Asia event website</em>): AGPLv3</li>
-<li><strong>aragon/sg.aragon.one</strong> (<em>Asia event website</em>): AGPLv3</li>
-<li><strong>aragon/tw.aragon.one</strong> (<em>Asia event website</em>): AGPLv3</li>
-</ul>
 </li>
 <li>
 <p><strong>aragon/whitepaper</strong>: CC0</p>
@@ -2830,6 +2792,8 @@
               
               
                 
+
+
               
             </article>
           </div>
@@ -2909,9 +2873,9 @@
       
     </div>
     
-      <script src="../../../assets/javascripts/application.189d7058.js"></script>
+      <script src="../../../assets/javascripts/application.b438e6c5.js"></script>
       
-      <script>app.initialize({version:"0.17.2",url:{base:"../../.."}})</script>
+      <script>app.initialize({version:"0.17.3",url:{base:"../../.."}})</script>
       
         <script src="../../../javascript/extra_js.js"></script>
       
