@@ -21,6 +21,7 @@ by Jorge Izquierdo and Luke Duncan at [**ETHBuenosAires**](https://ethbuenosaire
 
 ## [**ETHBuenosAires Keynote: Aragon - Luis Cuende**](https://www.youtube.com/watch?v=nwq5d1zeGjk&t=86s)
 by Luis Cuende at [**ETHBuenosAires**](https://ethbuenosaires.com/)
+[Slides of the presentation](../documentation/slides/ETHBA.pdf)
 
 ## [**SFCDEVs Presents: Nelly Mensah interviews the Aragon Team**](https://www.youtube.com/watch?v=ZAqmkrLH-JQ)
 by Brett Sun and John Light at [**SF Cryptocurrency Devs meetup**](https://www.meetup.com/SF-Cryptocurrency-Devs/events/249946893/)
@@ -35,9 +36,11 @@ by Luis Cuende at [**Web3 UX Unconference**](https://www.youtube.com/channel/UC5
 
 ## [**Creating a Democratic Decentralized Blockchain Organization in 10 minutes**](https://www.youtube.com/watch?v=0G2jwV4XK54)
 by Luis Cuende at [**WeAreDevelopers World Congress 2018**](https://www.wearedevelopers.com/)
+[Slides of the presentation](../documentation/slides/WeAreDevs.pdf)
 
 ## [**Experimenting with Governance at the Speed of Software**](https://youtu.be/zuPGYkDUx7E?t=3h52m18s)
 by Luis Cuende at [**Blockchain Summit - Crypto Valley 2018**](https://blockchainsummit.ch/events/zug-2018)
+[Slides of the presentation](../documentation/slides/Blockchain_Summit.pdf)
 
 ## [**Ethereum Community Tour Asia: Japan - Aragon**](https://www.youtube.com/watch?v=DfHlspnVEkE)
 by Tatu Kärki at [**Ethereum Japan Meetup**](https://www.meetup.com/Ethereum-Japan/)  
