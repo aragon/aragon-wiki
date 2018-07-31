@@ -1,4 +1,4 @@
-![](../images/aragon_network_token/ant.jpeg)
+![](../design/artwork/ANT/ANT01.jpg)
 
 # Aragon Network Token
 
