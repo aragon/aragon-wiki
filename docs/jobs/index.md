@@ -60,6 +60,7 @@ For more context, we've published three blog posts about why it makes sense to [
 * [Web3 Developer](openings/web3.md)
 * [Frontend Developer](openings/frontend.md)
 * [Web Developer](openings/web.md)
+* [DevOps](openings/dev-ops.md)
 * [EVM/Solidity Engineer](openings/solidity.md)
 * [Developer Relations](openings/dev_rel.md)
 * [Office Manager](openings/office-manager.md)
