@@ -58,7 +58,7 @@
 [Light PNG](aragon_one/png/Logo_black_square.png) | [Dark PNG](aragon_one/png/Logo_white_square.png)  
 [Transparent background Light PNG](aragon_one/png/Logo_black_square_transparent.png) | [Transparent background Dark PNG](aragon_one/png/Logo_white_square_transparent.png)
 
-<img width="256" src="aragon_one/png/Logo_stroke_black_square.png"> <img width="256" src="aragon_one/png/Logo_stroke.png"> 
+<img width="256" src="aragon_one/png/Logo_stroke_black_square.png"> <img width="256" src="aragon_one/png/Logo_stroke.png">
 
 <img width="256" src="aragon_one/png/Logo_white_square.png"> <img width="256" src="aragon_one/png/Logo_black_square.png">
 
@@ -72,3 +72,33 @@
 <img width="256" src="aragon_one/png/logo_black.png">
 
 <img width="256" src="aragon_one/png/logo_gradient.png">
+
+## Aragon DAC
+
+### Imagetypes
+
+#### Horizontal
+[PNG](aragon_dac/Logo_ad.png)  
+[PNG Mid](aragon_dac/Logo_ad_1x.png)  
+[PNG Large](aragon_dac/Logo_ad_3x.png)
+
+<img width="256" src="aragon_dac/Logo_ad.png">
+
+### Logotypes
+#### Default
+[Transparent background PNG](aragon_dac/Letter.png) | [JPG](aragon_dac/Letter.jpg)  
+[Transparent background PNG Mid](aragon_dac/Letter_1x.png) | [JPG Mid](aragon_dac/Letter_1x.jpg)  
+[Transparent background PNG Large](aragon_dac/Letter_3x.png) | [JPG Large](aragon_dac/Letter_3x.jpg)
+
+
+<img width="256" src="aragon_dac/Letter.png">
+
+<img width="256" src="aragon_dac/Letter.jpg">
+
+### Isotypes
+#### Default
+[PNG](aragon_dac/Mark_ad.png)  
+[PNG Mid](aragon_dac/Mark_ad_1x.png)  
+[PNG Large](aragon_dac/Mark_ad_3x.png)  
+
+<img width="256" src="aragon_dac/Mark_ad.png">
