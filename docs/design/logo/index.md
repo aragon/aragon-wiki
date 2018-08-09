@@ -78,9 +78,15 @@
 ### Imagetypes
 
 #### Horizontal
+[Transparent background PNG](aragon_dac/logo_horizontal_transbg_small.png)  
+[Transparent background PNG Mid](aragon_dac/logo_horizontal_transbg_mid.png)  
+[Transparent background PNG Large](aragon_dac/logo_horizontal_transbg.png)
+
 [PNG](aragon_dac/Logo_ad.png)  
 [PNG Mid](aragon_dac/Logo_ad_1x.png)  
 [PNG Large](aragon_dac/Logo_ad_3x.png)
+
+<img width="256" src="aragon_dac/logo_horizontal_transbg_small.png">
 
 <img width="256" src="aragon_dac/Logo_ad.png">
 
