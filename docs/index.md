@@ -301,6 +301,6 @@ Giveth's Governance Circle Lead, who brings loads of community management experi
 
 &nbsp;
 
-> - **[Kris Decoodt](https://medium.com/@krrisis), Communication Lead at Giveth**
+> - **[Kris Decoodt](https://medium.com/@krrisis), Communication Circle Lead at Giveth**
 
 The Community R&D team will also keep you, the community, up-to-date on all progress of the Aragon DAC with the help of communication lead Kris Decoodt
