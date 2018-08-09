@@ -1777,7 +1777,7 @@
         }, 
         {
             "location": "/design/logo/", 
-            "text": "Logos\n\n\nAragon Project\n\n\nBrand in Sketch format\n\n\nImagetypes\n\n\nHorizontal\n\n\nSVG\n | \nAI\n | \nPNG\n | \nLight text SVG\n | \nLight text AI\n | \nLight text PNG\n | \nDark background JPG\n\n\n \n\n\nVertical\n\n\nPNG\n | \nLight text PNG\n | \nDark background JPG\n\n\n \n\n\nHorizontal Greyscale\n\n\nSVG\n | \nAI\n | \nPNG\n\n\n\n\nLogotypes\n\n\nDefault\n\n\nSVG\n | \nPNG\n | \nLight version SVG\n | \nLight version PNG\n | \nDark background JPG\n\n\n \n\n\nIsotypes\n\n\nStroke\n\n\nSketch\n | \nPNG\n\n\n\n\nDefault\n\n\nSVG\n | \nPNG\n | \nEPS\n | \nAI\n\n\n\n\nAragon One Team\n\n\nImagetypes\n\n\nHorizontal Gradient\n\n\nTransparent background Light PNG\n | \nDark PNG\n\n\n \n\n\nHorizontal Greyscale\n\n\nLight PNG\n | \nDark PNG\n\n\nTransparent background Light PNG\n | \nTransparent background Dark PNG\n\n\n \n\n\nVertical\n\n\nGradient Light PNG\n | \nNo Text Light PNG\n |\n\n\nLight PNG\n | \nDark PNG\n\n\nTransparent background Light PNG\n | \nTransparent background Dark PNG\n\n\n \n\n\n \n\n\nLogotypes\n\n\nDefault\n\n\nLight PNG\n | \nDark PNG\n | \nGradient PNG\n\n\n\n\n\n\n\n\nAragon DAC\n\n\nImagetypes\n\n\nHorizontal\n\n\nPNG\n\n\nPNG Mid\n\n\nPNG Large\n\n\n\n\nLogotypes\n\n\nDefault\n\n\nTransparent background PNG\n | \nJPG\n\n\nTransparent background PNG Mid\n | \nJPG Mid\n\n\nTransparent background PNG Large\n | \nJPG Large\n\n\n\n\n\n\nIsotypes\n\n\nDefault\n\n\nPNG\n\n\nPNG Mid\n\n\nPNG Large", 
+            "text": "Logos\n\n\nAragon Project\n\n\nBrand in Sketch format\n\n\nImagetypes\n\n\nHorizontal\n\n\nSVG\n | \nAI\n | \nPNG\n | \nLight text SVG\n | \nLight text AI\n | \nLight text PNG\n | \nDark background JPG\n\n\n \n\n\nVertical\n\n\nPNG\n | \nLight text PNG\n | \nDark background JPG\n\n\n \n\n\nHorizontal Greyscale\n\n\nSVG\n | \nAI\n | \nPNG\n\n\n\n\nLogotypes\n\n\nDefault\n\n\nSVG\n | \nPNG\n | \nLight version SVG\n | \nLight version PNG\n | \nDark background JPG\n\n\n \n\n\nIsotypes\n\n\nStroke\n\n\nSketch\n | \nPNG\n\n\n\n\nDefault\n\n\nSVG\n | \nPNG\n | \nEPS\n | \nAI\n\n\n\n\nAragon One Team\n\n\nImagetypes\n\n\nHorizontal Gradient\n\n\nTransparent background Light PNG\n | \nDark PNG\n\n\n \n\n\nHorizontal Greyscale\n\n\nLight PNG\n | \nDark PNG\n\n\nTransparent background Light PNG\n | \nTransparent background Dark PNG\n\n\n \n\n\nVertical\n\n\nGradient Light PNG\n | \nNo Text Light PNG\n |\n\n\nLight PNG\n | \nDark PNG\n\n\nTransparent background Light PNG\n | \nTransparent background Dark PNG\n\n\n \n\n\n \n\n\nLogotypes\n\n\nDefault\n\n\nLight PNG\n | \nDark PNG\n | \nGradient PNG\n\n\n\n\n\n\n\n\nAragon DAC\n\n\nImagetypes\n\n\nHorizontal\n\n\nTransparent background PNG\n\n\nTransparent background PNG Mid\n\n\nTransparent background PNG Large\n\n\nPNG\n\n\nPNG Mid\n\n\nPNG Large\n\n\n\n\n\n\nLogotypes\n\n\nDefault\n\n\nTransparent background PNG\n | \nJPG\n\n\nTransparent background PNG Mid\n | \nJPG Mid\n\n\nTransparent background PNG Large\n | \nJPG Large\n\n\n\n\n\n\nIsotypes\n\n\nDefault\n\n\nPNG\n\n\nPNG Mid\n\n\nPNG Large", 
             "title": "Logo"
         }, 
         {
@@ -1887,7 +1887,7 @@
         }, 
         {
             "location": "/design/logo/#horizontal_1", 
-            "text": "PNG  PNG Mid  PNG Large", 
+            "text": "Transparent background PNG  Transparent background PNG Mid  Transparent background PNG Large  PNG  PNG Mid  PNG Large", 
             "title": "Horizontal"
         }, 
         {
