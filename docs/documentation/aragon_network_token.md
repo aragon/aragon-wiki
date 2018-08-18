@@ -57,7 +57,9 @@ _Disclaimer: Nothing on this page should be taken as investment advice. Inclusio
 - HitBTC - https://hitbtc.com
 - IDEX - https://idex.market
 - Liqui - https://liqui.io
+- Paradex - https://paradex.io/
 - Radar Relay - https://radarrelay.com/
+- SimpleSwap - https://simpleswap.io/
 - ShapeShift - https://shapeshift.io
 - UpBit - https://upbit.com
 
