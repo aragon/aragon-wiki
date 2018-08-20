@@ -61,6 +61,7 @@ _Disclaimer: Nothing on this page should be taken as investment advice. Inclusio
 - Radar Relay - https://radarrelay.com/
 - SimpleSwap - https://simpleswap.io/
 - ShapeShift - https://shapeshift.io
+- Switchain - https://www.switchain.com/
 - UpBit - https://upbit.com
 
 **OTC Brokers:**
