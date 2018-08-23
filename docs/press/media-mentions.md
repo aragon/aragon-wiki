@@ -115,14 +115,3 @@
 
 ### [The Boost VC Podcast| Season 2, Ep. 14: Governance, Decentralized Organizations and Valuing Blockchain Technology with Aragon Co-Founder Luis Cuende](https://simplecast.com/s/816fdfc7)
 > Listen in as Aragon co-founder Luis Cuende offers his profound insight on the growing popularity of cryptocurrency in Spain, fueled in part by the push for Catalonian independence.
-
-## Video Interviews
-
-### [FLOSS Weekly 467: Aragon](https://twit.tv/shows/floss-weekly/episodes/467?autostart=false)
-> Aragon was born to bring transparency and independent governance to the forefront of managing an organization. Luis is an Advisor to Primitive, a Silicon Valley-based company building the future of programming with Virtual Reality, and he's been listed by MIT as one of their Innovators under 35. Plus, Luis is a former Advisor to the VP of the European Commission.
-
-### [CoinFund Q&A: Aragon](https://www.youtube.com/watch?v=U35jr3UOBXc)
-> Video Interview with Jake Brukhman
-
-### [ICO Alert Podcast #3: Aragon](https://www.youtube.com/watch?v=ah-1ScpfgnM)
-> In this week’s episode, the co-founders of Aragon, Luis Cuende and Jorge Izquierdo, talk about the Aragon platform, how they think the community can solve the current ICO structure issues, and what might happen to Aragon if Ethereum became obsolete.
