@@ -217,7 +217,7 @@ For more context, we've published three blog posts about why it makes sense to [
 ___
 ><img src="images/team_members/Maria_256.png" style="width:192px">
 
-> - **Strategy & Operations at Aragon One**: [María Gómez](https://twitter.com/MyPaoG)
+> - **Ecosystem development at Aragon One**: [María Gómez](https://twitter.com/MyPaoG)
 
 &nbsp;
 
@@ -229,7 +229,7 @@ ___
 
 > <img src="images/team_members/Luke_256.png" style="width:192px">
 
-> - **Research at Aragon One**: [Luke Duncan](https://twitter.com/lkngtn)
+> - **Researcher at Aragon One**: [Luke Duncan](https://twitter.com/lkngtn)
 
 &nbsp;
 
@@ -247,7 +247,7 @@ ___
 
 > <img src="images/team_members/Alexa_256.png" style="width:192px">
 
-> - **Operations Assistant at Aragon One**: [Alexa Weaver](https://twitter.com/alexa_rwr)
+> - **Operations at Aragon One**: [Alexa Weaver](https://twitter.com/alexa_rwr)
 
 **<h2>Dev Team</h2>**
 
