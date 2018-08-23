@@ -1,6 +1,6 @@
 # Senior Solidity/EVM/Ethereum opening at Aragon One
 
-We are looking for an Ethereum wizard to work with us on [Aragon Core](https://github.com/aragon/aragonOS) and the upcoming [Aragon Network](https://github.com/aragon/whitepaper/raw/master/Aragon%20Whitepaper.pdf).
+We are looking for an Ethereum expert to work with us on [Aragon Core](https://github.com/aragon/aragonOS) and the upcoming [Aragon Network](https://github.com/aragon/whitepaper/raw/master/Aragon%20Whitepaper.pdf).
 
 ### Requirements
 
