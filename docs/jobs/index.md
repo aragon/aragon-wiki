@@ -62,6 +62,7 @@ For more context, we've published three blog posts about why it makes sense to [
 * [Web Developer](openings/web.md)
 * [DevOps](openings/dev-ops.md)
 * [EVM/Solidity Engineer](openings/solidity.md)
+* [Documentation Technical Writer](openings/technical-writer.md)
 * [Developer Relations](openings/dev_rel.md)
 * [Office Manager](openings/office-manager.md)
 * [Executive Assistant](openings/exec-assistant.md)
