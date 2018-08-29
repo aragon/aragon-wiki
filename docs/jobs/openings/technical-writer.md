@@ -7,9 +7,9 @@ We’re looking for a Technical Writer to help us communicate the different movi
 ### Responsibilities
 
 - Write, publish and maintain clear, concise, accurate and easy to understand developer documentation in the [Aragon Developer Portal](https://hack.aragon.org/).
-- Write, edit and publish technical articles and announcements.
+- Write, edit and publish technical articles and announcements to the [Aragon Project blog](https://blog.aragon.org) and the [Aragon One blog](https://blog.aragon.one).
 - Work with the Product and Engineering teams to research, identify and create use cases and example code.
-- Work with the Communications and Community teams to facilitate technical community support.
+- Facilitate technical community support.
 
 ### Requirements
 
