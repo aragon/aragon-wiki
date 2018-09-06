@@ -96,6 +96,8 @@ pages:
     - Tutorials: 'videos/tutorials.md'
     - Meetings:
       - Community: 'videos/community.md'
+      - All Core Devs:
+        - Overview: 'videos/dev.md' 
     - Interviews: 'videos/interviews.md'
     - Presentations: 'videos/presentations.md'
   - Press:
