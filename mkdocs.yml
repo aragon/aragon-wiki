@@ -48,7 +48,6 @@ pages:
       - Trademark Policy: 'documentation/legal/Trademark_policy.md'
       - Terms of Use (websites): 'documentation/legal/Terms_of_use_websites.md'
       - Privacy policy: 'documentation/legal/Privacy_policy.md'
-    - Presentations: 'videos/presentations.md'
     - Audit reports:
       - Audit 01 by Adam Dossa: 'documentation/audits/audit01_report_dossa.md'
       - Audit (Internal) by Brett Sun: 'documentation/audits/audit_internal_sun.md'
