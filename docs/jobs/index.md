@@ -20,7 +20,7 @@ For more context, we've published three blog posts about why it makes sense to [
 
 <img src="../design/logo/aragon_one/png/aragon-one-lineart-black-transparent.png" style="width:75%">
 
-> Aragon One is a for-profit company that encompasses the foundational team working on the Aragon project. The company is currently established in Switzerland, although we want it to function as a DAO as much as possible.
+> Aragon One is a company that encompasses the foundational team working on the Aragon project. The company is currently established in Switzerland, although we want it to function as a DAO as much as possible.
 
 > Funding for the company will come in a form of a grant given by the project's non-profit entity, in similar terms to the ones that the entity will provide to future teams that will be working on the project as well.
 

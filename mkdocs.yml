@@ -34,6 +34,7 @@ extra:
 pages:
   - Home: 'index.md'
   - Documentation:
+    - Glossary: 'documentation/glossary.md'
     - Whitepaper: 'documentation/whitepaper.md'
     - Governance: 'documentation/governance.md'
     - Multisigs:
@@ -42,6 +43,7 @@ pages:
       - Community: 'documentation/multisigs/community.md'
     - Development Plan: 'documentation/Development_Plan.md'
     - Code of Conduct: 'documentation/Code_of_Conduct.md'
+    - Event Policy: 'documentation/event_policy.md'
     - Legal:
       - Software Licenses: 'documentation/legal/Licenses.md'
       - Contributor License Agreement: 'documentation/legal/CLA.md'
