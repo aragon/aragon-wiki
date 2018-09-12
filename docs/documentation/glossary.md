@@ -66,7 +66,7 @@ Home to developer documentation, guides & tutorials on the infrastructure and to
 **Website:** [https://hack.aragon.org](https://hack.aragon.org)
 
 ## **Aragon Core**
-Aragon Core is a client to interact with decentralized organizations (aragonOS-powered) by implementing a signer with transaction pathing, notifications and a sandboxed environment for aragonOS-based apps using aragon.js.
+Aragon Core is a tool for all of humanity to organize. It's an open source decentralized application that let's you create, run and manage your organization freely. Decentralized organizations created on the Aragon Core platform are unstoppable in nature thanks to the [Ethereum](https://ethereum.org) blockchain.
 
 **Website:** [https://app.aragon.org](https://app.aragon.org)
 
