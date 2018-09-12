@@ -70,20 +70,5 @@ Aragon Core is a tool for all of humanity to organize. It's an open source decen
 
 **Website:** [https://app.aragon.org](https://app.aragon.org)
 
-## **Aragon CLI**
-<img src="../../design/logo/aragoncli/aragoncli-horizontal.png" style="width:200px;">
-
-Aragon CLI is a tool for creating, testing and publishing Aragon applications.
-
-## **aragonOS**
-<img src="../../design/logo/aragonos/aragonos-horizontal.png" style="width:200px;">
-
-aragonOS is a framework that enables flexible and upgradeable governance mechanisms by creating and assigning permissions to multiple entities.
-
-## **aragon.js**
-<img src="../../design/logo/aragonjs/aragonjs-horizontal.png" style="width:200px;">
-
-A Javascript library to interact with aragonOS by handling transaction pathing, upgradeability and state of the contracts.
-
-## **Aragon UI**
-Aragon UI is an Aragon-native toolkit for decentralized apps. For making apps look consistent with the whole look of the Aragon Core client.
+## **Developer glossary**
+For developer tools and frameworks like aragonOS or Aragon CLI, you can check out the [developer glossary](https://hack.aragon.org/docs/glossary.html).
