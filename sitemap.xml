@@ -12,6 +12,12 @@
     
         
     <url>
+     <loc>https://wiki.aragon.org/documentation/glossary/</loc>
+     <lastmod>2018-09-12</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
      <loc>https://wiki.aragon.org/documentation/whitepaper/</loc>
      <lastmod>2018-09-12</lastmod>
      <changefreq>daily</changefreq>
@@ -37,6 +43,12 @@
         
     <url>
      <loc>https://wiki.aragon.org/documentation/Code_of_Conduct/</loc>
+     <lastmod>2018-09-12</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>https://wiki.aragon.org/documentation/event_policy/</loc>
      <lastmod>2018-09-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
