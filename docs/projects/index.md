@@ -9,7 +9,7 @@
 ## Powered by Aragon
 > **Aragon Core and Aragon Network are NOT live on the Mainnet yet, _no project can be Powered by Aragon at this time_, this is just a list of projects that have publicly announced their interest in utilizing Aragon in the future!**
 >
-> See also our [guidelines](https://wiki.aragon.org/design/powered_by_aragon/) for projects "_Powered by Aragon_". 
+> See also our [guidelines](../design/powered_by_aragon.md) for projects "_Powered by Aragon_". 
 >
 > This is a list of existing projects that have publicly announced their plan **to become** "_Powered by Aragon_":
 
