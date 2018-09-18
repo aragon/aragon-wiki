@@ -16,6 +16,8 @@
 
 ## [**District Digest - Luke Duncan from Aragon**](https://www.youtube.com/watch?v=xGJN9wIJrM4)
 
+## [**Creating a Humanist Blockchain Future #21 - Luis Cuende, Aragon**](https://www.youtube.com/watch?v=U-Sp3jQ4WJg)
+
 ## [**Aragon's Luis Cuende interview with Cheddar from the NYSE trading floor**](https://www.youtube.com/watch?v=3ccZO5wQ2WQ)
 
 ## [**Coin Interview with Aragon**](https://www.youtube.com/watch?v=JZEMimDWkBk)
