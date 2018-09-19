@@ -1,12 +1,16 @@
 # The Aragon Manifesto
 
+![The Aragon Manifesto](../design/artwork/basic/26.jpg)
+
 Version 1.0
 
 _Version 1.0 of the Aragon Manifesto was originally published on the Aragon Project blog [here](https://blog.aragon.org/the-aragon-manifesto-4a21212eac03/)._
 
-**A pledge to fight for freedom**
+<p style="font-size:2.2rem;">
+A pledge to fight for freedom
+</p>
 
-#### We believe the fate of humanity will be decided at the frontier of technological innovation.
+## **We believe the fate of humanity will be decided at the frontier of technological innovation.**
 
 We will either see technology lead to a more free, open, and fair society or reinforce a global regime of centralized control, surveillance, and oppression. Our fear is that without a global, conscious, and concerted effort, the outlook is incredibly bleak.
 
@@ -68,11 +72,13 @@ We must honor and encourage the communities that sustain Aragon itself, and we m
 
 We seek to use technology to lift people from oppression. To be successful, **we must keep our products open, understandable, and easy to use** for everyone.
 
-## [Aragon Foundation](https://aragon.org/foundation/) Pledge
+___
+
+## **[Aragon Foundation](https://aragon.org/foundation/) Pledge**
 
 The [Aragon Foundation](https://aragon.org/foundation/) is a non-profit entity that safeguards the values of the project.
 
-**Specifically, the Aragon Foundation pledges to support the Aragon Manifesto by:**
+### **Specifically, the Aragon Foundation pledges to support the Aragon Manifesto by:**
 
 - Building free, libre, open source technology to allow the creation and management of decentralized organizations
 - Experimenting with new governance models that comply with the Manifesto's values
@@ -81,6 +87,8 @@ The [Aragon Foundation](https://aragon.org/foundation/) is a non-profit entity t
 - Using the token sale proceeds to fund teams that uphold and defend these values, in order for them to carry and accomplish all the aforementioned tasks
 - Working alongside other entities that pledge to support decentralized technologies and build the underlying infrastructure needed for decentralized organizations to flourish
 - Use all of its assets, including proceeds from the token sale, intellectual property, and brand to maintain, spread and defend the above values
+
+___
 
 We consider this Manifesto **an alpha**, and look forward to the [**community's feedback**](https://aragon.chat/) to evolve it over time to a definitive version.
 
