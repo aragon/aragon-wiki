@@ -4,7 +4,7 @@
     
     <url>
      <loc>https://wiki.aragon.org/</loc>
-     <lastmod>2018-09-12</lastmod>
+     <lastmod>2018-09-19</lastmod>
      <changefreq>daily</changefreq>
     </url>
     
@@ -13,19 +13,19 @@
         
     <url>
      <loc>https://wiki.aragon.org/documentation/glossary/</loc>
-     <lastmod>2018-09-12</lastmod>
+     <lastmod>2018-09-19</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>https://wiki.aragon.org/documentation/whitepaper/</loc>
-     <lastmod>2018-09-12</lastmod>
+     <lastmod>2018-09-19</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>https://wiki.aragon.org/documentation/governance/</loc>
-     <lastmod>2018-09-12</lastmod>
+     <lastmod>2018-09-19</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
@@ -37,31 +37,25 @@
         
     <url>
      <loc>https://wiki.aragon.org/documentation/Development_Plan/</loc>
-     <lastmod>2018-09-12</lastmod>
+     <lastmod>2018-09-19</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>https://wiki.aragon.org/documentation/Code_of_Conduct/</loc>
-     <lastmod>2018-09-12</lastmod>
+     <lastmod>2018-09-19</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>https://wiki.aragon.org/documentation/event_policy/</loc>
-     <lastmod>2018-09-12</lastmod>
+     <lastmod>2018-09-19</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>https://wiki.aragon.org</loc>
      <lastmod></lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
-    <url>
-     <loc>https://wiki.aragon.org/videos/presentations/</loc>
-     <lastmod>2018-09-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
@@ -73,7 +67,7 @@
         
     <url>
      <loc>https://wiki.aragon.org/projects/</loc>
-     <lastmod>2018-09-12</lastmod>
+     <lastmod>2018-09-19</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
@@ -83,7 +77,7 @@
         
     <url>
      <loc>https://wiki.aragon.org/dev/</loc>
-     <lastmod>2018-09-12</lastmod>
+     <lastmod>2018-09-19</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
@@ -95,7 +89,7 @@
         
     <url>
      <loc>https://wiki.aragon.org/dev/security_disclosure/</loc>
-     <lastmod>2018-09-12</lastmod>
+     <lastmod>2018-09-19</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
@@ -105,19 +99,19 @@
         
     <url>
      <loc>https://wiki.aragon.org/tutorials/Aragon_Core_User_Guide/</loc>
-     <lastmod>2018-09-12</lastmod>
+     <lastmod>2018-09-19</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>https://wiki.aragon.org/tutorials/DAO_Workshop_Testnet_by_joselfgaray/</loc>
-     <lastmod>2018-09-12</lastmod>
+     <lastmod>2018-09-19</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>https://wiki.aragon.org/tutorials/Status_Open_Bounty_Guide/</loc>
-     <lastmod>2018-09-12</lastmod>
+     <lastmod>2018-09-19</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
@@ -127,43 +121,43 @@
         
     <url>
      <loc>https://wiki.aragon.org/design/</loc>
-     <lastmod>2018-09-12</lastmod>
+     <lastmod>2018-09-19</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>https://wiki.aragon.org/design/logo/</loc>
-     <lastmod>2018-09-12</lastmod>
+     <lastmod>2018-09-19</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>https://wiki.aragon.org/design/powered_by_aragon/</loc>
-     <lastmod>2018-09-12</lastmod>
+     <lastmod>2018-09-19</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>https://wiki.aragon.org/design/artwork/</loc>
-     <lastmod>2018-09-12</lastmod>
+     <lastmod>2018-09-19</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>https://wiki.aragon.org/design/identity_guidelines/</loc>
-     <lastmod>2018-09-12</lastmod>
+     <lastmod>2018-09-19</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>https://wiki.aragon.org/design/branding_proposal/</loc>
-     <lastmod>2018-09-12</lastmod>
+     <lastmod>2018-09-19</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>https://wiki.aragon.org/design/merch/</loc>
-     <lastmod>2018-09-12</lastmod>
+     <lastmod>2018-09-19</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
@@ -173,7 +167,7 @@
         
     <url>
      <loc>https://wiki.aragon.org/jobs/</loc>
-     <lastmod>2018-09-12</lastmod>
+     <lastmod>2018-09-19</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
@@ -189,13 +183,13 @@
         
     <url>
      <loc>https://wiki.aragon.org/blog/2018/</loc>
-     <lastmod>2018-09-12</lastmod>
+     <lastmod>2018-09-19</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>https://wiki.aragon.org/blog/2017/</loc>
-     <lastmod>2018-09-12</lastmod>
+     <lastmod>2018-09-19</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
@@ -211,7 +205,7 @@
         
     <url>
      <loc>https://wiki.aragon.org/videos/tutorials/</loc>
-     <lastmod>2018-09-12</lastmod>
+     <lastmod>2018-09-19</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
@@ -223,13 +217,13 @@
         
     <url>
      <loc>https://wiki.aragon.org/videos/interviews/</loc>
-     <lastmod>2018-09-12</lastmod>
+     <lastmod>2018-09-19</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>https://wiki.aragon.org/videos/presentations/</loc>
-     <lastmod>2018-09-12</lastmod>
+     <lastmod>2018-09-19</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
@@ -239,13 +233,13 @@
         
     <url>
      <loc>https://wiki.aragon.org/press/press-kit/</loc>
-     <lastmod>2018-09-12</lastmod>
+     <lastmod>2018-09-19</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>https://wiki.aragon.org/press/media-mentions/</loc>
-     <lastmod>2018-09-12</lastmod>
+     <lastmod>2018-09-19</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
@@ -254,7 +248,7 @@
     
     <url>
      <loc>https://wiki.aragon.org/nest/</loc>
-     <lastmod>2018-09-12</lastmod>
+     <lastmod>2018-09-19</lastmod>
      <changefreq>daily</changefreq>
     </url>
     
