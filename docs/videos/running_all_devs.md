@@ -5,7 +5,7 @@
 - Add link to the agenda to the Overview page in the wiki.
 
 2. Review proposed agenda items
-- Check alldevs email address throughout the week for proposed agenda items. Review proposed items and respond with accepted or rejected templates.
+- Check alldevs email address throughout the week for proposed agenda items. Review proposed items and respond with [accepted](all_devs_accepted.md) or [rejected](all_devs_rejected.md) templates.
 - Add approved agenda items and the email addresses of agenda item owners to this meeting’s “Agenda + Guest Participants for [date]” email, replacing [date] with the date of the meeting.
 - All approved agenda items to the next call’s agenda in the wiki.
 
