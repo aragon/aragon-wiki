@@ -15,8 +15,8 @@ Review proposed agenda items
  - bcc “repeat participant” list.
  - bcc guest participants from “Agenda + Guest Participants for [date]” email.
  - Include in email:
-  - Unique link to Jitsi channel.
-  - Link to the agenda.
+   - Unique link to Jitsi channel.
+   - Link to the agenda.
 
 Open Youtube and copy the Livestream key.
  - Creator Studio -> Livestreaming -> Stream now -> Stream name/key.
