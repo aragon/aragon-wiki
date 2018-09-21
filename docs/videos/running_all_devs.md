@@ -9,9 +9,9 @@ Review proposed agenda items
  - Add approved agenda items and the email addresses of agenda item owners to this meeting’s “Agenda + Guest Participants for [date]” email, replacing [date] with the date of the meeting.
   - All approved agenda items to the next call’s agenda in the wiki.
 
-10 mins before scheduled to begin. Create [Jitsi](https://meet.jit.si) channel with unique link.
+Ten mins before scheduled to begin. Create [Jitsi](https://meet.jit.si) channel with unique link.
 
-5 mins before scheduled to begin. Send email with all participants bcc’d.
+Five mins before scheduled to begin. Send email with all participants bcc’d.
  - bcc “repeat participant” list.
  - bcc guest participants from “Agenda + Guest Participants for [date]” email.
  - Include in email:
