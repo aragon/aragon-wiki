@@ -101,7 +101,9 @@ pages:
       - All Core Devs:
         - Overview: 'videos/dev.md' 
         - Notes template: 'videos/template.md'
-        - Running the call: 'videos/running_all_devs.md' 
+        - Running the call: 'videos/running_all_devs.md'
+        - Agendas:
+          -
     - Interviews: 'videos/interviews.md'
     - Presentations: 'videos/presentations.md'
   - Press:
