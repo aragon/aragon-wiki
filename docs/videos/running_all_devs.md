@@ -38,4 +38,4 @@ Thank participants and viewers for attending, then stop the livestream.
 
 Upload notes and video recording link to wiki.
 
-Create an [issue](https://github.com/aragon/aragon-wiki/issues) in the wiki to make a backup of the video recording.
+Create an [issue](https://github.com/aragon/aragon-wiki/issues) in the wiki titled "make a backup of video recording" and link to the call video in the description.
