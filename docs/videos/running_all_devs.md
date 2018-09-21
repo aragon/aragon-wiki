@@ -1,8 +1,8 @@
 # Running the All Core Devs call
 
 Create draft agenda file titled “alldevs[date].md” with the date of the next call in YYYYMMDD format.
-- Update the mkdocs.yml file of the wiki with a relative link to the file under the Videos > Meetings > All Core Devs section.   
-- Add link to the agenda to the Overview page in the wiki.
+- Update the mkdocs.yml file of the wiki with a relative link to the file under the Videos > Meetings > All Core Devs > Agendas section.   
+- Add link to the agenda to the [Overview](dev.md) page in the wiki.
 
 Review proposed agenda items
  - Check alldevs email address throughout the week for proposed agenda items. Review proposed items and respond with [accepted](all_devs_accepted.md) or [rejected](all_devs_rejected.md) templates.
