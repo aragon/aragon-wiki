@@ -1,13 +1,13 @@
 #Technical Writer for the Aragon DAC
 
-[Aragon](https://aragon.org/) is an open source, decentralized, project fighting for the freedom to organize.  We believe that decentralized organizations can solve the world&#39;s worst problems.
+[Aragon](https://aragon.org/) is an open source, decentralized, project fighting for the freedom to organize.  We believe that decentralized organizations can solve the world's worst problems.
 
-As part of the ongoing efforts to build out the Aragon infrastructure, the Aragon Foundation and Giveth are building out a second core team that will help end-users experiment with the Aragon Stack.  We&#39;re looking for Technical Writers to build out the documentation repository for supporting the users.
+As part of the ongoing efforts to build out the Aragon infrastructure, the Aragon Foundation and Giveth are building out a second core team that will help end-users experiment with the Aragon Stack.  We're looking for Technical Writers to build out the documentation repository for supporting the user base.
 
 ###Responsibilities
 
 - Create documentation to aid users and devs in designing, creating and deploying their own DAOs on Aragon.
-- Write the documentation you&#39;d want to read as a brand new user!
+- Write the documentation you'd want to read as a brand new user!
 
 ###Requirements
 
@@ -26,6 +26,6 @@ As part of the ongoing efforts to build out the Aragon infrastructure, the Arago
 
 ###How to Apply
 
-- Write an email with the following attachments plus any information you consider important to griff@giveth.io, with the subject Technical Writer application.
+- Write an email with the following attachments plus any information you consider important to griff@giveth.io, with the subject `Technical Writer application`.
 - Please send your CV, linkedin and some samples of your work.
 - Please tell us why Aragon caught your attention and what excites you about the blockchain space.
