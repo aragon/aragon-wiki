@@ -2,7 +2,7 @@
 
 [Aragon](https://aragon.org/) is an open source, decentralized, project fighting for the freedom to organize.  We believe that decentralized organizations can solve the world's worst problems.
 
-As part of the ongoing efforts to build out the Aragon infrastructure, the Aragon Foundation and Giveth are building out a second core team that will help end-users experiment with the Aragon Stack.  We're looking for an experienced UX Designer to lead the creation of revolutionary governance modules.
+As part of the ongoing efforts to build out the Aragon infrastructure, the Aragon Foundation is [collaborating with Giveth](https://blog.aragon.org/aragon-dac-a-new-community-effort-to-foster-aragons-development-led-by-giveth/) to build out a second core team that will help end-users experiment with the Aragon stack. We're looking for an experienced UX Designer to lead the creation of revolutionary governance modules.
 
 The first task will be to research TCR's in order to design applications using reusable components from the Aragon UI toolset given the already designed contracts. The second task will be to redesign the Giveth DApp integrating the lessons we have learned from the Giveth Beta keeping in mind it must be easy to build using Aragon Apps. As in, what Aragon apps need to be built to so that the Giveth DApp can run natively off of Aragon, and what should these Apps look like.
 

@@ -2,7 +2,7 @@
 
 [Aragon](https://aragon.org/) is an open source, decentralized, project fighting for the freedom to organize.  We believe that decentralized organizations can solve the world's worst problems.
 
-As part of the ongoing efforts to build out the Aragon infrastructure, the Aragon Foundation and Giveth are building out a second core team that will help end-users experiment with the Aragon Stack.  We're looking for Technical Writers to build out the documentation repository for supporting the user base.
+As part of the ongoing efforts to build out the Aragon infrastructure, the Aragon Foundation is [collaborating with Giveth](https://blog.aragon.org/aragon-dac-a-new-community-effort-to-foster-aragons-development-led-by-giveth/) to build out a second core team that will help end-users experiment with the Aragon stack. We're looking for Technical Writers to build out the documentation repository for supporting the user base.
 
 ### Responsibilities
 
