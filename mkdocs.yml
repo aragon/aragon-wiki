@@ -37,6 +37,7 @@ pages:
     - Glossary: 'documentation/glossary.md'
     - Whitepaper: 'documentation/whitepaper.md'
     - Governance: 'documentation/governance.md'
+    - Manifesto: 'documentation/manifesto.md'
     - Multisigs:
       - Overview: 'documentation/multisigs/overview.md'
       - Foundation: 'documentation/multisigs/foundation.md'
