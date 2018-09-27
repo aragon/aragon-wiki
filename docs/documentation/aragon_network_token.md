@@ -51,6 +51,7 @@ _Disclaimer: Nothing on this page should be taken as investment advice. Inclusio
 **Exchanges:**
 
 - Bitplace - https://www.bitplace.to
+- Bitfinex - https://bitfinex.com
 - Bittrex - https://bittrex.com
 - ChangeNOW - https://changenow.io/
 - EtherDelta - https://etherdelta.com/
