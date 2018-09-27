@@ -187,7 +187,8 @@ Here we have compiled resources and guides for press and media to use when refer
 
 AraCon will be the place for people to get a great understanding of Web 3.0, blockchain-based organizations and Aragon. The attendees will discover the latest developments and glimpses of what's to come. The goal for the conference is to provide a great overview of the decentralized web and how decentralized organizations can tackle some of the most pressing issues of today’s society.
 
-**Website:** [https://AraCon.one/](https://AraCon.one/)
+**Website:** [https://AraCon.one/](https://AraCon.one/)  
+**Announcement video:** [https://youtu.be/49hXxj31e7c](https://youtu.be/49hXxj31e7c)
 
 ### Resources for AraCon
 
@@ -203,8 +204,18 @@ ___
 #### Text logo with light text
 [<img src="../../design/logo/AraCon/AraCon_typography.png">](../design/logo/AraCon/AraCon_typography.png)
 ___
-#### Announcement graphic
+#### Announcement graphics
 [<img src="../../design/logo/AraCon/aracon12.png">](../design/logo/AraCon/aracon12.png)
+[<img src="../../design/logo/AraCon/aracon11.png">](../design/logo/AraCon/aracon11.png)
+___
+#### Themes
+[<img src="../../design/logo/AraCon/aracon_themes01.png">](../design/logo/AraCon/aracon_themes01.png)
+___
+[<img src="../../design/logo/AraCon/aracon_themes02.png">](../design/logo/AraCon/aracon_themes02.png)
+___
+[<img src="../../design/logo/AraCon/aracon_themes03.png">](../design/logo/AraCon/aracon_themes03.png)
+___
+[<img src="../../design/logo/AraCon/aracon_themes04.png">](../design/logo/AraCon/aracon_themes04.png)
 ___
 
 
