@@ -181,6 +181,33 @@ Here we have compiled resources and guides for press and media to use when refer
 
 ![](press-kit/team/Jorge_Aragon_Tech_Lead.jpg)
 
+## AraCon
+
+[AraCon – The first Aragon Conference](https://AraCon.one/) - will take place in **Berlin, Germany on January 29th-30th 2019**. Aragon’s flagship event will bring together people who embody and wish to shape the Aragon community.
+
+AraCon will be the place for people to get a great understanding of Web 3.0, blockchain-based organizations and Aragon. The attendees will discover the latest developments and glimpses of what's to come. The goal for the conference is to provide a great overview of the decentralized web and how decentralized organizations can tackle some of the most pressing issues of today’s society.
+
+**Website:** [https://AraCon.one/](https://AraCon.one/)
+
+### Resources for AraCon
+
+#### Logo with background
+[<img src="../../design/logo/AraCon/AraCon_logo.png">](../design/logo/AraCon/AraCon_logo.png)
+___
+#### Logo with background (small)
+[<img src="../../design/logo/AraCon/AraCon_logo_small.png">](../design/logo/AraCon/AraCon_logo_small.png)
+___
+#### Text logo with dark text
+[<img src="../../design/logo/AraCon/AraCon_typography_dark.png">](../design/logo/AraCon/AraCon_typography_dark.png)
+___
+#### Text logo with light text
+[<img src="../../design/logo/AraCon/AraCon_typography.png">](../design/logo/AraCon/AraCon_typography.png)
+___
+#### Announcement graphic
+[<img src="../../design/logo/AraCon/aracon12.png">](../design/logo/AraCon/aracon12.png)
+___
+
+
 ## Aragon Press/Media Contact
 
 If you want to get in touch with us about a interview, commentary or other media/press related matter, please send an email to [media@aragon.one](mailto:media@aragon.one)
