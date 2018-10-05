@@ -1,5 +1,7 @@
 # Aragon Interview Videos
 
+## [**On-Chain Governance Panel**](https://beta.kauri.io/article/cdbfafd32fcc4bcbaa08f0abb6372316/v2/on-chain-governance-panel) at [**ETHBerlin**](https://ethberlin.com)
+
 ## [**Blockchain Summit 2018 - Governance Panel**](https://www.youtube.com/watch?v=l57wqUIy37Q) at [**Blockchain Summit 2018**](https://blockchainsummit.ch/)
 
 ## [**CogX 2018 - Governance of Projects, Organisations, and States**](https://www.youtube.com/watch?v=kdtopZuv84k) at [**CogX 2018**](https://cogx.co/)
