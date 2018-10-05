@@ -1,8 +1,8 @@
 # Aragon Presentation Videos
 
-## [**True Decentralization**](https://beta.kauri.io/article/57841346d25b491fafa55b837ae5ece5/v1/true-decentralization)
+## [**True Decentralization**](https://youtu.be/z9_DcXKC-Cs)
 by Luis Cuende at [**ETHBerlin**](https://ethberlin.com/)  
-[Slides of the presentation](https://github.com/ethberlin-hackathon/Talks-presentations/blob/master/resources/true-decentralization/True-decentralization_Luis-Cuende_Aragon.pdf)
+[Slides of the presentation](../documentation/slides/True-decentralization_Luis-Cuende_Aragon.pdf)
 
 ## [**Building Modular Organizations**](https://www.youtube.com/watch?v=Zpu8tvCCpNQ)
 by Brett Sun at [**DappCon**](https://www.dappcon.io/)  
