@@ -56,7 +56,7 @@ Aragon team has the right and responsibility to remove, edit, or reject comments
 
 ### Reporting
 
-If you are being harassed by a member of the Aragon community, notice that someone else is being harassed, or have any other concerns, please contact Aragon team members `@light` or `@tatu` at [Aragon Chat](https://aragon.chat). If the person who is harassing you is on the team, they will recuse themselves from handling your incident. We will respond as promptly as possible.
+If you are being harassed by a member of the Aragon community, notice that someone else is being harassed, or have any other concerns, please contact Aragon Chat admins `@light` or `@tatu` at [Aragon Chat](https://aragon.chat). If the person who is harassing you is one of these admins, they will recuse themselves from handling your incident. We will respond as promptly as possible.
 
 This code of conduct applies to Aragon community spaces, but if you are being harassed by a member of Aragon community or team member outside of our spaces, we still want to know about it. We will take all good-faith reports of harassment by Aragon community or team members seriously. This includes harassment outside of our spaces and harassment that took place at any point in time. The team reserves the right to exclude people from the Aragon community at their discretion, based on their past behavior, including behavior outside Aragon spaces and behavior towards people who are not in the Aragon community.
 

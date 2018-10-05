@@ -167,14 +167,14 @@ Here we have compiled resources and guides for press and media to use when refer
 
 ## Team
 
-### Luis Cuende - Co-Founder & Project Lead at Aragon
+### Luis Cuende - Aragon Project Co-Founder & CEO of Aragon One
 > Luis has been awarded as the best underage European programmer in 2011, is a [Forbes 30 Under 30](https://www.forbes.com/30-under-30-europe-2016/technology/#6662a3e4a4b3), a [MIT TR35](http://www.innovatorsunder35.com/innovator/luis-cuende) and was an Advisor to the VP of the European Commission.
 
-> He cofounded the blockchain startup [Stampery](https://stampery.com/). Prior to founding startups, he created the world's first Linux distribution with facelogin.
+> He cofounded the blockchain startup [Stampery](https://stampery.com/). Prior to founding startups, he created the world's first Linux distribution with facelogin. Advisor to a few crypto projects that awake his curiosity.
 
 ![](press-kit/team/Luis_Aragon_Project_Lead.jpg)
 
-### Jorge Izquierdo - Co-Founder & Tech Lead at Aragon
+### Jorge Izquierdo - Aragon Project Co-Founder & CTO of Aragon One
 > Curious hacker, creator of multiple apps for iOS and macOS. Reached App Store's #2. Always tinkering with new tech. Named as a [2017 class of Thiel Fellows](https://www.businesswire.com/news/home/20170616005607/en).
 
 > Already convinced about the decentralized future of the Internet, he has been building toy projects such as a [mesh network](http://github.com/izqui/net) or a small [blockchain implementation](http://github.com/izqui/blockchain) since 2014.

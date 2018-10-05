@@ -8,7 +8,7 @@ This wiki for the Aragon Project contains much of the content and resources avai
 
 If you feel like contributing to the wiki, like changing or adding things, feel free to create an [Issue](https://github.com/aragon/aragon-wiki/issues) or submit a [Pull Request](https://github.com/aragon/aragon-wiki/pulls) at [https://github.com/aragon/aragon-wiki](https://github.com/aragon/aragon-wiki).
 
-For our website visit [aragon.one](https://aragon.one).
+For our website visit [aragon.org](https://aragon.org).
 
 ## **What does the wiki contain?**
 You can use the menu to the left to navigate the wiki. Here is a brief summary of the contents:
@@ -167,6 +167,8 @@ Experimenting with new governance models has been a very risky endeavour during 
 
 Aragon Chat - [https://aragon.chat](https://aragon.chat)
 
+Aragon Research Forum - [https://research.aragon.org](https://research.aragon.org)
+
 Reddit - [https://www.reddit.com/r/aragonproject/](https://www.reddit.com/r/aragonproject/)
 
 Twitter - [https://twitter.com/aragonproject](https://twitter.com/aragonproject)
@@ -191,7 +193,7 @@ For more context, we've published three blog posts about why it makes sense to [
 
 <img src="design/logo/aragon_one/png/aragon-one-lineart-black-transparent.png" style="width:75%">
 
-> [Aragon One](http://blog.aragon.one/introducing-aragon-one-b14dd804c5ce/) is one of the development teams working on Aragon. [Aragon One](https://aragon.one/) is a for-profit company that encompasses the foundational team working on the [Aragon Project](https://aragon.org). The company is currently established in Switzerland, although we want it to function as a DAO as much as possible.
+> [Aragon One](http://blog.aragon.one/introducing-aragon-one-b14dd804c5ce/) is one of the development teams working on Aragon. [Aragon One](https://aragon.one/) is a company that encompasses the foundational team working on the [Aragon Project](https://aragon.org). The company is currently established in Switzerland, although we want it to function as a DAO as much as possible.
 
 > We want Aragon One to be a small team, with high-bandwidth and trust between individuals. Keeping the team small will help us prevent many of the problems that arise when growing too much and too fast.
 

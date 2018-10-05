@@ -1,8 +1,8 @@
-# [wiki.aragon.one](https://wiki.aragon.one/)
+# [wiki.aragon.org](https://wiki.aragon.org/) <img align="right" src="https://github.com/aragon/design/blob/master/readme-logo.png" height="80px" />
 
-## This wiki for the Aragon Project contains much of the content and resources available publicly.
+## This wiki for the Aragon Project contains much of the content and resources available publicly
 
-If you feel like contributing to the wiki, like changing or adding things, feel free to submit a [Pull Request](https://github.com/aragon/aragon-wiki/pulls).
+If you feel like contributing to the wiki, like changing or adding things, feel free to check out the [open Issues](https://github.com/aragon/aragon-wiki/issues) and submit a [Pull Request](https://github.com/aragon/aragon-wiki/pulls).
 
 ## Current versions used:
 [MKDocs version 0.17.3](http://www.mkdocs.org/about/release-notes/)
@@ -18,7 +18,7 @@ If you feel like contributing to the wiki, like changing or adding things, feel 
 
 - Install [MkDocs](http://www.mkdocs.org/)
   - Install mkdocs-material using Python, `pip install mkdocs-material`
-- Clone the repo with `git clone {repo_url} --recursive`
+- Clone the repo with `git clone https://github.com/aragon/aragon-wiki.git`
 - In the `aragon-wiki` directory, run `mkdocs serve`
 - Open [http://localhost:8000/](http://localhost:8000/) in your browser
 

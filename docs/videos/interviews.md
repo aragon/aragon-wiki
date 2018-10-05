@@ -1,5 +1,7 @@
 # Aragon Interview Videos
 
+## [**On-Chain Governance Panel**](https://beta.kauri.io/article/cdbfafd32fcc4bcbaa08f0abb6372316/v2/on-chain-governance-panel) at [**ETHBerlin**](https://ethberlin.com)
+
 ## [**Blockchain Summit 2018 - Governance Panel**](https://www.youtube.com/watch?v=l57wqUIy37Q) at [**Blockchain Summit 2018**](https://blockchainsummit.ch/)
 
 ## [**CogX 2018 - Governance of Projects, Organisations, and States**](https://www.youtube.com/watch?v=kdtopZuv84k) at [**CogX 2018**](https://cogx.co/)
@@ -15,6 +17,8 @@
 ## [**FLOSSWEEKLY #467: Aragon**](https://twit.tv/shows/floss-weekly/episodes/467)
 
 ## [**District Digest - Luke Duncan from Aragon**](https://www.youtube.com/watch?v=xGJN9wIJrM4)
+
+## [**Creating a Humanist Blockchain Future #21 - Luis Cuende, Aragon**](https://www.youtube.com/watch?v=U-Sp3jQ4WJg)
 
 ## [**Aragon's Luis Cuende interview with Cheddar from the NYSE trading floor**](https://www.youtube.com/watch?v=3ccZO5wQ2WQ)
 

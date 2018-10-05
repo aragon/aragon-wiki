@@ -1,5 +1,9 @@
 # Aragon Presentation Videos
 
+## [**True Decentralization**](https://beta.kauri.io/article/57841346d25b491fafa55b837ae5ece5/v1/true-decentralization)
+by Luis Cuende at [**ETHBerlin**](https://ethberlin.com/)  
+[Slides of the presentation](https://github.com/ethberlin-hackathon/Talks-presentations/blob/master/resources/true-decentralization/True-decentralization_Luis-Cuende_Aragon.pdf)
+
 ## [**Building Modular Organizations**](https://www.youtube.com/watch?v=Zpu8tvCCpNQ)
 by Brett Sun at [**DappCon**](https://www.dappcon.io/)  
 [Slides of the presentation](../documentation/slides/Aragon_DappCon.pdf)
@@ -20,7 +24,7 @@ by Jorge Izquierdo and Luke Duncan at [**ETHBuenosAires**](https://ethbuenosaire
 [Slides of the presentation](../documentation/slides/EthBAWorkshop.pdf)
 
 ## [**ETHBuenosAires Keynote: Aragon - Luis Cuende**](https://www.youtube.com/watch?v=nwq5d1zeGjk&t=86s)
-by Luis Cuende at [**ETHBuenosAires**](https://ethbuenosaires.com/)
+by Luis Cuende at [**ETHBuenosAires**](https://ethbuenosaires.com/)  
 [Slides of the presentation](../documentation/slides/ETHBA.pdf)
 
 ## [**SFCDEVs Presents: Nelly Mensah interviews the Aragon Team**](https://www.youtube.com/watch?v=ZAqmkrLH-JQ)
@@ -35,11 +39,11 @@ by Luis Cuende at [**Web3 UX Unconference**](https://www.youtube.com/channel/UC5
 [Slides of the presentation](../documentation/slides/Web3_UX_unconf.pdf)
 
 ## [**Creating a Democratic Decentralized Blockchain Organization in 10 minutes**](https://www.youtube.com/watch?v=0G2jwV4XK54)
-by Luis Cuende at [**WeAreDevelopers World Congress 2018**](https://www.wearedevelopers.com/)
+by Luis Cuende at [**WeAreDevelopers World Congress 2018**](https://www.wearedevelopers.com/)  
 [Slides of the presentation](../documentation/slides/WeAreDevs.pdf)
 
 ## [**Experimenting with Governance at the Speed of Software**](https://youtu.be/zuPGYkDUx7E?t=3h52m18s)
-by Luis Cuende at [**Blockchain Summit - Crypto Valley 2018**](https://blockchainsummit.ch/events/zug-2018)
+by Luis Cuende at [**Blockchain Summit - Crypto Valley 2018**](https://blockchainsummit.ch/events/zug-2018)  
 [Slides of the presentation](../documentation/slides/Blockchain_Summit.pdf)
 
 ## [**Ethereum Community Tour Asia: Japan - Aragon**](https://www.youtube.com/watch?v=DfHlspnVEkE)
