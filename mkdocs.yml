@@ -102,7 +102,7 @@ pages:
         - Overview: 'videos/dev.md' 
         - Notes template: 'videos/template.md'
         - Running the call: 'videos/running_all_devs.md'
-        - Agendas:
+        - Meeting notes:
           -
     - Interviews: 'videos/interviews.md'
     - Presentations: 'videos/presentations.md'
