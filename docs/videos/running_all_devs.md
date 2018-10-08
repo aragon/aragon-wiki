@@ -10,7 +10,7 @@ Create a draft notes file titled “alldevs[date].md”, with the date of the ne
 
 ## Step 2. Review proposed agenda items
  - Check alldevs email address throughout the week for proposed agenda items. Review proposed items and respond with [accepted](all_devs_accepted.md) or [rejected](all_devs_rejected.md) templates.
- - Add approved agenda items and the email addresses of agenda item owners to this meeting’s “Agenda + Guest Participants for [date]” email, replacing [date] with the date of the meeting.
+ - Add approved agenda items and the email addresses of agenda item owners to a draft email titled “Agenda + Guest Participants for [date]”, replacing [date] with the date of the meeting.
   - Add approved agenda items to the next call’s agenda in the file created in Step 1.
 
 ## Step 3. Prepare for the livestream
@@ -19,8 +19,8 @@ Fifteen minutes before scheduled to begin:
 - Create notes document with permission for anyone to write.
   - Paste link to the notes document in the Jitsi chat. 
 - Send calendar invite to all participants
-  - Copy emails from “repeat participant” list.
-  - Copy guest participants email from “Agenda + Guest Participants for [date]” email.
+  - Add email addresses from “repeat participant” list.
+  - Add guest email addresses from “Agenda + Guest Participants for [date]” draft email.
   - Add to event description:
     - Unique link to Jitsi channel.
     - Link to the draft notes file created in Step 1.
