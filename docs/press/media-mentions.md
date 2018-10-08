@@ -110,6 +110,9 @@
 
 ## Audio Interviews
 
+### [SE Daily: How Aragon Manages DAOs with Luis Cuende](https://softwareengineeringdaily.com/2018/03/08/how-aragon-manages-daos-with-luis-cuende/)
+> Aragon is a platform for running and managing decentralized autonomous organizations. Luis Cuende is the founder of Aragon, and joins the show to explain what a DAO is and why people want to create them. We also talk about the engineering of Aragon and the structure of its ICO—which raised $25m via token sale.
+
 ### [The Blockchain and Us | Luis Cuende – How Digital Jurisdictions Help Us Escape 1984 and Take Back Control](https://theblockchainandus.com/luis-cuende/)
 > Luis Cuende speaks about the inspiration for his startup Aragon, raising over $100 million in his ICO, how he plans to create a digital jurisdiction that isn’t bound to the borders of a single country, how governments manipulate citizens, how he explains the need for digital worlds, which narratives inspire people to reclaim their freedom, societal challenges in the Western world, why jobs are a thing of the past, why he thinks governments should try universal basic income, how blockchains could restrict the power of governments, why he thinks borders create racism, how decentralization on blockchains could create value, the evils of social media, how decentralized systems can avoid the path of social media, why George Orwell’s 1984 is real and what helped this happen, why many people have lost hope, why few digital natives understand the vision of decentralization, and many other things.
 

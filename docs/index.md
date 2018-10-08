@@ -203,7 +203,7 @@ For more context, we've published three blog posts about why it makes sense to [
 
 - **CEO / Chief Executive Officer**: [Luis Cuende](https://twitter.com/licuende)
 
-> Luis has been awarded as the best underage European programmer in 2011, is a [Forbes 30 Under 30](https://www.forbes.com/30-under-30-europe-2016/technology/#6662a3e4a4b3), a [MIT TR35](https://www.innovatorsunder35.com/innovator/luis-cuende) and was an Advisor to the VP of the European Commission.
+> Luis has been awarded as the best underage European programmer in 2011, is a [Forbes 30 Under 30](https://www.forbes.com/30-under-30-europe-2016/technology/#6662a3e4a4b3), a [MIT TR35](https://www.innovatorsunder35.com/the-list/luis-cuende/) and was an Advisor to the VP of the European Commission.
 
 > He cofounded the blockchain startup [Stampery](https://stampery.com/). Prior to founding startups, he created the world's first Linux distribution with facelogin.
 
