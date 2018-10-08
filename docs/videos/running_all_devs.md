@@ -14,25 +14,24 @@ Create a draft notes file titled “alldevs[date].md”, with the date of the ne
   - Add approved agenda items to the next call’s agenda in the file created in Step 1.
 
 ## Step 3. Prepare for the livestream
-Ten mins before scheduled to begin. 
+Fifteen minutes before scheduled to begin:
 - Create [Jitsi](https://meet.jit.si) channel with unique link.
 - Create notes document with permission for anyone to write.
-  - Paste link to the notes document in the Jitsi chat.
-
-Five mins before scheduled to begin. 
-- Send email with all participants bcc’d.
-  - bcc “repeat participant” list.
-  - bcc guest participants from “Agenda + Guest Participants for [date]” email.
-  - Include in email:
+  - Paste link to the notes document in the Jitsi chat. 
+- Send calendar invite to all participants
+  - Copy emails from “repeat participant” list.
+  - Copy guest participants email from “Agenda + Guest Participants for [date]” email.
+  - Add to event description:
     - Unique link to Jitsi channel.
     - Link to the draft notes file created in Step 1.
 
-Open Youtube and copy the Livestream key.
+Open Youtube with the Aragon account and copy the Livestream key.
  - Creator Studio -> Livestreaming -> Stream now -> Stream name/key.
 
 ## Step 4. Running the livestream
 
 Start livestream in Jitsi when the meeting is scheduled to start.
+- More actions menu button -> Start livestream
 
 Welcome viewers and participants on the call. “Before we begin..” Designate a note taker if one has not volunteered already. Tell everyone on the call that a link to the notes is in the Jitsi chat, and anyone is welcome to add notes as well.
  - Document meeting attendees, agenda items, notes from discussions.
