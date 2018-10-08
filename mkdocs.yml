@@ -105,6 +105,7 @@ pages:
       - All Core Devs:
         - Overview: 'videos/dev.md'
         - Notes template: 'videos/template.md'
+        - Meeting notes:
     - Interviews: 'videos/interviews.md'
     - Presentations: 'videos/presentations.md'
   - Press:
