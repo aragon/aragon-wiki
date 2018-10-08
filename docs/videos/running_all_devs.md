@@ -1,17 +1,17 @@
 # Running the All Core Devs call
 
-## Step 1. Create draft agenda for the next call
+## Step 1. Create draft notes file for the next call
 Note: After the first All Core Devs call, this step should be performed right after the call.
 
-Create a draft agenda file titled “alldevs[date].md”, with the date of the next call in YYYYMMDD format e.g. alldevs20181008.md.
+Create a draft notes file titled “alldevs[date].md”, with the date of the next call in YYYYMMDD format e.g. alldevs20181008.md.
 - Use the template at https://wiki.aragon.org/videos/template/ and add the agenda to the "Agenda" section.
-- Update the mkdocs.yml file of the wiki with a relative link to the file under the Videos > Meetings > All Core Devs > Agendas section.   
-- Add link to the agenda under the "Next meeting agenda" section of the [Overview](dev.md) page in the wiki. Overwrite the previous link if there is one.
+- Update the mkdocs.yml file of the wiki with a relative link to the file under the Videos > Meetings > All Core Devs > Meeting notes section.   
+- Add link to the notes file under the "Next meeting agenda" section of the [Overview](dev.md) page in the wiki. Overwrite the previous link if there is one.
 
 ## Step 2. Review proposed agenda items
  - Check alldevs email address throughout the week for proposed agenda items. Review proposed items and respond with [accepted](all_devs_accepted.md) or [rejected](all_devs_rejected.md) templates.
  - Add approved agenda items and the email addresses of agenda item owners to this meeting’s “Agenda + Guest Participants for [date]” email, replacing [date] with the date of the meeting.
-  - Add approved agenda items to the next call’s agenda in the wiki.
+  - Add approved agenda items to the next call’s agenda in the file created in Step 1.
 
 ## Step 3. Prepare for the livestream
 Ten mins before scheduled to begin. 
@@ -25,7 +25,7 @@ Five mins before scheduled to begin.
   - bcc guest participants from “Agenda + Guest Participants for [date]” email.
   - Include in email:
     - Unique link to Jitsi channel.
-    - Link to the agenda.
+    - Link to the draft notes file created in Step 1.
 
 Open Youtube and copy the Livestream key.
  - Creator Studio -> Livestreaming -> Stream now -> Stream name/key.
@@ -49,7 +49,7 @@ Thank participants and viewers for attending, then stop the livestream.
 
 ## Step 5. Post-livestream follow-up
 
-Copy+paste the notes and video recording link to the agenda page in the wiki. Fill out each empty/ default section accordingly.
+Copy+paste the notes and video recording link to the call notes file created in Step 1. Fill out each empty/ default section accordingly.
 
 Go into the YouTube Creator Studio > Video Manager > Videos, click the arrow button next to the call video, and click "Download MP4". Upload the video file to the Aragon Foundation cloud storage instance for backup.
 
