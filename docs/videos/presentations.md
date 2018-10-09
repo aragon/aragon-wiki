@@ -1,5 +1,8 @@
 # Aragon Presentation Videos
 
+## [**DAOs are the New Order**](../documentation/slides/DAOs-are-the-New-Order_Luis-Cuende.pdf)
+by Luis Cuende at [**HCPP 2018**](https://neworder.hcpp.cz/)
+
 ## [**True Decentralization**](https://youtu.be/z9_DcXKC-Cs)
 by Luis Cuende at [**ETHBerlin**](https://ethberlin.com/)  
 [Slides of the presentation](../documentation/slides/True-decentralization_Luis-Cuende_Aragon.pdf)
@@ -77,6 +80,3 @@ by Jorge Izquierdo at [**Devcon3**](https://ethereumfoundation.org/devcon3/)
 
 ## [**Governance: Main challenges and 3 possible models**](../documentation/slides/M0.pdf)
 by Luis Cuende at [**M-0**](https://m-0.melonport.com/)
-
-## [**DAOs are the New Order**](../documentation/slides/DAOs-are-the-New-Order_Luis-Cuende.pdf)
-by Luis Cuende at [**HCPP 2018**](https://neworder.hcpp.cz/)
