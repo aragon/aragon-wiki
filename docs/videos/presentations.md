@@ -1,5 +1,8 @@
 # Aragon Presentation Videos
 
+## [**DAOs are the New Order**](../documentation/slides/DAOs-are-the-New-Order_Luis-Cuende.pdf)
+by Luis Cuende at [**HCPP 2018**](https://neworder.hcpp.cz/)
+
 ## [**True Decentralization**](https://youtu.be/z9_DcXKC-Cs)
 by Luis Cuende at [**ETHBerlin**](https://ethberlin.com/)  
 [Slides of the presentation](../documentation/slides/True-decentralization_Luis-Cuende_Aragon.pdf)
