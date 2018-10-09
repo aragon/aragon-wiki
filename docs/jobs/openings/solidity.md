@@ -1,4 +1,4 @@
-# Senior Solidity/EVM/Ethereum opening at Aragon One
+# Solidity/EVM Engineer opening at Aragon One
 
 We are looking for an Ethereum expert to work with us on [Aragon Core](https://github.com/aragon/aragonOS) and the upcoming [Aragon Network](https://github.com/aragon/whitepaper/raw/master/Aragon%20Whitepaper.pdf).
 
@@ -15,10 +15,6 @@ We are looking for an Ethereum expert to work with us on [Aragon Core](https://g
 - Interest and knowledge in **cryptoeconomics**.
 - Experience contributing or managing **open source projects**.
 - Very good **written communication** skills.
-
-### Extra
-
-- We will **reward referrals** for successful hires up to **10% of the first yearly salary**. This would be done with a vesting type smart contract that would be voided in case the hire leaves the organization.
 
 ### How to apply
 
