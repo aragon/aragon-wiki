@@ -2,687 +2,682 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
      <loc>https://wiki.aragon.org/</loc>
-     <lastmod>2018-10-09</lastmod>
+     <lastmod>2018-10-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://wiki.aragon.org/documentation/glossary/</loc>
-     <lastmod>2018-10-09</lastmod>
+     <lastmod>2018-10-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://wiki.aragon.org/documentation/whitepaper/</loc>
-     <lastmod>2018-10-09</lastmod>
+     <lastmod>2018-10-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://wiki.aragon.org/documentation/governance/</loc>
-     <lastmod>2018-10-09</lastmod>
+     <lastmod>2018-10-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://wiki.aragon.org/documentation/manifesto/</loc>
-     <lastmod>2018-10-09</lastmod>
+     <lastmod>2018-10-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://wiki.aragon.org/documentation/multisigs/overview/</loc>
-     <lastmod>2018-10-09</lastmod>
+     <lastmod>2018-10-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://wiki.aragon.org/documentation/multisigs/foundation/</loc>
-     <lastmod>2018-10-09</lastmod>
+     <lastmod>2018-10-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://wiki.aragon.org/documentation/multisigs/community/</loc>
-     <lastmod>2018-10-09</lastmod>
+     <lastmod>2018-10-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://wiki.aragon.org/documentation/Development_Plan/</loc>
-     <lastmod>2018-10-09</lastmod>
+     <lastmod>2018-10-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://wiki.aragon.org/documentation/Code_of_Conduct/</loc>
-     <lastmod>2018-10-09</lastmod>
+     <lastmod>2018-10-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://wiki.aragon.org/documentation/event_policy/</loc>
-     <lastmod>2018-10-09</lastmod>
+     <lastmod>2018-10-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://wiki.aragon.org/documentation/legal/Licenses/</loc>
-     <lastmod>2018-10-09</lastmod>
+     <lastmod>2018-10-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://wiki.aragon.org/documentation/legal/CLA/</loc>
-     <lastmod>2018-10-09</lastmod>
+     <lastmod>2018-10-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://wiki.aragon.org/documentation/legal/Trademark_policy/</loc>
-     <lastmod>2018-10-09</lastmod>
+     <lastmod>2018-10-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://wiki.aragon.org/documentation/legal/Terms_of_use_websites/</loc>
-     <lastmod>2018-10-09</lastmod>
+     <lastmod>2018-10-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://wiki.aragon.org/documentation/legal/Privacy_policy/</loc>
-     <lastmod>2018-10-09</lastmod>
+     <lastmod>2018-10-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://wiki.aragon.org/documentation/audits/audit01_report_dossa/</loc>
-     <lastmod>2018-10-09</lastmod>
+     <lastmod>2018-10-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://wiki.aragon.org/documentation/audits/audit_internal_sun/</loc>
-     <lastmod>2018-10-09</lastmod>
+     <lastmod>2018-10-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://wiki.aragon.org/documentation/audits/audit_whg01_report/</loc>
-     <lastmod>2018-10-09</lastmod>
+     <lastmod>2018-10-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://wiki.aragon.org/projects/</loc>
-     <lastmod>2018-10-09</lastmod>
+     <lastmod>2018-10-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://wiki.aragon.org/dev/</loc>
-     <lastmod>2018-10-09</lastmod>
+     <lastmod>2018-10-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://wiki.aragon.org/dev/apps/</loc>
-     <lastmod>2018-10-09</lastmod>
+     <lastmod>2018-10-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://wiki.aragon.org/dev/apps/voting/</loc>
-     <lastmod>2018-10-09</lastmod>
+     <lastmod>2018-10-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://wiki.aragon.org/dev/apps/token-manager/</loc>
-     <lastmod>2018-10-09</lastmod>
+     <lastmod>2018-10-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://wiki.aragon.org/dev/apps/fundraising/</loc>
-     <lastmod>2018-10-09</lastmod>
+     <lastmod>2018-10-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://wiki.aragon.org/dev/apps/vault/</loc>
-     <lastmod>2018-10-09</lastmod>
+     <lastmod>2018-10-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://wiki.aragon.org/dev/apps/finance/</loc>
-     <lastmod>2018-10-09</lastmod>
+     <lastmod>2018-10-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://wiki.aragon.org/dev/security_disclosure/</loc>
-     <lastmod>2018-10-09</lastmod>
+     <lastmod>2018-10-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://wiki.aragon.org/tutorials/Aragon_Core_User_Guide/</loc>
-     <lastmod>2018-10-09</lastmod>
+     <lastmod>2018-10-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://wiki.aragon.org/tutorials/DAO_Workshop_Testnet_by_joselfgaray/</loc>
-     <lastmod>2018-10-09</lastmod>
+     <lastmod>2018-10-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://wiki.aragon.org/tutorials/Status_Open_Bounty_Guide/</loc>
-     <lastmod>2018-10-09</lastmod>
+     <lastmod>2018-10-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://wiki.aragon.org/design/</loc>
-     <lastmod>2018-10-09</lastmod>
+     <lastmod>2018-10-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://wiki.aragon.org/design/logo/</loc>
-     <lastmod>2018-10-09</lastmod>
+     <lastmod>2018-10-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://wiki.aragon.org/design/powered_by_aragon/</loc>
-     <lastmod>2018-10-09</lastmod>
+     <lastmod>2018-10-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://wiki.aragon.org/design/artwork/</loc>
-     <lastmod>2018-10-09</lastmod>
+     <lastmod>2018-10-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://wiki.aragon.org/design/identity_guidelines/</loc>
-     <lastmod>2018-10-09</lastmod>
+     <lastmod>2018-10-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://wiki.aragon.org/design/branding_proposal/</loc>
-     <lastmod>2018-10-09</lastmod>
+     <lastmod>2018-10-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://wiki.aragon.org/design/merch/</loc>
-     <lastmod>2018-10-09</lastmod>
+     <lastmod>2018-10-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://wiki.aragon.org/jobs/</loc>
-     <lastmod>2018-10-09</lastmod>
+     <lastmod>2018-10-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://wiki.aragon.org/jobs/openings/web3/</loc>
-     <lastmod>2018-10-09</lastmod>
+     <lastmod>2018-10-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://wiki.aragon.org/jobs/openings/frontend/</loc>
-     <lastmod>2018-10-09</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    <url>
-     <loc>https://wiki.aragon.org/jobs/openings/web/</loc>
-     <lastmod>2018-10-09</lastmod>
+     <lastmod>2018-10-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://wiki.aragon.org/jobs/openings/dev-ops/</loc>
-     <lastmod>2018-10-09</lastmod>
+     <lastmod>2018-10-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://wiki.aragon.org/jobs/openings/solidity/</loc>
-     <lastmod>2018-10-09</lastmod>
+     <lastmod>2018-10-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://wiki.aragon.org/jobs/openings/technical-writer/</loc>
-     <lastmod>2018-10-09</lastmod>
+     <lastmod>2018-10-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://wiki.aragon.org/jobs/openings/dev_rel/</loc>
-     <lastmod>2018-10-09</lastmod>
+     <lastmod>2018-10-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://wiki.aragon.org/jobs/openings/ui-developer-contract/</loc>
-     <lastmod>2018-10-09</lastmod>
+     <lastmod>2018-10-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://wiki.aragon.org/jobs/openings/DAC-Technical_Writer/</loc>
-     <lastmod>2018-10-09</lastmod>
+     <lastmod>2018-10-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://wiki.aragon.org/jobs/openings/DAC-UX_Designer/</loc>
-     <lastmod>2018-10-09</lastmod>
+     <lastmod>2018-10-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://wiki.aragon.org/jobs/openings/DAC-Project_Manager/</loc>
-     <lastmod>2018-10-09</lastmod>
+     <lastmod>2018-10-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://wiki.aragon.org/blog/2018/</loc>
-     <lastmod>2018-10-09</lastmod>
+     <lastmod>2018-10-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://wiki.aragon.org/blog/2017/</loc>
-     <lastmod>2018-10-09</lastmod>
+     <lastmod>2018-10-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://wiki.aragon.org/blog/A1/2018/</loc>
-     <lastmod>2018-10-09</lastmod>
+     <lastmod>2018-10-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://wiki.aragon.org/videos/tutorials/</loc>
-     <lastmod>2018-10-09</lastmod>
+     <lastmod>2018-10-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://wiki.aragon.org/videos/community/</loc>
-     <lastmod>2018-10-09</lastmod>
+     <lastmod>2018-10-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://wiki.aragon.org/videos/dev/</loc>
-     <lastmod>2018-10-09</lastmod>
+     <lastmod>2018-10-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://wiki.aragon.org/videos/template/</loc>
-     <lastmod>2018-10-09</lastmod>
+     <lastmod>2018-10-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://wiki.aragon.org/videos/interviews/</loc>
-     <lastmod>2018-10-09</lastmod>
+     <lastmod>2018-10-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://wiki.aragon.org/videos/presentations/</loc>
-     <lastmod>2018-10-09</lastmod>
+     <lastmod>2018-10-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://wiki.aragon.org/press/press-kit/</loc>
-     <lastmod>2018-10-09</lastmod>
+     <lastmod>2018-10-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://wiki.aragon.org/press/media-mentions/</loc>
-     <lastmod>2018-10-09</lastmod>
+     <lastmod>2018-10-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://wiki.aragon.org/nest/</loc>
-     <lastmod>2018-10-09</lastmod>
+     <lastmod>2018-10-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://wiki.aragon.org/archive/documentation/aragonOS_201/</loc>
-     <lastmod>2018-10-09</lastmod>
+     <lastmod>2018-10-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://wiki.aragon.org/archive/documentation/agp5/RocketChat/</loc>
-     <lastmod>2018-10-09</lastmod>
+     <lastmod>2018-10-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://wiki.aragon.org/archive/documentation/agp5/Riot/</loc>
-     <lastmod>2018-10-09</lastmod>
+     <lastmod>2018-10-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://wiki.aragon.org/archive/meetings/hq/01/</loc>
-     <lastmod>2018-10-09</lastmod>
+     <lastmod>2018-10-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://wiki.aragon.org/archive/meetings/hq/02/</loc>
-     <lastmod>2018-10-09</lastmod>
+     <lastmod>2018-10-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://wiki.aragon.org/archive/meetings/hq/03/</loc>
-     <lastmod>2018-10-09</lastmod>
+     <lastmod>2018-10-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://wiki.aragon.org/archive/meetings/dev/01/</loc>
-     <lastmod>2018-10-09</lastmod>
+     <lastmod>2018-10-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://wiki.aragon.org/archive/meetings/dev/02/</loc>
-     <lastmod>2018-10-09</lastmod>
+     <lastmod>2018-10-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://wiki.aragon.org/meetings/community/11/</loc>
-     <lastmod>2018-10-09</lastmod>
+     <lastmod>2018-10-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://wiki.aragon.org/meetings/community/10/</loc>
-     <lastmod>2018-10-09</lastmod>
+     <lastmod>2018-10-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://wiki.aragon.org/meetings/community/write-ups/cm10/alexa/</loc>
-     <lastmod>2018-10-09</lastmod>
+     <lastmod>2018-10-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://wiki.aragon.org/meetings/community/write-ups/cm10/bingen/</loc>
-     <lastmod>2018-10-09</lastmod>
+     <lastmod>2018-10-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://wiki.aragon.org/meetings/community/write-ups/cm10/brett/</loc>
-     <lastmod>2018-10-09</lastmod>
+     <lastmod>2018-10-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://wiki.aragon.org/meetings/community/write-ups/cm10/chris/</loc>
-     <lastmod>2018-10-09</lastmod>
+     <lastmod>2018-10-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://wiki.aragon.org/meetings/community/write-ups/cm10/john/</loc>
-     <lastmod>2018-10-09</lastmod>
+     <lastmod>2018-10-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://wiki.aragon.org/meetings/community/write-ups/cm10/jorge/</loc>
-     <lastmod>2018-10-09</lastmod>
+     <lastmod>2018-10-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://wiki.aragon.org/meetings/community/write-ups/cm10/jouni/</loc>
-     <lastmod>2018-10-09</lastmod>
+     <lastmod>2018-10-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://wiki.aragon.org/meetings/community/write-ups/cm10/luis/</loc>
-     <lastmod>2018-10-09</lastmod>
+     <lastmod>2018-10-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://wiki.aragon.org/meetings/community/write-ups/cm10/luke/</loc>
-     <lastmod>2018-10-09</lastmod>
+     <lastmod>2018-10-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://wiki.aragon.org/meetings/community/write-ups/cm10/maria/</loc>
-     <lastmod>2018-10-09</lastmod>
+     <lastmod>2018-10-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://wiki.aragon.org/meetings/community/write-ups/cm10/oliver/</loc>
-     <lastmod>2018-10-09</lastmod>
+     <lastmod>2018-10-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://wiki.aragon.org/meetings/community/write-ups/cm10/pierre/</loc>
-     <lastmod>2018-10-09</lastmod>
+     <lastmod>2018-10-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://wiki.aragon.org/meetings/community/write-ups/cm10/tatu/</loc>
-     <lastmod>2018-10-09</lastmod>
+     <lastmod>2018-10-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://wiki.aragon.org/meetings/community/09/</loc>
-     <lastmod>2018-10-09</lastmod>
+     <lastmod>2018-10-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://wiki.aragon.org/meetings/community/write-ups/cm09/alexa/</loc>
-     <lastmod>2018-10-09</lastmod>
+     <lastmod>2018-10-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://wiki.aragon.org/meetings/community/write-ups/cm09/bingen/</loc>
-     <lastmod>2018-10-09</lastmod>
+     <lastmod>2018-10-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://wiki.aragon.org/meetings/community/write-ups/cm09/brett/</loc>
-     <lastmod>2018-10-09</lastmod>
+     <lastmod>2018-10-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://wiki.aragon.org/meetings/community/write-ups/cm09/john/</loc>
-     <lastmod>2018-10-09</lastmod>
+     <lastmod>2018-10-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://wiki.aragon.org/meetings/community/write-ups/cm09/jorge/</loc>
-     <lastmod>2018-10-09</lastmod>
+     <lastmod>2018-10-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://wiki.aragon.org/meetings/community/write-ups/cm09/jouni/</loc>
-     <lastmod>2018-10-09</lastmod>
+     <lastmod>2018-10-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://wiki.aragon.org/meetings/community/write-ups/cm09/luis/</loc>
-     <lastmod>2018-10-09</lastmod>
+     <lastmod>2018-10-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://wiki.aragon.org/meetings/community/write-ups/cm09/luke/</loc>
-     <lastmod>2018-10-09</lastmod>
+     <lastmod>2018-10-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://wiki.aragon.org/meetings/community/write-ups/cm09/maria/</loc>
-     <lastmod>2018-10-09</lastmod>
+     <lastmod>2018-10-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://wiki.aragon.org/meetings/community/write-ups/cm09/oliver/</loc>
-     <lastmod>2018-10-09</lastmod>
+     <lastmod>2018-10-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://wiki.aragon.org/meetings/community/write-ups/cm09/pierre/</loc>
-     <lastmod>2018-10-09</lastmod>
+     <lastmod>2018-10-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://wiki.aragon.org/meetings/community/write-ups/cm09/tatu/</loc>
-     <lastmod>2018-10-09</lastmod>
+     <lastmod>2018-10-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://wiki.aragon.org/meetings/community/08/</loc>
-     <lastmod>2018-10-09</lastmod>
+     <lastmod>2018-10-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://wiki.aragon.org/meetings/community/write-ups/cm08/alexa/</loc>
-     <lastmod>2018-10-09</lastmod>
+     <lastmod>2018-10-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://wiki.aragon.org/meetings/community/write-ups/cm08/brett/</loc>
-     <lastmod>2018-10-09</lastmod>
+     <lastmod>2018-10-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://wiki.aragon.org/meetings/community/write-ups/cm08/john/</loc>
-     <lastmod>2018-10-09</lastmod>
+     <lastmod>2018-10-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://wiki.aragon.org/meetings/community/write-ups/cm08/jorge/</loc>
-     <lastmod>2018-10-09</lastmod>
+     <lastmod>2018-10-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://wiki.aragon.org/meetings/community/write-ups/cm08/luis/</loc>
-     <lastmod>2018-10-09</lastmod>
+     <lastmod>2018-10-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://wiki.aragon.org/meetings/community/write-ups/cm08/luke/</loc>
-     <lastmod>2018-10-09</lastmod>
+     <lastmod>2018-10-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://wiki.aragon.org/meetings/community/write-ups/cm08/maria/</loc>
-     <lastmod>2018-10-09</lastmod>
+     <lastmod>2018-10-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://wiki.aragon.org/meetings/community/write-ups/cm08/oliver/</loc>
-     <lastmod>2018-10-09</lastmod>
+     <lastmod>2018-10-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://wiki.aragon.org/meetings/community/write-ups/cm08/pierre/</loc>
-     <lastmod>2018-10-09</lastmod>
+     <lastmod>2018-10-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://wiki.aragon.org/meetings/community/write-ups/cm08/tatu/</loc>
-     <lastmod>2018-10-09</lastmod>
+     <lastmod>2018-10-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://wiki.aragon.org/meetings/community/07/</loc>
-     <lastmod>2018-10-09</lastmod>
+     <lastmod>2018-10-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://wiki.aragon.org/meetings/community/write-ups/cm07/alexa/</loc>
-     <lastmod>2018-10-09</lastmod>
+     <lastmod>2018-10-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://wiki.aragon.org/meetings/community/write-ups/cm07/brett/</loc>
-     <lastmod>2018-10-09</lastmod>
+     <lastmod>2018-10-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://wiki.aragon.org/meetings/community/write-ups/cm07/light-cm07/</loc>
-     <lastmod>2018-10-09</lastmod>
+     <lastmod>2018-10-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://wiki.aragon.org/meetings/community/write-ups/cm07/jorge/</loc>
-     <lastmod>2018-10-09</lastmod>
+     <lastmod>2018-10-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://wiki.aragon.org/meetings/community/write-ups/cm07/luis/</loc>
-     <lastmod>2018-10-09</lastmod>
+     <lastmod>2018-10-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://wiki.aragon.org/meetings/community/write-ups/cm07/luke/</loc>
-     <lastmod>2018-10-09</lastmod>
+     <lastmod>2018-10-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://wiki.aragon.org/meetings/community/write-ups/cm07/maria/</loc>
-     <lastmod>2018-10-09</lastmod>
+     <lastmod>2018-10-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://wiki.aragon.org/meetings/community/write-ups/cm07/oliver/</loc>
-     <lastmod>2018-10-09</lastmod>
+     <lastmod>2018-10-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://wiki.aragon.org/meetings/community/write-ups/cm07/pierre/</loc>
-     <lastmod>2018-10-09</lastmod>
+     <lastmod>2018-10-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://wiki.aragon.org/meetings/community/write-ups/cm07/tatu/</loc>
-     <lastmod>2018-10-09</lastmod>
+     <lastmod>2018-10-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://wiki.aragon.org/meetings/community/06/</loc>
-     <lastmod>2018-10-09</lastmod>
+     <lastmod>2018-10-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://wiki.aragon.org/meetings/community/write-ups/cm06/brett/</loc>
-     <lastmod>2018-10-09</lastmod>
+     <lastmod>2018-10-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://wiki.aragon.org/meetings/community/write-ups/cm06/john/</loc>
-     <lastmod>2018-10-09</lastmod>
+     <lastmod>2018-10-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://wiki.aragon.org/meetings/community/write-ups/cm06/jorge/</loc>
-     <lastmod>2018-10-09</lastmod>
+     <lastmod>2018-10-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://wiki.aragon.org/meetings/community/write-ups/cm06/luis/</loc>
-     <lastmod>2018-10-09</lastmod>
+     <lastmod>2018-10-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://wiki.aragon.org/meetings/community/write-ups/cm06/luke/</loc>
-     <lastmod>2018-10-09</lastmod>
+     <lastmod>2018-10-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://wiki.aragon.org/meetings/community/write-ups/cm06/maria/</loc>
-     <lastmod>2018-10-09</lastmod>
+     <lastmod>2018-10-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://wiki.aragon.org/meetings/community/write-ups/cm06/oliver/</loc>
-     <lastmod>2018-10-09</lastmod>
+     <lastmod>2018-10-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://wiki.aragon.org/meetings/community/write-ups/cm06/pierre/</loc>
-     <lastmod>2018-10-09</lastmod>
+     <lastmod>2018-10-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://wiki.aragon.org/meetings/community/write-ups/cm06/tatu/</loc>
-     <lastmod>2018-10-09</lastmod>
+     <lastmod>2018-10-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://wiki.aragon.org/meetings/community/05/</loc>
-     <lastmod>2018-10-09</lastmod>
+     <lastmod>2018-10-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://wiki.aragon.org/meetings/community/04/</loc>
-     <lastmod>2018-10-09</lastmod>
+     <lastmod>2018-10-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://wiki.aragon.org/meetings/community/03/</loc>
-     <lastmod>2018-10-09</lastmod>
+     <lastmod>2018-10-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://wiki.aragon.org/meetings/community/02/</loc>
-     <lastmod>2018-10-09</lastmod>
+     <lastmod>2018-10-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://wiki.aragon.org/meetings/community/01/</loc>
-     <lastmod>2018-10-09</lastmod>
+     <lastmod>2018-10-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://wiki.aragon.org/archive/videos/hq/</loc>
-     <lastmod>2018-10-09</lastmod>
+     <lastmod>2018-10-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://wiki.aragon.org/archive/videos/dev/</loc>
-     <lastmod>2018-10-09</lastmod>
+     <lastmod>2018-10-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
 </urlset>
