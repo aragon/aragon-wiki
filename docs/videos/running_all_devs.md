@@ -13,7 +13,7 @@ Create a draft notes file titled “alldevs[date].md”, with the date of the ne
 
 - Check alldevs email address throughout the week for proposed agenda items. Review proposed items and respond with [accepted](all_devs_accepted.md) or [rejected](all_devs_rejected.md) templates.
 - Add approved agenda items and the email addresses of agenda item owners to a draft email titled “Agenda + Guest Participants for [date]”, replacing [date] with the date of the meeting.
-- Add approved agenda items to the next call’s agenda in the file created in Step 1.
+- Add approved agenda items and the name of their owner to the next call’s agenda in the file created in Step 1.
 
 ## Step 3. Prepare for the livestream
 
