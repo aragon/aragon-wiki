@@ -1,20 +1,36 @@
-# Aragon Presentation Videos
+# Aragon Presentations
 
 ## [**True Decentralization**](https://youtu.be/z9_DcXKC-Cs)
-by Luis Cuende at [**ETHBerlin**](https://ethberlin.com/)  
-[Slides of the presentation](../documentation/slides/True-decentralization_Luis-Cuende_Aragon.pdf)
+
+[![](https://img.youtube.com/vi/z9_DcXKC-Cs/0.jpg)](https://youtu.be/z9_DcXKC-Cs)
+
+!!! info "by Luis Cuende at [**ETHBerlin**](https://ethberlin.com/)"
+    [Slides of the presentation](../documentation/slides/True-decentralization_Luis-Cuende_Aragon.pdf)
+___
 
 ## [**Building Modular Organizations**](https://www.youtube.com/watch?v=Zpu8tvCCpNQ)
-by Brett Sun at [**DappCon**](https://www.dappcon.io/)  
-[Slides of the presentation](../documentation/slides/Aragon_DappCon.pdf)
+
+[![](https://img.youtube.com/vi/Zpu8tvCCpNQ/0.jpg)](https://youtu.be/Zpu8tvCCpNQ)  
+
+!!! info "by Brett Sun at [**DappCon**](https://www.dappcon.io/)"
+    [Slides of the presentation](../documentation/slides/Aragon_DappCon.pdf)
+___
 
 ## [**Developing Decentralized Networks - Aragon**](https://youtu.be/7JxMj8Woylo?t=1h28m44s)
-by Tatu Kärki at [**Helsinki Ethereum Meetup**](https://www.meetup.com/Helsinki-Ethereum-Meetup/)  
-[Slides of the presentation](../documentation/slides/Tatu_Helsinki.pdf)
+
+[![](https://img.youtube.com/vi/7JxMj8Woylo/0.jpg)](https://youtu.be/7JxMj8Woylo?t=1h28m44s)  
+
+!!! info "by Tatu Kärki at [**Helsinki Ethereum Meetup**](https://www.meetup.com/Helsinki-Ethereum-Meetup/)"
+    [Slides of the presentation](../documentation/slides/Tatu_Helsinki.pdf)
+___
 
 ## [**Aragon Dev Meetup at BlueYard - Building upgradeable organizations on the blockchain**](https://www.youtube.com/watch?v=atEnUHLaPE0)
-by Brett Sun at [**BlueYard Capital**](http://blueyard.com/)  
-[Slides of the presentation](../documentation/slides/Aragon_Blueyard.pdf)
+
+[![](https://img.youtube.com/vi/atEnUHLaPE0/0.jpg)](https://youtu.be/atEnUHLaPE0)
+
+!!! info "by Brett Sun at [**BlueYard Capital**](http://blueyard.com/)"
+    [Slides of the presentation](../documentation/slides/Aragon_Blueyard.pdf)
+___
 
 ## [**Gitcoin Livestream #1: Aragon Project**](https://www.youtube.com/watch?v=lpTHw0qRfwM)
 by Tatu Kärki at [**Gitcoin**](https://gitcoin.co/)

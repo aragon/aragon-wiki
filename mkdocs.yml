@@ -1,5 +1,5 @@
-site_name: 'Aragon Wiki'
-site_url: https://wiki.aragon.org
+site_name: 'Aragon Project Wiki'
+site_url: 'https://wiki.aragon.org'
 repo_name: 'aragon/aragon-wiki'
 repo_url: 'https://github.com/aragon/aragon-wiki'
 site_description: 'Wiki for the Aragon Project'
@@ -13,36 +13,79 @@ theme:
       code: 'Overpass Mono'
   logo: 'images/logo.svg'
   favicon: 'images/favicon.ico'
+  feature:
+    tabs: true
+markdown_extensions:
+    - footnotes
+    - admonition
+    - pymdownx.arithmatex
+    - pymdownx.betterem:
+        smart_enable: all
+    - pymdownx.caret
+    - pymdownx.critic
+    - pymdownx.details
+    - pymdownx.inlinehilite
+    - pymdownx.magiclink:
+        social_url_shorthand: true
+        repo_url_shorthand: true
+        repo_url_shortener: true
+    - pymdownx.mark
+    - pymdownx.smartsymbols
+    - pymdownx.superfences
+    - pymdownx.tasklist:
+        custom_checkbox: true
+    - pymdownx.tilde
+    - codehilite:
+    - toc:
+        permalink: Link
 extra_css:
   - 'stylesheets/extra_style.css'
 extra_javascript:
   - 'javascript/extra_js.js'
+  - 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML'
 extra:
   social:
     - type: 'github'
       link: 'https://github.com/aragon'
     - type: 'medium'
-      link: 'https://blog.aragon.one/'
+      link: 'https://blog.aragon.org/'
     - type: 'reddit'
       link: 'https://www.reddit.com/r/aragonproject/'
     - type: 'twitter'
       link: 'https://twitter.com/AragonProject'
     - type: 'linkedin'
       link: 'https://www.linkedin.com/company/aragonproject/'
-  feature:
-    tabs: false
-pages:
-  - Home: 'index.md'
-  - Documentation:
+nav:
+  - Aragon:
+    - Welcome: 'index.md'
+    - About Aragon:
+      - What is Aragon?: 'documentation/about.md'
+      - History: 'documentation/history.md'
+      - Multisigs:
+        - Overview: 'documentation/multisigs/overview.md'
+        - Foundation: 'documentation/multisigs/foundation.md'
+        - Community: 'documentation/multisigs/community.md'
+    - Using Aragon: 'design/powered_by_aragon.md'
     - Glossary: 'documentation/glossary.md'
-    - Whitepaper: 'documentation/whitepaper.md'
-    - Governance: 'documentation/governance.md'
     - Manifesto: 'documentation/manifesto.md'
-    - Multisigs:
-      - Overview: 'documentation/multisigs/overview.md'
-      - Foundation: 'documentation/multisigs/foundation.md'
-      - Community: 'documentation/multisigs/community.md'
-    - Development Plan: 'documentation/Development_Plan.md'
+    - Governance: 'documentation/governance.md'
+    - Community Channels:
+      - Aragon Chat: 'https://aragon.chat'
+      - Aragon Forum: 'https://forum.aragon.org'
+    - Social Channels:
+      - Reddit: 'https://www.reddit.com/r/aragonproject/'
+      - Twitter: 'https://twitter.com/AragonProject'
+      - LinkedIn: 'https://www.linkedin.com/company/aragonproject/'
+      - YouTube: 'https://www.youtube.com/c/AragonProject'
+    - Design:
+      - Logo: 'design/logo.md'
+      - Artwork: 'design/artwork/index.md'
+      - Identity Guidelines: 'design/identity_guidelines.md'
+      - Branding Proposal: 'design/branding_proposal.md'
+      - Merchandise: 'design/merch/index.md'
+    - Blog posts: 'blog/index.md'
+    - Videos: 'videos/index.md'
+    - Presentations: 'videos/presentations.md'
     - Code of Conduct: 'documentation/Code_of_Conduct.md'
     - Event Policy: 'documentation/event_policy.md'
     - Legal:
@@ -51,66 +94,66 @@ pages:
       - Trademark Policy: 'documentation/legal/Trademark_policy.md'
       - Terms of Use (websites): 'documentation/legal/Terms_of_use_websites.md'
       - Privacy policy: 'documentation/legal/Privacy_policy.md'
+    - Press:
+      - Press Kit: 'press/press-kit.md'
+      - Interviews: 'videos/interviews.md'
+      - Media Mentions: 'press/media-mentions.md'
+    - Tutorials:
+      - How to claim an Aragon bounty using Status Open Bounty: 'tutorials/Status_Open_Bounty_Guide.md'
+    - All Core Devs:
+      - Overview: 'videos/dev.md'
+      - Notes template: 'videos/template.md'
+    - Nest grants: 'https://github.com/aragon/nest'
+    - Wiki Features:
+      - Basic Features: 'tutorials/Wiki_Basic_Features.md'
+      - Additional Features: 'tutorials/Wiki_Additional_Features.md'
+  - Core:
+    - Home: 'Core/index.md'
+    - User Guide: 'tutorials/Aragon_Core_User_Guide.md'
+    - Tutorials:
+      - DAO Workshop For Aragon Core v0.5: 'tutorials/DAO_Workshop_Testnet_by_joselfgaray.md'
+  - Network:
+    - Home: 'network/index.md'
+    - Whitepaper:
+      - Latest version: 'https://github.com/aragon/whitepaper/blob/master/README.md'
+      - How to contribute: 'https://github.com/aragon/whitepaper/blob/master/CONTRIBUTE.md'
+      - Version 1 (archived): 'https://github.com/aragon/whitepaper/tree/v1'
+  - Aragon One:
+    - Overview: 'Aragon_One/index.md'
+    - Team: 'Aragon_One/team.md'
+    - Logo: 'Aragon_One/design/logo.md'
+    - Blog posts:
+      - 2018: 'blog/A1/2018.md'
+    - Jobs:
+      - Overview: 'Aragon_One/jobs/index.md'
+      - Openings:
+        - Web3 Developer: 'Aragon_One/jobs/openings/web3.md'
+        - Frontend Developer: 'Aragon_One/jobs/openings/frontend.md'
+        - Web Developer: 'Aragon_One/jobs/openings/web.md'
+        - DevOps: 'Aragon_One/jobs/openings/dev-ops.md'
+        - EVM/Solidity Engineer: 'Aragon_One/jobs/openings/solidity.md'
+        - Documentation Technical Writer: 'Aragon_One/jobs/openings/technical-writer.md'
+        - Developer Relations: 'Aragon_One/jobs/openings/dev_rel.md'
+        - UI Developer Contractor: 'Aragon_One/jobs/openings/ui-developer-contract.md'
+  - Aragon DAC:
+    - Overview: 'Aragon_DAC/index.md'
+    - Team: 'Aragon_DAC/team.md'
+    - Logo: 'Aragon_DAC/design/logo.md'
+    - Jobs:
+      - Overview: 'Aragon_DAC/jobs/index.md'
+      - Openings:
+        - Technical Writer: 'Aragon_DAC/jobs/openings/DAC-Technical_Writer.md'
+        - UX Designer: 'Aragon_DAC/jobs/openings/DAC-UX_Designer.md'
+        - Project Manager: 'Aragon_DAC/jobs/openings/DAC-Project_Manager.md'
+  - Development:
+    - Home: 'dev/index.md'
+    - Developer Portal: 'https://hack.aragon.org/'
     - Audit reports:
       - Audit 01 by Adam Dossa: 'documentation/audits/audit01_report_dossa.md'
       - Audit (Internal) by Brett Sun: 'documentation/audits/audit_internal_sun.md'
       - Audit Report by White Hat Group: 'documentation/audits/audit_whg01_report.md'
-    - Third-party Projects: 'projects/index.md'
-  - Development:
-    - Overview: 'dev/index.md'
-    - Apps:
-      - Overview: 'dev/apps/index.md'
-      - Voting: 'dev/apps/voting.md'
-      - Token Manager: 'dev/apps/token-manager.md'
-      - Fundraising: 'dev/apps/fundraising.md'
-      - Vault: 'dev/apps/vault.md'
-      - Finance: 'dev/apps/finance.md'
-    - Security disclosure: 'dev/security_disclosure.md'
-  - Tutorials:
-    - Aragon Core User Guide: 'tutorials/Aragon_Core_User_Guide.md'
-    - DAO Workshop For Aragon Core v0.5: 'tutorials/DAO_Workshop_Testnet_by_joselfgaray.md'
-    - How to claim an Aragon bounty using Status Open Bounty: 'tutorials/Status_Open_Bounty_Guide.md'
-  - Design:
-    - Overview: 'design/index.md'
-    - Logo: 'design/logo/index.md'
-    - For entities using Aragon: 'design/powered_by_aragon.md'
-    - Artwork: 'design/artwork/index.md'
-    - Identity Guidelines: 'design/identity_guidelines.md'
-    - Branding Proposal: 'design/branding_proposal.md'
-    - Merchandise: 'design/merch/index.md'
-  - Jobs:
-    - Overview: 'jobs/index.md'
-    - Aragon One:
-      - Web3 Developer: 'jobs/openings/web3.md'
-      - Frontend Developer: 'jobs/openings/frontend.md'
-      - Web Developer: 'jobs/openings/web.md'
-      - DevOps: 'jobs/openings/dev-ops.md'
-      - EVM/Solidity Engineer: 'jobs/openings/solidity.md'
-      - Documentation Technical Writer: 'jobs/openings/technical-writer.md'
-      - Developer Relations: 'jobs/openings/dev_rel.md'
-      - UI Developer Contractor: 'jobs/openings/ui-developer-contract.md'
-    - Aragon DAC:
-      - Technical Writer: 'jobs/openings/DAC-Technical_Writer.md'
-      - UX Designer: 'jobs/openings/DAC-UX_Designer.md'
-      - Project Manager: 'jobs/openings/DAC-Project_Manager.md'
-  - Blog posts:
-    - 2018: 'blog/2018.md'
-    - 2017: 'blog/2017.md'
-    - Aragon One:
-      - 2018: 'blog/A1/2018.md'
-  - Videos:
-    - Tutorials: 'videos/tutorials.md'
-    - Meetings:
-      - Community: 'videos/community.md'
-      - All Core Devs:
-        - Overview: 'videos/dev.md'
-        - Notes template: 'videos/template.md'
-    - Interviews: 'videos/interviews.md'
-    - Presentations: 'videos/presentations.md'
-  - Press:
-      - Press Kit: 'press/press-kit.md'
-      - Media Mentions: 'press/media-mentions.md'
-  - Nest grants: 'nest/index.md'
+    - Security Vulnerability Disclosure Policy: 'dev/security_disclosure.md'
+    - Development Plan: 'documentation/Development_Plan.md'
   - Archive:
     - Documentation:
       - aragonOS v2.0.1: 'archive/documentation/aragonOS_201.md'
@@ -197,6 +240,8 @@ pages:
         - Community 02: 'meetings/community/02.md'
         - Community 01: 'meetings/community/01.md'
     - Videos:
+      - Tutorials: 'videos/tutorials.md'
       - Meetings:
+        - Community: 'videos/community.md'
         - Aragon HQ: 'archive/videos/hq.md'
         - Dev: 'archive/videos/dev.md'

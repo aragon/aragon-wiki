@@ -2,9 +2,8 @@
 
 ![The Aragon Manifesto](../design/artwork/basic/26.jpg)
 
-Version 1.0
-
-_Version 1.0 of the Aragon Manifesto was originally published on the Aragon Project blog [here](https://blog.aragon.org/the-aragon-manifesto-4a21212eac03/)._
+!!! info "Version 1.0"
+    _Version 1.0 of the Aragon Manifesto was originally published on the Aragon Project blog [here](https://blog.aragon.org/the-aragon-manifesto-4a21212eac03/)._
 
 <p style="font-size:2.2rem;">
 A pledge to fight for freedom

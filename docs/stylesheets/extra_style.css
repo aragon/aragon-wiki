@@ -10,111 +10,124 @@
   border-radius: 4px;
 }
 
+thead {
+  background: linear-gradient(39deg, rgb(11, 11, 10), rgb(70, 79, 81));
+}
+
+.md-typeset hr {
+  border-bottom: 0.1rem solid rgba(0, 0, 0, 0.26);
+  margin: 3vw 0;
+}
+
 [data-md-color-primary="blue-grey"] .md-nav__link--active,
 [data-md-color-primary="blue-grey"] .md-nav__link:active {
   color: #2fb7de;
+}
+
+[data-md-color-primary="blue-grey"] .md-typeset a {
+  color: #000;
+  box-shadow: inset 0 -2px 0 rgb(97, 178, 240);
+}
+
+[data-md-color-primary="blue-grey"] .md-typeset a:hover {
+  color: rgb(97, 178, 240);
+}
+
+[data-md-color-primary="blue-grey"] .md-typeset a.logo {
+  box-shadow: none;
+}
+
+[data-md-color-primary="blue-grey"] .md-typeset a.logo2 img {
+  box-shadow: none;
+  background-color: #000;
 }
 
 [data-md-color-primary="blue-grey"] .md-nav--secondary {
   border-left: 0.4rem solid #00d3e3;
 }
 
-[title="January"] {
-  font-weight: bold;
-}
-
-[title="January"] + nav > ul > li:nth-child(even) {
-  color: #969696;
-}
-
-[title="February"] {
-  font-weight: bold;
-}
-
-[title="February"] + nav > ul > li:nth-child(even) {
-  color: #969696;
-}
-
-[title="March"] {
-  font-weight: bold;
-}
-
-[title="March"] + nav > ul > li:nth-child(even) {
-  color: #969696;
-}
-
-[title="April"] {
-  font-weight: bold;
-}
-
-[title="April"] + nav > ul > li:nth-child(even) {
-  color: #969696;
-}
-
-[title="May"] {
-  font-weight: bold;
-}
-
-[title="May"] + nav > ul > li:nth-child(even) {
-  color: #969696;
-}
-
-[title="June"] {
-  font-weight: bold;
-}
-
-[title="June"] + nav > ul > li:nth-child(even) {
-  color: #969696;
-}
-
-[title="July"] {
-  font-weight: bold;
-}
-
-[title="July"] + nav > ul > li:nth-child(even) {
-  color: #969696;
-}
-
-[title="August"] {
-  font-weight: bold;
-}
-
-[title="August"] + nav > ul > li:nth-child(even) {
-  color: #969696;
-}
-
-[title="September"] {
-  font-weight: bold;
-}
-
-[title="September"] + nav > ul > li:nth-child(even) {
-  color: #969696;
-}
-
-[title="October"] {
-  font-weight: bold;
-}
-
-[title="October"] + nav > ul > li:nth-child(even) {
-  color: #969696;
-}
-
-[title="November"] {
-  font-weight: bold;
-}
-
-[title="November"] + nav > ul > li:nth-child(even) {
-  color: #969696;
-}
-
-[title="December"] {
-  font-weight: bold;
-}
-
-[title="December"] + nav > ul > li:nth-child(even) {
-  color: #969696;
-}
-
 .md-typeset blockquote {
   border-left: 0.4rem solid #00cbe6;
+}
+
+[data-md-color-primary="blue-grey"] .md-tabs {
+  background-color: #373737;
+  box-shadow: 0px 7px 15px #888888;
+}
+
+.md-tabs__item {
+  float: left;
+}
+
+.md-tabs__item:nth-child(10) {
+  color: rgb(175,175,175);
+}
+
+.md-tabs__item:nth-child(11) {
+  background-color: #000;
+  float: right;
+}
+
+.md-tabs__item:nth-child(4) {
+  color: rgba(255,255,255,0);
+  width: auto;
+  height: auto;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center 85%;
+  background-origin: content-box;
+  background-image: url(../images/a1_menu.png);
+}
+
+.md-tabs__item:nth-child(5) {
+  color: rgba(255,255,255,0);
+  width: auto;
+  height: auto;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center 85%;
+  background-origin: content-box;
+  background-image: url(../images/adac_menu.png);
+}
+
+.md-tabs--active ~ .md-main .md-nav[data-md-level="1"] .md-nav__title[for="nav-4"] {
+  background: linear-gradient(135deg, #FA8B6A 0%,#EE6293 100%);
+  padding: 5px;
+  border-radius: 3px;
+}
+
+.md-tabs--active ~ .md-main .md-nav[data-md-level="1"] .md-nav__title[for="nav-5"] {
+  background: linear-gradient(#9af6d1 0%,#1fa1ff 100%);
+  padding: 5px;
+  border-radius: 3px;
+}
+
+.md-tabs--active ~ .md-main .md-nav--primary .md-nav__title {
+  background: linear-gradient(135deg, #00F1E1 0%,#00B4E4 100%);
+  padding: 5px;
+  text-align: center;
+  border-radius: 3px;
+}
+
+[data-md-color-primary="blue-grey"] .md-nav__link--active {
+  color: #1fa1ff;
+}
+
+.md-nav__link:nth-child(even) {
+  background: linear-gradient(135deg, rgb(240,240,240) 0%,rgb(255,255,255) 100%);
+  border-radius: 3px;
+  padding: 1%;
+  padding-left: 3%;
+}
+
+.md-tabs__item--active {
+  box-shadow: 2px 0px 5px #00cbe6;
+}
+
+.fff {
+  box-shadow: 3px 10px 15px #888;
+}
+
+html .md-footer-meta.md-typeset a {
+  box-shadow: none;
 }

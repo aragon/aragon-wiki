@@ -1,6 +1,10 @@
 # Aragon Core User Guide
-<h4> Documentation Version 1.0.5.1</h>
-<h4>Aragon Core Version 0.5</h>
+
+!!! info "Documentation Version"
+    1.0.5.1
+
+!!! info "Aragon Core Version"
+    0.5
 
 ## Prerequisites
 
@@ -26,7 +30,8 @@ A “Token project with Democracy” is a DAO where the vote cast by a token hol
 
 Aragon Core uses the Ethereum Name System (ENS) to assign names to DAOs.
 
-_Note: This name currently cannot be changed._
+!!! warning "Note"
+    This name currently cannot be changed
 
 ![](images/user_guide/thedaoname.png)
 
@@ -38,13 +43,15 @@ _Note: This name currently cannot be changed._
 
 “Vote Duration” is the length of time that the vote will be open for participation. For example, if the Vote Duration is set to 24 Hours (H), then tokenholders have 24H to participate in the vote. After the 24 hours is over, if the vote has not been approved by a majority of tokenholders and/or does not make quorum, then the vote will automatically fail. If the vote makes quorum and receives approval by a majority of tokenholders by the end of the Vote Duration, then the vote will automatically pass.
 
-_Note: These parameters cannot currently be changed._
+!!! warning "Note"
+    These parameters cannot currently be changed
 
 ![](images/user_guide/democracysettings.png)
 
 #### Step 5. Choose token name and symbol then click “Next”
 
-_Note: The token name and symbol cannot currently be changed._
+!!! warning "Note"
+    The token name and symbol cannot currently be changed
 
 ![](images/user_guide/daotokens.png)
 
@@ -80,7 +87,8 @@ You can mint new tokens by following these steps:
 
 Enter the address of the recipient of the tokens and the number of new tokens you want to mint and assign to that address, then click “Assign Tokens”.
 
-_Note: If you assign more tokens to other members than you have issued to yourself, you could lose control of your DAO to the other token holders. To maintain control, you will have to always control more tokens than are necessary for a vote to both reach the Min. Quorum and Support thresholds._
+!!! danger "Note"
+    If you assign more tokens to other members than you have issued to yourself, you could lose control of your DAO to the other token holders. To maintain control, you will have to always control more tokens than are necessary for a vote to both reach the Min. Quorum and Support thresholds
 
 ![](images/user_guide/daoaddmember.png)
 
@@ -210,7 +218,8 @@ If more tokens are minted for additional accounts, then the number of signatures
 
 Aragon Core uses the Ethereum Name System (ENS) to assign names to DAOs.
 
-_Note: This name currently cannot be changed._
+!!! warning "Note"
+    This name currently cannot be changed
 
 ![](images/multisig_guide/2_multisigorg.png)
 
@@ -218,13 +227,15 @@ _Note: This name currently cannot be changed._
 
 First enter the addresses of the accounts that you want to be members of the multisig. Then set the number of signatures out of those accounts that will be required to approve votes in the multisig. For example, you can enter three accounts and require any two of their signatures to approve a vote. Up to six signers can be added during the DAO creation process. If you need additional signers, you can add them after the DAO is created by minting a token for each of the accounts you want to join the DAO.
 
-_Note: These accounts cannot currently be removed from the multisig._
+!!! warning "Note"
+    These accounts cannot currently be removed from the multisig
 
 ![](images/multisig_guide/3_multisigsigners.png)
 
 #### Step 5. Choose token name and symbol then click “Next”
 
-_Note: The token name and symbol cannot currently be changed._
+!!! warning "Note"
+    The token name and symbol cannot currently be changed
 
 ![](images/multisig_guide/4_multisigtoken.png)
 
@@ -316,7 +327,8 @@ You can mint new tokens by following these steps:
 
 Enter the address of the recipient of the tokens and the number of new tokens you want to mint and assign to that address, then click “Assign Tokens”.
 
-_Note: Each token-holder in a multisig organization can only hold one token at a time. An error will be shown and the transaction will fail if you attempt to mint additional tokens for existing token-holders._
+!!! note "Note"
+    Each token-holder in a multisig organization can only hold one token at a time. An error will be shown and the transaction will fail if you attempt to mint additional tokens for existing token-holders
 
 ![](images/multisig_guide/23_multisignew.png)
 
@@ -324,7 +336,8 @@ _Note: Each token-holder in a multisig organization can only hold one token at a
 
 As mentioned before, in a Multisig DAO m-of-n tokenholders are needed to approve every action. Click “Sign Transaction” to sign the transaction that creates a new vote to assign the new token you want to mint.
 
-_Note: Creating a vote will currently automatically make your account vote “Yes” on the proposal. You can change your vote by opening the vote in the Voting app, clicking the “No” button, and signing the transaction to change your vote to “No”._
+!!! note "Note"
+    Creating a vote will currently automatically make your account vote “Yes” on the proposal. You can change your vote by opening the vote in the Voting app, clicking the “No” button, and signing the transaction to change your vote to “No”
 
 ![](images/multisig_guide/24_multisignewsign.png)
 
