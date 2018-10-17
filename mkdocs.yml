@@ -36,7 +36,9 @@ pages:
   - Documentation:
     - Glossary: 'documentation/glossary.md'
     - Whitepaper: 'documentation/whitepaper.md'
-    - Governance: 'documentation/governance.md'
+    - Governance: 
+      - Overview: 'documentation/governance.md'
+      - Association ANT Policy: 'documentation/association_ant.md'
     - Manifesto: 'documentation/manifesto.md'
     - Multisigs:
       - Overview: 'documentation/multisigs/overview.md'
