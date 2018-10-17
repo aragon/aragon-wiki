@@ -22,6 +22,8 @@ Rewards will be awarded at the sole discretion of Aragon. Quality of the report 
 
 For this initial bug bounty program there is a **maximum bounty pool of $250,000**.
 
+The bug bounty program will run for a minimum of three months, starting October 17th 2018.
+
 ## Scope
 
 In scope for the bug bounty are all the smart contract components of Aragon Core. They can be found on three main repositories:
