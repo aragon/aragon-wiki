@@ -48,33 +48,37 @@ In scope for the bug bounty are all the smart contract components of Aragon Core
 
 ## Areas of interest
 
-These are some examples of vulnerabilities that would be interesting:
+!!! tip "These are some examples of vulnerabilities that would be interesting"
 
-- Bypassing ACL rules to get unauthorized access to an app.
-- A user of an app performing an action that could freeze or lock the contract.
-- Being able to escalate permissions using the Voting app or Token Manager without a proper vote being successful.
+    - Bypassing ACL rules to get unauthorized access to an app.
+    - A user of an app performing an action that could freeze or lock the contract.
+    - Being able to escalate permissions using the Voting app or Token Manager without a proper vote being successful.
 
 ## Out of scope
 
-- Side-effects of properly authenticated smart contract upgrades or contract upgrades that change the storage layout of a contract.
-- Revocation of permissions or completely changing how a DAO operates due to an important permission being granted using the proper process.
-- Any frontend applications or client-side code interacting with the contracts, as well as testing code.
-- Mismatch of the functionality of the contracts and outdated spec documents.
+!!! question "What we consider out of scope for this bug bounty"
+    - Side-effects of properly authenticated smart contract upgrades or contract upgrades that change the storage layout of a contract.
+    - Revocation of permissions or completely changing how a DAO operates due to an important permission being granted using the proper process.
+    - Any frontend applications or client-side code interacting with the contracts, as well as testing code.
+    - Mismatch of the functionality of the contracts and outdated spec documents.
 
 ## Resources
 
-- Reference and documentation for aragonOS 3 can be found here ([https://hack.aragon.org/docs/aragonos-ref.html](https://hack.aragon.org/docs/aragonos-ref.html)) and a list of the changes that have been made for aragonOS 4 ([https://github.com/aragon/aragonOS/wiki/aragonOS-4:-Updates-to-aragonOS-and-aragon-apps](https://github.com/aragon/aragonOS/wiki/aragonOS-4:-Updates-to-aragonOS-and-aragon-apps)).
-- Documentation on how aragonOS apps should be developed: [https://hack.aragon.org/docs/aragonos-building.html](https://hack.aragon.org/docs/aragonos-building.html)
+!!! snippet "Documentation and resources for hackers"
+    - Reference and documentation for aragonOS 3 can be found here ([https://hack.aragon.org/docs/aragonos-ref.html](https://hack.aragon.org/docs/aragonos-ref.html)) and a list of the changes that have been made for aragonOS 4 ([https://github.com/aragon/aragonOS/wiki/aragonOS-4:-Updates-to-aragonOS-and-aragon-apps](https://github.com/aragon/aragonOS/wiki/aragonOS-4:-Updates-to-aragonOS-and-aragon-apps)).
+    - Documentation on how aragonOS apps should be developed: [https://hack.aragon.org/docs/aragonos-building.html](https://hack.aragon.org/docs/aragonos-building.html)
 
 ## Eligibility
 
-- Only unknown vulnerabilities will be awarded with a bounty, in case of duplicate reports, the first report will be awarded the bounty.
-- Public disclosure of the vulnerability before explicit consent from Aragon to do so, will make the vulnerability ineligible for a bounty.
-- Attempting to exploit the vulnerability in a public Ethereum network will also make it ineligible for a bounty.
+!!! success "Terms for eligible bounties"
+    - Only unknown vulnerabilities will be awarded with a bounty, in case of duplicate reports, the first report will be awarded the bounty.
+    - Public disclosure of the vulnerability before explicit consent from Aragon to do so, will make the vulnerability ineligible for a bounty.
+    - Attempting to exploit the vulnerability in a public Ethereum network will also make it ineligible for a bounty.
 
 ## Reporting
 
-- In order to report a vulnerability, please write an email to security@aragon.org with [BUG BOUNTY] in the subject of the email.
-- For sensitive vulnerabilities, please the encrypt the email using this [PGP key](rsc/security.asc) (Fingerprint: `B6D5 1396 4B9C 62B7`)
-- We will make our best effort to reply in a timely manner and provide a timeline for resolution.
-- Please include a detailed report on the vulnerability with clear reproduction steps. The quality of the report can impact the reward amount.
+!!! note "Reporting a found vulnerability"
+    - In order to report a vulnerability, please write an email to security@aragon.org with [BUG BOUNTY] in the subject of the email.
+    - For sensitive vulnerabilities, please the encrypt the email using this [PGP key](rsc/security.asc) (Fingerprint: `B6D5 1396 4B9C 62B7`)
+    - We will make our best effort to reply in a timely manner and provide a timeline for resolution.
+    - Please include a detailed report on the vulnerability with clear reproduction steps. The quality of the report can impact the reward amount.
