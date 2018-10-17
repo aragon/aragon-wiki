@@ -31,6 +31,8 @@ extra:
       link: 'https://www.linkedin.com/company/aragonproject/'
   feature:
     tabs: false
+markdown_extensions:
+    - admonition
 pages:
   - Home: 'index.md'
   - Documentation:
@@ -65,6 +67,7 @@ pages:
       - Fundraising: 'dev/apps/fundraising.md'
       - Vault: 'dev/apps/vault.md'
       - Finance: 'dev/apps/finance.md'
+    - Bug bounty: 'dev/bug_bounty.md'
     - Security disclosure: 'dev/security_disclosure.md'
   - Tutorials:
     - Aragon Core User Guide: 'tutorials/Aragon_Core_User_Guide.md'
