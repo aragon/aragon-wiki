@@ -4,30 +4,45 @@ A bug bounty for the smart contracts in Aragon Core is now live. We intend for h
 
 ## Rewards
 
-Vulnerability reports will be scored using the CVSS v3 [https://www.first.org/cvss/](https://www.first.org/cvss/) standard. The reward amounts for different types of vulnerabilities are:
+Vulnerability reports will be scored using the  [CVSS v3](https://www.first.org/cvss/) standard. The reward amounts for different types of vulnerabilities are:
 
-- Critical (CVSS 9.0 - 10.0): $5,000-$50,000
-- Major (CVSS 7.0 - 8.9): $2,500-$5,000
-- Medium (CVSS 4.0 - 6.0): $1,000-$2,500
-- Low (CVSS 1.0 - 3.9): $500-$1,000
+!!! bug "**Critical** (CVSS 9.0 - 10.0)"
+    $5,000 - $50,000
+
+!!! danger "**Major** (CVSS 7.0 - 8.9)"
+    $2,500 - $5,000
+
+!!! fail "**Medium** (CVSS 4.0 - 6.0)"
+    $1,000 - $2,500
+
+!!! warning "**Low** (CVSS 1.0 - 3.9)"
+    $500-$1,000
 
 Rewards will be awarded at the sole discretion of Aragon. Quality of the report and reproduction instructions can impact the reward. Rewards will be paid out in ETH.
 
-For this initial bug bounty program there is a maximum bounty pool of $250,000.
+For this initial bug bounty program there is a **maximum bounty pool of $250,000**.
 
 ## Scope
 
 In scope for the bug bounty are all the smart contract components of Aragon Core. They can be found on three main repositories:
 
-- **aragonOS 4** ([https://github.com/aragon/aragonOS](https://github.com/aragon/aragonOS)) smart contract framework and core of the system.
+!!! abstract "**aragonOS 4** ([https://github.com/aragon/aragonOS](https://github.com/aragon/aragonOS))"
+    Smart contract framework and core of the system.
+
     - Solidity code under the `contracts` directory:
         - Excluding `contracts/lib/`, except for `contracts/lib/math` contracts
         - Excluding `contracts/test/`
-- **aragon-apps** ([https://github.com/aragon/aragon-apps](https://github.com/aragon/aragon-apps)) contracts for aragonOS apps that Aragon develops that are used in DAOs.
+
+!!! abstract "**aragon-apps** ([https://github.com/aragon/aragon-apps](https://github.com/aragon/aragon-apps))"
+    Contracts for aragonOS apps that Aragon develops that are used in DAOs.
+
     - Solidity code under `apps/**/contracts` (`voting`, `vault`, `finance`, `token-manager`, `survey`)
         - Excluding `contracts/test`
     - Solidity code under `shared/minime/contracts`
-- **dao-kits** ([https://github.com/aragon/dao-kits](https://github.com/aragon/dao-kits)) on-chain deployment scripts for Aragon DAOs.
+
+!!! abstract "**dao-kits** ([https://github.com/aragon/dao-kits](https://github.com/aragon/dao-kits))"
+    On-chain deployment scripts for Aragon DAOs.
+
     - Solidity code for the following kits: `bare`, `beta-base`, `democracy`, `multisig`, `survey`
         - Excluding `contracts/test`
 

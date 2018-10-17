@@ -31,6 +31,8 @@ extra:
       link: 'https://www.linkedin.com/company/aragonproject/'
   feature:
     tabs: false
+markdown_extensions:
+    - admonition
 pages:
   - Home: 'index.md'
   - Documentation:
