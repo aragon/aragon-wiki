@@ -20,7 +20,7 @@ The first concrete project to manage will be making the Aragon DAC Website using
 
 ### Requirements
 
-- Proven experience working as a project manager in a startup environment.
+- Proven experience working as a project manager or a CTO in a startup environment.
 - Able to adapt agile methodologies to the particular project and team dynamic and naturally adopts the servant-leader approach.
 - Experience managing remote teams across multiple time zones.
 - Experience managing teams using github.
@@ -30,6 +30,7 @@ The first concrete project to manage will be making the Aragon DAC Website using
 
 ### Good to Have
 
+- A strong technical background, idealy a full stack dev
 - Previous experience managing blockchain projects.
 - Extensive experience contributing to or managing open source projects.
 - Previous experience working remotely.
