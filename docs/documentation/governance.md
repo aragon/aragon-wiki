@@ -1,7 +1,7 @@
 # Aragon Governance
 
 - Check out [**all open Aragon Governance Proposals**](https://github.com/aragon/governance/issues)
-- Vote on [**open surveys for ANT holders**](https://survey.aragon.org)
+- We are currently rebuilding the proposal module on Aragon, which will be deployed to the Ethereum mainnet.
 
 ## Finalized AGPs
 
