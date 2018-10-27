@@ -27,6 +27,8 @@ We expect this position to hold a leadership role in a flat organization.
 - Passionate about open source and decentralization.
 - Being an autonomous individual with a proactive attitude capable of leading the design efforts on the team.
 - Previous experience working with remote teams.
+- The ability to travel the world often throughout the year.
+
 
 ### Good to Have
 
