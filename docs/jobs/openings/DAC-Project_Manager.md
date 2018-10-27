@@ -1,4 +1,4 @@
-# Project Manager for the Aragon DAC
+# Project Manager/Team Leader for the Aragon DAC
 
 [Aragon](https://aragon.org/) is an open source, decentralized, project fighting for the freedom to organize.  We believe that decentralized organizations can solve the world's worst problems.
 
