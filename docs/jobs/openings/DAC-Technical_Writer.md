@@ -26,6 +26,6 @@ As part of the ongoing efforts to build out the Aragon infrastructure, the Arago
 
 ### How to Apply
 
-- Write an email with the following attachments plus any information you consider important to griff@giveth.io, with the subject `Technical Writer application`.
+- Write an email with the following attachments plus any information you consider important to lorelei@giveth.io, with the subject `Technical Writer application`.
 - Please send your CV, linkedin and some samples of your work.
 - Please tell us why Aragon caught your attention and what excites you about the blockchain space.
