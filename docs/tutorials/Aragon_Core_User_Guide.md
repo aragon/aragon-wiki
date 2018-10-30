@@ -48,7 +48,7 @@ Select which network you want to use to create your organization then click "Cre
 
 A “Token project with Democracy” is an organization where the vote cast by a token holder is weighted proportionally to their ownership stake of tokens minted by the organization. For example, if a tokenholder owns 5% of the tokens minted by the organization then their vote will count as 5% of the total votes on a given proposal.
 
-![](images/user_guide/06/1_welcome.png)
+![](images/user_guide/06/2_create.png)
 
 ### 2.1.3 Claim a domain name then click “Next”
 
@@ -56,7 +56,7 @@ Aragon uses the [Ethereum Name Service](https://ens.domains/) (ENS) to assign na
 
 *Note: This name currently cannot be changed.*
 
-![](images/user_guide/06/1_welcome.png)
+![](images/user_guide/06/3_democracy.png)
 
 ### 2.1.4 Set the parameters of your Democracy organization then click “Next”
 
@@ -66,25 +66,25 @@ Aragon uses the [Ethereum Name Service](https://ens.domains/) (ENS) to assign na
 
 “Vote Duration” is the length of time that the vote will be open for participation. For example, if the Vote Duration is set to 24 H, then tokenholders have 24 hours to participate in the vote. After the 24 hours is over, if the vote has not been approved by a majority of tokenholders and/or does not make quorum, then the vote will automatically fail. If the vote makes quorum and receives approval by a majority of tokenholders by the end of the Vote Duration, then the vote will automatically pass.
 
-![](images/user_guide/06/1_welcome.png)
+![](images/user_guide/06/4_votesettings.png)
 
 ### 2.1.5 Choose token name and symbol then click “Next”
 
 *Note: The token name and symbol cannot currently be changed.*
 
-![](images/user_guide/06/1_welcome.png)
+![](images/user_guide/06/5_tokenname.png)
 
 ### 2.1.6 Sign organization creation transactions
 
 Now you need to sign two transactions in MetaMask to create your organization. Open MetaMask if the wallet window does not open automatically. After the first transaction is confirmed, the second transaction may show up in MetaMask as a transaction with an “unapproved” label, indicating that it needs to be signed. Click the transaction to open and sign it.
 
-![](images/user_guide/06/1_welcome.png)
+![](images/user_guide/06/6_sign1.png)
 
 ### 2.1.7 Click “Get Started”
 
 Your new Democracy organization is ready to go!
 
-![](images/user_guide/06/1_welcome.png)
+![](images/user_guide/06/7_ready.png)
 
 ## 2.2 Explore the Democracy organization
 
@@ -92,13 +92,13 @@ Your new Democracy organization is ready to go!
 
 The Home app welcomes you to your organization and offers you several options for different actions you can take. You can also use the menu on the left-hand side of the screen to view the different apps that are currently installed for your organization. Aragon currently has the Token Manager, Voting, Finance, and Permissions apps installed, with an App Center coming soon.
 
-![](images/user_guide/06/1_welcome.png)
+![](images/user_guide/06/8_Home.png)
 
 ### 2.2.2 Token Manager app
 
 The Token Manager is the app you use to mint new tokens and assign them to yourself or other entities.
 
-![](images/user_guide/06/1_welcome.png)
+![](images/user_guide/06/9_tm.png)
 
 You can mint new tokens by following these steps:
 
@@ -106,7 +106,7 @@ You can mint new tokens by following these steps:
 
 Enter the address of the recipient of the tokens and the number of new tokens you want to mint and assign to that address, then click “Assign Tokens”.
 
-![](images/user_guide/06/1_welcome.png)
+![](images/user_guide/06/10_assign.png)
 
 #### 2.2.2.2 Create vote to assign tokens
 
@@ -114,25 +114,25 @@ Even though you are the only tokenholder, the Democracy organization still requi
 
 *Note: Creating a vote will automatically make your account vote “Yes” on the proposal. You can change your vote by opening the vote in the Voting app, clicking the “No” button, and signing the transaction to change your vote to “No”.*
 
-![](images/user_guide/06/1_welcome.png)
+![](images/user_guide/06/11_assigncreate.png)
 
 #### 2.2.2.3 Sign and send transaction to create the “Assign Tokens” vote
 
 After clicking “Sign Transaction”, a notification will pop-up in MetaMask. Open MetaMask, then sign and send the transaction to create the vote.
 
-![](images/user_guide/06/1_welcome.png)
+![](images/user_guide/06/12_createsign.png)
 
 #### 2.2.2.4 Check out the newest member of your organization
 
 Since you are the only tokenholder, the vote will automatically pass and the token will automatically be assigned to the entity you added in 2.2.2.1. A good start to a new Democracy organization!
 
-![](images/user_guide/06/1_welcome.png)
+![](images/user_guide/06/15_tm2.png)
 
 ### 2.2.3 Voting app
 
 The Voting app makes it easy for you to poll your fellow tokenholders about their position on an infinite range of topics. Votes initiated by other Aragon apps also show up in the Voting app. For example, assigning tokens using the Token Manager or moving funds from the Finance app are each actions that require a vote by tokenholders in a Democracy organization.
 
-![](images/user_guide/06/1_welcome.png)
+![](images/user_guide/06/13_assignconfirm.png)
 
 Follow these steps to create a new vote and poll your community about a topic you care about:
 
@@ -140,43 +140,43 @@ Follow these steps to create a new vote and poll your community about a topic yo
 
 Fill out the question you want to poll your community about and click “Begin Vote”.
 
-![](images/user_guide/06/1_welcome.png)
+![](images/user_guide/06/16_newvote1.png)
 
 #### 2.2.3.2 Sign transaction to create new vote
 
 Click the “Create transaction” button, then open your MetaMask wallet to sign and send the transaction.
 
-![](images/user_guide/06/1_welcome.png)
+![](images/user_guide/06/18_votesign.png)
 
 #### 2.2.3.3 Ask the other tokenholders to review and vote on the proposal
 
 Rally your fellow tokenholders outside the app - for example, by email, forum, chat room, or good old fashioned face-to-face - and ask them to review and vote on the proposal. Tokenholders can visit the Voting app to see the list of open votes and cast their ballot accordingly.
 
-![](images/user_guide/06/1_welcome.png)
+![](images/user_guide/06/20_vote.png)
 
 #### 2.2.3.4 Other tokenholders cast their vote
 
 In this case, the other tokenholder in the organization supports deploying the organization to mainnet. They sent a follow-up email saying that security audit came back with good results, so they will vote “yes”.
 
-![](images/user_guide/06/1_welcome.png)
+![](images/user_guide/06/22_votesign.png)
 
 #### 2.2.3.5 Review the vote
 
 Since there are only two token-holders in this organization, and the Support parameter is set to 51%, the unanimous vote on the question of whether or not the organization should be deployed to mainnet next week has resulted in an approved (or “Executed”) vote. A vote with a status of “Executed” does not need any further action to be taken.
 
-![](images/user_guide/06/1_welcome.png)
+![](images/user_guide/06/23_voteexecuted.png)
 
 ### 2.2.4 Settings app
 
 The Settings app is where you can find the internal addresses for your organization, as well as troubleshoot issues you are having with Aragon. If you want to send ETH or tokens to your organization, make sure to use the Finance app address. When using testnet you also have the ability to request test tokens, which will be sent to the organization’s Finance app.
 
-![](images/user_guide/06/1_welcome.png)
+![](images/user_guide/06/24_settings1.png)
 
 ### 2.2.5 Finance app
 
 The Finance app is the app that provides tokenholders with access to the funds held by their organization. The Finance app shows the current balance in ETH and tokens as well as the transaction history of the organization. You can also use the Finance app to initiate a new transfer of funds.
 
-![](images/user_guide/06/1_welcome.png)
+![](images/user_guide/06/25_finance.png)
 
 Follow these steps to create a new transfer from the Finance app:
 
@@ -190,37 +190,37 @@ Go to the Settings app and copy the Finance app address. Open MetaMask to sign a
 
 Go to the Settings app and press the “Request test tokens” button. Open MetaMask to sign and send the transaction. About a minute or so after your transaction is confirmed, test tokens will be sent to the Finance app address of your organization. You can then create a new transfer to send these tokens to another address.
 
-![](images/user_guide/06/1_welcome.png)
+![](images/user_guide/06/26_requesttokens.png)
 
 #### 2.2.5.2 Click “New Transfer” to initiate a new transfer from the Finance app
 
-Enter the address of the recipient and the amount of tokens to send them, along with an optional reference note about what the transfer is for. Then click “Submit Transfer”.
+Go to the "Withdrawal" tab then enter the address of the recipient and the amount of tokens to send them, along with an optional reference note about what the transfer is for. Then click “Submit Transfer”.
 
-![](images/user_guide/06/1_welcome.png)
+![](images/user_guide/06/27_transfer1.png)
 
 #### 2.2.5.3 Sign the transaction to create the New Transfer vote
 
 As mentioned before, all actions in the Democracy organization require a vote by tokenholders. Click “Sign Transaction” then open MetaMask to sign and send the transaction that creates the New Transfer vote.
 
-![](images/user_guide/06/1_welcome.png)
+![](images/user_guide/06/29_transfersign.png)
 
 #### 2.2.5.4 Ask the other tokenholders in the organization to review and vote on the transfer
 
 The payment is intended to compensate another tokenholder in the organization for design work they did, so they waste no time reviewing and voting to approve the transfer.
 
-![](images/user_guide/06/1_welcome.png)
+![](images/user_guide/06/31_transfervote.png)
 
 #### 2.2.5.5 The vote transaction is signed and sent to approve the transfer
 
 After confirmation, the transfer will execute.
 
-![](images/user_guide/06/1_welcome.png)
+![](images/user_guide/06/33_transfervotesign.png)
 
 #### 2.2.5.6 Review the transfer in the Finance app
 
 Go back to the Finance app to see a record of the transfer and a link to the transaction record on the blockchain.
 
-![](images/user_guide/06/1_welcome.png)
+![](images/user_guide/06/34_transferconfirm.png)
 
 ## 2.3 Create a Multisig organization
 
@@ -228,14 +228,14 @@ Go back to the Finance app to see a record of the transfer and a link to the tra
 
 Select which network you want to use to create your organization then click "Create a new organization".
 
-![](images/user_guide/06/1_welcome.png)
+![](images/user_guide/06/35_welcome.png)
 
 ### 2.3.2 Select “Token project with Multisig” then click “Next”
 A “Token project with Multisig” is an organization where the resources of the organization are controlled by m-of-n members of a multisig contract, where n is 100% of tokenholders and m is the Min. Quorum percentage of tokenholders that must approve a vote for it to pass. For example, in a 2-of-2 multisig DAO, two signatures from two different specified accounts are required for a proposal to pass.
 
 If more tokens are minted for additional accounts, then the number of signatures required may increase as well to maintain the required Min. Quorum. For example, starting with a 2-of-3 multisig (66% Min. Quorum) and issuing one token to a new account will make the DAO a 3-of-4 multisig, issuing one more token to yet another new account will make the DAO a 4-of-5 multisig, and so on.
 
-![](images/user_guide/06/1_welcome.png)
+![](images/user_guide/06/36_multisig.png)
 
 ### 2.3.3 Claim a domain name then click “Next”
 
@@ -243,31 +243,31 @@ Aragon Core uses the [Ethereum Name Service](https://ens.domains) (ENS) to assig
 
 *Note: This name currently cannot be changed.*
 
-![](images/user_guide/06/1_welcome.png)
+![](images/user_guide/06/37_multisigname.png)
 
 ### 2.3.4 Enter the accounts and the parameters of the multisig contract
 
 First enter the addresses of the accounts that you want to be members of the multisig. Then set the number of signatures out of those accounts that will be required to approve votes in the multisig. For example, you can enter three accounts and require any two of their signatures to approve a vote (“2-of-3”). Up to six signers can be added during the organization creation process. If you need additional signers, you can add them after the organization is created by assigning a token to each of the accounts you want to join the organization.
 
-![](images/user_guide/06/1_welcome.png)
+![](images/user_guide/06/38_multisigsettings1.png)
 
 ### 2.3.5 Choose token name and symbol then click “Next”
 
 *Note: The token name and symbol cannot currently be changed.*
 
-![](images/user_guide/06/1_welcome.png)
+![](images/user_guide/06/40_multisigtoken.png)
 
 ### 2.3.6 Sign organization creation transactions
 
 Now you need to sign two transactions in MetaMask to create your organization. Open MetaMask if the wallet window does not open automatically. After the first transaction is confirmed, the second transaction may show up in MetaMask as a transaction with an “unapproved” label, indicating that it needs to be signed. Click the transaction to open and sign it.
 
-![](images/user_guide/06/1_welcome.png)
+![](images/user_guide/06/41_multisigcreate.png)
 
 ### 2.3.7 Click “Get Started”
 
 Your new Multisig organization is ready to go!
 
-![](images/user_guide/06/1_welcome.png)
+![](images/user_guide/06/42_multisigready.png)
 
 ## 2.4 Explore the Multisig organization
 
@@ -275,13 +275,13 @@ Your new Multisig organization is ready to go!
 
 The Home app welcomes you to your organization and offers you several options for different actions you can take. You can also use the menu on the left-hand side of the screen to view the different apps that are currently installed for your organization. Aragon currently has the Token Manager, Voting, Finance, and Permissions apps installed, with an App Center coming soon.
 
-![](images/user_guide/06/1_welcome.png)
+![](images/user_guide/06/43_multisighome.png)
 
 ### 2.4.2 Token Manager app
 
 The Token Manager is the app you use to mint new tokens and assign them to other entities.
 
-![](images/user_guide/06/1_welcome.png)
+![](images/user_guide/06/45_multisigtm.png)
 
 You can mint new tokens by following these steps:
 
@@ -291,43 +291,43 @@ Enter the address of the recipient of the tokens and the number of new tokens yo
 
 *Note: Each tokenholder in a multisig organization can only hold one token at a time. An error will be shown and the transaction will fail if you attempt to mint additional tokens for existing tokenholders.*
 
-![](images/user_guide/06/1_welcome.png)
+![](images/user_guide/06/46_multisigassign.png)
 
 #### 2.4.2.2 Create vote to assign tokens
 
 As mentioned before, in a Multisig organization m-of-n tokenholders are needed to approve every action. Click “Create transaction” to create the transaction that creates a new vote to assign the new token you want to mint, then sign the transaction to create the vote.
 
-![](images/user_guide/06/1_welcome.png)
+![](images/user_guide/06/47_multisigassigncreate.png)
 
 #### 2.4.2.3 Review the proposal and decide which way you want to vote
 
 After you have created the proposal to assign the token, you need to cast your vote for the proposal. Open the Voting app and review the proposal. Vote “yes” if you want to approve the proposal or “no” if you want to reject the proposal.
 
-![](images/user_guide/06/1_welcome.png)
+![](images/user_guide/06/48_multisigvote.png)
 
 #### 2.4.2.4 Create and sign the vote transaction
 
 After you have decided which way you want to vote, you need to create and sign the vote transaction. Review the details, click the “Create transaction” button to create the transaction, then sign the transaction to confirm your vote.
 
-![](images/user_guide/06/1_welcome.png)
+![](images/user_guide/06/49_multisigvotecreate.png)
 
 #### 2.4.2.5 Ask the other tokenholders to review and vote on the proposal
 
 Rally your fellow tokenholders outside the app - for example, by email, forum, chat room, or good old fashioned face-to-face - and ask them to review and vote on the proposal. Tokenholders can visit the Voting app to see the list of open votes and cast their ballot accordingly. In this example, the other tokenholder in the organization is happy to add a new member. They sent a follow-up email saying that they'll vote “yes” right away.
 
-![](images/user_guide/06/1_welcome.png)
+![](images/user_guide/06/50_multisigvotereview.png)
 
 #### 2.4.2.6 Check out the newest member of your Multisig DAO
 
 After the other tokenholder votes to approve the proposal, go back to the Token Manager and see that the member you added is now in the list of tokenholders.
 
-![](images/user_guide/06/1_welcome.png)
+![](images/user_guide/06/51_multisigtmnew.png)
 
 ### 2.4.3 Voting app
 
 The voting app makes it easy for you to poll your fellow tokenholders about their position on an infinite range of topics. Votes initiated by other Aragon apps also show up in the Voting app. For example, assigning tokens using the Token Manager or moving funds from the Finance app are each actions that require a vote by tokenholders in a Multisig organization.
 
-![](images/user_guide/06/1_welcome.png)
+![](images/user_guide/06/44_multisigvote.png)
 
 Follow these steps to create a new vote and poll your community about a topic you care about:
 
@@ -335,49 +335,49 @@ Follow these steps to create a new vote and poll your community about a topic yo
 
 Fill out the question you want to poll your community about and click “Begin Vote”.
 
-![](images/user_guide/06/1_welcome.png)
+![](images/user_guide/06/52_multisignewvote.png)
 
 #### 2.4.3.2 Sign transaction to create new vote
 
 Click the “Create transaction” button, then open your MetaMask wallet to sign and confirm the transaction.
 
-![](images/user_guide/06/1_welcome.png)
+![](images/user_guide/06/53_multisigcreatevote.png)
 
 #### 2.4.3.3 Review the proposal and decide which way you want to vote
 
 After you have created the proposal, you need to cast your vote for the proposal. Open the Voting app and review the proposal. Vote “yes” if you want to approve the proposal or “no” if you want to reject the proposal.
 
-![](images/user_guide/06/1_welcome.png)
+![](images/user_guide/06/54_multisigvote1.png)
 
 #### 2.4.3.4 Create and sign the vote transaction
 
 After you have decided which way you want to vote, you need to create and sign the vote transaction. Review the details, click the “Create transaction” button to create the transaction, then sign the transaction to confirm your vote.
 
-![](images/user_guide/06/1_welcome.png)
+![](images/user_guide/06/55_multisigvote2.png)
 
 #### 2.4.3.5 Ask the other tokenholders to review and vote on the proposal
 
 Rally your fellow tokenholders outside the app - for example, by email, forum, chat room, or good old fashioned face-to-face - and ask them to review and vote on the proposal. Tokenholders can visit the Voting app to see the list of open votes and cast their ballot accordingly.
 
-![](images/user_guide/06/1_welcome.png)
+![](images/user_guide/06/56_multisigreviewvote.png)
 
 #### 2.4.3.6 Review the vote
 
 Since three of three tokenholders are required to vote “yes” to approve a transaction, the unanimous vote on the question of whether or not the organization should sponsor the next AraCon has resulted in an approved (or “Executed”) vote. A vote with a status of “Executed” does not need any further action to be taken.
 
-![](images/user_guide/06/1_welcome.png)
+![](images/user_guide/06/57_multisigvoteexecuted.png)
 
 ### 2.4.4 Settings app
 
 The Settings app is where you can find the internal addresses for your organization, as well as troubleshoot issues you are having with Aragon. If you want to send ETH or tokens to your organization, make sure to use the Finance app address. When using testnet you also have the ability to request test tokens, which will be sent to the organization’s Finance app.
 
-![](images/user_guide/06/1_welcome.png)
+![](images/user_guide/06/24_settings1.png)
 
 #### 2.4.5 Finance app
 
 The Finance app is the app that provides tokenholders with access to the funds held by their organization. The Finance app shows the current balance in ETH and tokens as well as the transaction history of the organization. You can also use the Finance app to initiate a new transfer of funds.
 
-![](images/user_guide/06/1_welcome.png)
+![](images/user_guide/06/25_finance.png)
 
 Follow these steps to create a new transfer from the Finance app:
 
@@ -391,43 +391,43 @@ Go to the Finance app and click the “New Transfer” button. On the “Deposit
 
 Go to the Settings app and press the “Request test tokens” button. Open MetaMask to sign and send the transaction. About a minute or so after your transaction is confirmed, test tokens will be sent to the Finance app address of your organization. You can then create a new transfer to send these tokens to another address.
 
-![](images/user_guide/06/1_welcome.png)
+![](images/user_guide/06/26_requesttokens.png)
 
 #### 2.4.5.2 Click “New Transfer” to initiate a new transfer from the Finance app
 
 Go to the "Withdrawal" tab, the enter the address of the recipient and the amount of tokens to send them, along with an optional reference note about what the transfer is for. Then click “Submit Transfer”.
 
-![](images/user_guide/06/1_welcome.png)
+![](images/user_guide/06/58_multisigfinance.png)
 
 #### 2.4.5.3 Sign the transaction to create the New Transfer vote
 
 As mentioned before, all actions in the Multisig organization require a vote by tokenholders. Click “Sign Transaction” then open MetaMask to sign and send the transaction that creates the New Transfer vote.
 
-![](images/user_guide/06/1_welcome.png)
+![](images/user_guide/06/59_multisigcreatetransfer.png)
 
 #### 2.4.2.4 Review the proposal and decide which way you want to vote
 
 After you have created the proposal to transfer the ETH, you need to cast your vote for the proposal. Open the Voting app and review the proposal. Vote “yes” if you want to approve the proposal or “no” if you want to reject the proposal.
 
-![](images/user_guide/06/1_welcome.png)
+![](images/user_guide/06/60_multisigtransfervote.png)
 
 #### 2.4.2.5 Create and sign the vote transaction
 
 After you have decided which way you want to vote, you need to create and sign the vote transaction. Review the details, click the “Create transaction” button to create the transaction, then sign the transaction to confirm your vote.
 
-![](images/user_guide/06/1_welcome.png)
+![](images/user_guide/06/61_multisigtransfersign.png)
 
 #### 2.4.5.6 Ask the other tokenholders in the organization to review and vote on the transfer
 
 The payment is intended to compensate another tokenholder in the organization for documentation work they did, so they waste no time reviewing and voting to approve the transfer. The third tokenholder votes as well. After confirmation, the vote will execute and the transfer will be made.
 
-![](images/user_guide/06/1_welcome.png)
+![](images/user_guide/06/62_multisigtransferreview.png)
 
 #### 2.4.5.8 Review the transfer in the Finance app
 
 Go back to the Finance app to see a record of the transfer and a link to the transaction record on the blockchain.
 
-![](images/user_guide/06/1_welcome.png)
+![](images/user_guide/06/63_multisigtransferconfirm.png)
 
 # 3. Aragon apps
 
