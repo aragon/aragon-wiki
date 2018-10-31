@@ -447,7 +447,7 @@ There is also a Home page, an Apps page, and a Settings page that every Aragon o
 
 The Home page is a simple landing page that shows you the name of the organization you have loaded, as well as different actions that you can take using the pre-installed apps in your organization. For example, in the organization democracy.aragonid.eth we can perform the actions Assign Tokens, Vote, Check Finance, and New Payment. You can also check your network connection status at the bottom of the Home page.
 
-![](images/user_guide/06/1_welcome.png)
+![](images/user_guide/06/64_appshome.png)
 
 ## 3.2 Token Manager
 
@@ -457,13 +457,13 @@ With the Democracy template, one token equals one vote, and members can hold as 
 
 This simple process for managing membership and voting power provides the foundation for governing the resources of an organization.
 
-![](images/user_guide/06/1_welcome.png)
+![](images/user_guide/06/65_appstm1.png)
 
 ### 3.2.1 Holders
 
 In the Holders section of the Token Manager app you can see the current list of tokenholders and the balance of organization tokens they each hold. Clicking on the dropdown menu on one of the rows in the list will provide you options for assigning more tokens to that tokenholder or removing tokens from the tokenholder.
 
-![](images/user_guide/06/1_welcome.png)
+![](images/user_guide/06/66_appstm2.png)
 
 ### 3.2.2 Token Info
 
@@ -475,36 +475,36 @@ In the Token Info section you can see information about the token that is used f
 
 - Token: the token name and token symbol
 
-![](images/user_guide/06/1_welcome.png)
+![](images/user_guide/06/67_appstm3.png)
 
 ### 3.2.3 Ownership Distribution
 In the Ownership Distribution section you can see which entities own what percent of the organization’s token supply. This can be helpful as a spot check to see how token ownership is concentrated in the organization.
 
-![](images/user_guide/06/1_welcome.png)
+![](images/user_guide/06/68_appstm4.png)
 
 ### 3.2.4 Assign Tokens
 
 If you click the Assign Tokens button, a panel will open up with text fields for entering the address of the entity you want to assign tokens to and how many tokens you want to assign. After you enter this information, you can click the “Assign tokens” button in the panel to finish completing the action.
 
-![](images/user_guide/06/1_welcome.png)
+![](images/user_guide/06/69_appstm5.png)
 
 ## 3.3 Voting
 
 The Voting app is where you can see all open and past votes. You can also use the Voting app to start a new vote and poll tokenholders in the organization about an issue that is important to you.
 
-![](images/user_guide/06/1_welcome.png)
+![](images/user_guide/06/70_appsvoting1.png)
 
 ### 3.3.1 Open votes
 
 The “Open votes” section shows how many open votes there are and cards for each of the open votes, which show how much time is left in the vote, the number of the vote, a snippet of the issue being voted on, and the current status of the vote. You can click “view vote” to expand the card and either cast you vote if you have not voted yet or change your vote if you have already voted.
 
-**Open votes - no vote cast**
+**Open votes - vote not cast**
 
-![](images/user_guide/06/1_welcome.png)
+![](images/user_guide/06/73_appsvoting4.png)
 
 **Open votes - vote already cast**
 
-![](images/user_guide/06/1_welcome.png)
+![](images/user_guide/06/71_appsvoting2.png)
 
 In each case, the “View vote” panel tells you more detailed information about the status of a vote, such as:
 
@@ -530,103 +530,107 @@ The “Past votes” section shows how many past votes there have been as well a
 
 Clicking on the “View vote” button will then show you more detailed information about the vote. See the previous section 3.3.1 for a detailed explanation of the information in the “View vote” panel.
 
-![](images/user_guide/06/1_welcome.png)
+![](images/user_guide/06/72_appsvoting3.png)
 
 ### 3.3.3 New vote
 
 If there is an important question you have that you want to poll tokenholders in the organization about, you can click the “New vote” button to start a new vote. These votes are purely informative and will not directly result in any further action being taken in the organization. After you have filled out the text field in the “New vote” panel with the question you want to ask, you can click “Begin vote” to complete the action and create a new vote if you have permission.
 
-![](images/user_guide/06/1_welcome.png)
+![](images/user_guide/06/74_appsvoting5.png)
 
 ## 3.4 Finance
 
 The Finance app is used to manage the financial resources of an organization. You can see the balance of each asset the organization owns, a history of past transfers, and also create new transfers from the Finance app.
 
-![](images/user_guide/06/1_welcome.png)
+![](103_appsfinance1.png)
 
 ### 3.4.1 Token Balances
 
 The Token Balances section shows you the balance of each token owned by the organization.
 
-![](images/user_guide/06/1_welcome.png)
+![](images/user_guide/06/79_appsfinance5.png)
 
 ### 3.4.2 Transfers
 
 The Transfers section shows you a history of past transfers that have been made using the Finance app, including information about the date of the transfer, what address the transfer was to or from, a reference with additional context about the transfer, and the amount of the transfer.
 
-![](images/user_guide/06/1_welcome.png)
+![](images/user_guide/06/80_appsfinance6.png)
 
 The transfer history can be filtered by token:
 
-![](images/user_guide/06/1_welcome.png)
+![](images/user_guide/06/76_appsfinance2.png)
 
 Or transfer type:
 
-![](images/user_guide/06/1_welcome.png)
+![](images/user_guide/06/77_appsfinance3.png)
 
 And for each transfer, you can click on the drop down menu to get a link to view the transaction on the blockchain so you can see even more detail about the transfer:
 
-![](images/user_guide/06/1_welcome.png)
+![](images/user_guide/06/81_appsfinance7.png)
 
 ### 3.4.3 New Transfer
 
-To create a new transfer from the Finance app to another address, first click the “New Transfer” button, open the "Withdrawal" tab, then enter the address you want to make the transfer to, what token you want to send, and the amount of tokens you want to send. You can optionally add a reference note to provide more context for the transfer. Once you have filled out all of this information you can click the “Submit transfer” button to complete the action, if you have permission.
+To send funds to your organization, you can create a deposit using the Finance app. Click the "New Transfer" button, open the "Deposit" tab, select the token you want to deposit, enter the amount and an optional reference note, then click the "Submit deposit" button.
 
-![](images/user_guide/06/1_welcome.png)
+![](images/user_guide/06/104_appsfinance2.png)
+
+To create a new transfer from your organization to another address, you can create a withdrawal using the Finance app. Click the “New Transfer” button, open the "Withdrawal" tab, then enter the address you want to make the transfer to, what token you want to send, and the amount of tokens you want to send. You can optionally add a reference note to provide more context for the transfer. Once you have filled out all of this information you can click the “Submit transfer” button to complete the action, if you have permission.
+
+![](images/user_guide/06/105_appsfinance3.png)
 
 ## 3.5 Permissions
 
 The Permissions app is used to view all of the current permissions that have been set in an organization and add or remove permissions as needed. The permissions set by the Permissions app define which entities have what permissions to perform various actions in an organization. For example, any account may have permission to create a vote but only tokenholders in an organization may have permission to cast a vote.
 
-![](images/user_guide/06/1_welcome.png)
+![](images/user_guide/06/82_appspermissions1.png)
 
 ### 3.5.1 Browse by app
 
 The Permissions app shows a list of every app installed in the organization and the address or token symbol of that app.
 
-![](images/user_guide/06/1_welcome.png)
+![](images/user_guide/06/83_appspermissions2.png)
 
 Every app has a list of actions that can be performed on the app, a list of actions that other entities have been given permission to perform on the app, and a list of permissions that the app has been granted.
 
-![](images/user_guide/06/1_welcome.png)
+![](images/user_guide/06/94_appspermissions13.png)
 
 #### 3.5.1.1 Actions available on this app
 
 The “Actions available on this app” section shows what actions can be performed on the app and which entity manages each action. This entity is called a “manager”.
 
-![](images/user_guide/06/1_welcome.png)
+![](images/user_guide/06/97_appspermissions16.png)
 
 A manager has the ability to choose which entities have permission to perform an action and the ability to change the manager of that action. If a manager removes themself as a manager of a permission without re-assigning the manager role to another entity, then management of that action defaults to whichever entity manages the “Create permissions” action in the ACL app. If the manager of an action is set as `0xFFfFfFffFFfffFFfFFfFFFFFffFFFffffFfFFFfF` then no new manager can be set and permissions granted for that action will be locked forever.
 
-![](images/user_guide/06/1_welcome.png)
+![](images/user_guide/06/95_appspermissions14.png)
 
 If an action has not been given a manager yet, then it must be initialized. To initialize an action, enter the address of the entity that you want to manage the action, select which entity you want to grant permission to perform the action, then click the “Initialize permission” button to initialize the permission, if you have permission to do so.
 
-![](images/user_guide/06/1_welcome.png)
+![](images/user_guide/06/96_appspermissions15.png)
 
 #### 3.5.1.2 Permissions set on this app
 
 The “Permissions set on this app” section shows which entities have permission to perform which actions on the app. If you are the manager of an action then you can revoke permission from any entity that has been granted permission to perform an action.
 
-![](images/user_guide/06/1_welcome.png)
+![](images/user_guide/06/98_appspermissions17.png)
 
 #### 3.5.1.3 Permissions granted to this app
 
 The “Permissions granted” or “Permissions granted to this app” section shows which actions the entity has been granted to perform on which app. If you are the manager of an action in this section then you can revoke permission from the entity that has been granted permission to perform the action.
 
-![](images/user_guide/06/1_welcome.png)
+![](images/user_guide/06/99_appspermissions18.png)
 
 ### 3.5.2 Browse by entity
 
 Back on the main Permissions page, you have the ability to get an at-a-glance view of all of the permissions set in an organization in the “Browse by entity” section. Here, you can quickly see which entities have been granted permission to perform which actions in the organization. Clicking “View details” will take you to the permissions page for that entity.
 
-![](images/user_guide/06/1_welcome.png)
+![](images/user_guide/06/84_appspermissions3.png)
 
 ### 3.5.3 Add permission
 
 To give permission to an entity to perform an action on an app, click the “Add permission” button, select which app you want the entity to perform the action on, select which entity you want to grant the permission to, then select the action you want to grant the entity permission to perform.
 
-![](images/user_guide/06/1_welcome.png)
+![](images/user_guide/06/87_appspermissions6.png)
 
 Each app has different actions that an entity can be granted permission to perform. Granting permission to an entity to perform these actions on these apps will allow them to:
 
@@ -636,15 +640,15 @@ Each app has different actions that an entity can be granted permission to perfo
 
 **EVM Script Registry**
 
-- Add executors: add an executor to the organization*
+- Add executors: add an executor to the organization`*`
 
-- Enable and disable executors: enable and disable executors in an organization*
+- Enable and disable executors: enable and disable executors in an organization`*`
 
-*Note: An executor is an interpreter for running scripts in an organization. All of the apps in an organization use the executors in the organization to execute scripts that are part of transactions sent to the app. Each script has an identifier that determines which executor is used for running the script. For example, whenever a vote is executed in the Voting app, it runs a script. The Voting app uses an executor to execute the script in a vote transaction. You can find more documentation about executors in the [Aragon Developer Portal](https://hack.aragon.org/docs/aragonos-ref.html#52-evmscripts).*
+*Note: An executor is an interpreter for running scripts in an organization. All of the apps in an organization use the executors in the organization to execute scripts that are part of transactions sent to the app. Each script has an identifier that determines which executor is used for running the script. For example, whenever a vote transaction is sent to the Voting app, the app runs a script, then uses an executor to execute the script in the transaction. You can find more documentation about executors in the [Aragon Developer Portal](https://hack.aragon.org/docs/aragonos-ref.html#52-evmscripts).*
 
 **Kernel**
 
-- Manage apps: install apps, upgrade apps, and change default apps in an organization. The ACL and the EVM Script Registry are default apps in the organization. Whoever has permission to perform this action can also change the default Vault app of the organization (which is the Vault that tokens will be sent to if tokens are sent to an app that is not meant to accept token deposits).*
+- Manage apps: install apps, upgrade apps, and change default apps in an organization. The ACL and the EVM Script Registry are default apps in the organization. Whoever has permission to perform this action can also change the default Vault app of the organization (which is the Vault that tokens will be sent to if tokens are sent to an app that is not meant to accept token deposits).`*`
 
 **Token Manager**
 
@@ -684,7 +688,7 @@ Each app has different actions that an entity can be granted permission to perfo
 
 The Apps page is not an app yet but shows other apps that are currently in development. In the future, this page will be an app that you can use to browse and install apps that are available to be installed in your organization.
 
-![](images/user_guide/06/1_welcome.png)
+![](images/user_guide/06/100_appsapps.png)
 
 ## 3.7 Settings
 
@@ -694,9 +698,9 @@ If you are using Aragon on testnet, you can also request test tokens from the Se
 
 **If you want to send tokens to your organization, be sure to send them to the organization’s Finance app address.**
 
-![](images/user_guide/06/1_welcome.png)
+![](images/user_guide/06/101_appssettings1.png)
 
-![](images/user_guide/06/1_welcome.png)
+![](images/user_guide/06/102_appssettings2.png)
 
 # 4. Troubleshooting
 
