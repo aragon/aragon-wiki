@@ -59,7 +59,6 @@ For more context, we've published three blog posts about why it makes sense to [
 
 * [Web3 Developer](openings/web3.md)
 * [Frontend Developer](openings/frontend.md)
-* [Web Developer](openings/web.md)
 * [DevOps](openings/dev-ops.md)
 * [EVM/Solidity Engineer](openings/solidity.md)
 * [Documentation Technical Writer](openings/technical-writer.md)
@@ -134,12 +133,12 @@ We invite you to join us in building a better world!
 ### Perks ⭐️
 
 -   Work with an international team (free lodging in worldwide locations and local guides!)
--   Quarterly off sites where we all meet in a peaceful location to work and connect with the team and guests from the ecosystem.
--   Flexible paid-time off, so you can take your vacations when you need.
+-   Occasional off sites where we all can meet in a peaceful location to work and connect with the team and guests from the ecosystem (Next one is Thailand in Janurary).
 -   Opportunities to attend and/or speak in relevant events.
 
 ### Openings 🙋🏾🙋‍👨👦👽
 
+-   [Project Manager](openings/DAC-Project_Manager.md)
 -   [Technical Writer](openings/DAC-Technical_Writer.md)
 -   [UX Designer](openings/DAC-UX_Designer.md)
 
@@ -162,6 +161,6 @@ We invite you to join us in building a better world!
 -   Initial Interview - If there's a potential fit we'll schedule a call.
 -   Meet the team - If we liked your submission you'll chat with other members of our team.
 -   Offer - If we see a match we'll extend you an introductory offer.
--   Trial - Since we're remote we'll work together for a couple months before making the final decision.
+-   Trial - Since we're remote we'll work together for a month or more before making the final decision.
 
 ![](../../images/aragon_giveth_teams_toronto.jpg)
