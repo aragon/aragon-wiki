@@ -1,8 +1,8 @@
-# Documentation Technical Writer 
+# Documentation Technical Writer
 
 Aragon is an open source, decentralized project [fighting for the freedom](https://www.youtube.com/watch?v=AqjIWmiAidw) to organize. We believe that decentralized organizations can solve the world's worst problems.
 
-We’re looking for a Technical Writer to help us communicate the different moving parts of [Aragon Core](https://app.aragon.org) and [Dev Tools](https://hack.aragon.org) to facilitate the development of the Ethereum community. Our Technical Writer will be the bridge between Aragon engineers and external developers, as well as the reference to support the growth of the Ethereum community through better documentation.
+We’re looking for a Technical Writer to help us communicate the different moving parts of [Aragon client](https://app.aragon.org) and [Dev Tools](https://hack.aragon.org) to facilitate the development of the Ethereum community. Our Technical Writer will be the bridge between Aragon engineers and external developers, as well as the reference to support the growth of the Ethereum community through better documentation.
 
 ### Responsibilities
 

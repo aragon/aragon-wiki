@@ -4,7 +4,7 @@ Aragon is an open source, decentralized project [fighting for the freedom](https
 
 We’re looking for a DevOps Engineer to help us architect our server infrastructure and automate internal processes. Our ideal DevOps Engineer is someone who wants to create tools that will ultimately automate DAOs, and loves to create open source tools to benefit the open source community.
 
-We try to keep our centralized infrastructure at a minimum, balancing usability and decentralization (censorship-resistance). We strive to make as much as the infrastructure that supports using [Aragon Core reproducible by users](https://blog.aragon.one/deploying-and-distributing-aragon-core-11e70cbc9b50) so they don’t have to rely on our servers.
+We try to keep our centralized infrastructure at a minimum, balancing usability and decentralization (censorship-resistance). We strive to make as much as the infrastructure that supports using [Aragon client reproducible by users](https://blog.aragon.one/deploying-and-distributing-aragon-core-11e70cbc9b50) so they don’t have to rely on our servers.
 
 ### Responsibilities
 
