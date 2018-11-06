@@ -1,5 +1,8 @@
 # Aragon Presentation Videos
 
+## [**DAOs and the Web3 Vision by Luis Cuende at Web3 Summit 2018**](https://www.youtube.com/watch?v=YG3a5ihbkAQ)
+by Luis Cuende at [**Web3 Summit**](https://web3summit.com)  
+
 ## [**DAOs are the New Order**](https://www.youtube.com/watch?v=wDZVAtFm_CI)
 by Luis Cuende at [**HCPP 2018**](https://neworder.hcpp.cz/)  
 [Slides of the presentation](../documentation/slides/DAOs-are-the-New-Order_Luis-Cuende.pdf)
