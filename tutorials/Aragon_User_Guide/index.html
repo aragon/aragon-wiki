@@ -3324,7 +3324,7 @@
 
 <div class="admonition warning">
 <p class="admonition-title">Note</p>
-<p>The token name and symbol cannot currently be changed.</p>
+<p>The token name and symbol currently cannot be changed.</p>
 </div>
 <p><a href="../images/user_guide/06/5_tokenname.png"><img alt="" src="../images/user_guide/06/5_tokenname.png" /></a></p>
 <h3>2.1.6 Sign organization creation transactions</h3>
@@ -3333,7 +3333,7 @@
 <p>Open MetaMask if the wallet window does not open automatically. After the first transaction is confirmed, the second transaction may show up in MetaMask as a transaction with an “unapproved” label, indicating that it needs to be signed. Click the transaction to open and sign it.</p>
 <div class="admonition warning">
 <p class="admonition-title">Note</p>
-<p>There is <a href="https://github.com/aragon/aragon/issues/440">an issue</a> with some Ethereum provider configurations that causes the browser window to crash and the organization creation process to fail after the first transaction, with no easy way to pick up where you left off to send the second and final transaction to create the organization. We are working on a fix for this specific issue that is causing the browser to crash, and we are also working on <a href="https://github.com/aragon/aragon/issues/353">making it easier to recover</a> from browser closures (due to a crash or otherwise) during the organization creation process in general. Please be advised that ETH used to pay gas for the first organization creation transaction will be "stuck" until we implement an easy way to recover and send the second and final organization creation transaction.</p>
+<p>Be careful not to close your browser window while creating your organization. If your browser window closes after signing the first transaction to create the organization but before the second transaction appears, then it will be difficult to pick up where you left off after you re-open your browser window. We are working on <a href="https://github.com/aragon/aragon/issues/353">making it easier to recover</a> from browser closures (due to a crash or otherwise) during the organization creation process in general. Please be advised that ETH used to pay gas for the first organization creation transaction will be "stuck" until we implement an easy way to recover and send the second and final organization creation transaction.</p>
 </div>
 <p><a href="../images/user_guide/06/6_sign1.png"><img alt="" src="../images/user_guide/06/6_sign1.png" /></a></p>
 <h3>2.1.7 Click “Get Started”</h3>
@@ -3462,7 +3462,7 @@
 
 <div class="admonition warning">
 <p class="admonition-title">Note</p>
-<p>The token name and symbol cannot currently be changed.</p>
+<p>The token name and symbol currently cannot be changed.</p>
 </div>
 <p><a href="../images/user_guide/06/40_multisigtoken.png"><img alt="" src="../images/user_guide/06/40_multisigtoken.png" /></a></p>
 <h3>2.3.6 Sign organization creation transactions</h3>
@@ -3748,6 +3748,9 @@
 </ul>
 <div class="admonition note">
 <p>An executor is an interpreter for running scripts in an organization. All of the apps in an organization use the executors in the organization to execute scripts that are part of transactions sent to the app. Each script has an identifier that determines which executor is used for running the script. For example, whenever a vote transaction is sent to the Voting app, the app runs a script, then uses an executor to execute the script in the transaction. You can find more documentation about executors in the <a href="https://hack.aragon.org/docs/aragonos-ref.html#52-evmscripts">Aragon Developer Portal</a>.</p>
+</div>
+<div class="admonition error">
+<p>These actions are very sensitive actions that will give the entity with permission to perform these actions almost complete control of your organization.</p>
 </div>
 </div>
 <div class="admonition info">
