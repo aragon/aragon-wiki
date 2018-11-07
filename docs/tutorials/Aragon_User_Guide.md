@@ -86,7 +86,7 @@ Aragon uses the [Ethereum Name Service](https://ens.domains/) (ENS) to assign na
 <h3>2.1.5 Choose token name and symbol then click “Next”</h3>
 
 !!! warning "Note"
-    The token name and symbol cannot currently be changed.
+    The token name and symbol currently cannot be changed.
 
 [![](images/user_guide/06/5_tokenname.png)](images/user_guide/06/5_tokenname.png)
 
@@ -97,7 +97,7 @@ Now you need to sign two transactions in MetaMask to create your organization.
 Open MetaMask if the wallet window does not open automatically. After the first transaction is confirmed, the second transaction may show up in MetaMask as a transaction with an “unapproved” label, indicating that it needs to be signed. Click the transaction to open and sign it.
 
 !!! warning "Note"
-    There is [an issue](https://github.com/aragon/aragon/issues/440) with some Ethereum provider configurations that causes the browser window to crash and the organization creation process to fail after the first transaction, with no easy way to pick up where you left off to send the second and final transaction to create the organization. We are working on a fix for this specific issue that is causing the browser to crash, and we are also working on [making it easier to recover](https://github.com/aragon/aragon/issues/353) from browser closures (due to a crash or otherwise) during the organization creation process in general. Please be advised that ETH used to pay gas for the first organization creation transaction will be "stuck" until we implement an easy way to recover and send the second and final organization creation transaction.
+    Be careful not to close your browser window while creating your organization. If your browser window closes after signing the first transaction to create the organization but before the second transaction appears, then it will be difficult to pick up where you left off after you re-open your browser window. We are working on [making it easier to recover](https://github.com/aragon/aragon/issues/353) from browser closures (due to a crash or otherwise) during the organization creation process in general. Please be advised that ETH used to pay gas for the first organization creation transaction will be "stuck" until we implement an easy way to recover and send the second and final organization creation transaction.
 
 [![](images/user_guide/06/6_sign1.png)](images/user_guide/06/6_sign1.png)
 
@@ -280,7 +280,7 @@ First enter the addresses of the accounts that you want to be members of the mul
 <h3>2.3.5 Choose token name and symbol then click “Next”</h3>
 
 !!! warning "Note"
-    The token name and symbol cannot currently be changed.
+    The token name and symbol currently cannot be changed.
 
 [![](images/user_guide/06/40_multisigtoken.png)](images/user_guide/06/40_multisigtoken.png)
 
@@ -679,6 +679,9 @@ Each app has different actions that an entity can be granted permission to perfo
 
     !!! note ""
         An executor is an interpreter for running scripts in an organization. All of the apps in an organization use the executors in the organization to execute scripts that are part of transactions sent to the app. Each script has an identifier that determines which executor is used for running the script. For example, whenever a vote transaction is sent to the Voting app, the app runs a script, then uses an executor to execute the script in the transaction. You can find more documentation about executors in the [Aragon Developer Portal](https://hack.aragon.org/docs/aragonos-ref.html#52-evmscripts).
+        
+    !!! error ""
+        These actions are very sensitive actions that will give the entity with permission to perform these actions almost complete control of your organization.
 
 !!! info "**Kernel**"
 
