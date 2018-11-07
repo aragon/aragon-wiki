@@ -72,7 +72,7 @@ pages:
     - Bug bounty: 'dev/bug_bounty.md'
     - Security disclosure: 'dev/security_disclosure.md'
   - Tutorials:
-    - Aragon User Guide: 'tutorials/Aragon_Core_User_Guide.md'
+    - Aragon User Guide: 'tutorials/Aragon_User_Guide.md'
     - DAO Workshop For Aragon Core v0.5: 'tutorials/DAO_Workshop_Testnet_by_joselfgaray.md'
     - How to claim an Aragon bounty using Status Open Bounty: 'tutorials/Status_Open_Bounty_Guide.md'
   - Design:
