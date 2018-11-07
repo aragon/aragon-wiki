@@ -86,7 +86,7 @@ Aragon uses the [Ethereum Name Service](https://ens.domains/) (ENS) to assign na
 <h3>2.1.5 Choose token name and symbol then click “Next”</h3>
 
 !!! warning "Note"
-    The token name and symbol cannot currently be changed.
+    The token name and symbol currently cannot be changed.
 
 [![](images/user_guide/06/5_tokenname.png)](images/user_guide/06/5_tokenname.png)
 
@@ -280,7 +280,7 @@ First enter the addresses of the accounts that you want to be members of the mul
 <h3>2.3.5 Choose token name and symbol then click “Next”</h3>
 
 !!! warning "Note"
-    The token name and symbol cannot currently be changed.
+    The token name and symbol currently cannot be changed.
 
 [![](images/user_guide/06/40_multisigtoken.png)](images/user_guide/06/40_multisigtoken.png)
 
