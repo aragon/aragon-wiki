@@ -679,6 +679,9 @@ Each app has different actions that an entity can be granted permission to perfo
 
     !!! note ""
         An executor is an interpreter for running scripts in an organization. All of the apps in an organization use the executors in the organization to execute scripts that are part of transactions sent to the app. Each script has an identifier that determines which executor is used for running the script. For example, whenever a vote transaction is sent to the Voting app, the app runs a script, then uses an executor to execute the script in the transaction. You can find more documentation about executors in the [Aragon Developer Portal](https://hack.aragon.org/docs/aragonos-ref.html#52-evmscripts).
+        
+    !!! error ""
+        These actions are very sensitive actions that will give the entity with permission to perform these actions almost complete control of your organization.
 
 !!! info "**Kernel**"
 
