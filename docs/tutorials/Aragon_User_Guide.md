@@ -735,7 +735,7 @@ The Settings page has information about your organization, including the address
 
 If you are using Aragon on testnet, you can also request test tokens from the Settings page. These tokens will be deposited into your organization’s Finance app.
 
-**If you want to send tokens to your organization, be sure to send them to the organization’s Finance app address.**
+**Do not send non-ETH tokens to the organization's Finance app address. If you want to send non-ETH tokens to your organization, you must use the Deposit feature under "New Transfer" in the Finance app.**
 
 [![](images/user_guide/06/101_appssettings1.png)](images/user_guide/06/101_appssettings1.png)
 
