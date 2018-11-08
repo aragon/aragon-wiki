@@ -122,6 +122,9 @@
 ### [The Boost VC Podcast | Season 2, Ep. 14: Governance, Decentralized Organizations and Valuing Blockchain Technology with Aragon Co-Founder Luis Cuende](https://simplecast.com/s/816fdfc7)
 > Listen in as Aragon co-founder Luis Cuende offers his profound insight on the growing popularity of cryptocurrency in Spain, fueled in part by the push for Catalonian independence.
 
+### [Governing the Future | E08: Luis Cuende, Aragon - governance, blockchain cap tables, and nation states](https://www.buzzsprout.com/104117/542773-e08-luis-cuende-aragon-governance-blockchain-cap-tables-and-nation-states)
+> What is a fully digital, programmable, and transparent organization? What happens when computers can start companies? What is the future of nation states and the race to be crypto friendly?
+
 ## Video Interviews
 
 See full list in the [Aragon Interview Videos](../videos/interviews.md) as well as the [Aragon Presentation Videos](../videos/presentations.md)
