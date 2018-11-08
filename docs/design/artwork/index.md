@@ -91,3 +91,15 @@ ___
 ## Gradient Background
 
 [<img src="../artwork/aragon_gradient_background.jpg">](aragon_gradient_background.jpg)
+
+## Propaganda
+
+[<img src="../artwork/propaganda/poster_01.png" style="width:50%;">](propaganda/poster_01.png)
+___
+[<img src="../artwork/propaganda/poster_02.png" style="width:50%;">](propaganda/poster_02.png)
+___
+[<img src="../artwork/propaganda/poster_03.png" style="width:50%;">](propaganda/poster_03.png)
+___
+[<img src="../artwork/propaganda/luis_poster.jpg" style="width:50%;">](propaganda/luis_poster.jpg)
+___
+[<img src="../artwork/propaganda/jorge_poster.jpg" style="width:50%;">](propaganda/jorge_poster.jpg)
