@@ -208,7 +208,7 @@ Follow these steps to create a new transfer from the Finance app:
 
 !!! info "**On mainnet**"
 
-    Go to the Settings app and copy the Finance app address. Open MetaMask to sign and send the desired amount of ETH or tokens to the Finance app address. About a minute or so after your transaction is confirmed, the funds will appear in the Finance app of your organization. You can then create a new transfer to send these funds to another address.
+    Go to the Finance app and click the “New Transfer” button. On the “Deposit” tab, enter the token you want to deposit, the amount, and an optional reference note. Click “Submit deposit” to complete the transfer. About a minute or so after your transaction is confirmed, the funds will appear in the Finance app of your organization. You can then create a new transfer to withdrawal these funds to another address.
 
 !!! info "**On testnet**"
 
