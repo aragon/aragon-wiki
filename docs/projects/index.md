@@ -25,6 +25,8 @@
 
 - [Democracy Earth](https://democracy.earth)
 
+- [Shasta](https://shasta.world/)
+
 - [Althea](https://altheamesh.com/)
 
 ![](../images/projects/althea.jpg)
