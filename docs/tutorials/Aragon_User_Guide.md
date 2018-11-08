@@ -208,7 +208,7 @@ Follow these steps to create a new transfer from the Finance app:
 
 !!! info "**On mainnet**"
 
-    Go to the Settings app and copy the Finance app address. Open MetaMask to sign and send the desired amount of ETH or tokens to the Finance app address. About a minute or so after your transaction is confirmed, the funds will appear in the Finance app of your organization. You can then create a new transfer to send these funds to another address.
+    Go to the Finance app and click the “New Transfer” button. On the “Deposit” tab, enter the token you want to deposit, the amount, and an optional reference note. Click “Submit deposit” to complete the transfer. About a minute or so after your transaction is confirmed, the funds will appear in the Finance app of your organization. You can then create a new transfer to withdraw these funds to another address.
 
 !!! info "**On testnet**"
 
@@ -418,7 +418,7 @@ Follow these steps to create a new transfer from the Finance app:
 
 !!! info "**On mainnet**"
 
-    Go to the Finance app and click the “New Transfer” button. On the “Deposit” tab, enter the token you want to deposit, the amount, and an optional reference note. Click “Submit deposit” to complete the transfer. About a minute or so after your transaction is confirmed, the funds will appear in the Finance app of your organization. You can then create a new transfer to withdrawal these funds to another address.
+    Go to the Finance app and click the “New Transfer” button. On the “Deposit” tab, enter the token you want to deposit, the amount, and an optional reference note. Click “Submit deposit” to complete the transfer. About a minute or so after your transaction is confirmed, the funds will appear in the Finance app of your organization. You can then create a new transfer to withdraw these funds to another address.
 
 !!! info "**On testnet**"
 
@@ -735,7 +735,7 @@ The Settings page has information about your organization, including the address
 
 If you are using Aragon on testnet, you can also request test tokens from the Settings page. These tokens will be deposited into your organization’s Finance app.
 
-**If you want to send tokens to your organization, be sure to send them to the organization’s Finance app address.**
+**Do not send non-ETH tokens to the organization's Finance app address. If you want to send non-ETH tokens to your organization, you must use the "Deposit" feature under "New Transfer" in the Finance app.**
 
 [![](images/user_guide/06/101_appssettings1.png)](images/user_guide/06/101_appssettings1.png)
 
