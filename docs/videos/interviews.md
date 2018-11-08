@@ -14,6 +14,8 @@
 
 ## [**Luis Cuende on Aragon and a Decentralized World at EDCon 2018**](https://www.youtube.com/watch?v=LTBPCWBXFfk) at [**EDCON**](https://edcon.io/)
 
+## [**ScalingNOW in Barcelona: Interview with Luis from Aragon**](https://www.youtube.com/watch?v=sKx-2yNknBA) at [**ScalingNOW: Barcelona**](https://scalingnow.giveth.io)
+
 ## [**FLOSSWEEKLY #467: Aragon**](https://twit.tv/shows/floss-weekly/episodes/467)
 
 ## [**District Digest - Luke Duncan from Aragon**](https://www.youtube.com/watch?v=xGJN9wIJrM4)
