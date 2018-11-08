@@ -94,12 +94,12 @@ ___
 
 ## Propaganda
 
-[<img src="../artwork/propaganda/poster_01.png">](propaganda/poster_01.png)
+[<img src="../artwork/propaganda/poster_01.png" style="width:50%;">](propaganda/poster_01.png)
 ___
-[<img src="../artwork/propaganda/poster_02.png">](propaganda/poster_02.png)
+[<img src="../artwork/propaganda/poster_02.png" style="width:50%;">](propaganda/poster_02.png)
 ___
-[<img src="../artwork/propaganda/poster_03.png">](propaganda/poster_03.png)
+[<img src="../artwork/propaganda/poster_03.png" style="width:50%;">](propaganda/poster_03.png)
 ___
-[<img src="../artwork/propaganda/luis_poster.jpg">](propaganda/luis_poster.jpg)
+[<img src="../artwork/propaganda/luis_poster.jpg" style="width:50%;">](propaganda/luis_poster.jpg)
 ___
-[<img src="../artwork/propaganda/jorge_poster.jpg">](propaganda/jorge_poster.jpg)
+[<img src="../artwork/propaganda/jorge_poster.jpg" style="width:50%;">](propaganda/jorge_poster.jpg)
