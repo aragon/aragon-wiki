@@ -19,8 +19,9 @@ ANT was initially created and distributed as a result of a [public token sale](h
 ### Initial supply breakdown
 
 Pre-sale: ___ ANT [**TODO**]  
-Public sale: 27500000 ANT  
-Foundation grant: 5941428.57142857 ANT
+Public sale: 27,500,000 ANT
+Founders grant: 5,466,114.28571429 ANT
+Foundation grant: 5,941,428.57142857 ANT
 
 Total supply: 39609523.80952380954 ANT`*`
 
