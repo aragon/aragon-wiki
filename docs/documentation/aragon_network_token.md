@@ -64,6 +64,7 @@ _Disclaimer: Nothing on this page should be taken as investment advice. Inclusio
 - SimpleSwap - https://simpleswap.io/
 - ShapeShift - https://shapeshift.io
 - Switchain - https://www.switchain.com/
+- Uniswap - https://uniswap.exchange/swap
 - UpBit - https://upbit.com
 
 **OTC Brokers:**
