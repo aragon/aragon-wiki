@@ -34,7 +34,6 @@ For more context, we've published three blog posts about why it makes sense to [
 * We work **focus-driven**, not hours-driven.
 * We are a technology project supported by a community. Our focus is **product first**.
 
-
 ### Work conditions 🚀
 
 * Work with **top minds** from the ecosystem and build **revolutionary products**.
@@ -43,7 +42,6 @@ For more context, we've published three blog posts about why it makes sense to [
 * **Competitive compensation** based on your role, not your location.
 * You decide **how to allocate your salary** - in fiat, ETH and/or ANT.
 * We nourish curiosity and inspiration by **supporting side projects**.
-
 
 ### Perks ⭐️
 
@@ -54,7 +52,6 @@ For more context, we've published three blog posts about why it makes sense to [
 * Equipment and software licenses.
 * Opportunities to attend and/or speak in relevant **events**.
 
-
 ### Openings 🙋🏾🙋‍♂️
 
 * [Web3 Developer](openings/web3.md)
@@ -63,8 +60,6 @@ For more context, we've published three blog posts about why it makes sense to [
 * [EVM/Solidity Engineer](openings/solidity.md)
 * [Documentation Technical Writer](openings/technical-writer.md)
 * [Developer Relations](openings/dev_rel.md)
-* [UI Developer at Aragon One − Contract Position](openings/ui-developer-contract.md)
-
 
 ### Applying 📝
 
@@ -82,7 +77,6 @@ For more context, we've published three blog posts about why it makes sense to [
 * We value what you can do and your attitude doing it, not where/whether you went to school or college.
 
 More specific instructions for each position can be found in the openings.
-
 
 ### Process 🤓
 

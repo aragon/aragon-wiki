@@ -1,6 +1,6 @@
 # Solidity/EVM Engineer opening at Aragon One
 
-We are looking for an Ethereum expert to work with us on [Aragon client](https://hack.aragon.org/docs/aragonos-intro.html) and the upcoming [Aragon Network](https://github.com/aragon/whitepaper).
+We are looking for an Ethereum expert to work with us on [Aragon client / aragonOS](https://hack.aragon.org/docs/aragonos-intro.html) and the upcoming [Aragon Network](https://github.com/aragon/whitepaper).
 
 ### Requirements
 
