@@ -8,7 +8,7 @@ The Aragon Network Token (ticker symbol: ANT) is the native token of the Aragon 
 
 ## Initial token distribution
 
-ANT was initially created and distributed as a result of a [public token sale](https://blog.aragon.one/announcing-the-aragon-network-token-sale-fe83fe36902c) that took place on [May 17, 2017](https://blog.aragon.one/final-token-sale-recap-1ac64ab7cfcd) - starting at Ethereum block 3723000 to be exact. Less than 100 blocks later, 275000 ETH worth of ANT were sold. Added together with ANT sold in the pre-sale, ANT granted to the Aragon Foundation, and ANT granted to founders and early contributors, the total initial supply of ANT after the token sale is 39609523.80952380954 ANT.
+ANT was initially created and distributed as a result of a [public token sale](https://blog.aragon.one/announcing-the-aragon-network-token-sale-fe83fe36902c) that took place on [May 17, 2017](https://blog.aragon.one/final-token-sale-recap-1ac64ab7cfcd) - starting at Ethereum block 3,723,000 to be exact. Less than 100 blocks later, 275,000 ETH worth of ANT were sold. Added together with ANT sold in the pre-sale, ANT granted to the Aragon Foundation, and ANT granted to founders and early contributors, the total initial supply of ANT after the token sale is 39,609,523.80952380954 ANT.
 
 **Sources:**
 
@@ -19,11 +19,11 @@ ANT was initially created and distributed as a result of a [public token sale](h
 ### Initial supply breakdown
 
 Pre-sale: ___ ANT [**TODO**]  
-Public sale: 27,500,000 ANT
-Founders grant: 5,466,114.28571429 ANT
-Foundation grant: 5,941,428.57142857 ANT
+Public sale: 27,500,000 ANT  
+Founders grant: 5,466,114.28571429 ANT  
+Foundation grant: 5,941,428.57142857 ANT  
 
-Total supply: 39609523.80952380954 ANT`*`
+Total supply: 39,609,523.80952380954 ANT`*`
 
 `*` Total supply will be constant only until the AN (Aragon Network) is deployed. From then on, ANT holders will use Aragon Network governance to decide the monetary policy and inflation rate going forward.
 
