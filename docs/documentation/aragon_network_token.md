@@ -18,11 +18,11 @@ ANT was initially created and distributed as a result of a [public token sale](h
 
 ### Initial supply breakdown
 
-Pre-sale: W ANT  
+Pre-sale: ___ ANT [**TODO**]  
 Public sale: 27500000 ANT  
 Foundation grant: 5941428.57142857 ANT
 
-Total supply: 39609523.80952380954 ANT*
+Total supply: 39609523.80952380954 ANT`*`
 
 `*` Total supply will be constant only until the AN (Aragon Network) is deployed. From then on, ANT holders will use Aragon Network governance to decide the monetary policy and inflation rate going forward.
 
