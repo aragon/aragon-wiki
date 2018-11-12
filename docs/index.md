@@ -253,12 +253,6 @@ ___
 
 **<h2>Dev Team</h2>**
 
-> <img src="images/team_members/Chris_256.png" style="width:192px">
-
-> - **Product Manager at Aragon One**: [Chris Remus](https://twitter.com/cjremus)
-
-&nbsp;
-
 > <img src="images/team_members/Pierre_256.png" style="width:192px">
 
 > - **UI & Interaction Developer at Aragon One**: [Pierre Bertet](https://twitter.com/bpierre)
