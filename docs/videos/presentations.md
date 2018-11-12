@@ -1,11 +1,11 @@
 # Aragon Presentation Videos
 
 ## [**Creating Truly Decentralized Browser Applications**](https://www.youtube.com/watch?v=AL4Commsu-U)
-by Luis Cuende at [**ReactiveConf 2018**](https://reactiveconf.com/)
+by Luis Cuende at [**ReactiveConf 2018**](https://reactiveconf.com/)  
 [Slides of the presentation](../documentation/slides/ReactiveConf_Luis-Cuende.pdf)
 
 ## [**DAOs and the Web3 Vision**](https://www.youtube.com/watch?v=YG3a5ihbkAQ)
-by Luis Cuende at [**Web3 Summit**](https://web3summit.com)
+by Luis Cuende at [**Web3 Summit**](https://web3summit.com)  
 [Slides of the presentation](../documentation/slides/Web3-Summit_Luis-Cuende.pdf)
 
 ## [**DAOs are the New Order**](https://www.youtube.com/watch?v=wDZVAtFm_CI)
