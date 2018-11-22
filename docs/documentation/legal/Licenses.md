@@ -33,9 +33,9 @@ The following are examples of some of the components of the Aragon Project and i
 
 ### Product
 
-- **aragon/aragon** (_Aragon Core_): AGPLv3
+- **aragon/aragon** (_Aragon_): AGPLv3
 
-- **aragon/aragon-apps** (_Aragon Core_):
+- **aragon/aragon-apps** (_Aragon_):
 
     - **App contracts**: GPLv3
     - **App frontends**: AGPLv3

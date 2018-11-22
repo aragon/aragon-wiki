@@ -1,6 +1,6 @@
-# Aragon Core smart contracts bug bounty
+# Aragon client smart contracts bug bounty
 
-A bug bounty for the smart contracts in Aragon Core is now live. We intend for hackers to look for smart contract vulnerabilities in our system that can lead to loss of funds or locked DAOs.
+A bug bounty for the smart contracts in the Aragon client is now live. We intend for hackers to look for smart contract vulnerabilities in our system that can lead to loss of funds or locked DAOs.
 
 ## Rewards
 
@@ -26,7 +26,7 @@ The bug bounty program will run for a minimum of three months, starting October 
 
 ## Scope
 
-In scope for the bug bounty are all the smart contract components of Aragon Core. They can be found on three main repositories:
+In scope for the bug bounty are all the smart contract components of the Aragon client. They can be found on three main repositories:
 
 !!! abstract "**aragonOS 4** ([https://github.com/aragon/aragonOS](https://github.com/aragon/aragonOS))"
     Smart contract framework and core of the system.
@@ -42,10 +42,10 @@ In scope for the bug bounty are all the smart contract components of Aragon Core
         - Excluding `contracts/test`
     - Solidity code under `shared/minime/contracts`
 
-!!! abstract "**dao-kits** ([https://github.com/aragon/dao-kits](https://github.com/aragon/dao-kits))"
+!!! abstract "**dao-templates** ([https://github.com/aragon/dao-kits](https://github.com/aragon/dao-kits))"
     On-chain deployment scripts for Aragon DAOs.
 
-    - Solidity code for the following kits: `bare`, `beta-base`, `democracy`, `multisig`, `survey`
+    - Solidity code for the following templates: `bare`, `beta-base`, `democracy`, `multisig`, `survey`
         - Excluding `contracts/test`
 
 ## Areas of interest

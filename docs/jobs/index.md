@@ -10,7 +10,7 @@ We believe that **decentralized organizations can solve the world's worst proble
 
 With [Aragon Nest](https://github.com/aragon/nest) we are already supporting projects that are not necessarily sustainable by themselves yet, but are crucial to the Aragon and Ethereum ecosystems.
 
-**We will expand the scope of Nest to start funding alternative teams** that have a desire to work on the [**Aragon Core client**](https://hack.aragon.org/docs/getting-started.html), [**aragonOS**](https://hack.aragon.org/docs/aragonos-ref.html) and on [**Aragon Apps**](../dev/apps/).
+**We will expand the scope of Nest to start funding alternative teams** that have a desire to work on the [**Aragon client**](https://hack.aragon.org/docs/getting-started.html), [**aragonOS**](https://hack.aragon.org/docs/aragonos-ref.html) and on [**Aragon Apps**](../dev/apps/).
 
 Since we released the first version of the [Aragon whitepaper](../documentation/whitepaper.md), we knew that it was important to **split the non-profit entity** overseeing the project [**from the actual companies or teams working on its development**](https://blog.aragon.one/the-path-to-mainstream-decentralized-organizations-d95a89d3cac4).
 

@@ -2,7 +2,7 @@
 
 Aragon project is dedicated to providing a harassment-free experience for everyone, regardless of age, body size, disability, ethnicity, gender identity and expression, level of experience, nationality, personal appearance, race, religion, or sexual identity and orientation. We do not tolerate harassment of participants in any form.
 
-This code of conduct applies to all of Aragon project's spaces, including the Aragon Core app, Rocket Chat, Reddit, Twitter, YouTube, and all other spaces associated with the Aragon project, both online and off. Anyone who violates this code of conduct may be sanctioned or expelled from these spaces at the discretion of the Aragon team.
+This code of conduct applies to all of Aragon project's spaces, including the Aragon app, Rocket Chat, Reddit, Twitter, YouTube, and all other spaces associated with the Aragon project, both online and off. Anyone who violates this code of conduct may be sanctioned or expelled from these spaces at the discretion of the Aragon team.
 
 Some of Aragon project's spaces may have additional rules in place, which will be made clearly available to participants. Participants are responsible for knowing and abiding by these rules.
 

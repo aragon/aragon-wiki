@@ -87,7 +87,7 @@ Here we have compiled resources and guides for press and media to use when refer
 
 [<img src="../../design/artwork/aragon_gradient_background.jpg">](../../design/artwork/aragon_gradient_background.jpg)
 
-## Aragon Core Screenshots
+## Aragon Screenshots
 
 > _Please keep in mind that these are all currently **mockups** of the upcoming [v0.5 release](../../documentation/Development_Plan/#05-the-refactor-release)_
 

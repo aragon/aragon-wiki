@@ -87,7 +87,7 @@ Aragon organizations can be upgraded seamlessly using our aragonOS architecture.
 
 The Aragon Network Token, ANT, puts the power into the hands of the people participating in the operation of the Network. Every single aspect of the Network will be governed by those willing to make an effort for a better future.
 
-### **Aragon Core**
+### **Aragon client**
 
 <h2>Decentralized application to run your organization</h2>
 
@@ -137,7 +137,7 @@ By assigning different permissions to people, you can create the kind of organiz
 
 > The Aragon Network will decentralize its governance by gradually handing over control of the project to its users.
 
-The Aragon Network will establish additional services for the organizations taking advantage of what Aragon Core provides.
+The Aragon Network will establish additional services for the organizations taking advantage of what Aragon provides.
 
 Our mission is to make the Aragon Network an autonomous organization itself, which is managed by the people using it for their mutual prosperity.
 
@@ -183,7 +183,7 @@ YouTube - [https://www.youtube.com/c/AragonProject](https://www.youtube.com/c/Ar
 
 With [Aragon Nest](https://github.com/aragon/nest) we are already supporting projects that are not necessarily sustainable by themselves yet, but are crucial to the Aragon and Ethereum ecosystems.
 
-**We will expand the scope of Nest to start funding alternative teams** that have a desire to work on the [**Aragon Core client**](https://hack.aragon.org/docs/getting-started.html), [**aragonOS**](https://hack.aragon.org/docs/aragonos-ref.html) and on [**Aragon Apps**](dev/apps/).
+**We will expand the scope of Nest to start funding alternative teams** that have a desire to work on the [**Aragon client**](https://hack.aragon.org/docs/getting-started.html), [**aragonOS**](https://hack.aragon.org/docs/aragonos-ref.html) and on [**Aragon Apps**](dev/apps/).
 
 Since we released the first version of the [Aragon whitepaper](documentation/whitepaper.md), we knew that it was important to **split the non-profit entity** overseeing the project [**from the actual companies or teams working on its development**](https://blog.aragon.org/the-path-to-mainstream-decentralized-organizations-d95a89d3cac4).
 

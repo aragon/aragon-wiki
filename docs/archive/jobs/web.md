@@ -42,7 +42,7 @@ Build a landing page for one of the components of the Aragon project. You can ch
 
 ##### Requirements
 
-1. Use the [Aragon UI](https://hack.aragon.org/docs/aragonui-intro.html) framework with React
+1. Use the [aragonUI](https://hack.aragon.org/docs/aragonui-intro.html) framework with React
 2. Properly communicate to a user who is not very deep into crypto. You can work on the aesthetics but create some dummy wording
 
 ##### Notes

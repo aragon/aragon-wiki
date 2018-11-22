@@ -6,7 +6,7 @@ As part of the ongoing efforts to build out the Aragon infrastructure, the Arago
 
 We expect this position to hold a leadership role (different than a management role) in a flat organization.
 
-The first task will be to research TCR's taking special note of input from Jeff, who wants to build a system [following this design](https://blog.goodaudience.com/rewriting-the-story-of-human-collaboration-c33a8a4cd5b8).  Then creating a design spec for this application and executing on that design, working with the DAC Dev team, using reusable components from the Aragon UI toolset given the already designed contracts.
+The first task will be to research TCR's taking special note of input from Jeff, who wants to build a system [following this design](https://blog.goodaudience.com/rewriting-the-story-of-human-collaboration-c33a8a4cd5b8).  Then creating a design spec for this application and executing on that design, working with the DAC Dev team, using reusable components from the aragonUI toolset given the already designed contracts.
 
 The next tasks will likely be of your choosing but integrating [Universal Logins](https://www.youtube.com/watch?v=F5t94cCg6XE) while helping to hire and inspire the team which will support the community, doing user research, and managing community contributions are likely to be on your list of priorities.
 
