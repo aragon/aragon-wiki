@@ -44,7 +44,7 @@ pages:
     - Manifesto: 'documentation/manifesto.md'
     - Multisigs:
       - Overview: 'documentation/multisigs/overview.md'
-      - Foundation: 'documentation/multisigs/foundation.md'
+      - Association: 'documentation/multisigs/association.md'
       - Community: 'documentation/multisigs/community.md'
     - Development Plan: 'documentation/Development_Plan.md'
     - Code of Conduct: 'documentation/Code_of_Conduct.md'
