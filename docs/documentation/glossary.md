@@ -14,8 +14,8 @@ The Aragon Network is a a DAO that conforms a network of DAOs. It's a blockchain
 
 **Website:** [https://aragon.org/network](https://aragon.org/network)
 
-## **Aragon Foundation**
-The Aragon Foundation is a non-profit entity that safeguards the values of the project by allocating the resources from the token sale towards funding activities and teams that move them forward.
+## **Aragon Association**
+The Aragon Association is a non-profit entity that safeguards the values of the project by allocating the resources from the token sale towards funding activities and teams that move them forward.
 
 **Website:** [https://aragon.org/foundation](https://aragon.org/foundation)
 

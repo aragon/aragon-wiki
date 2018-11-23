@@ -6,7 +6,7 @@ We believe that **decentralized organizations can solve the world's worst proble
 
 ## Teams
 
-> _To encourage other teams to work on Aragon, we will be splitting off the Foundation to form a company of core developers. Everyone currently employed by the Foundation will become employees of a new company funded by the Foundation. That way, **we level the playing field for other teams to join the core development of the project**._
+> _To encourage other teams to work on Aragon, we will be splitting off the Association to form a company of core developers. Everyone currently employed by the Association will become employees of a new company funded by the Association. That way, **we level the playing field for other teams to join the core development of the project**._
 
 With [Aragon Nest](https://github.com/aragon/nest) we are already supporting projects that are not necessarily sustainable by themselves yet, but are crucial to the Aragon and Ethereum ecosystems.
 
@@ -99,7 +99,7 @@ Since we're remote, if there's consensus, we'll work in person for a week before
 
 <img src="../design/logo/aragon_dac/Logo_ad.png" style="width:75%">
 
-As part of the ongoing efforts to build out the Aragon infrastructure, the Aragon Foundation and Giveth are building the Aragon DAC, a Decentralized Altruistic Community run using the Giveth DApp building out core Aragon infrastructure from the end user's perspective.  Read more about our formation [here](https://blog.aragon.org/aragon-dac-a-new-community-effort-to-foster-aragons-development-led-by-giveth/).
+As part of the ongoing efforts to build out the Aragon infrastructure, the Aragon Association and Giveth are building the Aragon DAC, a Decentralized Altruistic Community run using the Giveth DApp building out core Aragon infrastructure from the end user's perspective.  Read more about our formation [here](https://blog.aragon.org/aragon-dac-a-new-community-effort-to-foster-aragons-development-led-by-giveth/).
 
 We are currently building 2 teams that will work closely together. The first is the Community R&D Campaign that will help end-users (=non-developers) experiment with using the Aragon Stack. Second is a core dev team that will focus on developing the Aragon codebase, implementing features especially needed by the users. Both teams are advised by experienced members of Giveth and Aragon One teams and will work closely with each other.
 

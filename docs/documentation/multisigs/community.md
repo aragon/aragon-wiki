@@ -4,7 +4,7 @@ Required signatures: 5/7
 
 ## Signers
 
-### Aragon Foundation Multisig
+### Aragon Association Multisig
 
 [Address](https://etherscan.io/address/0xcafe1a77e84698c83ca8931f54a755176ef75f2c)  
 [**Read more**](foundation.md)
@@ -70,13 +70,13 @@ To verify them (this example uses a macOS system):
 ## Responsibilities
 
 - The Community multisig will serve ANT holders and the broader crypto community to ensure Aragon's stated mission is carried out.
-- The Community multisig will be responsible for deploying the Aragon Network code (provided by Aragon One or dev teams funded by the Aragon Foundation) once it is considered secure to do it and it matches the original expectations of it.
+- The Community multisig will be responsible for deploying the Aragon Network code (provided by Aragon One or dev teams funded by the Aragon Association) once it is considered secure to do it and it matches the original expectations of it.
     - The Community multisig has the power to decide the ANT control power, and the power will eventually be set to the Aragon Network.
     - If needed, the Community multisig can also perform a token migration.
-- Solving hypothetic deadlock problems in the Aragon Foundation multisig to ensure resources won't get locked and the project will continue its course.
+- Solving hypothetic deadlock problems in the Aragon Association multisig to ensure resources won't get locked and the project will continue its course.
 
 ## Rationale
 
-- Deploying the Aragon Network is a huge responsibility, and that's why we consider it a community effort. Aragon One or dev teams funded by the Aragon Foundation will provide the bytecode for such network, but without support from the community it won't be deployed.
+- Deploying the Aragon Network is a huge responsibility, and that's why we consider it a community effort. Aragon One or dev teams funded by the Aragon Association will provide the bytecode for such network, but without support from the community it won't be deployed.
 
-- The community multisig becomes a **5/6** multisig if the Foundation cannot sign. One of the key holders in the Foundation multisig + the Community multisig can solve any deadlock by replacing the other key in the Foundation multisig.
+- The community multisig becomes a **5/6** multisig if the Association cannot sign. One of the key holders in the Association multisig + the Community multisig can solve any deadlock by replacing the other key in the Association multisig.

@@ -2,7 +2,7 @@
 
 [Aragon](https://aragon.org/) is an open source, decentralized, project fighting for the freedom to organize.  We believe that decentralized organizations can solve the world's worst problems.
 
-As part of the ongoing efforts to build out the Aragon infrastructure, the Aragon Foundation is [collaborating with Giveth](https://blog.aragon.org/aragon-dac-a-new-community-effort-to-foster-aragons-development-led-by-giveth/) to build out a second core team that will help end-users experiment with the Aragon stack. We're looking for a Project Manager to lead this effort and ensure our team is successful and efficient in everything we do.
+As part of the ongoing efforts to build out the Aragon infrastructure, the Aragon Association is [collaborating with Giveth](https://blog.aragon.org/aragon-dac-a-new-community-effort-to-foster-aragons-development-led-by-giveth/) to build out a second core team that will help end-users experiment with the Aragon stack. We're looking for a Project Manager to lead this effort and ensure our team is successful and efficient in everything we do.
 
 ### Responsibilities
 
@@ -14,7 +14,7 @@ As part of the ongoing efforts to build out the Aragon infrastructure, the Arago
 - Hire and inspire core team members, contractors and community members to develop a robust, secure and technically sound approach to Aragon's software stack.
 - Maintaining a bounties program, or ensuring someone that does this work.
 - Collaborate closely with the Community R&D team to integrate user feedback into the development roadmap.  
-- Ensure the project’s status is thoroughly communicated in various formats as appropriate to all stakeholders (Aragon.one, Aragon Foundation, Aragon DAC core members, the Aragon community and the Ethereum community in general).
+- Ensure the project’s status is thoroughly communicated in various formats as appropriate to all stakeholders (Aragon.one, Aragon Association, Aragon DAC core members, the Aragon community and the Ethereum community in general).
 - Escalate issues and risks effectively.
 
 ### Requirements

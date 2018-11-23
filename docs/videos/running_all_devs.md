@@ -57,6 +57,6 @@ Thank participants and viewers for attending, then stop the livestream.
 
 Copy + paste the notes and video recording link to the call notes file created in Step 1. Fill out each empty / default section accordingly.
 
-Go into the YouTube Creator Studio > Video Manager > Videos, click the arrow button next to the call video, and click "Download MP4". Upload the video file to the Aragon Foundation cloud storage instance for backup.
+Go into the YouTube Creator Studio > Video Manager > Videos, click the arrow button next to the call video, and click "Download MP4". Upload the video file to the Aragon Association cloud storage instance for backup.
 
 Go to Step 1 and create an agenda file for the next call.

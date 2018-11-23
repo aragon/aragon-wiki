@@ -179,7 +179,7 @@ YouTube - [https://www.youtube.com/c/AragonProject](https://www.youtube.com/c/Ar
 
 ## Teams
 
-> _To encourage other teams to work on Aragon, we will be splitting off the Foundation to form a company of core developers. Everyone currently employed by the Foundation will become employees of a new company funded by the Foundation. That way, **we level the playing field for other teams to join the core development of the project**._
+> _To encourage other teams to work on Aragon, we will be splitting off the Association to form a company of core developers. Everyone currently employed by the Association will become employees of a new company funded by the Association. That way, **we level the playing field for other teams to join the core development of the project**._
 
 With [Aragon Nest](https://github.com/aragon/nest) we are already supporting projects that are not necessarily sustainable by themselves yet, but are crucial to the Aragon and Ethereum ecosystems.
 
@@ -273,7 +273,7 @@ ___
 
 <img src="design/logo/aragon_dac/Logo_ad.png" style="width:75%">
 
-> The Aragon Foundation and [Giveth](https://giveth.io) are proud to announce the launch of Aragon DAC, a [Decentralized Altruistic Community](https://medium.com/giveth/giveth-introduces-decentralized-altruistic-communities-dacs-d1155a79bdc4) on the Giveth platform that will work on building out core Aragon infrastructure from the end user's perspective.
+> The Aragon Association and [Giveth](https://giveth.io) are proud to announce the launch of Aragon DAC, a [Decentralized Altruistic Community](https://medium.com/giveth/giveth-introduces-decentralized-altruistic-communities-dacs-d1155a79bdc4) on the Giveth platform that will work on building out core Aragon infrastructure from the end user's perspective.
 
 > The second team that will be working on the Aragon stack is a community focused effort led by the [Giveth community](https://wiki.giveth.io/dac/mission/#giveth-is-a-decentralized-altruistic-community-dac-focused-on-using-blockchain-technology-for-good-to-make-the-world-a-better-place): the Aragon DAC will kick off with **two specific projects or 'Campaigns'**: one focusing purely on development, the other on experimentation with the Aragon stack. Experienced members of Giveth and Aragon One will help kickstart the Aragon DAC initiatives on a voluntary and part-time basis, with the clear goal of steering the DAC towards full independence.
 
