@@ -58,7 +58,8 @@ pages:
     - Audit reports:
       - Audit 01 by Adam Dossa: 'documentation/audits/audit01_report_dossa.md'
       - Audit (Internal) by Brett Sun: 'documentation/audits/audit_internal_sun.md'
-      - Audit Report by White Hat Group: 'documentation/audits/audit_whg01_report.md'
+      - Audit Report 01 by White Hat Group: 'documentation/audits/audit_whg01_report.md'
+      - Audit Report 02 by White Hat Group: 'documentation/audits/audit_whg_updated_aragonOS-Apps.pdf'
     - Third-party Projects: 'projects/index.md'
   - Development:
     - Overview: 'dev/index.md'
