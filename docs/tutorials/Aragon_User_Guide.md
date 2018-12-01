@@ -150,6 +150,9 @@ After clicking “Sign Transaction”, a notification will pop-up in MetaMask. O
 
 Since you are the only tokenholder, the vote will automatically pass and the token will automatically be assigned to the entity you added in 2.2.2.1. A good start to a new Democracy organization!
 
+!!! warning "Note"
+    If a vote is cast that causes the quorum to be equal to or greater than the support required (e.g. 60% support with 60% quorum) then the vote will execute automatically. If the quorum is less than the support required (e.g. 60% support with 40% quorum) then additional "no" votes could still stop the vote from being passed, so the vote will remain open until the duration is reached. After the vote ends, the result must be executed manually by one of the token holders in the organization.
+
 [![](images/user_guide/06/15_tm2.png)](images/user_guide/06/15_tm2.png)
 
 <h3>2.2.3 Voting app</h3>
