@@ -76,7 +76,7 @@ Aragon uses the [Ethereum Name Service](https://ens.domains/) (ENS) to assign na
     “Support” is the number for what percent of the tokens that participated in a vote must approve a proposal for that proposal to pass. For example, if “Support” is set to 51%, then 51% of tokens that vote on a proposal must approve the proposal for it to pass.
 
 !!! info "Min. Quorum"
-    “Min. Quorum” is short for “Minimum Acceptance Quorum. “Min. Quorum” is the number for what percent of the total outstanding supply of token must approve a proposal for the vote to be considered valid. For example, if the Min. Quorum is set to 20%, then 20% of the outstanding token supply must vote to approve a proposal for the vote to be considered valid. If a vote does not make quorum, then it will fail, even if more tokens voted to approve the proposal than voted against it. For example, if the Min. Quorum is set to 20% and 10% of the outstanding token supply votes against the proposal but only 15% vote in support, then the proposal will fail because it has not reached the Min. Quorum threshold.
+    “Min. Quorum” is short for “Minimum Acceptance Quorum. “Min. Quorum” is the number for what percent of the total outstanding supply of tokens must approve a proposal for the vote to be considered valid. For example, if the Min. Quorum is set to 20%, then 20% of the outstanding token supply must vote to approve a proposal for the vote to be considered valid. If a vote does not make quorum, then it will fail, even if more tokens voted to approve the proposal than voted against it. For example, if the Min. Quorum is set to 20% and 10% of the outstanding token supply votes against the proposal but only 15% vote in support, then the proposal will fail because it has not reached the Min. Quorum threshold.
 
 !!! info "Vote Duration"
     “Vote Duration” is the length of time that the vote will be open for participation. For example, if the Vote Duration is set to 24 H, then tokenholders have 24 hours to participate in the vote. After the 24 hours is over, if the vote has not been approved by a majority of tokenholders and/or does not make quorum, then the vote will automatically fail. If the vote makes quorum and receives approval by a majority of tokenholders by the end of the Vote Duration, then the vote will automatically pass.
@@ -551,7 +551,7 @@ In each case, the “View vote” panel tells you more detailed information abou
 
 - What entity created the vote.
 
-- Current votes: what percent of voters are required to vote “yes” for the vote to pass, what percentage of voters and how many tokens have voted “yes”, and what percentage of voters and how many tokens have voted “no”.
+- Current votes: what percent of voters are required to vote “yes” for the vote to pass, what percent of voters and how many tokens have voted “yes”, and what percent of voters and how many tokens have voted “no”.
 
 - If you have not yet cast your vote, buttons for voting “yes” or “no”.
 
