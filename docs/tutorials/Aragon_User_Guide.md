@@ -76,7 +76,7 @@ Aragon uses the [Ethereum Name Service](https://ens.domains/) (ENS) to assign na
     “Support” is the number for what percent of the tokens that participated in a vote must approve a proposal for that proposal to pass. For example, if “Support” is set to 51%, then 51% of tokens that vote on a proposal must approve the proposal for it to pass.
 
 !!! info "Min. Quorum"
-    “Min. Quorum” is short for “Minimum Acceptance Quorum. “Min. Quorum” is the number for what percent of the total outstanding supply of token must approve a proposal for the vote to be considered valid. For example, if the Min. Quorum is set to 20%, then 20% of the outstanding token supply must vote to approve a proposal for the vote to be considered valid. If a vote does not make quorum, then it will fail, even if more tokens voted to approve the proposal than voted against it. For example, if the Min. Quorum is set to 20% and 10% of the outstanding token supply votes against the proposal but only 15% vote in support, then the proposal will fail because it has not reached the Min. Quorum threshold.
+    “Min. Quorum” is short for “Minimum Acceptance Quorum. “Min. Quorum” is the number for what percent of the total outstanding supply of tokens must approve a proposal for the vote to be considered valid. For example, if the Min. Quorum is set to 20%, then 20% of the outstanding token supply must vote to approve a proposal for the vote to be considered valid. If a vote does not make quorum, then it will fail, even if more tokens voted to approve the proposal than voted against it. For example, if the Min. Quorum is set to 20% and 10% of the outstanding token supply votes against the proposal but only 15% vote in support, then the proposal will fail because it has not reached the Min. Quorum threshold.
 
 !!! info "Vote Duration"
     “Vote Duration” is the length of time that the vote will be open for participation. For example, if the Vote Duration is set to 24 H, then tokenholders have 24 hours to participate in the vote. After the 24 hours is over, if the vote has not been approved by a majority of tokenholders and/or does not make quorum, then the vote will automatically fail. If the vote makes quorum and receives approval by a majority of tokenholders by the end of the Vote Duration, then the vote will automatically pass.
@@ -149,6 +149,9 @@ After clicking “Sign Transaction”, a notification will pop-up in MetaMask. O
 <h4>2.2.2.4 Check out the newest member of your organization</h4>
 
 Since you are the only tokenholder, the vote will automatically pass and the token will automatically be assigned to the entity you added in 2.2.2.1. A good start to a new Democracy organization!
+
+!!! warning "Note"
+    If a vote is cast that causes the quorum to be equal to the support required (e.g. 60% support with 60% quorum) then the vote will execute automatically. If the quorum is less than the support required (e.g. 60% support with 40% quorum) then additional "no" votes could still stop the vote from being passed, so the vote will remain open until the duration is reached. After the vote ends, the result must be executed manually by one of the token holders in the organization.
 
 [![](images/user_guide/06/15_tm2.png)](images/user_guide/06/15_tm2.png)
 
@@ -551,7 +554,7 @@ In each case, the “View vote” panel tells you more detailed information abou
 
 - What entity created the vote.
 
-- Current votes: what percent of voters are required to vote “yes” for the vote to pass, what percentage of voters and how many tokens have voted “yes”, and what percentage of voters and how many tokens have voted “no”.
+- Current votes: what percent of voters are required to vote “yes” for the vote to pass, what percent of voters and how many tokens have voted “yes”, and what percent of voters and how many tokens have voted “no”.
 
 - If you have not yet cast your vote, buttons for voting “yes” or “no”.
 
@@ -748,6 +751,8 @@ If you are using Aragon on testnet, you can also request test tokens from the Se
 
 !!! tip "If you are having trouble performing an action that you expect you should be able to perform"
     - Make sure your Ethereum provider is unlocked, on the correct network, and open to the correct account. Try the action again, and if it still doesn’t work...
+    
+    - If there is a "Privacy mode" enabled in the settings of your Ethereum provider, disable it. Try the action again, and if it still doesn't work...
 
     - Reload the page in your browser. Try the action again, and if it still doesn’t work...
 
