@@ -20,10 +20,9 @@ ANT was initially created and distributed as a result of a [public token sale](h
 
 |  | Amount (ANT)	| % of initial supply |
 |:------------- |:-------------:|:-------------:|
-| Pre-sale |  |  |
-| Public sale | 27,500,000 ANT |  |
-| Foundation grant | 5,941,428.57142857 ANT |  |
-| Founders grant | 5,466,114.28571429 ANT |  |
+| Public sale + Pre-sale grant | 27,726,666.666666666678 ANT | 70% |
+| Aragon Foundation grant | 5,941,428.571428571431 ANT | 15% |
+| Early contributors and founders grant | 5,941,428.571428571431 ANT | 15% |
 
 Total supply: 39,609,523.80952380954 ANT`*`
 
@@ -32,6 +31,7 @@ Total supply: 39,609,523.80952380954 ANT`*`
 **Sources:**
 
 - [Etherscan](https://etherscan.io/token/0x960b236A07cf122663c4303350609A66A7B288C0)
+- [Pre-sale script](https://github.com/aragon/aragon-network-token/blob/master/scripts/presale.js#L6-L17)
 
 ## Technical details
 
