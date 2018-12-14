@@ -38,6 +38,7 @@ pages:
   - Documentation:
     - Glossary: 'documentation/glossary.md'
     - Whitepaper: 'documentation/whitepaper.md'
+    - Aragon Network Token: 'documentation/aragon_network_token.md'
     - Governance:
       - Overview: 'documentation/governance.md'
       - Association ANT Policy: 'documentation/association_ant.md'
