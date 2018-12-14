@@ -2,7 +2,7 @@
 
 Aragon project is dedicated to providing a harassment-free experience for everyone, regardless of age, body size, disability, ethnicity, gender identity and expression, level of experience, nationality, personal appearance, race, religion, or sexual identity and orientation. We do not tolerate harassment of participants in any form.
 
-This code of conduct applies to all of Aragon project's spaces, including the Aragon Core app, Rocket Chat, Reddit, Twitter, YouTube, and all other spaces associated with the Aragon project, both online and off. Anyone who violates this code of conduct may be sanctioned or expelled from these spaces at the discretion of the Aragon team.
+This code of conduct applies to all of Aragon project's spaces, including the Aragon app, Rocket Chat, Reddit, Twitter, YouTube, and all other spaces associated with the Aragon project, both online and off. Anyone who violates this code of conduct may be sanctioned or expelled from these spaces at the discretion of the Aragon team.
 
 Some of Aragon project's spaces may have additional rules in place, which will be made clearly available to participants. Participants are responsible for knowing and abiding by these rules.
 
@@ -56,7 +56,7 @@ Aragon team has the right and responsibility to remove, edit, or reject comments
 
 ### Reporting
 
-If you are being harassed by a member of the Aragon community, notice that someone else is being harassed, or have any other concerns, please contact Aragon team members `@light` or `@tatu` at [Aragon Chat](https://aragon.chat). If the person who is harassing you is on the team, they will recuse themselves from handling your incident. We will respond as promptly as possible.
+If you are being harassed by a member of the Aragon community, notice that someone else is being harassed, or have any other concerns, please contact Aragon Chat admins `@light` or `@tatu` at [Aragon Chat](https://aragon.chat). If the person who is harassing you is one of these admins, they will recuse themselves from handling your incident. We will respond as promptly as possible.
 
 This code of conduct applies to Aragon community spaces, but if you are being harassed by a member of Aragon community or team member outside of our spaces, we still want to know about it. We will take all good-faith reports of harassment by Aragon community or team members seriously. This includes harassment outside of our spaces and harassment that took place at any point in time. The team reserves the right to exclude people from the Aragon community at their discretion, based on their past behavior, including behavior outside Aragon spaces and behavior towards people who are not in the Aragon community.
 
@@ -84,33 +84,31 @@ Aragon project's chat channels descriptions tell you what is considered proper o
 
 Keep your messages [DRY](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself), don't repeat yourself, choose a proper channel to post your message, link or other communication and only post that on one channel. There is also no need to post the same image or message daily or repeatedly. If something is posted on #announcements by the Aragon team, there is no need to post the same message/link to other channels, just refer people to the post at #announcements.
 
-- **#announcements**: This channel is reserved for announcements by the Aragon team and discussion on the channel is limited to Aragon team members only. The proper channel for community member to discuss the announcements made on this channel is #general.
+### Channel descriptions
 
-- **#ant-trader**: Discussion related to the ANT token and trading it. Topics like ANT related exchanges and price speculation are allowed. Anything related trying to manipulate people or markets, price pump/dump for personal or other gains is not allowed.
+- **#announcements:** This channel is reserved for announcements by the Aragon team and discussion on the channel is limited to Aragon team members only. The proper channel for community member to discuss the announcements made on this channel is #general.
 
-- **#aragon-network**: Discussion related to the economics and the governance of the Aragon Network.
+- **#ant-trader:** Discussion related to the ANT token and trading it. Topics like ANT related exchanges and price speculation are allowed. Anything related trying to manipulate people or markets, price pump/dump for personal or other gains is not allowed.
 
-- **#daos**: Discussion relating to Decentralized/distributed Autonomous Organizations, including in and outside of Aragon.
+- **#check-in:** Weekly check-ins by Aragon community members.
 
-- **#dev**: Anything related to the development of Aragon. Including questions on how to contribute in Github, technical questions, bug reports etc.
+- **#dev:** Anything related to the development of Aragon. Including questions on how to contribute in Github, technical questions, bug reports etc.
 
-- **#feedback**: Feedback about the Aragon app, including questions on how to use the app and bug reports are always welcome, feedback from users is invaluable to us and will help us make a better product.
+- **#dev-help:** Aragon development troubleshooting and help-related discussions.
 
-- **#fillet**: Discussion about <https://getfillet.com/> and their upcoming use of Aragon.
+- **#faucet:** Share your Rinkeby testnet address to request testnet ETH here.
 
-- **#general**: This is our main channel. Discussion about Aragon, Ethereum and Blockchain technology, and anything related to these fields is welcome.
+- **#feedback:** Feedback about the Aragon app, including questions on how to use the app and bug reports are always welcome, feedback from users is invaluable to us and will help us make a better product.
 
-- **#governance**: Discussion around decentralized governance and governance models
+- **#general:** This is our main channel. Discussion about Aragon, Ethereum and Blockchain technology, and anything related to these fields is welcome.
 
-- **#intros**: Please introduce yourself to the community, let us know a little bit about yourself so we can all get to know each other. We're friendly people and would love to hear what brought you over to the Aragon community.
+- **#governance:** Discussion around decentralized governance and governance models
 
-- **#random**: Any discussion that is off-topic on other channels is welcome here. For example, this is the place to promote your project or share an interesting news article (as long as it follows our Code of Conduct).
+- **#intros:** Please introduce yourself to the community, let us know a little bit about yourself so we can all get to know each other. We're friendly people and would love to hear what brought you over to the Aragon community.
 
-- **#spanish**: Discussions in Spanish are welcome here. Discusión española aquí, por favor.
+- **#monthly:** Collaboration on the Aragon Monthly newspaper. https://monthly.aragon.one
 
-- **#token-sale**: Any discussion about the Aragon token sale. This may include discussion about the use of the MiniMe Token by Giveth, token vesting, Smart Contracts used, use of a hidden cap, security audits related to the token sale and other token sale related issues. Trading and speculation about the token is not welcome here.
-
-- **#usecases**: Discussion about use cases for Aragon. Any current, potential, or future use cases you might see is appreciated here. We want to hear what the community thinks as good use cases for Aragon.
+- **#random:** Any discussion that is off-topic on other channels is welcome here. For example, this is the place to promote your project or share an interesting news article (as long as it follows our Code of Conduct).
 
 ## Attribution
 

@@ -12,15 +12,17 @@ As used in this Agreement, the following terms have the meanings indicated below
 
 1.1. "**Contribution**" shall mean any type of work that is Submitted by You to Us, including any modifications or additions to existing work.
 
-1.2. "**Media**" means any portion of a Contribution which is not software.
+1.2. "**Funds**" shall mean the Aragon Tokens (“ANTs”) that Aragon may grant the Contributor, at its sole discretion, as bounty or reward for his/her Contribution.
 
-1.3. "**Submit**" or "**Submission**" means sent by You to Us or our employees, collaborators or other representatives, through any form of electronic, verbal, or written communication but excluding those expressly marked as "not contribution".
+1.3. "**Media**" means any portion of a Contribution which is not software.
 
-1.4. "**Submission Date**" means the date on which You Submit a Contribution to Us.
+1.4. "**Submit**" or "**Submission**" means sent by You to Us or our employees, collaborators or other representatives, through any form of electronic, verbal, or written communication but excluding those expressly marked as "not contribution".
 
-1.5. "**You**" means the person or legal entity including its affiliates asked to accept this Agreement. An affiliate is any entity that controls or is controlled by the legal entity, or is under common control with it.
+1.5. "**Submission Date**" means the date on which You Submit a Contribution to Us.
 
-1.6. "**Project**" is an umbrella term that refers to the Decentralized Application, the Network and any and all other Aragon's open source projects.
+1.6. "**You**" means the person or legal entity including its affiliates asked to accept this Agreement. An affiliate is any entity that controls or is controlled by the legal entity, or is under common control with it.
+
+1.7. "**Project**" is an umbrella term that refers to the Decentralized Application, the Network and any and all other Aragon's open source projects.
 
 ### 2. Copyright license
 
@@ -46,12 +48,18 @@ As used in this Agreement, the following terms have the meanings indicated below
 
 6.3. In no event shall either party be liable under this Agreement for any indirect, consequential, punitive or exemplary damages or any loss of profit, whether present or future.
 
-### 7. Assignment
+### 7. Grants and bounties
 
-7.1. You and We may assign all rights and obligations set forth in this Agreement to a third party provided that such third party agrees in writing to all the rights and obligations set forth herein.
+7.1. Aragon may in the framework of this Agreement and at its sole discretion, grant You a certain amount of Funds as bounty or reward for your contribution.
 
-### 8. Governing law and jurisdiction
+7.2. In using the Funds, the Contributor shall comply with applicable laws, regulations, and rules and will not infringe, misappropriate, or violate the intellectual property, privacy or publicity rights of any third party. Aragon shall not be responsible for any inappropriate or illegal use the Contributor may do of the Funds, thus the Contributor shall maintain Aragon fully indemnified regarding it use.
 
-8.1. This Agreement shall be governed by and construed in accordance with the Laws of Switzerland.
+### 8. Assignment
 
-8.2. The parties, hereby expressly waiving any jurisdiction that may apply, agree that any dispute, controversy, issue or claim airing out of the performance or interpretation of this Agreement, or relating thereof, directly or indirectly, shall be settled by the Courts of the City of Zug, Switzerland.
+8.1. You and We may assign all rights and obligations set forth in this Agreement to a third party provided that such third party agrees in writing to all the rights and obligations set forth herein.
+
+### 9. Governing law and jurisdiction
+
+9.1. This Agreement shall be governed by and construed in accordance with the Laws of Switzerland.
+
+9.2. The parties, hereby expressly waiving any jurisdiction that may apply, agree that any dispute, controversy, issue or claim airing out of the performance or interpretation of this Agreement, or relating thereof, directly or indirectly, shall be settled by the Courts of the City of Zug, Switzerland.

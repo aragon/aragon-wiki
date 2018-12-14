@@ -7,9 +7,11 @@
 > Uses [Proxy](https://hack.aragon.org/docs/aragonos-ref.html#3-upgradeability) feature from aragonOS as a part of their project
 
 ## Powered by Aragon
-> **Aragon Core and Aragon Network are NOT live on the Mainnet yet, _no project can be Powered by Aragon at this time_, this is just a list of projects that have publicly announced their interest in utilizing Aragon in the future!**
-
-> This is list of existing projects that have publicly announced their plan **to become** "_Powered by Aragon_":
+> **Aragon Network is NOT live on the Mainnet yet. This is just a list of projects that have publicly announced their interest in utilizing Aragon in the future!**
+>
+> See also our [guidelines](../design/powered_by_aragon.md) for projects "_Powered by Aragon_".
+>
+> This is a list of existing projects that have publicly announced their plan **to become** "_Powered by Aragon_":
 
 - [District0x](https://district0x.io)
 
@@ -22,6 +24,8 @@
 - [Auctus](https://auctus.org/)
 
 - [Democracy Earth](https://democracy.earth)
+
+- [Shasta](https://shasta.world/)
 
 - [Althea](https://altheamesh.com/)
 

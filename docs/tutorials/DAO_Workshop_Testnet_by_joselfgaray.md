@@ -100,7 +100,7 @@ The Token Manager lets you distribute your organization’s tokens amongst stake
 
 ![](images/dao_workshop12.png)
 
-To assing tokens to other DAO members, click on the blue button at the top right corner that says “Assing Tokens”. There, you must provide a valid Ethereum Address for the Recipient of the tokens, and the number of tokens you want to mint. We have chosen to mint 0.1 tokens for the address below.
+To assign tokens to other DAO members, click on the blue button at the top right corner that says “Assign Tokens”. There, you must provide a valid Ethereum Address for the Recipient of the tokens, and the number of tokens you want to mint. We have chosen to mint 0.1 tokens for the address below.
 
 ![](images/dao_workshop13.png)
 

@@ -1,6 +1,6 @@
 # [aragon/aragonOS](https://github.com/aragon/aragonOS)
 
-`aragonOS` repository is the home of the smart contracts used to run Aragon Core organizations. It contains abstractions for the kernel, the DAO and the apps.
+`aragonOS` repository is the home of the smart contracts used to run Aragon organizations. It contains abstractions for the kernel, the DAO and the apps.
 
 The initial part of the [aragonOS document](../submodules/aragonOS/docs/aragonOS/#1-kernel-and-the-access-control-list) goes in-depth on how the Kernel works.
 

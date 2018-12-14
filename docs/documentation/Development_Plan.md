@@ -60,11 +60,11 @@ And, thanks to the Aragon dapp and the Aragon Network, we can solve those points
 
 **Aragon Community**, defining the community members contributing to the dapp and Network and the Aragon Network Token holders.
 
-**Aragon Institution MTU**, from now on, _**the Foundation**_, a non-profit organization based in Estonia, will serve as the umbrella organization responsible for allocating resources to other bodies for future cryptocurrency research and development going forward. The board of the Foundation consists of Luis Cuende and Jorge Izquierdo. The Foundation will focus on overarching the mission and will enable operating organizations to accomplish the day-to- day work.
+**Aragon Association**, from now on, _**the Association**_, a non-profit organization based in Switzerland, will serve as the umbrella organization responsible for allocating resources to other bodies for future cryptocurrency research and development going forward. The board of the Association consists of Luis Cuende and Jorge Izquierdo. The Association will focus on overarching the mission and will enable operating organizations to accomplish the day-to- day work.
 
-The Foundation will also serve as a governance entity that will listen the Community until the Aragon Network is fully operational, from where the full governance of the Network will be transferred to the ANT holders.
+The Association will also serve as a governance entity that will listen the Community until the Aragon Network is fully operational, from where the full governance of the Network will be transferred to the ANT holders.
 
-**Aragon One AG**, a Swiss for-profit corporation that serves the Foundation and employs the first team that will work on the Aragon platform and the Aragon Network.
+**Aragon One AG**, a Swiss for-profit corporation that serves the Association and employs the first team that will work on the Aragon platform and the Aragon Network.
 
 ## **Development Milestones**
 

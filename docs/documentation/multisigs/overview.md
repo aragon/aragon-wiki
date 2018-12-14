@@ -4,7 +4,7 @@ Having a good multisig structure is important for security, ANT holders' trust a
 
 The Aragon sale will feature two multisigs:
 
-- The Aragon Foundation Multisig
+- The Aragon Association Multisig
     - [**Read more**](foundation.md).
 - The Community Multisig.
     - [**Read more**](community.md).

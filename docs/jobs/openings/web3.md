@@ -6,7 +6,7 @@ We’re looking for a Web3 Developer to help us bridge smart contracts to a fron
 
 ### Responsibilities
 
-- Take ownership of the development and maintenance of [aragon.js](https://github.com/aragon/aragon.js), the JavaScript interface between smart contracts and the native web experience.
+- Take ownership of the development and maintenance of [aragonAPI](https://github.com/aragon/aragon.js), the JavaScript interface between smart contracts and the native web experience.
 - Research and experiment with new Web3 technologies, including but not limited to [Web3.js](https://github.com/ethereum/web3.js/), [ethers.js](https://github.com/ethers-io/ethers.js/), [Parity's 007 Bonds](https://github.com/paritytech/oo7-parity), and [eth.js](https://github.com/ethjs/ethjs).
 - Assist with Web3-related development when needed.
 

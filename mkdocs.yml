@@ -1,5 +1,5 @@
 site_name: 'Aragon Wiki'
-site_url: https://wiki.aragon.one
+site_url: https://wiki.aragon.org
 repo_name: 'aragon/aragon-wiki'
 repo_url: 'https://github.com/aragon/aragon-wiki'
 site_description: 'Wiki for the Aragon Project'
@@ -31,27 +31,36 @@ extra:
       link: 'https://www.linkedin.com/company/aragonproject/'
   feature:
     tabs: false
+markdown_extensions:
+    - admonition
 pages:
   - Home: 'index.md'
   - Documentation:
+    - Glossary: 'documentation/glossary.md'
     - Whitepaper: 'documentation/whitepaper.md'
     - Aragon Network Token: 'documentation/aragon_network_token.md'
-    - Governance: 'documentation/governance.md'
+    - Governance:
+      - Overview: 'documentation/governance.md'
+      - Association ANT Policy: 'documentation/association_ant.md'
+    - Manifesto: 'documentation/manifesto.md'
     - Multisigs:
       - Overview: 'documentation/multisigs/overview.md'
-      - Foundation: 'documentation/multisigs/foundation.md'
+      - Association: 'documentation/multisigs/association.md'
       - Community: 'documentation/multisigs/community.md'
     - Development Plan: 'documentation/Development_Plan.md'
     - Code of Conduct: 'documentation/Code_of_Conduct.md'
+    - Event Policy: 'documentation/event_policy.md'
     - Legal:
       - Software Licenses: 'documentation/legal/Licenses.md'
       - Contributor License Agreement: 'documentation/legal/CLA.md'
       - Trademark Policy: 'documentation/legal/Trademark_policy.md'
       - Terms of Use (websites): 'documentation/legal/Terms_of_use_websites.md'
-    - Presentations: 'documentation/presentations.md'
+      - Privacy policy: 'documentation/legal/Privacy_policy.md'
     - Audit reports:
       - Audit 01 by Adam Dossa: 'documentation/audits/audit01_report_dossa.md'
       - Audit (Internal) by Brett Sun: 'documentation/audits/audit_internal_sun.md'
+      - Audit Report 01 by White Hat Group: 'documentation/audits/audit_whg01_report.md'
+      - Audit Report 02 by White Hat Group: 'documentation/audits/audit_whg_updated_aragonOS-Apps.pdf'
     - Third-party Projects: 'projects/index.md'
   - Development:
     - Overview: 'dev/index.md'
@@ -62,37 +71,46 @@ pages:
       - Fundraising: 'dev/apps/fundraising.md'
       - Vault: 'dev/apps/vault.md'
       - Finance: 'dev/apps/finance.md'
+    - Bug bounty: 'dev/bug_bounty.md'
     - Security disclosure: 'dev/security_disclosure.md'
   - Tutorials:
-    - Aragon Core User Guide: 'tutorials/Aragon_Core_User_Guide.md'
+    - Aragon User Guide: 'tutorials/Aragon_User_Guide.md'
     - DAO Workshop For Aragon Core v0.5: 'tutorials/DAO_Workshop_Testnet_by_joselfgaray.md'
     - How to claim an Aragon bounty using Status Open Bounty: 'tutorials/Status_Open_Bounty_Guide.md'
   - Design:
     - Overview: 'design/index.md'
     - Logo: 'design/logo/index.md'
+    - For entities using Aragon: 'design/powered_by_aragon.md'
     - Artwork: 'design/artwork/index.md'
     - Identity Guidelines: 'design/identity_guidelines.md'
     - Branding Proposal: 'design/branding_proposal.md'
     - Merchandise: 'design/merch/index.md'
   - Jobs:
     - Overview: 'jobs/index.md'
-    - Openings:
-      - Aragon One:
-        - Web3 Developer: 'jobs/openings/web3.md'
-        - Frontend Developer: 'jobs/openings/frontend.md'
-        - Web Developer: 'jobs/openings/web.md'
-        - EVM/Solidity Engineer: 'jobs/openings/solidity.md'
-        - Developer Relations: 'jobs/openings/dev_rel.md'
-        - Office Manager: 'jobs/openings/office-manager.md'
-        - Executive Assistant: 'jobs/openings/exec-assistant.md'
-        - UI Developer Contractor: 'jobs/openings/ui-developer-contract.md'
+    - Aragon One:
+      - Web3 Developer: 'jobs/openings/web3.md'
+      - Frontend Developer: 'jobs/openings/frontend.md'
+      - DevOps: 'jobs/openings/dev-ops.md'
+      - EVM/Solidity Engineer: 'jobs/openings/solidity.md'
+      - Documentation Technical Writer: 'jobs/openings/technical-writer.md'
+      - Developer Relations: 'jobs/openings/dev_rel.md'
+    - Aragon DAC:
+      - Technical Writer: 'jobs/openings/DAC-Technical_Writer.md'
+      - UX Designer: 'jobs/openings/DAC-UX_Designer.md'
+      - Project Manager: 'jobs/openings/DAC-Project_Manager.md'
   - Blog posts:
     - 2018: 'blog/2018.md'
     - 2017: 'blog/2017.md'
+    - Aragon One:
+      - 2018: 'blog/A1/2018.md'
   - Videos:
     - Tutorials: 'videos/tutorials.md'
     - Meetings:
       - Community: 'videos/community.md'
+      - All Core Devs:
+        - Overview: 'videos/dev.md'
+        - Notes template: 'videos/template.md'
+        - Running the call: 'videos/running_all_devs.md'
     - Interviews: 'videos/interviews.md'
     - Presentations: 'videos/presentations.md'
   - Press:

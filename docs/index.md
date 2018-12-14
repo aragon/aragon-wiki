@@ -2,13 +2,13 @@
 
 ![](images/logo_text_right_dark.png)
 
-We believe [decentralized organizations can solve the world’s worst problems](https://blog.aragon.one/decentralized-organizations-can-solve-the-worlds-worst-problems-840db6255d12). That's why we are building Aragon.
+We believe [decentralized organizations can solve the world’s worst problems](https://blog.aragon.org/decentralized-organizations-can-solve-the-worlds-worst-problems-840db6255d12). That's why we are building Aragon.
 
 This wiki for the Aragon Project contains much of the content and resources available publicly.
 
 If you feel like contributing to the wiki, like changing or adding things, feel free to create an [Issue](https://github.com/aragon/aragon-wiki/issues) or submit a [Pull Request](https://github.com/aragon/aragon-wiki/pulls) at [https://github.com/aragon/aragon-wiki](https://github.com/aragon/aragon-wiki).
 
-For our website visit [aragon.one](https://aragon.one).
+For our website visit [aragon.org](https://aragon.org).
 
 ## **What does the wiki contain?**
 You can use the menu to the left to navigate the wiki. Here is a brief summary of the contents:
@@ -63,7 +63,7 @@ ___
 <h4 style="color:#00CBE6;">DEMOCRATIZING GOVERNANCE</h4>
 **The first step towards a more fair, efficient world**
 
-> We are building Aragon because we believe [decentralized organizations can solve the world’s worst problems](https://blog.aragon.one/decentralized-organizations-can-solve-the-worlds-worst-problems-840db6255d12).
+> We are building Aragon because we believe [decentralized organizations can solve the world’s worst problems](https://blog.aragon.org/decentralized-organizations-can-solve-the-worlds-worst-problems-840db6255d12).
 
 Aragon is a project that aims to disintermediate the creation and maintenance of organizational structures by using blockchain technology. We want to empower people across the world to easily and securely manage their organizations. We provide the tools for anyone to become an entrepreneur and run their own organization, to take control of their own lives.
 
@@ -87,7 +87,7 @@ Aragon organizations can be upgraded seamlessly using our aragonOS architecture.
 
 The Aragon Network Token, ANT, puts the power into the hands of the people participating in the operation of the Network. Every single aspect of the Network will be governed by those willing to make an effort for a better future.
 
-### **Aragon Core**
+### **Aragon client**
 
 <h2>Decentralized application to run your organization</h2>
 
@@ -137,7 +137,7 @@ By assigning different permissions to people, you can create the kind of organiz
 
 > The Aragon Network will decentralize its governance by gradually handing over control of the project to its users.
 
-The Aragon Network will establish additional services for the organizations taking advantage of what Aragon Core provides.
+The Aragon Network will establish additional services for the organizations taking advantage of what Aragon provides.
 
 Our mission is to make the Aragon Network an autonomous organization itself, which is managed by the people using it for their mutual prosperity.
 
@@ -167,6 +167,8 @@ Experimenting with new governance models has been a very risky endeavour during 
 
 Aragon Chat - [https://aragon.chat](https://aragon.chat)
 
+Aragon Research Forum - [https://research.aragon.org](https://research.aragon.org)
+
 Reddit - [https://www.reddit.com/r/aragonproject/](https://www.reddit.com/r/aragonproject/)
 
 Twitter - [https://twitter.com/aragonproject](https://twitter.com/aragonproject)
@@ -177,21 +179,23 @@ YouTube - [https://www.youtube.com/c/AragonProject](https://www.youtube.com/c/Ar
 
 ## Teams
 
-> _To encourage other teams to work on Aragon, we will be splitting off the Foundation to form a company of core developers. Everyone currently employed by the Foundation will become employees of a new company funded by the Foundation. That way, **we level the playing field for other teams to join the core development of the project**._
+> _To encourage other teams to work on Aragon, we will be splitting off the Association to form a company of core developers. Everyone currently employed by the Association will become employees of a new company funded by the Association. That way, **we level the playing field for other teams to join the core development of the project**._
 
 With [Aragon Nest](https://github.com/aragon/nest) we are already supporting projects that are not necessarily sustainable by themselves yet, but are crucial to the Aragon and Ethereum ecosystems.
 
-**We will expand the scope of Nest to start funding alternative teams** that have a desire to work on the [**Aragon Core client**](https://hack.aragon.org/docs/getting-started.html), [**aragonOS**](https://hack.aragon.org/docs/aragonos-ref.html) and on [**Aragon Apps**](dev/apps/).
+**We will expand the scope of Nest to start funding alternative teams** that have a desire to work on the [**Aragon client**](https://hack.aragon.org/docs/getting-started.html), [**aragonOS**](https://hack.aragon.org/docs/aragonos-ref.html) and on [**Aragon Apps**](dev/apps/).
 
-Since we released the first version of the [Aragon whitepaper](documentation/whitepaper.md), we knew that it was important to **split the non-profit entity** overseeing the project [**from the actual companies or teams working on its development**](https://blog.aragon.one/the-path-to-mainstream-decentralized-organizations-d95a89d3cac4).
+Since we released the first version of the [Aragon whitepaper](documentation/whitepaper.md), we knew that it was important to **split the non-profit entity** overseeing the project [**from the actual companies or teams working on its development**](https://blog.aragon.org/the-path-to-mainstream-decentralized-organizations-d95a89d3cac4).
 
-For more context, we've published three blog posts about why it makes sense to [decentralize Aragon's development](https://blog.aragon.one/decentralizing-aragons-development-5062fd6d135d), [the steps forward for the non-profit entity](https://blog.aragon.one/decentralizing-aragons-development-ii-minimum-viable-foundation-8ec1f9a13ebc) and [onboarding new teams](https://blog.aragon.one/decentralizing-aragons-development-iii-onboarding-new-teams-32786cb805a5) along with [the Aragon Manifesto](https://blog.aragon.one/the-aragon-manifesto-4a21212eac03).
+For more context, we've published three blog posts about why it makes sense to [decentralize Aragon's development](https://blog.aragon.org/decentralizing-aragons-development-5062fd6d135d), [the steps forward for the non-profit entity](https://blog.aragon.org/decentralizing-aragons-development-ii-minimum-viable-foundation-8ec1f9a13ebc) and [onboarding new teams](https://blog.aragon.org/decentralizing-aragons-development-iii-onboarding-new-teams-32786cb805a5) along with [the Aragon Manifesto](https://blog.aragon.org/the-aragon-manifesto-4a21212eac03).
 
 ### Aragon One
 
 <img src="design/logo/aragon_one/png/aragon-one-lineart-black-transparent.png" style="width:75%">
 
-> Aragon One is a for-profit company that encompasses the foundational team working on the Aragon project. The company is currently established in Switzerland, although we want it to function as a DAO as much as possible.
+> [Aragon One](http://blog.aragon.one/introducing-aragon-one-b14dd804c5ce/) is one of the development teams working on Aragon. [Aragon One](https://aragon.one/) is a company that encompasses the foundational team working on the [Aragon Project](https://aragon.org). The company is currently established in Switzerland, although we want it to function as a DAO as much as possible.
+
+> We want Aragon One to be a small team, with high-bandwidth and trust between individuals. Keeping the team small will help us prevent many of the problems that arise when growing too much and too fast.
 
 > Funding for the company will come in a form of a grant given by the project's non-profit entity, in similar terms to the ones that the entity will provide to future teams that will be working on the project as well.
 
@@ -199,9 +203,11 @@ For more context, we've published three blog posts about why it makes sense to [
 
 - **CEO / Chief Executive Officer**: [Luis Cuende](https://twitter.com/licuende)
 
-> Luis has been awarded as the best underage European programmer in 2011, is a [Forbes 30 Under 30](https://www.forbes.com/30-under-30-europe-2016/technology/#6662a3e4a4b3), a [MIT TR35](https://www.innovatorsunder35.com/innovator/luis-cuende) and was an Advisor to the VP of the European Commission.
+> Luis has been awarded as the best underage European programmer in 2011, is a [Forbes 30 Under 30](https://www.forbes.com/30-under-30-europe-2016/technology/#6662a3e4a4b3), a [MIT TR35](https://www.innovatorsunder35.com/the-list/luis-cuende/) and was an Advisor to the VP of the European Commission.
 
 > He cofounded the blockchain startup [Stampery](https://stampery.com/). Prior to founding startups, he created the world's first Linux distribution with facelogin.
+
+> Advisor to a few crypto projects that awake his curiosity.
 
 <img src="images/team_members/Jorge_256.png" style="width:192px">
 
@@ -213,58 +219,84 @@ For more context, we've published three blog posts about why it makes sense to [
 ___
 ><img src="images/team_members/Maria_256.png" style="width:192px">
 
-> - **Strategy & Operations Lead**: [María Gómez](https://twitter.com/MyPaoG)
+> - **Ecosystem development at Aragon One**: [María Gómez](https://twitter.com/MyPaoG)
 
 &nbsp;
 
 > <img src="images/team_members/Tatu_256.png" style="width:192px">
 
-> - **Communications Lead**: [Tatu Kärki](https://twitter.com/smokyish)
+> - **Communications at Aragon One**: [Tatu Kärki](https://twitter.com/smokyish)
 
 &nbsp;
 
 > <img src="images/team_members/Luke_256.png" style="width:192px">
 
-> - **Research Lead**: [Luke Duncan](https://twitter.com/lkngtn)
+> - **Researcher at Aragon One**: [Luke Duncan](https://twitter.com/lkngtn)
 
 &nbsp;
 
 > <img src="images/team_members/John_256.png" style="width:192px">
 
-> - **Community Lead**: [John Light](https://twitter.com/lightcoin)
+> - **Community at Aragon One**: [John Light](https://twitter.com/lightcoin)
 
 &nbsp;
 
 > <img src="images/team_members/Jouni_256.png" style="width:192px">
 
-> - **Design Lead**: [Jouni Helminen](https://twitter.com/dharmaone)
+> - **Design at Aragon One**: [Jouni Helminen](https://twitter.com/dharmaone)
 
 &nbsp;
 
 > <img src="images/team_members/Alexa_256.png" style="width:192px">
 
-> - **Operations Assistant**: [Alexa Weaver](https://twitter.com/alexa_rwr)
+> - **Operations at Aragon One**: [Alexa Weaver](https://twitter.com/alexa_rwr)
 
 **<h2>Dev Team</h2>**
 
-> <img src="images/team_members/Chris_256.png" style="width:192px">
-
-> - **Product Manager**: [Chris Remus](https://twitter.com/cjremus)
-
-&nbsp;
-
 > <img src="images/team_members/Pierre_256.png" style="width:192px">
 
-> - **UI & Interaction Developer**: [Pierre Bertet](https://twitter.com/bpierre)
+> - **UI & Interaction Developer at Aragon One**: [Pierre Bertet](https://twitter.com/bpierre)
 
 &nbsp;
 
 > <img src="images/team_members/Brett_256.png" style="width:192px">
 
-> - **EVM Engineer**: [Brett Sun](https://twitter.com/sohkai)
+> - **Lead Developer at Aragon One**: [Brett Sun](https://twitter.com/sohkai)
 
 &nbsp;
 
 > <img src="images/team_members/Bingen_256.png" style="width:192px">
 
-> - **Solidity Engineer**: [Bingen Eguzkitza](https://twitter.com/bingentxu)
+> - **Solidity Engineer at Aragon One**: [Bingen Eguzkitza](https://twitter.com/bingentxu)
+
+### Aragon DAC
+
+<img src="design/logo/aragon_dac/Logo_ad.png" style="width:75%">
+
+> The Aragon Association and [Giveth](https://giveth.io) are proud to announce the launch of Aragon DAC, a [Decentralized Altruistic Community](https://medium.com/giveth/giveth-introduces-decentralized-altruistic-communities-dacs-d1155a79bdc4) on the Giveth platform that will work on building out core Aragon infrastructure from the end user's perspective.
+
+> The second team that will be working on the Aragon stack is a community focused effort led by the [Giveth community](https://wiki.giveth.io/dac/mission/#giveth-is-a-decentralized-altruistic-community-dac-focused-on-using-blockchain-technology-for-good-to-make-the-world-a-better-place): the Aragon DAC will kick off with **two specific projects or 'Campaigns'**: one focusing purely on development, the other on experimentation with the Aragon stack. Experienced members of Giveth and Aragon One will help kickstart the Aragon DAC initiatives on a voluntary and part-time basis, with the clear goal of steering the DAC towards full independence.
+
+> Funding for the community will come in a form of a grant given by the project's non-profit entity, in similar terms to the ones that the entity will provide to [Aragon One](#aragon-one) and future teams that will be working on the project as well.
+
+#### The Development Campaign
+The Development Campaign is staffed with full-time and part-time people that create and tackle issues in the full Aragon Stack and is managed in a semi-decentralized way, while collaborating heavily with the Aragon One team and the R&D Campaign. This Campaign is spearheaded by Quazia, Social Coding Circle Lead at Giveth
+
+#### The Community R&D Campaign
+The Community R&D Campaign will focus on helping end users (=non-developers) experiment with using the Aragon Stack. #Dogfooding is the name of the game! This team is stewarded by Griff Green, Giveth's Governance Circle Lead
+___
+> - **[Quazia](https://github.com/quazia), [Social Coding Circle](https://medium.com/giveth/what-is-social-coding-fa81feacfa32) Lead at Giveth**
+
+Social Coding Circle Lead at Giveth, who's already very familiar with Aragon through his work on an open-source planning app ([which was awarded a Nest Grant](https://blog.aragon.org/aragon-nest-first-awarded-grants-29a2f3aa8d4a/))
+
+&nbsp;
+
+> - **[Griff Green](https://twitter.com/thegrifft), Governance Circle Lead at Giveth**
+
+Giveth's Governance Circle Lead, who brings loads of community management experience to the table (see initiatives such as an [open block explorer](https://www.youtube.com/watch?v=CXtkv-HzEso&list=PL4Artm1rmCWE5qYEOTaaPRl4fD5ORXFty), [scaling](http://scalingnow.giveth.io/) and [governance](https://www.youtube.com/playlist?list=PL4Artm1rmCWGiXwPth2TK1oOC9jXoUtlK) of the Ethereum ecosystem)
+
+&nbsp;
+
+> - **[Kris Decoodt](https://medium.com/@krrisis), Communication Circle Lead at Giveth**
+
+The Community R&D team will also keep you, the community, up-to-date on all progress of the Aragon DAC with the help of communication lead Kris Decoodt
