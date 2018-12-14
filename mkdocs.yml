@@ -35,6 +35,7 @@ pages:
   - Home: 'index.md'
   - Documentation:
     - Whitepaper: 'documentation/whitepaper.md'
+    - Aragon Network Token: 'documentation/aragon_network_token.md'
     - Governance: 'documentation/governance.md'
     - Multisigs:
       - Overview: 'documentation/multisigs/overview.md'
