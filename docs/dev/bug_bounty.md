@@ -24,6 +24,14 @@ For this initial bug bounty program there is a **maximum bounty pool of $250,000
 
 The bug bounty program will run for a minimum of three months, starting October 17th 2018.
 
+## Reporting
+
+!!! note "Reporting a found vulnerability"
+    - In order to report a vulnerability, please write an email to security@aragon.org with [BUG BOUNTY] in the subject of the email.
+    - For sensitive vulnerabilities, please the encrypt the email using this [PGP key](rsc/security.asc) (Fingerprint: `B6D5 1396 4B9C 62B7`)
+    - We will make our best effort to reply in a timely manner and provide a timeline for resolution.
+    - Please include a detailed report on the vulnerability with clear reproduction steps. The quality of the report can impact the reward amount.
+
 ## Scope
 
 In scope for the bug bounty are all the smart contract components of the Aragon client. They can be found on three main repositories:
@@ -76,11 +84,3 @@ In scope for the bug bounty are all the smart contract components of the Aragon 
     - Only unknown vulnerabilities will be awarded with a bounty, in case of duplicate reports, the first report will be awarded the bounty.
     - Public disclosure of the vulnerability before explicit consent from Aragon to do so, will make the vulnerability ineligible for a bounty.
     - Attempting to exploit the vulnerability in a public Ethereum network will also make it ineligible for a bounty.
-
-## Reporting
-
-!!! note "Reporting a found vulnerability"
-    - In order to report a vulnerability, please write an email to security@aragon.org with [BUG BOUNTY] in the subject of the email.
-    - For sensitive vulnerabilities, please the encrypt the email using this [PGP key](rsc/security.asc) (Fingerprint: `B6D5 1396 4B9C 62B7`)
-    - We will make our best effort to reply in a timely manner and provide a timeline for resolution.
-    - Please include a detailed report on the vulnerability with clear reproduction steps. The quality of the report can impact the reward amount.
