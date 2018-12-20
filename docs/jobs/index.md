@@ -89,7 +89,7 @@ If there's a potential fit, we'll schedule a call.
 3. **Challenge**
 We'll ask you to solve a real problem.
 4. **Meet the team**
-If we liked your submission, you'll chat with Luis, Jorge and/or Chris.
+If we liked your submission, you'll chat with Luis and/or Jorge.
 6. **Offer**
 If we see a full match, we'll extend you an offer.
 7. **Trial**
