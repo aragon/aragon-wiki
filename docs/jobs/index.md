@@ -40,7 +40,7 @@ For more context, we've published three blog posts about why it makes sense to [
 * **Fully remote positions**. You're free to accommodate your optimal workspace.
 * **Full-time commitment** - only focus can bring top productivity.
 * **Competitive compensation** based on your role, not your location.
-* You decide **how to allocate your salary** - in fiat, ETH and/or ANT.
+* You decide **how to allocate your salary** - in ETH, DAI and/or ANT.
 * We nourish curiosity and inspiration by **supporting side projects**.
 
 ### Perks ⭐️
