@@ -106,7 +106,7 @@ pages:
     - Tutorials: 'videos/tutorials.md'
     - Meetings:
       - Community: 'videos/community.md'
-      - All Core Devs:
+      - All Aragon Devs:
         - Overview: 'videos/dev.md'
         - Notes template: 'videos/template.md'
         - Running the call: 'videos/running_all_devs.md'
