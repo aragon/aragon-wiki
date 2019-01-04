@@ -76,7 +76,7 @@ Aragon community members who do not follow or enforce the Code of Conduct in goo
 
 Participants asked to stop any harassing behavior are expected to comply immediately.
 
-If a participant engages in harassing behavior, the Aragon response team may take any action they deem appropriate, up to and including expulsion from all Aragon project spaces and identification of the participant as a harasser to other Aragon community members or the general public.
+If a participant engages in harassing behavior, the Aragon response team may take any action they deem appropriate, up to and including expulsion from all Aragon project spaces and identification of the participant as a harasser to other Aragon community members or the general public. Admins/moderators must recuse themselves from moderation decisions regarding a community member they may have a conflict of interest with, delegating moderation decisions to an un-involved moderator or Aragon Association executive.
 
 ## Aragon.Chat
 
