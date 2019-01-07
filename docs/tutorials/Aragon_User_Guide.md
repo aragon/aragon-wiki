@@ -481,6 +481,9 @@ As mentioned in the earlier section **0.1 Anatomy of an Aragon organization**, A
 
 There is also a Home page, an Apps page, and a Settings page that every Aragon organization comes with by default. In this section we will explore each of these in detail.
 
+!!! note
+    You can find technical documentation about these pre-installed apps in [the Aragon Apps section](https://wiki.aragon.org/dev/apps/) of the Aragon wiki.
+
 ### 3.1 Home
 
 The Home page is a simple landing page that shows you the name of the organization you have loaded, as well as different actions that you can take using the pre-installed apps in your organization. For example, in the organization democracy.aragonid.eth we can perform the actions Assign Tokens, Vote, Check Finance, and New Payment. You can also check your network connection status at the bottom of the Home page.
