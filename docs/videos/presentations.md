@@ -76,6 +76,9 @@ by Brett Sun at [**Blockstack Signature Berlin 2018**](https://blockstack.org/be
 ## [**The Aragon Masterplan**](../documentation/slides/the-aragon-masterplan.pdf)
 by Jorge Izquierdo at **Google Crypto Meetup**
 
+## [**Jorge Izquierdo presents Aragon at ETHDenver 2018**](https://www.youtube.com/watch?v=lpTHw0qRfwM)  
+by Jorge Izquierdo at [**ETHDenver**](https://ethdenver.com)
+
 ## [**Democratizing Governance**](https://www.youtube.com/watch?v=AULH7Qw7RCk)
 by Luis Cuende at [**Aragon Meetup - Helsinki**](https://www.meetup.com/Aragon-Meetup/events/245079105/)  
 [Slides of the presentation](../documentation/slides/Helsinki.pdf)
