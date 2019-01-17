@@ -131,9 +131,7 @@ We invite you to join us in building a better world!
 
 ### Openings 🙋🏾🙋‍👨👦👽
 
-<!-- -   [Project Manager](openings/DAC-Project_Manager.md) -->
 -   [Technical Writer](openings/DAC-Technical_Writer.md)
-<!-- -   [UX Designer](openings/DAC-UX_Designer.md) -->
 
 ### Applying 📝
 
