@@ -806,6 +806,13 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#reporting" title="Reporting" class="md-nav__link">
+    Reporting
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#scope" title="Scope" class="md-nav__link">
     Scope
   </a>
@@ -840,13 +847,6 @@
   
 </li>
       
-        <li class="md-nav__item">
-  <a href="#reporting" title="Reporting" class="md-nav__link">
-    Reporting
-  </a>
-  
-</li>
-      
       
       
       
@@ -855,18 +855,6 @@
   
 </nav>
     
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="../security_disclosure/" title="Security disclosure" class="md-nav__link">
-      Security disclosure
-    </a>
   </li>
 
         
@@ -1355,11 +1343,11 @@
       <input class="md-toggle md-nav__toggle" data-md-toggle="nav-8-2-2" type="checkbox" id="nav-8-2-2">
     
     <label class="md-nav__link" for="nav-8-2-2">
-      All Core Devs
+      All Aragon Devs
     </label>
     <nav class="md-nav" data-md-component="collapsible" data-md-level="3">
       <label class="md-nav__title" for="nav-8-2-2">
-        All Core Devs
+        All Aragon Devs
       </label>
       <ul class="md-nav__list" data-md-scrollfix>
         
@@ -2763,6 +2751,13 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#reporting" title="Reporting" class="md-nav__link">
+    Reporting
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#scope" title="Scope" class="md-nav__link">
     Scope
   </a>
@@ -2793,13 +2788,6 @@
         <li class="md-nav__item">
   <a href="#eligibility" title="Eligibility" class="md-nav__link">
     Eligibility
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#reporting" title="Reporting" class="md-nav__link">
-    Reporting
   </a>
   
 </li>
@@ -2843,25 +2831,35 @@
 <p class="admonition-title"><strong>Low</strong> (CVSS 1.0 - 3.9)</p>
 <p>$500-$1,000</p>
 </div>
-<p>Rewards will be awarded at the sole discretion of Aragon. Quality of the report and reproduction instructions can impact the reward. Rewards will be paid out in ETH.</p>
-<p>For this initial bug bounty program there is a <strong>maximum bounty pool of $250,000</strong>.</p>
-<p>The bug bounty program will run for a minimum of three months, starting October 17th 2018.</p>
+<p>Rewards will be awarded at the sole discretion of the Aragon Association. Quality of the report and reproduction instructions can impact the reward. Rewards will be paid out in ETH.</p>
+<p>For this initial bug bounty program, there is a <strong>maximum bounty pool of $250,000</strong>.</p>
+<p>The bug bounty program will run for a minimum of three months, starting October 17th, 2018.</p>
+<h2 id="reporting">Reporting</h2>
+<div class="admonition note">
+<p class="admonition-title">Reporting a found vulnerability</p>
+<ul>
+<li>In order to report a vulnerability, please write an email to security@aragon.org with [BUG BOUNTY] in the subject of the email.</li>
+<li>For sensitive vulnerabilities, please the encrypt the email using this <a href="../rsc/security.asc">PGP key</a> (Fingerprint: <code>B6D5 1396 4B9C 62B7</code>)</li>
+<li>We will make our best effort to reply in a timely manner and provide a timeline for resolution.</li>
+<li>Please include a detailed report on the vulnerability with clear reproduction steps. The quality of the report can impact the reward amount.</li>
+</ul>
+</div>
 <h2 id="scope">Scope</h2>
 <p>In scope for the bug bounty are all the smart contract components of the Aragon client. They can be found on three main repositories:</p>
 <div class="admonition abstract">
-<p class="admonition-title"><strong>aragonOS 4</strong> (<a href="https://github.com/aragon/aragonOS">https://github.com/aragon/aragonOS</a>)</p>
-<p>Smart contract framework and core of the system.</p>
+<p class="admonition-title"><strong>aragonOS 4</strong> (<a href="https://github.com/aragon/aragonOS/tree/v4.0.0">https://github.com/aragon/aragonOS@4.0.0</a> and <a href="https://github.com/aragon/aragonOS/releases">future patch versions</a>)</p>
+<p>Smart contract framework and the core of the system.</p>
 <ul>
 <li>Solidity code under the <code>contracts</code> directory:<ul>
-<li>Excluding <code>contracts/lib/</code>, except for <code>contracts/lib/math</code> contracts</li>
+<li>Excluding <code>contracts/lib/ens</code> contracts</li>
 <li>Excluding <code>contracts/test/</code></li>
 </ul>
 </li>
 </ul>
 </div>
 <div class="admonition abstract">
-<p class="admonition-title"><strong>aragon-apps</strong> (<a href="https://github.com/aragon/aragon-apps">https://github.com/aragon/aragon-apps</a>)</p>
-<p>Contracts for aragonOS apps that Aragon develops that are used in DAOs.</p>
+<p class="admonition-title"><strong>aragon-apps</strong> (<a href="https://github.com/aragon/aragon-apps/tree/master">https://github.com/aragon/aragon-apps</a> on the <a href="https://github.com/aragon/aragon-apps/tree/master">master branch</a>)</p>
+<p>Contracts for Aragon apps developed by the Aragon Association and are used by default in most Aragon 0.6 organizations.</p>
 <ul>
 <li>Solidity code under <code>apps/**/contracts</code> (<code>voting</code>, <code>vault</code>, <code>finance</code>, <code>token-manager</code>, <code>survey</code>)<ul>
 <li>Excluding <code>contracts/test</code></li>
@@ -2871,8 +2869,8 @@
 </ul>
 </div>
 <div class="admonition abstract">
-<p class="admonition-title"><strong>dao-templates</strong> (<a href="https://github.com/aragon/dao-kits">https://github.com/aragon/dao-kits</a>)</p>
-<p>On-chain deployment scripts for Aragon DAOs.</p>
+<p class="admonition-title"><strong>dao-templates</strong> (<a href="https://github.com/aragon/dao-kits/tree/master">https://github.com/aragon/dao-kits</a> on the <a href="https://github.com/aragon/dao-kits/tree/master">master branch</a>)</p>
+<p>On-chain deployment templates for Aragon DAOs.</p>
 <ul>
 <li>Solidity code for the following templates: <code>bare</code>, <code>beta-base</code>, <code>democracy</code>, <code>multisig</code>, <code>survey</code><ul>
 <li>Excluding <code>contracts/test</code></li>
@@ -2880,6 +2878,7 @@
 </li>
 </ul>
 </div>
+<p>You can find their deployed addresses on live networks in our <a href="https://github.com/aragon/deployments">deployment documentation</a>.</p>
 <h2 id="areas-of-interest">Areas of interest</h2>
 <div class="admonition tip">
 <p class="admonition-title">These are some examples of vulnerabilities that would be interesting</p>
@@ -2894,7 +2893,7 @@
 <p class="admonition-title">What we consider out of scope for this bug bounty</p>
 <ul>
 <li>Side-effects of properly authenticated smart contract upgrades or contract upgrades that change the storage layout of a contract.</li>
-<li>Revocation of permissions or completely changing how a DAO operates due to an important permission being granted using the proper process.</li>
+<li>Revocation of permissions or completely changing how a DAO operates due to important permission being granted through the proper processes.</li>
 <li>Any frontend applications or client-side code interacting with the contracts, as well as testing code.</li>
 <li>Mismatch of the functionality of the contracts and outdated spec documents.</li>
 </ul>
@@ -2903,27 +2902,18 @@
 <div class="admonition snippet">
 <p class="admonition-title">Documentation and resources for hackers</p>
 <ul>
-<li>Reference and documentation for aragonOS 3 can be found here (<a href="https://hack.aragon.org/docs/aragonos-ref.html">https://hack.aragon.org/docs/aragonos-ref.html</a>) and a list of the changes that have been made for aragonOS 4 (<a href="https://github.com/aragon/aragonOS/wiki/aragonOS-4:-Updates-to-aragonOS-and-aragon-apps">https://github.com/aragon/aragonOS/wiki/aragonOS-4:-Updates-to-aragonOS-and-aragon-apps</a>).</li>
-<li>Documentation on how aragonOS apps should be developed: <a href="https://hack.aragon.org/docs/aragonos-building.html">https://hack.aragon.org/docs/aragonos-building.html</a></li>
+<li><a href="https://hack.aragon.org/docs/aragonos-ref.html">Reference and documentation for aragonOS 4</a> as well as a <a href="https://github.com/aragon/aragonOS/wiki/aragonOS-4:-Updates-to-aragonOS-and-aragon-apps">list of the changes that have been made for aragonOS 4 from aragonOS 3</a>.</li>
+<li><a href="https://hack.aragon.org/docs/aragonos-building.html">Documentation on how aragonOS apps should be developed</a>.</li>
+<li><a href="https://github.com/aragon/deployments">Documentation for our smart contract deployments to live networks</a>.</li>
 </ul>
 </div>
 <h2 id="eligibility">Eligibility</h2>
 <div class="admonition success">
 <p class="admonition-title">Terms for eligible bounties</p>
 <ul>
-<li>Only unknown vulnerabilities will be awarded with a bounty, in case of duplicate reports, the first report will be awarded the bounty.</li>
-<li>Public disclosure of the vulnerability before explicit consent from Aragon to do so, will make the vulnerability ineligible for a bounty.</li>
+<li>Only unknown vulnerabilities will be awarded a bounty; in case of duplicate reports, the first report will be awarded the bounty.</li>
+<li>Public disclosure of the vulnerability, before explicit consent from Aragon to do so, will make the vulnerability ineligible for a bounty.</li>
 <li>Attempting to exploit the vulnerability in a public Ethereum network will also make it ineligible for a bounty.</li>
-</ul>
-</div>
-<h2 id="reporting">Reporting</h2>
-<div class="admonition note">
-<p class="admonition-title">Reporting a found vulnerability</p>
-<ul>
-<li>In order to report a vulnerability, please write an email to security@aragon.org with [BUG BOUNTY] in the subject of the email.</li>
-<li>For sensitive vulnerabilities, please the encrypt the email using this <a href="../rsc/security.asc">PGP key</a> (Fingerprint: <code>B6D5 1396 4B9C 62B7</code>)</li>
-<li>We will make our best effort to reply in a timely manner and provide a timeline for resolution.</li>
-<li>Please include a detailed report on the vulnerability with clear reproduction steps. The quality of the report can impact the reward amount.</li>
 </ul>
 </div>
                 
@@ -2961,13 +2951,13 @@
           </a>
         
         
-          <a href="../security_disclosure/" title="Security disclosure" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+          <a href="../../tutorials/Aragon_User_Guide/" title="Aragon User Guide" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
             <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
               <span class="md-flex__ellipsis">
                 <span class="md-footer-nav__direction">
                   Next
                 </span>
-                Security disclosure
+                Aragon User Guide
               </span>
             </div>
             <div class="md-flex__cell md-flex__cell--shrink">
