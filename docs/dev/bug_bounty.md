@@ -20,9 +20,9 @@ Vulnerability reports will be scored using the  [CVSS v3](https://www.first.org/
 
 Rewards will be awarded at the sole discretion of the Aragon Association. Quality of the report and reproduction instructions can impact the reward. Rewards will be paid out in ETH.
 
-For this initial bug bounty program there is a **maximum bounty pool of $250,000**.
+For this initial bug bounty program, there is a **maximum bounty pool of $250,000**.
 
-The bug bounty program will run for a minimum of three months, starting October 17th 2018.
+The bug bounty program will run for a minimum of three months, starting October 17th, 2018.
 
 ## Reporting
 
@@ -37,7 +37,7 @@ The bug bounty program will run for a minimum of three months, starting October 
 In scope for the bug bounty are all the smart contract components of the Aragon client. They can be found on three main repositories:
 
 !!! abstract "**aragonOS 4** ([https://github.com/aragon/aragonOS@4.0.0](https://github.com/aragon/aragonOS/tree/v4.0.0) and [future patch versions](https://github.com/aragon/aragonOS/releases))"
-    Smart contract framework and core of the system.
+    Smart contract framework and the core of the system.
 
     - Solidity code under the `contracts` directory:
         - Excluding `contracts/lib/ens` contracts
@@ -69,7 +69,7 @@ You can find their deployed addresses on live networks in our [deployment docume
 
 !!! question "What we consider out of scope for this bug bounty"
     - Side-effects of properly authenticated smart contract upgrades or contract upgrades that change the storage layout of a contract.
-    - Revocation of permissions or completely changing how a DAO operates due to an important permission being granted through the proper processes.
+    - Revocation of permissions or completely changing how a DAO operates due to important permission being granted through the proper processes.
     - Any frontend applications or client-side code interacting with the contracts, as well as testing code.
     - Mismatch of the functionality of the contracts and outdated spec documents.
 
@@ -84,6 +84,6 @@ You can find their deployed addresses on live networks in our [deployment docume
 ## Eligibility
 
 !!! success "Terms for eligible bounties"
-    - Only unknown vulnerabilities will be awarded with a bounty; in case of duplicate reports, the first report will be awarded the bounty.
+    - Only unknown vulnerabilities will be awarded a bounty; in case of duplicate reports, the first report will be awarded the bounty.
     - Public disclosure of the vulnerability, before explicit consent from Aragon to do so, will make the vulnerability ineligible for a bounty.
     - Attempting to exploit the vulnerability in a public Ethereum network will also make it ineligible for a bounty.
