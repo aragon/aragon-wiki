@@ -22,21 +22,22 @@ Aragon has been a proud sponsor and participant in numerous Ethereum and blockch
 - The final decision for all event sponsorships is made by the Events Manager ([@john-light](https://github.com/john-light)), who is hired by the Aragon Association to be the main owner and point of contact for all events.
 
 - The Events Manager is responsible for proactively seeking high-quality events for Aragon to sponsor and participate in, as well as ensuring that our participation in events is as successful as possible.
-  - The Events Manager sets criteria that determines what “success” means for a given event and leads the creation of a plan to ensure success.
+
+    - The Events Manager sets criteria that determines what “success” means for a given event and leads the creation of a plan to ensure success.
 
 - Events can also be proposed by any Aragon community member. Events should be proposed at least three months before the date of the event. Events can be proposed by [creating an issue in the community repo](https://github.com/aragon/community/issues/new?assignees=john-light&labels=events&template=aragon-events.md&title=%5BName+of+event%5D+-+%5BDate+of+event%5D) on GitHub.
 
 - Once per week, the Events Manager will evaluate proposed events in the community repo and either tag “will do” or “won’t do” before closing the issue. Events tagged “will do” will be converted into Flow projects and populated with the necessary tasks to make the event successful.
 
-  - Key attendees (with attendance confirmed in writing)
-    - Key attendees are community members that are needed to make the event successful
-  - Travel details for all attendees
-  - Lodging details for all attendees
-  - Sponsorship, if any
-  - Marketing for the event
-  - Social media posts and graphics
-  - Merchandise order if needed
-  - Posters and other promotional materials
+    - Key attendees (with attendance confirmed in writing)
+        - Key attendees are community members that are needed to make the event successful
+    - Travel details for all attendees
+    - Lodging details for all attendees
+    - Sponsorship, if any
+    - Marketing for the event
+    - Social media posts and graphics
+    - Merchandise order if needed
+    - Posters and other promotional materials
 
 - Individual event logistics will be coordinated with the Aragon Association Operations Manager via Flow or Keybase. Group logistics will be coordinated with the Aragon Association Operations Manager via Nextcloud docs.
 
