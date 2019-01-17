@@ -54,7 +54,6 @@ For more context, we've published three blog posts about why it makes sense to [
 
 ### Openings 🙋🏾🙋‍♂️
 
-* [Web3 Developer](openings/web3.md)
 * [Frontend Developer](openings/frontend.md)
 * [DevOps](openings/dev-ops.md)
 * [EVM/Solidity Engineer](openings/solidity.md)
