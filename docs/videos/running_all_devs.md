@@ -1,12 +1,12 @@
-# Running the All Core Devs call
+# Running the All Aragon Devs call
 
 ## Step 1. Create draft notes file for the next call
-Note: After the first All Core Devs call, this step should be performed right after the call.
+Note: After the first All Aragon Devs call, this step should be performed right after the call.
 
 Create a draft notes file titled “alldevs[date].md”, with the date of the next call in `YYYYMMDD` format e.g. `alldevs20181008.md`.
 
 - Use the [notes template](template.md) and add the agenda to the "Agenda" section.
-- Update the `mkdocs.yml` file of the wiki with a relative link to the file under the Videos > Meetings > All Core Devs > Meeting notes section.
+- Update the `mkdocs.yml` file of the wiki with a relative link to the file under the Videos > Meetings > All Aragon Devs > Meeting notes section.
 - Add link to the notes file under the "Next meeting agenda" section of the [Overview](dev.md) page in the wiki. Overwrite the previous link if there is one.
 
 ## Step 2. Review proposed agenda items
