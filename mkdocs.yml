@@ -88,7 +88,6 @@ pages:
   - Jobs:
     - Overview: 'jobs/index.md'
     - Aragon One:
-      - Web3 Developer: 'jobs/openings/web3.md'
       - Frontend Developer: 'jobs/openings/frontend.md'
       - DevOps: 'jobs/openings/dev-ops.md'
       - EVM/Solidity Engineer: 'jobs/openings/solidity.md'
