@@ -251,7 +251,19 @@ ___
 
 > - **Operations at Aragon One**: [Alexa Weaver](https://twitter.com/alexa_rwr)
 
-**<h2>Dev Team</h2>**
+&nbsp;
+
+> <img src="images/team_members/Moni_256.png" style="width:192px">
+
+> - **Human Relations at Aragon One**: [Monica Zeng](https://twitter.com/monicazng)
+
+&nbsp;
+
+> <img src="images/team_members/Lorena_256.png" style="width:192px">
+
+> - **Assistant at Aragon One**: [Lorena González](https://twitter.com/curritta)
+
+___
 
 > <img src="images/team_members/Pierre_256.png" style="width:192px">
 
@@ -269,6 +281,24 @@ ___
 
 > - **Solidity Engineer at Aragon One**: [Bingen Eguzkitza](https://twitter.com/bingentxu)
 
+&nbsp;
+
+> <img src="images/team_members/Delfi_256.png" style="width:192px">
+
+> - **Frontend at Aragon One**: [Delfina Polito](https://twitter.com/politodelfina)
+
+&nbsp;
+
+> <img src="images/team_members/Gorka_256.png" style="width:192px">
+
+> - **Frontend at Aragon One**: [Gorka Ludlow](https://twitter.com/aquigorka)
+
+&nbsp;
+
+> <img src="images/team_members/Paty_256.png" style="width:192px">
+
+> - **Product Owner at Aragon One**: [Patricia Davila](https://twitter.com/dizzypaty)
+___
 ### Aragon DAC
 
 <img src="design/logo/aragon_dac/Logo_ad.png" style="width:75%">
