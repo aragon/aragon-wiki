@@ -99,7 +99,7 @@ pages:
     - 2018: 'blog/2018.md'
     - 2017: 'blog/2017.md'
     - Aragon One:
-      - 2019: 'blog/A1/2019.md`
+      - 2019: 'blog/A1/2019.md'
       - 2018: 'blog/A1/2018.md'
   - Videos:
     - Tutorials: 'videos/tutorials.md'
