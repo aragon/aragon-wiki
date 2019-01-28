@@ -163,7 +163,9 @@ We believe that the progression of modern technology solutions, such as the inve
 
 Experimenting with new governance models has been a very risky endeavour during previous iterations of society. Now, for the first time in human history, we can let a thousand new governance models emerge, all from the comfort of our laptops.
 
-## Community channels
+## Communication channels
+
+Aragon Mailing List - [https://one.us15.list-manage.com/subscribe?u=a590aa3843a54b079d48e6e18&id=e81a44c4bd](https://one.us15.list-manage.com/subscribe?u=a590aa3843a54b079d48e6e18&id=e81a44c4bd)
 
 Aragon Chat - [https://aragon.chat](https://aragon.chat)
 
