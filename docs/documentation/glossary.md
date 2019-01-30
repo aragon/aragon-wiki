@@ -3,7 +3,7 @@
 This page explains some of the terms commonly used within the Aragon ecosystem.
 
 ## **Aragon**
-<img src="../../design/logo/png/isotype.png" style="width:200px;">
+<img src="../design/logo/png/isotype.png" style="width:200px;">
 
 Aragon is a project to empower freedom by making decentralized governance happen.
 
@@ -20,14 +20,14 @@ The Aragon Association is a non-profit entity that safeguards the values of the 
 **Website:** [https://aragon.org/project](https://aragon.org/project)
 
 ## **Aragon One**
-<img src="../../design/logo/aragon_one/png/aragon-one-lineart-black-transparent.png" style="width:200px;">
+<img src="../design/logo/aragon_one/png/aragon-one-lineart-black-transparent.png" style="width:200px;">
 
 Aragon One is a company that encompasses the foundational team working on the Aragon Project.
 
 **Website:** [https://aragon.one](https://aragon.one)
 
 ## **Aragon DAC**
-<img src="../../design/logo/aragon_dac/logo_horizontal_transbg_small.png" style="width:200px;">
+<img src="../design/logo/aragon_dac/logo_horizontal_transbg_small.png" style="width:200px;">
 
 Aragon DAC is a [Decentralized Altruistic Community](https://medium.com/giveth/giveth-introduces-decentralized-altruistic-communities-dacs-d1155a79bdc4) on the Giveth platform that will work on building out core Aragon infrastructure from the end user's perspective.
 
@@ -36,7 +36,7 @@ Aragon DAC is a [Decentralized Altruistic Community](https://medium.com/giveth/g
 ## **Aragon Chat**
 A place to have discussions and to chat about all Aragon related things. A open source chat on a [Rocket Chat](https://rocket.chat/) platform.
 
-**Website:** [https://chat.aragon.org](https://chat.aragon.org)
+**Website:** [https://aragon.chat](https://aragon.chat)
 
 ## **Aragon Wiki**
 The home to Aragon related resources and assets such as user-related and general documentation, design items, job listings, tutorials and other related material.
@@ -45,7 +45,7 @@ The home to Aragon related resources and assets such as user-related and general
 
 ## **Aragon Project blog**
 
-The Aragon Project blog can be found at [https://blog.aragon.org](https://blog.aragon.org). Contains blog posts related to the project under categories [Announcements](https://blog.aragon.org/tag/announcements/), [Product](https://blog.aragon.org/tag/product-updates/), [Governance](https://blog.aragon.org/tag/governance/), [Research](https://blog.aragon.org/tag/research/), [Aragon Network](https://blog.aragon.org/tag/aragon-network/), [Development](https://blog.aragon.org/tag/development/), [Nest](https://blog.aragon.org/tag/nest/), [Transparency](https://blog.aragon.org/tag/transparency/) & [Community](https://blog.aragon.org/tag/Community/).
+The Aragon Project blog can be found at [https://blog.aragon.org](https://blog.aragon.org). Contains blog posts related to the project under categories [Announcements](https://blog.aragon.org/tag/announcements/), [Product](https://blog.aragon.org/tag/product/), [Governance](https://blog.aragon.org/tag/governance/), [Research](https://blog.aragon.org/tag/research/), [Aragon Network](https://blog.aragon.org/tag/aragon-network/), [Nest](https://blog.aragon.org/tag/nest-updates/) & [Community](https://blog.aragon.org/tag/Community/).
 
 **Website:** [https://blog.aragon.org](https://blog.aragon.org)
 
@@ -58,7 +58,7 @@ The Aragon One blog can be found at [https://blog.aragon.one](https://blog.arago
 ## **Aragon Research Forum**
 A forum specifically to engage in long-form discussions related to Aragon's research efforts including governance, economics, and token engineering.
 
-**Website:** [https://research.aragon.org](https://research.aragon.org)
+**Website:** [https://forum.aragon.org/](https://forum.aragon.org/)
 
 ## **Aragon Developer Portal**
 Home to developer documentation, guides & tutorials on the infrastructure and tools built by Aragon.
@@ -68,7 +68,7 @@ Home to developer documentation, guides & tutorials on the infrastructure and to
 ## **Aragon / Aragon client**
 Aragon client is a tool for all of humanity to organize. It's an open source decentralized application that let's you create, run and manage your organization freely. Decentralized organizations created on the Aragon platform are unstoppable in nature thanks to the [Ethereum](https://ethereum.org) blockchain.
 
-**Website:** [https://app.aragon.org](https://app.aragon.org)
+**Website:** [https://mainnet.aragon.org](https://mainnet.aragon.org)
 
 ## **Developer glossary**
 For developer tools and frameworks like aragonOS or aragonCLI, you can check out the [developer glossary](https://hack.aragon.org/docs/glossary.html).
