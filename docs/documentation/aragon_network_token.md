@@ -53,6 +53,7 @@ _Disclaimer: Nothing on this page should be taken as investment advice. Inclusio
 
 **Exchanges:**
 
+- Bancor - [https://www.bancor.network/](https://www.bancor.network/)
 - Bitplace - [https://www.bitplace.to](https://www.bitplace.to)
 - Bitfinex - [https://bitfinex.com](https://bitfinex.com)
 - Bittrex - [https://bittrex.com](https://bittrex.com)
