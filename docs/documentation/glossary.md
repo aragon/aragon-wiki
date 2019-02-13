@@ -26,17 +26,24 @@ Aragon One is a company that encompasses the foundational team working on the Ar
 
 **Website:** [https://aragon.one](https://aragon.one)
 
+## **Autark**
+<img src="../../design/logo/autark/autarklogo.webp" style="width:200px;">
+
+Autark is a new organization that is to be established for the purpose of advancing life on Earth, with a special focus on DAOs, Aragon, worker-autonomy, and access to tools that support the global development of complex mega-projects.
+
+**Website:** [https://www.autark.xyz/](https://www.autark.xyz/)
+
 ## **Aragon DAC**
 <img src="../../design/logo/aragon_dac/logo_horizontal_transbg_small.png" style="width:200px;">
 
 Aragon DAC is a [Decentralized Altruistic Community](https://medium.com/giveth/giveth-introduces-decentralized-altruistic-communities-dacs-d1155a79bdc4) on the Giveth platform that will work on building out core Aragon infrastructure from the end user's perspective.
 
-**Website:** [https://giveth.io/](https://giveth.io/)
+**Website:** [https://aragondac.org/](https://aragondac.org/)
 
 ## **Aragon Chat**
 A place to have discussions and to chat about all Aragon related things. A open source chat on a [Rocket Chat](https://rocket.chat/) platform.
 
-**Website:** [https://chat.aragon.org](https://chat.aragon.org)
+**Website:** [https://aragon.chat](https://aragon.chat)
 
 ## **Aragon Wiki**
 The home to Aragon related resources and assets such as user-related and general documentation, design items, job listings, tutorials and other related material.
@@ -45,7 +52,9 @@ The home to Aragon related resources and assets such as user-related and general
 
 ## **Aragon Project blog**
 
-The Aragon Project blog can be found at [https://blog.aragon.org](https://blog.aragon.org). Contains blog posts related to the project under categories [Announcements](https://blog.aragon.org/tag/announcements/), [Product](https://blog.aragon.org/tag/product-updates/), [Governance](https://blog.aragon.org/tag/governance/), [Research](https://blog.aragon.org/tag/research/), [Aragon Network](https://blog.aragon.org/tag/aragon-network/), [Development](https://blog.aragon.org/tag/development/), [Nest](https://blog.aragon.org/tag/nest/), [Transparency](https://blog.aragon.org/tag/transparency/) & [Community](https://blog.aragon.org/tag/Community/).
+The Aragon Project blog can be found at [https://blog.aragon.org](https://blog.aragon.org). Contains blog posts related to the project under categories [Announcements](https://blog.aragon.org/tag/announcements/), [Product](https://blog.aragon.org/tag/product/), [Governance](https://blog.aragon.org/tag/governance/), [Research](https://blog.aragon.org/tag/research/), [Aragon Network](https://blog.aragon.org/tag/aragon-network/) & [Community](https://blog.aragon.org/tag/Community/).
+
+There are also collections which contain posts on specific topics. These are [Transparency Reports](https://blog.aragon.org/tag/transparency-reports/), [Development Updates](https://blog.aragon.org/tag/development-updates/), [Nest Updates](https://blog.aragon.org/tag/nest-updates/) & [Governance Proposals](https://blog.aragon.org/tag/governance-proposals/).
 
 **Website:** [https://blog.aragon.org](https://blog.aragon.org)
 
@@ -55,10 +64,10 @@ The Aragon One blog can be found at [https://blog.aragon.one](https://blog.arago
 
 **Website:** [https://blog.aragon.one](https://blog.aragon.one)
 
-## **Aragon Research Forum**
+## **Aragon Forum**
 A forum specifically to engage in long-form discussions related to Aragon's research efforts including governance, economics, and token engineering.
 
-**Website:** [https://research.aragon.org](https://research.aragon.org)
+**Website:** [https://forum.aragon.org/](https://forum.aragon.org/)
 
 ## **Aragon Developer Portal**
 Home to developer documentation, guides & tutorials on the infrastructure and tools built by Aragon.
