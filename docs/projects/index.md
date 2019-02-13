@@ -27,7 +27,7 @@
 
 - [District0x](https://district0x.io) ([Proof](https://education.district0x.io/district0x-specific-topics/understanding-technology-behind-district0x/aragon/))
 
-- [Melon](https://melonport.com/) ([Proof](https://medium.com/melonport-blog/melon-will-run-its-decentralized-governance-on-aragon-9f7935693720))
+- [Melonport](https://melonport.com/) ([Proof](https://medium.com/melonport-blog/melon-will-run-its-decentralized-governance-on-aragon-9f7935693720))
 
 - [Spice VC](https://www.spicevc.com) ([Proof](https://medium.com/spicevc/spice-vc-is-the-first-to-use-blockchain-to-solve-the-liquidity-problem-638227217cb6))
 
