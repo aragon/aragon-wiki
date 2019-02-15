@@ -169,7 +169,7 @@ Aragon Mailing List - [https://one.us15.list-manage.com/subscribe?u=a590aa3843a5
 
 Aragon Chat - [https://aragon.chat](https://aragon.chat)
 
-Aragon Research Forum - [https://research.aragon.org](https://research.aragon.org)
+Aragon Forum - [https://forum.aragon.org](https://forum.aragon.org)
 
 Reddit - [https://www.reddit.com/r/aragonproject/](https://www.reddit.com/r/aragonproject/)
 
