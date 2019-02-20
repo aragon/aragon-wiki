@@ -673,7 +673,10 @@ To give permission to an entity to perform an action on an app, click the “Add
 Each app has different actions that an entity can be granted permission to perform. Granting permission to an entity to perform these actions on these apps will allow them to:
 
 !!! info "**ACL**"
-    Create permissions: create permissions in any app that uses this ACL instance
+    Create permissions: create permissions in any app that uses this ACL instance`*`
+
+    !!! error ""
+        `*` These actions are very sensitive actions that will give the entity with permission to perform these actions almost complete control of your organization.
 
 !!! info "**EVM Script Registry**"
     - Add executors: add an executor to the organization`*`
@@ -684,14 +687,14 @@ Each app has different actions that an entity can be granted permission to perfo
         An executor is an interpreter for running scripts in an organization. All of the apps in an organization use the executors in the organization to execute scripts that are part of transactions sent to the app. Each script has an identifier that determines which executor is used for running the script. For example, whenever a vote transaction is sent to the Voting app, the app runs a script, then uses an executor to execute the script in the transaction. You can find more documentation about executors in the [Aragon Developer Portal](https://hack.aragon.org/docs/aragonos-ref.html#52-evmscripts).
 
     !!! error ""
-        These actions are very sensitive actions that will give the entity with permission to perform these actions almost complete control of your organization.
+        `*` These actions are very sensitive actions that will give the entity with permission to perform these actions almost complete control of your organization.
 
 !!! info "**Kernel**"
 
-    Manage apps: install apps, upgrade apps, and change default apps in an organization. The ACL and the EVM Script Registry are default apps in the organization. Whoever has permission to perform this action can also change the default Vault app of the organization (which is the Vault that tokens will be sent to if tokens are sent to an app that is not meant to accept token deposits).
+    Manage apps: install apps, upgrade apps, and change default apps in an organization. The ACL and the EVM Script Registry are default apps in the organization. Whoever has permission to perform this action can also change the default Vault app of the organization (which is the Vault that tokens will be sent to if tokens are sent to the address of an app that is not meant to accept token deposits).`*`
 
     !!! error ""
-        These actions are very sensitive actions that will give the entity with permission to perform these actions almost complete control of your organization.
+        `*` These actions are very sensitive actions that will give the entity with permission to perform these actions almost complete control of your organization.
 
 !!! info "**Token Manager**"
 
@@ -738,7 +741,7 @@ The Settings page has information about your organization, including the address
 
 If you are using Aragon on testnet, you can also request test tokens from the Settings page. These tokens will be deposited into your organization’s Finance app.
 
-**Do not send non-ETH tokens to the organization's Finance app address. If you want to send non-ETH tokens to your organization, you must use the "Deposit" feature under "New Transfer" in the Finance app.**
+**Do not send non-ETH tokens to the organization's Finance app address. If you want to send non-ETH tokens to your organization, you must follow the instructions for [making a deposit](https://wiki.aragon.org/tutorials/Aragon_User_Guide/#343-new-transfer).**
 
 [![](images/user_guide/06/101_appssettings1.png)](images/user_guide/06/101_appssettings1.png)
 
