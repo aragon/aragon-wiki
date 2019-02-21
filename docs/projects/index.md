@@ -25,12 +25,16 @@
 
 - [Auctus](https://auctus.org/) ([Proof](https://blog.auctus.org/launch-of-auctus-labs-9ff5ffe26e32))
 
+- [Because of the Internet DAO](https://www.rude.world/boti-dao) ([Proof](https://www.rude.world/boti-dao))
+
 - [District0x](https://district0x.io) ([Proof](https://education.district0x.io/district0x-specific-topics/understanding-technology-behind-district0x/aragon/))
 
 - [Melonport](https://melonport.com/) ([Proof](https://medium.com/melonport-blog/melon-will-run-its-decentralized-governance-on-aragon-9f7935693720))
 
-- [Spice VC](https://www.spicevc.com) ([Proof](https://medium.com/spicevc/spice-vc-is-the-first-to-use-blockchain-to-solve-the-liquidity-problem-638227217cb6))
+- [Ocean Protocol](https://oceanprotocol.com/) ([Proof](https://oceanprotocol.com/tech-whitepaper.pdf))
 
 - [Request Network](https://request.network) ([Proof](https://blog.request.network/blockchain-bricks-request-is-built-upon-0x-civic-and-aragon-3aaf68390221))
 
 - [Shasta](https://shasta.world/) ([Proof](https://medium.com/shastaproject/how-we-plan-to-use-aragon-organizations-63d11fecc81d))
+
+- [Spice VC](https://www.spicevc.com) ([Proof](https://medium.com/spicevc/spice-vc-is-the-first-to-use-blockchain-to-solve-the-liquidity-problem-638227217cb6))
