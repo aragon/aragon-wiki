@@ -611,7 +611,7 @@ And for each transfer, you can click on the drop down menu to get a link to view
 To send funds to your organization, you can create a deposit using the Finance app. Click the "New Transfer" button, open the "Deposit" tab, select the token you want to deposit, enter the amount and an optional reference note, then click the "Submit deposit" button.
 
 !!! note
-    For non-ETH tokens, two transactions may be required to make a deposit. The first transaction approves the Finance app to pull the deposit amount from your wallet balance, and the second transaction is the actual deposit transaction.
+    For non-ETH tokens, two transactions may be required to make a deposit. The first transaction approves the Finance app to pull the deposit amount from your wallet balance, and the second transaction is the actual deposit transaction. This is a safety feature to prevent the Finance app from pulling more funds from your wallet than you have explicitly authorized.
 
 [![](images/user_guide/06/104_appsfinance2.png)](images/user_guide/06/104_appsfinance2.png)
 
