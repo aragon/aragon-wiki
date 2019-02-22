@@ -1,6 +1,10 @@
 # Aragon Presentation Videos
 
-## [**Bringing Your Own Governance Model to Aragon | Jorge Izquierdo**](https://www.youtube.com/watch?v=gEcaPRkcfR8)
+## [**Launching Decentralized Organizations Using Aragon at #BUIDLweek #ETHDenver**](https://www.youtube.com/watch?v=mV4Zrl2yY2M)
+by Tommy Cox at [**#BUIDLweek #ETHDenver**](https://www.ethdenver.com/buidlweek/)  
+[Slides of the presentation](../documentation/slides/Launching_Decentralized_Organizations_On_Aragon.pdf)
+
+## [**Bringing Your Own Governance Model to Aragon**](https://www.youtube.com/watch?v=gEcaPRkcfR8)
 by Jorge Izquierdo at [**M-1**](https://m-1.melonport.com/)  
 [Slides of the presentation](../documentation/slides/M1-Jorge-Bring-Your-Governance-To-Aragon.pdf)
 
