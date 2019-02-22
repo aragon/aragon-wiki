@@ -1,6 +1,6 @@
 # Aragon Presentation Videos
 
-## [**Launching Decentralized Organizations Using Aragon at #BUIDLweek #ETHDenver**](https://www.youtube.com/watch?v=mV4Zrl2yY2M)
+## [**Launching Decentralized Organizations Using Aragon**](https://www.youtube.com/watch?v=mV4Zrl2yY2M)
 by Tommy Cox at [**#BUIDLweek #ETHDenver**](https://www.ethdenver.com/buidlweek/)  
 [Slides of the presentation](../documentation/slides/Launching_Decentralized_Organizations_On_Aragon.pdf)
 
