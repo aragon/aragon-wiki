@@ -47,7 +47,6 @@ pages:
       - Overview: 'documentation/multisigs/overview.md'
       - Association: 'documentation/multisigs/association.md'
       - Community: 'documentation/multisigs/community.md'
-    - Development Plan: 'documentation/Development_Plan.md'
     - Code of Conduct: 'documentation/Code_of_Conduct.md'
     - Event Policy: 'documentation/event_policy.md'
     - Legal:
@@ -120,6 +119,7 @@ pages:
       - aragonOS v2.0.1: 'archive/documentation/aragonOS_201.md'
       - AGP5 - Rocket Chat comparison: 'archive/documentation/agp5/RocketChat.md'
       - AGP5 - Riot comparison: 'archive/documentation/agp5/Riot.md'
+      - Development Plan: 'documentation/Development_Plan.md'
     - Meetings:
       - Aragon HQ:
         - HQ 01: 'archive/meetings/hq/01.md'
