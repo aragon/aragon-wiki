@@ -1,7 +1,7 @@
 <center>
 <img src="../../images/logo_text_under_dark.png">
 # Development Plan
-_**This documentation is currently outdated and will be updated in Q2 2018**_
+_**This development plan has been deprecated in favor of the [project roadmap](https://aragon.org/project/roadmap/)._
 
 version 1.2
 
