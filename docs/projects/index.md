@@ -1,5 +1,12 @@
 # Third-Party Projects
 
+## Aragon statistics
+> These are projects that analyze the publicly available blockchain data to report statistics about Aragon organizations and their activity.
+
+- [Daolist](https://daolist.io/)
+
+- [Scout](https://scout.cool/aragon/mainnet/)
+
 ## Using [aragonOS](https://hack.aragon.org/docs/aragonos-ref.html)
 > These are projects that are currently already using the [aragonOS architecture](https://hack.aragon.org/docs/aragonos-ref.html) or parts of it
 
