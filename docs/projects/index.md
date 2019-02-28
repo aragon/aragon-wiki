@@ -11,13 +11,13 @@
 > These are projects that are currently already using the [aragonOS architecture](https://hack.aragon.org/docs/aragonos-ref.html) or parts of it
 
 - [Decentraland](https://decentraland.org/)
-> Uses [Proxy](https://hack.aragon.org/docs/aragonos-ref.html#3-upgradeability) feature from aragonOS as a part of their project
+  - Uses [Proxy](https://hack.aragon.org/docs/aragonos-ref.html#3-upgradeability) feature from aragonOS as a part of their project
 
 - [DAppNode](https://dappnode.io)
-> Uses the Aragon Package Manager as a part of their project, as well as a DAO to manage their NFTs 
+  - Uses the Aragon Package Manager as a part of their project, as well as a DAO to manage their NFTs 
 
 - [Giveth](https://giveth.io)
-> Uses [Proxy](https://hack.aragon.org/docs/aragonos-ref.html#3-upgradeability) feature from aragonOS as a part of their liquidPledging system and will eventually move the entire DApp to Aragon.
+  - Uses [Proxy](https://hack.aragon.org/docs/aragonos-ref.html#3-upgradeability) feature from aragonOS as a part of their liquidPledging system and will eventually move the entire DApp to Aragon.
 
 ## Powered by Aragon
 > **Aragon went [live on the Ethereum mainnet](https://blog.aragon.org/aragon-06-is-live-on-mainnet/) on October 30th, 2018. This is a list of projects that have publicly announced their interest in utilizing Aragon, we can't wait to see what they do!**
