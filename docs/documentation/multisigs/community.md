@@ -7,7 +7,7 @@ Required signatures: 5/7
 ### Aragon Association Multisig
 
 [Address](https://etherscan.io/address/0xcafe1a77e84698c83ca8931f54a755176ef75f2c)  
-[**Read more**](foundation.md)
+[**Read more**](association.md)
 
 ### Joe Urgo
 
