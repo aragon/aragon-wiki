@@ -4,11 +4,11 @@ Aragon has been a proud sponsor and participant in numerous Ethereum and blockch
 ## Sponsorship policy
 - The **Aragon Association** will sponsor a **maximum of 4 large-scale events** per calendar year.
 
-- A **maximum sponsorship** we will consider is **up to €50,000**.
+- A **maximum sponsorship** we will consider is **up to CHF 50,000**.
 
 - A large-scale event has to be relevant to what Aragon is building and provide an ample forum for presenting Aragon at the event.
 
-- The Association has budgeted an additional **€100,000 per year** towards sponsoring **Aragon community meetups** around the world.
+- The Association has budgeted an additional **CHF 100,000 per year** towards sponsoring **Aragon community meetups** around the world.
 
 - Aragon wants to encourage community members to organize events like meetups, hackathons, and other community events. We are happy to support and help you organize such an Aragon-related community event and will consider backing such events on a case-by-case basis.
 
