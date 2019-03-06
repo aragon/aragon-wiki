@@ -10,11 +10,11 @@ version 1.2
 
 ## **Introduction**
 
-Aragon is everything you need to run organizations (companies, NGOs, associations, open source projects...) on the Ethereum blockchain. It implements features like a token manager, a voting app, a finance app, a vault, and a very flexible permission system based off [aragonOS](https://aragon.one/os). Aragon organizations are easily customizable, and they are also extensible by installing third party apps.
+Aragon is everything you need to run organizations (companies, NGOs, associations, open source projects...) on the Ethereum blockchain. It implements features like a token manager, a voting app, a finance app, a vault, and a very flexible permission system based off [aragonOS](https://hack.aragon.org/docs/aragonos-intro.html). Aragon organizations are easily customizable, and they are also extensible by installing third party apps.
 
 Aragon organizations will be able to opt-in into the Aragon Network, which will provide services like a decentralized court arbitration system for them.
 
-For more information, please refer to [our website](https://aragon.one) our dapp white paper and our [Network whitepaper](https://github.com/aragon/whitepaper).
+For more information, please refer to [our website](https://aragon.one), our dapp, white paper and our [Network whitepaper](https://github.com/aragon/whitepaper).
 
 This document describes the plans to develop the Aragon dapp and the Aragon Network. 
 
@@ -29,7 +29,7 @@ At the age of 17, they prototyped a fully decentralized Internet replacement by 
 
 [Stampery](https://stampery.com)—Luis’ latest company—made blockchain timestamping accessible, and has worked with institutions like the Estonian government, Microsoft and Telefonica. It participated in TechCrunch Disrupt and was backed by billionaire Tim Draper.
 
-Luis has also been recognized as a [30 Under 30 by Forbes](https://www.forbes.com/30-under-30-europe-2016/technology/#6662a3e4a4b3) and [Innovator Under 35 by the MIT](http://www.innovatorsunder35.com/innovator/luis-cuende).
+Luis has also been recognized as a [30 Under 30 by Forbes](https://www.forbes.com/30-under-30-europe-2016/technology) and [Innovator Under 35 by the MIT](https://www.innovatorsunder35.com/the-list/luis-cuende/).
 
 Before building Aragon, Luis and Jorge were in Silicon Valley working on solving the problem of patent trolls with Unpatent. After figuring out how broken the underlying infrastructure of innovation is—patent trolls thriving, Donald Trump winning the elections, bureaucracy eating entrepreneurship—they decided to focus all of their time in building the infrastructure that new companies and organizations will run on top of. 
 
@@ -42,7 +42,7 @@ Firms or companies exist in order to create value by using resources to create p
 However, intermediaries and third parties such as governments decrease the output of those organizations by imposing restrictions and creating complex regulatory frameworks.
 Aragon was born to disintermediate the creation and maintenance of companies and other organizational structures.
 
-Luis and Jorge were very inspired by Nobel prize Ronald Coase and his amazing paper [The Nature of the Firm](https://en.wikipedia.org/wiki/The_Nature_of_the_Firm) and Yochai Benkler's [Linux and the Nature of the Firm](http://www.benkler.org/CoasesPenguin.html). Both explore the concept of companies.
+Luis and Jorge were very inspired by Nobel prize Ronald Coase and his amazing paper [The Nature of the Firm](https://en.wikipedia.org/wiki/The_Nature_of_the_Firm) and Yochai Benkler's [Linux and the Nature of the Firm](https://www.benkler.org/CoasesPenguin.html). Both explore the concept of companies.
 
 At Aragon, we believe that the blockchain and the Internet are changing the incentives for companies to exist, and we are building tools for the next generation of companies that will take advantage of these changes.
 
@@ -93,7 +93,7 @@ ___
 <h3>Release Calendar</h3>
 
 - **Alpha**: February 2017
-- [**Release link**](https://github.com/aragon/aragon/releases/tag/0.2)
+- [**Release link**](https://github.com/aragon/aragon/releases/tag/0.2.0)
 
 ### 0.3 — The Governance Release
 <center>
@@ -108,7 +108,7 @@ ___
 <h3>Release Calendar</h3>
 
 - **Alpha**: April 2017
-- [**Release link**](https://github.com/aragon/aragon/releases/tag/0.3)
+- [**Release link**](https://github.com/aragon/aragon/releases/tag/0.3.0)
 
 ### 0.4 — The Bridge Release
 This release will focus on adding:
@@ -199,7 +199,7 @@ ___
 - **Alpha**: April 2018
 - **Bug bounty (mainnet)**: From May 2017 to July 2018
 - **Beta (mainnet)**: August 2018
-- [**Release link**](https://github.com/aragon/aragon/releases/tag/0.5)
+- [**Release link**](https://github.com/aragon/aragon/releases/tag/0.5.0)
 
 This will be the first release that gets deployed to the mainnet.
 After months of public bug bounties in the mainnet, we will start allowing the first
