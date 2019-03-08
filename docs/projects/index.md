@@ -36,7 +36,7 @@
 
 - [District0x](https://district0x.io) ([Proof](https://education.district0x.io/district0x-specific-topics/understanding-technology-behind-district0x/aragon/))
 
-- [Melonport](https://melonport.com/) ([Proof](https://medium.com/melonport-blog/melon-will-run-its-decentralized-governance-on-aragon-9f7935693720))
+- [Melon](https://melonport.com/) ([Proof](https://medium.com/melonport-blog/melon-will-run-its-decentralized-governance-on-aragon-9f7935693720))
 
 - [Ocean Protocol](https://oceanprotocol.com/) ([Proof](https://oceanprotocol.com/tech-whitepaper.pdf))
 
