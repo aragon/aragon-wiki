@@ -5,8 +5,7 @@ python: 3.7.1 # Set the version of Python to use
 branches: master # Set the branch to build from
 
 install:
-    - pip install mkdocs # Install the required dependencies
-    - pip install mkdocs-material # Install the required dependencies
+    - pip install mkdocs mkdocs-material # Install the required dependencies
 
 script:
     - mkdocs build --verbose --clean # Build a local version of the docs
@@ -16,7 +15,7 @@ deploy:
   skip-cleanup: true
 # github-token is Generated in Github Developer Settings -> Personal Access Token (public_repo checked)
 # It also needs to be set in TravisCI as a enviroment variable with the value. (Reminder do not show this in logs.)
-  github-token: $aragon_wiki_github_token  
+  github-token: $GH_TOKEN  
   local-dir: site
   keep-history: true
   target-branch: gh-pages
