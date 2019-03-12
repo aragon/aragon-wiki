@@ -17,7 +17,6 @@ You can use the menu to the left to navigate the wiki. Here is a brief summary o
 
     - Documents and papers related to the project
     - Developer resources
-    - Finalized versions of the [Aragon Governance Proposal](https://github.com/aragon/governance/issues) documents
     - Information about the Aragon multisig structure and wallets
 
 - **<u>Development</u>**

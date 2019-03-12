@@ -34,4 +34,4 @@ These dates may change if an emergency delay is approved by the Aragon Associati
 
 ## Deprecated AGPs
 
-- [aragon/governance](https://github.com/aragon/governance/)
+> - [aragon/governance](https://github.com/aragon/governance/)
