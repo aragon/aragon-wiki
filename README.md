@@ -5,9 +5,11 @@
 If you feel like contributing to the wiki, like changing or adding things, feel free to check out the [open Issues](https://github.com/aragon/aragon-wiki/issues) and submit a [Pull Request](https://github.com/aragon/aragon-wiki/pulls).
 
 ## Current versions used:
-[MKDocs version 0.17.3](http://www.mkdocs.org/about/release-notes/)
+[Python 3.7.2] (https://www.python.org/downloads/)
 
-[Material for MkDocs version 2.7.3](https://squidfunk.github.io/mkdocs-material/release-notes/)
+[MKDocs version 1.0.0](http://www.mkdocs.org/about/release-notes/)
+
+[Material for MkDocs version 4.0.0](https://squidfunk.github.io/mkdocs-material/release-notes/)
 
 ### To upgrade from previous versions:
 `pip install --upgrade mkdocs`
