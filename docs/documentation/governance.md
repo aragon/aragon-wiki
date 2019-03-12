@@ -3,7 +3,7 @@
 - Learn about the [**Aragon Governance Proposal process**](https://github.com/aragon/AGPs/blob/master/AGPs/AGP-1.md)
 - Learn [**how the Aragon Assocation Board of Directors votes on proposals**](https://github.com/aragon/AGPs/blob/master/aa_board_review.md)
 - Learn and discuss [**how to submit an Aragon Governance Proposal**](https://forum.aragon.org/t/how-to-create-an-aragon-governance-proposal/374)
-- Check out [**all open Aragon Governance Proposals**](https://github.com/aragon/AGPs/pulls)
+- Check out [**all currently open Aragon Governance Proposals**](https://github.com/aragon/AGPs/pulls)
 - Vote on [**open proposals during an Aragon Network Vote**](https://survey.aragon.org)
 - See results from [**past Aragon Network Votes**](https://github.com/aragon/AGPs/tree/master/votes)
 
