@@ -5,7 +5,6 @@ python: 3.6 # Set the version of Python to use
 branches: master # Set the branch to build from
 
 install:
-    - travis_wait 20 mvn install # Install travis_wait and default to 20 minutes for future modifications
     - pip install mkdocs mkdocs-material # Install the required dependencies
 
 script:
