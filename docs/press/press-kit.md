@@ -2,12 +2,13 @@
 
 Here we have compiled resources and guides for press and media to use when referring to the Aragon Project brand.
 
+## Aragon Press/Media Contact
+
+If you want to get in touch with us about an interview, commentary, or other media/press related matter, please send an email to media at aragon dot one.
+
 ## Brand Guidelines
 
-### [Identity Guidelines](../design/identity_guidelines.md)
-> This document contains all you need to know about how the Aragon identity should be used in different contexts.
-
-[Identity Guidelines](../design/identity_guidelines.md) includes information about the brand colors, the structure etc.
+The current version of the Aragon Project brand guidelines can be found [here](https://archive.org/download/aragon_brand_guidelines/GUIDELINES_BRAND_ARAGON.pdf).
 
 ## Brand Resources
 
@@ -217,8 +218,3 @@ ___
 ___
 [<img src="../../design/logo/AraCon/aracon_themes04.png">](../design/logo/AraCon/aracon_themes04.png)
 ___
-
-
-## Aragon Press/Media Contact
-
-If you want to get in touch with us about a interview, commentary or other media/press related matter, please send an email to [media@aragon.one](mailto:media@aragon.one)
