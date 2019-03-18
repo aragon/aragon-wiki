@@ -10,6 +10,9 @@ install:
 script:
     - mkdocs build --verbose --clean # Build a local version of the docs
 
+git:
+    depth: 1
+
 deploy:
   provider: pages
   skip-cleanup: true
