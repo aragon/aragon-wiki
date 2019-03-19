@@ -10,6 +10,11 @@ install:
 script:
     - mkdocs build --verbose --clean # Build a local version of the docs
 
+git:
+    depth: 1 # Depth 1 for quicker git checkout.
+
+dist: xenial # Using a later version of ubuntu to build should be faster.
+
 deploy:
   provider: pages
   skip-cleanup: true
