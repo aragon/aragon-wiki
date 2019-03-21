@@ -8,7 +8,10 @@ If you want to get in touch with us about an interview, commentary, or other med
 
 ## Brand Guidelines
 
-The current version of the Aragon Project brand guidelines can be found [here](https://archive.org/download/aragon_brand_guidelines/GUIDELINES_BRAND_ARAGON.pdf).
+The current version of the Aragon Project brand guidelines can be found [here](https://archive.org/download/aragon_brand_guidelines/GUIDELINES_BRAND_ARAGON.pdf)`[*]`.
+
+!!! note " * "
+    Large filesize, PDF is approximately 52MB.
 
 ## Brand Resources
 

@@ -120,7 +120,7 @@ pages:
       - AGP5 - Riot comparison: 'archive/documentation/agp5/Riot.md'
       - Development Plan: 'documentation/Development_Plan.md'
     - Design:
-      - Identity Guidelines: 'design/identity_guidelines.md'
+      - Identity Guidelines: 'archive/design/identity_guidelines.md'
     - Meetings:
       - Aragon HQ:
         - HQ 01: 'archive/meetings/hq/01.md'
