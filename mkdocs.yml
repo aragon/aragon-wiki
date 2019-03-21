@@ -79,7 +79,6 @@ pages:
     - Logo: 'design/logo/index.md'
     - For entities using Aragon: 'design/powered_by_aragon.md'
     - Artwork: 'design/artwork/index.md'
-    - Identity Guidelines: 'design/identity_guidelines.md'
     - Branding Proposal: 'design/branding_proposal.md'
     - Merchandise: 'design/merch/index.md'
   - Jobs:
@@ -123,6 +122,8 @@ pages:
       - AGP5 - Rocket Chat comparison: 'archive/documentation/agp5/RocketChat.md'
       - AGP5 - Riot comparison: 'archive/documentation/agp5/Riot.md'
       - Development Plan: 'documentation/Development_Plan.md'
+    - Design:
+      - Identity Guidelines: 'archive/design/identity_guidelines.md'
     - Meetings:
       - Aragon HQ:
         - HQ 01: 'archive/meetings/hq/01.md'
