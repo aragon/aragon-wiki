@@ -90,8 +90,8 @@ pages:
       - EVM/Solidity Engineer: 'jobs/openings/solidity.md'
       - Documentation Technical Writer: 'jobs/openings/technical-writer.md'
       - Developer Relations: 'jobs/openings/dev_rel.md'
-    - Aragon DAC:
-      - Technical Writer: 'jobs/openings/DAC-Technical_Writer.md'
+    - Autark:
+      - Frontend: 'jobs/openings/Autark-frontend.md'
   - Blog posts:
     - 2019: 'blog/2019.md'
     - 2018: 'blog/2018.md'

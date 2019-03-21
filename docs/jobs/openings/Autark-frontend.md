@@ -11,25 +11,25 @@ The Frontend Developer's primary responsibility will be developing, testing, and
 We expect you to be able to transform designs into modern and responsive code, and work closely with product and development to ship code in a timely manner.
 
 ## Requirements
-* Expert understanding of: React (Web and Native), Modern JavaScript (ES6+) and Web APIs, CSS, resource optimization, development tools 
-* Experience working with Web3 technologies 
-* A track record of shipping well-crafted code using agile development methodologies within tight deadlines 
-* A passion for both open source and decentralization, with previous experience contributing to or managing open source projects 
+* Expert understanding of: React (Web and Native), Modern JavaScript (ES6+) and Web APIs, CSS, resource optimization, development tools
+* Experience working with Web3 technologies
+* A track record of shipping well-crafted code using agile development methodologies within tight deadlines
+* A passion for both open source and decentralization, with previous experience contributing to or managing open source projects
 * Being an autonomous individual with a proactive attitude and great time management skills
 
 ## Nice to have
-* Previous experience working remotely 
-* Good written communication skills 
+* Previous experience working remotely
+* Good written communication skills
 * Previous experience with UX/UI design, with high attention to detail
 
 ## How to apply
-1) You are going to be required to complete a development challenge: 
-http://bit.ly/autark-challenge
+1) You are going to be required to complete a development challenge:
+[http://bit.ly/autark-challenge](http://bit.ly/autark-challenge)
 
 2) Send an email to yalda@autark.xyz that includes a link to the challenge solution's code
 
-Additionally, answer the following questions: 
-* Why are you interested in working with Autark? 
-* Were you previously familiar with Aragon? What do you find compelling about Aragon? 
-* What challenge are you interested in solving in relation to user experience and onboarding users into the blockchain ecosystem? 
+Additionally, answer the following questions:
+* Why are you interested in working with Autark?
+* Were you previously familiar with Aragon? What do you find compelling about Aragon?
+* What challenge are you interested in solving in relation to user experience and onboarding users into the blockchain ecosystem?
 * Include a link to you GitHub profile
