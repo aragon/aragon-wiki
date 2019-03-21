@@ -108,6 +108,10 @@ pages:
         - Overview: 'videos/dev.md'
         - Notes template: 'videos/template.md'
         - Running the call: 'videos/running_all_devs.md'
+        - Meeting Notes:
+          - 16.07.2018: 'videos/meeting_notes/all_aragon_devs/alldevs20180716.md'
+          - 30.07.2018: 'videos/meeting_notes/all_aragon_devs/alldevs20180730.md'
+          - 13.08.2018: 'videos/meeting_notes/all_aragon_devs/alldevs20180813.md'
     - Interviews: 'videos/interviews.md'
     - Presentations: 'videos/presentations.md'
   - Press:
