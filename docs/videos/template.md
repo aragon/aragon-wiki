@@ -1,15 +1,14 @@
 # All Core Devs Meeting #
 ### Meeting Date/Time: xx/xx/xx at xx:xx UTC
-### Meeting Duration: 00:00
 ### [Audio/Video of the meeting]()
+
+## Attendance
+TODO
 
 ## Agenda
 TBD
 
 ## Notes
-TODO
-
-## Attendance
 TODO
 
 ## License
