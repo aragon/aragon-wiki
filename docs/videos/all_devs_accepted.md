@@ -1,4 +1,4 @@
-Hello! Thank you for proposing an agenda item for the next All Aragon Devs call. 
+Hello! Thank you for proposing an agenda item for the next All Aragon Devs call.
 
 Your agenda item has been accepted.
 
