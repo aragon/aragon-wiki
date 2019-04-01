@@ -34,6 +34,6 @@ Follow these steps:
 - Fork the [Aragon Wiki GitHub repository](https://github.com/aragon/aragon-wiki)
 - **Create a Pull Request** with your proposed changes to have your contribtuion merged into the Wiki repository.
 
-## To deploy changes in the wiki to web:
+## To deploy changes in the wiki to web in the case where TravisCI fails to do so:
 
 Follow the instructions for running a local version and then in the `aragon-wiki` directory, run `mkdocs gh-deploy`
