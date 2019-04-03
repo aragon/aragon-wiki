@@ -41,6 +41,7 @@ pages:
     - Governance:
       - Overview: 'documentation/governance.md'
       - Association ANT Policy: 'documentation/association_ant.md'
+      - How to verify cryptographic hashes and signatures: 'documentation/verify_crypto.md'
     - Manifesto: 'documentation/manifesto.md'
     - Multisigs:
       - Overview: 'documentation/multisigs/overview.md'
