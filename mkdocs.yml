@@ -107,24 +107,35 @@ pages:
         - Notes template: 'videos/template.md'
         - Running the call: 'videos/running_all_devs.md'
         - Meeting Notes:
-          - 16.07.2018: 'videos/meeting_notes/all_aragon_devs/alldevs20180716.md'
-          - 30.07.2018: 'videos/meeting_notes/all_aragon_devs/alldevs20180730.md'
-          - 13.08.2018: 'videos/meeting_notes/all_aragon_devs/alldevs20180813.md'
-          - 13.08.2018: 'videos/meeting_notes/all_aragon_devs/alldevs20180827.md'
-          - 13.08.2018: 'videos/meeting_notes/all_aragon_devs/alldevs20180910.md'
-          - 13.08.2018: 'videos/meeting_notes/all_aragon_devs/alldevs20180924.md'
-          - 13.08.2018: 'videos/meeting_notes/all_aragon_devs/alldevs20181008.md'
-          - 13.08.2018: 'videos/meeting_notes/all_aragon_devs/alldevs20181022.md'
-          - 13.08.2018: 'videos/meeting_notes/all_aragon_devs/alldevs20181105.md'
-          - 13.08.2018: 'videos/meeting_notes/all_aragon_devs/alldevs20181119.md'
-          - 13.08.2018: 'videos/meeting_notes/all_aragon_devs/alldevs20181203.md'
-          - 13.08.2018: 'videos/meeting_notes/all_aragon_devs/alldevs20181217.md'
-          - 13.08.2018: 'videos/meeting_notes/all_aragon_devs/alldevs20190107.md'
-          - 13.08.2018: 'videos/meeting_notes/all_aragon_devs/alldevs20190121.md'
-          - 13.08.2018: 'videos/meeting_notes/all_aragon_devs/alldevs20190204.md'
-          - 13.08.2018: 'videos/meeting_notes/all_aragon_devs/alldevs20190218.md'
-          - 13.08.2018: 'videos/meeting_notes/all_aragon_devs/alldevs20190304.md'
-          - 13.08.2018: 'videos/meeting_notes/all_aragon_devs/alldevs20190318.md'
+          - April 2019:
+            - 01.04.2019: 'videos/meeting_notes/all_aragon_devs/alldevs20190401.md'
+          - March 2019:
+            - 04.03.2019: 'videos/meeting_notes/all_aragon_devs/alldevs20190304.md'
+            - 18.03.2019: 'videos/meeting_notes/all_aragon_devs/alldevs20190318.md'
+          - February 2019:
+            - 04.02.2019: 'videos/meeting_notes/all_aragon_devs/alldevs20190204.md'
+            - 18.02.2019: 'videos/meeting_notes/all_aragon_devs/alldevs20190218.md'
+          - January 2019:
+            - 07.01.2019: 'videos/meeting_notes/all_aragon_devs/alldevs20190107.md'
+            - 21.01.2019: 'videos/meeting_notes/all_aragon_devs/alldevs20190121.md'
+          - December 2018:
+            - 03.12.2018: 'videos/meeting_notes/all_aragon_devs/alldevs20181203.md'
+            - 17.12.2018: 'videos/meeting_notes/all_aragon_devs/alldevs20181217.md'
+          - November 2018:
+            - 05.11.2018: 'videos/meeting_notes/all_aragon_devs/alldevs20181105.md'
+            - 19.11.2018: 'videos/meeting_notes/all_aragon_devs/alldevs20181119.md'
+          - October 2018:
+            - 08.10.2018: 'videos/meeting_notes/all_aragon_devs/alldevs20181008.md'
+            - 22.10.2018: 'videos/meeting_notes/all_aragon_devs/alldevs20181022.md'
+          - September 2018:
+            - 10.09.2018: 'videos/meeting_notes/all_aragon_devs/alldevs20180910.md'
+            - 24.09.2018: 'videos/meeting_notes/all_aragon_devs/alldevs20180924.md'
+          - August 2018:
+            - 13.08.2018: 'videos/meeting_notes/all_aragon_devs/alldevs20180813.md'
+            - 27.08.2018: 'videos/meeting_notes/all_aragon_devs/alldevs20180827.md'
+          - July 2018:
+            - 16.07.2018: 'videos/meeting_notes/all_aragon_devs/alldevs20180716.md'
+            - 30.07.2018: 'videos/meeting_notes/all_aragon_devs/alldevs20180730.md'
     - Interviews: 'videos/interviews.md'
     - Presentations: 'videos/presentations.md'
   - Press:
