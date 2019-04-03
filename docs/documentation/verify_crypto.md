@@ -95,7 +95,9 @@ nZzAdr05O2SPqomEiFVX
 
 You can see the beginning of the message at the top, the message that's being signed in the middle, and the signature at the bottom. This signature can be verified using any program that implements the Pretty Good Privacy (PGP) protocol, such as the Keybase and GPG programs mentioned earlier.
 
-To verify this signature with Keybase, go to https://keybase.io/verify, paste in the full signed message, and click verify. You'll see that Keybase shows a valid signature from the key owned by user [@ji](https://keybase.io/ji), and you'll see that the user @ji has verified social media accounts including on Twitter, GitHub, Reddit, Hacker News, and even his own personal domain. Using this collection of verifications, if you know that AA board member Jorge Izquierdo also uses these verified social media profiles and websites, then you can also be reasonably certain that the signature on the vote message was actually produced by him. This is one of the strongest assurances of digital identity available today.
+To verify this signature with Keybase, go to https://keybase.io/verify, paste in the full signed message, and click verify. You'll see that Keybase shows a valid signature from the key owned by user [@ji](https://keybase.io/ji), and you'll see that the user @ji has verified social media accounts including on Twitter, GitHub, Reddit, Hacker News, and even his own personal domain. 
+
+Using this collection of verifications, if you know that AA board member Jorge Izquierdo also uses these verified social media profiles and websites, then you can also be reasonably certain that the signature on the vote message was actually produced by him. This is one of the strongest assurances of digital identity available today.
 
 If you prefer to verify the signature yourself rather than use Keybase's hosted tool, then you can download Jorge's public key and add it to your GPG keyring by entering:
 
