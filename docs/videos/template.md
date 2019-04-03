@@ -13,20 +13,20 @@ Call #<number>: <date>
 
 ## Proposed topics
 
-# Notes
+## Notes
 
-## Introductions
-
-
-## Updates
-
-### <List established teams>
+### Introductions
 
 
-## Announcements
+### Updates
+
+#### <List established teams>
 
 
-## Discussions
+### Announcements
+
+
+### Discussions
 
 
 ## Attendance
