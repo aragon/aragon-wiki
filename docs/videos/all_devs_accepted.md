@@ -1,6 +1,6 @@
-Hello! Thank you for proposing an agenda item for the next All Aragon Devs call. 
+Hello! Thank you for proposing an agenda item for the next All Aragon Devs call.
 
-Your agenda item has been accepted.
+**Your agenda item has been accepted.**
 
 Instructions for joining the call will be emailed to you shortly before the call is scheduled to begin.
 
