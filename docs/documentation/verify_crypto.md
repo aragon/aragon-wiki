@@ -115,4 +115,4 @@ gpg:          There is no indication that the signature belongs to the owner.
 Primary key fingerprint: 1A94 EED3 BDDE 885A 671D  F10D B6D5 1396 4B9C 62B7
 ```
 
-Since the result says "good signature", it means that the message was signed by Jorge's key that you just added to your keyring. (In this case, the "WARNING" message can be ignored since all it is telling us is that we have not yet set a trust level for Jorge's key. This is an advanced use of GPG that we won't go into here.)
+Since the result says "good signature", it means that the message was signed by Jorge's key that you just added to your keyring. (In this case, the "WARNING" message can be ignored since all it is telling us is that we have not yet set a trust level for Jorge's key. This is an advanced use of GPG that we won't go into here.) 
