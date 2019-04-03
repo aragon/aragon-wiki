@@ -58,4 +58,4 @@ Update the `mkdocs.yml` file of the wiki with a relative link to the file under 
 
 Go into the YouTube Creator Studio > Video Manager > Videos, click the arrow button next to the call video, and click "Download MP4". Upload the video file to the Aragon Association cloud storage instance for backup.
 
-Go to Step 1 and create the agendas for the next call.
+Go to Step 1 and create the agenda for the next call.
