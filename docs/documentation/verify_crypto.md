@@ -2,7 +2,7 @@
 
 ## Background
 
-The Aragon community makes use of popular cryptography tools - such as [Keybase](https://keybase.io) and [Gnu Privacy Guard](https://www.gnupg.org/) (GPG) - to ensure the security and integrity of the [Aragon Governance Proposal](https://wiki.aragon.org/documentation/governance/) (AGP) process. For example, proposals in the [AGP Voting apps](https://mainnet.aragon.org/#/governance.aragonproject.eth/0xcfee4d3078f74197ce77120dbfe6d35f443cab1c) are linked to proposals on GitHub using the cryptographic hash of the final proposal (a process called "hashing"), and Aragon Association (AA) board members cryptographically sign their votes approving or rejecting proposals using the keypair linked to their Keybase accounts (a process called "signing"). 
+The Aragon community makes use of popular cryptography tools - such as [Keybase](https://keybase.io) and [Gnu Privacy Guard](https://www.gnupg.org/) (GPG) - to ensure the security and integrity of the [Aragon Governance Proposal](https://wiki.aragon.org/documentation/governance/) (AGP) process. For example, proposals in the [AGP Voting apps](https://mainnet.aragon.org/#/governance.aragonproject.eth/0xcfee4d3078f74197ce77120dbfe6d35f443cab1c) are linked to proposals on GitHub using the cryptographic hash of the final proposal (a process called "hashing"), and Aragon Association (AA) board members cryptographically sign their votes approving or rejecting proposals using the keypair linked to their Keybase accounts (a process called "signing").
 
 This guide will show the reader how to use these tools to verify information presented to them throughout the AGP process. Note that this guide was written for Linux users but can be adapted with similar tools for other operating systems.
 
@@ -19,13 +19,14 @@ These qualities make hashes uniquely suitable for information security applicati
 
 The primary way that the Aragon community uses hashes in its governance process is to ensure that the text of the proposal that is being voted on by ANT holders matches the text of the proposal approved by AA board members. This prevents a proposal from being modified in such a way that would violate the original intent of the proposal, or at least to enable anyone to notice if the proposal has been modified and to sound the alarm.
 
-`*` Hashes are only "nearly" unique because it is theoretically possible for two different pre-images to produce the same hash. This is referred to as a "collision". However, for the most secure hashing algorithms available, this is nearly impossible with current state of the art computers.
+!!! info "`*`"
+    Hashes are only "nearly" unique because it is theoretically possible for two different pre-images to produce the same hash. This is referred to as a "collision". However, for the most secure hashing algorithms available, this is basically impossible with current state of the art computers.
 
 ### Example: Verifying the AGP-1 proposal
 
 On November 12, 2018, the AA board members submitted their votes approving AGP-1 for a final vote by ANT holders. You can see the AA board members' votes here on GitHub:
 
-https://github.com/aragon/AGPs/tree/master/signatures/AGP-1
+[https://github.com/aragon/AGPs/tree/master/signatures/AGP-1](https://github.com/aragon/AGPs/tree/master/signatures/AGP-1)
 
 As mentioned above, the votes are signed. We will review how to verify the signature in the next section. Here we will verify the hash of the proposal that was approved by the board members.
 
@@ -37,7 +38,7 @@ Here the SHA-256 hash of AGP-1 is said to be `4f0e9d7782fa5c1ca82ada0aba7b80cd64
 
 We then go to the AGP Voting app where ANT holders vote on Meta track proposals:
 
-https://mainnet.aragon.org/#/governance.aragonproject.eth/0xcfee4d3078f74197ce77120dbfe6d35f443cab1c
+[https://mainnet.aragon.org/#/governance.aragonproject.eth/0xcfee4d3078f74197ce77120dbfe6d35f443cab1c](https://mainnet.aragon.org/#/governance.aragonproject.eth/0xcfee4d3078f74197ce77120dbfe6d35f443cab1c)
 
 Vote #0 says:
 
@@ -66,7 +67,7 @@ The Aragon community uses digital signatures as part of its governance process t
 
 ### Example: Verifying the Aragon Association board vote on AGP-1
 
-Continuing from the example in the section above about cryptographic hashes, we will return to the vote submitted by board member Jorge Izquierdo. Keep in mind that the techniques here work for anyone, we are just using Jorge as an example. 
+Continuing from the example in the section above about cryptographic hashes, we will return to the vote submitted by board member Jorge Izquierdo. Keep in mind that the techniques here work for anyone, we are just using Jorge as an example.
 
 Here is the full text of the vote, including the signature:
 
@@ -95,7 +96,7 @@ nZzAdr05O2SPqomEiFVX
 
 You can see the beginning of the message at the top, the message that's being signed in the middle, and the signature at the bottom. This signature can be verified using any program that implements the Pretty Good Privacy (PGP) protocol, such as the Keybase and GPG programs mentioned earlier.
 
-To verify this signature with Keybase, go to https://keybase.io/verify, paste in the full signed message, and click verify. You'll see that Keybase shows a valid signature from the key owned by user [@ji](https://keybase.io/ji), and you'll see that the user @ji has verified social media accounts including on Twitter, GitHub, Reddit, Hacker News, and even his own personal domain. 
+To verify this signature with Keybase, go to [https://keybase.io/verify](https://keybase.io/verify), paste in the full signed message, and click verify. You'll see that Keybase shows a valid signature from the key owned by user [@ji](https://keybase.io/ji), and you'll see that the user @ji has verified social media accounts including on Twitter, GitHub, Reddit, Hacker News, and even his own personal domain.
 
 Using this collection of verifications, if you know that AA board member Jorge Izquierdo also uses these verified social media profiles and websites, then you can also be reasonably certain that the signature on the vote message was actually produced by him. This is one of the strongest assurances of digital identity available today.
 
@@ -117,4 +118,4 @@ gpg:          There is no indication that the signature belongs to the owner.
 Primary key fingerprint: 1A94 EED3 BDDE 885A 671D  F10D B6D5 1396 4B9C 62B7
 ```
 
-Since the result says "good signature", it means that the message was signed by Jorge's key that you just added to your keyring. (In this case, the "WARNING" message can be ignored since all it is telling us is that we have not yet set a trust level for Jorge's key. This is an advanced use of GPG that we won't go into here.) 
+Since the result says "good signature", it means that the message was signed by Jorge's key that you just added to your keyring. (In this case, the "WARNING" message can be ignored since all it is telling us is that we have not yet set a trust level for Jorge's key. This is an advanced use of GPG that we won't go into here.)
