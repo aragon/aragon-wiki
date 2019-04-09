@@ -81,16 +81,7 @@ pages:
     - Artwork: 'design/artwork/index.md'
     - Branding Proposal: 'design/branding_proposal.md'
     - Merchandise: 'design/merch/index.md'
-  - Jobs:
-    - Overview: 'jobs/index.md'
-    - Aragon One:
-      - Frontend Developer: 'jobs/openings/frontend.md'
-      - DevOps: 'jobs/openings/dev-ops.md'
-      - EVM/Solidity Engineer: 'jobs/openings/solidity.md'
-      - Documentation Technical Writer: 'jobs/openings/technical-writer.md'
-      - Developer Relations: 'jobs/openings/dev_rel.md'
-    - Autark:
-      - Frontend: 'jobs/openings/Autark-frontend.md'
+  - Jobs: 'jobs/index.md'
   - Blog posts:
     - 2019: 'blog/2019.md'
     - 2018: 'blog/2018.md'
