@@ -72,8 +72,6 @@ pages:
     - Bug bounty: 'dev/bug_bounty.md'
   - Tutorials:
     - Aragon User Guide: 'tutorials/Aragon_User_Guide.md'
-    - DAO Workshop For Aragon Core v0.5: 'tutorials/DAO_Workshop_Testnet_by_joselfgaray.md'
-    - How to claim an Aragon bounty using Status Open Bounty: 'tutorials/Status_Open_Bounty_Guide.md'
   - Design:
     - Overview: 'design/index.md'
     - Logo: 'design/logo/index.md'
@@ -141,6 +139,9 @@ pages:
       - Development Plan: 'documentation/Development_Plan.md'
     - Design:
       - Identity Guidelines: 'archive/design/identity_guidelines.md'
+    - Tutorials:
+      - DAO Workshop For Aragon Core v0.5: 'tutorials/DAO_Workshop_Testnet_by_joselfgaray.md'
+      - How to claim an Aragon bounty using Status Open Bounty: 'tutorials/Status_Open_Bounty_Guide.md'
     - Meetings:
       - Aragon HQ:
         - HQ 01: 'archive/meetings/hq/01.md'
