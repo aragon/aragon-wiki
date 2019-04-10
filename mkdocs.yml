@@ -42,6 +42,7 @@ pages:
       - Overview: 'documentation/governance.md'
       - Association ANT Policy: 'documentation/association_ant.md'
       - How to verify cryptographic hashes and signatures: 'documentation/verify_crypto.md'
+      - How to vote in an Aragon Network Vote: 'documentation/how_to_vote.md'
     - Manifesto: 'documentation/manifesto.md'
     - Multisigs:
       - Overview: 'documentation/multisigs/overview.md'
