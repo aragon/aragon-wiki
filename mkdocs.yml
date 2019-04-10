@@ -120,6 +120,7 @@ pages:
   - Nest grants: 'nest/index.md'
   - Archive:
     - Documentation:
+      - Aragon Association AGP review process: 'archive/documentation/aa_review.md'
       - aragonOS v2.0.1: 'archive/documentation/aragonOS_201.md'
       - AGP5 - Rocket Chat comparison: 'archive/documentation/agp5/RocketChat.md'
       - AGP5 - Riot comparison: 'archive/documentation/agp5/Riot.md'
