@@ -93,4 +93,4 @@ Any open votes will maintain the value minimum acceptance quorum was when they w
 
 #### Forwarding
 
-[Forwarding](../../documentation/aragonOS/#forwarders) using the common interface executes a `votingApp.newVote(...)` action. ACL is checked for whether the sender has permissions to create a vote.
+[Forwarding](https://hack.aragon.org/docs/forwarding-intro) using the common interface executes a `votingApp.newVote(...)` action. ACL is checked for whether the sender has permissions to create a vote.
