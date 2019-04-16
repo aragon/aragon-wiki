@@ -47,21 +47,19 @@ Templates are pre-configured smart contracts for different types of organization
 
 ### 2.1 Create a new Democracy organization
 
-<h3>
-2.1.1 Navigate to <a href="https://app.aragon.org">https://app.aragon.org</a> in your web browser
-</h3>
+#### 2.1.1 Navigate to <a href="https://app.aragon.org">https://app.aragon.org</a> in your web browser
 
 Select which network you want to use to create your organization then click "Create a new organization".
 
 [![](images/user_guide/06/1_welcome.png)](images/user_guide/06/1_welcome.png)
 
-<h3>2.1.2 Select “Token project with Democracy” then click “Next”</h3>
+#### 2.1.2 Select “Token project with Democracy” then click “Next”
 
 A “Token project with Democracy” is an organization where the vote cast by a token holder is weighted proportionally to their ownership stake of tokens minted by the organization. For example, if a tokenholder owns 5% of the tokens minted by the organization then their vote will count as 5% of the total votes on a given proposal.
 
 [![](images/user_guide/06/2_create.png)](images/user_guide/06/2_create.png)
 
-<h3>2.1.3 Claim a domain name then click “Next”</h3>
+#### 2.1.3 Claim a domain name then click “Next”
 
 Aragon uses the [Ethereum Name Service](https://ens.domains/) (ENS) to assign names to organizations.
 
@@ -70,27 +68,27 @@ Aragon uses the [Ethereum Name Service](https://ens.domains/) (ENS) to assign na
 
 [![](images/user_guide/06/3_democracy.png)](images/user_guide/06/3_democracy.png)
 
-<h3>2.1.4 Set the parameters of your Democracy organization then click “Next”</h3>
+#### 2.1.4 Set the parameters of your Democracy organization then click “Next”
 
 !!! info "Support"
     “Support” is the number for what percent of the tokens that participated in a vote must approve a proposal for that proposal to pass. For example, if “Support” is set to 51%, then 51% of tokens that vote on a proposal must approve the proposal for it to pass.
 
 !!! info "Min. Quorum"
-    “Min. Quorum” is short for “Minimum Acceptance Quorum. “Min. Quorum” is the number for what percent of the total outstanding supply of tokens must approve a proposal for the vote to be considered valid. For example, if the Min. Quorum is set to 20%, then 20% of the outstanding token supply must vote to approve a proposal for the vote to be considered valid. If a vote does not make quorum, then it will fail, even if more tokens voted to approve the proposal than voted against it. For example, if the Min. Quorum is set to 20% and 10% of the outstanding token supply votes against the proposal but only 15% vote in support, then the proposal will fail because it has not reached the Min. Quorum threshold.
+    “Min. Quorum” is short for “Minimum Acceptance Quorum". “Min. Quorum” is the number for what percent of the total outstanding supply of tokens must approve a proposal for the vote to be considered valid. For example, if the Min. Quorum is set to 20%, then 20% of the outstanding token supply must vote to approve a proposal for the vote to be considered valid. If a vote does not make quorum, then it will fail, even if more tokens voted to approve the proposal than voted against it. For example, if the Min. Quorum is set to 20% and 10% of the outstanding token supply votes against the proposal but only 15% vote in support, then the proposal will fail because it has not reached the Min. Quorum threshold.
 
 !!! info "Vote Duration"
     “Vote Duration” is the length of time that the vote will be open for participation. For example, if the Vote Duration is set to 24 H, then tokenholders have 24 hours to participate in the vote. After the 24 hours is over, if the vote has not been approved by a majority of tokenholders and/or does not make quorum, then the vote will automatically fail. If the vote makes quorum and receives approval by a majority of tokenholders by the end of the Vote Duration, then the vote will automatically pass.
 
 [![](images/user_guide/06/4_votesettings.png)](images/user_guide/06/4_votesettings.png)
 
-<h3>2.1.5 Choose token name and symbol then click “Next”</h3>
+#### 2.1.5 Choose token name and symbol then click “Next"
 
 !!! warning "Note"
     The token name and symbol currently cannot be changed.
 
 [![](images/user_guide/06/5_tokenname.png)](images/user_guide/06/5_tokenname.png)
 
-<h3>2.1.6 Sign organization creation transactions</h3>
+#### 2.1.6 Sign organization creation transactions
 
 Now you need to sign two transactions in MetaMask to create your organization.
 
@@ -101,7 +99,7 @@ Open MetaMask if the wallet window does not open automatically. After the first 
 
 [![](images/user_guide/06/6_sign1.png)](images/user_guide/06/6_sign1.png)
 
-<h3>2.1.7 Click “Get Started”</h3>
+#### 2.1.7 Click “Get Started”
 
 Your new Democracy organization is ready to go!
 
@@ -111,13 +109,13 @@ ___
 
 ### 2.2 Explore the Democracy organization
 
-<h3>2.2.1 Home app</h3>
+#### 2.2.1 Home app
 
 The Home app welcomes you to your organization and offers you several options for different actions you can take. You can also use the menu on the left-hand side of the screen to view the different apps that are currently installed for your organization. Aragon currently has the Token Manager, Voting, Finance, and Permissions apps installed, with an App Center coming soon.
 
 [![](images/user_guide/06/8_Home.png)](images/user_guide/06/8_Home.png)
 
-<h3>2.2.2 Token Manager app</h3>
+#### 2.2.2 Token Manager app
 
 The Token Manager is the app you use to mint new tokens and assign them to yourself or other entities.
 
@@ -155,7 +153,7 @@ Since you are the only tokenholder, the vote will automatically pass and the tok
 
 [![](images/user_guide/06/15_tm2.png)](images/user_guide/06/15_tm2.png)
 
-<h3>2.2.3 Voting app</h3>
+#### 2.2.3 Voting app
 
 The Voting app makes it easy for you to poll your fellow tokenholders about their position on an infinite range of topics. Votes initiated by other Aragon apps also show up in the Voting app. For example, assigning tokens using the Token Manager or moving funds from the Finance app are each actions that require a vote by tokenholders in a Democracy organization.
 
@@ -193,13 +191,13 @@ Since there are only two token-holders in this organization, and the Support par
 
 [![](images/user_guide/06/23_voteexecuted.png)](images/user_guide/06/23_voteexecuted.png)
 
-<h3>2.2.4 Settings app</h3>
+#### 2.2.4 Settings app
 
 The Settings app is where you can find the internal addresses for your organization, as well as troubleshoot issues you are having with Aragon. If you want to send ETH or tokens to your organization, make sure to use the Finance app address. When using testnet you also have the ability to request test tokens, which will be sent to the organization’s Finance app.
 
 [![](images/user_guide/06/24_settings1.png)](images/user_guide/06/24_settings1.png)
 
-<h3>2.2.5 Finance app</h3>
+#### 2.2.5 Finance app
 
 The Finance app is the app that provides tokenholders with access to the funds held by their organization. The Finance app shows the current balance in ETH and tokens as well as the transaction history of the organization. You can also use the Finance app to initiate a new transfer of funds.
 
@@ -251,13 +249,13 @@ Go back to the Finance app to see a record of the transfer and a link to the tra
 
 ### 2.3 Create a Multisig organization
 
-<h3>2.3.1 Navigate to <a href="https://app.aragon.org">https://app.aragon.org</a> in your web browser</h3>
+#### 2.3.1 Navigate to <a href="https://app.aragon.org">https://app.aragon.org</a> in your web browser
 
 Select which network you want to use to create your organization then click "Create a new organization".
 
 [![](images/user_guide/06/35_welcome.png)](images/user_guide/06/35_welcome.png)
 
-<h3>2.3.2 Select “Token project with Multisig” then click “Next”</h3>
+#### 2.3.2 Select “Token project with Multisig” then click “Next”
 
 A “Token project with Multisig” is an organization where the resources of the organization are controlled by m-of-n members of a multisig contract, where n is 100% of tokenholders and m is the Min. Quorum percentage of tokenholders that must approve a vote for it to pass. For example, in a 2-of-2 multisig DAO, two signatures from two different specified accounts are required for a proposal to pass.
 
@@ -265,7 +263,7 @@ If more tokens are minted for additional accounts, then the number of signatures
 
 [![](images/user_guide/06/36_multisig.png)](images/user_guide/06/36_multisig.png)
 
-<h3>2.3.3 Claim a domain name then click “Next”</h3>
+#### 2.3.3 Claim a domain name then click “Next”
 
 Aragon uses the [Ethereum Name Service](https://ens.domains) (ENS) to assign names to organizations.
 
@@ -274,13 +272,13 @@ Aragon uses the [Ethereum Name Service](https://ens.domains) (ENS) to assign nam
 
 [![](images/user_guide/06/37_multisigname.png)](images/user_guide/06/37_multisigname.png)
 
-<h3>2.3.4 Enter the accounts and the parameters of the multisig contract</h3>
+#### 2.3.4 Enter the accounts and the parameters of the multisig contract
 
 First enter the addresses of the accounts that you want to be members of the multisig. Then set the number of signatures out of those accounts that will be required to approve votes in the multisig. For example, you can enter three accounts and require any two of their signatures to approve a vote (“2-of-3”). Up to six signers can be added during the organization creation process. If you need additional signers, you can add them after the organization is created by assigning a token to each of the accounts you want to join the organization.
 
 [![](images/user_guide/06/38_multisigsettings1.png)](images/user_guide/06/38_multisigsettings1.png)
 
-<h3>2.3.5 Choose token name and symbol then click “Next”</h3>
+#### 2.3.5 Choose token name and symbol then click “Next”
 
 !!! warning "Note"
     The token name and symbol currently cannot be changed.
@@ -296,7 +294,7 @@ Now you need to sign two transactions in MetaMask to create your organization. O
 
 [![](images/user_guide/06/41_multisigcreate.png)](images/user_guide/06/41_multisigcreate.png)
 
-<h3>2.3.7 Click “Get Started”</h3>
+#### 2.3.7 Click “Get Started”
 
 Your new Multisig organization is ready to go!
 
@@ -306,13 +304,13 @@ ___
 
 ### 2.4 Explore the Multisig organization
 
-<h3>2.4.1 Home app</h3>
+#### 2.4.1 Home app
 
 The Home app welcomes you to your organization and offers you several options for different actions you can take. You can also use the menu on the left-hand side of the screen to view the different apps that are currently installed for your organization. Aragon currently has the Token Manager, Voting, Finance, and Permissions apps installed, with an App Center coming soon.
 
 [![](images/user_guide/06/43_multisighome.png)](images/user_guide/06/43_multisighome.png)
 
-<h3>2.4.2 Token Manager app</h3>
+#### 2.4.2 Token Manager app
 
 The Token Manager is the app you use to mint new tokens and assign them to other entities.
 
@@ -359,7 +357,7 @@ After the other tokenholder votes to approve the proposal, go back to the Token 
 
 [![](images/user_guide/06/51_multisigtmnew.png)](images/user_guide/06/51_multisigtmnew.png)
 
-<h3>2.4.3 Voting app</h3>
+#### 2.4.3 Voting app
 
 The voting app makes it easy for you to poll your fellow tokenholders about their position on an infinite range of topics. Votes initiated by other Aragon apps also show up in the Voting app. For example, assigning tokens using the Token Manager or moving funds from the Finance app are each actions that require a vote by tokenholders in a Multisig organization.
 
@@ -403,13 +401,13 @@ Since three of three tokenholders are required to vote “yes” to approve a tr
 
 [![](images/user_guide/06/57_multisigvoteexecuted.png)](images/user_guide/06/57_multisigvoteexecuted.png)
 
-<h3>2.4.4 Settings app</h3>
+#### 2.4.4 Settings app
 
 The Settings app is where you can find the internal addresses for your organization, as well as troubleshoot issues you are having with Aragon. If you want to send ETH or tokens to your organization, make sure to use the Finance app address. When using testnet you also have the ability to request test tokens, which will be sent to the organization’s Finance app.
 
 [![](images/user_guide/06/24_settings1.png)](images/user_guide/06/24_settings1.png)
 
-<h3>2.4.5 Finance app</h3>
+#### 2.4.5 Finance app
 
 The Finance app is the app that provides tokenholders with access to the funds held by their organization. The Finance app shows the current balance in ETH and tokens as well as the transaction history of the organization. You can also use the Finance app to initiate a new transfer of funds.
 
