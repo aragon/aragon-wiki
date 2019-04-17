@@ -37,9 +37,9 @@ Each Aragon organization has apps that can be “installed” on aragonOS. These
 
     - An Ethereum provider such as [Frame](https://frame.sh) or [MetaMask](https://metamask.io/) and a compatible Ethereum wallet such as [Ledger](https://www.ledger.com/) or [Trezor](https://trezor.io/) if your Ethereum provider either does not have key management ("wallet") functionality built-in or you prefer not to use the built-in wallet functionality. (Note that most mobile Web3 browsers have a built-in Ethereum provider and wallet.)
 
-    - If you are using Aragon on mainnet, you will need to set your Ethereum provider to use the Main Ethereum Network ("mainnet"). You will then need to load your wallet with enough ETH to pay for gas when you deploy your organization and make transactions within the organization. ETH can be acquired from a cryptocurrency exchange that [lists ETH](https://docs.ethhub.io/using-ethereum/how-to-buy-ether/). As a rough estimate of how much ETH you should start with, multiply 20,000,000 times the [current “standard” gas price](https://ethgasstation.info/) times 0.000000001 to find out how much ETH you need. For example, at a current standard gas price of 10 gwei, you should start with 0.2 ETH.
+    - **If you are using Aragon on mainnet**, you will need to set your Ethereum provider to use the Main Ethereum Network ("mainnet"). You will then need to load your wallet with enough ETH to pay for gas when you deploy your organization and make transactions within the organization. ETH can be acquired from a cryptocurrency exchange that [lists ETH](https://docs.ethhub.io/using-ethereum/how-to-buy-ether/). As a rough estimate of how much ETH you should start with, multiply 20,000,000 times the [current “standard” gas price](https://ethgasstation.info/) times 0.000000001 to find out how much ETH you need. For example, at a current standard gas price of 10 gwei, you should start with 0.2 ETH.
 
-    - If you are using Aragon on testnet, you will need to set your Ethereum provider to use the Rinkeby Test Network ("Rinkeby"). You will then need to load your wallet with test ether for the Rinkeby test network. This test ether is used to pay for gas when you deploy your organization and make transactions within the organization. You can try the [Rinkeby faucet](https://faucet.rinkeby.io/) or post your Rinkeby testnet address in the [#faucet channel on Aragon Chat](https://aragon.chat/faucet) to receive test ether for free. Please wait patiently for an Aragon team member to see your message if you post your faucet request in the Aragon Chat.
+    - **If you are using Aragon on testnet**, you will need to set your Ethereum provider to use the Rinkeby Test Network ("Rinkeby"). You will then need to load your wallet with test ether for the Rinkeby test network. This test ether is used to pay for gas when you deploy your organization and make transactions within the organization. You can try the [Rinkeby faucet](https://faucet.rinkeby.io/) or post your Rinkeby testnet address in the [#faucet channel on Aragon Chat](https://aragon.chat/faucet) to receive test ether for free. Please wait patiently for an Aragon team member to see your message if you post your faucet request in the Aragon Chat.
 
 ## 2. Templates
 
@@ -55,7 +55,7 @@ Select which network you want to use to create your organization then click "Cre
 
 #### 2.1.2 Select “Token project with Democracy” then click “Next”
 
-A “Token project with Democracy” is an organization where the vote cast by a token holder is weighted proportionally to their ownership stake of tokens minted by the organization. For example, if a tokenholder owns 5% of the tokens minted by the organization then their vote will count as 5% of the total votes on a given proposal.
+A “Token project with Democracy” is an organization where the vote cast by a tokenholder is weighted proportionally to their ownership stake of tokens minted by the organization. For example, if a tokenholder owns 5% of the tokens minted by the organization then their vote will count as 5% of the total votes on a given proposal.
 
 [![](images/user_guide/06/2_create.png)](images/user_guide/06/2_create.png)
 
@@ -146,7 +146,7 @@ Go to the Voting app, click on the "Assign Tokens" proposal you just created, an
 Your organization just went from one to two members. A good start to a new Democracy organization!
 
 !!! warning "Note"
-    If a vote is cast that causes the quorum to be equal to the support required (e.g. 60% support with 60% quorum) then the vote will execute automatically. If the quorum is less than the support required (e.g. 60% support with 40% quorum) then additional "no" votes could still stop the vote from being passed, so the vote will remain open until the duration is reached. After the vote ends, the result must be enacted manually by one of the token holders in the organization.
+    If a vote is cast that causes the quorum to be equal to the support required (e.g. 60% support with 60% quorum) then the vote will execute automatically. If the quorum is less than the support required (e.g. 60% support with 40% quorum) then additional "no" votes could still stop the vote from being passed, so the vote will remain open until the duration is reached. After the vote ends, the result must be enacted manually by one of the tokenholders in the organization.
 
 [![](images/user_guide/07/bella42_tm9.png)](images/user_guide/07/bella42_tm9.png)
 
@@ -154,7 +154,7 @@ Your organization just went from one to two members. A good start to a new Democ
 
 The Voting app makes it easy for you to poll your fellow tokenholders about their position on an infinite range of topics. Votes initiated by other Aragon apps also show up in the Voting app. For example, assigning tokens using the Token Manager or moving funds from the Finance app are each actions that require a vote by tokenholders in a Democracy organization.
 
-[![](images/user_guide/07/bella20_v1.png)](images/user_guide/07/bella97_v1.png)
+[![](images/user_guide/07/bella20_v1.png)](images/user_guide/07/bella20_v1.png)
 
 Follow these steps to create a new vote and poll your community about a topic you care about:
 
@@ -350,7 +350,7 @@ After the vote transaction is confirmed, go back to the Token Manager and see th
 
 The voting app makes it easy for you to poll your fellow tokenholders about their position on an infinite range of topics. Votes initiated by other Aragon apps also show up in the Voting app. For example, assigning tokens using the Token Manager or moving funds from the Finance app are each actions that require a vote by tokenholders in a Multisig organization.
 
-[![](images/user_guide/07/bella20_v1.png)](images/user_guide/07/bella97_v1.png)
+[![](images/user_guide/07/bella53_v1multi.png)](images/user_guide/07/bella53_v1multi.png)
 
 Follow these steps to create a new vote and poll your community about a topic you care about:
 
@@ -454,15 +454,13 @@ ___
 
 ## 3. Aragon apps
 
-As mentioned in the earlier section **0.1 Anatomy of an Aragon organization**, Aragon organizations have the ability to extend their functionality using Aragon apps. The apps that come pre-installed with Democracy and Multisig organizations are:
+As mentioned in the earlier section [**0.1 Anatomy of an Aragon organization**](#01-anatomy-of-an-aragon-organization), Aragon organizations have the ability to extend their functionality using Aragon apps. The apps that come pre-installed with Democracy and Multisig organizations are:
 
 - [Token Manager](#32-token-manager)
 
 - [Voting](#33-voting)
 
 - [Finance](#34-finance)
-
-- [Permissions](#35-permissions)
 
 There is also a Home page and the Permissions, App Center, and Settings "System" apps that every Aragon organization comes with by default. In this section we will explore each of these in detail.
 
@@ -474,7 +472,7 @@ The Home page is a simple landing page that shows you the name of the organizati
 
 #### 3.1.1 Menu features
 
-In the menu on the left side of the screen, there are several features that you may find useful. Note that many of these features take advantage of "local storage" in your browser, so if you clear your browser data then you may lose this data unless you make a back up.
+In the menu on the left side of the screen, there are several features that you may find useful. Note that many of these features take advantage of the "local storage" in your browser, so if you clear your browser data then you may lose this data unless you make a backup.
 
 <h4>3.1.1.1 Favorite organizations</h4>
 
@@ -498,7 +496,7 @@ Click the Preferences button at the bottom of the menu to manage your local pref
 
 <h4>3.1.1.3 System apps</h4>
 
-Click the System label in the menu to reveal the System apps that come with every Aragon organization template by default.
+Click on the System text in the sidebar to reveal the System apps that come with every Aragon organization template by default.
 
 [![](images/user_guide/07/bella07_h7.png)](images/user_guide/07/bella07_h7.png)
 
@@ -553,23 +551,23 @@ The “Open votes” section shows how many open votes there are and cards for e
 
 [![](images/user_guide/07/bella38_f13.png)](images/user_guide/07/bella38_f13.png)
 
-The “View vote” panel tells you more detailed information about the status of a vote, such as:
+!!! info "The “View vote” panel tells you more detailed information about the status of a vote, such as"
 
-- Time remaining: how much time is left until the vote closes, should no other votes cast cause the vote to automatically pass.
+    - **Time remaining**: how much time is left until the vote closes, should no other votes cast cause the vote to automatically pass.
 
-- Total support: what percent of the total token supply is needed to vote “yes” for the vote to be valid, and what percent of the total token supply has voted “yes” so far.
+    - **Total support**: what percent of the total token supply is needed to vote “yes” for the vote to be valid, and what percent of the total token supply has voted “yes” so far.
 
-- The question being voted on.
+    - **The question being voted on**.
 
-- What entity created the vote.
+    - **What entity created the vote**.
 
-- Current votes: what percent of voters are required to vote “yes” for the vote to pass, what percent of voters and how many tokens have voted “yes”, and what percent of voters and how many tokens have voted “no”.
+    - **Current votes**: what percent of voters are required to vote “yes” for the vote to pass, what percent of voters and how many tokens have voted “yes”, and what percent of voters and how many tokens have voted “no”.
 
-- If you have not yet cast your vote, buttons for voting “yes” or “no”.
+    - **If you have not yet cast your vote**, buttons for voting “yes” or “no”.
 
-- If you have already voted, a button for changing your vote.
+    - **If you have already voted**, a button for changing your vote.
 
-- How much voting power your vote will have based on your token balance at the beginning of the vote, along with a link to the block that the vote snapshot was taken from.
+    - **How much voting power** your vote will have based on your token balance at the beginning of the vote, along with a link to the block that the vote snapshot was taken from.
 
 #### 3.3.2 Past votes
 
@@ -603,25 +601,30 @@ The Transfers section shows you a history of past transfers that have been made 
 
 [![](images/user_guide/07/bella83_f2.png)](images/user_guide/07/bella83_f2.png)
 
-The transfer history can be filtered by date:
+!!! info ""
+    The transfer history can be filtered by date
 
-[![](images/user_guide/07/bella84_f3.png)](images/user_guide/07/bella84_f3.png)
+    [![](images/user_guide/07/bella84_f3.png)](images/user_guide/07/bella84_f3.png)
 
-Or token symbol:
+!!! info ""
+    Or token symbol
 
-[![](images/user_guide/07/bella85_f4.png)](images/user_guide/07/bella85_f4.png)
+    [![](images/user_guide/07/bella85_f4.png)](images/user_guide/07/bella85_f4.png)
 
-Or transfer type:
+!!! info ""
+    Or transfer type
 
-[![](images/user_guide/07/bella86_f5.png)](images/user_guide/07/bella86_f5.png)
+    [![](images/user_guide/07/bella86_f5.png)](images/user_guide/07/bella86_f5.png)
 
-For each transfer, you can click on the drop down menu to get a link to view the transaction on the blockchain so you can see even more detail about the transfer:
+!!! info ""
+    For each transfer, you can click on the drop down menu to get a link to view the transaction on the blockchain so you can see even more detail about the transfer:
 
-[![](images/user_guide/06/81_appsfinance7.png)](images/user_guide/06/81_appsfinance7.png)
+    [![](images/user_guide/06/81_appsfinance7.png)](images/user_guide/06/81_appsfinance7.png)
 
-And if you need to export your transfer history for accounting in a separate app, there's an export button that you can use to export a CSV file:
+!!! info ""
+    And if you need to export your transfer history for accounting in a separate app, there's an export button that you can use to export a CSV file
 
-[![](images/user_guide/07/bella31_f7.png)](images/user_guide/07/bella31_f7.png)
+    [![](images/user_guide/07/bella31_f7.png)](images/user_guide/07/bella31_f7.png)
 
 #### 3.4.3 New Transfer
 
@@ -779,7 +782,7 @@ If you are using Aragon on testnet, you can also request test tokens from the Se
 
 !!! tip "If you are having trouble performing an action that you expect you should be able to perform"
     - Make sure your Ethereum provider is unlocked, on the correct network, and open to the correct account. Try the action again, and if it still doesn’t work...
-    
+
     - If there is a "Privacy mode" enabled in the settings of your Ethereum provider, disable it. Try the action again, and if it still doesn't work...
 
     - Reload the page in your browser. Try the action again, and if it still doesn’t work...
