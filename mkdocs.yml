@@ -140,8 +140,8 @@ pages:
     - Design:
       - Identity Guidelines: 'archive/design/identity_guidelines.md'
     - Tutorials:
-      - DAO Workshop For Aragon Core v0.5: 'tutorials/DAO_Workshop_Testnet_by_joselfgaray.md'
-      - How to claim an Aragon bounty using Status Open Bounty: 'tutorials/Status_Open_Bounty_Guide.md'
+      - DAO Workshop For Aragon Core v0.5: 'archive/tutorials/DAO_Workshop_Testnet_by_joselfgaray.md'
+      - How to claim an Aragon bounty using Status Open Bounty: 'archive/tutorials/Status_Open_Bounty_Guide.md'
     - Meetings:
       - Aragon HQ:
         - HQ 01: 'archive/meetings/hq/01.md'
