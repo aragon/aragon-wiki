@@ -31,15 +31,15 @@ Each Aragon organization has apps that can be “installed” on aragonOS. These
 ## 1. Prerequisites
 
 !!! info ""
-    **In addition to a working laptop or desktop computer with a decent internet connection, you will need the following to start using Aragon:**
+    **In addition to a working desktop computer, laptop, smartphone, or tablet with a decent internet connection, you will need the following to start using Aragon:**
 
-    - Up-to-date [Brave](https://brave.com/), [Chrome](https://www.google.com/chrome/)/[Chromium](https://www.chromium.org/getting-involved/download-chromium), [Firefox](https://www.mozilla.org/firefox/), or [Opera](https://www.opera.com/download) web browser.
+    - Up-to-date [Brave](https://brave.com/), [Chrome](https://www.google.com/chrome/)/[Chromium](https://www.chromium.org/getting-involved/download-chromium), [Firefox](https://www.mozilla.org/firefox/), or [Opera](https://www.opera.com/download) desktop web browser; [Cipher](https://www.cipherbrowser.com/), [Opera](https://www.opera.com/crypto), or [Status](https://status.im/) mobile Web3 browser.
 
-    - An Ethereum provider such as [MetaMask](https://metamask.io/) and a compatible Ethereum wallet such as [Ledger](https://www.ledger.com/) or [Trezor](https://trezor.io/) if your Ethereum provider either does not have key management ("wallet") functionality built-in or you prefer not to use the built-in wallet functionality.
+    - An Ethereum provider such as [Frame](https://frame.sh) or [MetaMask](https://metamask.io/) and a compatible Ethereum wallet such as [Ledger](https://www.ledger.com/) or [Trezor](https://trezor.io/) if your Ethereum provider either does not have key management ("wallet") functionality built-in or you prefer not to use the built-in wallet functionality. (Note that most mobile Web3 browsers have a built-in Ethereum provider and wallet.)
 
-    - If you are using Aragon on mainnet, you will need to set your Ethereum provider to use the Main Ethereum Network. You will then need to load your wallet with enough ETH to pay for gas when you deploy your organization and make transactions within the organization. ETH can be acquired from a cryptocurrency exchange that lists ETH. As a rough estimate of how much ETH you should start with, multiply 20,000,000 times the [current “standard” gas price](https://ethgasstation.info/) times 0.000000001 to find out how much ETH you need. For example, at a current standard gas price of 10 gwei, you should start with 0.2 ETH.
+    - If you are using Aragon on mainnet, you will need to set your Ethereum provider to use the Main Ethereum Network ("mainnet"). You will then need to load your wallet with enough ETH to pay for gas when you deploy your organization and make transactions within the organization. ETH can be acquired from a cryptocurrency exchange that [lists ETH](https://docs.ethhub.io/using-ethereum/how-to-buy-ether/). As a rough estimate of how much ETH you should start with, multiply 20,000,000 times the [current “standard” gas price](https://ethgasstation.info/) times 0.000000001 to find out how much ETH you need. For example, at a current standard gas price of 10 gwei, you should start with 0.2 ETH.
 
-    - If you are using Aragon on testnet, you will need to set your Ethereum provider to use the Rinkeby Test Network. You will then need to load your wallet with test ether for the Ethereum Rinkeby test network. This test ether is used to pay for gas when you deploy your organization and make transactions within the organization. You can try the [Rinkeby faucet](https://faucet.rinkeby.io/) or post your Ethereum Rinkeby testnet address in the [#faucet channel on Aragon Chat](https://aragon.chat/faucet) to receive test ether for free. Please wait patiently for an Aragon team member to see your message if you post your faucet request in the Aragon Chat.
+    - If you are using Aragon on testnet, you will need to set your Ethereum provider to use the Rinkeby Test Network ("Rinkeby"). You will then need to load your wallet with test ether for the Rinkeby test network. This test ether is used to pay for gas when you deploy your organization and make transactions within the organization. You can try the [Rinkeby faucet](https://faucet.rinkeby.io/) or post your Rinkeby testnet address in the [#faucet channel on Aragon Chat](https://aragon.chat/faucet) to receive test ether for free. Please wait patiently for an Aragon team member to see your message if you post your faucet request in the Aragon Chat.
 
 ## 2. Templates
 
@@ -90,12 +90,12 @@ Aragon uses the [Ethereum Name Service](https://ens.domains/) (ENS) to assign na
 
 #### 2.1.6 Sign organization creation transactions
 
-Now you need to sign two transactions in MetaMask to create your organization.
+Now you need to sign two transactions to create your organization.
 
-Open MetaMask if the wallet window does not open automatically. After the first transaction is confirmed, the second transaction may show up in MetaMask as a transaction with an “unapproved” label, indicating that it needs to be signed. Click the transaction to open and sign it.
+Open your Ethereum provider if the window does not open automatically. After the first transaction is confirmed, the second transaction may show up in the queue, indicating that it needs to be signed. Click the transaction to open and sign it.
 
 !!! warning "Note"
-    Be careful not to close your browser window while creating your organization. If your browser window closes after signing the first transaction to create the organization but before the second transaction appears, then it will be difficult to pick up where you left off after you re-open your browser window. We are working on [making it easier to recover](https://github.com/aragon/aragon/issues/353) from browser closures (due to a crash or otherwise) during the organization creation process in general. Please be advised that ETH used to pay gas for the first organization creation transaction will be "stuck" until we implement an easy way to recover and send the second and final organization creation transaction.
+    Be careful not to close your browser window while creating your organization. If your browser window closes after signing the first transaction to create the organization but before the second transaction appears, then it will be difficult to pick up where you left off after you re-open your browser window. We are working on [making it easier to recover](https://github.com/aragon/aragon/issues/453) from browser closures (due to a crash or otherwise) during the organization creation process in general. Please be advised that ETH used to pay gas for the first organization creation transaction will be "stuck" until we implement an easy way to recover and send the second and final organization creation transaction.
 
 [![](images/user_guide/06/6_sign1.png)](images/user_guide/06/6_sign1.png)
 
@@ -111,15 +111,15 @@ ___
 
 #### 2.2.1 Home app
 
-The Home app welcomes you to your organization and offers you several options for different actions you can take. You can also use the menu on the left-hand side of the screen to view the different apps that are currently installed for your organization. Aragon currently has the Token Manager, Voting, Finance, and Permissions apps installed, with an App Center coming soon.
+The Home app welcomes you to your organization and offers you several options for different actions you can take. You can also use the menu on the left-hand side of the screen to view the different apps that are currently installed for your organization. Aragon currently has the Token Manager, Voting, and Finance apps installed, plus default Permissions, App Center, and Settings "System" apps.
 
-[![](images/user_guide/06/8_Home.png)](images/user_guide/06/8_Home.png)
+[![](images/user_guide/07/bella01_h1.png)](images/user_guide/07/bella01_h1.png)
 
 #### 2.2.2 Token Manager app
 
 The Token Manager is the app you use to mint new tokens and assign them to yourself or other entities.
 
-[![](images/user_guide/06/9_tm.png)](images/user_guide/06/9_tm.png)
+[![](images/user_guide/07/bella08_tm1.png)](images/user_guide/07/bella08_tm1.png)
 
 You can mint new tokens by following these steps:
 
@@ -127,37 +127,34 @@ You can mint new tokens by following these steps:
 
 Enter the address of the recipient of the tokens and the number of new tokens you want to mint and assign to that address, then click “Assign Tokens”.
 
-[![](images/user_guide/06/10_assign.png)](images/user_guide/06/10_assign.png)
+[![](images/user_guide/07/bella10_tm3.png)](images/user_guide/07/bella10_tm3.png)
 
 <h4>2.2.2.2 Create vote to assign tokens</h4>
 
 Even though you are the only tokenholder, the Democracy organization still requires a tokenholder vote for every action. Click “Sign Transaction” to sign the transaction that creates a new vote to assign the new token you want to mint.
 
-!!! note
-    Creating a vote will automatically make your account vote “Yes” on the proposal. You can change your vote by opening the vote in the Voting app, clicking the “No” button, and signing the transaction to change your vote to “No”.
+[![](images/user_guide/07/bella11_tm4.png)](images/user_guide/07/bella11_tm4.png)
 
-[![](images/user_guide/06/11_assigncreate.png)](images/user_guide/06/11_assigncreate.png)
+<h4>2.2.2.3 Vote "Yes" to approve the “Assign Tokens” vote</h4>
 
-<h4>2.2.2.3 Sign and send transaction to create the “Assign Tokens” vote</h4>
+Go to the Voting app, click on the "Assign Tokens" proposal you just created, and vote "Yes" to approve minting and assigning the token.
 
-After clicking “Sign Transaction”, a notification will pop-up in MetaMask. Open MetaMask, then sign and send the transaction to create the vote.
-
-[![](images/user_guide/06/12_createsign.png)](images/user_guide/06/12_createsign.png)
+[![](images/user_guide/07/bella15_tm8.png)](images/user_guide/07/bella15_tm8.png)
 
 <h4>2.2.2.4 Check out the newest member of your organization</h4>
 
-Since you are the only tokenholder, the vote will automatically pass and the token will automatically be assigned to the entity you added in 2.2.2.1. A good start to a new Democracy organization!
+Your organization just went from one to two members. A good start to a new Democracy organization!
 
 !!! warning "Note"
-    If a vote is cast that causes the quorum to be equal to the support required (e.g. 60% support with 60% quorum) then the vote will execute automatically. If the quorum is less than the support required (e.g. 60% support with 40% quorum) then additional "no" votes could still stop the vote from being passed, so the vote will remain open until the duration is reached. After the vote ends, the result must be executed manually by one of the token holders in the organization.
+    If a vote is cast that causes the quorum to be equal to the support required (e.g. 60% support with 60% quorum) then the vote will execute automatically. If the quorum is less than the support required (e.g. 60% support with 40% quorum) then additional "no" votes could still stop the vote from being passed, so the vote will remain open until the duration is reached. After the vote ends, the result must be enacted manually by one of the token holders in the organization.
 
-[![](images/user_guide/06/15_tm2.png)](images/user_guide/06/15_tm2.png)
+[![](images/user_guide/07/bella42_tm9.png)](images/user_guide/07/bella42_tm9.png)
 
 #### 2.2.3 Voting app
 
 The Voting app makes it easy for you to poll your fellow tokenholders about their position on an infinite range of topics. Votes initiated by other Aragon apps also show up in the Voting app. For example, assigning tokens using the Token Manager or moving funds from the Finance app are each actions that require a vote by tokenholders in a Democracy organization.
 
-[![](images/user_guide/06/13_assignconfirm.png)](images/user_guide/06/13_assignconfirm.png)
+[![](images/user_guide/07/bella20_v1.png)](images/user_guide/07/bella20_v1.png)
 
 Follow these steps to create a new vote and poll your community about a topic you care about:
 
@@ -165,37 +162,37 @@ Follow these steps to create a new vote and poll your community about a topic yo
 
 Fill out the question you want to poll your community about and click “Begin Vote”.
 
-[![](images/user_guide/06/16_newvote1.png)](images/user_guide/06/16_newvote1.png)
+[![](images/user_guide/07/bella92_v1.png)](images/user_guide/07/bella92_v1.png)
 
 <h4>2.2.3.2 Sign transaction to create new vote</h4>
 
-Click the “Create transaction” button, then open your MetaMask wallet to sign and send the transaction.
+Click the “Create transaction” button, then open your Ethereum provider to sign and send the transaction.
 
-[![](images/user_guide/06/18_votesign.png)](images/user_guide/06/18_votesign.png)
+[![](images/user_guide/07/bella93_v2.png)](images/user_guide/07/bella93_v2.png)
 
 <h4>2.2.3.3 Ask the other tokenholders to review and vote on the proposal</h4>
 
 Rally your fellow tokenholders outside the app - for example, by email, forum, chat room, or good old fashioned face-to-face - and ask them to review and vote on the proposal. Tokenholders can visit the Voting app to see the list of open votes and cast their ballot accordingly.
 
-[![](images/user_guide/06/20_vote.png)](images/user_guide/06/20_vote.png)
+[![](images/user_guide/07/bella94_v3.png)](images/user_guide/07/bella94_v3.png)
 
 <h4>2.2.3.4 Other tokenholders cast their vote</h4>
 
-In this case, the other tokenholder in the organization supports deploying the organization to mainnet. They sent a follow-up email saying that security audit came back with good results, so they will vote “yes”.
+In this case, the other tokenholder in the organization supports the proposal. They sent a follow-up email saying that they will vote "Yes".
 
-[![](images/user_guide/06/22_votesign.png)](images/user_guide/06/22_votesign.png)
+[![](images/user_guide/07/bella95_v4.png)](images/user_guide/07/bella95_v4.png)
 
 <h4>2.2.3.5 Review the vote</h4>
 
-Since there are only two token-holders in this organization, and the Support parameter is set to 51%, the unanimous vote on the question of whether or not the organization should be deployed to mainnet next week has resulted in an approved (or “Executed”) vote. A vote with a status of “Executed” does not need any further action to be taken.
+Since there are only two token-holders in this organization, and the Support parameter is set to 51%, the unanimous vote on the proposal has resulted in an approved vote, and the vote has automatically been "Enacted". A vote with a status of "Enacted" does not need any further action to be taken.
 
-[![](images/user_guide/06/23_voteexecuted.png)](images/user_guide/06/23_voteexecuted.png)
+[![](images/user_guide/07/bella96_v5.png)](images/user_guide/07/bella96_v5.png)
 
 #### 2.2.4 Settings app
 
-The Settings app is where you can find the internal addresses for your organization, as well as troubleshoot issues you are having with Aragon. If you want to send ETH or tokens to your organization, make sure to use the Finance app address. When using testnet you also have the ability to request test tokens, which will be sent to the organization’s Finance app.
+The Settings app is where you can find the internal addresses for your organization, view or modify your network settings, as well as troubleshoot issues you are having with Aragon. When using testnet you also have the ability to request test tokens, which will be sent to the organization’s Vault app.
 
-[![](images/user_guide/06/24_settings1.png)](images/user_guide/06/24_settings1.png)
+[![](images/user_guide/07/bella16_s1.png)](images/user_guide/07/bella16_s1.png)
 
 #### 2.2.5 Finance app
 
