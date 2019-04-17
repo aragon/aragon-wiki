@@ -1,14 +1,14 @@
 # Aragon User Guide
 
-![](https://blog.aragon.org/content/images/2018/10/header_06_mainnet_small.jpg)
+![](https://blog.aragon.org/content/images/2019/04/Header_1100.png)
 
 !!! info "**Documentation Version**"
-    1.0.6
+    1.0.7
 
 !!! info "**Aragon Version**"
-    0.6
+    0.7
 
-_Read more about Aragon 0.6, named Alba, in the [Aragon 0.6 is live on Mainnet](https://blog.aragon.org/aragon-06-is-live-on-mainnet/) blog post._
+_Read more about Aragon 0.7  in the [Aragon 0.7 Bella is here](https://blog.aragon.org/aragon-0-7-bella-is-here/) blog post._
 
 ## 0. Introduction
 
