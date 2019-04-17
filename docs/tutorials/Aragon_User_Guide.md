@@ -184,7 +184,7 @@ In this case, the other tokenholder in the organization supports the proposal. T
 
 <h4>2.2.3.5 Review the vote</h4>
 
-Since there are only two token-holders in this organization, and the Support parameter is set to 51%, the unanimous vote on the proposal has resulted in an approved vote, and the vote has automatically been "Enacted". A vote with a status of "Enacted" does not need any further action to be taken.
+Since there are only two tokenholders in this organization, and the Support parameter is set to 51%, the unanimous vote on the proposal has resulted in an approved vote, and the vote has automatically been "Enacted". A vote with a status of "Enacted" does not need any further action to be taken.
 
 [![](images/user_guide/07/bella96_v5.png)](images/user_guide/07/bella96_v5.png)
 
@@ -198,7 +198,7 @@ The Settings app is where you can find the internal addresses for your organizat
 
 The Finance app is the app that provides tokenholders with access to the funds held by their organization. The Finance app shows the current balance in ETH and tokens as well as the transaction history of the organization. You can also use the Finance app to initiate a new transfer of funds.
 
-[![](images/user_guide/06/25_finance.png)](images/user_guide/06/25_finance.png)
+[![](images/user_guide/07/bella19_f1.png)](images/user_guide/07/bella19_f1.png)
 
 Follow these steps to create a new transfer from the Finance app:
 
@@ -210,39 +210,37 @@ Follow these steps to create a new transfer from the Finance app:
 
 !!! info "**On testnet**"
 
-    Go to the Settings app and press the “Request test tokens” button. Open MetaMask to sign and send the transaction. About a minute or so after your transaction is confirmed, test tokens will be sent to the Finance app address of your organization. You can then create a new transfer to send these tokens to another address.
-
-[![](images/user_guide/06/26_requesttokens.png)](images/user_guide/06/26_requesttokens.png)
+    Go to the Settings app and press the “Request test tokens” button. Open your Ethereum provider to sign and send the transaction. About a minute or so after your transaction is confirmed, test tokens will be available in the Finance app of your organization. You can then create a new transfer to send these tokens to another address. Tokens can also be sent to your testnet organization using the "Deposit" method mentioned in the "On mainnet" section above.
 
 <h4>2.2.5.2 Click “New Transfer” to initiate a new transfer from the Finance app</h4>
 
-Go to the "Withdrawal" tab then enter the address of the recipient and the amount of tokens to send them, along with an optional reference note about what the transfer is for. Then click “Submit Transfer”.
+Go to the "Withdrawal" tab then enter the address of the recipient and the amount of tokens to send them, along with an optional reference note about what the transfer is for. Then click “Submit withdrawal”.
 
-[![](images/user_guide/06/27_transfer1.png)](images/user_guide/06/27_transfer1.png)
+[![](images/user_guide/07/bella35_f10.png)](images/user_guide/07/bella35_f10.png)
 
 <h4>2.2.5.3 Sign the transaction to create the New Transfer vote</h4>
 
-As mentioned before, all actions in the Democracy organization require a vote by tokenholders. Click “Sign Transaction” then open MetaMask to sign and send the transaction that creates the New Transfer vote.
+As mentioned before, all actions in the Democracy organization require a vote by tokenholders. Click “Create transaction” then open your Ethereum provider to sign and send the transaction that creates the New Transfer vote.
 
-[![](images/user_guide/06/29_transfersign.png)](images/user_guide/06/29_transfersign.png)
+[![](images/user_guide/07/bella36_f11.png)](images/user_guide/07/bella36_f11.png)
 
-<h4>2.2.5.4 Ask the other tokenholders in the organization to review and vote on the transfer</h4>
+<h4>2.2.5.4 Vote on the transfer</h4>
 
-The payment is intended to compensate another tokenholder in the organization for design work they did, so they waste no time reviewing and voting to approve the transfer.
+The transfer has to be approved by tokenholders. Cast a "Yes" vote to approve the transfer and have the other tokenholders in the organization vote as well.
 
-[![](images/user_guide/06/31_transfervote.png)](images/user_guide/06/31_transfervote.png)
+[![](images/user_guide/07/bella38_f13.png)](images/user_guide/07/bella38_f13.png)
 
 <h4>2.2.5.5 The vote transaction is signed and sent to approve the transfer</h4>
 
 After confirmation, the transfer will execute.
 
-[![](images/user_guide/06/33_transfervotesign.png)](images/user_guide/06/33_transfervotesign.png)
+[![](images/user_guide/07/bella39_f14.png)](images/user_guide/07/bella39_f14.png)
 
 <h4>2.2.5.6 Review the transfer in the Finance app</h4>
 
 Go back to the Finance app to see a record of the transfer and a link to the transaction record on the blockchain.
 
-[![](images/user_guide/06/34_transferconfirm.png)](images/user_guide/06/34_transferconfirm.png)
+[![](images/user_guide/07/bella41_f16.png)](images/user_guide/07/bella41_f16.png)
 
 ### 2.3 Create a Multisig organization
 
