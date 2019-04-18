@@ -2,7 +2,7 @@
 
 ## This wiki for the Aragon Project contains much of the content and resources available publicly
 
-If you feel like contributing to the wiki, like changing or adding things, feel free to check out the [open Issues](https://github.com/aragon/aragon-wiki/issues) and submit a [Pull Request](https://github.com/aragon/aragon-wiki/pulls).
+If you feel like contributing to the wiki, like changing or adding things, feel free to check out the [open Issues](https://github.com/aragon/aragon-wiki/issues) and submit a [Pull Request](https://github.com/aragon/aragon-wiki/pulls). Be sure to follow our [Contributing Guidelines](/CONTRIBUTING.md) when working on your contribution.
 
 ## Current versions used:
 [Python 3.6.3](https://www.python.org/downloads/)

@@ -41,6 +41,8 @@ pages:
     - Governance:
       - Overview: 'documentation/governance.md'
       - Association ANT Policy: 'documentation/association_ant.md'
+      - How to verify cryptographic hashes and signatures: 'documentation/verify_crypto.md'
+      - How to vote in an Aragon Network Vote: 'documentation/how_to_vote.md'
     - Manifesto: 'documentation/manifesto.md'
     - Multisigs:
       - Overview: 'documentation/multisigs/overview.md'
@@ -134,6 +136,7 @@ pages:
   - Nest grants: 'nest/index.md'
   - Archive:
     - Documentation:
+      - Aragon Association AGP review process: 'archive/documentation/aa_review.md'
       - aragonOS v2.0.1: 'archive/documentation/aragonOS_201.md'
       - AGP5 - Rocket Chat comparison: 'archive/documentation/agp5/RocketChat.md'
       - AGP5 - Riot comparison: 'archive/documentation/agp5/Riot.md'
