@@ -12,7 +12,7 @@
 
 ### Aragon Network Vote #2
 
-**Dates**
+**Dates**  
 These dates may change if an emergency delay is approved by the Aragon Association Board of Directors. Check back here to confirm if you have any doubts.
 
 - Proposals for this vote are due, Aragon Association review begins: **2019-04-11 at 16:00 UTC**
@@ -20,18 +20,8 @@ These dates may change if an emergency delay is approved by the Aragon Associati
 - Aragon Network Vote #2 begins: **2019-04-25 at 16:00 UTC**
 - Aragon Network Vote #2 ends, final results announced: **2019-04-27 at 16:00 UTC**
 
-**Proposals**
-Here are the proposals that will be voted on in Aragon Network Vote #2:
-
-- [AGP-9: The Separation of Church, State, and Network](https://github.com/aragon/AGPs/blob/master/AGPs/AGP-9.md)
-- [AGP-28: Decentralizing aragonpm.eth](https://github.com/aragon/AGPs/blob/master/AGPs/AGP-28.md)
-- [AGP-34: Flock Funding for Aragon Black](https://github.com/aragon/AGPs/blob/master/AGPs/AGP-34.md)
-- [AGP-35: Edgeware Lockdrop Participation](https://github.com/aragon/AGPs/blob/master/AGPs/AGP-35.md)
-- [AGP-37: Retainer for Ongoing Aragon Network Security Provider](https://github.com/aragon/AGPs/blob/master/AGPs/AGP-37.md)
-- [AGP-40: Aragon Cooperative DAO funding proposal](https://github.com/aragon/AGPs/blob/master/AGPs/AGP-40.md)
-- [AGP-41: Aragon Portfolio Diversification - Acquisition of DOTs](https://github.com/aragon/AGPs/blob/master/AGPs/AGP-41.md)
-- [AGP-42: Keep Aragon Focused on Ethereum, not Polkadot](https://github.com/aragon/AGPs/blob/master/AGPs/AGP-42.md)
-- [AGP-43: ANSP Engagement Policy](https://github.com/aragon/AGPs/blob/master/AGPs/AGP-43.md)
+**Proposals**  
+Read about the proposals that will be voted on in the [final details blog post](https://blog.aragon.org/final-details-for-aragon-network-vote-2/) for Aragon Network Vote #2.
 
 ## Approved AGPs
 
