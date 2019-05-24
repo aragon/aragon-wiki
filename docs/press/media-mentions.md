@@ -110,6 +110,13 @@
 
 ## Audio Interviews
 
+### [The Blockcrunch - Can Crypto Change How We Run Organizations?](https://letstalkbitcoin.com/blog/post/the-blockcrunch-can-crypto-change-how-we-run-organizations-luis-cuende-aragon)
+> With the rise of decentralized companies and organizations, the need for tools to manage people around the world also emerges.  Aragon co-founder Luis Cuende and I continue our exploration of crypto governance this week. We discuss:
+> 
+> - Why do we need decentralized tools for management?
+> - Who is Aragon targeting?
+> - Why Aragon is interested in Polkadot
+
 ### [Decentralize This! | Ep 12 - Luis Cuende - Realizing The Promise of Decentralized Organizations](https://soundcloud.com/decentralize-this/ep-12-luis-cuende-realizing-the-promise-of-decentralized-organizations)
 > Hosted by Enigma's Head of Growth Tor Bair, our twelfth episode features Luis Cuende. Luis is the cofounder of Aragon, a platform that allows anyone to create and manage decentralized organizations. He’s an incredible thinker and builder, having published his first book at 18 and having been named to Forbes 30 under 30. Aragon also recently released a new version of their platform on the Ethereum mainnet, which Luis and Tor discuss.
 > 
