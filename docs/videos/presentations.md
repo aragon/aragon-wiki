@@ -2,7 +2,7 @@
 
 ## [**Upgrading Aragon Voting Infrastructure**](https://www.youtube.com/watch?v=iPgnJWJWuY4)
 by Jorge Izquierdo at [**EthCC 2**](https://ethcc.io/)  
-[Slides of the presentation]()
+[Slides of the presentation](../documentation/slides/ETHCC-Aragon-Voting.pdf)
 
 ## [**Launching Decentralized Organizations Using Aragon**](https://www.youtube.com/watch?v=mV4Zrl2yY2M)
 by Tommy Cox at [**#BUIDLweek #ETHDenver**](https://www.ethdenver.com/buidlweek/)  
