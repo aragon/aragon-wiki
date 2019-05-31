@@ -71,8 +71,8 @@ Aragon uses the [Ethereum Name Service](https://ens.domains/) (ENS) to assign na
 #### 2.1.4 Set the parameters of your Democracy organization then click “Next”
 
 !!! warning "Note"
-    The Voting app parameters currently cannot be changed once your organization is created. To change the Voting app parameters after your organization has been created, you must install a new instance of the Voting app which can currently only be done using the [aragonCLI](https://hack.aragon.org/docs/cli-intro.html). Then you can use the new Voting app with the new parameters.
-
+    The Voting app parameters currently cannot be changed from the Aragon frontend client. To change the Voting app parameters after your organization has been created, you must first have the permissions to change these parameters initialized, then you can change the parameters using the [aragonCLI](https://hack.aragon.org/docs/cli-intro.html).
+    
 !!! info "Support"
     “Support” is the number for what percent of the tokens that participated in a vote must approve a proposal for that proposal to pass. For example, if “Support” is set to 51%, then 51% of tokens that vote on a proposal must approve the proposal for it to pass.
 
