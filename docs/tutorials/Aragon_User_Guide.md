@@ -74,13 +74,13 @@ Aragon uses the [Ethereum Name Service](https://ens.domains/) (ENS) to assign na
     The Voting app parameters currently cannot be changed from the Aragon frontend client. To change the Voting app parameters after your organization has been created, you must first have the permissions to change these parameters initialized, then you can change the parameters using the [aragonCLI](https://hack.aragon.org/docs/cli-intro.html).
     
 !!! info "Support"
-    “Support” is the number for what percent of the tokens that participated in a vote must approve a proposal for that proposal to pass. For example, if “Support” is set to 51%, then 51% of tokens that vote on a proposal must approve the proposal for it to pass.
+    “Support” is the number for what percent of the tokens that participated in a vote must approve a proposal for that proposal to pass. For example, if “Support” is set to 51%, then 51% of tokens that vote on a proposal must approve the proposal for it to pass. The Democracy template is configured to discard the permission to change this parameter, so this parameter cannot be changed after the organization is created.
 
 !!! info "Min. Quorum"
     “Min. Quorum” is short for “Minimum Acceptance Quorum". Min. Quorum is the number for what percent of the total outstanding supply of tokens must approve a proposal for the vote to be considered valid. For example, if the Min. Quorum is set to 20%, then 20% of the outstanding token supply must vote to approve a proposal for the vote to be considered valid. If a vote does not make quorum, then it will fail, even if more tokens voted to approve the proposal than voted against it. For example, if the Min. Quorum is set to 20% and 10% of the outstanding token supply votes against the proposal but only 15% vote in support, then the proposal will fail because it has not reached the Min. Quorum threshold.
 
 !!! info "Vote Duration"
-    “Vote Duration” is the length of time that the vote will be open for participation. For example, if the Vote Duration is set to 24 H, then tokenholders have 24 hours to participate in the vote. After the 24 hours is over, if the vote has not been approved by a majority of tokenholders and/or does not make quorum, then the vote will automatically fail. If the vote makes quorum and receives approval by a majority of tokenholders by the end of the Vote Duration, then the vote will automatically pass.
+    “Vote Duration” is the length of time that the vote will be open for participation. For example, if the Vote Duration is set to 24 H, then tokenholders have 24 hours to participate in the vote. After the 24 hours is over, if the vote has not been approved by a majority of tokenholders and/or does not make quorum, then the vote will automatically fail. If the vote makes quorum and receives approval by a majority of tokenholders by the end of the Vote Duration, then the vote will automatically pass. This parameter cannot be changed after the organization is created.
 
 [![](images/user_guide/06/4_votesettings.png)](images/user_guide/06/4_votesettings.png)
 
