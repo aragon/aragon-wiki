@@ -1,5 +1,12 @@
 # Aragon Presentation Videos
 
+## [**Creating a global co-op with Aragon**](https://www.youtube.com/watch?v=Z1En-Xw2NX0)
+by Luis Cuende at [**Progressbar**](https://cowork.progressbar.sk/)  
+
+## [**Upgrading Aragon Voting Infrastructure**](https://www.youtube.com/watch?v=iPgnJWJWuY4)
+by Jorge Izquierdo at [**EthCC 2**](https://ethcc.io/)  
+[Slides of the presentation](../documentation/slides/ETHCC-Aragon-Voting.pdf)
+
 ## [**Launching Decentralized Organizations Using Aragon**](https://www.youtube.com/watch?v=mV4Zrl2yY2M)
 by Tommy Cox at [**#BUIDLweek #ETHDenver**](https://www.ethdenver.com/buidlweek/)  
 [Slides of the presentation](../documentation/slides/Launching_Decentralized_Organizations_On_Aragon.pdf)

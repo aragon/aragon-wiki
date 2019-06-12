@@ -66,10 +66,11 @@ _Disclaimer: Nothing on this page should be taken as investment advice. Inclusio
 - Radar Relay - [https://radarrelay.com/](https://radarrelay.com/)
 - SimpleSwap - [https://simpleswap.io/](https://simpleswap.io/)
 - ShapeShift - [https://shapeshift.io](https://shapeshift.io)
+- Stealthex - [https://stealthex.io/](https://stealthex.io/)
 - Switchain - [https://www.switchain.com/](https://www.switchain.com/)
 - Uniswap - [https://uniswap.exchange/swap](https://uniswap.exchange/swap)
 - UpBit - [https://upbit.com](https://upbit.com)
 
 **OTC Brokers:**
 
-- Cumberland Mining - [https://cumberlandmining.com/](https://cumberlandmining.com/)
+N/A
