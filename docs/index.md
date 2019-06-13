@@ -1,35 +1,40 @@
-# Welcome to the Aragon Project Wiki
-<center>
-![](images/logo_text_right_dark.png)
+# Aragon Wiki
 
-We believe [decentralized organizations can solve the world’s worst problems](https://blog.aragon.org/decentralized-organizations-can-solve-the-worlds-worst-problems-840db6255d12).
+<h2>Everything you need to learn more about Aragon</h2>
 
-**That's why we are building Aragon.**
+<img src="design/logo/png/isotype.png" class="heroImg" align="right" />
 
-<iframe width="85%" height="258" src="https://www.youtube-nocookie.com/embed/AqjIWmiAidw?rel=0" frameborder="0" allow="encrypted-media" allowfullscreen class="fff"></iframe>
-</center>
 ___
 
-!!! info "Wiki"
-    This wiki for the Aragon Project contains much of the content and resources available publicly.
+<center>
 
-    If you feel like contributing to the wiki, like changing or adding things, feel free to create an [Issue](https://github.com/aragon/aragon-wiki/issues) or submit a [Pull Request](https://github.com/aragon/aragon-wiki/pulls) at [https://github.com/aragon/aragon-wiki](https://github.com/aragon/aragon-wiki).
+!!! quote ""
+    <h2>We believe [decentralized organizations can solve the world’s worst problems](https://blog.aragon.org/decentralized-organizations-can-solve-the-worlds-worst-problems-840db6255d12).</h2>
+
+    <h3>That's why we are building Aragon.</h3>
+
+    <iframe width="80%" height="300" src="https://www.youtube-nocookie.com/embed/AqjIWmiAidw?rel=0" frameborder="0" allow="encrypted-media" allowfullscreen class="fff"></iframe>
+
+</center>
+
+This wiki for the Aragon Project contains much of the content and resources available publicly.
+
+If you feel like contributing to the wiki, like changing or adding things, feel free to create an [Issue](https://github.com/aragon/aragon-wiki/issues) or submit a [Pull Request](https://github.com/aragon/aragon-wiki/pulls) at [https://github.com/aragon/aragon-wiki](https://github.com/aragon/aragon-wiki).
 
 For our website visit [aragon.org](https://aragon.org).
 
 ## **What does the wiki contain?**
 You can use the menu to the left to navigate the wiki. Here is a brief summary of the contents:
 
-- **<u>Documentation</u>**
+!!! quote "**About Aragon**"
+    Information about the Aragon Project and related documentation and links to resources like social media accounts and community channels.
 
-    - Documents and papers related to the project
-    - Developer resources
-    - Finalized versions of the [Aragon Governance Proposal](https://github.com/aragon/governance/issues) documents
-    - Information about the Aragon multisig structure and wallets
-
-- **<u>Development</u>**
-
-    - Technical descriptions and documentation for Aragon software projects
+    - About Aragon
+        - What is Aragon?
+        - History of the project
+        - Multisignature structure for the project
+    - Using Aragon
+    - Glossary
 
 - **<u>Design</u>**
 

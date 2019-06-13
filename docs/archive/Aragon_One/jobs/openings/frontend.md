@@ -2,11 +2,11 @@
 
 Aragon is an open source, decentralized project [fighting for the freedom](https://www.youtube.com/watch?v=AqjIWmiAidw) to organize. We believe that decentralized organizations can solve the world's worst problems.
 
-We're looking for a Frontend Developer to work with us on the [Aragon Labs](https://blog.aragon.one/announcing-aragon-labs-a679693429ae), [Aragon Core app](https://github.com/aragon/aragon), and [aragonOS](http://wiki.aragon.one/documentation/aragonOS/). Our Frontend Developer must not only be a frontend and web3 expert but also a nonconformist. That means that our ideal candidate is not only a respected engineer but also a decentralization advocate.
+We're looking for a Frontend Developer to work with us on the [Aragon Labs](https://blog.aragon.one/announcing-aragon-labs-a679693429ae), [Aragon client](https://github.com/aragon/aragon), and [aragonOS](http://wiki.aragon.one/documentation/aragonOS/). Our Frontend Developer must not only be a frontend and web3 expert but also a nonconformist. That means that our ideal candidate is not only a respected engineer but also a decentralization advocate.
 
 ### Responsibilities
 
-- Develop, ship, and maintain quality frontends for the [Aragon Labs](https://blog.aragon.one/announcing-aragon-labs-a679693429ae) and [Aragon Core](https://aragon.one/core) app projects, working closely with our [UI toolkit](https://github.com/aragon/aragon-ui).
+- Develop, ship, and maintain quality frontends for the [Aragon Labs](https://blog.aragon.one/announcing-aragon-labs-a679693429ae) and [Aragon](https://aragon.org/discover) client projects, working closely with our [UI toolkit](https://github.com/aragon/aragon-ui).
 - Work with our Design Lead to transform ideas and designs into modern, clean, and readable code.
 - Research, develop, test and implement features on web applications built with modern technologies.
 - Collaborate with the product team to define new product features.

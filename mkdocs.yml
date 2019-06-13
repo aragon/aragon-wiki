@@ -9,8 +9,8 @@ theme:
     primary: 'blue grey'
     accent: 'cyan'
   font:
-      text: 'Overpass'
-      code: 'Overpass Mono'
+      text: 'HKGrotesk'
+      code: 'HKGrotesk'
   logo: 'images/logo.svg'
   favicon: 'images/favicon.ico'
   feature:
@@ -37,7 +37,7 @@ markdown_extensions:
     - pymdownx.tilde
     - codehilite:
     - toc:
-        permalink: Link
+        permalink:
 extra_css:
   - 'stylesheets/extra_style.css'
 extra_javascript:
@@ -47,8 +47,12 @@ extra:
   social:
     - type: 'github'
       link: 'https://github.com/aragon'
-    - type: 'medium'
+    - type: 'pencil'
       link: 'https://blog.aragon.org/'
+    - type: 'comment'
+      link: 'https://aragon.chat/'
+    - type: 'comments'
+      link: 'https://forum.aragon.org/'
     - type: 'reddit'
       link: 'https://www.reddit.com/r/aragonproject/'
     - type: 'twitter'
@@ -56,192 +60,205 @@ extra:
     - type: 'linkedin'
       link: 'https://www.linkedin.com/company/aragonproject/'
 nav:
-  - Aragon:
-    - Welcome: 'index.md'
+  - Aragon Wiki:
+    - Aragon Wiki: 'index.md'
     - About Aragon:
       - What is Aragon?: 'documentation/about.md'
       - History: 'documentation/history.md'
+      - Using Aragon: 'design/powered_by_aragon.md'
+      - Glossary: 'documentation/glossary.md'
+      - Manifesto: 'documentation/manifesto.md'
       - Multisigs:
         - Overview: 'documentation/multisigs/overview.md'
         - Foundation: 'documentation/multisigs/foundation.md'
         - Community: 'documentation/multisigs/community.md'
-    - Using Aragon: 'design/powered_by_aragon.md'
-    - Glossary: 'documentation/glossary.md'
-    - Manifesto: 'documentation/manifesto.md'
-    - Governance: 'documentation/governance.md'
-    - Community Channels:
+    - Governance:
+      - Overview: 'documentation/governance.md'
+    - Community & Social Media:
       - Aragon Chat: 'https://aragon.chat'
       - Aragon Forum: 'https://forum.aragon.org'
-    - Social Channels:
-      - Reddit: 'https://www.reddit.com/r/aragonproject/'
       - Twitter: 'https://twitter.com/AragonProject'
+      - Reddit: 'https://www.reddit.com/r/aragonproject/'
       - LinkedIn: 'https://www.linkedin.com/company/aragonproject/'
       - YouTube: 'https://www.youtube.com/c/AragonProject'
+    - Aragon Network:
+      - Overview: 'network/index.md'
+      - Whitepaper:
+        - Latest version: 'https://github.com/aragon/whitepaper/blob/master/README.md'
+        - How to contribute: 'https://github.com/aragon/whitepaper/blob/master/CONTRIBUTE.md'
+        - Version 1 (archived): 'https://github.com/aragon/whitepaper/tree/v1'
     - Design:
       - Logo: 'design/logo.md'
       - Artwork: 'design/artwork/index.md'
       - Identity Guidelines: 'design/identity_guidelines.md'
       - Branding Proposal: 'design/branding_proposal.md'
       - Merchandise: 'design/merch/index.md'
-    - Blog posts: 'blog/index.md'
-    - Videos: 'videos/index.md'
-    - Presentations: 'videos/presentations.md'
-    - Code of Conduct: 'documentation/Code_of_Conduct.md'
-    - Event Policy: 'documentation/event_policy.md'
+      - Videos: 'videos/index.md'
+      - Presentations: 'videos/presentations.md'
+      - Code of Conduct: 'documentation/Code_of_Conduct.md'
+      - Event Policy: 'documentation/event_policy.md'
     - Legal:
       - Software Licenses: 'documentation/legal/Licenses.md'
       - Contributor License Agreement: 'documentation/legal/CLA.md'
       - Trademark Policy: 'documentation/legal/Trademark_policy.md'
       - Terms of Use (websites): 'documentation/legal/Terms_of_use_websites.md'
       - Privacy policy: 'documentation/legal/Privacy_policy.md'
+      - Security Vulnerability Disclosure Policy: 'documentation/security_disclosure.md'
     - Press:
       - Press Kit: 'press/press-kit.md'
       - Interviews: 'videos/interviews.md'
       - Media Mentions: 'press/media-mentions.md'
-    - Tutorials:
-      - How to claim an Aragon bounty using Status Open Bounty: 'tutorials/Status_Open_Bounty_Guide.md'
+    - Help & Tutorials:
+      - Aragon Knowledge Base: 'https://help.aragon.org/'
+      - Your first Aragon app: 'https://hack.aragon.org/docs/tutorial'
     - All Core Devs:
       - Overview: 'videos/dev.md'
       - Notes template: 'videos/template.md'
-    - Nest grants: 'https://github.com/aragon/nest'
+      - Nest grants: 'https://github.com/aragon/nest'
     - Wiki Features:
       - Basic Features: 'tutorials/Wiki_Basic_Features.md'
       - Additional Features: 'tutorials/Wiki_Additional_Features.md'
-  - Core:
-    - Home: 'Core/index.md'
-    - User Guide: 'tutorials/Aragon_Core_User_Guide.md'
-    - Tutorials:
-      - DAO Workshop For Aragon Core v0.5: 'tutorials/DAO_Workshop_Testnet_by_joselfgaray.md'
-  - Network:
-    - Home: 'network/index.md'
-    - Whitepaper:
-      - Latest version: 'https://github.com/aragon/whitepaper/blob/master/README.md'
-      - How to contribute: 'https://github.com/aragon/whitepaper/blob/master/CONTRIBUTE.md'
-      - Version 1 (archived): 'https://github.com/aragon/whitepaper/tree/v1'
-  - Aragon One:
-    - Overview: 'Aragon_One/index.md'
-    - Team: 'Aragon_One/team.md'
-    - Logo: 'Aragon_One/design/logo.md'
-    - Blog posts:
-      - 2018: 'blog/A1/2018.md'
-    - Jobs:
-      - Overview: 'Aragon_One/jobs/index.md'
-      - Openings:
-        - Web3 Developer: 'Aragon_One/jobs/openings/web3.md'
-        - Frontend Developer: 'Aragon_One/jobs/openings/frontend.md'
-        - Web Developer: 'Aragon_One/jobs/openings/web.md'
-        - DevOps: 'Aragon_One/jobs/openings/dev-ops.md'
-        - EVM/Solidity Engineer: 'Aragon_One/jobs/openings/solidity.md'
-        - Documentation Technical Writer: 'Aragon_One/jobs/openings/technical-writer.md'
-        - Developer Relations: 'Aragon_One/jobs/openings/dev_rel.md'
-        - UI Developer Contractor: 'Aragon_One/jobs/openings/ui-developer-contract.md'
-  - Aragon DAC:
-    - Overview: 'Aragon_DAC/index.md'
-    - Team: 'Aragon_DAC/team.md'
-    - Logo: 'Aragon_DAC/design/logo.md'
-    - Jobs:
-      - Overview: 'Aragon_DAC/jobs/index.md'
-      - Openings:
-        - Technical Writer: 'Aragon_DAC/jobs/openings/DAC-Technical_Writer.md'
-        - UX Designer: 'Aragon_DAC/jobs/openings/DAC-UX_Designer.md'
-        - Project Manager: 'Aragon_DAC/jobs/openings/DAC-Project_Manager.md'
-  - Development:
-    - Home: 'dev/index.md'
-    - Developer Portal: 'https://hack.aragon.org/'
-    - Audit reports:
-      - Audit 01 by Adam Dossa: 'documentation/audits/audit01_report_dossa.md'
-      - Audit (Internal) by Brett Sun: 'documentation/audits/audit_internal_sun.md'
-      - Audit Report by White Hat Group: 'documentation/audits/audit_whg01_report.md'
-    - Security Vulnerability Disclosure Policy: 'dev/security_disclosure.md'
-    - Development Plan: 'documentation/Development_Plan.md'
-  - Archive:
-    - Documentation:
-      - aragonOS v2.0.1: 'archive/documentation/aragonOS_201.md'
-      - AGP5 - Rocket Chat comparison: 'archive/documentation/agp5/RocketChat.md'
-      - AGP5 - Riot comparison: 'archive/documentation/agp5/Riot.md'
-    - Meetings:
-      - Aragon HQ:
-        - HQ 01: 'archive/meetings/hq/01.md'
-        - HQ 02: 'archive/meetings/hq/02.md'
-        - HQ 03: 'archive/meetings/hq/03.md'
-      - Dev:
-        - Dev 01: 'archive/meetings/dev/01.md'
-        - Dev 02: 'archive/meetings/dev/02.md'
-      - Community:
-        - Community 11:
-          - Agenda: 'meetings/community/11.md'
-        - Community 10:
-          - Agenda: 'meetings/community/10.md'
-          - Write-Up - Alexa: 'meetings/community/write-ups/cm10/alexa.md'
-          - Write-Up - Bingen: 'meetings/community/write-ups/cm10/bingen.md'
-          - Write-Up - Brett: 'meetings/community/write-ups/cm10/brett.md'
-          - Write-Up - Chris: 'meetings/community/write-ups/cm10/chris.md'
-          - Write-Up - John: 'meetings/community/write-ups/cm10/john.md'
-          - Write-Up - Jorge: 'meetings/community/write-ups/cm10/jorge.md'
-          - Write-Up - Jouni: 'meetings/community/write-ups/cm10/jouni.md'
-          - Write-Up - Luis: 'meetings/community/write-ups/cm10/luis.md'
-          - Write-Up - Luke: 'meetings/community/write-ups/cm10/luke.md'
-          - Write-Up - Maria: 'meetings/community/write-ups/cm10/maria.md'
-          - Write-Up - Oliver: 'meetings/community/write-ups/cm10/oliver.md'
-          - Write-Up - Pierre: 'meetings/community/write-ups/cm10/pierre.md'
-          - Write-Up - Tatu: 'meetings/community/write-ups/cm10/tatu.md'
-        - Community 09:
-          - Agenda: 'meetings/community/09.md'
-          - Write-Up - Alexa: 'meetings/community/write-ups/cm09/alexa.md'
-          - Write-Up - Bingen: 'meetings/community/write-ups/cm09/bingen.md'
-          - Write-Up - Brett: 'meetings/community/write-ups/cm09/brett.md'
-          - Write-Up - John: 'meetings/community/write-ups/cm09/john.md'
-          - Write-Up - Jorge: 'meetings/community/write-ups/cm09/jorge.md'
-          - Write-Up - Jouni: 'meetings/community/write-ups/cm09/jouni.md'
-          - Write-Up - Luis: 'meetings/community/write-ups/cm09/luis.md'
-          - Write-Up - Luke: 'meetings/community/write-ups/cm09/luke.md'
-          - Write-Up - Maria: 'meetings/community/write-ups/cm09/maria.md'
-          - Write-Up - Oliver: 'meetings/community/write-ups/cm09/oliver.md'
-          - Write-Up - Pierre: 'meetings/community/write-ups/cm09/pierre.md'
-          - Write-Up - Tatu: 'meetings/community/write-ups/cm09/tatu.md'
-        - Community 08:
-          - Agenda: 'meetings/community/08.md'
-          - Write-Up - Alexa: 'meetings/community/write-ups/cm08/alexa.md'
-          - Write-Up - Brett: 'meetings/community/write-ups/cm08/brett.md'
-          - Write-Up - John: 'meetings/community/write-ups/cm08/john.md'
-          - Write-Up - Jorge: 'meetings/community/write-ups/cm08/jorge.md'
-          - Write-Up - Luis: 'meetings/community/write-ups/cm08/luis.md'
-          - Write-Up - Luke: 'meetings/community/write-ups/cm08/luke.md'
-          - Write-Up - Maria: 'meetings/community/write-ups/cm08/maria.md'
-          - Write-Up - Oliver: 'meetings/community/write-ups/cm08/oliver.md'
-          - Write-Up - Pierre: 'meetings/community/write-ups/cm08/pierre.md'
-          - Write-Up - Tatu: 'meetings/community/write-ups/cm08/tatu.md'
-        - Community 07:
-          - Agenda: 'meetings/community/07.md'
-          - Write-Up - Alexa: 'meetings/community/write-ups/cm07/alexa.md'
-          - Write-Up - Brett: 'meetings/community/write-ups/cm07/brett.md'
-          - Write-Up - John: 'meetings/community/write-ups/cm07/light-cm07.md'
-          - Write-Up - Jorge: 'meetings/community/write-ups/cm07/jorge.md'
-          - Write-Up - Luis: 'meetings/community/write-ups/cm07/luis.md'
-          - Write-Up - Luke: 'meetings/community/write-ups/cm07/luke.md'
-          - Write-Up - Maria: 'meetings/community/write-ups/cm07/maria.md'
-          - Write-Up - Oliver: 'meetings/community/write-ups/cm07/oliver.md'
-          - Write-Up - Pierre: 'meetings/community/write-ups/cm07/pierre.md'
-          - Write-Up - Tatu: 'meetings/community/write-ups/cm07/tatu.md'
-        - Community 06:
-          - Agenda: 'meetings/community/06.md'
-          - Write-Up - Brett: 'meetings/community/write-ups/cm06/brett.md'
-          - Write-Up - John: 'meetings/community/write-ups/cm06/john.md'
-          - Write-Up - Jorge: 'meetings/community/write-ups/cm06/jorge.md'
-          - Write-Up - Luis: 'meetings/community/write-ups/cm06/luis.md'
-          - Write-Up - Luke: 'meetings/community/write-ups/cm06/luke.md'
-          - Write-Up - Maria: 'meetings/community/write-ups/cm06/maria.md'
-          - Write-Up - Oliver: 'meetings/community/write-ups/cm06/oliver.md'
-          - Write-Up - Pierre: 'meetings/community/write-ups/cm06/pierre.md'
-          - Write-Up - Tatu: 'meetings/community/write-ups/cm06/tatu.md'
-        - Community 05: 'meetings/community/05.md'
-        - Community 04: 'meetings/community/04.md'
-        - Community 03: 'meetings/community/03.md'
-        - Community 02: 'meetings/community/02.md'
-        - Community 01: 'meetings/community/01.md'
-    - Videos:
-      - Tutorials: 'videos/tutorials.md'
+      - Home: 'Core/index.md'
+      - User Guide: 'tutorials/Aragon_Core_User_Guide.md'
+      - Overview: 'Aragon_One/index.md'
+      - Team: 'Aragon_One/team.md'
+      - Logo: 'Aragon_One/design/logo.md'
+      - Overview: 'Aragon_DAC/index.md'
+      - Team: 'Aragon_DAC/team.md'
+      - Logo: 'Aragon_DAC/design/logo.md'
+      - Home: 'dev/index.md'
+      - Developer Portal: 'https://hack.aragon.org/'
+    - Archive:
+      - Documentation:
+        - Development Plan: 'archive/documentation/Development_Plan.md'
+        - aragonOS v2.0.1: 'archive/documentation/aragonOS_201.md'
+        - AGP5 - Rocket Chat comparison: 'archive/documentation/agp5/RocketChat.md'
+        - AGP5 - Riot comparison: 'archive/documentation/agp5/Riot.md'
+      - Blog posts:
+        - 2019: 'archive/blog/2019.md'
+        - 2018: 'archive/blog/2018.md'
+        - 2017: 'archive/blog/2017.md'
+        - Aragon One:
+          - 2019: 'archive/blog/A1/2019.md'
+          - 2018: 'archive/blog/A1/2018.md'
+      - Audit reports:
+        - Audit 01 by Adam Dossa: 'archive/documentation/audits/audit01_report_dossa.md'
+        - Audit (Internal) by Brett Sun: 'archive/documentation/audits/audit_internal_sun.md'
+        - Audit Report by White Hat Group: 'archive/documentation/audits/audit_whg01_report.md'
+      - Tutorials:
+        - DAO Workshop For Aragon Core v0.5: 'archive/tutorials/DAO_Workshop_Testnet_by_joselfgaray.md'
+        - How to claim an Aragon bounty using Status Open Bounty: 'archive/tutorials/Status_Open_Bounty_Guide.md'
       - Meetings:
-        - Community: 'videos/community.md'
-        - Aragon HQ: 'archive/videos/hq.md'
-        - Dev: 'archive/videos/dev.md'
+        - Aragon HQ:
+          - HQ 01: 'archive/meetings/hq/01.md'
+          - HQ 02: 'archive/meetings/hq/02.md'
+          - HQ 03: 'archive/meetings/hq/03.md'
+        - Dev:
+          - Dev 01: 'archive/meetings/dev/01.md'
+          - Dev 02: 'archive/meetings/dev/02.md'
+        - Community:
+          - Community 11:
+            - Agenda: 'meetings/community/11.md'
+          - Community 10:
+            - Agenda: 'meetings/community/10.md'
+            - Write-Up - Alexa: 'meetings/community/write-ups/cm10/alexa.md'
+            - Write-Up - Bingen: 'meetings/community/write-ups/cm10/bingen.md'
+            - Write-Up - Brett: 'meetings/community/write-ups/cm10/brett.md'
+            - Write-Up - Chris: 'meetings/community/write-ups/cm10/chris.md'
+            - Write-Up - John: 'meetings/community/write-ups/cm10/john.md'
+            - Write-Up - Jorge: 'meetings/community/write-ups/cm10/jorge.md'
+            - Write-Up - Jouni: 'meetings/community/write-ups/cm10/jouni.md'
+            - Write-Up - Luis: 'meetings/community/write-ups/cm10/luis.md'
+            - Write-Up - Luke: 'meetings/community/write-ups/cm10/luke.md'
+            - Write-Up - Maria: 'meetings/community/write-ups/cm10/maria.md'
+            - Write-Up - Oliver: 'meetings/community/write-ups/cm10/oliver.md'
+            - Write-Up - Pierre: 'meetings/community/write-ups/cm10/pierre.md'
+            - Write-Up - Tatu: 'meetings/community/write-ups/cm10/tatu.md'
+          - Community 09:
+            - Agenda: 'meetings/community/09.md'
+            - Write-Up - Alexa: 'meetings/community/write-ups/cm09/alexa.md'
+            - Write-Up - Bingen: 'meetings/community/write-ups/cm09/bingen.md'
+            - Write-Up - Brett: 'meetings/community/write-ups/cm09/brett.md'
+            - Write-Up - John: 'meetings/community/write-ups/cm09/john.md'
+            - Write-Up - Jorge: 'meetings/community/write-ups/cm09/jorge.md'
+            - Write-Up - Jouni: 'meetings/community/write-ups/cm09/jouni.md'
+            - Write-Up - Luis: 'meetings/community/write-ups/cm09/luis.md'
+            - Write-Up - Luke: 'meetings/community/write-ups/cm09/luke.md'
+            - Write-Up - Maria: 'meetings/community/write-ups/cm09/maria.md'
+            - Write-Up - Oliver: 'meetings/community/write-ups/cm09/oliver.md'
+            - Write-Up - Pierre: 'meetings/community/write-ups/cm09/pierre.md'
+            - Write-Up - Tatu: 'meetings/community/write-ups/cm09/tatu.md'
+          - Community 08:
+            - Agenda: 'meetings/community/08.md'
+            - Write-Up - Alexa: 'meetings/community/write-ups/cm08/alexa.md'
+            - Write-Up - Brett: 'meetings/community/write-ups/cm08/brett.md'
+            - Write-Up - John: 'meetings/community/write-ups/cm08/john.md'
+            - Write-Up - Jorge: 'meetings/community/write-ups/cm08/jorge.md'
+            - Write-Up - Luis: 'meetings/community/write-ups/cm08/luis.md'
+            - Write-Up - Luke: 'meetings/community/write-ups/cm08/luke.md'
+            - Write-Up - Maria: 'meetings/community/write-ups/cm08/maria.md'
+            - Write-Up - Oliver: 'meetings/community/write-ups/cm08/oliver.md'
+            - Write-Up - Pierre: 'meetings/community/write-ups/cm08/pierre.md'
+            - Write-Up - Tatu: 'meetings/community/write-ups/cm08/tatu.md'
+          - Community 07:
+            - Agenda: 'meetings/community/07.md'
+            - Write-Up - Alexa: 'meetings/community/write-ups/cm07/alexa.md'
+            - Write-Up - Brett: 'meetings/community/write-ups/cm07/brett.md'
+            - Write-Up - John: 'meetings/community/write-ups/cm07/light-cm07.md'
+            - Write-Up - Jorge: 'meetings/community/write-ups/cm07/jorge.md'
+            - Write-Up - Luis: 'meetings/community/write-ups/cm07/luis.md'
+            - Write-Up - Luke: 'meetings/community/write-ups/cm07/luke.md'
+            - Write-Up - Maria: 'meetings/community/write-ups/cm07/maria.md'
+            - Write-Up - Oliver: 'meetings/community/write-ups/cm07/oliver.md'
+            - Write-Up - Pierre: 'meetings/community/write-ups/cm07/pierre.md'
+            - Write-Up - Tatu: 'meetings/community/write-ups/cm07/tatu.md'
+          - Community 06:
+            - Agenda: 'meetings/community/06.md'
+            - Write-Up - Brett: 'meetings/community/write-ups/cm06/brett.md'
+            - Write-Up - John: 'meetings/community/write-ups/cm06/john.md'
+            - Write-Up - Jorge: 'meetings/community/write-ups/cm06/jorge.md'
+            - Write-Up - Luis: 'meetings/community/write-ups/cm06/luis.md'
+            - Write-Up - Luke: 'meetings/community/write-ups/cm06/luke.md'
+            - Write-Up - Maria: 'meetings/community/write-ups/cm06/maria.md'
+            - Write-Up - Oliver: 'meetings/community/write-ups/cm06/oliver.md'
+            - Write-Up - Pierre: 'meetings/community/write-ups/cm06/pierre.md'
+            - Write-Up - Tatu: 'meetings/community/write-ups/cm06/tatu.md'
+          - Community 05: 'meetings/community/05.md'
+          - Community 04: 'meetings/community/04.md'
+          - Community 03: 'meetings/community/03.md'
+          - Community 02: 'meetings/community/02.md'
+          - Community 01: 'meetings/community/01.md'
+      - Jobs:
+        - Aragon One:
+          - Overview: 'archive/Aragon_One/jobs/index.md'
+          - Openings:
+            - Web3 Developer: 'archive/Aragon_One/jobs/openings/web3.md'
+            - Frontend Developer: 'archive/Aragon_One/jobs/openings/frontend.md'
+            - Web Developer: 'archive/Aragon_One/jobs/openings/web.md'
+            - DevOps: 'archive/Aragon_One/jobs/openings/dev-ops.md'
+            - EVM/Solidity Engineer: 'archive/Aragon_One/jobs/openings/solidity.md'
+            - Documentation Technical Writer: 'archive/Aragon_One/jobs/openings/technical-writer.md'
+            - Developer Relations: 'archive/Aragon_One/jobs/openings/dev_rel.md'
+            - UI Developer Contractor: 'archive/Aragon_One/jobs/openings/ui-developer-contract.md'
+        - Aragon DAC:
+            - Overview: 'Aragon_DAC/jobs/index.md'
+            - Openings:
+              - Technical Writer: 'Aragon_DAC/jobs/openings/DAC-Technical_Writer.md'
+              - UX Designer: 'Aragon_DAC/jobs/openings/DAC-UX_Designer.md'
+              - Project Manager: 'Aragon_DAC/jobs/openings/DAC-Project_Manager.md'
+      - Videos:
+        - Tutorials: 'videos/tutorials.md'
+        - Meetings:
+          - Community: 'videos/community.md'
+          - Aragon HQ: 'archive/videos/hq.md'
+          - Dev: 'archive/videos/dev.md'
+  - Discover:
+      - Discover: 'https://aragon.org/discover'
+  - Developers:
+      - Developers: 'https://hack.aragon.org'
+  - Website:
+    - Website: 'https://aragon.org/'
+  - Project:
+    - Project: 'https://aragon.org/project'
+  - Network:
+    - Network: 'https://aragon.org/network'

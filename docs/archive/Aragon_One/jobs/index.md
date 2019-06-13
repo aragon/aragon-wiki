@@ -1,6 +1,6 @@
 # Aragon One Jobs
 
-<img src="../../design/logo/aragon_one/png/aragon-one-lineart-black-transparent.png" style="width:75%">
+<img src="../../../design/A1/logo/aragon-one-lineart-black-transparent.png" style="width:75%">
 
 Aragon One is a company that encompasses the foundational team working on the Aragon project. The company is currently established in Switzerland, although we want it to function as a DAO as much as possible.
 

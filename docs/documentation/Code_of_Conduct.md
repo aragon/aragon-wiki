@@ -8,45 +8,46 @@ Some of Aragon project's spaces may have additional rules in place, which will b
 
 ## Our Standards
 
-Examples of **behavior that contributes to creating a positive environment** include:
+!!! success "Examples of **behavior that contributes to creating a positive environment** include:"
 
-- Using welcoming and inclusive language
-- Being respectful of differing viewpoints and experiences
-- Gracefully accepting constructive criticism
-- Focusing on what is best for the community
-- Showing empathy towards other community members
+    - Using welcoming and inclusive language
+    - Being respectful of differing viewpoints and experiences
+    - Gracefully accepting constructive criticism
+    - Focusing on what is best for the community
+    - Showing empathy towards other community members
 
-Examples of **unacceptable behavior** by participants include:
+!!! fail "Examples of **unacceptable behavior** by participants include:"
 
-- The use of sexualized language or imagery and unwelcome sexual attention or advances
-- Trolling, insulting/derogatory comments, and personal or political attacks
-- Public or private harassment
-- Impersonating an Aragon team member
-- Organizing and participating in "pump and dump" campaigns for ANT or other assets
-- Sharing links to illegal websites, such as phishing, malware, online gambling, or nonconsensual imagery
-- Publishing others' private information, such as a physical or electronic address, without explicit permission
-- Offensive comments related to gender, gender identity and expression, sexual orientation, disability, mental illness, neuro(a)typicality, physical appearance, body size, age, race, or religion
-- Unwelcome comments regarding a person's lifestyle choices and practices, including those related to food, health, parenting, drugs, and employment
-- Deliberate misgendering or use of 'dead' or rejected names
-- Physical contact and simulated physical contact (eg, textual descriptions like "_hug_" or "_backrub_") without consent or after a request to stop
-- Threats of violence
-- Incitement of violence towards any individual, including encouraging a person to commit suicide or to engage in self-harm
-- Deliberate intimidation
-- Stalking or following
-- Harassing photography or recording, including logging online activity for harassment purposes
-- Sustained disruption of discussion
-- Pattern of inappropriate social contact, such as requesting/assuming inappropriate levels of intimacy with others
-- Continued one-on-one communication after requests to cease
-- Deliberate "outing" of any aspect of a person's identity without their consent except as necessary to protect vulnerable people from intentional abuse
-- Publication of non-harassing private communication
-- Other conduct which could reasonably be considered inappropriate in a professional setting
+    - The use of sexualized language or imagery and unwelcome sexual attention or advances
+    - Trolling, insulting/derogatory comments, and personal or political attacks
+    - Public or private harassment
+    - Impersonating an Aragon team member
+    - Organizing and participating in "pump and dump" campaigns for ANT or other assets
+    - Sharing links to illegal websites, such as phishing, malware, online gambling, or nonconsensual imagery
+    - Publishing others' private information, such as a physical or electronic address, without explicit permission
+    - Offensive comments related to gender, gender identity and expression, sexual orientation, disability, mental illness, neuro(a)typicality, physical appearance, body size, age, race, or religion
+    - Unwelcome comments regarding a person's lifestyle choices and practices, including those related to food, health, parenting, drugs, and employment
+    - Deliberate misgendering or use of 'dead' or rejected names
+    - Physical contact and simulated physical contact (eg, textual descriptions like "_hug_" or "_backrub_") without consent or after a request to stop
+    - Threats of violence
+    - Incitement of violence towards any individual, including encouraging a person to commit suicide or to engage in self-harm
+    - Deliberate intimidation
+    - Stalking or following
+    - Harassing photography or recording, including logging online activity for harassment purposes
+    - Sustained disruption of discussion
+    - Pattern of inappropriate social contact, such as requesting/assuming inappropriate levels of intimacy with others
+    - Continued one-on-one communication after requests to cease
+    - Deliberate "outing" of any aspect of a person's identity without their consent except as necessary to protect vulnerable people from intentional abuse
+    - Publication of non-harassing private communication
+    - Other conduct which could reasonably be considered inappropriate in a professional setting
 
-Aragon team prioritizes marginalized people's safety over privileged people's comfort. Aragon team reserves the right not to act on complaints regarding:
+Aragon community prioritizes marginalized people's safety over privileged people's comfort. Aragon  reserves the right not to act on complaints regarding:
 
-- 'Reverse' -isms, including 'reverse racism,' 'reverse sexism,' and 'cisphobia'
-- Reasonable communication of boundaries, such as "leave me alone," "go away," or "I'm not discussing this with you"
-- Communicating in a 'tone' you don't find congenial
-- Criticizing racist, sexist, cissexist, or otherwise oppressive behavior or assumptions
+!!! note ""
+    - 'Reverse' -isms, including 'reverse racism,' 'reverse sexism,' and 'cisphobia'
+    - Reasonable communication of boundaries, such as "leave me alone," "go away," or "I'm not discussing this with you"
+    - Communicating in a 'tone' you don't find congenial
+    - Criticizing racist, sexist, cissexist, or otherwise oppressive behavior or assumptions
 
 ## Our Responsibilities
 

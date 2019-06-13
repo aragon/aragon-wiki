@@ -14,7 +14,7 @@ Our mission is to make the Aragon Network an autonomous organization itself, whi
 
 ## Imagine a nation without land and borders
 
-!!! abstract "<h3>A digital jurisdiction</h3>"
+!!! abstract "A digital jurisdiction"
 
     > Aragon Network will be the first community governed decentralized organization whose goal is to act as a digital jurisdiction, an online decentralized court system that isn’t bound by traditional artificial barriers such as national jurisdictions or the borders of a single country
 
