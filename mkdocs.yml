@@ -105,7 +105,7 @@ nav:
       - Brand Guidelines: 'press/press-kit/#brand-guidelines'
       - Merchandise: 'design/merch/index.md'
     - Videos:
-      - Aragon Videos: 'videos/index.md'
+      - Videos: 'videos/index.md'
       - Presentations: 'videos/presentations.md'
     - Legal:
       - Software Licenses: 'documentation/legal/Licenses.md'
