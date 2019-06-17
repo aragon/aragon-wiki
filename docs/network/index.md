@@ -1,22 +1,22 @@
 # Aragon Network
 
-<center>
 <h2>Ensuring the success of decentralized organizations</h2>
-</center>
 
-<h3>Putting the power back into the hands of the users</h3>
+!!! quote ""
+    **Putting the power back into the hands of the users**
 
-> The Aragon Network will decentralize its governance by gradually handing over control of the project to its users
+    > _The Aragon Network will decentralize its governance by gradually handing over control of the project to its users_
 
-The Aragon Network will establish additional services for the organizations taking advantage of what Aragon Core provides
+    The Aragon Network will establish additional services for the organizations taking advantage of what Aragon Core provides
 
-Our mission is to make the Aragon Network an autonomous organization itself, which is managed by the people using it for their mutual prosperity
+    Our mission is to make the Aragon Network an autonomous organization itself, which is managed by the people using it for their mutual prosperity
 
-## Imagine a nation without land and borders
+<h2>Imagine a nation without land and borders</h2>
 
-!!! abstract "A digital jurisdiction"
+!!! quote ""
+    **A digital jurisdiction**
 
-    > Aragon Network will be the first community governed decentralized organization whose goal is to act as a digital jurisdiction, an online decentralized court system that isn’t bound by traditional artificial barriers such as national jurisdictions or the borders of a single country
+    > _Aragon Network will be the first community governed decentralized organization whose goal is to act as a digital jurisdiction, an online decentralized court system that isn’t bound by traditional artificial barriers such as national jurisdictions or the borders of a single country_
 
     Aragon organizations can be upgraded seamlessly using our aragonOS architecture. They can solve disputes between two parties by using the decentralized court system, a digital jurisdiction that operates only online and utilizes your peers to resolve issues
 

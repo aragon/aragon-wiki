@@ -76,6 +76,8 @@ nav:
         - Community: 'documentation/multisigs/community.md'
     - Governance:
       - Overview: 'documentation/governance.md'
+      - Aragon Governance Proposals: 'https://github.com/aragon/AGPs'
+      - Association ANT Policy: 'documentation/association_ant.md'
     - Community & Social Media:
       - Aragon Chat: 'https://aragon.chat'
       - Aragon Forum: 'https://forum.aragon.org'
@@ -85,6 +87,10 @@ nav:
       - YouTube: 'https://www.youtube.com/c/AragonProject'
     - Aragon Network:
       - Overview: 'network/index.md'
+      - Aragon Network Jurisdiction - Decentralized Court: 'https://blog.aragon.org/aragon-network-jurisdiction-part-1-decentralized-court-c8ab2a675e82/'
+      - Aragon Network and Token Primer: 'https://blog.aragon.one/aragon-network-and-token-primer/'
+      - Futarchy Courts: 'https://blog.aragon.one/futarchy-courts/'
+      - Proposal Agreements and the Aragon Court: 'https://blog.aragon.one/proposal-agreements-and-the-aragon-court/'
       - Whitepaper:
         - Latest version: 'https://github.com/aragon/whitepaper/blob/master/README.md'
         - How to contribute: 'https://github.com/aragon/whitepaper/blob/master/CONTRIBUTE.md'
@@ -96,7 +102,6 @@ nav:
           - Graphics: 'design/artwork/index.md'
         - Aragon One:
           - Logo: 'design/A1/logo.md'
-      - Identity Guidelines: 'design/identity_guidelines.md'
       - Brand Guidelines: 'press/press-kit/#brand-guidelines'
       - Merchandise: 'design/merch/index.md'
     - Videos:
@@ -116,6 +121,9 @@ nav:
     - Help & Tutorials:
       - Aragon Knowledge Base: 'https://help.aragon.org/'
       - Your first Aragon app: 'https://hack.aragon.org/docs/tutorial'
+      - How to create an Aragon Governance Proposal: 'https://forum.aragon.org/t/how-to-create-an-aragon-governance-proposal/374'
+      - How to verify cryptographic hashes and signatures: 'documentation/verify_crypto.md'
+      - How to vote in an Aragon Network Vote: 'documentation/how_to_vote.md'
     - All Core Devs:
       - Overview: 'videos/dev.md'
       - Notes template: 'videos/template.md'
