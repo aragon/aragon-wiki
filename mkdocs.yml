@@ -98,6 +98,8 @@ pages:
         - Notes template: 'videos/template.md'
         - Running the call: 'videos/running_all_devs.md'
         - Meeting Notes:
+          - June 2019:
+            - 10.06.2019: 'videos/meeting_notes/all_aragon_devs/alldevs20190610.md'
           - May 2019:
             - 27.05.2019: 'videos/meeting_notes/all_aragon_devs/alldevs20190527.md'
             - 13.05.2019: 'videos/meeting_notes/all_aragon_devs/alldevs20190513.md'
