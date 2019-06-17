@@ -26,50 +26,72 @@ For our website visit [aragon.org](https://aragon.org).
 ## **What does the wiki contain?**
 You can use the menu to the left to navigate the wiki. Here is a brief summary of the contents:
 
-!!! info "**About Aragon**"
+!!! quote ""
+    **About Aragon**
+
     Information about the Aragon Project and related documentation and links to resources like social media accounts and community channels.
 
-    - About Aragon
-        - What is Aragon?
-        - History of the project
-        - Multisignature structure for the project
-    - Using Aragon
+    - What is Aragon?
+    - History of the project
     - Glossary
+    - Multisignature structure for the project
 
-!!! info "**Governance**"
+!!! quote ""
+    **Governance**
+
     - Governance related stuff
     - Aragon Governance Proposals link
 
-!!! info "**Community & Social Media**"
+!!! quote ""
+    **Community & Social Media**
+
     - Links to community chat, forum and social media channels
 
-!!! abstract "**Aragon Network**"
+!!! quote ""
+    **Aragon Network**
+
     - Information about the digital jurisdiction, Aragon Network
 
-!!! note "**Design**"
+!!! quote ""
+    **Design**
+
     - Visual assets of the Aragon project
     - App UI, brand guidelines, logos, merchandise, and more
 
-!!! note "**Legal**"
+!!! quote ""
+    **Legal**
+
     - Legal notes, licences etc.
 
-!!! tip "**Videos**"
+!!! quote ""
+    **Videos**
+
     - Legal notes, licences etc.
 
-!!! note "**Press**"
+!!! quote ""
+    **Press**
+
     - Aragon Press Kit for Press/Media
     - Some media mentions
     - Contact information for media/press inquiries
 
-!!! question "**Help & Tutorials**"
+!!! quote ""
+    **Help & Tutorials**
+
     - Aragon Knowledge Base and current tutorials
 
-!!! abstract "**All Core Devs**"
+!!! quote ""
+    **All Core Devs**
+
     - Aragon Knowledge Base and current tutorials
 
-!!! info "**Wiki Info**"
+!!! quote ""
+    **Wiki Info**
+
     - Showcase of basic and additional features of the Wiki
     - Wiki Editorial Policy
 
-!!! quote "**Archive**"
+!!! quote ""
+    **Archive**
+
     - Old, deprecated documents and files that are kept for archiving purposes only

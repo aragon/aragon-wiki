@@ -199,6 +199,10 @@ html .md-footer-meta.md-typeset a {
     font-weight: 400;
     font-size: 14px;
   }
+
+  .md-sidebar--secondary .md-nav__link {
+    margin-left: .1rem;
+  }
   .md-header[data-md-state=shadow] {
     background: rgba(28, 29, 35, 0.8);
   }
