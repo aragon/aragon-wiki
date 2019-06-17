@@ -93,6 +93,7 @@ thead {
 
 [data-md-color-primary="blue-grey"] .md-typeset a {
   color: rgb(1, 195, 227);
+  font-weight: 600;
 }
 
 [data-md-color-primary="blue-grey"] .md-typeset a.logo {

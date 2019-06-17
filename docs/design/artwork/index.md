@@ -64,7 +64,7 @@ ___
 ___
 [<img src="../artwork/ANT/ANT04.png">](ANT/ANT04.png)
 ___
-## Aragon Network Jurisdiction
+## Aragon Network
 
 [<img src="../artwork/ANJ/ANJ01.png">](ANJ/ANJ01.png)
 

@@ -90,10 +90,14 @@ nav:
         - How to contribute: 'https://github.com/aragon/whitepaper/blob/master/CONTRIBUTE.md'
         - Version 1 (archived): 'https://github.com/aragon/whitepaper/tree/v1'
     - Design:
-      - Logo: 'design/logo.md'
-      - Artwork: 'design/artwork/index.md'
+      - Artwork:
+        - Aragon Project:
+          - Logo: 'design/logo.md'
+          - Graphics: 'design/artwork/index.md'
+        - Aragon One:
+          - Logo: 'design/A1/logo.md'
       - Identity Guidelines: 'design/identity_guidelines.md'
-      - Branding Proposal: 'design/branding_proposal.md'
+      - Brand Guidelines: 'press/press-kit/#brand-guidelines'
       - Merchandise: 'design/merch/index.md'
     - Videos:
       - Aragon Videos: 'videos/index.md'
