@@ -26,7 +26,7 @@ For our website visit [aragon.org](https://aragon.org).
 ## **What does the wiki contain?**
 You can use the menu to the left to navigate the wiki. Here is a brief summary of the contents:
 
-!!! quote "**About Aragon**"
+!!! info "**About Aragon**"
     Information about the Aragon Project and related documentation and links to resources like social media accounts and community channels.
 
     - About Aragon
@@ -36,34 +36,40 @@ You can use the menu to the left to navigate the wiki. Here is a brief summary o
     - Using Aragon
     - Glossary
 
-- **<u>Design</u>**
+!!! info "**Governance**"
+    - Governance related stuff
+    - Aragon Governance Proposals link
 
+!!! info "**Community & Social Media**"
+    - Links to community chat, forum and social media channels
+
+!!! abstract "**Aragon Network**"
+    - Information about the digital jurisdiction, Aragon Network
+
+!!! note "**Design**"
     - Visual assets of the Aragon project
     - App UI, brand guidelines, logos, merchandise, and more
 
-- **<u>Meetings</u>**
+!!! note "**Legal**"
+    - Legal notes, licences etc.
 
-    - Information and agendas for our public meetings
+!!! tip "**Videos**"
+    - Legal notes, licences etc.
 
-- **<u>Jobs</u>**
-
-    - Details about our culture, work conditions and guide for applying to work at Aragon
-    - Our current job openings
-
-- **<u>Blog posts</u>**
-
-    - Index and links to all of our blog posts
-
-- **<u>Videos</u>**
-
-    - Links to all our videos
-
-- **<u>Press</u>**
-
+!!! note "**Press**"
     - Aragon Press Kit for Press/Media
     - Some media mentions
     - Contact information for media/press inquiries
 
-- **<u>Archive</u>**
+!!! question "**Help & Tutorials**"
+    - Aragon Knowledge Base and current tutorials
 
+!!! abstract "**All Core Devs**"
+    - Aragon Knowledge Base and current tutorials
+
+!!! info "**Wiki Info**"
+    - Showcase of basic and additional features of the Wiki
+    - Wiki Editorial Policy
+
+!!! quote "**Archive**"
     - Old, deprecated documents and files that are kept for archiving purposes only

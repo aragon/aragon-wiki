@@ -68,6 +68,8 @@ nav:
       - Using Aragon: 'design/powered_by_aragon.md'
       - Glossary: 'documentation/glossary.md'
       - Manifesto: 'documentation/manifesto.md'
+      - Code of Conduct: 'documentation/Code_of_Conduct.md'
+      - Event Policy: 'documentation/event_policy.md'
       - Multisigs:
         - Overview: 'documentation/multisigs/overview.md'
         - Foundation: 'documentation/multisigs/foundation.md'
@@ -93,10 +95,9 @@ nav:
       - Identity Guidelines: 'design/identity_guidelines.md'
       - Branding Proposal: 'design/branding_proposal.md'
       - Merchandise: 'design/merch/index.md'
-      - Videos: 'videos/index.md'
+    - Videos:
+      - Aragon Videos: 'videos/index.md'
       - Presentations: 'videos/presentations.md'
-      - Code of Conduct: 'documentation/Code_of_Conduct.md'
-      - Event Policy: 'documentation/event_policy.md'
     - Legal:
       - Software Licenses: 'documentation/legal/Licenses.md'
       - Contributor License Agreement: 'documentation/legal/CLA.md'
@@ -114,10 +115,11 @@ nav:
     - All Core Devs:
       - Overview: 'videos/dev.md'
       - Notes template: 'videos/template.md'
-      - Nest grants: 'https://github.com/aragon/nest'
-    - Wiki Features:
+    - Wiki Info:
       - Basic Features: 'tutorials/Wiki_Basic_Features.md'
       - Additional Features: 'tutorials/Wiki_Additional_Features.md'
+      - Wiki Editorial Policies: 'documentation/editorial_policies.md'
+    - Archive:
       - Home: 'Core/index.md'
       - User Guide: 'tutorials/Aragon_Core_User_Guide.md'
       - Overview: 'Aragon_One/index.md'
@@ -127,8 +129,6 @@ nav:
       - Team: 'Aragon_DAC/team.md'
       - Logo: 'Aragon_DAC/design/logo.md'
       - Home: 'dev/index.md'
-      - Developer Portal: 'https://hack.aragon.org/'
-    - Archive:
       - Documentation:
         - Development Plan: 'archive/documentation/Development_Plan.md'
         - aragonOS v2.0.1: 'archive/documentation/aragonOS_201.md'

@@ -219,7 +219,7 @@ html .md-footer-meta.md-typeset a {
     background-repeat: no-repeat;
     background-position: center 50%;
     background-origin: content-box;
-    background-image: url(https://hack.aragon.org/img/navbar-logo.svg);
+    background-image: url(../images/navbar-logo.svg);
     font-size: 46px;
   }
   .md-tabs__item:nth-child(4) a:hover {
@@ -386,7 +386,7 @@ h1#aragon-wiki {
 }
 
 .md-footer {
-  margin-top: 50px;
+  margin-top: 2rem;
 }
 
 .admonition.note>.admonition-title {
