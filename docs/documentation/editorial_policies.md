@@ -17,7 +17,7 @@
       - Enhancement: improvement suggestion
       - Meta: discussion about the wiki or wiki repo itself
 
-#### Wiki maintainer: Tatu Kärki ([@Smokyish](https://github.com/Smokyish))[^1]
+#### Wiki maintainer: Tatu Kärki @Smokyish[^1]
 
 [^1]: Wiki maintainer last updated: 17.06.2019
 [^2]: Page owner: Tatu Kärki ([@Smokyish](https://github.com/Smokyish). Last updated 17.06.2019

@@ -1,4 +1,4 @@
-# Aragon Foundation Multisig – Café Latte [0xcafe1a77e84698c83ca8931f54a755176ef75f2c](https://etherscan.io/address/0xcafe1a77e84698c83ca8931f54a755176ef75f2c)
+# Aragon Association Multisig – Café Latte [0xcafe1a77e84698c83ca8931f54a755176ef75f2c](https://etherscan.io/address/0xcafe1a77e84698c83ca8931f54a755176ef75f2c)
 
 Required signatures: 2/3
 
@@ -20,8 +20,8 @@ Required signatures: 2/3
 
 ## Responsibilities
 
-- The Aragon Foundation multisig will be the address responsible to control the whole token sale process.
-- It will hold the Aragon Foundation ether funds and ANT tokens. It will make the token allocations for founders and early contributors.
+- The Aragon Association multisig will be the address responsible to control the whole token sale process.
+- It will hold the Aragon Association ether funds and ANT tokens. It will make the token allocations for founders and early contributors.
 
 ## Rationale
 

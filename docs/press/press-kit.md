@@ -2,14 +2,14 @@
 
 <h6>Here we have compiled resources and guides for press and media to use when referring to the Aragon Project brand.</h6>
 
-## Aragon Press/Media Contact
-
 !!! quote ""
+    ## Aragon Press/Media Contact
+
     If you want to get in touch with us about an interview, commentary, or other media/press related matter, please send an email to **media at aragon dot one**.
 
-## Brand Guidelines
-
 !!! abstract ""
+    ## Brand Guidelines
+
     The current version of the Aragon Project brand guidelines can be found [**here**](https://archive.org/download/aragon_brand_guidelines/GUIDELINES_BRAND_ARAGON.pdf).
 
     !!! warning ""
@@ -17,23 +17,23 @@
 
 ## Aragon Resources
 
-### Aragon Project
-
 !!! quote ""
+    ### Aragon Project
+
     Find a full set of Aragon Project resources under [Design section](../design/logo/) of the Wiki.
 
     [<img src="../../design/logo/svg/imagetype.svg" style="max-width:40rem;">](../../design/logo/)
 
-### Aragon Network Token
-
 !!! quote ""
+    ### Aragon Network Token
+
     Find a full set of Aragon Network Token resources under [Design section](../design/artwork/#aragon-network-token) of the Wiki.
 
     [<img src="../../design/artwork/ANT/ANT02.png" style="max-width:40rem;">](../../design/artwork/#aragon-network-token)
 
-### Aragon Network
-
 !!! quote ""
+    ### Aragon Network
+
     Find a full set of Aragon Network resources under [Design section](../design/artwork/#aragon-network) of the Wiki.
 
     [<img src="../../design/artwork/ANJ/ANJ01.png" style="max-width:40rem;">](../../design/artwork/#aragon-network)
@@ -54,9 +54,9 @@
 
     <img src="../press-kit/team/Jorge_Aragon_Tech_Lead.jpg" style="max-width:40rem;">
 
-## AraCon
-
 !!! quote ""
+    ## AraCon
+
     [AraCon – The first Aragon Conference](https://AraCon.one/) - took place in **Berlin, Germany on January 29th-30th 2019**. Aragon’s flagship event brought together people who embody and wish to shape the Aragon community.
 
     AraCon was the place for people to get a great understanding of Web 3.0, blockchain-based organizations and Aragon. The attendees discovered the latest developments and glimpses of what's to come. The goal for the conference was to provide a great overview of the decentralized web and how decentralized organizations can tackle some of the most pressing issues of today’s society.

@@ -350,220 +350,219 @@ Result:
 
 > <a href="#fn:2">Jump to footnote at the bottom of the page</a>
 
-## Equations
+!!! quote ""
+    ## Equations
 
-### Blocks
+    ### Blocks
 
-Blocks are enclosed in `$$...$$` which are placed on separate lines.
+    Blocks are enclosed in `$$...$$` which are placed on separate lines.
 
-Example:
+    ``` tex
+    $$
+    \frac{n!}{k!(n-k)!} = \binom{n}{k}
+    $$
+    ```
 
-``` tex
-$$
-\frac{n!}{k!(n-k)!} = \binom{n}{k}
-$$
-```
+    !!! success "Result"
 
-Result:
+        $$
+        \frac{n!}{k!(n-k)!} = \binom{n}{k}
+        $$
 
-$$
-\frac{n!}{k!(n-k)!} = \binom{n}{k}
-$$
+    ###  Inline
 
-###  Inline
+    Inline equations need to be enclosed in `:::tex $...$`:
 
-Inline equations need to be enclosed in `:::tex $...$`:
+    ``` tex
+    Lorem ipsum dolor sit amet: $p(x|y) = \frac{p(y|x)p(x)}{p(y)}$
+    ```
 
-Example:
+    !!! success "Result"
 
-``` tex
-Lorem ipsum dolor sit amet: $p(x|y) = \frac{p(y|x)p(x)}{p(y)}$
-```
+        Lorem ipsum dolor sit amet: $p(x|y) = \frac{p(y|x)p(x)}{p(y)}$
 
-Result:
+!!! quote ""
+    ## Tasklists
 
-Lorem ipsum dolor sit amet: $p(x|y) = \frac{p(y|x)p(x)}{p(y)}$
+    Tasklists are useful for keeping track of tasks and showing what has been done and has yet to be done. Checkbox lists are like regular lists, but prefixed with `[ ]` for empty or `[x]` for filled checkboxes.
 
-## Tasklists
+    Example:
 
-Tasklists are useful for keeping track of tasks and showing what has been done and has yet to be done. Checkbox lists are like regular lists, but prefixed with `[ ]` for empty or `[x]` for filled checkboxes.
+    ``` markdown
+    - [x] Lorem ipsum dolor sit amet, consectetur adipiscing elit
+    - [x] Nulla lobortis egestas semper
+    - [ ] Vestibulum convallis sit amet nisi a tincidunt
+        - [x] In hac habitasse platea dictumst
+        - [x] In scelerisque nibh non dolor mollis congue sed et metus
+        - [ ] Praesent sed risus massa
+    - [ ] Aenean pretium efficitur erat, donec pharetra, ligula non scelerisque
+    - [ ] Nulla vel eros venenatis, imperdiet enim id, faucibus nisi
+    ```
 
-Example:
+    Result:
 
-``` markdown
-- [x] Lorem ipsum dolor sit amet, consectetur adipiscing elit
-- [x] Nulla lobortis egestas semper
-- [ ] Vestibulum convallis sit amet nisi a tincidunt
-    - [x] In hac habitasse platea dictumst
-    - [x] In scelerisque nibh non dolor mollis congue sed et metus
-    - [ ] Praesent sed risus massa
-- [ ] Aenean pretium efficitur erat, donec pharetra, ligula non scelerisque
-- [ ] Nulla vel eros venenatis, imperdiet enim id, faucibus nisi
-```
+    - [x] Lorem ipsum dolor sit amet, consectetur adipiscing elit
+    - [x] Nulla lobortis egestas semper
+    - [ ] Vestibulum convallis sit amet nisi a tincidunt
+        - [x] In hac habitasse platea dictumst
+        - [x] In scelerisque nibh non dolor mollis congue sed et metus
+        - [ ] Praesent sed risus massa
+    - [ ] Aenean pretium efficitur erat, donec pharetra, ligula non scelerisque
+    - [ ] Nulla vel eros venenatis, imperdiet enim id, faucibus nisi
 
-Result:
+!!! quote ""
+    ## Code Highlighting
 
-- [x] Lorem ipsum dolor sit amet, consectetur adipiscing elit
-- [x] Nulla lobortis egestas semper
-- [ ] Vestibulum convallis sit amet nisi a tincidunt
-    - [x] In hac habitasse platea dictumst
-    - [x] In scelerisque nibh non dolor mollis congue sed et metus
-    - [ ] Praesent sed risus massa
-- [ ] Aenean pretium efficitur erat, donec pharetra, ligula non scelerisque
-- [ ] Nulla vel eros venenatis, imperdiet enim id, faucibus nisi
+    Using Markdown syntaxes, code blocks can be opened and closed by writing three backticks on separate lines. To add code highlighting to those blocks, the easiest way is to specify the language directly after the opening block.
 
-## Code Highlighting
+    Examples:
 
-Using Markdown syntaxes, code blocks can be opened and closed by writing three backticks on separate lines. To add code highlighting to those blocks, the easiest way is to specify the language directly after the opening block.
+    ```` markdown
+    ``` python
+    import tensorflow as tf
+    ```
+    ````
 
-Examples:
+    ````
+    ``` javascript
+    import Messenger, { providers } from '@aragon/messenger'
+    import { defer } from 'rxjs/observable/defer'
+    import { empty } from 'rxjs/observable/empty'
+    import { fromPromise } from 'rxjs/observable/fromPromise'
+    import { merge } from 'rxjs/observable/merge'
 
-```` markdown
-``` python
-import tensorflow as tf
-```
-````
+    export const AppProxyHandler = {
+      get (target, name, receiver) {
+        if (name in target) {
+          return target[name]
+        }
 
-````
-``` javascript
-import Messenger, { providers } from '@aragon/messenger'
-import { defer } from 'rxjs/observable/defer'
-import { empty } from 'rxjs/observable/empty'
-import { fromPromise } from 'rxjs/observable/fromPromise'
-import { merge } from 'rxjs/observable/merge'
-
-export const AppProxyHandler = {
-  get (target, name, receiver) {
-    if (name in target) {
-      return target[name]
+        return function (...params) {
+          return target.rpc.sendAndObserveResponse(
+            'intent',
+            [name, ...params]
+          ).pluck('result')
+        }
+      }
     }
+    ```
+    ````
 
-    return function (...params) {
-      return target.rpc.sendAndObserveResponse(
-        'intent',
-        [name, ...params]
-      ).pluck('result')
+    Results:
+
+    ``` python
+    import tensorflow as tf
+    ```
+
+    ``` javascript
+    import Messenger, { providers } from '@aragon/messenger'
+    import { defer } from 'rxjs/observable/defer'
+    import { empty } from 'rxjs/observable/empty'
+    import { fromPromise } from 'rxjs/observable/fromPromise'
+    import { merge } from 'rxjs/observable/merge'
+
+    export const AppProxyHandler = {
+      get (target, name, receiver) {
+        if (name in target) {
+          return target[name]
+        }
+
+        return function (...params) {
+          return target.rpc.sendAndObserveResponse(
+            'intent',
+            [name, ...params]
+          ).pluck('result')
+        }
+      }
     }
-  }
-}
-```
-````
+    ```
 
-Results:
+    ### Supported languages
 
-``` python
-import tensorflow as tf
-```
+    The Code Highlighting uses [Pygments](http://pygments.org/), a generic syntax highlighter.
 
-``` javascript
-import Messenger, { providers } from '@aragon/messenger'
-import { defer } from 'rxjs/observable/defer'
-import { empty } from 'rxjs/observable/empty'
-import { fromPromise } from 'rxjs/observable/fromPromise'
-import { merge } from 'rxjs/observable/merge'
+    It supports over [300 languages](http://pygments.org/languages).
 
-export const AppProxyHandler = {
-  get (target, name, receiver) {
-    if (name in target) {
-      return target[name]
+    ### Grouping code blocks
+
+    You can use grouping for code blocks with tabs.
+
+    Example:
+
+    ````
+    ``` bash tab="Bash"
+    #!/bin/bash
+
+    echo "Hello world!"
+    ```
+
+    ``` c tab="C"
+    #include <stdio.h>
+
+    int main(void) {
+      printf("Hello world!\n");
     }
+    ```
 
-    return function (...params) {
-      return target.rpc.sendAndObserveResponse(
-        'intent',
-        [name, ...params]
-      ).pluck('result')
+    ``` c++ tab="C++"
+    #include <iostream>
+
+    int main() {
+      std::cout << "Hello world!" << std::endl;
+      return 0;
     }
-  }
-}
-```
+    ```
+    ````
 
-### Supported languages
+    Result:
 
-The Code Highlighting uses [Pygments](http://pygments.org/), a generic syntax highlighter.
+    ``` bash tab="Bash"
+    #!/bin/bash
 
-It supports over [300 languages](http://pygments.org/languages).
+    echo "Hello world!"
+    ```
 
-### Grouping code blocks
+    ``` c tab="C"
+    #include <stdio.h>
 
-You can use grouping for code blocks with tabs.
+    int main(void) {
+      printf("Hello world!\n");
+    }
+    ```
 
-Example:
+    ``` c++ tab="C++"
+    #include <iostream>
 
-````
-``` bash tab="Bash"
-#!/bin/bash
+    int main() {
+      std::cout << "Hello world!" << std::endl;
+      return 0;
+    }
+    ```
 
-echo "Hello world!"
-```
+    ### Highlighting specific lines
 
-``` c tab="C"
-#include <stdio.h>
+    Specific lines can be highlighted by passing the line numbers to the `hl_lines`
+    argument placed right after the language identifier. Line counts start at 1.
 
-int main(void) {
-  printf("Hello world!\n");
-}
-```
+    Example:
 
-``` c++ tab="C++"
-#include <iostream>
-
-int main() {
-  std::cout << "Hello world!" << std::endl;
-  return 0;
-}
-```
-````
-
-Result:
-
-``` bash tab="Bash"
-#!/bin/bash
-
-echo "Hello world!"
-```
-
-``` c tab="C"
-#include <stdio.h>
-
-int main(void) {
-  printf("Hello world!\n");
-}
-```
-
-``` c++ tab="C++"
-#include <iostream>
-
-int main() {
-  std::cout << "Hello world!" << std::endl;
-  return 0;
-}
-```
-
-### Highlighting specific lines
-
-Specific lines can be highlighted by passing the line numbers to the `hl_lines`
-argument placed right after the language identifier. Line counts start at 1.
-
-Example:
-
-```` markdown
-``` python hl_lines="3 4"
-""" Bubble sort """
-def bubble_sort(items):
-    for i in range(len(items)):
-        for j in range(len(items) - 1 - i):
-            if items[j] > items[j + 1]:
-                items[j], items[j + 1] = items[j + 1], items[j]
-```
-````
-
-Result:
-
-    #!python hl_lines="3 4"
+    ```` markdown
+    ``` python hl_lines="3 4"
     """ Bubble sort """
     def bubble_sort(items):
         for i in range(len(items)):
             for j in range(len(items) - 1 - i):
                 if items[j] > items[j + 1]:
                     items[j], items[j + 1] = items[j + 1], items[j]
+    ```
+    ````
+
+    Result:
+
+        #!python hl_lines="3 4"
+        """ Bubble sort """
+        def bubble_sort(items):
+            for i in range(len(items)):
+                for j in range(len(items) - 1 - i):
+                    if items[j] > items[j + 1]:
+                        items[j], items[j + 1] = items[j + 1], items[j]

@@ -112,6 +112,7 @@ thead {
 .md-typeset blockquote {
   border-left: 0.15rem solid #00cbe6;
   border-radius: 1px;
+  font-style: italic;
 }
 
 [data-md-color-primary="blue-grey"] .md-tabs {
@@ -392,7 +393,7 @@ h1#aragon-wiki {
 }
 
 .md-footer {
-  margin-top: 2rem;
+  margin-top: 3rem;
 }
 
 .admonition.note>.admonition-title {

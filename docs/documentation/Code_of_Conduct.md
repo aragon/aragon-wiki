@@ -1,10 +1,11 @@
 # Aragon Code of Conduct
 
-Aragon project is dedicated to providing a harassment-free experience for everyone, regardless of age, body size, disability, ethnicity, gender identity and expression, level of experience, nationality, personal appearance, race, religion, or sexual identity and orientation. We do not tolerate harassment of participants in any form.
+!!! quote ""
+    Aragon project is dedicated to providing a harassment-free experience for everyone, regardless of age, body size, disability, ethnicity, gender identity and expression, level of experience, nationality, personal appearance, race, religion, or sexual identity and orientation. We do not tolerate harassment of participants in any form.
 
-This code of conduct applies to all of Aragon project's spaces, including the Aragon Core app, Rocket Chat, Reddit, Twitter, YouTube, and all other spaces associated with the Aragon project, both online and off. Anyone who violates this code of conduct may be sanctioned or expelled from these spaces at the discretion of the Aragon team.
+    This code of conduct applies to all of Aragon project's spaces, including the Aragon Core app, Rocket Chat, Reddit, Twitter, YouTube, and all other spaces associated with the Aragon project, both online and off. Anyone who violates this code of conduct may be sanctioned or expelled from these spaces at the discretion of the Aragon team.
 
-Some of Aragon project's spaces may have additional rules in place, which will be made clearly available to participants. Participants are responsible for knowing and abiding by these rules.
+    Some of Aragon project's spaces may have additional rules in place, which will be made clearly available to participants. Participants are responsible for knowing and abiding by these rules.
 
 ## Our Standards
 
@@ -41,75 +42,79 @@ Some of Aragon project's spaces may have additional rules in place, which will b
     - Publication of non-harassing private communication
     - Other conduct which could reasonably be considered inappropriate in a professional setting
 
-Aragon community prioritizes marginalized people's safety over privileged people's comfort. Aragon  reserves the right not to act on complaints regarding:
-
 !!! note ""
-    - 'Reverse' -isms, including 'reverse racism,' 'reverse sexism,' and 'cisphobia'
-    - Reasonable communication of boundaries, such as "leave me alone," "go away," or "I'm not discussing this with you"
-    - Communicating in a 'tone' you don't find congenial
-    - Criticizing racist, sexist, cissexist, or otherwise oppressive behavior or assumptions
+    Aragon community prioritizes marginalized people's safety over privileged people's comfort. Aragon  reserves the right not to act on complaints regarding:
+
+      - 'Reverse' -isms, including 'reverse racism,' 'reverse sexism,' and 'cisphobia'
+      - Reasonable communication of boundaries, such as "leave me alone," "go away," or "I'm not discussing this with you"
+      - Communicating in a 'tone' you don't find congenial
+      - Criticizing racist, sexist, cissexist, or otherwise oppressive behavior or assumptions
 
 ## Our Responsibilities
 
-Aragon team is responsible for clarifying the standards of acceptable behavior and are expected to take appropriate and fair corrective action in response to any instances of unacceptable behavior.
+!!! quote ""
+    Aragon team is responsible for clarifying the standards of acceptable behavior and are expected to take appropriate and fair corrective action in response to any instances of unacceptable behavior.
 
-Aragon team has the right and responsibility to remove, edit, or reject comments, commits, code, wiki edits, issues, and other contributions that are not aligned to this Code of Conduct, or to ban temporarily or permanently any community member or contributor for other behaviors that they deem inappropriate, threatening, offensive, or harmful.
+    Aragon team has the right and responsibility to remove, edit, or reject comments, commits, code, wiki edits, issues, and other contributions that are not aligned to this Code of Conduct, or to ban temporarily or permanently any community member or contributor for other behaviors that they deem inappropriate, threatening, offensive, or harmful.
 
 ### Reporting
 
-If you are being harassed by a member of the Aragon community, notice that someone else is being harassed, or have any other concerns, please contact Aragon Chat admins `@light` or `@tatu` at [Aragon Chat](https://aragon.chat). If the person who is harassing you is one of these admins, they will recuse themselves from handling your incident. We will respond as promptly as possible.
+!!! quote ""
+    If you are being harassed by a member of the Aragon community, notice that someone else is being harassed, or have any other concerns, please contact Aragon Chat admins `@light` or `@tatu` at [Aragon Chat](https://aragon.chat). If the person who is harassing you is one of these admins, they will recuse themselves from handling your incident. We will respond as promptly as possible.
 
-This code of conduct applies to Aragon community spaces, but if you are being harassed by a member of Aragon community or team member outside of our spaces, we still want to know about it. We will take all good-faith reports of harassment by Aragon community or team members seriously. This includes harassment outside of our spaces and harassment that took place at any point in time. The team reserves the right to exclude people from the Aragon community at their discretion, based on their past behavior, including behavior outside Aragon spaces and behavior towards people who are not in the Aragon community.
+    This code of conduct applies to Aragon community spaces, but if you are being harassed by a member of Aragon community or team member outside of our spaces, we still want to know about it. We will take all good-faith reports of harassment by Aragon community or team members seriously. This includes harassment outside of our spaces and harassment that took place at any point in time. The team reserves the right to exclude people from the Aragon community at their discretion, based on their past behavior, including behavior outside Aragon spaces and behavior towards people who are not in the Aragon community.
 
-In order to protect the Aragon team from abuse and burnout, we reserve the right to reject any report we believe to have been made in bad faith. Reports intended to silence legitimate criticism may be deleted without response.
+    In order to protect the Aragon team from abuse and burnout, we reserve the right to reject any report we believe to have been made in bad faith. Reports intended to silence legitimate criticism may be deleted without response.
 
-We will respect confidentiality requests for the purpose of protecting victims of abuse. At our discretion, we may publicly name a person about whom we've received harassment complaints, or privately warn third parties about them, if we believe that doing so will increase the safety of Aragon community members or the general public. We will not name harassment victims without their affirmative consent.
+    We will respect confidentiality requests for the purpose of protecting victims of abuse. At our discretion, we may publicly name a person about whom we've received harassment complaints, or privately warn third parties about them, if we believe that doing so will increase the safety of Aragon community members or the general public. We will not name harassment victims without their affirmative consent.
 
 ### Scope
 
-This Code of Conduct applies both within the Aragon project spaces and in public spaces when an individual is representing the project or its community. Examples of representing the project or community include presenting themselves as Aragon community members, promoting the Aragon project as well as using an official project e-mail address, posting via an official social media account, or acting as an appointed representative at an online or offline event. Representation of the project may be further defined and clarified by the Aragon team.
+!!! quote ""
+    This Code of Conduct applies both within the Aragon project spaces and in public spaces when an individual is representing the project or its community. Examples of representing the project or community include presenting themselves as Aragon community members, promoting the Aragon project as well as using an official project e-mail address, posting via an official social media account, or acting as an appointed representative at an online or offline event. Representation of the project may be further defined and clarified by the Aragon team.
 
 ### Enforcement
 
-Instances of abusive, harassing, or otherwise unacceptable behavior may be reported by contacting the Aragon projects team at [Aragon Chat](https://aragon.chat). All complaints will be reviewed and investigated and will result in a response that is deemed necessary and appropriate to the circumstances. The Aragon team is obligated to maintain confidentiality with regard to the reporter of an incident. Further details of specific enforcement policies may be posted separately.
+!!! quote ""
+    Instances of abusive, harassing, or otherwise unacceptable behavior may be reported by contacting the Aragon projects team at [Aragon Chat](https://aragon.chat). All complaints will be reviewed and investigated and will result in a response that is deemed necessary and appropriate to the circumstances. The Aragon team is obligated to maintain confidentiality with regard to the reporter of an incident. Further details of specific enforcement policies may be posted separately.
 
-Aragon community members who do not follow or enforce the Code of Conduct in good faith may face temporary or permanent repercussions as determined by the Aragon team.
+    Aragon community members who do not follow or enforce the Code of Conduct in good faith may face temporary or permanent repercussions as determined by the Aragon team.
 
-Participants asked to stop any harassing behavior are expected to comply immediately.
+    Participants asked to stop any harassing behavior are expected to comply immediately.
 
-If a participant engages in harassing behavior, the Aragon response team may take any action they deem appropriate, up to and including expulsion from all Aragon project spaces and identification of the participant as a harasser to other Aragon community members or the general public.
+    If a participant engages in harassing behavior, the Aragon response team may take any action they deem appropriate, up to and including expulsion from all Aragon project spaces and identification of the participant as a harasser to other Aragon community members or the general public.
 
 ## Aragon.Chat
 
-Aragon project's chat channels descriptions tell you what is considered proper on-topic discussion on that channel, we want everyone to abide by these discussion topics, but using common sense is allowed. We won't remove you from the channel unless there is sustained disruption of discussion. All communication in the channels is to be in English, unless stated otherwise.
+!!! quote ""
+    Aragon project's chat channels descriptions tell you what is considered proper on-topic discussion on that channel, we want everyone to abide by these discussion topics, but using common sense is allowed. We won't remove you from the channel unless there is sustained disruption of discussion. All communication in the channels is to be in English, unless stated otherwise.
 
-Keep your messages [DRY](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself), don't repeat yourself, choose a proper channel to post your message, link or other communication and only post that on one channel. There is also no need to post the same image or message daily or repeatedly. If something is posted on #announcements by the Aragon team, there is no need to post the same message/link to other channels, just refer people to the post at #announcements.
+    Keep your messages [DRY](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself), don't repeat yourself, choose a proper channel to post your message, link or other communication and only post that on one channel. There is also no need to post the same image or message daily or repeatedly. If something is posted on #announcements by the Aragon team, there is no need to post the same message/link to other channels, just refer people to the post at #announcements.
 
 ### Channel descriptions
 
-- **#announcements:** This channel is reserved for announcements by the Aragon team and discussion on the channel is limited to Aragon team members only. The proper channel for community member to discuss the announcements made on this channel is #general.
+!!! quote ""
+    - **#announcements:** This channel is reserved for announcements by the Aragon Association and discussion on the channel is limited to certain people only. The proper channel for community member to discuss the announcements made on this channel is #general.
 
-- **#ant-trader:** Discussion related to the ANT token and trading it. Topics like ANT related exchanges and price speculation are allowed. Anything related trying to manipulate people or markets, price pump/dump for personal or other gains is not allowed.
+    - **#ant-trader:** Discussion related to the ANT token and trading it. Topics like ANT related exchanges and price speculation are allowed. Anything related trying to manipulate people or markets, price pump/dump for personal or other gains is not allowed.
 
-- **#check-in:** Weekly check-ins by Aragon community members.
+    - **#check-in:** Weekly check-ins by Aragon community members.
 
-- **#dev:** Anything related to the development of Aragon. Including questions on how to contribute in Github, technical questions, bug reports etc.
+    - **#dev:** Anything related to the development of Aragon. Including questions on how to contribute in Github, technical questions, bug reports etc.
 
-- **#dev-help:** Aragon development troubleshooting and help-related discussions.
+    - **#dev-help:** Aragon development troubleshooting and help-related discussions.
 
-- **#faucet:** Share your Rinkeby testnet address to request testnet ETH here.
+    - **#faucet:** Share your Rinkeby testnet address to request testnet ETH here.
 
-- **#feedback:** Feedback about the Aragon app, including questions on how to use the app and bug reports are always welcome, feedback from users is invaluable to us and will help us make a better product.
+    - **#feedback:** Feedback about the Aragon app, including questions on how to use the app and bug reports are always welcome, feedback from users is invaluable to us and will help us make a better product.
 
-- **#general:** This is our main channel. Discussion about Aragon, Ethereum and Blockchain technology, and anything related to these fields is welcome.
+    - **#general:** This is our main channel. Discussion about Aragon, Ethereum and Blockchain technology, and anything related to these fields is welcome.
 
-- **#governance:** Discussion around decentralized governance and governance models
+    - **#governance:** Discussion around decentralized governance and governance models
 
-- **#intros:** Please introduce yourself to the community, let us know a little bit about yourself so we can all get to know each other. We're friendly people and would love to hear what brought you over to the Aragon community.
+    - **#intros:** Please introduce yourself to the community, let us know a little bit about yourself so we can all get to know each other. We're friendly people and would love to hear what brought you over to the Aragon community.
 
-- **#monthly:** Collaboration on the Aragon Monthly newspaper. https://monthly.aragon.one
-
-- **#random:** Any discussion that is off-topic on other channels is welcome here. For example, this is the place to promote your project or share an interesting news article (as long as it follows our Code of Conduct).
+    - **#random:** Any discussion that is off-topic on other channels is welcome here. For example, this is the place to promote your project or share an interesting news article (as long as it follows our Code of Conduct).
 
 ## Attribution
 

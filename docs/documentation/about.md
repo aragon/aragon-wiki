@@ -1,7 +1,11 @@
-## What is Aragon?
+# What is Aragon?
 
-<h4 style="color:#00CBE6;">DEMOCRATIZING GOVERNANCE</h4>
-!!! info "**The first step towards a more fair, efficient world**"
+
+!!! quote ""
+
+    <h4 style="color:#00CBE6;">DEMOCRATIZING GOVERNANCE</h4>
+
+    **The first step towards a more fair, efficient world**
 
     > We are building Aragon because we believe [decentralized organizations can solve the world’s worst problems](https://blog.aragon.org/decentralized-organizations-can-solve-the-worlds-worst-problems-840db6255d12).
 
@@ -9,8 +13,11 @@
 
     By making it possible for everyone in the world to organize, we are enabling a borderless, permissionless and more efficient creation of value.
 
-<h4 style="color:#00CBE6;">GOODBYE UNNECESSARY INTERMEDIARIES</h4>
-!!! info "**Reclaim your independence**"
+!!! quote ""
+
+    <h4 style="color:#00CBE6;">GOODBYE UNNECESSARY INTERMEDIARIES</h4>
+
+    **Reclaim your independence**
 
     > Aragon organizations are powered by Ethereum, a global blockchain for running unstoppable applications. In Ethereum, code and applications always run without any possibility of downtime or censorship.
 
@@ -18,8 +25,11 @@
 
     This decentralized design ensures a borderless and permissionless way of operating, without the fear of a government or a malicious third-party interfering.
 
-<h4 style="color:#00CBE6;">IMAGINE A NATION WITHOUT LAND AND BORDERS</h4>
-!!! info "**A digital jurisdiction**"
+!!! quote ""
+
+    <h4 style="color:#00CBE6;">IMAGINE A NATION WITHOUT LAND AND BORDERS</h4>
+
+    **A digital jurisdiction**
 
     > Aragon Network will be the first community governed decentralized organization whose goal is to act as a digital jurisdiction, an online decentralized court system that isn’t bound by traditional artificial barriers such as national jurisdictions or the borders of a single country.
 
@@ -29,46 +39,66 @@
 
 ## **Why Aragon?**
 
-> Aragon was born to bring transparency and independent governance to the forefront of managing an organization. We want to give the users the freedom they deserve to run their lives.
+!!! quote ""
 
-Organizations like companies exist to create value for their owners and users. They use the resources available to them in order to provide services and to create products.
+    > Aragon was born to bring transparency and independent governance to the forefront of managing an organization. We want to give the users the freedom they deserve to run their lives.
 
-Their ability to do this efficiently is hindered by factors outside of their influence. By removing unnecessary intermediaries and third parties that impose artificial restrictions and unnecessarily complex regulations, we can modernize the way organizations are run.
+    Organizations like companies exist to create value for their owners and users. They use the resources available to them in order to provide services and to create products.
 
-<h4 style="color:#00CBE6;">OUR VISION</h4>
-!!! tip "**Evolution of the internet and blockchain technology are changing the ways we interact with each other**"
+    Their ability to do this efficiently is hindered by factors outside of their influence. By removing unnecessary intermediaries and third parties that impose artificial restrictions and unnecessarily complex regulations, we can modernize the way organizations are run.
+
+
+!!! quote ""
+
+    <h4 style="color:#00CBE6;">OUR VISION</h4>
+
+    **Evolution of the internet and blockchain technology are changing the ways we interact with each other**
 
     We believe that the progression of modern technology solutions, such as the invention of the blockchain, are changing the incentives for people to interact with each other. We are building the tools for the next generation of organizations to take advantage of this revolution.
 
     Experimenting with new governance models has been a very risky endeavour during previous iterations of society. Now, for the first time in human history, we can let a thousand new governance models emerge, all from the comfort of our laptops.
 
-## **Aragon Core**
-<center>
-<h2>Decentralized application to run your organization</h2>
-</center>
+## **Aragon client**
 
-<h4 style="color:#00CBE6;">TRANSFER TOKENS</h4>
-!!! abstract "**Tokens represent your stake in the organization**"
+<h2>Decentralized application to run your organization</h2>
+
+!!! note ""
+
+    <h4 style="color:#00CBE6;">TRANSFER TOKENS</h4>
+
+    **Tokens represent your stake in the organization**
 
     Your organization is in control of its funds. Transfer and assign them according to your personal needs without artificial limitations.
 
-<h4 style="color:#00CBE6;">FUNDRAISING</h4>
-!!! abstract "**Grasp the potential of a new form of crowdfunding**"
+!!! abstract ""
+
+    <h4 style="color:#00CBE6;">FUNDRAISING</h4>
+
+    **Grasp the potential of a new form of crowdfunding**
 
     Utilize the power of the crowd for funding and raise funds globally, in private or publicly, without relying on banks or financial gatekeepers.
 
-<h4 style="color:#00CBE6;">VOTING</h4>
-!!! abstract "**Decision-making by voting**"
+!!! info ""
+
+    <h4 style="color:#00CBE6;">VOTING</h4>
+
+    **Decision-making by voting**
 
     Use voting for more effective results. Votes are a secure, transparent and unforgeable way to come to a decision on major issues.
 
-<h4 style="color:#00CBE6;">PAYMENTS</h4>
-!!! abstract "**Instant payments in a few clicks**"
+!!! question ""
+
+    <h4 style="color:#00CBE6;">PAYMENTS</h4>
+
+    **Instant payments in a few clicks**
 
     Adding a new employee to your organization and payroll is as easy as creating a new recurring payment.
 
-<h4 style="color:#00CBE6;">ACCOUNTING</h4>
-!!! abstract "**Tamper-proof, effective accounting**"
+!!! success ""
+
+    <h4 style="color:#00CBE6;">ACCOUNTING</h4>
+
+    **Tamper-proof, effective accounting**
 
     > Every transaction is recorded and can be verified on the blockchain at any given time
 
@@ -76,8 +106,12 @@ Their ability to do this efficiently is hindered by factors outside of their inf
 
     Pre-established rules can automatically define your quarterly spending and budgeting.
 
-<h4 style="color:#00CBE6;">PERMISSIONS</h4>
-!!! abstract "**Flexible and resilient privilege escalation**"
+
+!!! tip ""
+
+    <h4 style="color:#00CBE6;">PERMISSIONS</h4>
+
+    **Flexible and resilient privilege escalation**
 
     > Fine-grained permissions deliver the freedom to create an organization that will work for you.
 
@@ -86,21 +120,14 @@ Their ability to do this efficiently is hindered by factors outside of their inf
     By assigning different permissions to people, you can create the kind of organizational structure that is best suited for your needs.
 
 ## **Aragon Network**
-<center>
 <h2>Ensuring the success of decentralized organizations</h2>
-</center>
 
-**Putting the power back into the hands of the users**
+!!! quote ""
 
-> The Aragon Network will decentralize its governance by gradually handing over control of the project to its users.
+    **Putting the power back into the hands of the users**
 
-The Aragon Network will establish additional services for the organizations taking advantage of what Aragon Core provides.
+    > The Aragon Network will decentralize its governance by gradually handing over control of the project to its users.
 
-Our mission is to make the Aragon Network an autonomous organization itself, which is managed by the people using it for their mutual prosperity.
+    The Aragon Network will establish additional services for the organizations taking advantage of what the Aragon client provides.
 
-<h4 style="color:#00CBE6;">ARAGON GOVERNANCE PROPOSALS</h4>
-!!! snippet "**[Join us in improving Aragon by making your voice heard](https://github.com/aragon/governance/issues)**"
-
-    [Aragon Governance Proposals](https://github.com/aragon/governance/issues) is a system for community members to join the discussion and create proposals affecting Aragon.
-
-    Everyone is welcome to [join in and aid](https://github.com/aragon/governance/issues) in forging the future of how Aragon will shape out to be. Together we can build the exciting future we want to see.
+    Our mission is to make the Aragon Network an autonomous organization itself, which is managed by the people using it for their mutual prosperity.
