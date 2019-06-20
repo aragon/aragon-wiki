@@ -1,23 +1,7 @@
 # Aragon Network
 
-!!! quote ""
-    <h2>Ensuring the success of decentralized organizations</h2>
+The [Aragon Network](https://aragon.org/network) is the world's first digital jurisdiction, and is itself operated as a decentralized organization using Aragon. It was [first described](https://blog.aragon.org/introducing-the-aragon-network-20b998e2caba/) in the Aragon Network whitepaper, the [first version](https://github.com/aragon/whitepaper/tree/v1) of which was released to the public on April 14, 2017.
 
-    **Putting the power back into the hands of the users**
+The Aragon Network is governed by Aragon Network Token (ANT) holders subject to [AGP-1: The Aragon Governance Proposal Process](governance/index.md). Through the governance process, ANT holders continually improve the functioning of the Network and allocate funds to support the development of the Network. The first vote ever held by the Aragon Network on the Ethereum mainnet was [using the Survey app](https://blog.aragon.org/aragon-launches-survey-app-on-mainnet-ed5eefeb66f5/), and started on May 31, 2018. Later that year, ANT holders [voted to approve](https://blog.aragon.org/final-results-from-the-agp-1-vote/) AGP-1: The Aragon Governance Proposal Process.
 
-    > _The Aragon Network will decentralize its governance by gradually handing over control of the project to its users_
-
-    The Aragon Network will establish additional services for the organizations taking advantage of what Aragon Core provides
-
-    Our mission is to make the Aragon Network an autonomous organization itself, which is managed by the people using it for their mutual prosperity
-
-!!! quote ""
-    <h2>Imagine a nation without land and borders</h2>
-
-    **A digital jurisdiction**
-
-    > _Aragon Network will be the first community governed decentralized organization whose goal is to act as a digital jurisdiction, an online decentralized court system that isn’t bound by traditional artificial barriers such as national jurisdictions or the borders of a single country_
-
-    Aragon organizations can be upgraded seamlessly using our aragonOS architecture. They can solve disputes between two parties by using the decentralized court system, a digital jurisdiction that operates only online and utilizes your peers to resolve issues
-
-    The Aragon Network Token, ANT, puts the power into the hands of the people participating in the operation of the Network. Every single aspect of the Network will be governed by those willing to make an effort for a better future
+At [AraCon 2019](https://aracon.one), Aragon project co-founder and Aragon One CEO Luis Cuende [announced](https://youtu.be/oND8XJ-bvB8?t=389) that the Aragon Network would launch on the Ethereum mainnet by the end of 2019. On May 25, 2018, [v2](https://github.com/aragon/whitepaper/blob/c00053e45e9f131131f9e2ae34167f6068ed32c8/README.md) of the Aragon Network whitepaper was released, followed by a [v3 release](https://github.com/aragon/whitepaper/blob/1b8d87ab7e41a368d74a39320ec63a26535ecb03/README.md) of the whitepaper on May 10, 2019.
