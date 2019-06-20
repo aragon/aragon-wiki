@@ -30,7 +30,7 @@
 body {
   font-family: 'FontRegular', sans-serif !important;
   font-weight: 300;
-  font-size: 16px;
+  font-size: 18px;
   margin: 0;
   padding: 0;
   -webkit-font-smoothing: antialiased;
@@ -72,7 +72,7 @@ thead {
 }
 
 .md-typeset hr {
-  border-bottom: 0.1rem solid rgba(0, 0, 0, 0.26);
+  border-bottom: 0.1rem solid rgba(0, 0, 0, 0.15);
   margin: 3vw 0;
 }
 
@@ -192,6 +192,9 @@ html .md-footer-meta.md-typeset a {
     font-weight: 300;
     color: rgba(33, 43, 54, 0.7);
   }
+  .md-sidebar--primary .md-nav__link--active {
+    font-weight: 600;
+  }
   .md-sidebar--secondary {
     right: 0;
     margin-left: 0;
@@ -241,21 +244,28 @@ html .md-footer-meta.md-typeset a {
     margin-right: 6rem;
     display: block;
   }
-  a[title="Aragon Wiki"] {
+  .md-sidebar--primary a[title="Aragon Wiki"] {
     color: #000;
     font-family: 'FontBold';
     letter-spacing: .1px;
     padding-left: .2rem;
+    padding-top: -0.5rem;
   }
-  a[title="Aragon Wiki"]:visited {
+  .md-sidebar--primary a[title="Aragon Wiki"]:visited {
     color: #000;
     font-family: 'FontBold';
     padding-left: .2rem;
   }
-  a[title="Aragon Wiki"]:active {
+  .md-sidebar--primary a[title="Aragon Wiki"]:active {
     color: #000;
     font-family: 'FontBold';
     padding-left: .2rem;
+  }
+  .md-typeset p {
+    margin: 0.8em 0;
+  }
+  .md-footer-social>.md-footer-social__link {
+    font-size: 24px;
   }
 }
 
@@ -272,7 +282,7 @@ html .md-footer-meta.md-typeset a {
 }
 
 .md-typeset h2 {
-  margin: 1rem 0 0.5rem;
+  margin: 0.5rem 0 0.5rem;
 }
 
 .md-tabs__list {
@@ -297,11 +307,13 @@ html .md-footer-meta.md-typeset a {
   margin-right: 3rem;
   margin-left: .5rem;
   font-size: 16px;
+  padding: 20px;
 }
 
 h1#aragon-wiki {
   font-size: 52px;
   padding-top: 2em;
+  font-weight: 600;
 }
 
 .admonition.quote {
@@ -350,6 +362,7 @@ h1#aragon-wiki {
   line-height: 1.63;
   letter-spacing: normal;
   color: #2d4051;
+  margin-top: 0.5rem;
 }
 
 .md-typeset h3 {
@@ -398,6 +411,8 @@ h1#aragon-wiki {
 
 .admonition.note>.admonition-title {
   background-color: rgba(8, 190, 229, 0.2);
+  margin-top: -20px;
+  margin-left: -20px;
 }
 
 .md-typeset .admonition>.admonition-title:before, .md-typeset .admonition.abstract>summary:before, .md-typeset details>.admonition-title:before, .md-typeset details>summary:before {
@@ -410,6 +425,8 @@ h1#aragon-wiki {
 
 .md-typeset .admonition.abstract>.admonition-title {
   background-color: rgba(149, 236, 255, 0.2);
+  margin-top: -20px;
+  margin-left: -20px;
 }
 
 .md-typeset .admonition.abstract>.admonition-title:before, .md-typeset .admonition.abstract>summary:before, .md-typeset .admonition.summary>.admonition-title:before, .md-typeset .admonition.summary>summary:before, .md-typeset .admonition.tldr>.admonition-title:before, .md-typeset .admonition.tldr>summary:before, .md-typeset details.abstract>.admonition-title:before, .md-typeset details.abstract>summary:before, .md-typeset details.summary>.admonition-title:before, .md-typeset details.summary>summary:before, .md-typeset details.tldr>.admonition-title:before, .md-typeset details.tldr>summary:before {
@@ -422,6 +439,8 @@ h1#aragon-wiki {
 
 .md-typeset .admonition.info>.admonition-title {
   background-color: rgba(63, 232, 224, 0.2);
+  margin-top: -20px;
+  margin-left: -20px;
 }
 
 .md-typeset .admonition.info>.admonition-title:before, .md-typeset .admonition.info>summary:before, .md-typeset .admonition.summary>.admonition-title:before, .md-typeset .admonition.summary>summary:before, .md-typeset .admonition.tldr>.admonition-title:before, .md-typeset .admonition.tldr>summary:before, .md-typeset details.info>.admonition-title:before, .md-typeset details.info>summary:before, .md-typeset details.summary>.admonition-title:before, .md-typeset details.summary>summary:before, .md-typeset details.tldr>.admonition-title:before, .md-typeset details.tldr>summary:before {
@@ -434,6 +453,8 @@ h1#aragon-wiki {
 
 .md-typeset .admonition.tip>.admonition-title {
   background-color: rgba(155, 199, 90, 0.2);
+  margin-top: -20px;
+  margin-left: -20px;
 }
 
 .md-typeset .admonition.tip>.admonition-title:before, .md-typeset .admonition.tip>summary:before, .md-typeset .admonition.summary>.admonition-title:before, .md-typeset .admonition.summary>summary:before, .md-typeset .admonition.tldr>.admonition-title:before, .md-typeset .admonition.tldr>summary:before, .md-typeset details.tip>.admonition-title:before, .md-typeset details.tip>summary:before, .md-typeset details.summary>.admonition-title:before, .md-typeset details.summary>summary:before, .md-typeset details.tldr>.admonition-title:before, .md-typeset details.tldr>summary:before {
@@ -446,6 +467,8 @@ h1#aragon-wiki {
 
 .md-typeset .admonition.success>.admonition-title {
   background-color: rgba(44, 198, 143, 0.2);
+  margin-top: -20px;
+  margin-left: -20px;
 }
 
 .md-typeset .admonition.success>.admonition-title:before, .md-typeset .admonition.success>summary:before, .md-typeset .admonition.summary>.admonition-title:before, .md-typeset .admonition.summary>summary:before, .md-typeset .admonition.tldr>.admonition-title:before, .md-typeset .admonition.tldr>summary:before, .md-typeset details.success>.admonition-title:before, .md-typeset details.success>summary:before, .md-typeset details.summary>.admonition-title:before, .md-typeset details.summary>summary:before, .md-typeset details.tldr>.admonition-title:before, .md-typeset details.tldr>summary:before {
@@ -458,6 +481,8 @@ h1#aragon-wiki {
 
 .md-typeset .admonition.question>.admonition-title {
   background-color: rgba(135, 241, 203, 0.2);
+  margin-top: -20px;
+  margin-left: -20px;
 }
 
 .md-typeset .admonition.question>.admonition-title:before, .md-typeset .admonition.question>summary:before, .md-typeset .admonition.summary>.admonition-title:before, .md-typeset .admonition.summary>summary:before, .md-typeset .admonition.tldr>.admonition-title:before, .md-typeset .admonition.tldr>summary:before, .md-typeset details.question>.admonition-title:before, .md-typeset details.question>summary:before, .md-typeset details.summary>.admonition-title:before, .md-typeset details.summary>summary:before, .md-typeset details.tldr>.admonition-title:before, .md-typeset details.tldr>summary:before {
@@ -470,6 +495,8 @@ h1#aragon-wiki {
 
 .md-typeset .admonition.warning>.admonition-title {
   background-color: rgba(242, 193, 79, 0.2);
+  margin-top: -20px;
+  margin-left: -20px;
 }
 
 .md-typeset .admonition.warning>.admonition-title:before, .md-typeset .admonition.warning>summary:before, .md-typeset .admonition.summary>.admonition-title:before, .md-typeset .admonition.summary>summary:before, .md-typeset .admonition.tldr>.admonition-title:before, .md-typeset .admonition.tldr>summary:before, .md-typeset details.warning>.admonition-title:before, .md-typeset details.warning>summary:before, .md-typeset details.summary>.admonition-title:before, .md-typeset details.summary>summary:before, .md-typeset details.tldr>.admonition-title:before, .md-typeset details.tldr>summary:before {
@@ -482,6 +509,8 @@ h1#aragon-wiki {
 
 .md-typeset .admonition.failure>.admonition-title {
   background-color: rgba(255, 177, 177, 0.2);
+  margin-top: -20px;
+  margin-left: -20px;
 }
 
 .md-typeset .admonition.failure>.admonition-title:before, .md-typeset .admonition.failure>summary:before, .md-typeset .admonition.summary>.admonition-title:before, .md-typeset .admonition.summary>summary:before, .md-typeset .admonition.tldr>.admonition-title:before, .md-typeset .admonition.tldr>summary:before, .md-typeset details.failure>.admonition-title:before, .md-typeset details.failure>summary:before, .md-typeset details.summary>.admonition-title:before, .md-typeset details.summary>summary:before, .md-typeset details.tldr>.admonition-title:before, .md-typeset details.tldr>summary:before {
@@ -494,6 +523,8 @@ h1#aragon-wiki {
 
 .md-typeset .admonition.danger>.admonition-title {
   background-color: rgba(255, 105, 105, 0.2);
+  margin-top: -20px;
+  margin-left: -20px;
 }
 
 .md-typeset .admonition.danger>.admonition-title:before, .md-typeset .admonition.danger>summary:before, .md-typeset .admonition.summary>.admonition-title:before, .md-typeset .admonition.summary>summary:before, .md-typeset .admonition.tldr>.admonition-title:before, .md-typeset .admonition.tldr>summary:before, .md-typeset details.danger>.admonition-title:before, .md-typeset details.danger>summary:before, .md-typeset details.summary>.admonition-title:before, .md-typeset details.summary>summary:before, .md-typeset details.tldr>.admonition-title:before, .md-typeset details.tldr>summary:before {
@@ -506,6 +537,8 @@ h1#aragon-wiki {
 
 .md-typeset .admonition.bug>.admonition-title {
   background-color: rgba(202, 65, 65, 0.2);
+  margin-top: -20px;
+  margin-left: -20px;
 }
 
 .md-typeset .admonition.bug>.admonition-title:before, .md-typeset .admonition.bug>summary:before, .md-typeset .admonition.summary>.admonition-title:before, .md-typeset .admonition.summary>summary:before, .md-typeset .admonition.tldr>.admonition-title:before, .md-typeset .admonition.tldr>summary:before, .md-typeset details.bug>.admonition-title:before, .md-typeset details.bug>summary:before, .md-typeset details.summary>.admonition-title:before, .md-typeset details.summary>summary:before, .md-typeset details.tldr>.admonition-title:before, .md-typeset details.tldr>summary:before {
@@ -518,6 +551,8 @@ h1#aragon-wiki {
 
 .md-typeset .admonition.example>.admonition-title {
   background-color: rgba(77, 34, 223, 0.2);
+  margin-top: -20px;
+  margin-left: -20px;
 }
 
 .md-typeset .admonition.example>.admonition-title:before, .md-typeset .admonition.example>summary:before, .md-typeset .admonition.summary>.admonition-title:before, .md-typeset .admonition.summary>summary:before, .md-typeset .admonition.tldr>.admonition-title:before, .md-typeset .admonition.tldr>summary:before, .md-typeset details.example>.admonition-title:before, .md-typeset details.example>summary:before, .md-typeset details.summary>.admonition-title:before, .md-typeset details.summary>summary:before, .md-typeset details.tldr>.admonition-title:before, .md-typeset details.tldr>summary:before {
@@ -530,6 +565,11 @@ h1#aragon-wiki {
 
 .md-typeset .admonition.quote>.admonition-title:before, .md-typeset .admonition.quote>summary:before, .md-typeset .admonition.summary>.admonition-title:before, .md-typeset .admonition.summary>summary:before, .md-typeset .admonition.tldr>.admonition-title:before, .md-typeset .admonition.tldr>summary:before, .md-typeset details.quote>.admonition-title:before, .md-typeset details.quote>summary:before, .md-typeset details.summary>.admonition-title:before, .md-typeset details.summary>summary:before, .md-typeset details.tldr>.admonition-title:before, .md-typeset details.tldr>summary:before {
   display: none;
+}
+
+.md-typeset .admonition.quote>.admonition-title {
+  margin-top: -20px;
+  margin-left: -20px;
 }
 
 [data-md-color-primary="blue-grey"] .md-typeset a.logo2 img {

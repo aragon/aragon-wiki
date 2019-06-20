@@ -1,0 +1,29 @@
+language: python # Set the build language to Python
+
+python: 3.6 # Set the version of Python to use
+
+branches: master # Set the branch to build from
+
+install:
+    - pip install mkdocs mkdocs-material # Install the required dependencies
+
+script:
+    - mkdocs build --verbose --clean # Build a local version of the docs
+
+git:
+    depth: 1 # Depth 1 for quicker git checkout.
+
+dist: xenial # Using a later version of ubuntu to build should be faster.
+
+deploy:
+  provider: pages
+  skip-cleanup: true
+# github-token is Generated in Github Developer Settings -> Personal Access Token (public_repo checked)
+# It also needs to be set in TravisCI as a enviroment variable with the value. (Reminder do not show this in logs.)
+  github-token: $GH_TOKEN  
+  local-dir: site
+  keep-history: true
+  target-branch: gh-pages
+  verbose: true
+  on:
+    branch: master

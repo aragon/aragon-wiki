@@ -1,8 +1,8 @@
 # Aragon Network
 
-<h2>Ensuring the success of decentralized organizations</h2>
-
 !!! quote ""
+    <h2>Ensuring the success of decentralized organizations</h2>
+
     **Putting the power back into the hands of the users**
 
     > _The Aragon Network will decentralize its governance by gradually handing over control of the project to its users_
@@ -11,9 +11,9 @@
 
     Our mission is to make the Aragon Network an autonomous organization itself, which is managed by the people using it for their mutual prosperity
 
-<h2>Imagine a nation without land and borders</h2>
-
 !!! quote ""
+    <h2>Imagine a nation without land and borders</h2>
+
     **A digital jurisdiction**
 
     > _Aragon Network will be the first community governed decentralized organization whose goal is to act as a digital jurisdiction, an online decentralized court system that isn’t bound by traditional artificial barriers such as national jurisdictions or the borders of a single country_

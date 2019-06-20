@@ -1,11 +1,10 @@
 # Aragon Event Policy
 
-!!! quote ""
-    Aragon has been a proud sponsor and participant in numerous Ethereum and blockchain related events. We also occasionally have supported events outside of these scopes to reach people in communities that could greatly benefit from the use of Aragon and it's products.
-
-## Specifications
+Aragon has been a proud sponsor and participant in numerous Ethereum and blockchain related events. We also occasionally have supported events outside of these scopes to reach people in communities that could greatly benefit from the use of Aragon and it's products.
 
 !!! quote ""
+    ## Specifications
+
     - **Aragon Foundation** will sponsor a **maximum of 4 large-scale events** per calendar year.
     - A **maximum** sponsorship we will consider is **up to CHF 50,000**.
     - Aragon wants to encourage community members to organize events like meetups, hackathons and other community events. We are happy to support and help you organize such an Aragon related community event and will consider backing such events on a case-by-case basis.

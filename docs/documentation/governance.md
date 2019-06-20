@@ -9,22 +9,22 @@
     - See results from [**past Aragon Network Votes**](https://github.com/aragon/AGPs/tree/master/votes)
     - Sign up for the very-low-volume [**Aragon Network Vote alerts mailing list**](https://one.us15.list-manage.com/subscribe?u=a590aa3843a54b079d48e6e18&id=9b7f365936)
 
-## Important information for the next Aragon Network Vote
+!!! quote ""
+    ## Important information for the next Aragon Network Vote
 
-!!! info "Aragon Network Vote #3"
+    !!! info "Aragon Network Vote #3"
 
-    **Dates**
+        **Dates**
 
-    These dates may change if an emergency delay is approved by the Aragon Association Board of Directors. Check back here to confirm if you have any doubts.
+        These dates may change if an emergency delay is approved by the Aragon Association Board of Directors. Check back here to confirm if you have any doubts.
 
-    - Proposals for this vote are due, Aragon Association review begins: **2019-07-11 at 16:00 UTC**
-    - Aragon Association review ends, final community review begins: **2019-07-18 at 16:00 UTC**
-    - Aragon Network Vote #3 begins: **2019-07-25 at 16:00 UTC**
-    - Aragon Network Vote #3 ends, final results announced: **2019-07-27 at 16:00 UTC**
-
-## Approved AGPs
+        - Proposals for this vote are due, Aragon Association review begins: **2019-07-11 at 16:00 UTC**
+        - Aragon Association review ends, final community review begins: **2019-07-18 at 16:00 UTC**
+        - Aragon Network Vote #3 begins: **2019-07-25 at 16:00 UTC**
+        - Aragon Network Vote #3 ends, final results announced: **2019-07-27 at 16:00 UTC**
 
 !!! quote ""
+    ## Approved AGPs
 
     - [AGP-0: The Aragon Manifesto](https://github.com/aragon/AGPs/blob/master/AGPs/AGP-0.md)
     - [AGP-1: The Aragon Governance Proposal Process](https://github.com/aragon/AGPs/blob/master/AGPs/AGP-1.md)
@@ -43,9 +43,9 @@
     - [AGP-40: Aragon Cooperative DAO funding proposal](https://github.com/aragon/AGPs/blob/master/AGPs/AGP-40.md)
     - [AGP-43: ANSP Engagement Policy](https://github.com/aragon/AGPs/blob/master/AGPs/AGP-43.md)
 
-## Deprecated AGPs
-
 !!! quote ""
+    ## Deprecated AGPs
+
     - [aragon/governance](https://github.com/aragon/governance/)
 
 [^1]: Page owner: John Light ([@john-light](https://github.com/john-light). Last updated 17.06.2019

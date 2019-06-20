@@ -323,7 +323,7 @@ ___
     ```
     | Left       | Center   | Right   |
     | :--------- | :------: | ------: |
-    | Lorem      | *dolor*  | `amet`  |
+    | Lorem      | _dolor_  | `amet`  |
     | [ipsum](#) | **sit**  |         |
     ```
 
@@ -331,7 +331,7 @@ ___
 
     | Left       | Center   | Right   |
     | :--------- | :------: | ------: |
-    | Lorem      | *dolor*  | `amet`  |
+    | Lorem      | _dolor_  | `amet`  |
     | [ipsum](#) | **sit**  |         |
 
 ## Symbols

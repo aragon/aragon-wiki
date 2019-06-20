@@ -1,17 +1,17 @@
 # Third-Party Projects
 
-## Aragon statistics
-
 !!! quote ""
+    ## Aragon statistics
+
     These are projects that analyze the publicly available blockchain data to report statistics about Aragon organizations and their activity.
 
     - [Daolist](https://daolist.io/)
 
     - [Scout](https://scout.cool/aragon/mainnet/)
 
-## Using [aragonOS](https://hack.aragon.org/docs/aragonos-ref.html)
-
 !!! quote ""
+    ## Using [aragonOS](https://hack.aragon.org/docs/aragonos-ref.html)
+
     These are projects that are currently already using the [aragonOS architecture](https://hack.aragon.org/docs/aragonos-ref.html) or parts of it
 
     - [DAppNode](https://dappnode.io)
@@ -23,9 +23,9 @@
     - [Giveth](https://giveth.io)
       - Uses [Proxy](https://hack.aragon.org/docs/aragonos-ref.html#3-upgradeability) feature from aragonOS as a part of their liquidPledging system and will eventually move the entire DApp to Aragon.
 
-## Powered by Aragon
-
 !!! quote ""
+    ## Powered by Aragon
+
     **Aragon went [live on the Ethereum mainnet](https://blog.aragon.org/aragon-06-is-live-on-mainnet/) on October 30th, 2018. This is a list of projects that have publicly announced their interest in utilizing Aragon, we can't wait to see what they do!**
 
     See also our [guidelines](../design/powered_by_aragon.md) for projects "_Powered by Aragon_".

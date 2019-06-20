@@ -47,9 +47,9 @@ extra:
   social:
     - type: 'github'
       link: 'https://github.com/aragon'
-    - type: 'pencil'
+    - type: 'newspaper-o'
       link: 'https://blog.aragon.org/'
-    - type: 'comment'
+    - type: 'commenting'
       link: 'https://aragon.chat/'
     - type: 'comments'
       link: 'https://forum.aragon.org/'
@@ -86,15 +86,12 @@ nav:
         - How to contribute: 'https://github.com/aragon/whitepaper/blob/master/CONTRIBUTE.md'
         - Version 1 (archived): 'https://github.com/aragon/whitepaper/tree/v1'
     - Design:
-      - Artwork:
-        - Aragon Project:
-          - Logo: 'design/logo.md'
-          - Graphics: 'design/artwork/index.md'
-        - Aragon One:
-          - Logo: 'design/A1/logo.md'
+      - Branding:
+        - Aragon Project: 'design/logo.md'
+        - Aragon Network: 'design/network.md'
+        - Aragon One: 'design/A1/logo.md'
       - Brand Guidelines: 'press/press-kit/#brand-guidelines'
       - For entities using Aragon: 'design/powered_by_aragon.md'
-      - Merchandise: 'design/merch/index.md'
     - Videos:
       - Videos: 'videos/index.md'
       - Presentations: 'videos/presentations.md'
@@ -168,6 +165,8 @@ nav:
       - Additional Features: 'tutorials/Wiki_Additional_Features.md'
       - Wiki Editorial Policies: 'documentation/editorial_policies.md'
     - Archive:
+      - Merchandise: 'design/merch/index.md'
+      - Artwork: 'design/artwork/index.md'
       - Home: 'Core/index.md'
       - User Guide: 'tutorials/Aragon_Core_User_Guide.md'
       - Overview: 'Aragon_One/index.md'

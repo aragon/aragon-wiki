@@ -13,7 +13,7 @@ ___
 
     <h3>That's why we are building Aragon.</h3>
 
-    <iframe width="80%" height="300" src="https://www.youtube-nocookie.com/embed/AqjIWmiAidw?rel=0" frameborder="0" allow="encrypted-media" allowfullscreen class="fff"></iframe>
+    <iframe width="80%" height="390" src="https://www.youtube-nocookie.com/embed/AqjIWmiAidw?rel=0" frameborder="0" allow="encrypted-media" allowfullscreen class="fff"></iframe>
 
 </center>
 

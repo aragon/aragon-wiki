@@ -1,88 +1,102 @@
-# Aragon One Logo
+# Aragon One Branding
 
 ## Imagetypes
 
 ### Horizontal Gradient
 
 !!! danger ""
-    **[Transparent background Light PNG](logo/aragon-one-lineart-black-transparent.png)**
 
-    <a href="../logo/aragon-one-lineart-black-transparent.png" class="logo"><img width="480" src="aragon-one-lineart-black-transparent.png"></a>
+    <a href="../logo/aragon-one-lineart-black-transparent.png" class="logo"><img width="80%" src="aragon-one-lineart-black-transparent.png"></a>
+
+    [Transparent background Light PNG](logo/aragon-one-lineart-black-transparent.png)
 
 !!! danger ""
-    **[Transparent background Dark PNG](logo/Logo_stroke_black_long.png)**
 
-    <a href="../logo/Logo_stroke_black_long.png" class="logo"><img width="480" src="../logo/Logo_stroke_black_long.png"></a>
+    <a href="../logo/Logo_stroke_black_long.png" class="logo logo2"><img width="80%" src="../logo/Logo_stroke_black_long.png"></a>
+
+    [Transparent background Dark PNG](logo/Logo_stroke_black_long.png)
 
 ### Horizontal Greyscale
 
 !!! danger ""
-    **[Light PNG](Logo_black_long.png)**
 
-    <a href="../logo/Logo_black_long.png" class="logo"><img width="480" src="../logo/Logo_black_long.png"></a>
+    <a href="../logo/Logo_black_long.png" class="logo logo2"><img width="80%" src="../logo/Logo_black_long.png"></a>
 
-!!! danger ""
-    **[Dark PNG](Logo_white_long.png)**
-
-    <a href="../logo/Logo_white_long.png" class="logo"><img width="480" src="../logo/Logo_white_long.png"></a>
+    [Light PNG](Logo_black_long.png)
 
 !!! danger ""
-    **[Transparent background Light PNG](Logo_black_long_transparent.png)**
 
-    <a href="../logo/Logo_black_long_transparent.png" class="logo logo2"><img width="480" src="../logo/Logo_black_long_transparent.png"></a>
+    <a href="../logo/Logo_white_long.png" class="logo"><img width="80%" src="../logo/Logo_white_long.png"></a>
+
+    [Dark PNG](Logo_white_long.png)
 
 !!! danger ""
-    **[Transparent background Dark PNG](Logo_white_long_transparent.png)**
 
-    <a href="../logo/Logo_white_long_transparent.png" class="logo"><img width="480" src="../logo/Logo_white_long_transparent.png"></a>
+    <a href="../logo/Logo_black_long_transparent.png" class="logo logo2"><img width="80%" src="../logo/Logo_black_long_transparent.png"></a>
+
+    [Transparent background Light PNG](Logo_black_long_transparent.png)
+
+!!! danger ""
+
+    <a href="../logo/Logo_white_long_transparent.png" class="logo"><img width="80%" src="../logo/Logo_white_long_transparent.png"></a>
+
+    [Transparent background Dark PNG](Logo_white_long_transparent.png)
 
 ### Vertical
 
 !!! danger ""
-    **[Gradient Light PNG](Logo_white_long_transparent.png)**
 
-    <a href="../logo/Logo_stroke_black_square.png" class="logo"><img width="480" src="../logo/Logo_stroke_black_square.png"></a>
+    <a href="../logo/Logo_stroke_black_square.png" class="logo logo2"><img width="480" src="../logo/Logo_stroke_black_square.png"></a>
 
-!!! danger ""
-    **[No Text Light PNG](Logo_stroke.png)**
-
-    <a href="../logo/Logo_stroke.png" class="logo"><img width="480" src="../logo/Logo_stroke.png"></a>
+    [Gradient Light PNG](Logo_white_long_transparent.png)
 
 !!! danger ""
-    **[Light PNG](Logo_black_square.png)**
 
-    <a href="../logo/Logo_black_square.png" class="logo"><img width="480" src="../logo/Logo_black_square.png"></a>
+    <a href="../logo/Logo_stroke.png" class="logo logo2"><img width="80%" src="../logo/Logo_stroke.png"></a>
+
+    [No Text Light PNG](Logo_stroke.png)
 
 !!! danger ""
-    **[Dark PNG](Logo_white_square.png)**
+
+    <a href="../logo/Logo_black_square.png" class="logo logo2"><img width="480" src="../logo/Logo_black_square.png"></a>
+
+    [Light PNG](Logo_black_square.png)
+
+!!! danger ""
 
     <a href="../logo/Logo_white_square.png" class="logo"><img width="480" src="../logo/Logo_white_square.png"></a>
 
+    [Dark PNG](Logo_white_square.png)
+
 !!! danger ""
-    **[Transparent background Light PNG](Logo_black_square_transparent.png)**
 
     <a href="../logo/Logo_black_square_transparent.png" class="logo logo2"><img width="480" src="../logo/Logo_black_square_transparent.png"></a>
 
+    [Transparent background Light PNG](Logo_black_square_transparent.png)
+
 !!! danger ""
-    **[Transparent background Dark PNG](Logo_white_square_transparent.png)**
 
     <a href="../logo/Logo_white_square_transparent.png" class="logo"><img width="480" src="../logo/Logo_white_square_transparent.png"></a>
 
+    [Transparent background Dark PNG](Logo_white_square_transparent.png)
+
 ## Logotypes
 ### Default
-[](logo/.png) | [](logo/.png) | [](logo/.png)
 
 !!! danger ""
-    **[Light PNG](logo_black.png)**
 
-    <a href="../logo/logo_black.png" class="logo"><img width="480" src="../logo/logo_black.png"></a>
+    <a href="../logo/logo_black.png" class="logo"><img width="80%" src="../logo/logo_black.png"></a>
 
-!!! danger ""
-    **[Dark PNG](logo_white.png)**
-
-    <a href="../logo/logo_white.png" class="logo"><img width="480" src="../logo/logo_white.png"></a>
+    [Light PNG](logo_black.png)
 
 !!! danger ""
-    **[Gradient PNG](logo_gradient.png)**
 
-    <a href="../logo/logo_gradient.png" class="logo"><img width="480" src="../logo/logo_gradient.png"></a>
+    <a href="../logo/logo_white.png" class="logo"><img width="80%" src="../logo/logo_white.png"></a>
+
+    [Dark PNG](logo_white.png)
+
+!!! danger ""
+
+    <a href="../logo/logo_gradient.png" class="logo"><img width="80%" src="../logo/logo_gradient.png"></a>
+
+    [Gradient PNG](logo_gradient.png)
