@@ -40,3 +40,7 @@ window.MathJax = {
   showProcessingMessages: false,
   messageStyle: "none"
 };
+
+  $(document).ready(function(){
+    $('a[href^="http://"], a[href^="https://"]').not('a[href*=aragon\.org]').attr('target','_blank');
+  });

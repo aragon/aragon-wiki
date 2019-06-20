@@ -1,4 +1,4 @@
-# Aragon Governance
+# Aragon Network Governance
 
 !!! quote ""
     - Learn about the [**Aragon Governance Proposal process**](https://github.com/aragon/AGPs/blob/master/AGPs/AGP-1.md)

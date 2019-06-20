@@ -8,7 +8,9 @@
 
     - [x] Create a new [hackmd](https://hackmd.io) document titled “All Aragon Devs #X”, with the number of the call.
 
-      - Uq
+        - Use the notes template and add the agenda to the "Agenda" section.
+        - Set both read and write permissions to "public", and add a link to this document to the matching calendar event
+        - Send this document to established teams or members to allow them to add their own agenda items directly
 
     - [x] Create another hackmd document, this one titled “All Aragon Devs #X (agenda)”, with the number of the call.
 
@@ -32,30 +34,30 @@
 !!! quote ""
     ## Step 4. Running the livestream
 
-    1. Open designated [Jitsi](https://meet.jit.si) channel (currently [aragondev](https://meet.jit.si/aragondev)), and paste the notes hackmd document.
+    - [x] Open designated [Jitsi](https://meet.jit.si) channel (currently [aragondev](https://meet.jit.si/aragondev)), and paste the notes hackmd document.
 
-    2. Start livestream in Jitsi when the meeting is scheduled to start.
+    - [x] Start livestream in Jitsi when the meeting is scheduled to start.
 
         - More actions menu button -> Start livestream
 
-    3. Welcome viewers and participants on the call. “Before we begin..” Designate a note taker if one has not volunteered already. Tell everyone on the call that a link to the notes is in the Jitsi chat, and anyone is welcome to add notes as well.
+    - [x] Welcome viewers and participants on the call. “Before we begin..” Designate a note taker if one has not volunteered already. Tell everyone on the call that a link to the notes is in the Jitsi chat, and anyone is welcome to add notes as well.
 
         - Document meeting attendees, agenda items, notes from discussions.
 
-    4. Do roll call and introduce anyone new to the call.
+    - [x] Do roll call and introduce anyone new to the call.
 
-    5. Run through each agenda item and pass to item owner to lead. Conclude each item discussion by repeating and documenting action items.
+    - [x] Run through each agenda item and pass to item owner to lead. Conclude each item discussion by repeating and documenting action items.
 
-    6. Keep meeting running on time. The goal is to have all agenda items addressed by the scheduled end time.
+    - [x] Keep meeting running on time. The goal is to have all agenda items addressed by the scheduled end time.
 
-    7. If all agenda items are covered before the scheduled end time, the meeting is done early.
+    - [x] If all agenda items are covered before the scheduled end time, the meeting is done early.
 
-    8. Thank participants and viewers for attending, then stop the livestream.
+    - [x] Thank participants and viewers for attending, then stop the livestream.
 
 !!! quote ""
     ## Step 5. Post-livestream follow-up
 
-    - [x] Under `/docs/videos/meeting_notes/all_aragon_devs`, create a notes file titled “alldevs[date].md”, with the date of the next call in `YYYYMMDD` format e.g. `alldevs20181008.md`.
+    - [x] Under `/docs/all_devs/notes/`, create a notes file titled “alldevs[date].md”, with the date of the next call in `YYYYMMDD` format e.g. `alldevs20181008.md`.
 
     - [x] Copy + paste the notes and video recording link to the notes document. Polish and fill out any remaining empty sections accordingly.
 
