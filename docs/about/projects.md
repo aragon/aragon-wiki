@@ -15,13 +15,13 @@
     These are projects that are currently already using the [aragonOS architecture](https://hack.aragon.org/docs/aragonos-ref.html) or parts of it
 
     - [DAppNode](https://dappnode.io)
-      - Uses the Aragon Package Manager as a part of their project, as well as a DAO to manage their NFTs
+        - Uses the Aragon Package Manager as a part of their project, as well as a DAO to manage their NFTs
 
     - [Decentraland](https://decentraland.org/)
-      - Uses [Proxy](https://hack.aragon.org/docs/aragonos-ref.html#3-upgradeability) feature from aragonOS as a part of their project
+        - Uses [Proxy](https://hack.aragon.org/docs/aragonos-ref.html#3-upgradeability) feature from aragonOS as a part of their project
 
     - [Giveth](https://giveth.io)
-      - Uses [Proxy](https://hack.aragon.org/docs/aragonos-ref.html#3-upgradeability) feature from aragonOS as a part of their liquidPledging system and will eventually move the entire DApp to Aragon.
+        - Uses [Proxy](https://hack.aragon.org/docs/aragonos-ref.html#3-upgradeability) feature from aragonOS as a part of their liquidPledging system and will eventually move the entire DApp to Aragon.
 
 !!! quote ""
     ## Powered by Aragon

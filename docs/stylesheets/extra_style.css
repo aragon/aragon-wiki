@@ -203,7 +203,6 @@ html .md-footer-meta.md-typeset a {
     font-weight: 400;
     font-size: 14px;
   }
-
   .md-sidebar--secondary .md-nav__link {
     margin-left: .1rem;
   }
@@ -405,8 +404,8 @@ h1#aragon-wiki {
   margin-bottom: 30px;
 }
 
-.md-footer {
-  margin-top: 3rem;
+.md-content__inner {
+  padding-bottom: 3rem;
 }
 
 .admonition.note>.admonition-title {

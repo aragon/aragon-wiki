@@ -27,12 +27,34 @@
 
 !!! quote ""
     ## **Aragon One**
-    <img src="../../design/A1/logo/aragon-one-lineart-black-transparent.png" style="width:200px;">
+    <img src="../../archive/design/A1/logo/aragon-one-lineart-black-transparent.png" style="width:200px;">
 
     !!! danger ""
-        Aragon One is a company that encompasses the foundational team working on the Aragon Project.
+        Aragon One is a Swiss company formed by the founders of the Aragon project, building the tools and community necessary for the project to succeed.
+
+        The company is funded primarily through grants given by the Aragon Association, the non-profit steward of the Aragon project.
 
         **Website:** [https://aragon.one](https://aragon.one)
+
+!!! quote ""
+    ## **Autark**
+    <img src="../../design/logo/autark/autarklogo.webp" style="width:200px;">
+
+    !!! note ""
+        Autark is a new organization that is to be established for the purpose of advancing life on Earth, with a special focus on DAOs, Aragon, worker-autonomy, and access to tools that support the global development of complex mega-projects.
+
+        **Website:** [https://www.autark.xyz/](https://www.autark.xyz/)
+
+!!! quote ""
+    ## **Aragon Black**
+    <img src="../../design/logo/aragon_black/aragon_black_logo.png" style="width:200px;">
+
+    !!! note ""
+        Aragon Black is a team whose core members come majoritarily from the PandoNetwork team [mostly known in the ecosystem for the development of the pando protocol]. The PandoNetwork team has been working closely with the Aragon ecosystem for almost a year now and has been the recipient of two Aragon Nest grants.
+
+        Aragon Black is the banner below which the Pando team has gathered to continue developing a decentralized VCS enabling coordination and the rise of new collaborative projects, to carry the Aragon manifesto’s values and finally to help in creating Aragon applications allowing human autonomy.
+
+        **Website:** [https://www.aragon.black/](https://www.aragon.black/)
 
 !!! quote ""
     ## **Aragon Chat**

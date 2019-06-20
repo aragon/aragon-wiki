@@ -20,23 +20,23 @@
 !!! quote ""
     ### Aragon Project
 
-    Find a full set of Aragon Project resources under [Design section](../design/logo/) of the Wiki.
+    Find a full set of Aragon Project resources under [Design section](../../../design/branding/project) of the Wiki.
 
-    [<img src="../../design/logo/svg/imagetype.svg" style="max-width:40rem;">](../../design/logo/)
+    [<img src="../../../design/logo/svg/imagetype.svg" style="max-width:80%;">](../../../design/branding/project)
 
 !!! quote ""
     ### Aragon Network Token
 
-    Find a full set of Aragon Network Token resources under [Design section](../design/artwork/#aragon-network-token) of the Wiki.
+    Find a full set of Aragon Network Token resources under [Design section](../../../design/branding/network/#aragon-network-token) of the Wiki.
 
-    [<img src="../../design/artwork/ANT/ANT02.png" style="max-width:40rem;">](../../design/artwork/#aragon-network-token)
+    [<img src="../../../design/artwork/ANT/ANT02.png" style="max-width:80%;">](../../../design/branding/network/#aragon-network-token)
 
 !!! quote ""
     ### Aragon Network
 
-    Find a full set of Aragon Network resources under [Design section](../design/artwork/#aragon-network) of the Wiki.
+    Find a full set of Aragon Network resources under [Design section](../../../design/branding/network) of the Wiki.
 
-    [<img src="../../design/artwork/ANJ/ANJ01.png" style="max-width:40rem;">](../../design/artwork/#aragon-network)
+    [<img src="../../../design/artwork/ANJ/ANJ01.png" style="max-width:80%;">](../../../design/branding/network)
 
 ## Founders
 
@@ -45,14 +45,14 @@
 
     He cofounded the blockchain startup [Stampery](https://stampery.com/). Prior to founding startups, he created the world's first Linux distribution with facelogin. Advisor to a few crypto projects that awake his curiosity.
 
-    <img src="../press-kit/team/Luis_Aragon_Project_Lead.jpg" style="max-width:40rem;">
+    [<img src="../press-kit/team/Luis_Cuende_Aragon.jpg" style="max-width:400px;">](../press-kit/team/Luis_Cuende_Aragon.jpg)
 
 !!! abstract "Jorge Izquierdo – Aragon Project Co-Founder & CTO of Aragon One"
     Curious hacker, creator of multiple apps for iOS and macOS. Reached App Store's #2. Always tinkering with new tech. Named as a [2017 class of Thiel Fellows](https://www.businesswire.com/news/home/20170616005607/en).
 
     Already convinced about the decentralized future of the Internet, he has been building toy projects such as a [mesh network](http://github.com/izqui/net) or a small [blockchain implementation](http://github.com/izqui/blockchain) since 2014.
 
-    <img src="../press-kit/team/Jorge_Aragon_Tech_Lead.jpg" style="max-width:40rem;">
+    [<img src="../press-kit/team/Jorge_Izquierdo_Aragon.jpg" style="max-width:400px;">](../press-kit/team/Jorge_Izquierdo_Aragon.jpg)
 
 !!! quote ""
     ## AraCon
@@ -67,26 +67,26 @@
 ### Resources for AraCon
 
 !!! quote "Logo with background"
-    [<img src="../../design/logo/AraCon/AraCon_logo.png">](../design/logo/AraCon/AraCon_logo.png)
+    [<img src="../../../design/logo/AraCon/AraCon_logo.png">](../../../design/logo/AraCon/AraCon_logo.png)
 ___
 !!! quote "Logo with background (small)"
-    [<img src="../../design/logo/AraCon/AraCon_logo_small.png">](../design/logo/AraCon/AraCon_logo_small.png)
+    [<img src="../../../design/logo/AraCon/AraCon_logo_small.png">](../../../design/logo/AraCon/AraCon_logo_small.png)
 ___
 !!! quote "Text logo with dark text"
-    [<img src="../../design/logo/AraCon/AraCon_typography_dark.png">](../design/logo/AraCon/AraCon_typography_dark.png)
+    [<img src="../../../design/logo/AraCon/AraCon_typography_dark.png">](../../../design/logo/AraCon/AraCon_typography_dark.png)
 ___
 !!! quote "Text logo with light text"
-    [<img src="../../design/logo/AraCon/AraCon_typography.png">](../design/logo/AraCon/AraCon_typography.png)
+    [<img src="../../../design/logo/AraCon/AraCon_typography.png">](../../../design/logo/AraCon/AraCon_typography.png)
 ___
 !!! quote "Announcement graphics"
-    [<img src="../../design/logo/AraCon/aracon12.png">](../design/logo/AraCon/aracon12.png)
-    [<img src="../../design/logo/AraCon/aracon11.png">](../design/logo/AraCon/aracon11.png)
+    [<img src="../../../design/logo/AraCon/aracon12.png">](../../../design/logo/AraCon/aracon12.png)
+    [<img src="../../../design/logo/AraCon/aracon11.png">](../../../design/logo/AraCon/aracon11.png)
 ___
 !!! quote "Themes"
-    [<img src="../../design/logo/AraCon/aracon_themes01.png">](../design/logo/AraCon/aracon_themes01.png)
+    [<img src="../../../design/logo/AraCon/aracon_themes01.png">](../../../design/logo/AraCon/aracon_themes01.png)
     ___
-    [<img src="../../design/logo/AraCon/aracon_themes02.png">](../design/logo/AraCon/aracon_themes02.png)
+    [<img src="../../../design/logo/AraCon/aracon_themes02.png">](../../../design/logo/AraCon/aracon_themes02.png)
     ___
-    [<img src="../../design/logo/AraCon/aracon_themes03.png">](../design/logo/AraCon/aracon_themes03.png)
+    [<img src="../../../design/logo/AraCon/aracon_themes03.png">](../../../design/logo/AraCon/aracon_themes03.png)
     ___
-    [<img src="../../design/logo/AraCon/aracon_themes04.png">](../design/logo/AraCon/aracon_themes04.png)
+    [<img src="../../../design/logo/AraCon/aracon_themes04.png">](../../../design/logo/AraCon/aracon_themes04.png)

@@ -1,161 +1,190 @@
 # Aragon Presentations
 
-!!! abstract "Creating a global co-op with Aragon by Luis Cuende at [**Progressbar**](https://cowork.progressbar.sk/)"
+!!! abstract ""
+    <h4>Creating a global co-op with Aragon by Luis Cuende at [**Progressbar**](https://cowork.progressbar.sk/)</h4>
 
     <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Z1En-Xw2NX0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-!!! abstract "Upgrading Aragon Voting Infrastructure by Jorge Izquierdo at [**EthCC 2**](https://ethcc.io/)"
+!!! abstract ""
+    <h4>Upgrading Aragon Voting Infrastructure by Jorge Izquierdo at [**EthCC 2**](https://ethcc.io/)</h4>
 
     <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/iPgnJWJWuY4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-    > [Slides of the presentation](../documentation/slides/ETHCC-Aragon-Voting.pdf)
+     [Slides of the presentation](../../slides/ETHCC-Aragon-Voting.pdf)
 
-!!! abstract "Launching Decentralized Organizations Using Aragon by Tommy Cox at [**#BUIDLweek #ETHDenver**](https://www.ethdenver.com/buidlweek/)"
+!!! abstract ""
+    <h4>Launching Decentralized Organizations Using Aragon by Tommy Cox at [**#BUIDLweek #ETHDenver**](https://www.ethdenver.com/buidlweek/)</h4>
 
     <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/mV4Zrl2yY2M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-    > [Slides of the presentation](../documentation/slides/Launching_Decentralized_Organizations_On_Aragon.pdf)
+    > [Slides of the presentation](../../slides/Launching_Decentralized_Organizations_On_Aragon.pdf)
 
-!!! abstract "Bringing Your Own Governance Model to Aragonby Jorge Izquierdo at [**M-1**](https://m-1.melonport.com/)"
+!!! abstract ""
+    <h4>Bringing Your Own Governance Model to Aragonby Jorge Izquierdo at [**M-1**](https://m-1.melonport.com/)</h4>
 
     <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/gEcaPRkcfR8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-    > [Slides of the presentation](../documentation/slides/M1-Jorge-Bring-Your-Governance-To-Aragon.pdf)
+    > [Slides of the presentation](../../slides/M1-Jorge-Bring-Your-Governance-To-Aragon.pdf)
 
-!!! abstract "Creating Truly Decentralized Browser Applications by Luis Cuende at [**ReactiveConf 2018**](https://reactiveconf.com/)"
+!!! abstract ""
+    <h4>Creating Truly Decentralized Browser Applications by Luis Cuende at [**ReactiveConf 2018**](https://reactiveconf.com/)</h4>
 
     <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/AL4Commsu-U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-    > [Slides of the presentation](../documentation/slides/ReactiveConf_Luis-Cuende.pdf)
+    > [Slides of the presentation](../../slides/ReactiveConf_Luis-Cuende.pdf)
 
-!!! abstract "DAOs and the Web3 Vision by Luis Cuende at [**Web3 Summit**](https://web3summit.com)"
+!!! abstract ""
+    <h4>DAOs and the Web3 Vision by Luis Cuende at [**Web3 Summit**](https://web3summit.com)</h4>
 
     <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/YG3a5ihbkAQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-    > [Slides of the presentation](../documentation/slides/Web3-Summit_Luis-Cuende.pdf)
+    > [Slides of the presentation](../../slides/Web3-Summit_Luis-Cuende.pdf)
 
-!!! abstract "DAOs are the New Order by Luis Cuende at [**HCPP 2018**](https://neworder.hcpp.cz/)"
+!!! abstract ""
+    <h4>DAOs are the New Order by Luis Cuende at [**HCPP 2018**](https://neworder.hcpp.cz/)</h4>
 
     <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/wDZVAtFm_CI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-    > [Slides of the presentation](../documentation/slides/DAOs-are-the-New-Order_Luis-Cuende.pdf)
+    > [Slides of the presentation](../../slides/DAOs-are-the-New-Order_Luis-Cuende.pdf)
 
-!!! abstract "True Decentralization by Luis Cuende at [**ETHBerlin**](https://ethberlin.com/)"
+!!! abstract ""
+    <h4>True Decentralization by Luis Cuende at [**ETHBerlin**](https://ethberlin.com/)</h4>
 
     <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/z9_DcXKC-Cs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-    > [Slides of the presentation](../documentation/slides/True-decentralization_Luis-Cuende_Aragon.pdf)
+    > [Slides of the presentation](../../slides/True-decentralization_Luis-Cuende_Aragon.pdf)
 
-!!! abstract "Building Modular Organizations by Brett Sun at [**DappCon**](https://www.dappcon.io/)"
+!!! abstract ""
+    <h4>Building Modular Organizations by Brett Sun at [**DappCon**](https://www.dappcon.io/)</h4>
 
     <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Zpu8tvCCpNQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-    > [Slides of the presentation](../documentation/slides/Aragon_DappCon.pdf)
+    > [Slides of the presentation](../../slides/Aragon_DappCon.pdf)
 
-!!! abstract "Developing Decentralized Networks - Aragon by Tatu Kärki at [**Helsinki Ethereum Meetup**](https://www.meetup.com/Helsinki-Ethereum-Meetup/)"
+!!! abstract ""
+    <h4>Developing Decentralized Networks - Aragon by Tatu Kärki at [**Helsinki Ethereum Meetup**](https://www.meetup.com/Helsinki-Ethereum-Meetup/)</h4>
 
     <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/7JxMj8Woylo?start=5324" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-    > [Slides of the presentation](../documentation/slides/Tatu_Helsinki.pdf)
+    > [Slides of the presentation](../../slides/Tatu_Helsinki.pdf)
 
-!!! abstract "Aragon Dev Meetup at BlueYard - Building upgradeable organizations on the blockchain by Brett Sun at [**BlueYard Capital**](http://blueyard.com/)"
+!!! abstract ""
+    <h4>Aragon Dev Meetup at BlueYard - Building upgradeable organizations on the blockchain by Brett Sun at [**BlueYard Capital**](http://blueyard.com/)</h4>
 
     <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/atEnUHLaPE0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-    > [Slides of the presentation](../documentation/slides/Aragon_Blueyard.pdf)
+    > [Slides of the presentation](../../slides/Aragon_Blueyard.pdf)
 
-!!! abstract "Gitcoin Livestream #1: Aragon Project by Tatu Kärki at [**Gitcoin**](https://gitcoin.co/)"
+!!! abstract ""
+    <h4>Gitcoin Livestream #1: Aragon Project by Tatu Kärki at [**Gitcoin**](https://gitcoin.co/)</h4>
 
     <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/M4Me4lr_9Dk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-!!! abstract "ETHBuenosAires: Your First Aragon App by Jorge Izquierdo and Luke Duncan at [**ETHBuenosAires**](https://ethbuenosaires.com/)"
+!!! abstract ""
+    <h4>ETHBuenosAires: Your First Aragon App by Jorge Izquierdo and Luke Duncan at [**ETHBuenosAires**](https://ethbuenosaires.com/)</h4>
 
     <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/zboAzSq3Dz8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-    > [Slides of the presentation](../documentation/slides/EthBAWorkshop.pdf)
+    > [Slides of the presentation](../../slides/EthBAWorkshop.pdf)
 
-!!! abstract "ETHBuenosAires Keynote: Aragon by Luis Cuende at [**ETHBuenosAires**](https://ethbuenosaires.com/)"
+!!! abstract ""
+    <h4>ETHBuenosAires Keynote: Aragon by Luis Cuende at [**ETHBuenosAires**](https://ethbuenosaires.com/)</h4>
 
     <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/nwq5d1zeGjk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-    > [Slides of the presentation](../documentation/slides/ETHBA.pdf)
+    > [Slides of the presentation](../../slides/ETHBA.pdf)
 
-!!! abstract "SFCDEVs Presents: Nelly Mensah interviews the Aragon Team by Brett Sun and John Light at [**SF Cryptocurrency Devs meetup**](https://www.meetup.com/SF-Cryptocurrency-Devs/events/249946893/)"
+!!! abstract ""
+    <h4>SFCDEVs Presents: Nelly Mensah interviews the Aragon Team by Brett Sun and John Light at [**SF Cryptocurrency Devs meetup**](https://www.meetup.com/SF-Cryptocurrency-Devs/events/249946893/)</h4>
 
     <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/ZAqmkrLH-JQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-!!! abstract "SFCDevs Presents: From the Eyes of an Eagle: The Technical Landscape of Aragon by Brett Sun at [**SF Cryptocurrency Devs meetup**](https://www.meetup.com/SF-Cryptocurrency-Devs/events/249946893/)"
+!!! abstract ""
+    <h4>SFCDevs Presents: From the Eyes of an Eagle: The Technical Landscape of Aragon by Brett Sun at [**SF Cryptocurrency Devs meetup**](https://www.meetup.com/SF-Cryptocurrency-Devs/events/249946893/)</h4>
 
     <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/jFjWjkhLPZ8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-    > [Slides of the presentation](../documentation/slides/Aragon_SF_technical.pdf)
+    > [Slides of the presentation](../../slides/Aragon_SF_technical.pdf)
 
-!!! abstract "Luis - Radspec: A Safe Alternative to Ethereum's Natspec to Make Transactions Human-readable by Luis Cuende at [**Web3 UX Unconference**](https://www.youtube.com/channel/UC5rc5OmS0BlqMbUfFrXpxag)"
+!!! abstract ""
+    <h4>Luis - Radspec: A Safe Alternative to Ethereum's Natspec to Make Transactions Human-readable by Luis Cuende at [**Web3 UX Unconference**](https://www.youtube.com/channel/UC5rc5OmS0BlqMbUfFrXpxag)</h4>
 
     <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/O9DSrLZyLUs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-    > [Slides of the presentation](../documentation/slides/Web3_UX_unconf.pdf)
+    > [Slides of the presentation](../../slides/Web3_UX_unconf.pdf)
 
-!!! abstract "Creating a Democratic Decentralized Blockchain Organization in 10 minutes by Luis Cuende at [**WeAreDevelopers World Congress 2018**](https://www.wearedevelopers.com/)"
+!!! abstract ""
+    <h4>Creating a Democratic Decentralized Blockchain Organization in 10 minutes by Luis Cuende at [**WeAreDevelopers World Congress 2018**](https://www.wearedevelopers.com/)</h4>
 
     <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/0G2jwV4XK54" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-    > [Slides of the presentation](../documentation/slides/WeAreDevs.pdf)
+    > [Slides of the presentation](../../slides/WeAreDevs.pdf)
 
-!!! abstract "Experimenting with Governance at the Speed of Software by Luis Cuende at [**Blockchain Summit - Crypto Valley 2018**](https://blockchainsummit.ch/events/zug-2018)"
+!!! abstract ""
+    <h4>Experimenting with Governance at the Speed of Software by Luis Cuende at [**Blockchain Summit - Crypto Valley 2018**](https://blockchainsummit.ch/events/zug-2018)</h4>
 
     <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/zuPGYkDUx7E?start=13938" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-    > [Slides of the presentation](../documentation/slides/Blockchain_Summit.pdf)
+    > [Slides of the presentation](../../slides/Blockchain_Summit.pdf)
 
-!!! abstract "Ethereum Community Tour Asia: Japan - Aragon by Tatu Kärki at [**Ethereum Japan Meetup**](https://www.meetup.com/Ethereum-Japan/)"
+!!! abstract ""
+    <h4>Ethereum Community Tour Asia: Japan - Aragon by Tatu Kärki at [**Ethereum Japan Meetup**](https://www.meetup.com/Ethereum-Japan/)</h4>
 
     <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/DfHlspnVEkE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-    > [Slides of the presentation](../documentation/slides/Aragon_Asia-Japan.pdf)
+    > [Slides of the presentation](../../slides/Aragon_Asia-Japan.pdf)
 
-!!! abstract "From Zero to a Community-driven DAO in 15 minutes by Luis Cuende at [**EDCON**](https://edcon.io/)"
+!!! abstract ""
+    <h4>From Zero to a Community-driven DAO in 15 minutes by Luis Cuende at [**EDCON**](https://edcon.io/)</h4>
 
     <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/NJ9StJThxZY?start=9985" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-    > [Slides of the presentation](../documentation/slides/luis_edcon2018.pdf)
+    > [Slides of the presentation](../../slides/luis_edcon2018.pdf)
 
-!!! abstract "aragonOS walkthrough with Luis Cuende at [**Primitive**](https://primitive.io)"
+!!! abstract ""
+    <h4>aragonOS walkthrough with Luis Cuende at [**Primitive**](https://primitive.io)</h4>
 
     <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/lpTHw0qRfwM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-!!! abstract "Approaching Infinity: Governance & The Case for Experimentation by Brett Sun at [**Blockstack Signature Berlin 2018**](https://blockstack.org/berlin2018)"
+!!! abstract ""
+    <h4>Approaching Infinity: Governance & The Case for Experimentation by Brett Sun at [**Blockstack Signature Berlin 2018**](https://blockstack.org/berlin2018)</h4>
 
     <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/nn1HsC99wcM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-    > [Slides of the presentation](../documentation/slides/Blockstack_Berlin.pdf)
+    > [Slides of the presentation](../../slides/Blockstack_Berlin.pdf)
 
-!!! abstract "The Aragon Masterplan by Jorge Izquierdo at **Google Crypto Meetup**"
+!!! abstract ""
+    <h4>The Aragon Masterplan by Jorge Izquierdo at **Google Crypto Meetup**</h4>
 
-    > [Slides of the presentation](../documentation/slides/the-aragon-masterplan.pdf)
+    > [Slides of the presentation](../../slides/the-aragon-masterplan.pdf)
 
-!!! abstract "Jorge Izquierdo presents Aragon at ETHDenver 2018 by Jorge Izquierdo at [**ETHDenver**](https://ethdenver.com)"
+!!! abstract ""
+    <h4>Jorge Izquierdo presents Aragon at ETHDenver 2018 by Jorge Izquierdo at [**ETHDenver**](https://ethdenver.com)</h4>
 
     <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/6x9bzlU8Q9E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-!!! abstract "Democratizing Governance by Luis Cuende at [**Aragon Meetup - Helsinki**](https://www.meetup.com/Aragon-Meetup/events/245079105/)"
+!!! abstract ""
+    <h4>Democratizing Governance by Luis Cuende at [**Aragon Meetup - Helsinki**](https://www.meetup.com/Aragon-Meetup/events/245079105/)</h4>
 
     <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/AULH7Qw7RCk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-    > [Slides of the presentation](../documentation/slides/Helsinki.pdf)
+    > [Slides of the presentation](../../slides/Helsinki.pdf)
 
-!!! abstract "María Gomez - ARAGON @ Blockchain Day by María Gomez at [**Innovations Forum Blockchain Day**](http://innovationsforum-hamburg.de/)"
+!!! abstract ""
+    <h4>María Gomez - ARAGON @ Blockchain Day by María Gomez at [**Innovations Forum Blockchain Day**](http://innovationsforum-hamburg.de/)</h4>
 
     <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/GYvG2cTmLh8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-!!! abstract "Designing future-proof smart contract systems by Jorge Izquierdo at [**Devcon3**](https://ethereumfoundation.org/devcon3/)"
+!!! abstract ""
+    <h4>Designing future-proof smart contract systems by Jorge Izquierdo at [**Devcon3**](https://ethereumfoundation.org/devcon3/)</h4>
 
     <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/sJ7VECqHFAg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-    > [Slides of the presentation](../documentation/slides/devcon3.pdf)
+    > [Slides of the presentation](../../slides/devcon3.pdf)
 
-!!! abstract "Governance: Main challenges and 3 possible models by Luis Cuende at [**M-0**](https://m-0.melonport.com/)"
+!!! abstract ""
+    <h4>Governance: Main challenges and 3 possible models by Luis Cuende at [**M-0**](https://m-0.melonport.com/)</h4>
 
     <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/54ARHG7gS6M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-    > [Slides of the presentation](../documentation/slides/M0.pdf)
+    > [Slides of the presentation](../../slides/M0.pdf)

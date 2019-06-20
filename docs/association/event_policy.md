@@ -10,4 +10,4 @@ Aragon has been a proud sponsor and participant in numerous Ethereum and blockch
     - Aragon wants to encourage community members to organize events like meetups, hackathons and other community events. We are happy to support and help you organize such an Aragon related community event and will consider backing such events on a case-by-case basis.
     - A large-scale event has to be relevant to what Aragon is building and provide an ample forum for presenting Aragon at the event.
     - The event has to be supportive of the goals and values of the [Aragon Manifesto](https://github.com/aragon/AGPs/blob/master/AGPs/AGP-0.md).
-    - The event must have a Code of Conduct that doesn't tolerate harassment of participants in any form and shares sentiment and values with the [Aragon Code of Conduct](https://wiki.aragon.org/documentation/Code_of_Conduct/).
+    - The event must have a Code of Conduct that doesn't tolerate harassment of participants in any form and shares sentiment and values with the [Aragon Code of Conduct](../about/Code_of_Conduct.md).

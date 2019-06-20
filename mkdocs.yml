@@ -80,6 +80,7 @@ nav:
         - Privacy policy: 'association/legal/Privacy_policy.md'
     - Aragon Network:
       - Overview: 'network/index.md'
+      - Aragon Network Token: 'network/aragon_network_token.md'
       - Governance:
         - Overview: 'network/governance/index.md'
         - Aragon Governance Proposals: 'https://github.com/aragon/AGPs'
