@@ -70,6 +70,7 @@ nav:
       - Code of Conduct: 'about/Code_of_Conduct.md'
       - Third-party Projects: 'about/projects.md'
     - Aragon Association:
+      - Overview: 'association/index.md'
       - Event Policy: 'association/event_policy.md'
       - Association ANT Policy: 'association/association_ant.md'
       - Legal:
