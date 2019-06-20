@@ -1,6 +1,6 @@
 # **History & Vision**
 <center>
-<img src="../../images/development_plan/02.png" width="50%"><img src="../../images/development_plan/03.png" width="50%">
+<img src="../../archive/images/development_plan/02.png" width="50%"><img src="../../archive/images/development_plan/03.png" width="50%">
 </center>
 
 Luis and Jorge have been dreaming of a decentralized world for years. They met via Twitter when they were only 15 years old, and immediately started building products together.
@@ -14,7 +14,7 @@ Luis has also been recognized as a [30 Under 30 by Forbes](https://www.forbes.co
 Before building Aragon, Luis and Jorge were in Silicon Valley working on solving the problem of patent trolls with Unpatent. After figuring out how broken the underlying infrastructure of innovation is—patent trolls thriving, Donald Trump winning the elections, bureaucracy eating entrepreneurship—they decided to focus all of their time in building the infrastructure that new companies and organizations will run on top of. 
 
 <center>
-<img src="../../images/development_plan/04.png">
+<img src="../../archive/images/development_plan/04.png">
 </center>
 
 When talking about Aragon, taking a step back and thinking about the why of organizational structures like companies is a sane move.

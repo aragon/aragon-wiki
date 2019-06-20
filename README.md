@@ -30,7 +30,7 @@ If you feel like contributing to the wiki, like changing or adding things, feel 
 Follow these steps:
 
 - Fork the [Aragon Wiki GitHub repository](https://github.com/aragon/aragon-wiki)
-- **Create a Pull Request** with your proposed changes to have your contribtuion merged into the Wiki repository.
+- **Create a Pull Request** with your proposed changes to have your contribution merged into the Wiki repository.
 
 ## To deploy changes in the wiki to web:
 
