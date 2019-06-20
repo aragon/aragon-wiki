@@ -1,6 +1,6 @@
 # Aragon One
 
-<img src="../../../design/A1/logo/aragon-one-lineart-black-transparent.png" style="width:75%">
+<img src="../design/A1/logo/aragon-one-lineart-black-transparent.png" style="width:75%">
 
 [Aragon One](https://blog.aragon.one/introducing-aragon-one-b14dd804c5ce/) is one of the development teams working on Aragon. [Aragon One](https://aragon.one/) is a company that encompasses the foundational team working on the [Aragon Project](https://aragon.org). The company is currently established in Switzerland, although we want it to function as a DAO as much as possible.
 

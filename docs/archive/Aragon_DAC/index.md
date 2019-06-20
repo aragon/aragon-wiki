@@ -1,6 +1,6 @@
 # Aragon DAC
 
-<img src="design/logo/Logo_ad.png" style="width:75%">
+<img src="../design/DAC/logo/Logo_ad.png" style="width:75%">
 
 > We are dedicated to making decentralized governance easy to implement in the real world by real people.
 

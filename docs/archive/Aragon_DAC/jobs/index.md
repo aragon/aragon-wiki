@@ -1,6 +1,6 @@
 # Aragon DAC Jobs
 
-<img src="../../design/logo/aragon_dac/Logo_ad.png" style="width:75%">
+<img src="../../design/DAC/logo/Logo_ad.png" style="width:75%">
 
 As part of the ongoing efforts to build out the Aragon infrastructure, the Aragon Foundation and Giveth are building the Aragon DAC, a Decentralized Altruistic Community run using the Giveth DApp building out core Aragon infrastructure from the end user's perspective.  Read more about our formation [here](https://blog.aragon.org/aragon-dac-a-new-community-effort-to-foster-aragons-development-led-by-giveth/).
 

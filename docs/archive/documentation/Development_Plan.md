@@ -1,8 +1,8 @@
 <center>
-<img src="../../images/logo_text_under_dark.png">
+<img src="../../../images/logo_text_under_dark.png">
 # Development Plan
 
-!!! warning "_**This documentation is currently somewhat outdated**_"
+!!! warning "_**This development plan has been deprecated in favor of the [project roadmap](https://aragon.org/project/roadmap/).**_"
 
     **Version**: 1.3
 
