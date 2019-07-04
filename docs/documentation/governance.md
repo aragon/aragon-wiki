@@ -17,8 +17,8 @@ These dates may change if an emergency delay is approved by the Aragon Associati
 
 - Proposals for this vote are due, Aragon Association review begins: **2019-07-11 at 16:00 UTC**
 - Aragon Association review ends, final community review begins: **2019-07-18 at 16:00 UTC**
-- Aragon Network Vote #2 begins: **2019-07-25 at 16:00 UTC**
-- Aragon Network Vote #2 ends, final results announced: **2019-07-27 at 16:00 UTC**
+- Aragon Network Vote #3 begins: **2019-07-25 at 16:00 UTC**
+- Aragon Network Vote #3 ends, final results announced: **2019-07-27 at 16:00 UTC**
 
 ## Approved AGPs
 
