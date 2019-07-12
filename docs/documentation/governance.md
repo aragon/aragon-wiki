@@ -6,7 +6,7 @@
 - Learn [**how the Aragon Association Board of Directors votes on proposals**](https://github.com/aragon/AGPs/blob/master/aa_board_review.md)
 - Vote on [**open proposals during an Aragon Network Vote**](https://survey.aragon.org)
 - See results from [**past Aragon Network Votes**](https://github.com/aragon/AGPs/tree/master/votes)
-- Sign up for the very-low-volume [**Aragon Network Vote alerts mailing list**](https://one.us15.list-manage.com/subscribe?u=a590aa3843a54b079d48e6e18&id=9b7f365936)
+- Sign up for the very-low-volume [**Aragon Network Vote Alerts email list**](https://one.us15.list-manage.com/subscribe?u=a590aa3843a54b079d48e6e18&id=9b7f365936)
 
 ## Important information for the next Aragon Network Vote
 
