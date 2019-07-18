@@ -22,15 +22,7 @@ Rewards will be awarded at the sole discretion of the Aragon Association. Qualit
 
 For this initial bug bounty program, there is a **maximum bounty pool of $250,000**.
 
-The bug bounty program will run for a minimum of three months, starting October 17th, 2018.
-
-## Reporting
-
-!!! note "Reporting a found vulnerability"
-    - In order to report a vulnerability, please write an email to security@aragon.org with [BUG BOUNTY] in the subject of the email.
-    - For sensitive vulnerabilities, please the encrypt the email using this [PGP key](rsc/security.asc) (Fingerprint: `B6D5 1396 4B9C 62B7`)
-    - We will make our best effort to reply in a timely manner and provide a timeline for resolution.
-    - Please include a detailed report on the vulnerability with clear reproduction steps. The quality of the report can impact the reward amount.
+The bug bounty program is ongoing and has ran since October 17th, 2018.
 
 ## Scope
 
@@ -44,17 +36,17 @@ In scope for the bug bounty are all the smart contract components of the Aragon 
         - Excluding `contracts/test/`
 
 !!! abstract "**aragon-apps** ([https://github.com/aragon/aragon-apps](https://github.com/aragon/aragon-apps/tree/master) on the [master branch](https://github.com/aragon/aragon-apps/tree/master))"
-    Contracts for Aragon apps developed by the Aragon Association and are used by default in most Aragon 0.6 organizations.
+    Contracts for Aragon apps developed by the Aragon Association and are installed by default in most Aragon organizations.
 
-    - Solidity code under `apps/**/contracts` (`voting`, `vault`, `finance`, `token-manager`, `survey`)
-        - Excluding `contracts/test`
+    - Solidity code under `apps/**/contracts` (`finance`, `token-manager`, `survey`, `vault`, `voting`)
+        - Excluding `contracts/test` and `contracts/example`
     - Solidity code under `shared/minime/contracts`
 
-!!! abstract "**dao-templates** ([https://github.com/aragon/dao-kits](https://github.com/aragon/dao-kits/tree/master) on the [master branch](https://github.com/aragon/dao-kits/tree/master))"
+!!! abstract "**dao-templates** ([https://github.com/aragon/dao-templates](https://github.com/aragon/dao-templates/tree/master) on the [master branch](https://github.com/aragon/dao-templates/tree/master), [Aragon 0.6 tag](https://github.com/aragon/dao-templates/tree/aragon-v0.6), and [Aragon 0.7 tag](https://github.com/aragon/dao-templates/tree/aragon-v0.7))"
     On-chain deployment templates for Aragon DAOs.
 
-    - Solidity code for the following templates: `bare`, `beta-base`, `democracy`, `multisig`, `survey`
-        - Excluding `contracts/test`
+    - Solidity code in the `templates/**/contracts` and `shared/contracts/`
+        - Excluding `templates/**/contracts/test` and `shared/contracts/test`
 
 You can find their deployed addresses on live networks in our [deployment documentation](https://github.com/aragon/deployments).
 

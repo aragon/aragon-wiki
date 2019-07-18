@@ -71,7 +71,9 @@ pages:
       - Fundraising: 'dev/apps/fundraising.md'
       - Vault: 'dev/apps/vault.md'
       - Finance: 'dev/apps/finance.md'
-    - Bug bounty: 'dev/bug_bounty.md'
+    - Security:
+      - Overview: 'dev/security/index.md'
+      - Bug bounty: 'dev/bug_bounty.md'
   - Tutorials:
     - Aragon User Guide: 'tutorials/Aragon_User_Guide.md'
   - Design:
