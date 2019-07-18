@@ -6,7 +6,7 @@ If you have found a potential vulnerability, please review the following instruc
 
 ## Reporting
 
-- In order to report a vulnerability, please write an email to `security@aragon.org` with [BUG BOUNTY] in the subject of the email.
+- In order to report a vulnerability, please write an email to `security@aragon.org` with [SECURITY DISCLOSURE] in the subject of the email.
 - For sensitive vulnerabilities, please the encrypt the email using this [PGP key](rsc/security.asc) (Fingerprint: `B6D5 1396 4B9C 62B7`)
 - We will make our best effort to reply in a timely manner and provide a timeline for resolution.
 - Please include a detailed report on the vulnerability with clear reproduction steps. The quality of the report can impact the reward amount.
