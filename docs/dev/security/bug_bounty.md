@@ -50,13 +50,6 @@ In scope for the bug bounty are all the smart contract components of the Aragon 
 
 You can find their deployed addresses on live networks in our [deployment documentation](https://github.com/aragon/deployments).
 
-## Areas of interest
-
-!!! tip "These are some examples of vulnerabilities that would be interesting"
-    - Bypassing ACL rules to get unauthorized access to an app.
-    - A user of an app performing an action that could freeze or lock the contract.
-    - Being able to escalate permissions using the Voting app or Token Manager without a proper vote being successful.
-
 ## Out of scope
 
 !!! question "What we consider out of scope for this bug bounty"
@@ -64,6 +57,13 @@ You can find their deployed addresses on live networks in our [deployment docume
     - Revocation of permissions or completely changing how a DAO operates due to important permission being granted through the proper processes.
     - Any frontend applications or client-side code interacting with the contracts, as well as testing code.
     - Mismatch of the functionality of the contracts and outdated spec documents.
+
+## Areas of interest
+
+!!! tip "These are some examples of vulnerabilities that would be interesting"
+    - Bypassing ACL rules to get unauthorized access to an app.
+    - A user of an app performing an action that could freeze or lock the contract.
+    - Being able to escalate permissions using the Voting app or Token Manager without a proper vote being successful.
 
 ## Resources
 
