@@ -17,7 +17,7 @@ During each Aragon Network Vote, Aragon Network Token ([ANT](aragon_network_toke
 
 **These are the methods currently available to cast a vote:**
 
-See section 2.2.3.3 of the [Aragon User Guide](https://wiki.aragon.org/tutorials/Aragon_User_Guide/#223-voting-app) for general instructions on voting using the Aragon app.
+See section 2.2.3.3 of the [Aragon User Guide](https://help.aragon.org/article/10-explore-the-democracy-organization#voting) for general instructions on voting using the Aragon app.
 
 ### Voting with keys stored in a Web3 mobile browser wallet
 
