@@ -73,7 +73,7 @@ pages:
       - Finance: 'dev/apps/finance.md'
     - Security:
       - Overview: 'dev/security/index.md'
-      - Bug bounty: 'dev/bug_bounty.md'
+      - Bug bounty: 'dev/security/bug_bounty.md'
   - Tutorials:
     - Aragon User Guide: 'tutorials/Aragon_User_Guide.md'
   - Design:
