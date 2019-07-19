@@ -24,6 +24,13 @@ For this initial bug bounty program, there is a **maximum bounty pool of $250,00
 
 The bug bounty program is ongoing and has ran since October 17th, 2018.
 
+## Reporting
+
+!!! note "Reporting a found vulnerability"
+    Please responsibly disclose any findings to the development team. You may find instructions on how to do so in the [security overview page](../).
+
+    Failure to do so will result in a finding being ineligible for any bounties.
+
 ## Scope
 
 In scope for the bug bounty are all the smart contract components of the Aragon client. They can be found on three main repositories:
