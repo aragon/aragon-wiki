@@ -7,4 +7,6 @@ To participate in the call, send an email to alldevs-at-aragon-dot-org with your
 
 # Next meeting agenda
 
+
 [All Devs #28](https://hackmd.io/@lg/S18ZnYAkB): August 05, 2019 9am PST / 12pm EST / 3pm UTC / 5pm CEST
+

@@ -6,7 +6,7 @@
 - Learn [**how the Aragon Association Board of Directors votes on proposals**](https://github.com/aragon/AGPs/blob/master/aa_board_review.md)
 - Vote on [**open proposals during an Aragon Network Vote**](https://survey.aragon.org)
 - See results from [**past Aragon Network Votes**](https://github.com/aragon/AGPs/tree/master/votes)
-- Sign up for the very-low-volume [**Aragon Network Vote alerts mailing list**](https://one.us15.list-manage.com/subscribe?u=a590aa3843a54b079d48e6e18&id=9b7f365936)
+- Sign up for the very-low-volume [**Aragon Network Vote Alerts email list**](https://one.us15.list-manage.com/subscribe?u=a590aa3843a54b079d48e6e18&id=9b7f365936)
 
 ## Important information for the next Aragon Network Vote
 
@@ -17,8 +17,8 @@ These dates may change if an emergency delay is approved by the Aragon Associati
 
 - Proposals for this vote are due, Aragon Association review begins: **2019-07-11 at 16:00 UTC**
 - Aragon Association review ends, final community review begins: **2019-07-18 at 16:00 UTC**
-- Aragon Network Vote #2 begins: **2019-07-25 at 16:00 UTC**
-- Aragon Network Vote #2 ends, final results announced: **2019-07-27 at 16:00 UTC**
+- Aragon Network Vote #3 begins: **2019-07-25 at 16:00 UTC**
+- Aragon Network Vote #3 ends, final results announced: **2019-07-27 at 16:00 UTC**
 
 ## Approved AGPs
 
