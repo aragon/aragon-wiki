@@ -16,7 +16,7 @@ Vulnerability reports will be scored using the  [CVSS v3](https://www.first.org/
     $1,000 - $2,500
 
 !!! warning "**Low** (CVSS 1.0 - 3.9)"
-    $500-$1,000
+    $500 - $1,000
 
 Rewards will be awarded at the sole discretion of the Aragon Association. Quality of the report and reproduction instructions can impact the reward. Rewards will be paid out in ETH.
 
