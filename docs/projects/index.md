@@ -30,6 +30,8 @@
 
 - [Because of the Internet DAO](https://www.rude.world/boti-dao) ([Proof](https://www.rude.world/boti-dao))
 
+- [BlankDAO](https://blankdao.org/) ([Proof](https://docs.google.com/document/d/1mAGAZ5TAbJoTJoNCAwMUKLhEHD-WW-tzc0dHhbsl1gU/edit?usp=sharing))
+
 - [District0x](https://district0x.io) ([Proof](https://education.district0x.io/district0x-specific-topics/understanding-technology-behind-district0x/aragon/))
 
 - [Melon](https://melonport.com/) ([Proof](https://medium.com/melonport-blog/melon-will-run-its-decentralized-governance-on-aragon-9f7935693720))
@@ -41,8 +43,6 @@
 - [Pool Together](https://pooltogether.us) ([Proof](https://twitter.com/PoolTogether_/status/1143162275655749633))
 
 - [Request Network](https://request.network) ([Proof](https://blog.request.network/blockchain-bricks-request-is-built-upon-0x-civic-and-aragon-3aaf68390221))
-
-- [Shasta](https://shasta.world/) ([Proof](https://medium.com/shastaproject/how-we-plan-to-use-aragon-organizations-63d11fecc81d))
 
 - [Spice VC](https://www.spicevc.com) ([Proof](https://medium.com/spicevc/spice-vc-is-the-first-to-use-blockchain-to-solve-the-liquidity-problem-638227217cb6))
 
