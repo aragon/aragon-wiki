@@ -12,6 +12,8 @@
 
 ### Aragon Network Vote #3
 
+The final details for Aragon Network Vote #3 have been published [here](https://blog.aragon.org/final-details-for-aragon-network-vote-3/).
+
 **Dates**  
 These dates may change if an emergency delay is approved by the Aragon Association Board of Directors. Check back here to confirm if you have any doubts.
 
