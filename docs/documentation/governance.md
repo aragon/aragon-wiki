@@ -8,19 +8,18 @@
 - See results from [**past Aragon Network Votes**](https://github.com/aragon/AGPs/tree/master/votes)
 - Sign up for the very-low-volume [**Aragon Network Vote Alerts email list**](https://one.us15.list-manage.com/subscribe?u=a590aa3843a54b079d48e6e18&id=9b7f365936)
 
-## Important information for the next Aragon Network Vote
+## Important information for the next Aragon Network vote
 
-### Aragon Network Vote #3
-
-The final details for Aragon Network Vote #3 have been published [here](https://blog.aragon.org/final-details-for-aragon-network-vote-3/).
+### Aragon Network Vote #4
 
 **Dates**  
 These dates may change if an emergency delay is approved by the Aragon Association Board of Directors. Check back here to confirm if you have any doubts.
 
-- Proposals for this vote are due, Aragon Association review begins: **2019-07-11 at 16:00 UTC**
-- Aragon Association review ends, final community review begins: **2019-07-18 at 16:00 UTC**
-- Aragon Network Vote #3 begins: **2019-07-25 at 16:00 UTC**
-- Aragon Network Vote #3 ends, final results announced: **2019-07-27 at 16:00 UTC**
+- Draft proposals for this vote are due, mandatory community review period begins: **2019-10-03 at 16:00 UTC**
+- Final draft proposals for this vote are due, Aragon Association review begins: **2019-10-10 at 16:00 UTC**
+- Aragon Association review ends, final community review begins: **2019-10-17 at 16:00 UTC**
+- Aragon Network Vote #4 begins: **2019-10-24 at 16:00 UTC**
+- Aragon Network Vote #4 ends, final results announced: **2019-10-26 at 16:00 UTC**
 
 ## Approved AGPs
 
@@ -40,6 +39,13 @@ These dates may change if an emergency delay is approved by the Aragon Associati
 - [AGP-35: Edgeware Lockdrop Participation](https://github.com/aragon/AGPs/blob/master/AGPs/AGP-35.md)
 - [AGP-40: Aragon Cooperative DAO funding proposal](https://github.com/aragon/AGPs/blob/master/AGPs/AGP-40.md)
 - [AGP-43: ANSP Engagement Policy](https://github.com/aragon/AGPs/blob/master/AGPs/AGP-43.md)
+- [AGP-59: Community Review Period](https://github.com/aragon/AGPs/blob/master/AGPs/AGP-59.md)
+- [AGP-64: Support Quiet Ending Voting](https://github.com/aragon/AGPs/blob/master/AGPs/AGP-64.md)
+- [AGP-67: 2019 Aragon Events Multisig Budget](https://github.com/aragon/AGPs/blob/master/AGPs/AGP-67.md)
+- [AGP-70: Decentralize Nest](https://github.com/aragon/AGPs/blob/master/AGPs/AGP-70.md)
+- [AGP-71: Nest 2019 Budget Extension](https://github.com/aragon/AGPs/blob/master/AGPs/AGP-71.md)
+- [AGP-73: Flock Funding for Autark](https://github.com/aragon/AGPs/blob/master/AGPs/AGP-73.md)
+- [AGP-75: The Aragon Governance Survey Process](https://github.com/aragon/AGPs/blob/master/AGPs/AGP-75.md)
 
 ## Deprecated AGPs
 
