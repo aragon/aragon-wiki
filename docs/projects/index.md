@@ -1,5 +1,10 @@
 # Third-Party Projects
 
+## Awesome Aragon
+> A list of "awesome" Aragon resources.
+
+- [awesome-aragon](https://github.com/lkngtn/awesome-aragon)
+
 ## Aragon statistics
 > These are projects that analyze the publicly available blockchain data to report statistics about Aragon organizations and their activity.
 
