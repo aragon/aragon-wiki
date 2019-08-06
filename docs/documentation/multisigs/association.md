@@ -4,22 +4,19 @@ Required signatures: 2/3
 
 ## Signers
 
-### Luis Cuende, Aragon One CEO
-
+#### Luis Cuende, Aragon One CEO
 [Address](https://etherscan.io/address/0xddc1b51b67dabd408b224d0f7dfcc93ec4b06265)  
 [Proof](https://etherscan.io/tx/0xc7b285395c0cbf09599ffac4aa4a05bced65522994fc94597456fadc7c6c1d3f)
 
-### Jorge Izquierdo, Aragon One CTO
+#### Jorge Izquierdo, Aragon One CTO
 [Address](https://etherscan.io/address/0x4838eab6f43841e0d233db4cea47bd64f614f0c5)  
 [Proof](https://etherscan.io/tx/0x5aaeb2d0361dbdf3b4ecadad1b49c239eb1b3b5e1cf973f6a4597ad56edc47b9)
 
-
-### Community Multisig
+#### Community Multisig
 [Address](https://etherscan.io/address/0xbeefbeef03c7e5a1c29e0aa675f8e16aee0a5fad)  
 [**Read more**](community.md)
 
 ## Responsibilities
-
 - The Aragon Association multisig will be the address responsible to control the whole token sale process.
 - It will hold the Aragon Association ether funds and ANT tokens. It will make the token allocations for founders and early contributors.
 

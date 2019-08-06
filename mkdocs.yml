@@ -1,17 +1,42 @@
 site_name: 'Aragon Wiki'
+site_url: 'https://wiki.aragon.org'
 repo_name: 'aragon/aragon-wiki'
 repo_url: 'https://github.com/aragon/aragon-wiki'
 site_description: 'Wiki for the Aragon Project'
 theme:
   name: 'material'
+  custom_dir: 'theme'
   palette:
     primary: 'blue grey'
     accent: 'cyan'
   font:
-      text: 'Overpass'
-      code: 'Overpass Mono'
+      text: 'HKGrotesk'
+      code: 'HKGrotesk'
   logo: 'images/logo.svg'
   favicon: 'images/favicon.ico'
+markdown_extensions:
+    - footnotes
+    - admonition
+    - pymdownx.arithmatex
+    - pymdownx.betterem:
+        smart_enable: all
+    - pymdownx.caret
+    - pymdownx.critic
+    - pymdownx.details
+    - pymdownx.inlinehilite
+    - pymdownx.magiclink:
+        social_url_shorthand: true
+        repo_url_shorthand: true
+        repo_url_shortener: true
+    - pymdownx.mark
+    - pymdownx.smartsymbols
+    - pymdownx.superfences
+    - pymdownx.tasklist:
+        custom_checkbox: true
+    - pymdownx.tilde
+    - codehilite:
+    - toc:
+        permalink:
 extra_css:
   - 'stylesheets/extra_style.css'
 extra_javascript:
@@ -28,11 +53,7 @@ extra:
       link: 'https://twitter.com/AragonProject'
     - type: 'linkedin'
       link: 'https://www.linkedin.com/company/aragonproject/'
-  feature:
-    tabs: false
-markdown_extensions:
-    - admonition
-pages:
+nav:
   - Home: 'index.md'
   - Documentation:
     - Glossary: 'documentation/glossary.md'
@@ -43,7 +64,7 @@ pages:
       - Association ANT Policy: 'documentation/association_ant.md'
       - How to verify cryptographic hashes and signatures: 'documentation/verify_crypto.md'
       - How to vote in an Aragon Network Vote: 'documentation/how_to_vote.md'
-    - Manifesto: 'documentation/manifesto.md'
+    - Manifesto: 'https://github.com/aragon/AGPs/blob/master/AGPs/AGP-0.md'
     - Multisigs:
       - Overview: 'documentation/multisigs/overview.md'
       - Association: 'documentation/multisigs/association.md'
@@ -83,7 +104,8 @@ pages:
     - Artwork: 'design/artwork/index.md'
     - Branding Proposal: 'design/branding_proposal.md'
     - Merchandise: 'design/merch/index.md'
-  - Jobs: 'jobs/index.md'
+  - Jobs:
+    - Job openings: 'jobs/index.md'
   - Blog posts:
     - 2019: 'blog/2019.md'
     - 2018: 'blog/2018.md'
@@ -145,7 +167,8 @@ pages:
   - Press:
       - Press Kit: 'press/press-kit.md'
       - Media Mentions: 'press/media-mentions.md'
-  - Nest grants: 'nest/index.md'
+  - Nest:
+    - Nest grants: 'nest/index.md'
   - Archive:
     - Documentation:
       - Aragon Association AGP review process: 'archive/documentation/aa_review.md'
