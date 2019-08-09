@@ -15,6 +15,10 @@
  src: url('./fonts/HKGrotesk-Light.ttf') format('opentype');
 }
 @font-face {
+ font-family: 'FontMedium';
+ src: url('./fonts/HKGrotesk-Medium.ttf') format('opentype');
+}
+@font-face {
  font-family: 'FontSemiBold';
  src: url('./fonts/HKGrotesk-SemiBold.ttf') format('opentype');
 }
@@ -341,68 +345,6 @@ h1#aragon-wiki {
   background-color: rgba(27,31,35,.05);
   margin: 0 .25rem;
   color: rgba(0, 0, 0, 0.87);
-}
-
-.md-typeset h1 {
-  font-size: 38px;
-  font-weight: 400;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.63;
-  letter-spacing: normal;
-  color: #2d4051;
-}
-
-.md-typeset h2 {
-  font-size: 34px;
-  font-weight: 300;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.63;
-  letter-spacing: normal;
-  color: #2d4051;
-  margin-top: 0.5rem;
-}
-
-.md-typeset h3 {
-  font-size: 27px;
-  font-family: 'HankenGroteskLight',sans-serif;
-  font-weight: 300;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.60;
-  letter-spacing: normal;
-  color: #2d4051;
-}
-
-.md-typeset h4 {
-  font-family: 'HankenGroteskLight',sans-serif;
-  font-size: 24px;
-  font-weight: 300;
-  font-style: normal;
-  font-stretch: normal;
-  letter-spacing: normal;
-  line-height: 62px;
-  color: #2d4051;
-  margin-bottom: 10px;
-}
-
-.md-typeset h5 {
-  font-family: 'HankenGroteskLight',sans-serif;
-  font-size: 22px;
-  line-height: 62px;
-  color: #2d4051;
-}
-
-.md-typeset h6 {
-  font-family: 'FontRegular',sans-serif;
-  font-size: 20px;
-  line-height: 1.5;
-  color: #2d4051;
-  padding-bottom: 30px;
-  border-bottom: .5px solid #ddd;
-  margin-top: 0!important;
-  margin-bottom: 30px;
 }
 
 .md-content__inner {
@@ -904,10 +846,20 @@ h1#aragon-wiki {
 
 
 /* FONT STYLES */
+.md-typeset {
+  font-family: 'FontMedium', sans-serif;
+  font-size: 16px;
+  line-height: 30px;
+  color: #7F8196;
+}
+
+.md-typeset blockquote, .md-typeset ol, .md-typeset p, .md-typeset ul {
+  margin: 0.8em 0;
+}
+
 .md-typeset h1 {
   font-family: 'HankenGroteskRegular', sans-serif;
   font-size: 38px;
-  font-weight: 300;
   font-style: normal;
   font-stretch: normal;
   line-height: 1.63;
@@ -920,35 +872,58 @@ h1#aragon-wiki {
   font-family: 'HankenGroteskLight', sans-serif;
   font-size: 33px;
   font-weight: 300;
-  font-style: normal;
-  font-stretch: normal;
   line-height: 1.63;
-  letter-spacing: normal;
   color: #2d4051;
-  padding-top: 50px;
+  padding-top: 60px;
 }
+
+h1 + h2 {
+  padding-top: 0px!important;
+  margin-top: 0!important;
+}
+
 .md-typeset h3 {
   font-family: 'FontSemiBold', sans-serif;
-  font-weight: 300;
-  font-style: normal;
-  font-stretch: normal;
-  letter-spacing: normal;
-  line-height: 62px;
+  line-height: 1.2;
   margin-bottom: 10px;
-  font-size: 28px;
+  font-size: 26px;
   color: #30404F;
-  margin-top: 25px;
+  margin: 60px 0px 10px 0;
 }
+
 .md-typeset h4 {
-  font-family: 'HankenGroteskLight', sans-serif;
-  font-size: 22px;
-  line-height: 62px;
-  color: #2D4051
-}
-.md-typeset h5 {
-  font-family: 'HankenGroteskLight', sans-serif;
-  font-size: 24px;
-  line-height: 1.5;
+  font-family: 'FontMedium', sans-serif;
+  font-weight: 400;
   color: #2D4051;
-  margin-bottom: 30px;
+  margin: 60px 0px 10px 0;
+  font-size: 21px;
+  line-height: 1;
+  color: #30404F;
+}
+
+h3 + h4, h2 + h3 {
+  margin-top: 20px!important;
+}
+
+.md-typeset h5 {
+  font-family: 'FontSemiBold', sans-serif!important;
+  margin-bottom: 0;
+  text-transform: none;
+  font-size: 18px;
+  line-height: 30px;
+  margin: 1.2rem 0 0 0;
+  color: #30404F;
+}
+
+
+
+.md-typeset h6 {
+  font-family: 'FontMedium',sans-serif;
+  margin-bottom: 0;
+  text-transform: none;
+  font-family: HK Grotesk;
+  font-size: 18px;
+  line-height: 30px;
+  margin: 1.2rem 0 0 0;
+  color: #30404F;
 }
