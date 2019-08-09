@@ -219,7 +219,7 @@ html .md-footer-meta.md-typeset a {
   }
   [data-md-color-primary=blue-grey] .md-nav__item--nested>.md-nav__link {
     font-weight: 300;
-    font-size: 21px;
+    font-size: 20px;
     padding-top: .4rem;
     padding-left: .2rem;
   }
@@ -808,6 +808,13 @@ h1#aragon-wiki {
   .md-sidebar--primary { order: 1; }
   .md-content    { order: 2; }
   .md-sidebar--secondary { order: 3; }
+}
+
+
+.md-nav__item.md-nav__item--nested .md-nav label {
+  font-size: 16px!important;
+  font-family: 'FontSemiBold', sans-serif;
+  padding-left: 0;
 }
 
 /* @media all and (min-width: 600px) {
