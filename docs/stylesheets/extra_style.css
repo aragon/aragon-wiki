@@ -815,11 +815,8 @@ h1#aragon-wiki {
   font-size: 16px!important;
   font-family: 'FontSemiBold', sans-serif;
   padding-left: 0;
+  color: #2d4050;
 }
-
-/* @media all and (min-width: 600px) {
-  .md-sidebar { flex: 1 0 0; }
-} */
 
 
 /* CONTENT */
