@@ -19,7 +19,7 @@ Working Groups are a way to formalize collaborative initiatives in order to make
 
 The formalization of Working Groups consists in making public their existence and bylaws.
 
-A Working Group registry with key information on each Working Group is available here. The purpose of this registry is to legitimize a given Working Group and give it more visibility to all Aragon contributors.
+A Working Group registry with key information on each Working Group is available [here](registry.md). The purpose of this registry is to legitimize a given Working Group and give it more visibility to all Aragon contributors.
 
 ### Definition of an Aragon Working group
 
