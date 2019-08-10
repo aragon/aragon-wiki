@@ -84,13 +84,6 @@ pages:
     - Branding Proposal: 'design/branding_proposal.md'
     - Merchandise: 'design/merch/index.md'
   - Jobs: 'jobs/index.md'
-  - Blog posts:
-    - 2019: 'blog/2019.md'
-    - 2018: 'blog/2018.md'
-    - 2017: 'blog/2017.md'
-    - Aragon One:
-      - 2019: 'blog/A1/2019.md'
-      - 2018: 'blog/A1/2018.md'
   - Videos:
     - Tutorials: 'videos/tutorials.md'
     - Meetings:
@@ -145,9 +138,12 @@ pages:
     - Interviews: 'videos/interviews.md'
     - Presentations: 'videos/presentations.md'
   - Press:
-      - Press Kit: 'press/press-kit.md'
-      - Media Mentions: 'press/media-mentions.md'
+    - Press Kit: 'press/press-kit.md'
+    - Media Mentions: 'press/media-mentions.md'
   - Nest grants: 'nest/index.md'
+  - Working groups:
+    - Overview: 'working-groups/overview.md'
+    - Registry: 'working-groups/registry.md'
   - Archive:
     - Documentation:
       - Aragon Association AGP review process: 'archive/documentation/aa_review.md'
@@ -244,3 +240,10 @@ pages:
       - Meetings:
         - Aragon HQ: 'archive/videos/hq.md'
         - Dev: 'archive/videos/dev.md'
+    - Blog posts:
+      - 2019: 'blog/2019.md'
+      - 2018: 'blog/2018.md'
+      - 2017: 'blog/2017.md'
+      - Aragon One:
+        - 2019: 'blog/A1/2019.md'
+        - 2018: 'blog/A1/2018.md'
