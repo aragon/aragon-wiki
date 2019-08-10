@@ -106,13 +106,6 @@ nav:
     - Merchandise: 'design/merch/index.md'
   - Jobs:
     - Job openings: 'jobs/index.md'
-  - Blog posts:
-    - 2019: 'blog/2019.md'
-    - 2018: 'blog/2018.md'
-    - 2017: 'blog/2017.md'
-    - Aragon One:
-      - 2019: 'blog/A1/2019.md'
-      - 2018: 'blog/A1/2018.md'
   - Videos:
     - Tutorials: 'videos/tutorials.md'
     - Meetings:
@@ -122,6 +115,8 @@ nav:
         - Notes template: 'videos/template.md'
         - Running the call: 'videos/running_all_devs.md'
         - Meeting Notes:
+          - August 2019:
+            - 05.08.2019: 'videos/meeting_notes/all_aragon_devs/alldevs20190805.md'
           - July 2019:
             - 22.07.2019: 'videos/meeting_notes/all_aragon_devs/alldevs20190722.md'
             - 08.07.2019: 'videos/meeting_notes/all_aragon_devs/alldevs20190708.md'
@@ -165,10 +160,13 @@ nav:
     - Interviews: 'videos/interviews.md'
     - Presentations: 'videos/presentations.md'
   - Press:
-      - Press Kit: 'press/press-kit.md'
-      - Media Mentions: 'press/media-mentions.md'
+    - Press Kit: 'press/press-kit.md'
+    - Media Mentions: 'press/media-mentions.md'
   - Nest:
     - Nest grants: 'nest/index.md'
+  - Working groups:
+    - Overview: 'working-groups/overview.md'
+    - Registry: 'working-groups/registry.md'
   - Archive:
     - Documentation:
       - Aragon Association AGP review process: 'archive/documentation/aa_review.md'
@@ -265,3 +263,10 @@ nav:
       - Meetings:
         - Aragon HQ: 'archive/videos/hq.md'
         - Dev: 'archive/videos/dev.md'
+    - Blog posts:
+      - 2019: 'blog/2019.md'
+      - 2018: 'blog/2018.md'
+      - 2017: 'blog/2017.md'
+      - Aragon One:
+        - 2019: 'blog/A1/2019.md'
+        - 2018: 'blog/A1/2018.md'
