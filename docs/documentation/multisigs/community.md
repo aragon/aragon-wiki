@@ -1,15 +1,17 @@
-# Aragon Community multisig – Beef beef [0xbeefbeef03c7e5a1c29e0aa675f8e16aee0a5fad](https://etherscan.io/address/0xbeefbeef03c7e5a1c29e0aa675f8e16aee0a5fad)
+# Aragon Community multisig – Beef beef
+
+[0xbeefbeef03c7e5a1c29e0aa675f8e16aee0a5fad](https://etherscan.io/address/0xbeefbeef03c7e5a1c29e0aa675f8e16aee0a5fad)
 
 Required signatures: 5/7
 
 ## Signers
 
-### Aragon Association Multisig
+#### Aragon Association Multisig
 
 [Address](https://etherscan.io/address/0xcafe1a77e84698c83ca8931f54a755176ef75f2c)  
 [**Read more**](foundation.md)
 
-### Joe Urgo
+#### Joe Urgo
 
 > CEO [District0x](http://district0x.io) & [Dapp daily](https://dappdaily.com) author.
 
@@ -17,7 +19,7 @@ Required signatures: 5/7
 [Proof](https://etherscan.io/tx/0x796538ed7dd4d76953b045c6341129f8976fefeb160de72618dc28c50138cc5a)  
 [Keybase](https://keybase.io/joeu)
 
-### Kenny Rowe
+#### Kenny Rowe
 
 > COO of [RChain Cooperative](https://www.rchain.coop/). Formerly COO at [MakerDAO](http://makerdao.com).
 
@@ -25,7 +27,7 @@ Required signatures: 5/7
 [Proof](https://etherscan.io/tx/0x2aea9d83c32328932bef2df2790539ddbcb489f140854d4cc2c063176135a6d6)  
 [Keybase](https://keybase.io/kennyrowe)
 
-### Jake Brukhman
+#### Jake Brukhman
 
 > Cofounder of [CoinFund](http://coinfund.io).
 
@@ -33,7 +35,7 @@ Required signatures: 5/7
 [Proof](https://etherscan.io/tx/0x9af0ffb13ab3de609ac3b8314d4fa4737106cc7844a6f7bd125a4876239a4db1)  
 [Keybase](https://keybase.io/jbrukh)
 
-### Mihai Alisie
+#### Mihai Alisie
 
 > Founder of [AKASHA](https://akasha.world), cofounder of [Ethereum](https://ethereum.org) and [Bitcoin Magazine](https://bitcoinmagazine.com/)
 
@@ -41,7 +43,7 @@ Required signatures: 5/7
 [Proof](https://etherscan.io/tx/0xe16626c5995b5633dc07b3bcc123bc046385abbdfb5b47c3da0e5eece74f19e4)  
 [Keybase](https://keybase.io/mihaialisie)
 
-### Griff Green
+#### Griff Green
 
 > Founder of [Giveth](https://giveth.io) and cofounder of the [White Hat Group](https://mashable.com/2017/07/26/ethereum-stolen-white-hat-group-rescued.amp)
 
@@ -49,7 +51,7 @@ Required signatures: 5/7
 [Proof](https://etherscan.io/tx/0x53e2d8f9f5ba85f1ea9966af7db621ce08cd4b3732b331ba97247c0a29c6e388)  
 [Keybase](https://keybase.io/griffgreen)
 
-### Placeholder
+#### Placeholder
 
 > [Placeholder](https://www.placeholder.vc/) is a venture capital partnership founded by [Joel Monegro](https://twitter.com/jmonegro) and [Chris Burniske](https://twitter.com/cburniske) that invests in decentralized information networks
 
