@@ -13,6 +13,8 @@
         <meta name="description" content="Wiki for the Aragon Project">
       
       
+        <link rel="canonical" href="https://wiki.aragon.org/documentation/audits/audit_internal_sun/">
+      
       
       
         <meta name="lang:clipboard.copy" content="Copy to clipboard">
@@ -58,8 +60,8 @@
     
       
         <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Overpass:300,400,400i,700|Overpass+Mono&display=fallback">
-        <style>body,input{font-family:"Overpass","Helvetica Neue",Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Overpass Mono","Courier New",Courier,monospace}</style>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=HKGrotesk:300,400,400i,700|HKGrotesk&display=fallback">
+        <style>body,input{font-family:"HKGrotesk","Helvetica Neue",Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"HKGrotesk","Courier New",Courier,monospace}</style>
       
     
     <link rel="stylesheet" href="../../../assets/fonts/material-icons.css">
@@ -94,87 +96,45 @@
       </a>
     
     
-      <header class="md-header" data-md-component="header">
-  <nav class="md-header-nav md-grid">
-    <div class="md-flex">
-      <div class="md-flex__cell md-flex__cell--shrink">
-        <a href="../../.." title="Aragon Wiki" class="md-header-nav__button md-logo">
-          
-            <img src="../../../images/logo.svg" width="24" height="24">
-          
-        </a>
-      </div>
-      <div class="md-flex__cell md-flex__cell--shrink">
-        <label class="md-icon md-icon--menu md-header-nav__button" for="__drawer"></label>
-      </div>
-      <div class="md-flex__cell md-flex__cell--stretch">
-        <div class="md-flex__ellipsis md-header-nav__title" data-md-component="title">
-          
-            <span class="md-header-nav__topic">
-              Aragon Wiki
-            </span>
-            <span class="md-header-nav__topic">
-              
-                Audit (Internal) by Brett Sun
-              
-            </span>
-          
-        </div>
-      </div>
-      <div class="md-flex__cell md-flex__cell--shrink">
-        
-          <label class="md-icon md-icon--search md-header-nav__button" for="__search"></label>
-          
-<div class="md-search" data-md-component="search" role="dialog">
-  <label class="md-search__overlay" for="__search"></label>
-  <div class="md-search__inner" role="search">
-    <form class="md-search__form" name="search">
-      <input type="text" class="md-search__input" name="query" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="query" data-md-state="active">
-      <label class="md-icon md-search__icon" for="__search"></label>
-      <button type="reset" class="md-icon md-search__icon" data-md-component="reset" tabindex="-1">
-        &#xE5CD;
-      </button>
-    </form>
-    <div class="md-search__output">
-      <div class="md-search__scrollwrap" data-md-scrollfix>
-        <div class="md-search-result" data-md-component="result">
-          <div class="md-search-result__meta">
-            Type to start searching
-          </div>
-          <ol class="md-search-result__list"></ol>
-        </div>
-      </div>
-    </div>
+      <div class="aragon-navbar">
+  <div class="center">
+      <ul class="left">
+        <li>
+          <a href="https://aragon.org/discover">
+            Discover
+          </a>
+        </li>
+        <li>
+          <a href="https://hack.aragon.org/">
+            Developers
+          </a>
+        </li>
+      </ul>
+      <ul>
+        <li class="logo-li">
+          <a class="logo-link" href="https://aragon.org">
+            <img class="wiki-cover" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDE5LjIuMSwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPgo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkNhcGFfMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgeD0iMHB4IiB5PSIwcHgiCgkgdmlld0JveD0iMCAwIDM3MC4xIDMzMS4zIiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCAzNzAuMSAzMzEuMzsiIHhtbDpzcGFjZT0icHJlc2VydmUiPgo8c3R5bGUgdHlwZT0idGV4dC9jc3MiPgoJLnN0MHtmaWxsOnVybCgjU1ZHSURfMV8pO30KCS5zdDF7ZmlsbDp1cmwoI1NWR0lEXzJfKTt9Cgkuc3Qye2ZpbGw6dXJsKCNTVkdJRF8zXyk7fQoJLnN0M3tmaWxsOiMyMDIwMUU7fQoJLnN0NHtmaWxsOnVybCgjU1ZHSURfNF8pO30KCS5zdDV7ZmlsbDojMzUzNTM0O30KCS5zdDZ7ZmlsbDojMjgyODI4O30KCS5zdDd7ZmlsbDp1cmwoI1NWR0lEXzVfKTtzdHJva2U6dXJsKCNTVkdJRF82Xyk7c3Ryb2tlLXdpZHRoOjg7c3Ryb2tlLW1pdGVybGltaXQ6MTA7fQo8L3N0eWxlPgo8Zz4KCQoJCTxsaW5lYXJHcmFkaWVudCBpZD0iU1ZHSURfMV8iIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIiB4MT0iMTk4MS45NjM2IiB5MT0iMjQ0NC40OTYxIiB4Mj0iMjE2My4yOTY5IiB5Mj0iMjQ0NC40OTYxIiBncmFkaWVudFRyYW5zZm9ybT0ibWF0cml4KC0wLjI5NjQgMC45NTUxIC0wLjk1NTEgLTAuMjk2NCAzMTU0LjY4MzYgLTExNDQuMDkzMykiPgoJCTxzdG9wICBvZmZzZXQ9IjMuOTE5NjU0ZS0wMiIgc3R5bGU9InN0b3AtY29sb3I6IzJDRjRFMSIvPgoJCTxzdG9wICBvZmZzZXQ9IjEiIHN0eWxlPSJzdG9wLWNvbG9yOiMyQ0IyRTEiLz4KCTwvbGluZWFyR3JhZGllbnQ+Cgk8Y2lyY2xlIGNsYXNzPSJzdDAiIGN4PSIxOTciIGN5PSIxMzkuMSIgcj0iOTAuNyIvPgoJPGxpbmVhckdyYWRpZW50IGlkPSJTVkdJRF8yXyIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiIHgxPSIyNDQuNjAxNiIgeTE9IjExMy4xMzE4IiB4Mj0iMzI0LjMzNjIiIHkyPSIyMjIuMTE4MSI+CgkJPHN0b3AgIG9mZnNldD0iMy45MTk2NTRlLTAyIiBzdHlsZT0ic3RvcC1jb2xvcjojMkNGNEUxIi8+CgkJPHN0b3AgIG9mZnNldD0iMSIgc3R5bGU9InN0b3AtY29sb3I6IzJDQjJFMSIvPgoJPC9saW5lYXJHcmFkaWVudD4KCTxwYXRoIGNsYXNzPSJzdDEiIGQ9Ik0yNjAuNywxMTEuOWM2LjUsOC44LDkuOSwxOS4yLDkuOSwzMGMwLDEzLjEtNS40LDI1LjItMTQuNiwzNWw1LjYsMjAuOWgxN2wxNy45LTIwLjNsNC44LTI5LjdsMS0xNy43CgkJbC0xNy43LTIwTDI2MC43LDExMS45eiIvPgoJPGc+CgkJPGxpbmVhckdyYWRpZW50IGlkPSJTVkdJRF8zXyIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiIHgxPSIxMTEuNDU1OCIgeTE9IjEyNi43NDE5IiB4Mj0iMjI0LjEyMjQiIHkyPSIyODAuNzQxOSI+CgkJCTxzdG9wICBvZmZzZXQ9IjAiIHN0eWxlPSJzdG9wLWNvbG9yOiMyQ0U1RTEiLz4KCQkJPHN0b3AgIG9mZnNldD0iMSIgc3R5bGU9InN0b3AtY29sb3I6IzJDQjJFMSIvPgoJCTwvbGluZWFyR3JhZGllbnQ+CgkJPHBhdGggY2xhc3M9InN0MiIgZD0iTTYzLjcsMjAwLjJsMy4xLDEyLjNjMCwwLDM2LjYsNzUuMSwxMTksMTAzYzAsMCw3Ny4yLTMyLDExMC41LTg2LjNsLTQ4LjItNDAuMWMwLDAtMjIsMTcuNS01NC43LDE3LjUKCQkJYy0zMi43LDAtNzcuMS0xOS41LTc3LjEtNTkuN2MwLTQwLjIsNDYtNTQuOSw0Ni01NC45bC0xOS42LTQuOEg5Mi42bC0zMS44LDc2LjZMNjMuNywyMDAuMnoiLz4KCTwvZz4KCTxwYXRoIGNsYXNzPSJzdDMiIGQ9Ik0zMDUuNCwyMjguMSIvPgoJPGxpbmVhckdyYWRpZW50IGlkPSJTVkdJRF80XyIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiIHgxPSIxODYuNDczOCIgeTE9IjIzMy43MjY3IiB4Mj0iMTg2LjQ3MzgiIHkyPSIzNi41Ij4KCQk8c3RvcCAgb2Zmc2V0PSIwIiBzdHlsZT0ic3RvcC1jb2xvcjojMDAwMDAwIi8+CgkJPHN0b3AgIG9mZnNldD0iMSIgc3R5bGU9InN0b3AtY29sb3I6IzBEMEQwRCIvPgoJPC9saW5lYXJHcmFkaWVudD4KCTxwYXRoIGNsYXNzPSJzdDQiIGQ9Ik0zNDAuNiwxMTkuNWMtMS40LTEuNC00Mi00NC40LTE1My4zLTgyLjdsLTAuNy0wLjNjLTEwNy44LDM3LTE1NC4yLDgzLTE1NC4yLDgzYzQuMiwyNC41LDE0LjgsNTEuOCwyNC40LDczCgkJYzAuOCwxLjgsMTMuNiwyNC40LDIzLjEsMzYuN2MtNS42LTEyLjMtMTEuNy0yMy0xMS43LTQxLjRjMC01MS45LDQwLjItOTQuMSw5MC41LTk1LjljMS4yLDAsMi41LDAsMy43LDAuMWwtMTItMTIKCQljMCwwLDQ4LjMtOC4xLDExMC4zLDI5LjRjMCwwLDAuOSwxLjksMCw3LjVjMCwwLDI5LjIsMTIuNiwzMS43LDM3LjFzLTEzLDM4LjUtMjUuNSw0MC41YzAsMCw2LjUtMTAuMS0zLjUtMTUuNQoJCWMtMi4xLTEuMi00LjYtMS43LTcuMS0xLjZ2MGMtMTkuMSwwLTIxLjMsMjEuOC0yMS4zLDIxLjhjLTAuMiwxLjEtMC4yLDIuMi0wLjIsMy4zYzAsMC0zLjIsMzEuOSw1My42LDMxLjMKCQljMCwwLDI4LjgtMzIuNiwzNi40LTYxLjljMi44LTEwLjgsNC44LTE4LjksNi4xLTI0LjljMy4yLTguNSw2LjMtMTcuMyw5LjMtMjYuNEwzNDAuNiwxMTkuNXoiLz4KCTxwYXRoIGNsYXNzPSJzdDUiIGQ9Ik0yMzYuNiwxMTYiLz4KCTxwYXRoIGNsYXNzPSJzdDYiIGQ9Ik0yMzYsMTE5LjFjMC44LTAuNCwzLjQtMS43LDYuNC00LjhjNiwwLjgsMTEuOSwyLjcsMTEuOSwyLjdjLTEwLjktNi42LTI1LjgtMTAuNS00Mi4zLTEwLjQKCQljMCwwLDYuMyw5LDIzLjgsMTIuN0MyMzUuOCwxMTkuMywyMzUuOSwxMTkuMiwyMzYsMTE5LjF6Ii8+Cgk8Zz4KCQk8cGF0aCBjbGFzcz0ic3Q2IiBkPSJNMTg2LjEsNDEuM2MxMC42LDMuMyw4Ny42LDI4LjksMTQ5LjIsNzkuOGw2LjktMmwtMC41LTAuNGMtNjAuMi01MS0xMzYuMy03Ny41LTE1Mi4xLTgyLjZsLTEuNS0wLjVsLTItMC42CgkJCWwtMy41LDEuMWMtMTUuOCw1LjEtOTEuOSwzMS42LTE1Mi4xLDgyLjZsLTAuNywwLjZsNi43LDIuMkM5OC4xLDcwLjMsMTc1LjUsNDQuNiwxODYuMSw0MS4zeiIvPgoJPC9nPgoJPGxpbmVhckdyYWRpZW50IGlkPSJTVkdJRF81XyIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiIHgxPSIxODYuMDU3IiB5MT0iMjQ4Ljc5NTUiIHgyPSIxODYuMDU3IiB5Mj0iLTE2Ljk3MjgiPgoJCTxzdG9wICBvZmZzZXQ9IjMuOTE5NjU0ZS0wMiIgc3R5bGU9InN0b3AtY29sb3I6IzJDRjRFMSIvPgoJCTxzdG9wICBvZmZzZXQ9IjEiIHN0eWxlPSJzdG9wLWNvbG9yOiMyQ0IyRTEiLz4KCTwvbGluZWFyR3JhZGllbnQ+Cgk8bGluZWFyR3JhZGllbnQgaWQ9IlNWR0lEXzZfIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjI0Ljg0MTUiIHkxPSIxNjguODYxNiIgeDI9IjM0Ny4yNzI2IiB5Mj0iMTY4Ljg2MTYiPgoJCTxzdG9wICBvZmZzZXQ9IjMuOTE5NjU0ZS0wMiIgc3R5bGU9InN0b3AtY29sb3I6IzJDRjRFMSIvPgoJCTxzdG9wICBvZmZzZXQ9IjEiIHN0eWxlPSJzdG9wLWNvbG9yOiMyQ0IyRTEiLz4KCTwvbGluZWFyR3JhZGllbnQ+Cgk8cGF0aCBjbGFzcz0ic3Q3IiBkPSJNMzQxLjcsMTA5LjJjLTYwLjItNTEtMTM2LjMtNzcuNS0xNTIuMS04Mi42bC0xLjUtMC41bC0yLTAuNmwtMy41LDEuMWMtMTUuOCw1LjEtOTEuOSwzMS42LTE1Mi4xLDgyLjYKCQlsLTEuMywxLjFsMC4zLDEuN2MwLjEsMC40LDYuNiwzOS4xLDI4LjgsODIuOGMxMy4xLDI1LjcsMjksNDgsNDcuMiw2Ni41YzIyLjMsMjIuNiw0OC4zLDM5LjMsNzcuMiw0OS43bDEuNywwLjZsMS43LDAuNmwxLjgtMC43CgkJbDEuNy0wLjZjMjguOS0xMC40LDU0LjgtMjcuMSw3Ny4yLTQ5LjdjMTguMi0xOC40LDM0LjEtNDAuOCw0Ny4yLTY2LjVjMjIuMi00My42LDI4LjgtODIuNCwyOC44LTgyLjhsMC4zLTEuN0wzNDEuNywxMDkuMnoKCQkgTTMwOC41LDE5MmMtMTIuOCwyNS4xLTI4LjMsNDctNDYuMSw2NWMtMjIuMSwyMi4zLTQ3LjcsMzguNy03Ni4zLDQ4LjhjLTI4LjYtMTAuMS01NC4yLTI2LjQtNzYuMy00OC43CgkJYy0xNy44LTE4LTMzLjMtMzkuOC00Ni4xLTY0LjljLTE5LjMtMzcuOC0yNi41LTcxLjctMjgtNzkuNUM5Ny40LDYxLDE3NS40LDM1LjIsMTg2LjEsMzEuOGMxMC42LDMuNCw4OC43LDI5LjIsMTUwLjQsODAuOQoJCUMzMzUsMTIwLjQsMzI3LjcsMTU0LjMsMzA4LjUsMTkyeiIvPgo8L2c+Cjwvc3ZnPgo=" />
+          </a>
+        </li>
+      </ul>
+      <ul class="right">
+        <li>
+          <a href="https://aragon.org/project">
+            Project
+          </a>
+        </li>
+        <li>
+          <a href="https://aragon.org/network">
+            Network
+          </a>
+        </li>
+      </ul>
   </div>
 </div>
-        
-      </div>
-      
-        <div class="md-flex__cell md-flex__cell--shrink">
-          <div class="md-header-nav__source">
-            
-
-
-  
-
-<a href="https://github.com/aragon/aragon-wiki/" title="Go to repository" class="md-source" data-md-source="github">
-  
-    <div class="md-source__icon">
-      <svg viewBox="0 0 24 24" width="24" height="24">
-        <use xlink:href="#__github" width="24" height="24"></use>
-      </svg>
-    </div>
-  
-  <div class="md-source__repository">
-    aragon/aragon-wiki
-  </div>
-</a>
-          </div>
-        </div>
-      
-    </div>
-  </nav>
-</header>
+<div class="md-flex__cell md-flex__cell--shrink  sidebar-menu-button">
+  <label class="md-icon md-icon--menu md-header-nav__button"
+      for="__drawer"></label>
+</div>
     
     <div class="md-container">
       
@@ -190,7 +150,7 @@
                   <div class="md-sidebar__inner">
                     <nav class="md-nav md-nav--primary" data-md-level="0">
   <label class="md-nav__title md-nav__title--site" for="__drawer">
-    <a href="../../.." title="Aragon Wiki" class="md-nav__button md-logo">
+    <a href="https://wiki.aragon.org" title="Aragon Wiki" class="md-nav__button md-logo">
       
         <img src="../../../images/logo.svg" width="48" height="48">
       
@@ -367,7 +327,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../../manifesto/" title="Manifesto" class="md-nav__link">
+    <a href="https://github.com/aragon/AGPs/blob/master/AGPs/AGP-0.md" title="Manifesto" class="md-nav__link">
       Manifesto
     </a>
   </li>
@@ -1114,10 +1074,34 @@
       
 
 
-  <li class="md-nav__item">
-    <a href="../../../jobs/" title="Jobs" class="md-nav__link">
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-6" type="checkbox" id="nav-6">
+    
+    <label class="md-nav__link" for="nav-6">
       Jobs
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-6">
+        Jobs
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../jobs/" title="Job openings" class="md-nav__link">
+      Job openings
     </a>
+  </li>
+
+        
+      </ul>
+    </nav>
   </li>
 
     
@@ -2026,10 +2010,34 @@
       
 
 
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-9" type="checkbox" id="nav-9">
+    
+    <label class="md-nav__link" for="nav-9">
+      Nest
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-9">
+        Nest
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
   <li class="md-nav__item">
     <a href="../../../nest/" title="Nest grants" class="md-nav__link">
       Nest grants
     </a>
+  </li>
+
+        
+      </ul>
+    </nav>
   </li>
 
     
@@ -3707,14 +3715,14 @@
                 
                 
                 <h1 id="bretts-audit">Brett's Audit</h1>
-<p><em>This was an internal audit by <a href="https://github.com/sohkai">Brett Sun/@sohkai</a>, Aragon’s EVM Engineer of the <code>aragonOS</code> and <code>aragon-apps</code> that power the v0.5 release of Aragon.</em></p>
+<p><em>This was an internal audit by <a href="https://github.com/sohkai">Brett Sun/@sohkai</a>, Aragon’s EVM Engineer of the <code class="codehilite"><span class="n">aragonOS</span></code> and <code class="codehilite"><span class="n">aragon</span><span class="o">-</span><span class="n">apps</span></code> that power the v0.5 release of Aragon.</em></p>
 <p><em><a href="https://github.com/sohkai/aragonOS/blob/brett-audit/audit.md">Original report in Github</a></em></p>
 <p><em>Date: Jan 22-23 2018</em></p>
 <h2 id="overview">Overview</h2>
 <ul>
-<li>Reviewed <code>aragonOS</code> @ <a href="https://github.com/aragon/aragonOS/commit/8073ed1438c5fa65c45bd0c14cc5433e273656f9">8073ed1438c5fa65c45bd0c14cc5433e273656f9</a></li>
-<li>Reviewed <code>aragon-apps</code> @ <a href="https://github.com/aragon/aragon-apps/commit/e8e931e4ff389bfc6d8682f99c067f808f321366">e8e931e4ff389bfc6d8682f99c067f808f321366</a>; linked as submodule in the <a href="https://github.com/sohkai/aragonOS/tree/brett-audit">repo</a><ul>
-<li>Will wait until <code>aragon-apps</code> is upgraded to <code>aragonOS 3.0.0</code> before running Oyente and unit tests as some contracts in <code>aragonOS</code> have moved in <code>3.0.0</code> (causing compile issues)</li>
+<li>Reviewed <code class="codehilite"><span class="n">aragonOS</span></code> @ <a href="https://github.com/aragon/aragonOS/commit/8073ed1438c5fa65c45bd0c14cc5433e273656f9">8073ed1438c5fa65c45bd0c14cc5433e273656f9</a></li>
+<li>Reviewed <code class="codehilite"><span class="n">aragon</span><span class="o">-</span><span class="n">apps</span></code> @ <a href="https://github.com/aragon/aragon-apps/commit/e8e931e4ff389bfc6d8682f99c067f808f321366">e8e931e4ff389bfc6d8682f99c067f808f321366</a>; linked as submodule in the <a href="https://github.com/sohkai/aragonOS/tree/brett-audit">repo</a><ul>
+<li>Will wait until <code class="codehilite"><span class="n">aragon</span><span class="o">-</span><span class="n">apps</span></code> is upgraded to <code class="codehilite"><span class="n">aragonOS</span> <span class="mi">3</span><span class="p">.</span><span class="mi">0</span><span class="p">.</span><span class="mi">0</span></code> before running Oyente and unit tests as some contracts in <code class="codehilite"><span class="n">aragonOS</span></code> have moved in <code class="codehilite"><span class="mi">3</span><span class="p">.</span><span class="mi">0</span><span class="p">.</span><span class="mi">0</span></code> (causing compile issues)</li>
 </ul>
 </li>
 <li>Slight, non-logical modifications were made to some contracts for running <a href="#solgraph">Solgraph</a> (see <a href="https://github.com/sohkai/aragon-apps/commit/cd431a899af22b6f67787a8fc6cf7e1c60f8a6a7">cd431a899af22b6f67787a8fc6cf7e1c60f8a6a7</a>); <strong>these changes should not be adopted</strong></li>
@@ -3723,7 +3731,7 @@
 <h2 id="general-comments">General comments</h2>
 <ul>
 <li>No linting errors</li>
-<li>All unit tests passing (<code>aragonOS</code> only; see note above)</li>
+<li>All unit tests passing (<code class="codehilite"><span class="n">aragonOS</span></code> only; see note above)</li>
 <li>Uses industry-standard library contracts for common operations, including OpenZeppelin and MiniMe</li>
 <li>As a scale, I'm using:<ul>
 <li>High-severity: anything that can result in loss of funds for users, or otherwise achieve highly damaging effects on user DAOs</li>
@@ -3735,52 +3743,52 @@
 <h3 id="out-of-scope">Out of scope</h3>
 <p>I have, for the most part, ignored:</p>
 <ul>
-<li>Any contracts in <code>lib</code> folders</li>
-<li>Any contracts in <code>factory</code> folders (they're mostly for demonstration right now)</li>
+<li>Any contracts in <code class="codehilite"><span class="n">lib</span></code> folders</li>
+<li>Any contracts in <code class="codehilite"><span class="n">factory</span></code> folders (they're mostly for demonstration right now)</li>
 <li>An exhaustive look through the unit tests to see if they miss any obvious functionality (100% code and branch coverage is a good start but is usually not the whole story)</li>
 </ul>
 <h2 id="aragonos-issues">aragonOS Issues</h2>
 <h3 id="mid-severity">Mid-severity</h3>
 <ul>
-<li><code>AppProxy</code> should fail on construction if <code>_kernel</code> is not a contract<ul>
-<li><code>aragonOS/contracts/apps/AppProxy.sol</code>:<ul>
-<li>Kernel-less apps are impossible: the fallback function will always fail on <code>kernel.getAppCode(appId)</code> if <code>kernel == 0</code> or if the kernel address is not a contract.</li>
+<li><code class="codehilite"><span class="n">AppProxy</span></code> should fail on construction if <code class="codehilite"><span class="n">_kernel</span></code> is not a contract<ul>
+<li><code class="codehilite"><span class="n">aragonOS</span><span class="o">/</span><span class="n">contracts</span><span class="o">/</span><span class="n">apps</span><span class="o">/</span><span class="n">AppProxy</span><span class="p">.</span><span class="n">sol</span></code>:<ul>
+<li>Kernel-less apps are impossible: the fallback function will always fail on <code class="codehilite"><span class="n">kernel</span><span class="p">.</span><span class="n">getAppCode</span><span class="p">(</span><span class="n">appId</span><span class="p">)</span></code> if <code class="codehilite"><span class="n">kernel</span> <span class="o">==</span> <span class="mi">0</span></code> or if the kernel address is not a contract.</li>
 </ul>
 </li>
-<li><code>aragonOS/contracts/apps/AragonApp.sol</code>:<ul>
-<li><code>canPerform()</code> would not require the <code>address(kernel) == 0</code> check anymore as the proxy would fail to be created before that point</li>
+<li><code class="codehilite"><span class="n">aragonOS</span><span class="o">/</span><span class="n">contracts</span><span class="o">/</span><span class="n">apps</span><span class="o">/</span><span class="n">AragonApp</span><span class="p">.</span><span class="n">sol</span></code>:<ul>
+<li><code class="codehilite"><span class="n">canPerform</span><span class="p">()</span></code> would not require the <code class="codehilite"><span class="n">address</span><span class="p">(</span><span class="n">kernel</span><span class="p">)</span> <span class="o">==</span> <span class="mi">0</span></code> check anymore as the proxy would fail to be created before that point</li>
 </ul>
 </li>
-<li><code>aragonOS/contracts/apm/ApmRegistry.sol</code>:<ul>
-<li><code>initialize()</code>'s <code>require(kernel != address(0));</code> check can be removed</li>
-</ul>
-</li>
-</ul>
-</li>
-<li><code>AppProxy</code> may use garbage data as its <code>target</code>:<ul>
-<li><code>aragonOS/contracts/apps/AppProxy.sol</code>:<ul>
-<li>If the <code>AppProxy</code>'s <code>kernel</code> is set to a non-kernel contract address, <code>kernel.getAppCode(appId)</code> will return garbage data <a href="https://github.com/ethereum/solidity/issues/2630">due to how the fallback works</a>. This means that in <code>delegatedFwd(target, msg.data)</code>, <code>target</code> could potentially be delegating to a malicious contract. As far as I know, exploiting this would be extremely difficult, but it should be clear in the surrounding documentation that the <code>kernel</code> <strong>MUST</strong> be carefully set.</li>
+<li><code class="codehilite"><span class="n">aragonOS</span><span class="o">/</span><span class="n">contracts</span><span class="o">/</span><span class="n">apm</span><span class="o">/</span><span class="n">ApmRegistry</span><span class="p">.</span><span class="n">sol</span></code>:<ul>
+<li><code class="codehilite"><span class="k">initialize</span><span class="p">()</span></code>'s <code class="codehilite"><span class="n">require</span><span class="p">(</span><span class="n">kernel</span> <span class="o">!=</span> <span class="n">address</span><span class="p">(</span><span class="mi">0</span><span class="p">));</span></code> check can be removed</li>
 </ul>
 </li>
 </ul>
 </li>
-<li><code>KernelProxy</code> should fail on construction if <code>_kernelImpl</code> is not a contract<ul>
-<li><code>aragonOS/contracts/kernel/KernelProxy.sol</code>:<ul>
-<li><code>delegatedFwd(kernelImpl, msg.data)</code> will always fail if <code>kernelImpl == 0</code> or is not a contract. In such a case, it would also be impossible to run <code>upgradeKernel()</code>.</li>
+<li><code class="codehilite"><span class="n">AppProxy</span></code> may use garbage data as its <code class="codehilite"><span class="n">target</span></code>:<ul>
+<li><code class="codehilite"><span class="n">aragonOS</span><span class="o">/</span><span class="n">contracts</span><span class="o">/</span><span class="n">apps</span><span class="o">/</span><span class="n">AppProxy</span><span class="p">.</span><span class="n">sol</span></code>:<ul>
+<li>If the <code class="codehilite"><span class="n">AppProxy</span></code>'s <code class="codehilite"><span class="n">kernel</span></code> is set to a non-kernel contract address, <code class="codehilite"><span class="n">kernel</span><span class="p">.</span><span class="n">getAppCode</span><span class="p">(</span><span class="n">appId</span><span class="p">)</span></code> will return garbage data <a href="https://github.com/ethereum/solidity/issues/2630">due to how the fallback works</a>. This means that in <code class="codehilite"><span class="n">delegatedFwd</span><span class="p">(</span><span class="n">target</span><span class="p">,</span> <span class="n">msg</span><span class="p">.</span><span class="k">data</span><span class="p">)</span></code>, <code class="codehilite"><span class="n">target</span></code> could potentially be delegating to a malicious contract. As far as I know, exploiting this would be extremely difficult, but it should be clear in the surrounding documentation that the <code class="codehilite"><span class="n">kernel</span></code> <strong>MUST</strong> be carefully set.</li>
 </ul>
 </li>
 </ul>
 </li>
-<li><code>KernelProxy</code>s' initialization can be front-runned:<ul>
-<li><code>aragonOS/contracts/kernel/KernelProxy.sol</code>:<ul>
-<li><code>initialize()</code> is public and accessible to anyone after the proxy is deployed. This should at least be highlighted in documentation for <code>Kernel.initialize()</code> and the <code>KernelProxy</code> so as to make sure users always create and initialize these proxies in one atomic transaction, but a better solution would be to introduce the same <code>initializePayload</code> that is in <code>AppProxy</code>.</li>
+<li><code class="codehilite"><span class="n">KernelProxy</span></code> should fail on construction if <code class="codehilite"><span class="n">_kernelImpl</span></code> is not a contract<ul>
+<li><code class="codehilite"><span class="n">aragonOS</span><span class="o">/</span><span class="n">contracts</span><span class="o">/</span><span class="n">kernel</span><span class="o">/</span><span class="n">KernelProxy</span><span class="p">.</span><span class="n">sol</span></code>:<ul>
+<li><code class="codehilite"><span class="n">delegatedFwd</span><span class="p">(</span><span class="n">kernelImpl</span><span class="p">,</span> <span class="n">msg</span><span class="p">.</span><span class="k">data</span><span class="p">)</span></code> will always fail if <code class="codehilite"><span class="n">kernelImpl</span> <span class="o">==</span> <span class="mi">0</span></code> or is not a contract. In such a case, it would also be impossible to run <code class="codehilite"><span class="n">upgradeKernel</span><span class="p">()</span></code>.</li>
 </ul>
 </li>
 </ul>
 </li>
-<li><code>Kernel.revokePermission()</code> can be front-runned:<ul>
-<li><code>aragonOS/contracts/kernel/KernelProxy.sol</code>:<ul>
-<li>There are many possible outcomes when <code>revokePermission()</code> races with an entity wishing to perform an action associated with the revoked role. As in all front-running cases, the entity learning of the revocation has the upper hand as he can send his transactions with much higher gas prices. I don't see any good way around this, as this is a pretty general problem plaguing all systems implementing revocable controls. It may be a good idea to note this in the comments and associated documentation. The best way around the problem is just to never give permissions to an entity you don't entirely trust, but this is obviously not very practical (yet).</li>
+<li><code class="codehilite"><span class="n">KernelProxy</span></code>s' initialization can be front-runned:<ul>
+<li><code class="codehilite"><span class="n">aragonOS</span><span class="o">/</span><span class="n">contracts</span><span class="o">/</span><span class="n">kernel</span><span class="o">/</span><span class="n">KernelProxy</span><span class="p">.</span><span class="n">sol</span></code>:<ul>
+<li><code class="codehilite"><span class="k">initialize</span><span class="p">()</span></code> is public and accessible to anyone after the proxy is deployed. This should at least be highlighted in documentation for <code class="codehilite"><span class="n">Kernel</span><span class="p">.</span><span class="k">initialize</span><span class="p">()</span></code> and the <code class="codehilite"><span class="n">KernelProxy</span></code> so as to make sure users always create and initialize these proxies in one atomic transaction, but a better solution would be to introduce the same <code class="codehilite"><span class="n">initializePayload</span></code> that is in <code class="codehilite"><span class="n">AppProxy</span></code>.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><code class="codehilite"><span class="n">Kernel</span><span class="p">.</span><span class="n">revokePermission</span><span class="p">()</span></code> can be front-runned:<ul>
+<li><code class="codehilite"><span class="n">aragonOS</span><span class="o">/</span><span class="n">contracts</span><span class="o">/</span><span class="n">kernel</span><span class="o">/</span><span class="n">KernelProxy</span><span class="p">.</span><span class="n">sol</span></code>:<ul>
+<li>There are many possible outcomes when <code class="codehilite"><span class="n">revokePermission</span><span class="p">()</span></code> races with an entity wishing to perform an action associated with the revoked role. As in all front-running cases, the entity learning of the revocation has the upper hand as he can send his transactions with much higher gas prices. I don't see any good way around this, as this is a pretty general problem plaguing all systems implementing revocable controls. It may be a good idea to note this in the comments and associated documentation. The best way around the problem is just to never give permissions to an entity you don't entirely trust, but this is obviously not very practical (yet).</li>
 </ul>
 </li>
 </ul>
@@ -3788,85 +3796,85 @@
 </ul>
 <h3 id="low-severity">Low-severity</h3>
 <ul>
-<li><code>APMRegistry.NewRepo</code> event should index its <code>id</code> and <code>repo</code> fields<ul>
-<li><code>aragonOS/contracts/apm/ApmRegistry.sol</code></li>
+<li><code class="codehilite"><span class="n">APMRegistry</span><span class="p">.</span><span class="n">NewRepo</span></code> event should index its <code class="codehilite"><span class="n">id</span></code> and <code class="codehilite"><span class="n">repo</span></code> fields<ul>
+<li><code class="codehilite"><span class="n">aragonOS</span><span class="o">/</span><span class="n">contracts</span><span class="o">/</span><span class="n">apm</span><span class="o">/</span><span class="n">ApmRegistry</span><span class="p">.</span><span class="n">sol</span></code></li>
 </ul>
 </li>
-<li><code>Repo</code> should use <code>pragma solidity 0.4.18;</code><ul>
-<li><code>aragonOS/contracts/apm/Repo.sol</code></li>
+<li><code class="codehilite"><span class="n">Repo</span></code> should use <code class="codehilite"><span class="n">pragma</span> <span class="n">solidity</span> <span class="mi">0</span><span class="p">.</span><span class="mi">4</span><span class="p">.</span><span class="mi">18</span><span class="p">;</span></code><ul>
+<li><code class="codehilite"><span class="n">aragonOS</span><span class="o">/</span><span class="n">contracts</span><span class="o">/</span><span class="n">apm</span><span class="o">/</span><span class="n">Repo</span><span class="p">.</span><span class="n">sol</span></code></li>
 </ul>
 </li>
-<li><code>AppProxy</code> should fail if <code>_appId</code> is <code>bytes32(0)</code><ul>
-<li><code>aragonOS/contracts/apps/AppProxy.sol</code>:<ul>
-<li>A valid <code>appId</code> will  never be <code>bytes32(0)</code></li>
-</ul>
-</li>
-</ul>
-</li>
-<li><code>AragonApp</code> could be split into <code>AragonApp</code> and <code>InitializableAragonApp</code><ul>
-<li><code>aragonOS/contracts/apps/AragonApp.sol</code>:<ul>
-<li>Apps that don't need to initialize don't need to inherit from <code>Initializable</code>. However, doing this would make it difficult for an app to include the ability to initialize later on, although it's debatable whether or not that functionality would be desirable (what does it mean for already created apps if the app changes to require initialization?).</li>
+<li><code class="codehilite"><span class="n">AppProxy</span></code> should fail if <code class="codehilite"><span class="n">_appId</span></code> is <code class="codehilite"><span class="n">bytes32</span><span class="p">(</span><span class="mi">0</span><span class="p">)</span></code><ul>
+<li><code class="codehilite"><span class="n">aragonOS</span><span class="o">/</span><span class="n">contracts</span><span class="o">/</span><span class="n">apps</span><span class="o">/</span><span class="n">AppProxy</span><span class="p">.</span><span class="n">sol</span></code>:<ul>
+<li>A valid <code class="codehilite"><span class="n">appId</span></code> will  never be <code class="codehilite"><span class="n">bytes32</span><span class="p">(</span><span class="mi">0</span><span class="p">)</span></code></li>
 </ul>
 </li>
 </ul>
 </li>
-<li><code>EtherToken</code>'s <code>wrap()</code>, <code>wrapAndCall()</code>, and <code>withdraw()</code> should be made external<ul>
-<li><code>aragonOS/contracts/common/EtherToken.sol</code>:<ul>
-<li>I don't see many use cases for subclassing this contract (since it's specific to ETH) so any functions not used internally could be made <code>external</code></li>
+<li><code class="codehilite"><span class="n">AragonApp</span></code> could be split into <code class="codehilite"><span class="n">AragonApp</span></code> and <code class="codehilite"><span class="n">InitializableAragonApp</span></code><ul>
+<li><code class="codehilite"><span class="n">aragonOS</span><span class="o">/</span><span class="n">contracts</span><span class="o">/</span><span class="n">apps</span><span class="o">/</span><span class="n">AragonApp</span><span class="p">.</span><span class="n">sol</span></code>:<ul>
+<li>Apps that don't need to initialize don't need to inherit from <code class="codehilite"><span class="n">Initializable</span></code>. However, doing this would make it difficult for an app to include the ability to initialize later on, although it's debatable whether or not that functionality would be desirable (what does it mean for already created apps if the app changes to require initialization?).</li>
 </ul>
 </li>
 </ul>
 </li>
-<li><code>EtherToken</code>'s <code>wrap()</code> could also take a receiver address<ul>
-<li><code>aragonOS/contracts/common/EtherToken.sol</code>:<ul>
-<li>Seems odd that <code>wrap()</code> always deposits to the <code>msg.sender</code> while <code>wrapAndCall()</code> allows you to choose who to send it to</li>
+<li><code class="codehilite"><span class="n">EtherToken</span></code>'s <code class="codehilite"><span class="n">wrap</span><span class="p">()</span></code>, <code class="codehilite"><span class="n">wrapAndCall</span><span class="p">()</span></code>, and <code class="codehilite"><span class="n">withdraw</span><span class="p">()</span></code> should be made external<ul>
+<li><code class="codehilite"><span class="n">aragonOS</span><span class="o">/</span><span class="n">contracts</span><span class="o">/</span><span class="n">common</span><span class="o">/</span><span class="n">EtherToken</span><span class="p">.</span><span class="n">sol</span></code>:<ul>
+<li>I don't see many use cases for subclassing this contract (since it's specific to ETH) so any functions not used internally could be made <code class="codehilite"><span class="k">external</span></code></li>
 </ul>
 </li>
 </ul>
 </li>
-<li><code>EtherToken.withdraw()</code> includes an unnecessary check:<ul>
-<li><code>aragonOS/contracts/common/EtherToken.sol</code>:<ul>
-<li>Strictly speaking, <code>require(balances[msg.sender] &gt;= _amount)</code> is unnecessary since <code>balances[msg.sender].sub(_amount)</code> will also do this check</li>
+<li><code class="codehilite"><span class="n">EtherToken</span></code>'s <code class="codehilite"><span class="n">wrap</span><span class="p">()</span></code> could also take a receiver address<ul>
+<li><code class="codehilite"><span class="n">aragonOS</span><span class="o">/</span><span class="n">contracts</span><span class="o">/</span><span class="n">common</span><span class="o">/</span><span class="n">EtherToken</span><span class="p">.</span><span class="n">sol</span></code>:<ul>
+<li>Seems odd that <code class="codehilite"><span class="n">wrap</span><span class="p">()</span></code> always deposits to the <code class="codehilite"><span class="n">msg</span><span class="p">.</span><span class="n">sender</span></code> while <code class="codehilite"><span class="n">wrapAndCall</span><span class="p">()</span></code> allows you to choose who to send it to</li>
 </ul>
 </li>
 </ul>
 </li>
-<li><code>DelegateProxy.delegatedFwd()</code> could take a <code>gas</code> parameter:<ul>
-<li><code>aragonOS/contracts/common/DelegateProxy.sol</code>:<ul>
-<li>It may be useful to provide a control over how much gas is provided to the <code>delegatecall</code> in case of gas price changes or particular uses (e.g. super large returns or gas-restricted calls). I don't think this is a pressing concern, however, and it may be suggesting additional flexibility for the sake of flexibility.</li>
+<li><code class="codehilite"><span class="n">EtherToken</span><span class="p">.</span><span class="n">withdraw</span><span class="p">()</span></code> includes an unnecessary check:<ul>
+<li><code class="codehilite"><span class="n">aragonOS</span><span class="o">/</span><span class="n">contracts</span><span class="o">/</span><span class="n">common</span><span class="o">/</span><span class="n">EtherToken</span><span class="p">.</span><span class="n">sol</span></code>:<ul>
+<li>Strictly speaking, <code class="codehilite"><span class="n">require</span><span class="p">(</span><span class="n">balances</span><span class="p">[</span><span class="n">msg</span><span class="p">.</span><span class="n">sender</span><span class="p">]</span> <span class="o">&gt;=</span> <span class="n">_amount</span><span class="p">)</span></code> is unnecessary since <code class="codehilite"><span class="n">balances</span><span class="p">[</span><span class="n">msg</span><span class="p">.</span><span class="n">sender</span><span class="p">].</span><span class="n">sub</span><span class="p">(</span><span class="n">_amount</span><span class="p">)</span></code> will also do this check</li>
 </ul>
 </li>
 </ul>
 </li>
-<li><code>IForwarder.isForwarder()</code> should be made external<ul>
-<li><code>aragonOS/contracts/common/IForwarder.sol</code>:<ul>
-<li>There's no reason to ever use <code>isForwarder()</code> internally... right?</li>
+<li><code class="codehilite"><span class="n">DelegateProxy</span><span class="p">.</span><span class="n">delegatedFwd</span><span class="p">()</span></code> could take a <code class="codehilite"><span class="n">gas</span></code> parameter:<ul>
+<li><code class="codehilite"><span class="n">aragonOS</span><span class="o">/</span><span class="n">contracts</span><span class="o">/</span><span class="n">common</span><span class="o">/</span><span class="n">DelegateProxy</span><span class="p">.</span><span class="n">sol</span></code>:<ul>
+<li>It may be useful to provide a control over how much gas is provided to the <code class="codehilite"><span class="n">delegatecall</span></code> in case of gas price changes or particular uses (e.g. super large returns or gas-restricted calls). I don't think this is a pressing concern, however, and it may be suggesting additional flexibility for the sake of flexibility.</li>
 </ul>
 </li>
 </ul>
 </li>
-<li><code>Initializable</code> library instances can be initialized:<ul>
-<li><code>aragonOS/contracts/common/Initializable.sol</code>:<ul>
-<li>Not a big deal because library contracts' states are meaningless, but it'd still be nice if <code>Initializable</code> provided a way for these library contracts to be initialized on creation (e.g. by providing a constructor that sets <code>initializationBlock</code>)</li>
+<li><code class="codehilite"><span class="n">IForwarder</span><span class="p">.</span><span class="n">isForwarder</span><span class="p">()</span></code> should be made external<ul>
+<li><code class="codehilite"><span class="n">aragonOS</span><span class="o">/</span><span class="n">contracts</span><span class="o">/</span><span class="n">common</span><span class="o">/</span><span class="n">IForwarder</span><span class="p">.</span><span class="n">sol</span></code>:<ul>
+<li>There's no reason to ever use <code class="codehilite"><span class="n">isForwarder</span><span class="p">()</span></code> internally... right?</li>
 </ul>
 </li>
 </ul>
 </li>
-<li><code>ENSSubdomainRegistrar.createNameAndPoint()</code> should accept an <code>owner</code> parameter<ul>
-<li><code>aragonOS/contracts/ens/ENSSubdomainRegistrar.sol</code>:<ul>
-<li>Mirror <code>createName()</code>'s interface and increase flexibility</li>
+<li><code class="codehilite"><span class="n">Initializable</span></code> library instances can be initialized:<ul>
+<li><code class="codehilite"><span class="n">aragonOS</span><span class="o">/</span><span class="n">contracts</span><span class="o">/</span><span class="n">common</span><span class="o">/</span><span class="n">Initializable</span><span class="p">.</span><span class="n">sol</span></code>:<ul>
+<li>Not a big deal because library contracts' states are meaningless, but it'd still be nice if <code class="codehilite"><span class="n">Initializable</span></code> provided a way for these library contracts to be initialized on creation (e.g. by providing a constructor that sets <code class="codehilite"><span class="n">initializationBlock</span></code>)</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><code class="codehilite"><span class="n">ENSSubdomainRegistrar</span><span class="p">.</span><span class="n">createNameAndPoint</span><span class="p">()</span></code> should accept an <code class="codehilite"><span class="k">owner</span></code> parameter<ul>
+<li><code class="codehilite"><span class="n">aragonOS</span><span class="o">/</span><span class="n">contracts</span><span class="o">/</span><span class="n">ens</span><span class="o">/</span><span class="n">ENSSubdomainRegistrar</span><span class="p">.</span><span class="n">sol</span></code>:<ul>
+<li>Mirror <code class="codehilite"><span class="n">createName</span><span class="p">()</span></code>'s interface and increase flexibility</li>
 </ul>
 </li>
 </ul>
 </li>
 <li>Nomenclature:<ul>
-<li><code>aragonOS/contracts/common/EVMCallScript.sol</code>:<ul>
-<li><code>EVMCallScriptRunner.LogScriptCall</code> event should be named <code>ScriptCall</code> to adhere to the same pattern as all other events (no <code>Log</code> prefix)</li>
+<li><code class="codehilite"><span class="n">aragonOS</span><span class="o">/</span><span class="n">contracts</span><span class="o">/</span><span class="n">common</span><span class="o">/</span><span class="n">EVMCallScript</span><span class="p">.</span><span class="n">sol</span></code>:<ul>
+<li><code class="codehilite"><span class="n">EVMCallScriptRunner</span><span class="p">.</span><span class="n">LogScriptCall</span></code> event should be named <code class="codehilite"><span class="n">ScriptCall</span></code> to adhere to the same pattern as all other events (no <code class="codehilite"><span class="n">Log</span></code> prefix)</li>
 </ul>
 </li>
-<li><code>aragonOS/contracts/kernel/IKernel.sol</code>:<ul>
-<li>Function names and arguments have a naming mismatch; names are called in terms of <code>permission</code>s whereas arguments are always called in terms of <code>role</code>s</li>
-<li><code>ChangePermissionManager</code> event could have its <code>manager</code> parameter renamed as <code>newManager</code> for clarity</li>
+<li><code class="codehilite"><span class="n">aragonOS</span><span class="o">/</span><span class="n">contracts</span><span class="o">/</span><span class="n">kernel</span><span class="o">/</span><span class="n">IKernel</span><span class="p">.</span><span class="n">sol</span></code>:<ul>
+<li>Function names and arguments have a naming mismatch; names are called in terms of <code class="codehilite"><span class="n">permission</span></code>s whereas arguments are always called in terms of <code class="codehilite"><span class="k">role</span></code>s</li>
+<li><code class="codehilite"><span class="n">ChangePermissionManager</span></code> event could have its <code class="codehilite"><span class="n">manager</span></code> parameter renamed as <code class="codehilite"><span class="n">newManager</span></code> for clarity</li>
 </ul>
 </li>
 </ul>
@@ -3874,47 +3882,47 @@
 <li>
 <p>Comments:</p>
 <ul>
-<li><code>aragonOS/contracts/apps/AppProxy.sol</code> and <code>aragonOS/contracts/kernel/KernelProxy.sol</code>:<ul>
-<li>Fallback function: a note indicating that no <code>return</code> statement is needed for <code>delegatedFwd()</code> to return a <code>bytes32</code> value would be nice (it is puzzling at first glance why the comments say they return data but the function signatures and bodies don't contain <code>return</code>s; it's additionally puzzling because Solidity disallows fallbacks from returning). Also, I believe it's more than just a <code>bytes32</code> being returned now (post Byzantium); it should be the entire return?</li>
+<li><code class="codehilite"><span class="n">aragonOS</span><span class="o">/</span><span class="n">contracts</span><span class="o">/</span><span class="n">apps</span><span class="o">/</span><span class="n">AppProxy</span><span class="p">.</span><span class="n">sol</span></code> and <code class="codehilite"><span class="n">aragonOS</span><span class="o">/</span><span class="n">contracts</span><span class="o">/</span><span class="n">kernel</span><span class="o">/</span><span class="n">KernelProxy</span><span class="p">.</span><span class="n">sol</span></code>:<ul>
+<li>Fallback function: a note indicating that no <code class="codehilite"><span class="k">return</span></code> statement is needed for <code class="codehilite"><span class="n">delegatedFwd</span><span class="p">()</span></code> to return a <code class="codehilite"><span class="n">bytes32</span></code> value would be nice (it is puzzling at first glance why the comments say they return data but the function signatures and bodies don't contain <code class="codehilite"><span class="k">return</span></code>s; it's additionally puzzling because Solidity disallows fallbacks from returning). Also, I believe it's more than just a <code class="codehilite"><span class="n">bytes32</span></code> being returned now (post Byzantium); it should be the entire return?</li>
 </ul>
 </li>
-<li><code>aragonOS/contracts/common/DelegateProxy.sol</code>:<ul>
-<li>Would be nice to have an <code>@returns</code> comment</li>
+<li><code class="codehilite"><span class="n">aragonOS</span><span class="o">/</span><span class="n">contracts</span><span class="o">/</span><span class="n">common</span><span class="o">/</span><span class="n">DelegateProxy</span><span class="p">.</span><span class="n">sol</span></code>:<ul>
+<li>Would be nice to have an <code class="codehilite"><span class="nv">@returns</span><span class="w"></span></code> comment</li>
 </ul>
 </li>
-<li><code>aragonOS/contracts/common/IForwarder.sol</code>:<ul>
+<li><code class="codehilite"><span class="n">aragonOS</span><span class="o">/</span><span class="n">contracts</span><span class="o">/</span><span class="n">common</span><span class="o">/</span><span class="n">IForwarder</span><span class="p">.</span><span class="n">sol</span></code>:<ul>
 <li>Would be nice to have some comments documenting the interface</li>
 </ul>
 </li>
-<li><code>aragonOS/contracts/common/Initializable.sol</code>:<ul>
-<li><code>initialized()</code>: <code>Function to be called by subclassed contract to signal it has been initialized.</code> may better reflect the intended usage of <code>initialized()</code></li>
+<li><code class="codehilite"><span class="n">aragonOS</span><span class="o">/</span><span class="n">contracts</span><span class="o">/</span><span class="n">common</span><span class="o">/</span><span class="n">Initializable</span><span class="p">.</span><span class="n">sol</span></code>:<ul>
+<li><code class="codehilite"><span class="n">initialized</span><span class="p">()</span></code>: <code class="codehilite"><span class="k">Function</span> <span class="k">to</span> <span class="n">be</span> <span class="k">called</span> <span class="k">by</span> <span class="n">subclassed</span> <span class="n">contract</span> <span class="k">to</span> <span class="n">signal</span> <span class="n">it</span> <span class="n">has</span> <span class="n">been</span> <span class="n">initialized</span><span class="p">.</span></code> may better reflect the intended usage of <code class="codehilite"><span class="n">initialized</span><span class="p">()</span></code></li>
 </ul>
 </li>
-<li><code>aragonOS/contracts/kernel/IKernel.sol</code>:<ul>
-<li>Might be nice to move some of the comments detailing functions from <code>aragonOS/contracts/kernel/Kernel.sol</code> to the interface contract</li>
+<li><code class="codehilite"><span class="n">aragonOS</span><span class="o">/</span><span class="n">contracts</span><span class="o">/</span><span class="n">kernel</span><span class="o">/</span><span class="n">IKernel</span><span class="p">.</span><span class="n">sol</span></code>:<ul>
+<li>Might be nice to move some of the comments detailing functions from <code class="codehilite"><span class="n">aragonOS</span><span class="o">/</span><span class="n">contracts</span><span class="o">/</span><span class="n">kernel</span><span class="o">/</span><span class="n">Kernel</span><span class="p">.</span><span class="n">sol</span></code> to the interface contract</li>
 </ul>
 </li>
-<li><code>aragonOS/contracts/kernel/Kernel.sol</code>:<ul>
-<li>It may be useful to have a detailed example for each complex mapping, e.g: <code>mapping (address =&gt; mapping (address =&gt; mapping (bytes32 =&gt; bool))) permissions</code> could have <code>(entity =&gt; (app =&gt; (role =&gt; hasPermission)))</code></li>
-<li>Remove all instances of <code>parent</code> and replace with <code>manager</code></li>
-<li><code>setAppCode()</code>: suggest changing <code>@dev</code> comment to <code>@dev Changes implementation address for all installed apps with \</code>_appId`. This must be called for `_appId` before any apps of `_appId` work properly.</li>
+<li><code class="codehilite"><span class="n">aragonOS</span><span class="o">/</span><span class="n">contracts</span><span class="o">/</span><span class="n">kernel</span><span class="o">/</span><span class="n">Kernel</span><span class="p">.</span><span class="n">sol</span></code>:<ul>
+<li>It may be useful to have a detailed example for each complex mapping, e.g: <code class="codehilite"><span class="n">mapping</span> <span class="p">(</span><span class="n">address</span> <span class="o">=&gt;</span> <span class="n">mapping</span> <span class="p">(</span><span class="n">address</span> <span class="o">=&gt;</span> <span class="n">mapping</span> <span class="p">(</span><span class="n">bytes32</span> <span class="o">=&gt;</span> <span class="n">bool</span><span class="p">)))</span> <span class="n">permissions</span></code> could have <code class="codehilite"><span class="p">(</span><span class="n">entity</span> <span class="o">=&gt;</span> <span class="p">(</span><span class="n">app</span> <span class="o">=&gt;</span> <span class="p">(</span><span class="k">role</span> <span class="o">=&gt;</span> <span class="n">hasPermission</span><span class="p">)))</span></code></li>
+<li>Remove all instances of <code class="codehilite"><span class="n">parent</span></code> and replace with <code class="codehilite"><span class="n">manager</span></code></li>
+<li><code class="codehilite"><span class="n">setAppCode</span><span class="p">()</span></code>: suggest changing <code class="codehilite"><span class="nv">@dev</span><span class="w"></span></code> comment to <code class="codehilite">@<span class="nv">dev</span> <span class="nv">Changes</span> <span class="nv">implementation</span> <span class="nv">address</span> <span class="k">for</span> <span class="nv">all</span> <span class="nv">installed</span> <span class="nv">apps</span> <span class="nv">with</span> \</code>_appId`. This must be called for `_appId` before any apps of `_appId` work properly.</li>
 </ul>
 </li>
 </ul>
 </li>
 <li>
-<p><code>solc</code> build warning:</p>
+<p><code class="codehilite"><span class="n">solc</span></code> build warning:</p>
 </li>
 </ul>
-<pre><code class="bash">aragonOS/contracts/apm/Repo.sol:78:5: Warning: Function state mutability can be restricted to pure
-    function isValidBump(uint16[3] _oldVersion, uint16[3] _newVersion) public view returns (bool) {
-</code></pre>
+<div class="codehilite"><pre><span></span>aragonOS/contracts/apm/Repo.sol:78:5: Warning: Function state mutability can be restricted to pure
+    <span class="k">function</span> isValidBump<span class="o">(</span>uint16<span class="o">[</span><span class="m">3</span><span class="o">]</span> _oldVersion, uint16<span class="o">[</span><span class="m">3</span><span class="o">]</span> _newVersion<span class="o">)</span> public view returns <span class="o">(</span>bool<span class="o">)</span> <span class="o">{</span>
+</pre></div>
 
-<p>(All other build warnings are either from 3rd party or test contracts, and of low severity)</p>
+<p>(All other build warnings are either from 3<sup>rd</sup> party or test contracts, and of low severity)</p>
 <ul>
-<li>Unused library code: <code>aragonOS/contracts/lib/zeppelin/math/Math.sol</code></li>
+<li>Unused library code: <code class="codehilite"><span class="n">aragonOS</span><span class="o">/</span><span class="n">contracts</span><span class="o">/</span><span class="n">lib</span><span class="o">/</span><span class="n">zeppelin</span><span class="o">/</span><span class="n">math</span><span class="o">/</span><span class="n">Math</span><span class="p">.</span><span class="n">sol</span></code></li>
 <li>Check and update library contracts for latest versions (e.g. Zeppelin, MiniMe) if any bug fixes have been introduced</li>
-<li>In general, it may be a good idea to introduce ETH / ERC20 escape hatches for non-Vault contracts (e.g. see <a href="https://github.com/Giveth/Donation-Doubler/blob/master/contracts/Escapable.sol">Escapable</a>, or an even simpler contract that just exposes a <a href="https://github.com/Giveth/minime/blob/master/contracts/MiniMeToken.sol#L497">function allowing <code>owner</code> to withdraw any ETH or ERC20 token owned by the contract</a>)<ul>
+<li>In general, it may be a good idea to introduce ETH / ERC20 escape hatches for non-Vault contracts (e.g. see <a href="https://github.com/Giveth/Donation-Doubler/blob/master/contracts/Escapable.sol">Escapable</a>, or an even simpler contract that just exposes a <a href="https://github.com/Giveth/minime/blob/master/contracts/MiniMeToken.sol#L497">function allowing <code class="codehilite"><span class="k">owner</span></code> to withdraw any ETH or ERC20 token owned by the contract</a>)<ul>
 <li>Alternatively, contracts could revert in the fallback function and ERC223/677 callbacks, but ERC20 tokens could still be locked up</li>
 </ul>
 </li>
@@ -3923,79 +3931,79 @@
 <h3 id="low-severity_1">Low-Severity</h3>
 <ul>
 <li>General<ul>
-<li>Given that most storage arrays in the apps are never iterated, they could be implemented with <code>mapping (bytes32 =&gt; ...)</code>s instead, where the key is <code>keccak256('&lt;type&gt;', currentNumOfType)</code>. The main advantage of this is being able to avoid any index manipulation targeted for humans (i.e. forcing some arrays to start at <code>1</code> because <code>0</code> doesn't make intuitive sense). Also, a pseudorandom <code>bytes32</code> value arguably makes more sense as an identifier than an incrementing <code>uint</code>. Clients could listen to the logs (or rebuild the hashes, if <code>currentNumOfType</code> is known) to build their UIs.</li>
+<li>Given that most storage arrays in the apps are never iterated, they could be implemented with <code class="codehilite"><span class="n">mapping</span> <span class="p">(</span><span class="n">bytes32</span> <span class="o">=&gt;</span> <span class="p">...)</span></code>s instead, where the key is <code class="codehilite"><span class="n">keccak256</span><span class="p">(</span><span class="s1">&#39;&lt;type&gt;&#39;</span><span class="p">,</span> <span class="n">currentNumOfType</span><span class="p">)</span></code>. The main advantage of this is being able to avoid any index manipulation targeted for humans (i.e. forcing some arrays to start at <code class="codehilite"><span class="mi">1</span></code> because <code class="codehilite"><span class="mi">0</span></code> doesn't make intuitive sense). Also, a pseudorandom <code class="codehilite"><span class="n">bytes32</span></code> value arguably makes more sense as an identifier than an incrementing <code class="codehilite"><span class="n">uint</span></code>. Clients could listen to the logs (or rebuild the hashes, if <code class="codehilite"><span class="n">currentNumOfType</span></code> is known) to build their UIs.</li>
 </ul>
 </li>
 <li>Finance<ul>
-<li><code>aragon-apps/apps/finance/contracts/Finance.sol</code>:<ul>
+<li><code class="codehilite"><span class="n">aragon</span><span class="o">-</span><span class="n">apps</span><span class="o">/</span><span class="n">apps</span><span class="o">/</span><span class="n">finance</span><span class="o">/</span><span class="n">contracts</span><span class="o">/</span><span class="n">Finance</span><span class="p">.</span><span class="n">sol</span></code>:<ul>
 <li>Should add clarifications as to whether a token must be added to the budget before being allowed to create payments<ul>
-<li>l204 has a comment stating this to be the case, but the associated <code>require()</code> does not actually complete this check</li>
+<li>l204 has a comment stating this to be the case, but the associated <code class="codehilite"><span class="n">require</span><span class="p">()</span></code> does not actually complete this check</li>
 </ul>
 </li>
-<li>Comments may be beneficial for mappings (e.g. <code>token =&gt; budget</code> for <code>budgets</code>)</li>
-<li><code>tokenStatement</code> should be renamed <code>tokenStatements</code></li>
-<li>Consider increasing the minimum <code>periodDuration</code> to be greater than one second<ul>
-<li>Extremely small <code>periodDurations</code> can cause the app to be onerous to maintain</li>
+<li>Comments may be beneficial for mappings (e.g. <code class="codehilite"><span class="n">token</span> <span class="o">=&gt;</span> <span class="n">budget</span></code> for <code class="codehilite"><span class="n">budgets</span></code>)</li>
+<li><code class="codehilite"><span class="n">tokenStatement</span></code> should be renamed <code class="codehilite"><span class="n">tokenStatements</span></code></li>
+<li>Consider increasing the minimum <code class="codehilite"><span class="n">periodDuration</span></code> to be greater than one second<ul>
+<li>Extremely small <code class="codehilite"><span class="n">periodDurations</span></code> can cause the app to be onerous to maintain</li>
 </ul>
 </li>
-<li>Deposit logic may benefit from being abstracted into internal <code>_deposit()</code> and <code>_depositFrom()</code> methods<ul>
-<li>Improve DRYness when the combo of <code>_recordIncomingTransaction()</code> and <code>token.transfer()</code> or <code>token.transferFrom()</code> are used</li>
+<li>Deposit logic may benefit from being abstracted into internal <code class="codehilite"><span class="n">_deposit</span><span class="p">()</span></code> and <code class="codehilite"><span class="n">_depositFrom</span><span class="p">()</span></code> methods<ul>
+<li>Improve DRYness when the combo of <code class="codehilite"><span class="n">_recordIncomingTransaction</span><span class="p">()</span></code> and <code class="codehilite"><span class="n">token</span><span class="p">.</span><span class="n">transfer</span><span class="p">()</span></code> or <code class="codehilite"><span class="n">token</span><span class="p">.</span><span class="n">transferFrom</span><span class="p">()</span></code> are used</li>
 </ul>
 </li>
-<li><code>newPayment()</code> acts differently for one-time, immediate payments than repeating payments when the payment fails<ul>
-<li>One time payments cause a revert if they cannot be immediately executed while repeating payments will log a <code>PaymentFailure</code> event. It may be beneficial for both cases to match so as to avoid unexpected behaviour for users. One way of accomplishing this would be to cache a one-time payment if it cannot be immediately executed.</li>
+<li><code class="codehilite"><span class="n">newPayment</span><span class="p">()</span></code> acts differently for one-time, immediate payments than repeating payments when the payment fails<ul>
+<li>One time payments cause a revert if they cannot be immediately executed while repeating payments will log a <code class="codehilite"><span class="n">PaymentFailure</span></code> event. It may be beneficial for both cases to match so as to avoid unexpected behaviour for users. One way of accomplishing this would be to cache a one-time payment if it cannot be immediately executed.</li>
 </ul>
 </li>
-<li><code>setBudget()</code> should check that <code>_amount</code> is greater than or equal to the current period's expenses<ul>
+<li><code class="codehilite"><span class="n">setBudget</span><span class="p">()</span></code> should check that <code class="codehilite"><span class="n">_amount</span></code> is greater than or equal to the current period's expenses<ul>
 <li>Changing a budget to be smaller than the current period's expenses will likely be confusing for clients and should be avoided</li>
 </ul>
 </li>
-<li>Remove payment date check from <code>executePayment()</code> and <code>receiverExecutePayment()</code><ul>
-<li><code>require(nextPaymentTime(_paymentId) &lt;= getTimestamp())</code> is already checked in <code>_executePayment()</code></li>
+<li>Remove payment date check from <code class="codehilite"><span class="n">executePayment</span><span class="p">()</span></code> and <code class="codehilite"><span class="n">receiverExecutePayment</span><span class="p">()</span></code><ul>
+<li><code class="codehilite"><span class="n">require</span><span class="p">(</span><span class="n">nextPaymentTime</span><span class="p">(</span><span class="n">_paymentId</span><span class="p">)</span> <span class="o">&lt;=</span> <span class="n">getTimestamp</span><span class="p">())</span></code> is already checked in <code class="codehilite"><span class="n">_executePayment</span><span class="p">()</span></code></li>
 </ul>
 </li>
-<li><code>view</code> getters can be made <code>external</code></li>
-<li><code>nextPaymentTime()</code> (l402): <code>payment</code> should be a <code>storage</code> variable</li>
-<li><code>nextPaymentTime()</code>'s casting from uint256 to uint64 (l410) should have an associated <code>require(nextPayment &lt;= MAX_UINT64)</code></li>
-<li><code>getTimestamp()</code> should return <code>uint64</code> to conform with other dates</li>
-<li><code>_canMakePayment()</code> should be <code>view</code></li>
+<li><code class="codehilite"><span class="k">view</span></code> getters can be made <code class="codehilite"><span class="k">external</span></code></li>
+<li><code class="codehilite"><span class="n">nextPaymentTime</span><span class="p">()</span></code> (l402): <code class="codehilite"><span class="n">payment</span></code> should be a <code class="codehilite"><span class="k">storage</span></code> variable</li>
+<li><code class="codehilite"><span class="n">nextPaymentTime</span><span class="p">()</span></code>'s casting from uint256 to uint64 (l410) should have an associated <code class="codehilite"><span class="n">require</span><span class="p">(</span><span class="n">nextPayment</span> <span class="o">&lt;=</span> <span class="n">MAX_UINT64</span><span class="p">)</span></code></li>
+<li><code class="codehilite"><span class="n">getTimestamp</span><span class="p">()</span></code> should return <code class="codehilite"><span class="n">uint64</span></code> to conform with other dates</li>
+<li><code class="codehilite"><span class="n">_canMakePayment</span><span class="p">()</span></code> should be <code class="codehilite"><span class="k">view</span></code></li>
 </ul>
 </li>
 </ul>
 </li>
 <li>TokenManager<ul>
-<li><code>aragon-apps/apps/token-manager/contracts/TokenManager.sol</code>:<ul>
-<li><code>transferable</code> and <code>logHolders</code> could be grouped together to save some storage</li>
-<li><code>assignVested()</code> could be renamed to <code>assignVesting()</code> to clarify that it creates a vesting for an entity rather than assigning already vested tokens to an entity</li>
-<li><code>allHolders()</code> and <code>spendableBalanceOf()</code> could be made external</li>
-<li><code>isBalanceIncreaseAllowed()</code> should use <code>.add()</code>: <code>return token.balanceOf(_receiver).add(_inc) &lt;= maxAccountTokens</code></li>
-<li><code>transferableBalance()</code>'s <code>_time</code> parameter should be of <code>uint64</code> for consistency with other dates</li>
-<li><code>calculateNonVestedTokens()</code> should sanitize its time inputs: <code>require(start &lt;= cliff &amp;&amp; cliff &lt;= vesting)</code></li>
-<li><code>calculateNonVestedTokens()</code>'s <code>vestedTokens</code> calculation could be simplified to <code>uint256 vestedToken = tokens.mul((time - start) / (vesting - start))</code> (assuming sanity checks above were performed)</li>
-<li><code>_assign()</code> should also call <code>_logHolderIfNeeded(_receiver)</code></li>
+<li><code class="codehilite"><span class="n">aragon</span><span class="o">-</span><span class="n">apps</span><span class="o">/</span><span class="n">apps</span><span class="o">/</span><span class="n">token</span><span class="o">-</span><span class="n">manager</span><span class="o">/</span><span class="n">contracts</span><span class="o">/</span><span class="n">TokenManager</span><span class="p">.</span><span class="n">sol</span></code>:<ul>
+<li><code class="codehilite"><span class="n">transferable</span></code> and <code class="codehilite"><span class="n">logHolders</span></code> could be grouped together to save some storage</li>
+<li><code class="codehilite"><span class="n">assignVested</span><span class="p">()</span></code> could be renamed to <code class="codehilite"><span class="n">assignVesting</span><span class="p">()</span></code> to clarify that it creates a vesting for an entity rather than assigning already vested tokens to an entity</li>
+<li><code class="codehilite"><span class="n">allHolders</span><span class="p">()</span></code> and <code class="codehilite"><span class="n">spendableBalanceOf</span><span class="p">()</span></code> could be made external</li>
+<li><code class="codehilite"><span class="n">isBalanceIncreaseAllowed</span><span class="p">()</span></code> should use <code class="codehilite"><span class="na">.add</span><span class="p">()</span></code>: <code class="codehilite"><span class="k">return</span> <span class="nv">token</span>.<span class="nv">balanceOf</span><span class="ss">(</span><span class="nv">_receiver</span><span class="ss">)</span>.<span class="nv">add</span><span class="ss">(</span><span class="nv">_inc</span><span class="ss">)</span> <span class="o">&lt;=</span> <span class="nv">maxAccountTokens</span></code></li>
+<li><code class="codehilite"><span class="n">transferableBalance</span><span class="p">()</span></code>'s <code class="codehilite"><span class="n">_time</span></code> parameter should be of <code class="codehilite"><span class="n">uint64</span></code> for consistency with other dates</li>
+<li><code class="codehilite"><span class="n">calculateNonVestedTokens</span><span class="p">()</span></code> should sanitize its time inputs: <code class="codehilite"><span class="n">require</span><span class="p">(</span><span class="k">start</span> <span class="o">&lt;=</span> <span class="n">cliff</span> <span class="o">&amp;&amp;</span> <span class="n">cliff</span> <span class="o">&lt;=</span> <span class="n">vesting</span><span class="p">)</span></code></li>
+<li><code class="codehilite"><span class="n">calculateNonVestedTokens</span><span class="p">()</span></code>'s <code class="codehilite"><span class="n">vestedTokens</span></code> calculation could be simplified to <code class="codehilite"><span class="n">uint256</span> <span class="n">vestedToken</span> <span class="o">=</span> <span class="n">tokens</span><span class="p">.</span><span class="n">mul</span><span class="p">((</span><span class="n">time</span> <span class="o">-</span> <span class="k">start</span><span class="p">)</span> <span class="o">/</span> <span class="p">(</span><span class="n">vesting</span> <span class="o">-</span> <span class="k">start</span><span class="p">))</span></code> (assuming sanity checks above were performed)</li>
+<li><code class="codehilite"><span class="n">_assign</span><span class="p">()</span></code> should also call <code class="codehilite"><span class="n">_logHolderIfNeeded</span><span class="p">(</span><span class="n">_receiver</span><span class="p">)</span></code></li>
 </ul>
 </li>
 </ul>
 </li>
 <li>Voting<ul>
-<li><code>aragon-apps/apps/voting/contracts/Voting.sol</code>:<ul>
+<li><code class="codehilite"><span class="n">aragon</span><span class="o">-</span><span class="n">apps</span><span class="o">/</span><span class="n">apps</span><span class="o">/</span><span class="n">voting</span><span class="o">/</span><span class="n">contracts</span><span class="o">/</span><span class="n">Voting</span><span class="p">.</span><span class="n">sol</span></code>:<ul>
 <li>Add veto role: give an entity the ability to decide a vote unianimously<ul>
 <li>Example use case: give certain entities (e.g. President) extra power to decide votes more quickly (allows them to have more power without being assigned other permissions).</li>
-<li>Example use case: in a stalemate due to not reaching <code>minAcceptQuorumPct</code>, a DAO may want to restart a vote with a lower <code>minAcceptQuorumPct</code>. At that point, the previous vote could be vetoed to be unsuccessful to allow a new vote to start right away, rather than having to wait for it to expire.</li>
+<li>Example use case: in a stalemate due to not reaching <code class="codehilite"><span class="n">minAcceptQuorumPct</span></code>, a DAO may want to restart a vote with a lower <code class="codehilite"><span class="n">minAcceptQuorumPct</span></code>. At that point, the previous vote could be vetoed to be unsuccessful to allow a new vote to start right away, rather than having to wait for it to expire.</li>
 </ul>
 </li>
-<li>Allow <code>minAcceptQuorumPct</code> to be provided when creating a new vote<ul>
-<li>The main utility I could gather from allowing this parameter to be modified was that a DAO may choose different levels of importance for different votes (of the same type, i.e. time and required support), where size of quorum is a proxy for importance. However, given the current implementation, it would require multiple steps to change the <code>minAcceptQuorumPct</code> for a single vote (you'd have to change it, create a vote, and then change it back).</li>
-<li>Implementing this could be done via an overload, storing the quorum percentage given on initialization as the default percentage. <code>forward()</code> should always use the default percentage.</li>
+<li>Allow <code class="codehilite"><span class="n">minAcceptQuorumPct</span></code> to be provided when creating a new vote<ul>
+<li>The main utility I could gather from allowing this parameter to be modified was that a DAO may choose different levels of importance for different votes (of the same type, i.e. time and required support), where size of quorum is a proxy for importance. However, given the current implementation, it would require multiple steps to change the <code class="codehilite"><span class="n">minAcceptQuorumPct</span></code> for a single vote (you'd have to change it, create a vote, and then change it back).</li>
+<li>Implementing this could be done via an overload, storing the quorum percentage given on initialization as the default percentage. <code class="codehilite"><span class="k">forward</span><span class="p">()</span></code> should always use the default percentage.</li>
 </ul>
 </li>
-<li>In <code>struct Vote</code>, <code>startDate</code> and <code>executed</code> could be grouped together to save some storage</li>
-<li><code>struct Vote</code>'s <code>totalVoters</code> could be renamed to <code>totalPossible</code> to avoid confusion over whether it holds the total number of individual voters or total possible votes</li>
-<li><code>canExecute()</code> should use <code>.add()</code> (l153): <code>uint256 totalVotes = vote.yea.add(vote.nay)</code></li>
-<li><code>view</code> getters can be made <code>external</code></li>
-<li><code>_isVoteOpen()</code> should cast up rather than down: <code>return now &lt; uint256(vote.startDate).add(uint256(voteTime)) &amp;&amp; !vote.executed;</code></li>
-<li><code>_isValuePct()</code> could be renamed to <code>_isAtLeastPct()</code> for clarity</li>
-<li><code>_isValuePct()</code> should use <code>.mul()</code> (l268): <code>uint256 m = _total.mul(_pct)</code></li>
+<li>In <code class="codehilite"><span class="n">struct</span> <span class="n">Vote</span></code>, <code class="codehilite"><span class="n">startDate</span></code> and <code class="codehilite"><span class="n">executed</span></code> could be grouped together to save some storage</li>
+<li><code class="codehilite"><span class="n">struct</span> <span class="n">Vote</span></code>'s <code class="codehilite"><span class="n">totalVoters</span></code> could be renamed to <code class="codehilite"><span class="n">totalPossible</span></code> to avoid confusion over whether it holds the total number of individual voters or total possible votes</li>
+<li><code class="codehilite"><span class="n">canExecute</span><span class="p">()</span></code> should use <code class="codehilite"><span class="na">.add</span><span class="p">()</span></code> (l153): <code class="codehilite"><span class="n">uint256</span> <span class="n">totalVotes</span> <span class="o">=</span> <span class="n">vote</span><span class="p">.</span><span class="n">yea</span><span class="p">.</span><span class="k">add</span><span class="p">(</span><span class="n">vote</span><span class="p">.</span><span class="n">nay</span><span class="p">)</span></code></li>
+<li><code class="codehilite"><span class="k">view</span></code> getters can be made <code class="codehilite"><span class="k">external</span></code></li>
+<li><code class="codehilite"><span class="n">_isVoteOpen</span><span class="p">()</span></code> should cast up rather than down: <code class="codehilite"><span class="k">return</span> <span class="nv">now</span> <span class="o">&lt;</span> <span class="nv">uint256</span><span class="ss">(</span><span class="nv">vote</span>.<span class="nv">startDate</span><span class="ss">)</span>.<span class="nv">add</span><span class="ss">(</span><span class="nv">uint256</span><span class="ss">(</span><span class="nv">voteTime</span><span class="ss">))</span> <span class="o">&amp;&amp;</span> <span class="o">!</span><span class="nv">vote</span>.<span class="nv">executed</span><span class="c1">;</span></code></li>
+<li><code class="codehilite"><span class="n">_isValuePct</span><span class="p">()</span></code> could be renamed to <code class="codehilite"><span class="n">_isAtLeastPct</span><span class="p">()</span></code> for clarity</li>
+<li><code class="codehilite"><span class="n">_isValuePct</span><span class="p">()</span></code> should use <code class="codehilite"><span class="na">.mul</span><span class="p">()</span></code> (l268): <code class="codehilite"><span class="n">uint256</span> <span class="n">m</span> <span class="o">=</span> <span class="n">_total</span><span class="p">.</span><span class="n">mul</span><span class="p">(</span><span class="n">_pct</span><span class="p">)</span></code></li>
 </ul>
 </li>
 </ul>
@@ -4004,34 +4012,34 @@
 <h2 id="tools">Tools</h2>
 <h3 id="solgraph">Solgraph</h3>
 <ul>
-<li>Only <code>EtherToken.sol</code> was flagged for having an untrusted <code>transfer()</code> to another contract (see <a href="#oyente">Oyente</a> for a note on this).</li>
+<li>Only <code class="codehilite"><span class="n">EtherToken</span><span class="p">.</span><span class="n">sol</span></code> was flagged for having an untrusted <code class="codehilite"><span class="n">transfer</span><span class="p">()</span></code> to another contract (see <a href="#oyente">Oyente</a> for a note on this).</li>
 <li>Noted that solgraph is non-exhaustive and only assumes contracts to be untrusted if they send funds to an external contract. However, it can be useful for quickly telling which contracts are likely to be more complicated, as well as helping visualize the interdependencies between functions in a contract.</li>
 </ul>
 <h4 id="test-details">Test details</h4>
 <p>Created function graphs via:</p>
-<pre><code class="bash"># Globstar and multiple variable substitutions may have to be turned on in your shell
+<div class="codehilite"><pre><span></span><span class="c1"># Globstar and multiple variable substitutions may have to be turned on in your shell</span>
 
-# aragonOS
-for contract in contracts/**/*.sol; do
-    echo 'Graphing' ${contract}
-    mkdir -p solgraph/${${contract#contracts/}%/*}
-    solgraph ${contract} | dot -Tpng &gt; solgraph/${${contract#contracts/}%\.sol}.png
-done
+<span class="c1"># aragonOS</span>
+<span class="k">for</span> contract in contracts/**/*.sol<span class="p">;</span> <span class="k">do</span>
+    <span class="nb">echo</span> <span class="s1">&#39;Graphing&#39;</span> <span class="si">${</span><span class="nv">contract</span><span class="si">}</span>
+    mkdir -p solgraph/<span class="si">${${</span><span class="nv">contract</span><span class="p">#contracts/</span><span class="si">}</span><span class="p">%/*</span><span class="si">}</span>
+    solgraph <span class="si">${</span><span class="nv">contract</span><span class="si">}</span> <span class="p">|</span> dot -Tpng &gt; solgraph/<span class="si">${${</span><span class="nv">contract</span><span class="p">#contracts/</span><span class="si">}</span><span class="p">%</span><span class="se">\.</span><span class="nv">sol</span><span class="si">}</span>.png
+<span class="k">done</span>
 
-# aragon-apps
+<span class="c1"># aragon-apps</span>
 mkdir -p solgraph/aragon-apps
 
-for contract in aragon-apps/apps/**/contracts/*.sol; do
-    echo 'Graphing' ${contract}
-    solgraph ${contract} | dot -Tpng &gt; solgraph/aragon-apps/${${contract#*/contracts/}%\.sol}.png
-done
-</code></pre>
+<span class="k">for</span> contract in aragon-apps/apps/**/contracts/*.sol<span class="p">;</span> <span class="k">do</span>
+    <span class="nb">echo</span> <span class="s1">&#39;Graphing&#39;</span> <span class="si">${</span><span class="nv">contract</span><span class="si">}</span>
+    solgraph <span class="si">${</span><span class="nv">contract</span><span class="si">}</span> <span class="p">|</span> dot -Tpng &gt; solgraph/aragon-apps/<span class="si">${${</span><span class="nv">contract</span><span class="p">#*/contracts/</span><span class="si">}</span><span class="p">%</span><span class="se">\.</span><span class="nv">sol</span><span class="si">}</span>.png
+<span class="k">done</span>
+</pre></div>
 
-<p><strong>Note</strong>: currently requires <a href="https://github.com/sohkai/solgraph/tree/master">my fork of <code>solgraph</code></a> (install via <code>npm install -g git+https://github.com/sohkai/solgraph.git</code>)</p>
+<p><strong>Note</strong>: currently requires <a href="https://github.com/sohkai/solgraph/tree/master">my fork of <code class="codehilite"><span class="n">solgraph</span></code></a> (install via <code class="codehilite"><span class="n">npm</span> <span class="n">install</span> <span class="o">-</span><span class="k">g</span> <span class="n">git</span><span class="o">+</span><span class="n">https</span><span class="p">:</span><span class="o">//</span><span class="n">github</span><span class="p">.</span><span class="n">com</span><span class="o">/</span><span class="n">sohkai</span><span class="o">/</span><span class="n">solgraph</span><span class="p">.</span><span class="n">git</span></code>)</p>
 <h3 id="oyente">Oyente</h3>
 <ul>
 <li>In non-lib files, Oyente only reported a single potential error: <a href="https://github.com/sohkai/aragonOS/tree/brett-audit/oyente/results/common">EtherToken.sol</a> (transaction order dependency)<ul>
-<li>On analysis, this does not seem to be a real problem. The only time re-ordering would have an effect would be if someone tried to take out more than their total balance in multiple (different value) transactions. The total amount withdrawn would be indeterminate but no contract invariants would be invalidated. Re-entrancy shouldn't be a problem either, as all state changes happen before the call to <code>transfer()</code>.</li>
+<li>On analysis, this does not seem to be a real problem. The only time re-ordering would have an effect would be if someone tried to take out more than their total balance in multiple (different value) transactions. The total amount withdrawn would be indeterminate but no contract invariants would be invalidated. Re-entrancy shouldn't be a problem either, as all state changes happen before the call to <code class="codehilite"><span class="n">transfer</span><span class="p">()</span></code>.</li>
 </ul>
 </li>
 <li>Oyente also reported a potential re-entrancy error in <a href="https://github.com/sohkai/aragonOS/blob/brett-audit/oyente/results/lib/minime/MiniMeToken">MiniMeToken.sol</a><ul>
@@ -4042,41 +4050,41 @@ done
 </ul>
 <h4 id="test-details_1">Test details</h4>
 <p>Ran tests using supplied docker image:</p>
-<pre><code class="bash"># Globstar may have to be turned on in docker's bash
+<div class="codehilite"><pre><span></span><span class="c1"># Globstar may have to be turned on in docker&#39;s bash</span>
 
 docker pull luongnguyen/oyente
-docker run -i -d -t luongnguyen/oyente # Find name of container via docker ps
+docker run -i -d -t luongnguyen/oyente <span class="c1"># Find name of container via docker ps</span>
 
 docker cp ./contracts &lt;name&gt;:/contracts
 docker attach &lt;name&gt;
 
-# Upgrade solc to 0.4.19
+<span class="c1"># Upgrade solc to 0.4.19</span>
 sudo add-apt-repository ppa:ethereum/ethereum
 sudo apt-get update
-sudo install solc=1:0.4.19-0ubuntu1~zesty
+sudo install <span class="nv">solc</span><span class="o">=</span><span class="m">1</span>:0.4.19-0ubuntu1~zesty
 
-# aragonOS
-(docker)&gt;
-    for contract in /aragonOS/**/*.sol; do
-        echo 'Testing' ${contract}
+<span class="c1"># aragonOS</span>
+<span class="o">(</span>docker<span class="o">)</span>&gt;
+    <span class="k">for</span> contract in /aragonOS/**/*.sol<span class="p">;</span> <span class="k">do</span>
+        <span class="nb">echo</span> <span class="s1">&#39;Testing&#39;</span> <span class="si">${</span><span class="nv">contract</span><span class="si">}</span>
 
-        dirname=${contract%/*}
-        dirname=/aragonOS/oyente/${dirname#/aragonOS/}
-        mkdir -p ${dirname}
+        <span class="nv">dirname</span><span class="o">=</span><span class="si">${</span><span class="nv">contract</span><span class="p">%/*</span><span class="si">}</span>
+        <span class="nv">dirname</span><span class="o">=</span>/aragonOS/oyente/<span class="si">${</span><span class="nv">dirname</span><span class="p">#/aragonOS/</span><span class="si">}</span>
+        mkdir -p <span class="si">${</span><span class="nv">dirname</span><span class="si">}</span>
 
-        filename=${contract%\.sol}
-        filename=/aragonOS/oyente/${filename#/aragonOS/}
-        python oyente.py -s ${contract} 2&gt; ${filename}
-    done
+        <span class="nv">filename</span><span class="o">=</span><span class="si">${</span><span class="nv">contract</span><span class="p">%</span><span class="se">\.</span><span class="nv">sol</span><span class="si">}</span>
+        <span class="nv">filename</span><span class="o">=</span>/aragonOS/oyente/<span class="si">${</span><span class="nv">filename</span><span class="p">#/aragonOS/</span><span class="si">}</span>
+        python oyente.py -s <span class="si">${</span><span class="nv">contract</span><span class="si">}</span> <span class="m">2</span>&gt; <span class="si">${</span><span class="nv">filename</span><span class="si">}</span>
+    <span class="k">done</span>
 
-# aragon-apps will be tested after updating to use aragonOS 3.0.0
+<span class="c1"># aragon-apps will be tested after updating to use aragonOS 3.0.0</span>
 
 docker cp &lt;name&gt;:/aragonOS/oyente oyente/results/
-</code></pre>
+</pre></div>
 
 <p><strong>Note</strong>: tests were run after being compiled with solc=0.4.19 (contracts were modified to all allow
-<code>^0.4.18</code> compiler versions). Some Oyente modules also had to be modified to include
-<code>allow-path=/aragonOS</code> whenever <code>solc</code> was run. Maybe this could be done better in the future with
+<code class="codehilite"><span class="o">^</span><span class="mi">0</span><span class="p">.</span><span class="mi">4</span><span class="p">.</span><span class="mi">18</span></code> compiler versions). Some Oyente modules also had to be modified to include
+<code class="codehilite"><span class="n">allow</span><span class="o">-</span><span class="n">path</span><span class="o">=/</span><span class="n">aragonOS</span></code> whenever <code class="codehilite"><span class="n">solc</span></code> was run. Maybe this could be done better in the future with
 <a href="https://github.com/melonproject/oyente/issues/200">standard json</a> support.</p>
 <h2 id="future-considerations">Future Considerations</h2>
 <ul>
@@ -4096,17 +4104,26 @@ docker cp &lt;name&gt;:/aragonOS/oyente oyente/results/
         </div>
       </main>
       
-        
+        <!-- Application footer -->
 <footer class="md-footer">
+
+  <!-- Link to previous and/or next page -->
   
     <div class="md-footer-nav">
       <nav class="md-footer-nav__inner md-grid">
+
+        <!-- Link to previous page -->
         
-          <a href="../audit01_report_dossa/" title="Audit 01 by Adam Dossa" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+          <a href="../audit01_report_dossa/"
+              title="Audit 01 by Adam Dossa"
+              class="md-flex md-footer-nav__link md-footer-nav__link--prev"
+              rel="prev">
             <div class="md-flex__cell md-flex__cell--shrink">
-              <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
+              <i class="md-icon md-icon--arrow-back
+                    md-footer-nav__button"></i>
             </div>
-            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+            <div class="md-flex__cell md-flex__cell--stretch
+                  md-footer-nav__title">
               <span class="md-flex__ellipsis">
                 <span class="md-footer-nav__direction">
                   Previous
@@ -4116,9 +4133,15 @@ docker cp &lt;name&gt;:/aragonOS/oyente oyente/results/
             </div>
           </a>
         
+
+        <!-- Link to next page -->
         
-          <a href="../audit_whg01_report/" title="Audit Report 01 by White Hat Group" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
-            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+          <a href="../audit_whg01_report/"
+              title="Audit Report 01 by White Hat Group"
+              class="md-flex md-footer-nav__link md-footer-nav__link--next"
+              rel="next">
+            <div class="md-flex__cell md-flex__cell--stretch
+                  md-footer-nav__title">
               <span class="md-flex__ellipsis">
                 <span class="md-footer-nav__direction">
                   Next
@@ -4127,39 +4150,62 @@ docker cp &lt;name&gt;:/aragonOS/oyente oyente/results/
               </span>
             </div>
             <div class="md-flex__cell md-flex__cell--shrink">
-              <i class="md-icon md-icon--arrow-forward md-footer-nav__button"></i>
+              <i class="md-icon md-icon--arrow-forward
+                    md-footer-nav__button"></i>
             </div>
           </a>
         
       </nav>
     </div>
   
-  <div class="md-footer-meta md-typeset">
-    <div class="md-footer-meta__inner md-grid">
-      <div class="md-footer-copyright">
-        
-        powered by
-        <a href="https://www.mkdocs.org">MkDocs</a>
-        and
-        <a href="https://squidfunk.github.io/mkdocs-material/">
-          Material for MkDocs</a>
-      </div>
-      
-  <div class="md-footer-social">
-    <link rel="stylesheet" href="../../../assets/fonts/font-awesome.css">
-    
-      <a href="https://github.com/aragon" class="md-footer-social__link fa fa-github"></a>
-    
-      <a href="https://blog.aragon.one/" class="md-footer-social__link fa fa-medium"></a>
-    
-      <a href="https://www.reddit.com/r/aragonproject/" class="md-footer-social__link fa fa-reddit"></a>
-    
-      <a href="https://twitter.com/AragonProject" class="md-footer-social__link fa fa-twitter"></a>
-    
-      <a href="https://www.linkedin.com/company/aragonproject/" class="md-footer-social__link fa fa-linkedin"></a>
-    
-  </div>
 
+  <!-- Further information -->
+  <div class="footer-section">
+    <div class="section-container">
+    <div class="footer-container">
+      <div class="footer-item mobile-full">
+          <a href="https://aragon.org/">
+            <img class="logo-footer-img" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDE5LjIuMSwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPgo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkNhcGFfMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgeD0iMHB4IiB5PSIwcHgiCgkgdmlld0JveD0iMCAwIDM3MC4xIDMzMS4zIiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCAzNzAuMSAzMzEuMzsiIHhtbDpzcGFjZT0icHJlc2VydmUiPgo8c3R5bGUgdHlwZT0idGV4dC9jc3MiPgoJLnN0MHtmaWxsOnVybCgjU1ZHSURfMV8pO30KCS5zdDF7ZmlsbDp1cmwoI1NWR0lEXzJfKTt9Cgkuc3Qye2ZpbGw6dXJsKCNTVkdJRF8zXyk7fQoJLnN0M3tmaWxsOiMyMDIwMUU7fQoJLnN0NHtmaWxsOnVybCgjU1ZHSURfNF8pO30KCS5zdDV7ZmlsbDojMzUzNTM0O30KCS5zdDZ7ZmlsbDojMjgyODI4O30KCS5zdDd7ZmlsbDp1cmwoI1NWR0lEXzVfKTtzdHJva2U6dXJsKCNTVkdJRF82Xyk7c3Ryb2tlLXdpZHRoOjg7c3Ryb2tlLW1pdGVybGltaXQ6MTA7fQo8L3N0eWxlPgo8Zz4KCgkJPGxpbmVhckdyYWRpZW50IGlkPSJTVkdJRF8xXyIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiIHgxPSIxOTgxLjk2MzYiIHkxPSIyNDQ0LjQ5NjEiIHgyPSIyMTYzLjI5NjkiIHkyPSIyNDQ0LjQ5NjEiIGdyYWRpZW50VHJhbnNmb3JtPSJtYXRyaXgoLTAuMjk2NCAwLjk1NTEgLTAuOTU1MSAtMC4yOTY0IDMxNTQuNjgzNiAtMTE0NC4wOTMzKSI+CgkJPHN0b3AgIG9mZnNldD0iMy45MTk2NTRlLTAyIiBzdHlsZT0ic3RvcC1jb2xvcjojMkNGNEUxIi8+CgkJPHN0b3AgIG9mZnNldD0iMSIgc3R5bGU9InN0b3AtY29sb3I6IzJDQjJFMSIvPgoJPC9saW5lYXJHcmFkaWVudD4KCTxjaXJjbGUgY2xhc3M9InN0MCIgY3g9IjE5NyIgY3k9IjEzOS4xIiByPSI5MC43Ii8+Cgk8bGluZWFyR3JhZGllbnQgaWQ9IlNWR0lEXzJfIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjI0NC42MDE2IiB5MT0iMTEzLjEzMTgiIHgyPSIzMjQuMzM2MiIgeTI9IjIyMi4xMTgxIj4KCQk8c3RvcCAgb2Zmc2V0PSIzLjkxOTY1NGUtMDIiIHN0eWxlPSJzdG9wLWNvbG9yOiMyQ0Y0RTEiLz4KCQk8c3RvcCAgb2Zmc2V0PSIxIiBzdHlsZT0ic3RvcC1jb2xvcjojMkNCMkUxIi8+Cgk8L2xpbmVhckdyYWRpZW50PgoJPHBhdGggY2xhc3M9InN0MSIgZD0iTTI2MC43LDExMS45YzYuNSw4LjgsOS45LDE5LjIsOS45LDMwYzAsMTMuMS01LjQsMjUuMi0xNC42LDM1bDUuNiwyMC45aDE3bDE3LjktMjAuM2w0LjgtMjkuN2wxLTE3LjcKCQlsLTE3LjctMjBMMjYwLjcsMTExLjl6Ii8+Cgk8Zz4KCQk8bGluZWFyR3JhZGllbnQgaWQ9IlNWR0lEXzNfIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjExMS40NTU4IiB5MT0iMTI2Ljc0MTkiIHgyPSIyMjQuMTIyNCIgeTI9IjI4MC43NDE5Ij4KCQkJPHN0b3AgIG9mZnNldD0iMCIgc3R5bGU9InN0b3AtY29sb3I6IzJDRTVFMSIvPgoJCQk8c3RvcCAgb2Zmc2V0PSIxIiBzdHlsZT0ic3RvcC1jb2xvcjojMkNCMkUxIi8+CgkJPC9saW5lYXJHcmFkaWVudD4KCQk8cGF0aCBjbGFzcz0ic3QyIiBkPSJNNjMuNywyMDAuMmwzLjEsMTIuM2MwLDAsMzYuNiw3NS4xLDExOSwxMDNjMCwwLDc3LjItMzIsMTEwLjUtODYuM2wtNDguMi00MC4xYzAsMC0yMiwxNy41LTU0LjcsMTcuNQoJCQljLTMyLjcsMC03Ny4xLTE5LjUtNzcuMS01OS43YzAtNDAuMiw0Ni01NC45LDQ2LTU0LjlsLTE5LjYtNC44SDkyLjZsLTMxLjgsNzYuNkw2My43LDIwMC4yeiIvPgoJPC9nPgoJPHBhdGggY2xhc3M9InN0MyIgZD0iTTMwNS40LDIyOC4xIi8+Cgk8bGluZWFyR3JhZGllbnQgaWQ9IlNWR0lEXzRfIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjE4Ni40NzM4IiB5MT0iMjMzLjcyNjciIHgyPSIxODYuNDczOCIgeTI9IjM2LjUiPgoJCTxzdG9wICBvZmZzZXQ9IjAiIHN0eWxlPSJzdG9wLWNvbG9yOiMwMDAwMDAiLz4KCQk8c3RvcCAgb2Zmc2V0PSIxIiBzdHlsZT0ic3RvcC1jb2xvcjojMEQwRDBEIi8+Cgk8L2xpbmVhckdyYWRpZW50PgoJPHBhdGggY2xhc3M9InN0NCIgZD0iTTM0MC42LDExOS41Yy0xLjQtMS40LTQyLTQ0LjQtMTUzLjMtODIuN2wtMC43LTAuM2MtMTA3LjgsMzctMTU0LjIsODMtMTU0LjIsODNjNC4yLDI0LjUsMTQuOCw1MS44LDI0LjQsNzMKCQljMC44LDEuOCwxMy42LDI0LjQsMjMuMSwzNi43Yy01LjYtMTIuMy0xMS43LTIzLTExLjctNDEuNGMwLTUxLjksNDAuMi05NC4xLDkwLjUtOTUuOWMxLjIsMCwyLjUsMCwzLjcsMC4xbC0xMi0xMgoJCWMwLDAsNDguMy04LjEsMTEwLjMsMjkuNGMwLDAsMC45LDEuOSwwLDcuNWMwLDAsMjkuMiwxMi42LDMxLjcsMzcuMXMtMTMsMzguNS0yNS41LDQwLjVjMCwwLDYuNS0xMC4xLTMuNS0xNS41CgkJYy0yLjEtMS4yLTQuNi0xLjctNy4xLTEuNnYwYy0xOS4xLDAtMjEuMywyMS44LTIxLjMsMjEuOGMtMC4yLDEuMS0wLjIsMi4yLTAuMiwzLjNjMCwwLTMuMiwzMS45LDUzLjYsMzEuMwoJCWMwLDAsMjguOC0zMi42LDM2LjQtNjEuOWMyLjgtMTAuOCw0LjgtMTguOSw2LjEtMjQuOWMzLjItOC41LDYuMy0xNy4zLDkuMy0yNi40TDM0MC42LDExOS41eiIvPgoJPHBhdGggY2xhc3M9InN0NSIgZD0iTTIzNi42LDExNiIvPgoJPHBhdGggY2xhc3M9InN0NiIgZD0iTTIzNiwxMTkuMWMwLjgtMC40LDMuNC0xLjcsNi40LTQuOGM2LDAuOCwxMS45LDIuNywxMS45LDIuN2MtMTAuOS02LjYtMjUuOC0xMC41LTQyLjMtMTAuNAoJCWMwLDAsNi4zLDksMjMuOCwxMi43QzIzNS44LDExOS4zLDIzNS45LDExOS4yLDIzNiwxMTkuMXoiLz4KCTxnPgoJCTxwYXRoIGNsYXNzPSJzdDYiIGQ9Ik0xODYuMSw0MS4zYzEwLjYsMy4zLDg3LjYsMjguOSwxNDkuMiw3OS44bDYuOS0ybC0wLjUtMC40Yy02MC4yLTUxLTEzNi4zLTc3LjUtMTUyLjEtODIuNmwtMS41LTAuNWwtMi0wLjYKCQkJbC0zLjUsMS4xYy0xNS44LDUuMS05MS45LDMxLjYtMTUyLjEsODIuNmwtMC43LDAuNmw2LjcsMi4yQzk4LjEsNzAuMywxNzUuNSw0NC42LDE4Ni4xLDQxLjN6Ii8+Cgk8L2c+Cgk8bGluZWFyR3JhZGllbnQgaWQ9IlNWR0lEXzVfIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjE4Ni4wNTciIHkxPSIyNDguNzk1NSIgeDI9IjE4Ni4wNTciIHkyPSItMTYuOTcyOCI+CgkJPHN0b3AgIG9mZnNldD0iMy45MTk2NTRlLTAyIiBzdHlsZT0ic3RvcC1jb2xvcjojMkNGNEUxIi8+CgkJPHN0b3AgIG9mZnNldD0iMSIgc3R5bGU9InN0b3AtY29sb3I6IzJDQjJFMSIvPgoJPC9saW5lYXJHcmFkaWVudD4KCTxsaW5lYXJHcmFkaWVudCBpZD0iU1ZHSURfNl8iIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIiB4MT0iMjQuODQxNSIgeTE9IjE2OC44NjE2IiB4Mj0iMzQ3LjI3MjYiIHkyPSIxNjguODYxNiI+CgkJPHN0b3AgIG9mZnNldD0iMy45MTk2NTRlLTAyIiBzdHlsZT0ic3RvcC1jb2xvcjojMkNGNEUxIi8+CgkJPHN0b3AgIG9mZnNldD0iMSIgc3R5bGU9InN0b3AtY29sb3I6IzJDQjJFMSIvPgoJPC9saW5lYXJHcmFkaWVudD4KCTxwYXRoIGNsYXNzPSJzdDciIGQ9Ik0zNDEuNywxMDkuMmMtNjAuMi01MS0xMzYuMy03Ny41LTE1Mi4xLTgyLjZsLTEuNS0wLjVsLTItMC42bC0zLjUsMS4xYy0xNS44LDUuMS05MS45LDMxLjYtMTUyLjEsODIuNgoJCWwtMS4zLDEuMWwwLjMsMS43YzAuMSwwLjQsNi42LDM5LjEsMjguOCw4Mi44YzEzLjEsMjUuNywyOSw0OCw0Ny4yLDY2LjVjMjIuMywyMi42LDQ4LjMsMzkuMyw3Ny4yLDQ5LjdsMS43LDAuNmwxLjcsMC42bDEuOC0wLjcKCQlsMS43LTAuNmMyOC45LTEwLjQsNTQuOC0yNy4xLDc3LjItNDkuN2MxOC4yLTE4LjQsMzQuMS00MC44LDQ3LjItNjYuNWMyMi4yLTQzLjYsMjguOC04Mi40LDI4LjgtODIuOGwwLjMtMS43TDM0MS43LDEwOS4yegoJCSBNMzA4LjUsMTkyYy0xMi44LDI1LjEtMjguMyw0Ny00Ni4xLDY1Yy0yMi4xLDIyLjMtNDcuNywzOC43LTc2LjMsNDguOGMtMjguNi0xMC4xLTU0LjItMjYuNC03Ni4zLTQ4LjcKCQljLTE3LjgtMTgtMzMuMy0zOS44LTQ2LjEtNjQuOWMtMTkuMy0zNy44LTI2LjUtNzEuNy0yOC03OS41Qzk3LjQsNjEsMTc1LjQsMzUuMiwxODYuMSwzMS44YzEwLjYsMy40LDg4LjcsMjkuMiwxNTAuNCw4MC45CgkJQzMzNSwxMjAuNCwzMjcuNywxNTQuMywzMDguNSwxOTJ6Ii8+CjwvZz4KPC9zdmc+Cg==" />
+          </a>
+      </div>
+      <div class="footer-item">
+        <a href="https://aragon.org/">Home</a>
+        <a href="https://aragon.org/discover">Discover</a>
+        <a href="https://aragon.org/project">Project</a>
+        <a href="https://aragon.org/network">Network</a>
+      </div>
+      <div class="footer-item">
+        <a href="https://hack.aragon.org/" target="_blank">Developers</a>
+        <a href="https://wiki.aragon.org/dev/bug_bounty/" target="_blank">Bug bounty</a>
+        <a href="https://aragon.org/project/grants">Grants</a>
+        <a href="https://aragon.org/project/governance">Governance</a>
+
+      </div>
+      <div class="footer-item">
+        <a href="https://aragon.org/project/contribute">Contribute</a>
+        <a href="https://blog.aragon.org/" target="_blank">Blog</a>
+        <a href="https://wiki.aragon.org/" target="_blank">Wiki</a>
+        <a href="https://aracon.one/" target="_blank">AraCon</a>
+      </div>
+      <div class="footer-item mobile-full">
+        <p class="footer-item-p">Be part of the conversation</p>
+        <div class="footer-box">
+          <a href="https://twitter.com/aragonproject" target="_blank"><img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAyMCAxNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0xOS42NDE0IDEuODc5NzRDMTkuMTk4IDIuMDY4OCAxOC43Mzc2IDIuMjE3OTQgMTguMjY1MyAyLjMyNTkyQzE4Ljc4NTggMS44NTA0MSAxOS4xNzcxIDEuMjU1NjUgMTkuMzk3OSAwLjU5MTc5MVYwLjU5MTc5MUMxOS40NjA5IDAuNDAyMjcxIDE5LjI0NjggMC4yMzgzODggMTkuMDY4OCAwLjMzOTg2MlYwLjMzOTg2MkMxOC40MTE3IDAuNzE0NTk4IDE3LjcwMzggMC45OTU3MjEgMTYuOTY0OSAxLjE3NTUxQzE2LjkyMiAxLjE4NTk0IDE2Ljg3NzggMS4xOTEyMyAxNi44MzM0IDEuMTkxMjNDMTYuNjk4OCAxLjE5MTIzIDE2LjU2OCAxLjE0MzE4IDE2LjQ2NSAxLjA1NTk4QzE1LjY3ODkgMC4zODk4MjYgMTQuNjY3NyAwLjAyMjk0OTIgMTMuNjE3OSAwLjAyMjk0OTJDMTMuMTYzNyAwLjAyMjk0OTIgMTIuNzA1IDAuMDkxMDE5NCAxMi4yNTQ3IDAuMjI1Mjg4QzEwLjg1OTUgMC42NDEzMzUgOS43ODI5NSAxLjc0NzgxIDkuNDQ1MTkgMy4xMTI5NkM5LjMxODQ3IDMuNjI1MDEgOS4yODQxNyA0LjEzNzUyIDkuMzQzMTUgNC42MzYyNEM5LjM0OTkxIDQuNjkzNTUgOS4zMjE3MyA0LjczMzU1IDkuMzA0MzYgNC43NTIzMUM5LjI3Mzg1IDQuNzg1MTkgOS4yMzA1OSA0LjgwNDA1IDkuMTg1NjggNC44MDQwNUM5LjE4MDY2IDQuODA0MDUgOS4xNzU1MSA0LjgwMzgxIDkuMTcwNCA0LjgwMzM1QzYuMTE2MjggNC41MzA1NSAzLjM2MjIyIDMuMTE1OTYgMS40MTU1MSAwLjgyMDE4OVYwLjgyMDE4OUMxLjMxNjI0IDAuNzAzMDkgMS4xMjU4NyAwLjcxNzQ1MiAxLjA0Njc1IDAuODQ3OTMyVjAuODQ3OTMyQzAuNjY1NTMgMS40NzY3IDAuNDY0MDcxIDIuMTk1ODYgMC40NjQwNzEgMi45Mjc2NUMwLjQ2NDA3MSA0LjA0OTE1IDAuOTMyNzMyIDUuMTA2MDQgMS43NDY4IDUuODc2NTJDMS40MDQ0NiA1Ljc5ODQ4IDEuMDczMTIgNS42NzU1OCAwLjc2NTMzNiA1LjUxMTIzVjUuNTExMjNDMC42MTY0MzEgNS40MzE3IDAuNDMzMjE5IDUuNTMzOTIgMC40MzExMjcgNS42OTc2NlY1LjY5NzY2QzAuNDA5ODEzIDcuMzYzNzIgMS40MjQ0MSA4Ljg0NjIgMi45NDQzMSA5LjUxMzc2QzIuOTEzNzEgOS41MTQ0NiAyLjg4MzEgOS41MTQ3OSAyLjg1MjQ0IDkuNTE0NzlDMi42MTE1MiA5LjUxNDc5IDIuMzY3NTcgOS40OTI0MiAyLjEyNzQ4IDkuNDQ4MzFWOS40NDgzMUMxLjk1OTc5IDkuNDE3NTIgMS44MTg5MSA5LjU3MDQ2IDEuODcwOTggOS43MjY3NlY5LjcyNjc2QzIuMzY0MzEgMTEuMjA3NSAzLjY5MDQ1IDEyLjI5OSA1LjI3NzQgMTIuNTQ2OEMzLjk2MDMyIDEzLjM5NjggMi40MjY1NSAxMy44NDUyIDAuODMwMjAyIDEzLjg0NTJMMC4zMzI1MzggMTMuODQ0OUMwLjE3OTIwNCAxMy44NDQ5IDAuMDQ5NTIwNyAxMy45NDEgMC4wMTA0NDUzIDE0LjA4MzhDLTAuMDI4MDQ2MiAxNC4yMjQ0IDAuMDQyODU0IDE0LjM3MjggMC4xNzM2MDggMTQuNDQ1OUMxLjk3MjQ0IDE1LjQ1MjMgNC4wMjQyNyAxNS45ODQzIDYuMTA4MTYgMTUuOTg0M0M3LjkzMjI1IDE1Ljk4NDMgOS42Mzg1MiAxNS42MzYyIDExLjE3OTYgMTQuOTQ5OUMxMi41OTI0IDE0LjMyMDcgMTMuODQwOSAxMy40MjEzIDE0Ljg5MDMgMTIuMjc2N0MxNS44NjggMTEuMjEwNCAxNi42MzI0IDkuOTc5NDQgMTcuMTYyNSA4LjYxODEzQzE3LjY2NzcgNy4zMjA0OSAxNy45MzQ4IDUuOTM1ODkgMTcuOTM0OCA0LjYxMzk3VjQuNTUxQzE3LjkzNDcgNC4zMzg3NCAxOC4wMzQ2IDQuMTM5MDIgMTguMjA4OCA0LjAwMzA3QzE4Ljg2OTkgMy40ODcwNCAxOS40NDU1IDIuODc5NiAxOS45MTk3IDIuMTk3NjRWMi4xOTc2NEMyMC4wNDQ5IDIuMDE3NTcgMTkuODQ3NSAxLjc5MTg4IDE5LjY0MTQgMS44Nzk3NFYxLjg3OTc0WiIgZmlsbD0iIzdGODE5OCIvPgo8L3N2Zz4K" /></a>
+          <a href="https://aragon.chat/" target="_blank"><img src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB3aWR0aD0iMjNweCIgaGVpZ2h0PSIyMHB4IiB2aWV3Qm94PSIwIDAgMjMgMjAiIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayI+CiAgICA8IS0tIEdlbmVyYXRvcjogU2tldGNoIDUzICg3MjUyMCkgLSBodHRwczovL3NrZXRjaGFwcC5jb20gLS0+CiAgICA8dGl0bGU+cm9ja2V0LWNoYXQ8L3RpdGxlPgogICAgPGRlc2M+Q3JlYXRlZCB3aXRoIFNrZXRjaC48L2Rlc2M+CiAgICA8ZyBpZD0iUGFnZS0xIiBzdHJva2U9Im5vbmUiIHN0cm9rZS13aWR0aD0iMSIgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIj4KICAgICAgICA8ZyBpZD0iSG9tZUAyeCIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTEwNDMuMDAwMDAwLCAtMjM4Mi4wMDAwMDApIiBmaWxsPSIjN0Y4MTk2IiBmaWxsLXJ1bGU9Im5vbnplcm8iPgogICAgICAgICAgICA8ZyBpZD0icm9ja2V0LWNoYXQiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDEwNDMuMDAwMDAwLCAyMzgyLjAwMDAwMCkiPgogICAgICAgICAgICAgICAgPGcgaWQ9Ikdyb3VwIj4KICAgICAgICAgICAgICAgICAgICA8cGF0aCBkPSJNMTEuNDA1MzgxNCwyLjI3MDIwMTQzIEMxMC40MTkzMDY4LDIuMjcwMjAxNDMgOS40NTIxNjc3NiwyLjM1OTg5NjA0IDguNTI0MjU3MzEsMi41MzM1NDEyNiBDNy4zODM4NDA2NCwwLjk4MDYwMjEyMyA1LjYyMTQ4MjQ2LDAuMDY4OTI3ODc1MiAzLjcwODM1NDksMC4wNjg5Mjc4NzUyIEMyLjIyMjAyNjEzLDAuMDY4OTI3ODc1MiAxLjM4MDU3NTg0LDAuNTQ3ODE0NTk4IDAuMDYwNTIyMTEyNiwxLjE0ODcyNDI4IEwxLjA4MzUzODc0LDIuMDA4MTg3MTMgQzIuMDQ0NDYxMjYsMi44MTU1MTIyNCAyLjYyNTEwMTk3LDMuOTgxMzIxMiAyLjcwNjA2MDEyLDUuMjQyODYzMzMgQzEuMjMyMDkzMDIsNi41NzM5OTYxIDAuNDM0NTE1ODk5LDguMjA2MzkzNzYgMC40MzQ1MTU4OTksOS45NDEyOTk1NSBDMC40MzQ1MTU4OTksMTEuNjc2OTQxNyAxLjI1OTY3NDUyLDEzLjM1MDY1MTkgMi43Njc4Njg0MiwxNC42OTMzNDYzIEMyLjY3NDE5MTM0LDE1LjkzNDQxNjMgMi4wOTU2MjI4MSwxNy4wNzg1MDEyIDEuMTQ4Mjc2NjgsMTcuODc0NDEyIEwwLjEyNTI2MDA1MSwxOC43MzM4MDEyIEwxLjMzMjU1ODMsMTkuMjgzMzgzMSBDMy44MjEzMjQ3NCwyMC40MTY0MjE5IDYuODQ0MDcyLDE5LjcxNjgzMzQgOC41ODI0OTI4NywxNy4zNTg0ODM5IEM5LjQ5OTk3MDk0LDE3LjUyNzA0NzkgMTAuNDQ3MDMxMywxNy42MTIzMjQgMTEuNDA1MzA5OSwxNy42MTIzMjQgQzE3LjM1MDkxMDgsMTcuNjEyMzI0IDIyLjM3NjE3NTQsMTQuMzA5MDg4MiAyMi4zNzYxNzU0LDkuOTQxMjI1OSBDMjIuMzc2MTc1NCw1LjU3MDcxMjU4IDE3LjM0NzEyMzcsMi4yNzAyMDE0MyAxMS40MDUzODE0LDIuMjcwMjAxNDMgWiBNMTguMTQ4NTU5NCwxNC4wNzc4NTU4IEMxNi4zNTkyNjI4LDE1LjI4MTgxMDcgMTMuOTY0NDU5MiwxNS45NDQ3OTk3IDExLjQwNTM4MTQsMTUuOTQ0Nzk5NyBDOS43MDEzMzAyMywxNS45NDQ3OTk3IDguNTY0OTE1MDIsMTUuNjU5MTQ2NiA3LjgzMzI5MDU3LDE1LjQ5NjYyMTIgTDcuNTMyMjUyMDEsMTUuOTkzNjk3MiBDNi41OTYxOTU3MiwxNy41Mzk1NjY4IDQuODk5MTQ3MTEsMTguMzQ3MzMzOCAzLjE2OTMwMDgsMTguMTA0MDI0MyBDNC4wMzIxMTYwNSwxNi45MzYxNTMzIDQuNDMzNjE5ODgsMTUuNDkzNzQ5MiA0LjM5ODgyMTQ1LDE0LjI5ODQ4MzkgTDQuMzk1OTYzMjcsMTMuOTAzMTA1OSBMNC4wODkzNTEyNCwxMy42NTUxNTcgQzMuMTYwMTU0NjEsMTIuOTAzNjUxNyAyLjA1MjUzNTY0LDExLjY0OTMyNjQgMi4wNTI1MzU2NCw5Ljk0MTM3MzE5IEMyLjA1MjUzNTY0LDguNDA2MTgxNSAyLjk3OTMwMjgxLDYuOTM3MTE5MzQgNC42NjIwNjA0OSw1LjgwNDgxNjk4IEM2LjQ1MTM1NzA5LDQuNjAwODYyMDMgOC44NDYxNjA2NCwzLjkzNzg3MzA4IDExLjQwNTIzODUsMy45Mzc4NzMwOCBDMTMuOTY0MzE2MywzLjkzNzg3MzA4IDE2LjM1OTA0ODQsNC42MDA5MzU2NyAxOC4xNDg0MTY1LDUuODA0ODE2OTggQzE5LjgzMTI0NTYsNi45MzcxMTkzNCAyMC43NTc5NDEzLDguNDA2MTA3ODYgMjAuNzU3OTQxMyw5Ljk0MTM3MzE5IEMyMC43NTc5NDEzLDExLjQ3NjYzODUgMTkuODMxMzE3MSwxMi45NDU1NTM0IDE4LjE0ODU1OTQsMTQuMDc3ODU1OCBaIiBpZD0iU2hhcGUiPjwvcGF0aD4KICAgICAgICAgICAgICAgICAgICA8ZWxsaXBzZSBpZD0iT3ZhbCIgY3g9IjExLjI0MzMyMjIiIGN5PSI5Ljk3NDQzNzk1IiByeD0iMS4yNjIxMDM5OCIgcnk9IjEuMzAwNzE5MDgiPjwvZWxsaXBzZT4KICAgICAgICAgICAgICAgICAgICA8ZWxsaXBzZSBpZD0iT3ZhbCIgY3g9IjYuOTU2Njg0NTgiIGN5PSI5Ljk3NDQzNzk1IiByeD0iMS4yNjIxMDM5OCIgcnk9IjEuMzAwNzE5MDgiPjwvZWxsaXBzZT4KICAgICAgICAgICAgICAgICAgICA8ZWxsaXBzZSBpZD0iT3ZhbCIgY3g9IjE1LjU2NTExNTUiIGN5PSI5Ljk3NDQzNzk1IiByeD0iMS4yNjIxMDM5OCIgcnk9IjEuMzAwNzE5MDgiPjwvZWxsaXBzZT4KICAgICAgICAgICAgICAgIDwvZz4KICAgICAgICAgICAgPC9nPgogICAgICAgIDwvZz4KICAgIDwvZz4KPC9zdmc+" /></a>
+          <a href="https://forum.aragon.org/" target="_blank"><img class="forum" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEYAAABGCAYAAABxLuKEAAAAAXNSR0IArs4c6QAAAAlwSFlzAAALEwAACxMBAJqcGAAACqppVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IlhNUCBDb3JlIDUuNC4wIj4KICAgPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4KICAgICAgPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIKICAgICAgICAgICAgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIgogICAgICAgICAgICB4bWxuczpleGlmPSJodHRwOi8vbnMuYWRvYmUuY29tL2V4aWYvMS4wLyIKICAgICAgICAgICAgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iCiAgICAgICAgICAgIHhtbG5zOnN0RXZ0PSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VFdmVudCMiCiAgICAgICAgICAgIHhtbG5zOmRjPSJodHRwOi8vcHVybC5vcmcvZGMvZWxlbWVudHMvMS4xLyIKICAgICAgICAgICAgeG1sbnM6dGlmZj0iaHR0cDovL25zLmFkb2JlLmNvbS90aWZmLzEuMC8iCiAgICAgICAgICAgIHhtbG5zOnBob3Rvc2hvcD0iaHR0cDovL25zLmFkb2JlLmNvbS9waG90b3Nob3AvMS4wLyI+CiAgICAgICAgIDx4bXA6TW9kaWZ5RGF0ZT4yMDE4OjExOjE1IDE1OjExOjE5PC94bXA6TW9kaWZ5RGF0ZT4KICAgICAgICAgPHhtcDpDcmVhdGVEYXRlPjIwMTgtMTEtMTVUMTc6MjQ6MDMrMDE6MDA8L3htcDpDcmVhdGVEYXRlPgogICAgICAgICA8eG1wOk1ldGFkYXRhRGF0ZT4yMDE4LTExLTE1VDE3OjI3OjM4KzAxOjAwPC94bXA6TWV0YWRhdGFEYXRlPgogICAgICAgICA8eG1wOkNyZWF0b3JUb29sPlBpeGVsbWF0b3IgMy4zPC94bXA6Q3JlYXRvclRvb2w+CiAgICAgICAgIDxleGlmOlBpeGVsWERpbWVuc2lvbj43MDwvZXhpZjpQaXhlbFhEaW1lbnNpb24+CiAgICAgICAgIDxleGlmOlBpeGVsWURpbWVuc2lvbj43MDwvZXhpZjpQaXhlbFlEaW1lbnNpb24+CiAgICAgICAgIDxleGlmOkNvbG9yU3BhY2U+MTwvZXhpZjpDb2xvclNwYWNlPgogICAgICAgICA8eG1wTU06SW5zdGFuY2VJRD54bXAuaWlkOjk5Y2E0N2IzLThhNzItNDI4Ny1hMmVlLTEzNDkxMWJiZTMxNTwveG1wTU06SW5zdGFuY2VJRD4KICAgICAgICAgPHhtcE1NOkhpc3Rvcnk+CiAgICAgICAgICAgIDxyZGY6U2VxPgogICAgICAgICAgICAgICA8cmRmOmxpIHJkZjpwYXJzZVR5cGU9IlJlc291cmNlIj4KICAgICAgICAgICAgICAgICAgPHN0RXZ0OnNvZnR3YXJlQWdlbnQ+QWRvYmUgUGhvdG9zaG9wIENDIDIwMTUgKE1hY2ludG9zaCk8L3N0RXZ0OnNvZnR3YXJlQWdlbnQ+CiAgICAgICAgICAgICAgICAgIDxzdEV2dDp3aGVuPjIwMTgtMTEtMTVUMTc6MjQ6MDMrMDE6MDA8L3N0RXZ0OndoZW4+CiAgICAgICAgICAgICAgICAgIDxzdEV2dDppbnN0YW5jZUlEPnhtcC5paWQ6NzZlOGVmYjAtZDVlZC00MzdlLThiZjEtODI2NjFiZDM3NWFjPC9zdEV2dDppbnN0YW5jZUlEPgogICAgICAgICAgICAgICAgICA8c3RFdnQ6YWN0aW9uPmNyZWF0ZWQ8L3N0RXZ0OmFjdGlvbj4KICAgICAgICAgICAgICAgPC9yZGY6bGk+CiAgICAgICAgICAgICAgIDxyZGY6bGkgcmRmOnBhcnNlVHlwZT0iUmVzb3VyY2UiPgogICAgICAgICAgICAgICAgICA8c3RFdnQ6c29mdHdhcmVBZ2VudD5BZG9iZSBQaG90b3Nob3AgQ0MgMjAxNSAoTWFjaW50b3NoKTwvc3RFdnQ6c29mdHdhcmVBZ2VudD4KICAgICAgICAgICAgICAgICAgPHN0RXZ0OmNoYW5nZWQ+Lzwvc3RFdnQ6Y2hhbmdlZD4KICAgICAgICAgICAgICAgICAgPHN0RXZ0OndoZW4+MjAxOC0xMS0xNVQxNzoyNzozOCswMTowMDwvc3RFdnQ6d2hlbj4KICAgICAgICAgICAgICAgICAgPHN0RXZ0Omluc3RhbmNlSUQ+eG1wLmlpZDo5OWNhNDdiMy04YTcyLTQyODctYTJlZS0xMzQ5MTFiYmUzMTU8L3N0RXZ0Omluc3RhbmNlSUQ+CiAgICAgICAgICAgICAgICAgIDxzdEV2dDphY3Rpb24+c2F2ZWQ8L3N0RXZ0OmFjdGlvbj4KICAgICAgICAgICAgICAgPC9yZGY6bGk+CiAgICAgICAgICAgIDwvcmRmOlNlcT4KICAgICAgICAgPC94bXBNTTpIaXN0b3J5PgogICAgICAgICA8eG1wTU06RG9jdW1lbnRJRD5hZG9iZTpkb2NpZDpwaG90b3Nob3A6YWNhZThmMzktMjk4MS0xMTdjLWJiZWMtODU3NGIyMzA0MmRjPC94bXBNTTpEb2N1bWVudElEPgogICAgICAgICA8eG1wTU06T3JpZ2luYWxEb2N1bWVudElEPnhtcC5kaWQ6NzZlOGVmYjAtZDVlZC00MzdlLThiZjEtODI2NjFiZDM3NWFjPC94bXBNTTpPcmlnaW5hbERvY3VtZW50SUQ+CiAgICAgICAgIDxkYzpmb3JtYXQ+aW1hZ2UvcG5nPC9kYzpmb3JtYXQ+CiAgICAgICAgIDxkYzpzdWJqZWN0PgogICAgICAgICAgICA8cmRmOlNlcS8+CiAgICAgICAgIDwvZGM6c3ViamVjdD4KICAgICAgICAgPHRpZmY6WVJlc29sdXRpb24+NzI8L3RpZmY6WVJlc29sdXRpb24+CiAgICAgICAgIDx0aWZmOkNvbXByZXNzaW9uPjU8L3RpZmY6Q29tcHJlc3Npb24+CiAgICAgICAgIDx0aWZmOlJlc29sdXRpb25Vbml0PjI8L3RpZmY6UmVzb2x1dGlvblVuaXQ+CiAgICAgICAgIDx0aWZmOk9yaWVudGF0aW9uPjE8L3RpZmY6T3JpZW50YXRpb24+CiAgICAgICAgIDx0aWZmOlhSZXNvbHV0aW9uPjcyPC90aWZmOlhSZXNvbHV0aW9uPgog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" /></a>
+        </div>
+        <p class="footer-item-p">Subscribe to our newsletter</p>
+        <form class="footer-form" action="https://one.us15.list-manage.com/subscribe/post?u=a590aa3843a54b079d48e6e18&amp;id=e81a44c4bd" method="post" name="mc-embedded-subscribe-form" target="_blank" noValidate>
+          <div class="email-field">
+            <input type="email" name="EMAIL" placeholder="Enter your email" class="required email form-input" id="mce-EMAIL"/>
+            <div aria-hidden="true" style="position:absolute; left:-5000px;">
+              <input type="text" name="b_a590aa3843a54b079d48e6e18_e81a44c4bd" tabIndex="-1" />
+            </div>
+            <button type="submit" name="subscribe" id="mc-embedded-subscribe" class="form-button">Subscribe</button>
+          </div>
+        </form>
+      </div>
+    </div>
     </div>
   </div>
 </footer>
