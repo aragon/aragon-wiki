@@ -1,6 +1,3 @@
----
-tags: flock
----
 
 # Strategy call #2 Notes and action steps
 
@@ -12,7 +9,7 @@ Below is a summary of the discussions that happened during the last Flock Strate
 We have mostly a consensus over high level objectives for the coming months.
 
 #### Highlights
-- onboarding users (mostly projects) 
+- onboarding users (mostly projects)
 - finding specific use cases to deploy
 - use that feedback to work on the product
 
@@ -20,7 +17,7 @@ We have mostly a consensus over high level objectives for the coming months.
 - **Teams prepare to share their preferred approaches to fulfill these objectives in the quarter** (templates, onboarding, comms...)
 
 ### Target Market
-During the discussion on Objectives, a second question naturally emerged: what is the target market/users? Should they be the same for all teams or different for each team? 
+During the discussion on Objectives, a second question naturally emerged: what is the target market/users? Should they be the same for all teams or different for each team?
 
 #### Highlights
 - It is important that teams share and understand each other's ideas on target markets
@@ -39,10 +36,8 @@ We've been discussing how to organize development work among Flock teams.
 
 #### Highlights
 - Repo ownership can be useful to work more efficiently among Flock teams: knowing who to ping, more flexibility to review code and merge, accountability, decentralization
-- A design and feasibility phase to discuss code before implementation is a good practice. Coordination can be done through WGs 
+- A design and feasibility phase to discuss code before implementation is a good practice. Coordination can be done through WGs
 
 ####  Action steps for next call
 - Think about who should own what repo
 - WGs to be deployed
-
-
