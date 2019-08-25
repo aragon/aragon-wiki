@@ -1,17 +1,18 @@
 # Aragon Code of Conduct
 
-We're here to collaborate and build for Aragon. Help us keep it fun and productive!
+!!! success "We're here to collaborate and build for Aragon. Help us keep it fun and productive!"
 
 - Be kind and empathic towards each other
 - Assume good intentions
 - Keep comments on-topic (note that we have a [#random channel](https://aragon.chat/channel/random) in Aragon Chat for off-topic discussion)
 - Embody the values of the [Aragon Manifesto](https://blog.aragon.org/the-aragon-manifesto-4a21212eac03/)
 
+!!! failure "Unacceptable behaviors"
+
 We have a list of unacceptable behaviors. Please familiarize yourself with them before joining the project so you can help us support a healthy community. This is not a complete list, and our moderators have discretion over which comments they moderate. If you try to be the best person you can be when you are in our community spaces, you will probably be okay.
 
 Details about how to reach out to moderators with reports or questions can be found below.
 
-## Unacceptable behaviors
 - Ad hominem and other name-calling
 - Stalking or harassment (repeated unwanted contact, including sexual advances)
 - Any sexually or violently explicit content (NSFW)
@@ -25,6 +26,7 @@ Details about how to reach out to moderators with reports or questions can be fo
 - Coordinating “pumps” or “dumps” of financial assets or other market manipulation, including excessive shilling
 - Posting content that would be considered illegal in Switzerland
 
+!!! quote ""
 ## Our Responsibilities
 The Aragon team is responsible for clarifying the standards of acceptable behavior and are expected to take appropriate and fair corrective action in response to any instances of unacceptable behavior.
 
@@ -55,6 +57,7 @@ Moderators will generally follow this standard response protocol for infringemen
 - Delete on sight if the comment is violent, sexually explicit, sharing NCC/PII or other illegal content, or spam
 - DM and ask to edit for all other offenses. Delete repeat offenses.
 
+!!! quote ""
 ## Attribution
 
 This Code of Conduct is adapted from the Contributor Covenant, version 1.4, available at <http://contributor-covenant.org/version/1/4> and the example policy from the Geek Feminism wiki, created by the Geek Feminism community.
