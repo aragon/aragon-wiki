@@ -1,4 +1,6 @@
-# Third-Party Projects
+# Aragon Projects
+
+This page has a list of projects created by the Aragon community, and also includes a list of projects that are using tools created by the Aragon community.
 
 ## Awesome Aragon
 > A list of "awesome" Aragon resources.
