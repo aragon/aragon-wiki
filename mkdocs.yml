@@ -91,6 +91,7 @@ nav:
         - How to contribute: 'https://github.com/aragon/whitepaper/blob/master/CONTRIBUTE.md'
         - Version 1 (archived): 'https://github.com/aragon/whitepaper/tree/v1'
     - Design:
+      - Artwork: 'design/artwork/index.md'
       - Branding:
         - Aragon Project: 'design/branding/project.md'
         - Aragon Network: 'design/branding/network.md'
