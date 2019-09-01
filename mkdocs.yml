@@ -79,8 +79,9 @@ nav:
       - Governance:
         - Overview: 'network/governance/overview.md'
         - Aragon Governance Proposals: 'https://github.com/aragon/AGPs'
-        - How to verify cryptographic hashes and signatures: 'network/governance/verify_crypto.md'
+        - How to create an Aragon Governance Proposal: 'https://forum.aragon.org/t/how-to-create-an-aragon-governance-proposal/374'
         - How to vote in an Aragon Network Vote: 'network/governance/how_to_vote.md'
+        - How to verify cryptographic hashes and signatures: 'network/governance/verify_crypto.md'
       - Blog posts:
         - Aragon Network Jurisdiction - Decentralized Court: 'https://blog.aragon.org/aragon-network-jurisdiction-part-1-decentralized-court-c8ab2a675e82/'
         - Aragon Network and Token Primer: 'https://blog.aragon.one/aragon-network-and-token-primer/'
@@ -110,8 +111,7 @@ nav:
         - Guidelines: 'media/press/guidelines.md'
     - Help & Tutorials:
       - Aragon Knowledge Base: 'https://help.aragon.org/'
-      - Your first Aragon app: 'https://hack.aragon.org/docs/tutorial'
-      - How to create an Aragon Governance Proposal: 'https://forum.aragon.org/t/how-to-create-an-aragon-governance-proposal/374'
+    - Jobs: 'jobs/index.md'
     - Community & Social Media:
       - Aragon Chat: 'https://aragon.chat'
       - Aragon Forum: 'https://forum.aragon.org'
@@ -273,33 +273,6 @@ nav:
           - Community 03: 'archive/meetings/community/03.md'
           - Community 02: 'archive/meetings/community/02.md'
           - Community 01: 'archive/meetings/community/01.md'
-      - Jobs:
-        - Aragon One:
-          - Overview: 'archive/Aragon_One/jobs/index.md'
-          - Openings:
-            - Web3 Developer: 'archive/Aragon_One/jobs/openings/web3.md'
-            - Frontend Developer: 'archive/Aragon_One/jobs/openings/frontend.md'
-            - Web Developer: 'archive/Aragon_One/jobs/openings/web.md'
-            - DevOps: 'archive/Aragon_One/jobs/openings/dev-ops.md'
-            - EVM/Solidity Engineer: 'archive/Aragon_One/jobs/openings/solidity.md'
-            - Documentation Technical Writer: 'archive/Aragon_One/jobs/openings/technical-writer.md'
-            - Developer Relations: 'archive/Aragon_One/jobs/openings/dev_rel.md'
-            - UI Developer Contractor: 'archive/Aragon_One/jobs/openings/ui-developer-contract.md'
-        - Aragon DAC:
-            - Overview: 'archive/Aragon_DAC/jobs/index.md'
-            - Openings:
-              - Technical Writer: 'archive/Aragon_DAC/jobs/openings/DAC-Technical_Writer.md'
-              - UX Designer: 'archive/Aragon_DAC/jobs/openings/DAC-UX_Designer.md'
-              - Project Manager: 'archive/Aragon_DAC/jobs/openings/DAC-Project_Manager.md'
-      - Teams:
-        - Aragon One:
-          - Overview: 'archive/Aragon_One/index.md'
-          - Team: 'archive/Aragon_One/team.md'
-          - Logo: 'archive/design/A1/logo.md'
-        - Aragon DAC:
-          - Overview: 'archive/Aragon_DAC/index.md'
-          - Team: 'archive/Aragon_DAC/team.md'
-          - Logo: 'archive/design/DAC/logo.md'
       - Tutorials:
         - Aragon User Guide: 'archive/tutorials/Aragon_User_Guide.md'
         - Aragon Core User Guide: 'archive/tutorials/Aragon_Core_User_Guide.md'
@@ -321,4 +294,3 @@ nav:
     - Project: 'https://aragon.org/project'
   - Network:
     - Network: 'https://aragon.org/network'
-
