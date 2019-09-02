@@ -1,4 +1,4 @@
-### Working Group Registry
+## Working Group Registry
 
 ### Product WG
 
@@ -31,15 +31,15 @@ Supports the community of Aragon Network contributors, including facilitation of
 
 ### Strategy WG
 
-This WG focuses on strategic initiatives to sustain and grow the Aragon Network, the Flock and Nest programs as well as the broader Aragon community.
-
-In the Strategy WG, items are discussed from an interdisciplinary perspective and should be assessed as part of the global Aragon landscape.
+This WG focuses on strategic initiatives to sustain and grow the Aragon Network, the Flock and Nest programs as well as the broader Aragon community. In the Strategy WG, items are discussed from an interdisciplinary perspective and should be assessed as part of the global Aragon landscape.
 
 Examples of use-cases for the WG:
+
 * Coordination on topics and projects involving two or more network entities or disciplines,
 * Assessement of the current Network strategy,
 * Discussions on Aragon Network Votes and Proposals,
 * Addressing issues related to the governance of the Aragon Network and grant programs
+
 
 **Calls** happen every two weeks on Fridays [here](https://meet.google.com/bye-ztbk-bfh?authuser=1) and are run according to an open agenda. They are not recorded at this time.
 
@@ -60,3 +60,4 @@ Works on experimental mechanisms and technologies that support the mission of th
 “The purpose of your working group”
 
 * “The first facilitator(s) who will implement your Working Group in its first few days”
+
