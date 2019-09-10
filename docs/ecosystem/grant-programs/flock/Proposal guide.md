@@ -151,11 +151,3 @@ Note: Flock team ANT package policy is subject to change over time. Please ask t
 *In a structured way, the applicant team is invited to provide links to materials that can support its Flock application. **This should include a risk assessment document**, where the Flock team details the main challenges and risks tied to its proposal.*
 
 *These can also be links to projects, references, or any material judged relevant.*
-
-### [Aragon Association signature field]
-
-*In order to be submitted to the Community Review stage of the AGP process, the above application must satisfy the Flock track AGP timeline. Its scope and structure must also match the way the Flock program operates.*
-
-*If so, the Aragon Association will create a pull request containing PGP signature signing:*
-- *a GitHub link to the specific commit height of the application*
-- *a SHA-256 hash of the raw application text at the time of approval*
