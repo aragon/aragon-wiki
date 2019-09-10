@@ -165,8 +165,17 @@ nav:
   - Press:
     - Press Kit: 'press/press-kit.md'
     - Media Mentions: 'press/media-mentions.md'
-  - Nest:
-    - Nest grants: 'nest/index.md'
+  - Ecosystem:
+    - Grant programs:
+      - Flock:
+        - Flock grants: 'ecosystem/grant-programs/flock/README.md'
+        - Proposal guide: 'ecosystem/grant-programs/flock/Proposal guide.md'
+        - Teams:
+            - Aragon Black: 'ecosystem/grant-programs/flock/teams/aragon-black/ab-roadmap.md'
+            - Aragon One: 'ecosystem/grant-programs/flock/teams/aragon-one/A1-roadmap.md'
+            - Autark: 'ecosystem/grant-programs/flock/teams/autark/autark-roadmap.md'
+      - Nest:
+        - Nest grants: 'nest/index.md'
   - Working groups:
     - Overview: 'working-groups/overview.md'
     - Registry: 'working-groups/registry.md'
