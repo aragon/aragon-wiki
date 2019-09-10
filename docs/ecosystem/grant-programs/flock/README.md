@@ -1,6 +1,6 @@
 # Aragon Flock
 
-![](docs/Flock_header01.png)
+![](ecosystem/grant-programs/flock/Flock_header01.png)
 
 ## What is Flock?
 Following our work on [decentralizing the development of the Aragon project](https://blog.aragon.org/decentralizing-aragons-development-iii-onboarding-new-teams-32786cb805a5/), we have created the Flock program. The aim of the program is to handle the initial application and pre-selection process for **new Aragon teams**.
