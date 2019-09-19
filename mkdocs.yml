@@ -73,6 +73,9 @@ nav:
         - Trademark Policy: 'association/legal/Trademark_policy.md'
         - Terms of Use (websites): 'association/legal/Terms_of_use_websites.md'
         - Privacy policy: 'association/legal/Privacy_policy.md'
+      - Security:
+        - Overview: 'association/security/index.md'
+        - Bug Bounty: 'association/security/bug_bounty.md'
     - Aragon Network:
       - Overview: 'network/overview.md'
       - Aragon Network Token: 'network/aragon_network_token.md'
