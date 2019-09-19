@@ -297,6 +297,8 @@ nav:
         - Community 03: 'archive/meetings/community/03.md'
         - Community 02: 'archive/meetings/community/02.md'
         - Community 01: 'archive/meetings/community/01.md'
+    - Nest:
+      - Overview: 'archive/nest/index.md'
     - Tutorials:
       - Aragon User Guide: 'archive/tutorials/Aragon_User_Guide.md'
       - Aragon Core User Guide: 'archive/tutorials/Aragon_Core_User_Guide.md'
