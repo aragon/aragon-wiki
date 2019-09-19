@@ -1,0 +1,4561 @@
+
+
+
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
+      
+        <meta name="description" content="Wiki for the Aragon Project">
+      
+      
+        <link rel="canonical" href="https://wiki.aragon.org/archive/meetings/community/write-ups/cm07/pierre/">
+      
+      
+      
+        <meta name="lang:clipboard.copy" content="Copy to clipboard">
+      
+        <meta name="lang:clipboard.copied" content="Copied to clipboard">
+      
+        <meta name="lang:search.language" content="en">
+      
+        <meta name="lang:search.pipeline.stopwords" content="True">
+      
+        <meta name="lang:search.pipeline.trimmer" content="True">
+      
+        <meta name="lang:search.result.none" content="No matching documents">
+      
+        <meta name="lang:search.result.one" content="1 matching document">
+      
+        <meta name="lang:search.result.other" content="# matching documents">
+      
+        <meta name="lang:search.tokenizer" content="[\s\-]+">
+      
+      <link rel="shortcut icon" href="../../../../../../images/favicon.ico">
+      <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-4.4.2">
+    
+    
+      
+        <title>Write-Up - Pierre - Aragon Wiki</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../../../../assets/stylesheets/application.30686662.css">
+      
+        <link rel="stylesheet" href="../../../../../../assets/stylesheets/application-palette.a8b3c06d.css">
+      
+      
+        
+        
+        <meta name="theme-color" content="#546e7a">
+      
+    
+    
+      <script src="../../../../../../assets/javascripts/modernizr.74668098.js"></script>
+    
+    
+      
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=HKGrotesk:300,400,400i,700|HKGrotesk&display=fallback">
+        <style>body,input{font-family:"HKGrotesk","Helvetica Neue",Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"HKGrotesk","Courier New",Courier,monospace}</style>
+      
+    
+    <link rel="stylesheet" href="../../../../../../assets/fonts/material-icons.css">
+    
+    
+      <link rel="stylesheet" href="../../../../../../stylesheets/extra_style.css">
+    
+    
+      
+    
+    
+  </head>
+  
+    
+    
+    <body dir="ltr" data-md-color-primary="blue-grey" data-md-color-accent="cyan">
+  
+    <svg class="md-svg">
+      <defs>
+        
+        
+          <svg xmlns="http://www.w3.org/2000/svg" width="416" height="448" viewBox="0 0 416 448" id="__github"><path fill="currentColor" d="M160 304q0 10-3.125 20.5t-10.75 19T128 352t-18.125-8.5-10.75-19T96 304t3.125-20.5 10.75-19T128 256t18.125 8.5 10.75 19T160 304zm160 0q0 10-3.125 20.5t-10.75 19T288 352t-18.125-8.5-10.75-19T256 304t3.125-20.5 10.75-19T288 256t18.125 8.5 10.75 19T320 304zm40 0q0-30-17.25-51T296 232q-10.25 0-48.75 5.25Q229.5 240 208 240t-39.25-2.75Q130.75 232 120 232q-29.5 0-46.75 21T56 304q0 22 8 38.375t20.25 25.75 30.5 15 35 7.375 37.25 1.75h42q20.5 0 37.25-1.75t35-7.375 30.5-15 20.25-25.75T360 304zm56-44q0 51.75-15.25 82.75-9.5 19.25-26.375 33.25t-35.25 21.5-42.5 11.875-42.875 5.5T212 416q-19.5 0-35.5-.75t-36.875-3.125-38.125-7.5-34.25-12.875T37 371.5t-21.5-28.75Q0 312 0 260q0-59.25 34-99-6.75-20.5-6.75-42.5 0-29 12.75-54.5 27 0 47.5 9.875t47.25 30.875Q171.5 96 212 96q37 0 70 8 26.25-20.5 46.75-30.25T376 64q12.75 25.5 12.75 54.5 0 21.75-6.75 42 34 40 34 99.5z"/></svg>
+        
+      </defs>
+    </svg>
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
+    
+      <a href="#aragon-community-meeting-07-write-up-for-december" tabindex="1" class="md-skip">
+        Skip to content
+      </a>
+    
+    
+      <div class="aragon-navbar">
+  <div class="center">
+      <ul class="left">
+        <li>
+          <a href="https://aragon.org/discover">
+            Discover
+          </a>
+        </li>
+        <li>
+          <a href="https://hack.aragon.org/">
+            Developers
+          </a>
+        </li>
+      </ul>
+      <ul>
+        <li class="logo-li">
+          <a class="logo-link" href="https://aragon.org">
+            <img class="wiki-cover" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDE5LjIuMSwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPgo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkNhcGFfMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgeD0iMHB4IiB5PSIwcHgiCgkgdmlld0JveD0iMCAwIDM3MC4xIDMzMS4zIiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCAzNzAuMSAzMzEuMzsiIHhtbDpzcGFjZT0icHJlc2VydmUiPgo8c3R5bGUgdHlwZT0idGV4dC9jc3MiPgoJLnN0MHtmaWxsOnVybCgjU1ZHSURfMV8pO30KCS5zdDF7ZmlsbDp1cmwoI1NWR0lEXzJfKTt9Cgkuc3Qye2ZpbGw6dXJsKCNTVkdJRF8zXyk7fQoJLnN0M3tmaWxsOiMyMDIwMUU7fQoJLnN0NHtmaWxsOnVybCgjU1ZHSURfNF8pO30KCS5zdDV7ZmlsbDojMzUzNTM0O30KCS5zdDZ7ZmlsbDojMjgyODI4O30KCS5zdDd7ZmlsbDp1cmwoI1NWR0lEXzVfKTtzdHJva2U6dXJsKCNTVkdJRF82Xyk7c3Ryb2tlLXdpZHRoOjg7c3Ryb2tlLW1pdGVybGltaXQ6MTA7fQo8L3N0eWxlPgo8Zz4KCQoJCTxsaW5lYXJHcmFkaWVudCBpZD0iU1ZHSURfMV8iIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIiB4MT0iMTk4MS45NjM2IiB5MT0iMjQ0NC40OTYxIiB4Mj0iMjE2My4yOTY5IiB5Mj0iMjQ0NC40OTYxIiBncmFkaWVudFRyYW5zZm9ybT0ibWF0cml4KC0wLjI5NjQgMC45NTUxIC0wLjk1NTEgLTAuMjk2NCAzMTU0LjY4MzYgLTExNDQuMDkzMykiPgoJCTxzdG9wICBvZmZzZXQ9IjMuOTE5NjU0ZS0wMiIgc3R5bGU9InN0b3AtY29sb3I6IzJDRjRFMSIvPgoJCTxzdG9wICBvZmZzZXQ9IjEiIHN0eWxlPSJzdG9wLWNvbG9yOiMyQ0IyRTEiLz4KCTwvbGluZWFyR3JhZGllbnQ+Cgk8Y2lyY2xlIGNsYXNzPSJzdDAiIGN4PSIxOTciIGN5PSIxMzkuMSIgcj0iOTAuNyIvPgoJPGxpbmVhckdyYWRpZW50IGlkPSJTVkdJRF8yXyIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiIHgxPSIyNDQuNjAxNiIgeTE9IjExMy4xMzE4IiB4Mj0iMzI0LjMzNjIiIHkyPSIyMjIuMTE4MSI+CgkJPHN0b3AgIG9mZnNldD0iMy45MTk2NTRlLTAyIiBzdHlsZT0ic3RvcC1jb2xvcjojMkNGNEUxIi8+CgkJPHN0b3AgIG9mZnNldD0iMSIgc3R5bGU9InN0b3AtY29sb3I6IzJDQjJFMSIvPgoJPC9saW5lYXJHcmFkaWVudD4KCTxwYXRoIGNsYXNzPSJzdDEiIGQ9Ik0yNjAuNywxMTEuOWM2LjUsOC44LDkuOSwxOS4yLDkuOSwzMGMwLDEzLjEtNS40LDI1LjItMTQuNiwzNWw1LjYsMjAuOWgxN2wxNy45LTIwLjNsNC44LTI5LjdsMS0xNy43CgkJbC0xNy43LTIwTDI2MC43LDExMS45eiIvPgoJPGc+CgkJPGxpbmVhckdyYWRpZW50IGlkPSJTVkdJRF8zXyIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiIHgxPSIxMTEuNDU1OCIgeTE9IjEyNi43NDE5IiB4Mj0iMjI0LjEyMjQiIHkyPSIyODAuNzQxOSI+CgkJCTxzdG9wICBvZmZzZXQ9IjAiIHN0eWxlPSJzdG9wLWNvbG9yOiMyQ0U1RTEiLz4KCQkJPHN0b3AgIG9mZnNldD0iMSIgc3R5bGU9InN0b3AtY29sb3I6IzJDQjJFMSIvPgoJCTwvbGluZWFyR3JhZGllbnQ+CgkJPHBhdGggY2xhc3M9InN0MiIgZD0iTTYzLjcsMjAwLjJsMy4xLDEyLjNjMCwwLDM2LjYsNzUuMSwxMTksMTAzYzAsMCw3Ny4yLTMyLDExMC41LTg2LjNsLTQ4LjItNDAuMWMwLDAtMjIsMTcuNS01NC43LDE3LjUKCQkJYy0zMi43LDAtNzcuMS0xOS41LTc3LjEtNTkuN2MwLTQwLjIsNDYtNTQuOSw0Ni01NC45bC0xOS42LTQuOEg5Mi42bC0zMS44LDc2LjZMNjMuNywyMDAuMnoiLz4KCTwvZz4KCTxwYXRoIGNsYXNzPSJzdDMiIGQ9Ik0zMDUuNCwyMjguMSIvPgoJPGxpbmVhckdyYWRpZW50IGlkPSJTVkdJRF80XyIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiIHgxPSIxODYuNDczOCIgeTE9IjIzMy43MjY3IiB4Mj0iMTg2LjQ3MzgiIHkyPSIzNi41Ij4KCQk8c3RvcCAgb2Zmc2V0PSIwIiBzdHlsZT0ic3RvcC1jb2xvcjojMDAwMDAwIi8+CgkJPHN0b3AgIG9mZnNldD0iMSIgc3R5bGU9InN0b3AtY29sb3I6IzBEMEQwRCIvPgoJPC9saW5lYXJHcmFkaWVudD4KCTxwYXRoIGNsYXNzPSJzdDQiIGQ9Ik0zNDAuNiwxMTkuNWMtMS40LTEuNC00Mi00NC40LTE1My4zLTgyLjdsLTAuNy0wLjNjLTEwNy44LDM3LTE1NC4yLDgzLTE1NC4yLDgzYzQuMiwyNC41LDE0LjgsNTEuOCwyNC40LDczCgkJYzAuOCwxLjgsMTMuNiwyNC40LDIzLjEsMzYuN2MtNS42LTEyLjMtMTEuNy0yMy0xMS43LTQxLjRjMC01MS45LDQwLjItOTQuMSw5MC41LTk1LjljMS4yLDAsMi41LDAsMy43LDAuMWwtMTItMTIKCQljMCwwLDQ4LjMtOC4xLDExMC4zLDI5LjRjMCwwLDAuOSwxLjksMCw3LjVjMCwwLDI5LjIsMTIuNiwzMS43LDM3LjFzLTEzLDM4LjUtMjUuNSw0MC41YzAsMCw2LjUtMTAuMS0zLjUtMTUuNQoJCWMtMi4xLTEuMi00LjYtMS43LTcuMS0xLjZ2MGMtMTkuMSwwLTIxLjMsMjEuOC0yMS4zLDIxLjhjLTAuMiwxLjEtMC4yLDIuMi0wLjIsMy4zYzAsMC0zLjIsMzEuOSw1My42LDMxLjMKCQljMCwwLDI4LjgtMzIuNiwzNi40LTYxLjljMi44LTEwLjgsNC44LTE4LjksNi4xLTI0LjljMy4yLTguNSw2LjMtMTcuMyw5LjMtMjYuNEwzNDAuNiwxMTkuNXoiLz4KCTxwYXRoIGNsYXNzPSJzdDUiIGQ9Ik0yMzYuNiwxMTYiLz4KCTxwYXRoIGNsYXNzPSJzdDYiIGQ9Ik0yMzYsMTE5LjFjMC44LTAuNCwzLjQtMS43LDYuNC00LjhjNiwwLjgsMTEuOSwyLjcsMTEuOSwyLjdjLTEwLjktNi42LTI1LjgtMTAuNS00Mi4zLTEwLjQKCQljMCwwLDYuMyw5LDIzLjgsMTIuN0MyMzUuOCwxMTkuMywyMzUuOSwxMTkuMiwyMzYsMTE5LjF6Ii8+Cgk8Zz4KCQk8cGF0aCBjbGFzcz0ic3Q2IiBkPSJNMTg2LjEsNDEuM2MxMC42LDMuMyw4Ny42LDI4LjksMTQ5LjIsNzkuOGw2LjktMmwtMC41LTAuNGMtNjAuMi01MS0xMzYuMy03Ny41LTE1Mi4xLTgyLjZsLTEuNS0wLjVsLTItMC42CgkJCWwtMy41LDEuMWMtMTUuOCw1LjEtOTEuOSwzMS42LTE1Mi4xLDgyLjZsLTAuNywwLjZsNi43LDIuMkM5OC4xLDcwLjMsMTc1LjUsNDQuNiwxODYuMSw0MS4zeiIvPgoJPC9nPgoJPGxpbmVhckdyYWRpZW50IGlkPSJTVkdJRF81XyIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiIHgxPSIxODYuMDU3IiB5MT0iMjQ4Ljc5NTUiIHgyPSIxODYuMDU3IiB5Mj0iLTE2Ljk3MjgiPgoJCTxzdG9wICBvZmZzZXQ9IjMuOTE5NjU0ZS0wMiIgc3R5bGU9InN0b3AtY29sb3I6IzJDRjRFMSIvPgoJCTxzdG9wICBvZmZzZXQ9IjEiIHN0eWxlPSJzdG9wLWNvbG9yOiMyQ0IyRTEiLz4KCTwvbGluZWFyR3JhZGllbnQ+Cgk8bGluZWFyR3JhZGllbnQgaWQ9IlNWR0lEXzZfIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjI0Ljg0MTUiIHkxPSIxNjguODYxNiIgeDI9IjM0Ny4yNzI2IiB5Mj0iMTY4Ljg2MTYiPgoJCTxzdG9wICBvZmZzZXQ9IjMuOTE5NjU0ZS0wMiIgc3R5bGU9InN0b3AtY29sb3I6IzJDRjRFMSIvPgoJCTxzdG9wICBvZmZzZXQ9IjEiIHN0eWxlPSJzdG9wLWNvbG9yOiMyQ0IyRTEiLz4KCTwvbGluZWFyR3JhZGllbnQ+Cgk8cGF0aCBjbGFzcz0ic3Q3IiBkPSJNMzQxLjcsMTA5LjJjLTYwLjItNTEtMTM2LjMtNzcuNS0xNTIuMS04Mi42bC0xLjUtMC41bC0yLTAuNmwtMy41LDEuMWMtMTUuOCw1LjEtOTEuOSwzMS42LTE1Mi4xLDgyLjYKCQlsLTEuMywxLjFsMC4zLDEuN2MwLjEsMC40LDYuNiwzOS4xLDI4LjgsODIuOGMxMy4xLDI1LjcsMjksNDgsNDcuMiw2Ni41YzIyLjMsMjIuNiw0OC4zLDM5LjMsNzcuMiw0OS43bDEuNywwLjZsMS43LDAuNmwxLjgtMC43CgkJbDEuNy0wLjZjMjguOS0xMC40LDU0LjgtMjcuMSw3Ny4yLTQ5LjdjMTguMi0xOC40LDM0LjEtNDAuOCw0Ny4yLTY2LjVjMjIuMi00My42LDI4LjgtODIuNCwyOC44LTgyLjhsMC4zLTEuN0wzNDEuNywxMDkuMnoKCQkgTTMwOC41LDE5MmMtMTIuOCwyNS4xLTI4LjMsNDctNDYuMSw2NWMtMjIuMSwyMi4zLTQ3LjcsMzguNy03Ni4zLDQ4LjhjLTI4LjYtMTAuMS01NC4yLTI2LjQtNzYuMy00OC43CgkJYy0xNy44LTE4LTMzLjMtMzkuOC00Ni4xLTY0LjljLTE5LjMtMzcuOC0yNi41LTcxLjctMjgtNzkuNUM5Ny40LDYxLDE3NS40LDM1LjIsMTg2LjEsMzEuOGMxMC42LDMuNCw4OC43LDI5LjIsMTUwLjQsODAuOQoJCUMzMzUsMTIwLjQsMzI3LjcsMTU0LjMsMzA4LjUsMTkyeiIvPgo8L2c+Cjwvc3ZnPgo=" />
+          </a>
+        </li>
+      </ul>
+      <ul class="right">
+        <li>
+          <a href="https://aragon.org/project">
+            Project
+          </a>
+        </li>
+        <li>
+          <a href="https://aragon.org/network">
+            Network
+          </a>
+        </li>
+      </ul>
+  </div>
+</div>
+<div class="md-flex__cell md-flex__cell--shrink  sidebar-menu-button">
+  <label class="md-icon md-icon--menu md-header-nav__button"
+      for="__drawer"></label>
+</div>
+    
+    <div class="md-container">
+      
+        
+      
+      
+      <main class="md-main" role="main">
+        <div class="md-main__inner md-grid" data-md-component="container">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    <nav class="md-nav md-nav--primary" data-md-level="0">
+  <label class="md-nav__title md-nav__title--site" for="__drawer">
+    <a href="https://wiki.aragon.org" title="Aragon Wiki" class="md-nav__button md-logo">
+      
+        <img src="../../../../../../images/logo.svg" width="48" height="48">
+      
+    </a>
+    Aragon Wiki
+  </label>
+  
+    <div class="md-nav__source">
+      
+
+
+  
+
+<a href="https://github.com/aragon/aragon-wiki/" title="Go to repository" class="md-source" data-md-source="github">
+  
+    <div class="md-source__icon">
+      <svg viewBox="0 0 24 24" width="24" height="24">
+        <use xlink:href="#__github" width="24" height="24"></use>
+      </svg>
+    </div>
+  
+  <div class="md-source__repository">
+    aragon/aragon-wiki
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-1" type="checkbox" id="nav-1">
+    
+    <label class="md-nav__link" for="nav-1">
+      Aragon Wiki
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-1">
+        Aragon Wiki
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../../../.." title="Aragon Wiki" class="md-nav__link">
+      Aragon Wiki
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-1-2" type="checkbox" id="nav-1-2">
+    
+    <label class="md-nav__link" for="nav-1-2">
+      About Aragon
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-1-2">
+        About Aragon
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../../../../about/what_is_aragon/" title="What is Aragon?" class="md-nav__link">
+      What is Aragon?
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../../../../about/history/" title="History" class="md-nav__link">
+      History
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../../../../about/glossary/" title="Glossary" class="md-nav__link">
+      Glossary
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="https://github.com/aragon/AGPs/blob/master/AGPs/AGP-0.md" title="Manifesto" class="md-nav__link">
+      Manifesto
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../../../../about/code_of_conduct/" title="Code of Conduct" class="md-nav__link">
+      Code of Conduct
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../../../../about/projects/" title="Aragon Projects" class="md-nav__link">
+      Aragon Projects
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-1-3" type="checkbox" id="nav-1-3">
+    
+    <label class="md-nav__link" for="nav-1-3">
+      Aragon Association
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-1-3">
+        Aragon Association
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../../../../association/overview/" title="Overview" class="md-nav__link">
+      Overview
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../../../../association/event_policy/" title="Event Policy" class="md-nav__link">
+      Event Policy
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../../../../association/association_ant/" title="Association ANT Policy" class="md-nav__link">
+      Association ANT Policy
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-1-3-4" type="checkbox" id="nav-1-3-4">
+    
+    <label class="md-nav__link" for="nav-1-3-4">
+      Legal
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="3">
+      <label class="md-nav__title" for="nav-1-3-4">
+        Legal
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../../../../association/legal/Licenses/" title="Software Licenses" class="md-nav__link">
+      Software Licenses
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../../../../association/legal/CLA/" title="Contributor License Agreement" class="md-nav__link">
+      Contributor License Agreement
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../../../../association/legal/Trademark_policy/" title="Trademark Policy" class="md-nav__link">
+      Trademark Policy
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../../../../association/legal/Terms_of_use_websites/" title="Terms of Use (websites)" class="md-nav__link">
+      Terms of Use (websites)
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../../../../association/legal/Privacy_policy/" title="Privacy policy" class="md-nav__link">
+      Privacy policy
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-1-3-5" type="checkbox" id="nav-1-3-5">
+    
+    <label class="md-nav__link" for="nav-1-3-5">
+      Multisig
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="3">
+      <label class="md-nav__title" for="nav-1-3-5">
+        Multisig
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../../../../association/multisigs/overview/" title="Overview" class="md-nav__link">
+      Overview
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../../../../association/multisigs/association/" title="Association multisig" class="md-nav__link">
+      Association multisig
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../../../../association/multisigs/community/" title="Community multisig" class="md-nav__link">
+      Community multisig
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-1-3-6" type="checkbox" id="nav-1-3-6">
+    
+    <label class="md-nav__link" for="nav-1-3-6">
+      Security Policy
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="3">
+      <label class="md-nav__title" for="nav-1-3-6">
+        Security Policy
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../../../../association/security/" title="Overview" class="md-nav__link">
+      Overview
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../../../../association/security/bug_bounty/" title="Bug Bounty" class="md-nav__link">
+      Bug Bounty
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-1-4" type="checkbox" id="nav-1-4">
+    
+    <label class="md-nav__link" for="nav-1-4">
+      Aragon Network
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-1-4">
+        Aragon Network
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../../../../network/overview/" title="Overview" class="md-nav__link">
+      Overview
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../../../../network/aragon_network_token/" title="Aragon Network Token" class="md-nav__link">
+      Aragon Network Token
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-1-4-3" type="checkbox" id="nav-1-4-3">
+    
+    <label class="md-nav__link" for="nav-1-4-3">
+      Governance
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="3">
+      <label class="md-nav__title" for="nav-1-4-3">
+        Governance
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../../../../network/governance/overview/" title="Overview" class="md-nav__link">
+      Overview
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="https://github.com/aragon/AGPs" title="Aragon Governance Proposals" class="md-nav__link">
+      Aragon Governance Proposals
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="https://forum.aragon.org/t/how-to-create-an-aragon-governance-proposal/374" title="How to create an Aragon Governance Proposal" class="md-nav__link">
+      How to create an Aragon Governance Proposal
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../../../../network/governance/how_to_vote/" title="How to vote in an Aragon Network Vote" class="md-nav__link">
+      How to vote in an Aragon Network Vote
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../../../../network/governance/verify_crypto/" title="How to verify cryptographic hashes and signatures" class="md-nav__link">
+      How to verify cryptographic hashes and signatures
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-1-4-4" type="checkbox" id="nav-1-4-4">
+    
+    <label class="md-nav__link" for="nav-1-4-4">
+      Blog posts
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="3">
+      <label class="md-nav__title" for="nav-1-4-4">
+        Blog posts
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="https://blog.aragon.org/aragon-network-jurisdiction-part-1-decentralized-court-c8ab2a675e82/" title="Aragon Network Jurisdiction - Decentralized Court" class="md-nav__link">
+      Aragon Network Jurisdiction - Decentralized Court
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="https://blog.aragon.one/aragon-network-and-token-primer/" title="Aragon Network and Token Primer" class="md-nav__link">
+      Aragon Network and Token Primer
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="https://blog.aragon.one/futarchy-courts/" title="Futarchy Courts" class="md-nav__link">
+      Futarchy Courts
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="https://blog.aragon.one/proposal-agreements-and-the-aragon-court/" title="Proposal Agreements and the Aragon Court" class="md-nav__link">
+      Proposal Agreements and the Aragon Court
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-1-4-5" type="checkbox" id="nav-1-4-5">
+    
+    <label class="md-nav__link" for="nav-1-4-5">
+      Whitepaper
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="3">
+      <label class="md-nav__title" for="nav-1-4-5">
+        Whitepaper
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="https://github.com/aragon/whitepaper/blob/master/README.md" title="Latest version" class="md-nav__link">
+      Latest version
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="https://github.com/aragon/whitepaper/blob/master/CONTRIBUTE.md" title="How to contribute" class="md-nav__link">
+      How to contribute
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="https://github.com/aragon/whitepaper/tree/v1" title="Version 1 (archived)" class="md-nav__link">
+      Version 1 (archived)
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-1-5" type="checkbox" id="nav-1-5">
+    
+    <label class="md-nav__link" for="nav-1-5">
+      Design
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-1-5">
+        Design
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../../../../design/artwork/" title="Artwork" class="md-nav__link">
+      Artwork
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-1-5-2" type="checkbox" id="nav-1-5-2">
+    
+    <label class="md-nav__link" for="nav-1-5-2">
+      Branding
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="3">
+      <label class="md-nav__title" for="nav-1-5-2">
+        Branding
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../../../../design/branding/project/" title="Aragon Project" class="md-nav__link">
+      Aragon Project
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../../../../design/branding/network/" title="Aragon Network" class="md-nav__link">
+      Aragon Network
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../../../../media/press/press-kit/#brand-guidelines" title="Brand Guidelines" class="md-nav__link">
+      Brand Guidelines
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../../../../design/powered_by_aragon/" title="For entities using Aragon" class="md-nav__link">
+      For entities using Aragon
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-1-6" type="checkbox" id="nav-1-6">
+    
+    <label class="md-nav__link" for="nav-1-6">
+      Media
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-1-6">
+        Media
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-1-6-1" type="checkbox" id="nav-1-6-1">
+    
+    <label class="md-nav__link" for="nav-1-6-1">
+      Audio
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="3">
+      <label class="md-nav__title" for="nav-1-6-1">
+        Audio
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../../../../media/audio/podcast/" title="Podcast" class="md-nav__link">
+      Podcast
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-1-6-2" type="checkbox" id="nav-1-6-2">
+    
+    <label class="md-nav__link" for="nav-1-6-2">
+      Video
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="3">
+      <label class="md-nav__title" for="nav-1-6-2">
+        Video
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../../../../media/videos/promo/" title="Promo" class="md-nav__link">
+      Promo
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../../../../media/videos/presentations/" title="Presentations" class="md-nav__link">
+      Presentations
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../../../../media/videos/interviews/" title="Interviews" class="md-nav__link">
+      Interviews
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-1-6-3" type="checkbox" id="nav-1-6-3">
+    
+    <label class="md-nav__link" for="nav-1-6-3">
+      Press
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="3">
+      <label class="md-nav__title" for="nav-1-6-3">
+        Press
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../../../../media/press/press-kit/" title="Press Kit" class="md-nav__link">
+      Press Kit
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../../../../media/press/media-mentions/" title="Media Mentions" class="md-nav__link">
+      Media Mentions
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../../../../media/press/guidelines.md" title="Guidelines" class="md-nav__link">
+      Guidelines
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-1-7" type="checkbox" id="nav-1-7">
+    
+    <label class="md-nav__link" for="nav-1-7">
+      Help & Tutorials
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-1-7">
+        Help & Tutorials
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="https://help.aragon.org/" title="Aragon Knowledge Base" class="md-nav__link">
+      Aragon Knowledge Base
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../../../../jobs/" title="Jobs" class="md-nav__link">
+      Jobs
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-1-9" type="checkbox" id="nav-1-9">
+    
+    <label class="md-nav__link" for="nav-1-9">
+      All Aragon Devs
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-1-9">
+        All Aragon Devs
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../../../../all_aragon_devs_/overview.md" title="Overview" class="md-nav__link">
+      Overview
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../../../../all_aragon_devs/template/" title="Notes template" class="md-nav__link">
+      Notes template
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../../../../all_aragon_devs/running_all_devs/" title="Running the call" class="md-nav__link">
+      Running the call
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-1-9-4" type="checkbox" id="nav-1-9-4">
+    
+    <label class="md-nav__link" for="nav-1-9-4">
+      Meeting Notes
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="3">
+      <label class="md-nav__title" for="nav-1-9-4">
+        Meeting Notes
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-1-9-4-1" type="checkbox" id="nav-1-9-4-1">
+    
+    <label class="md-nav__link" for="nav-1-9-4-1">
+      September 2019
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="4">
+      <label class="md-nav__title" for="nav-1-9-4-1">
+        September 2019
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../../../../all_aragon_devs/meeting_notes/alldevs20190902/" title="02.09.2019" class="md-nav__link">
+      02.09.2019
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-1-9-4-2" type="checkbox" id="nav-1-9-4-2">
+    
+    <label class="md-nav__link" for="nav-1-9-4-2">
+      August 2019
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="4">
+      <label class="md-nav__title" for="nav-1-9-4-2">
+        August 2019
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../../../../all_aragon_devs/meeting_notes/alldevs20190819/" title="19.08.2019" class="md-nav__link">
+      19.08.2019
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../../../../all_aragon_devs/meeting_notes/alldevs20190805/" title="05.08.2019" class="md-nav__link">
+      05.08.2019
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-1-9-4-3" type="checkbox" id="nav-1-9-4-3">
+    
+    <label class="md-nav__link" for="nav-1-9-4-3">
+      July 2019
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="4">
+      <label class="md-nav__title" for="nav-1-9-4-3">
+        July 2019
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../../../../all_aragon_devs/meeting_notes/alldevs20190722/" title="22.07.2019" class="md-nav__link">
+      22.07.2019
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../../../../all_aragon_devs/meeting_notes/alldevs20190708/" title="08.07.2019" class="md-nav__link">
+      08.07.2019
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-1-9-4-4" type="checkbox" id="nav-1-9-4-4">
+    
+    <label class="md-nav__link" for="nav-1-9-4-4">
+      June 2019
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="4">
+      <label class="md-nav__title" for="nav-1-9-4-4">
+        June 2019
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../../../../all_aragon_devs/meeting_notes/alldevs20190624/" title="24.06.2019" class="md-nav__link">
+      24.06.2019
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../../../../all_aragon_devs/meeting_notes/alldevs20190610/" title="10.06.2019" class="md-nav__link">
+      10.06.2019
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-1-9-4-5" type="checkbox" id="nav-1-9-4-5">
+    
+    <label class="md-nav__link" for="nav-1-9-4-5">
+      May 2019
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="4">
+      <label class="md-nav__title" for="nav-1-9-4-5">
+        May 2019
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../../../../all_aragon_devs/meeting_notes/alldevs20190527/" title="27.05.2019" class="md-nav__link">
+      27.05.2019
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../../../../all_aragon_devs/meeting_notes/alldevs20190513/" title="13.05.2019" class="md-nav__link">
+      13.05.2019
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-1-9-4-6" type="checkbox" id="nav-1-9-4-6">
+    
+    <label class="md-nav__link" for="nav-1-9-4-6">
+      April 2019
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="4">
+      <label class="md-nav__title" for="nav-1-9-4-6">
+        April 2019
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../../../../all_aragon_devs/meeting_notes/alldevs20190429/" title="29.04.2019" class="md-nav__link">
+      29.04.2019
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../../../../all_aragon_devs/meeting_notes/alldevs20190415/" title="15.04.2019" class="md-nav__link">
+      15.04.2019
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../../../../all_aragon_devs/meeting_notes/alldevs20190401/" title="01.04.2019" class="md-nav__link">
+      01.04.2019
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-1-9-4-7" type="checkbox" id="nav-1-9-4-7">
+    
+    <label class="md-nav__link" for="nav-1-9-4-7">
+      March 2019
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="4">
+      <label class="md-nav__title" for="nav-1-9-4-7">
+        March 2019
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../../../../all_aragon_devs/meeting_notes/alldevs20190304/" title="04.03.2019" class="md-nav__link">
+      04.03.2019
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../../../../all_aragon_devs/meeting_notes/alldevs20190318/" title="18.03.2019" class="md-nav__link">
+      18.03.2019
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-1-9-4-8" type="checkbox" id="nav-1-9-4-8">
+    
+    <label class="md-nav__link" for="nav-1-9-4-8">
+      February 2019
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="4">
+      <label class="md-nav__title" for="nav-1-9-4-8">
+        February 2019
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../../../../all_aragon_devs/meeting_notes/alldevs20190204/" title="04.02.2019" class="md-nav__link">
+      04.02.2019
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../../../../all_aragon_devs/meeting_notes/alldevs20190218/" title="18.02.2019" class="md-nav__link">
+      18.02.2019
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-1-9-4-9" type="checkbox" id="nav-1-9-4-9">
+    
+    <label class="md-nav__link" for="nav-1-9-4-9">
+      January 2019
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="4">
+      <label class="md-nav__title" for="nav-1-9-4-9">
+        January 2019
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../../../../all_aragon_devs/meeting_notes/alldevs20190107/" title="07.01.2019" class="md-nav__link">
+      07.01.2019
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../../../../all_aragon_devs/meeting_notes/alldevs20190121/" title="21.01.2019" class="md-nav__link">
+      21.01.2019
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-1-9-4-10" type="checkbox" id="nav-1-9-4-10">
+    
+    <label class="md-nav__link" for="nav-1-9-4-10">
+      December 2018
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="4">
+      <label class="md-nav__title" for="nav-1-9-4-10">
+        December 2018
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../../../../all_aragon_devs/meeting_notes/alldevs20181203/" title="03.12.2018" class="md-nav__link">
+      03.12.2018
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../../../../all_aragon_devs/meeting_notes/alldevs20181217/" title="17.12.2018" class="md-nav__link">
+      17.12.2018
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-1-9-4-11" type="checkbox" id="nav-1-9-4-11">
+    
+    <label class="md-nav__link" for="nav-1-9-4-11">
+      November 2018
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="4">
+      <label class="md-nav__title" for="nav-1-9-4-11">
+        November 2018
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../../../../all_aragon_devs/meeting_notes/alldevs20181105/" title="05.11.2018" class="md-nav__link">
+      05.11.2018
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../../../../all_aragon_devs/meeting_notes/alldevs20181119/" title="19.11.2018" class="md-nav__link">
+      19.11.2018
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-1-9-4-12" type="checkbox" id="nav-1-9-4-12">
+    
+    <label class="md-nav__link" for="nav-1-9-4-12">
+      October 2018
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="4">
+      <label class="md-nav__title" for="nav-1-9-4-12">
+        October 2018
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../../../../all_aragon_devs/meeting_notes/alldevs20181008/" title="08.10.2018" class="md-nav__link">
+      08.10.2018
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../../../../all_aragon_devs/meeting_notes/alldevs20181022/" title="22.10.2018" class="md-nav__link">
+      22.10.2018
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-1-9-4-13" type="checkbox" id="nav-1-9-4-13">
+    
+    <label class="md-nav__link" for="nav-1-9-4-13">
+      September 2018
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="4">
+      <label class="md-nav__title" for="nav-1-9-4-13">
+        September 2018
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../../../../all_aragon_devs/meeting_notes/alldevs20180910/" title="10.09.2018" class="md-nav__link">
+      10.09.2018
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../../../../all_aragon_devs/meeting_notes/alldevs20180924/" title="24.09.2018" class="md-nav__link">
+      24.09.2018
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-1-9-4-14" type="checkbox" id="nav-1-9-4-14">
+    
+    <label class="md-nav__link" for="nav-1-9-4-14">
+      August 2018
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="4">
+      <label class="md-nav__title" for="nav-1-9-4-14">
+        August 2018
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../../../../all_aragon_devs/meeting_notes/alldevs20180813/" title="13.08.2018" class="md-nav__link">
+      13.08.2018
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../../../../all_aragon_devs/meeting_notes/alldevs20180827/" title="27.08.2018" class="md-nav__link">
+      27.08.2018
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-1-9-4-15" type="checkbox" id="nav-1-9-4-15">
+    
+    <label class="md-nav__link" for="nav-1-9-4-15">
+      July 2018
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="4">
+      <label class="md-nav__title" for="nav-1-9-4-15">
+        July 2018
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../../../../all_aragon_devs/meeting_notes/alldevs20180716/" title="16.07.2018" class="md-nav__link">
+      16.07.2018
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../../../../all_aragon_devs/meeting_notes/alldevs20180730/" title="30.07.2018" class="md-nav__link">
+      30.07.2018
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2">
+    
+    <label class="md-nav__link" for="nav-2">
+      Community & Social Media
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-2">
+        Community & Social Media
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="https://aragon.chat" title="Aragon Chat" class="md-nav__link">
+      Aragon Chat
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="https://forum.aragon.org" title="Aragon Forum" class="md-nav__link">
+      Aragon Forum
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="https://twitter.com/AragonProject" title="Twitter" class="md-nav__link">
+      Twitter
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="https://www.reddit.com/r/aragonproject/" title="Reddit" class="md-nav__link">
+      Reddit
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="https://www.linkedin.com/company/aragonproject/" title="LinkedIn" class="md-nav__link">
+      LinkedIn
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="https://www.youtube.com/c/AragonProject" title="YouTube" class="md-nav__link">
+      YouTube
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3">
+    
+    <label class="md-nav__link" for="nav-3">
+      Discover
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-3">
+        Discover
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="https://aragon.org/discover" title="Discover" class="md-nav__link">
+      Discover
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-4" type="checkbox" id="nav-4">
+    
+    <label class="md-nav__link" for="nav-4">
+      Developers
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-4">
+        Developers
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="https://hack.aragon.org" title="Developers" class="md-nav__link">
+      Developers
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-5" type="checkbox" id="nav-5">
+    
+    <label class="md-nav__link" for="nav-5">
+      Website
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-5">
+        Website
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="https://aragon.org/" title="Website" class="md-nav__link">
+      Website
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-6" type="checkbox" id="nav-6">
+    
+    <label class="md-nav__link" for="nav-6">
+      Project
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-6">
+        Project
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="https://aragon.org/project" title="Project" class="md-nav__link">
+      Project
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-7" type="checkbox" id="nav-7">
+    
+    <label class="md-nav__link" for="nav-7">
+      Network
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-7">
+        Network
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="https://aragon.org/network" title="Network" class="md-nav__link">
+      Network
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-8" type="checkbox" id="nav-8">
+    
+    <label class="md-nav__link" for="nav-8">
+      Wiki Info
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-8">
+        Wiki Info
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../../../../wiki/Wiki_Basic_Features/" title="Basic Features" class="md-nav__link">
+      Basic Features
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../../../../wiki/Wiki_Additional_Features/" title="Additional Features" class="md-nav__link">
+      Additional Features
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../../../../wiki/editorial_policies/" title="Wiki Editorial Policies" class="md-nav__link">
+      Wiki Editorial Policies
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-9" type="checkbox" id="nav-9">
+    
+    <label class="md-nav__link" for="nav-9">
+      Working groups
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-9">
+        Working groups
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../../../../working-groups/overview/" title="Overview" class="md-nav__link">
+      Overview
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../../../../working-groups/registry/" title="Registry" class="md-nav__link">
+      Registry
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-9-3" type="checkbox" id="nav-9-3">
+    
+    <label class="md-nav__link" for="nav-9-3">
+      Meeting notes
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-9-3">
+        Meeting notes
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-9-3-1" type="checkbox" id="nav-9-3-1">
+    
+    <label class="md-nav__link" for="nav-9-3-1">
+      Strategy Working Group
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="3">
+      <label class="md-nav__title" for="nav-9-3-1">
+        Strategy Working Group
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../../../../working-groups/meeting-notes/strategy-wg/Strategycall20190705/" title="05.07.2019" class="md-nav__link">
+      05.07.2019
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../../../../working-groups/meeting-notes/strategy-wg/Strategycall20190719/" title="19.07.2019" class="md-nav__link">
+      19.07.2019
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../../../../working-groups/meeting-notes/strategy-wg/Strategycall20190802/" title="02.08.2019" class="md-nav__link">
+      02.08.2019
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../../../../working-groups/meeting-notes/strategy-wg/Strategycall20190816/" title="16.08.2019" class="md-nav__link">
+      16.08.2019
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../../../../working-groups/meeting-notes/strategy-wg/Strategycall20190830/" title="30.08.2019" class="md-nav__link">
+      30.08.2019
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-10" type="checkbox" id="nav-10" checked>
+    
+    <label class="md-nav__link" for="nav-10">
+      Archive
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-10">
+        Archive
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-10-1" type="checkbox" id="nav-10-1">
+    
+    <label class="md-nav__link" for="nav-10-1">
+      Blog posts
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-10-1">
+        Blog posts
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../../../blog/2019/" title="2019" class="md-nav__link">
+      2019
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../../../blog/2018/" title="2018" class="md-nav__link">
+      2018
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../../../blog/2017/" title="2017" class="md-nav__link">
+      2017
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-10-1-4" type="checkbox" id="nav-10-1-4">
+    
+    <label class="md-nav__link" for="nav-10-1-4">
+      Aragon One
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="3">
+      <label class="md-nav__title" for="nav-10-1-4">
+        Aragon One
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../../../blog/A1/2019/" title="2019" class="md-nav__link">
+      2019
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../../../blog/A1/2018/" title="2018" class="md-nav__link">
+      2018
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-10-2" type="checkbox" id="nav-10-2">
+    
+    <label class="md-nav__link" for="nav-10-2">
+      Design
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-10-2">
+        Design
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../../../design/artwork/index.md" title="Artwork" class="md-nav__link">
+      Artwork
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../../../design/A1/logo.md" title="Aragon One" class="md-nav__link">
+      Aragon One
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../../../design/merch/index.md" title="Merchandise" class="md-nav__link">
+      Merchandise
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-10-3" type="checkbox" id="nav-10-3">
+    
+    <label class="md-nav__link" for="nav-10-3">
+      Development
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-10-3">
+        Development
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../../../dev/" title="Overview" class="md-nav__link">
+      Overview
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../../../Core/index.md" title="Aragon Core" class="md-nav__link">
+      Aragon Core
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../../../documentation/aragonOS_201/" title="aragonOS v2.0.1" class="md-nav__link">
+      aragonOS v2.0.1
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../../../documentation/security_disclosure.md" title="Security Vulnerability Disclosure Policy" class="md-nav__link">
+      Security Vulnerability Disclosure Policy
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-10-3-5" type="checkbox" id="nav-10-3-5">
+    
+    <label class="md-nav__link" for="nav-10-3-5">
+      Audit reports
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="3">
+      <label class="md-nav__title" for="nav-10-3-5">
+        Audit reports
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../../../documentation/audits/audit01_report_dossa.md" title="Audit 01 by Adam Dossa" class="md-nav__link">
+      Audit 01 by Adam Dossa
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../../../documentation/audits/audit_internal_sun.md" title="Audit (Internal) by Brett Sun" class="md-nav__link">
+      Audit (Internal) by Brett Sun
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../../../documentation/audits/audit_whg01_report.md" title="Audit Report by White Hat Group" class="md-nav__link">
+      Audit Report by White Hat Group
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-10-4" type="checkbox" id="nav-10-4">
+    
+    <label class="md-nav__link" for="nav-10-4">
+      Documentation
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-10-4">
+        Documentation
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../../../documentation/Development_Plan/" title="Development Plan" class="md-nav__link">
+      Development Plan
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../../../documentation/agp5/RocketChat/" title="AGP5 - Rocket Chat comparison" class="md-nav__link">
+      AGP5 - Rocket Chat comparison
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../../../documentation/agp5/Riot/" title="AGP5 - Riot comparison" class="md-nav__link">
+      AGP5 - Riot comparison
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-10-4-4" type="checkbox" id="nav-10-4-4">
+    
+    <label class="md-nav__link" for="nav-10-4-4">
+      Multisigs
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="3">
+      <label class="md-nav__title" for="nav-10-4-4">
+        Multisigs
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../../../documentation/multisigs/overview.md" title="Overview" class="md-nav__link">
+      Overview
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../../../documentation/multisigs/association.md" title="Association" class="md-nav__link">
+      Association
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../../../documentation/multisigs/community.md" title="Community" class="md-nav__link">
+      Community
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-10-5" type="checkbox" id="nav-10-5" checked>
+    
+    <label class="md-nav__link" for="nav-10-5">
+      Meetings
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-10-5">
+        Meetings
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-10-5-1" type="checkbox" id="nav-10-5-1">
+    
+    <label class="md-nav__link" for="nav-10-5-1">
+      Aragon HQ
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="3">
+      <label class="md-nav__title" for="nav-10-5-1">
+        Aragon HQ
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../../hq/01/" title="HQ 01" class="md-nav__link">
+      HQ 01
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../../hq/02/" title="HQ 02" class="md-nav__link">
+      HQ 02
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../../hq/03/" title="HQ 03" class="md-nav__link">
+      HQ 03
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-10-5-2" type="checkbox" id="nav-10-5-2">
+    
+    <label class="md-nav__link" for="nav-10-5-2">
+      Dev
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="3">
+      <label class="md-nav__title" for="nav-10-5-2">
+        Dev
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../../dev/01/" title="Dev 01" class="md-nav__link">
+      Dev 01
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../../dev/02/" title="Dev 02" class="md-nav__link">
+      Dev 02
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-10-5-3" type="checkbox" id="nav-10-5-3" checked>
+    
+    <label class="md-nav__link" for="nav-10-5-3">
+      Community
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="3">
+      <label class="md-nav__title" for="nav-10-5-3">
+        Community
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-10-5-3-1" type="checkbox" id="nav-10-5-3-1">
+    
+    <label class="md-nav__link" for="nav-10-5-3-1">
+      Community 11
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="4">
+      <label class="md-nav__title" for="nav-10-5-3-1">
+        Community 11
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../11/" title="Agenda" class="md-nav__link">
+      Agenda
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-10-5-3-2" type="checkbox" id="nav-10-5-3-2">
+    
+    <label class="md-nav__link" for="nav-10-5-3-2">
+      Community 10
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="4">
+      <label class="md-nav__title" for="nav-10-5-3-2">
+        Community 10
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../10/" title="Agenda" class="md-nav__link">
+      Agenda
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../cm10/alexa/" title="Write-Up - Alexa" class="md-nav__link">
+      Write-Up - Alexa
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../cm10/bingen/" title="Write-Up - Bingen" class="md-nav__link">
+      Write-Up - Bingen
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../cm10/brett/" title="Write-Up - Brett" class="md-nav__link">
+      Write-Up - Brett
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../cm10/chris/" title="Write-Up - Chris" class="md-nav__link">
+      Write-Up - Chris
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../cm10/john/" title="Write-Up - John" class="md-nav__link">
+      Write-Up - John
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../cm10/jorge/" title="Write-Up - Jorge" class="md-nav__link">
+      Write-Up - Jorge
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../cm10/jouni/" title="Write-Up - Jouni" class="md-nav__link">
+      Write-Up - Jouni
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../cm10/luis/" title="Write-Up - Luis" class="md-nav__link">
+      Write-Up - Luis
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../cm10/luke/" title="Write-Up - Luke" class="md-nav__link">
+      Write-Up - Luke
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../cm10/maria/" title="Write-Up - Maria" class="md-nav__link">
+      Write-Up - Maria
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../cm10/oliver/" title="Write-Up - Oliver" class="md-nav__link">
+      Write-Up - Oliver
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../cm10/pierre/" title="Write-Up - Pierre" class="md-nav__link">
+      Write-Up - Pierre
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../cm10/tatu/" title="Write-Up - Tatu" class="md-nav__link">
+      Write-Up - Tatu
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-10-5-3-3" type="checkbox" id="nav-10-5-3-3">
+    
+    <label class="md-nav__link" for="nav-10-5-3-3">
+      Community 09
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="4">
+      <label class="md-nav__title" for="nav-10-5-3-3">
+        Community 09
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../09/" title="Agenda" class="md-nav__link">
+      Agenda
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../cm09/alexa/" title="Write-Up - Alexa" class="md-nav__link">
+      Write-Up - Alexa
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../cm09/bingen/" title="Write-Up - Bingen" class="md-nav__link">
+      Write-Up - Bingen
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../cm09/brett/" title="Write-Up - Brett" class="md-nav__link">
+      Write-Up - Brett
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../cm09/john/" title="Write-Up - John" class="md-nav__link">
+      Write-Up - John
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../cm09/jorge/" title="Write-Up - Jorge" class="md-nav__link">
+      Write-Up - Jorge
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../cm09/jouni/" title="Write-Up - Jouni" class="md-nav__link">
+      Write-Up - Jouni
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../cm09/luis/" title="Write-Up - Luis" class="md-nav__link">
+      Write-Up - Luis
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../cm09/luke/" title="Write-Up - Luke" class="md-nav__link">
+      Write-Up - Luke
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../cm09/maria/" title="Write-Up - Maria" class="md-nav__link">
+      Write-Up - Maria
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../cm09/oliver/" title="Write-Up - Oliver" class="md-nav__link">
+      Write-Up - Oliver
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../cm09/pierre/" title="Write-Up - Pierre" class="md-nav__link">
+      Write-Up - Pierre
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../cm09/tatu/" title="Write-Up - Tatu" class="md-nav__link">
+      Write-Up - Tatu
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-10-5-3-4" type="checkbox" id="nav-10-5-3-4">
+    
+    <label class="md-nav__link" for="nav-10-5-3-4">
+      Community 08
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="4">
+      <label class="md-nav__title" for="nav-10-5-3-4">
+        Community 08
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../08/" title="Agenda" class="md-nav__link">
+      Agenda
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../cm08/alexa/" title="Write-Up - Alexa" class="md-nav__link">
+      Write-Up - Alexa
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../cm08/brett/" title="Write-Up - Brett" class="md-nav__link">
+      Write-Up - Brett
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../cm08/john/" title="Write-Up - John" class="md-nav__link">
+      Write-Up - John
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../cm08/jorge/" title="Write-Up - Jorge" class="md-nav__link">
+      Write-Up - Jorge
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../cm08/luis/" title="Write-Up - Luis" class="md-nav__link">
+      Write-Up - Luis
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../cm08/luke/" title="Write-Up - Luke" class="md-nav__link">
+      Write-Up - Luke
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../cm08/maria/" title="Write-Up - Maria" class="md-nav__link">
+      Write-Up - Maria
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../cm08/oliver/" title="Write-Up - Oliver" class="md-nav__link">
+      Write-Up - Oliver
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../cm08/pierre/" title="Write-Up - Pierre" class="md-nav__link">
+      Write-Up - Pierre
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../cm08/tatu/" title="Write-Up - Tatu" class="md-nav__link">
+      Write-Up - Tatu
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-10-5-3-5" type="checkbox" id="nav-10-5-3-5" checked>
+    
+    <label class="md-nav__link" for="nav-10-5-3-5">
+      Community 07
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="4">
+      <label class="md-nav__title" for="nav-10-5-3-5">
+        Community 07
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../07/" title="Agenda" class="md-nav__link">
+      Agenda
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../alexa/" title="Write-Up - Alexa" class="md-nav__link">
+      Write-Up - Alexa
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../brett/" title="Write-Up - Brett" class="md-nav__link">
+      Write-Up - Brett
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../light-cm07/" title="Write-Up - John" class="md-nav__link">
+      Write-Up - John
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../jorge/" title="Write-Up - Jorge" class="md-nav__link">
+      Write-Up - Jorge
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../luis/" title="Write-Up - Luis" class="md-nav__link">
+      Write-Up - Luis
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../luke/" title="Write-Up - Luke" class="md-nav__link">
+      Write-Up - Luke
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../maria/" title="Write-Up - Maria" class="md-nav__link">
+      Write-Up - Maria
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../oliver/" title="Write-Up - Oliver" class="md-nav__link">
+      Write-Up - Oliver
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        Write-Up - Pierre
+      </label>
+    
+    <a href="./" title="Write-Up - Pierre" class="md-nav__link md-nav__link--active">
+      Write-Up - Pierre
+    </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#aragon-community-meeting-07-write-up-for-december" class="md-nav__link">
+    Aragon Community Meeting 07 Write-Up for December
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#pierre-ui-interaction-developer" class="md-nav__link">
+    Pierre - UI &amp; Interaction Developer
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#aragon-wrapper" class="md-nav__link">
+    Aragon (Wrapper)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aragon-ui" class="md-nav__link">
+    Aragon UI
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#next" class="md-nav__link">
+    Next
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#aragon" class="md-nav__link">
+    Aragon
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aragon-ui_1" class="md-nav__link">
+    Aragon UI
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+    
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../tatu/" title="Write-Up - Tatu" class="md-nav__link">
+      Write-Up - Tatu
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-10-5-3-6" type="checkbox" id="nav-10-5-3-6">
+    
+    <label class="md-nav__link" for="nav-10-5-3-6">
+      Community 06
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="4">
+      <label class="md-nav__title" for="nav-10-5-3-6">
+        Community 06
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../06/" title="Agenda" class="md-nav__link">
+      Agenda
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../cm06/brett/" title="Write-Up - Brett" class="md-nav__link">
+      Write-Up - Brett
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../cm06/john/" title="Write-Up - John" class="md-nav__link">
+      Write-Up - John
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../cm06/jorge/" title="Write-Up - Jorge" class="md-nav__link">
+      Write-Up - Jorge
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../cm06/luis/" title="Write-Up - Luis" class="md-nav__link">
+      Write-Up - Luis
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../cm06/luke/" title="Write-Up - Luke" class="md-nav__link">
+      Write-Up - Luke
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../cm06/maria/" title="Write-Up - Maria" class="md-nav__link">
+      Write-Up - Maria
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../cm06/oliver/" title="Write-Up - Oliver" class="md-nav__link">
+      Write-Up - Oliver
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../cm06/pierre/" title="Write-Up - Pierre" class="md-nav__link">
+      Write-Up - Pierre
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../cm06/tatu/" title="Write-Up - Tatu" class="md-nav__link">
+      Write-Up - Tatu
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../05/" title="Community 05" class="md-nav__link">
+      Community 05
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../04/" title="Community 04" class="md-nav__link">
+      Community 04
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../03/" title="Community 03" class="md-nav__link">
+      Community 03
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../02/" title="Community 02" class="md-nav__link">
+      Community 02
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../01/" title="Community 01" class="md-nav__link">
+      Community 01
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-10-6" type="checkbox" id="nav-10-6">
+    
+    <label class="md-nav__link" for="nav-10-6">
+      Nest
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-10-6">
+        Nest
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../../../nest/" title="Overview" class="md-nav__link">
+      Overview
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-10-7" type="checkbox" id="nav-10-7">
+    
+    <label class="md-nav__link" for="nav-10-7">
+      Tutorials
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-10-7">
+        Tutorials
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../../../tutorials/Aragon_User_Guide.md" title="Aragon User Guide" class="md-nav__link">
+      Aragon User Guide
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../../../tutorials/Aragon_Core_User_Guide.md" title="Aragon Core User Guide" class="md-nav__link">
+      Aragon Core User Guide
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../../../tutorials/DAO_Workshop_Testnet_by_joselfgaray/" title="DAO Workshop For Aragon Core v0.5" class="md-nav__link">
+      DAO Workshop For Aragon Core v0.5
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../../../tutorials/Status_Open_Bounty_Guide/" title="How to claim an Aragon bounty using Status Open Bounty" class="md-nav__link">
+      How to claim an Aragon bounty using Status Open Bounty
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-10-8" type="checkbox" id="nav-10-8">
+    
+    <label class="md-nav__link" for="nav-10-8">
+      Videos
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-10-8">
+        Videos
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../../../videos/tutorials/" title="Tutorials" class="md-nav__link">
+      Tutorials
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-10-8-2" type="checkbox" id="nav-10-8-2">
+    
+    <label class="md-nav__link" for="nav-10-8-2">
+      Meetings
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="3">
+      <label class="md-nav__title" for="nav-10-8-2">
+        Meetings
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../../../videos/community/" title="Community" class="md-nav__link">
+      Community
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../../../videos/hq/" title="Aragon HQ" class="md-nav__link">
+      Aragon HQ
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../../../videos/dev/" title="Dev" class="md-nav__link">
+      Dev
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary">
+  
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#aragon-community-meeting-07-write-up-for-december" class="md-nav__link">
+    Aragon Community Meeting 07 Write-Up for December
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#pierre-ui-interaction-developer" class="md-nav__link">
+    Pierre - UI &amp; Interaction Developer
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#aragon-wrapper" class="md-nav__link">
+    Aragon (Wrapper)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aragon-ui" class="md-nav__link">
+    Aragon UI
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#next" class="md-nav__link">
+    Next
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#aragon" class="md-nav__link">
+    Aragon
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aragon-ui_1" class="md-nav__link">
+    Aragon UI
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                  <a href="https://github.com/aragon/aragon-wiki/edit/master/docs/archive/meetings/community/write-ups/cm07/pierre.md" title="Edit this page" class="md-icon md-content__icon">&#xE3C9;</a>
+                
+                
+                  <h1>Write-Up - Pierre</h1>
+                
+                <h2 id="aragon-community-meeting-07-write-up-for-december">Aragon Community Meeting 07 Write-Up for December</h2>
+<h3 id="pierre-ui-interaction-developer">Pierre - UI &amp; Interaction Developer</h3>
+<h4 id="aragon-wrapper">Aragon (Wrapper)</h4>
+<ul>
+<li>New base, using Aragon UI</li>
+<li>Sidebar</li>
+<li>Home screen</li>
+</ul>
+<h4 id="aragon-ui">Aragon UI</h4>
+<ul>
+<li>Added BadgeNumber</li>
+<li>Added CircleGraph</li>
+<li>Updated DropDown: extensible width + better default state</li>
+<li>Updated Card: dimensions can now be set</li>
+<li>Various improvements</li>
+</ul>
+<h3 id="next">Next</h3>
+<h4 id="aragon">Aragon</h4>
+<ul>
+<li>Add the missing apps to the new wrapper</li>
+<li>Use node-aragon</li>
+</ul>
+<h4 id="aragon-ui_1">Aragon UI</h4>
+<ul>
+<li>Add a focus state accross components, based on the DropDown focus</li>
+<li>Add more components as needed</li>
+<li>Keep improving:</li>
+<li>Accessibility</li>
+<li>Performances</li>
+<li>Consistency (Visual + API)</li>
+<li>Blog post to introduce Aragon UI</li>
+</ul>
+                
+                  
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        <!-- Application footer -->
+<footer class="md-footer">
+
+  <!-- Link to previous and/or next page -->
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid">
+
+        <!-- Link to previous page -->
+        
+          <a href="../oliver/"
+              title="Write-Up - Oliver"
+              class="md-flex md-footer-nav__link md-footer-nav__link--prev"
+              rel="prev">
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-back
+                    md-footer-nav__button"></i>
+            </div>
+            <div class="md-flex__cell md-flex__cell--stretch
+                  md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Previous
+                </span>
+                Write-Up - Oliver
+              </span>
+            </div>
+          </a>
+        
+
+        <!-- Link to next page -->
+        
+          <a href="../tatu/"
+              title="Write-Up - Tatu"
+              class="md-flex md-footer-nav__link md-footer-nav__link--next"
+              rel="next">
+            <div class="md-flex__cell md-flex__cell--stretch
+                  md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Next
+                </span>
+                Write-Up - Tatu
+              </span>
+            </div>
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-forward
+                    md-footer-nav__button"></i>
+            </div>
+          </a>
+        
+      </nav>
+    </div>
+  
+
+  <!-- Further information -->
+  <div class="footer-section">
+    <div class="section-container">
+    <div class="footer-container">
+      <div class="footer-item mobile-full">
+          <a href="https://aragon.org/">
+            <img class="logo-footer-img" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDE5LjIuMSwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPgo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkNhcGFfMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgeD0iMHB4IiB5PSIwcHgiCgkgdmlld0JveD0iMCAwIDM3MC4xIDMzMS4zIiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCAzNzAuMSAzMzEuMzsiIHhtbDpzcGFjZT0icHJlc2VydmUiPgo8c3R5bGUgdHlwZT0idGV4dC9jc3MiPgoJLnN0MHtmaWxsOnVybCgjU1ZHSURfMV8pO30KCS5zdDF7ZmlsbDp1cmwoI1NWR0lEXzJfKTt9Cgkuc3Qye2ZpbGw6dXJsKCNTVkdJRF8zXyk7fQoJLnN0M3tmaWxsOiMyMDIwMUU7fQoJLnN0NHtmaWxsOnVybCgjU1ZHSURfNF8pO30KCS5zdDV7ZmlsbDojMzUzNTM0O30KCS5zdDZ7ZmlsbDojMjgyODI4O30KCS5zdDd7ZmlsbDp1cmwoI1NWR0lEXzVfKTtzdHJva2U6dXJsKCNTVkdJRF82Xyk7c3Ryb2tlLXdpZHRoOjg7c3Ryb2tlLW1pdGVybGltaXQ6MTA7fQo8L3N0eWxlPgo8Zz4KCgkJPGxpbmVhckdyYWRpZW50IGlkPSJTVkdJRF8xXyIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiIHgxPSIxOTgxLjk2MzYiIHkxPSIyNDQ0LjQ5NjEiIHgyPSIyMTYzLjI5NjkiIHkyPSIyNDQ0LjQ5NjEiIGdyYWRpZW50VHJhbnNmb3JtPSJtYXRyaXgoLTAuMjk2NCAwLjk1NTEgLTAuOTU1MSAtMC4yOTY0IDMxNTQuNjgzNiAtMTE0NC4wOTMzKSI+CgkJPHN0b3AgIG9mZnNldD0iMy45MTk2NTRlLTAyIiBzdHlsZT0ic3RvcC1jb2xvcjojMkNGNEUxIi8+CgkJPHN0b3AgIG9mZnNldD0iMSIgc3R5bGU9InN0b3AtY29sb3I6IzJDQjJFMSIvPgoJPC9saW5lYXJHcmFkaWVudD4KCTxjaXJjbGUgY2xhc3M9InN0MCIgY3g9IjE5NyIgY3k9IjEzOS4xIiByPSI5MC43Ii8+Cgk8bGluZWFyR3JhZGllbnQgaWQ9IlNWR0lEXzJfIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjI0NC42MDE2IiB5MT0iMTEzLjEzMTgiIHgyPSIzMjQuMzM2MiIgeTI9IjIyMi4xMTgxIj4KCQk8c3RvcCAgb2Zmc2V0PSIzLjkxOTY1NGUtMDIiIHN0eWxlPSJzdG9wLWNvbG9yOiMyQ0Y0RTEiLz4KCQk8c3RvcCAgb2Zmc2V0PSIxIiBzdHlsZT0ic3RvcC1jb2xvcjojMkNCMkUxIi8+Cgk8L2xpbmVhckdyYWRpZW50PgoJPHBhdGggY2xhc3M9InN0MSIgZD0iTTI2MC43LDExMS45YzYuNSw4LjgsOS45LDE5LjIsOS45LDMwYzAsMTMuMS01LjQsMjUuMi0xNC42LDM1bDUuNiwyMC45aDE3bDE3LjktMjAuM2w0LjgtMjkuN2wxLTE3LjcKCQlsLTE3LjctMjBMMjYwLjcsMTExLjl6Ii8+Cgk8Zz4KCQk8bGluZWFyR3JhZGllbnQgaWQ9IlNWR0lEXzNfIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjExMS40NTU4IiB5MT0iMTI2Ljc0MTkiIHgyPSIyMjQuMTIyNCIgeTI9IjI4MC43NDE5Ij4KCQkJPHN0b3AgIG9mZnNldD0iMCIgc3R5bGU9InN0b3AtY29sb3I6IzJDRTVFMSIvPgoJCQk8c3RvcCAgb2Zmc2V0PSIxIiBzdHlsZT0ic3RvcC1jb2xvcjojMkNCMkUxIi8+CgkJPC9saW5lYXJHcmFkaWVudD4KCQk8cGF0aCBjbGFzcz0ic3QyIiBkPSJNNjMuNywyMDAuMmwzLjEsMTIuM2MwLDAsMzYuNiw3NS4xLDExOSwxMDNjMCwwLDc3LjItMzIsMTEwLjUtODYuM2wtNDguMi00MC4xYzAsMC0yMiwxNy41LTU0LjcsMTcuNQoJCQljLTMyLjcsMC03Ny4xLTE5LjUtNzcuMS01OS43YzAtNDAuMiw0Ni01NC45LDQ2LTU0LjlsLTE5LjYtNC44SDkyLjZsLTMxLjgsNzYuNkw2My43LDIwMC4yeiIvPgoJPC9nPgoJPHBhdGggY2xhc3M9InN0MyIgZD0iTTMwNS40LDIyOC4xIi8+Cgk8bGluZWFyR3JhZGllbnQgaWQ9IlNWR0lEXzRfIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjE4Ni40NzM4IiB5MT0iMjMzLjcyNjciIHgyPSIxODYuNDczOCIgeTI9IjM2LjUiPgoJCTxzdG9wICBvZmZzZXQ9IjAiIHN0eWxlPSJzdG9wLWNvbG9yOiMwMDAwMDAiLz4KCQk8c3RvcCAgb2Zmc2V0PSIxIiBzdHlsZT0ic3RvcC1jb2xvcjojMEQwRDBEIi8+Cgk8L2xpbmVhckdyYWRpZW50PgoJPHBhdGggY2xhc3M9InN0NCIgZD0iTTM0MC42LDExOS41Yy0xLjQtMS40LTQyLTQ0LjQtMTUzLjMtODIuN2wtMC43LTAuM2MtMTA3LjgsMzctMTU0LjIsODMtMTU0LjIsODNjNC4yLDI0LjUsMTQuOCw1MS44LDI0LjQsNzMKCQljMC44LDEuOCwxMy42LDI0LjQsMjMuMSwzNi43Yy01LjYtMTIuMy0xMS43LTIzLTExLjctNDEuNGMwLTUxLjksNDAuMi05NC4xLDkwLjUtOTUuOWMxLjIsMCwyLjUsMCwzLjcsMC4xbC0xMi0xMgoJCWMwLDAsNDguMy04LjEsMTEwLjMsMjkuNGMwLDAsMC45LDEuOSwwLDcuNWMwLDAsMjkuMiwxMi42LDMxLjcsMzcuMXMtMTMsMzguNS0yNS41LDQwLjVjMCwwLDYuNS0xMC4xLTMuNS0xNS41CgkJYy0yLjEtMS4yLTQuNi0xLjctNy4xLTEuNnYwYy0xOS4xLDAtMjEuMywyMS44LTIxLjMsMjEuOGMtMC4yLDEuMS0wLjIsMi4yLTAuMiwzLjNjMCwwLTMuMiwzMS45LDUzLjYsMzEuMwoJCWMwLDAsMjguOC0zMi42LDM2LjQtNjEuOWMyLjgtMTAuOCw0LjgtMTguOSw2LjEtMjQuOWMzLjItOC41LDYuMy0xNy4zLDkuMy0yNi40TDM0MC42LDExOS41eiIvPgoJPHBhdGggY2xhc3M9InN0NSIgZD0iTTIzNi42LDExNiIvPgoJPHBhdGggY2xhc3M9InN0NiIgZD0iTTIzNiwxMTkuMWMwLjgtMC40LDMuNC0xLjcsNi40LTQuOGM2LDAuOCwxMS45LDIuNywxMS45LDIuN2MtMTAuOS02LjYtMjUuOC0xMC41LTQyLjMtMTAuNAoJCWMwLDAsNi4zLDksMjMuOCwxMi43QzIzNS44LDExOS4zLDIzNS45LDExOS4yLDIzNiwxMTkuMXoiLz4KCTxnPgoJCTxwYXRoIGNsYXNzPSJzdDYiIGQ9Ik0xODYuMSw0MS4zYzEwLjYsMy4zLDg3LjYsMjguOSwxNDkuMiw3OS44bDYuOS0ybC0wLjUtMC40Yy02MC4yLTUxLTEzNi4zLTc3LjUtMTUyLjEtODIuNmwtMS41LTAuNWwtMi0wLjYKCQkJbC0zLjUsMS4xYy0xNS44LDUuMS05MS45LDMxLjYtMTUyLjEsODIuNmwtMC43LDAuNmw2LjcsMi4yQzk4LjEsNzAuMywxNzUuNSw0NC42LDE4Ni4xLDQxLjN6Ii8+Cgk8L2c+Cgk8bGluZWFyR3JhZGllbnQgaWQ9IlNWR0lEXzVfIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjE4Ni4wNTciIHkxPSIyNDguNzk1NSIgeDI9IjE4Ni4wNTciIHkyPSItMTYuOTcyOCI+CgkJPHN0b3AgIG9mZnNldD0iMy45MTk2NTRlLTAyIiBzdHlsZT0ic3RvcC1jb2xvcjojMkNGNEUxIi8+CgkJPHN0b3AgIG9mZnNldD0iMSIgc3R5bGU9InN0b3AtY29sb3I6IzJDQjJFMSIvPgoJPC9saW5lYXJHcmFkaWVudD4KCTxsaW5lYXJHcmFkaWVudCBpZD0iU1ZHSURfNl8iIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIiB4MT0iMjQuODQxNSIgeTE9IjE2OC44NjE2IiB4Mj0iMzQ3LjI3MjYiIHkyPSIxNjguODYxNiI+CgkJPHN0b3AgIG9mZnNldD0iMy45MTk2NTRlLTAyIiBzdHlsZT0ic3RvcC1jb2xvcjojMkNGNEUxIi8+CgkJPHN0b3AgIG9mZnNldD0iMSIgc3R5bGU9InN0b3AtY29sb3I6IzJDQjJFMSIvPgoJPC9saW5lYXJHcmFkaWVudD4KCTxwYXRoIGNsYXNzPSJzdDciIGQ9Ik0zNDEuNywxMDkuMmMtNjAuMi01MS0xMzYuMy03Ny41LTE1Mi4xLTgyLjZsLTEuNS0wLjVsLTItMC42bC0zLjUsMS4xYy0xNS44LDUuMS05MS45LDMxLjYtMTUyLjEsODIuNgoJCWwtMS4zLDEuMWwwLjMsMS43YzAuMSwwLjQsNi42LDM5LjEsMjguOCw4Mi44YzEzLjEsMjUuNywyOSw0OCw0Ny4yLDY2LjVjMjIuMywyMi42LDQ4LjMsMzkuMyw3Ny4yLDQ5LjdsMS43LDAuNmwxLjcsMC42bDEuOC0wLjcKCQlsMS43LTAuNmMyOC45LTEwLjQsNTQuOC0yNy4xLDc3LjItNDkuN2MxOC4yLTE4LjQsMzQuMS00MC44LDQ3LjItNjYuNWMyMi4yLTQzLjYsMjguOC04Mi40LDI4LjgtODIuOGwwLjMtMS43TDM0MS43LDEwOS4yegoJCSBNMzA4LjUsMTkyYy0xMi44LDI1LjEtMjguMyw0Ny00Ni4xLDY1Yy0yMi4xLDIyLjMtNDcuNywzOC43LTc2LjMsNDguOGMtMjguNi0xMC4xLTU0LjItMjYuNC03Ni4zLTQ4LjcKCQljLTE3LjgtMTgtMzMuMy0zOS44LTQ2LjEtNjQuOWMtMTkuMy0zNy44LTI2LjUtNzEuNy0yOC03OS41Qzk3LjQsNjEsMTc1LjQsMzUuMiwxODYuMSwzMS44YzEwLjYsMy40LDg4LjcsMjkuMiwxNTAuNCw4MC45CgkJQzMzNSwxMjAuNCwzMjcuNywxNTQuMywzMDguNSwxOTJ6Ii8+CjwvZz4KPC9zdmc+Cg==" />
+          </a>
+      </div>
+      <div class="footer-item">
+        <a href="https://aragon.org/">Home</a>
+        <a href="https://aragon.org/discover">Discover</a>
+        <a href="https://aragon.org/project">Project</a>
+        <a href="https://aragon.org/network">Network</a>
+      </div>
+      <div class="footer-item">
+        <a href="https://hack.aragon.org/" target="_blank">Developers</a>
+        <a href="https://wiki.aragon.org/dev/bug_bounty/" target="_blank">Bug bounty</a>
+        <a href="https://aragon.org/project/grants">Grants</a>
+        <a href="https://aragon.org/project/governance">Governance</a>
+
+      </div>
+      <div class="footer-item">
+        <a href="https://aragon.org/project/contribute">Contribute</a>
+        <a href="https://blog.aragon.org/" target="_blank">Blog</a>
+        <a href="https://wiki.aragon.org/" target="_blank">Wiki</a>
+        <a href="https://aracon.one/" target="_blank">AraCon</a>
+      </div>
+      <div class="footer-item mobile-full">
+        <p class="footer-item-p">Be part of the conversation</p>
+        <div class="footer-box">
+          <a href="https://twitter.com/aragonproject" target="_blank"><img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAyMCAxNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0xOS42NDE0IDEuODc5NzRDMTkuMTk4IDIuMDY4OCAxOC43Mzc2IDIuMjE3OTQgMTguMjY1MyAyLjMyNTkyQzE4Ljc4NTggMS44NTA0MSAxOS4xNzcxIDEuMjU1NjUgMTkuMzk3OSAwLjU5MTc5MVYwLjU5MTc5MUMxOS40NjA5IDAuNDAyMjcxIDE5LjI0NjggMC4yMzgzODggMTkuMDY4OCAwLjMzOTg2MlYwLjMzOTg2MkMxOC40MTE3IDAuNzE0NTk4IDE3LjcwMzggMC45OTU3MjEgMTYuOTY0OSAxLjE3NTUxQzE2LjkyMiAxLjE4NTk0IDE2Ljg3NzggMS4xOTEyMyAxNi44MzM0IDEuMTkxMjNDMTYuNjk4OCAxLjE5MTIzIDE2LjU2OCAxLjE0MzE4IDE2LjQ2NSAxLjA1NTk4QzE1LjY3ODkgMC4zODk4MjYgMTQuNjY3NyAwLjAyMjk0OTIgMTMuNjE3OSAwLjAyMjk0OTJDMTMuMTYzNyAwLjAyMjk0OTIgMTIuNzA1IDAuMDkxMDE5NCAxMi4yNTQ3IDAuMjI1Mjg4QzEwLjg1OTUgMC42NDEzMzUgOS43ODI5NSAxLjc0NzgxIDkuNDQ1MTkgMy4xMTI5NkM5LjMxODQ3IDMuNjI1MDEgOS4yODQxNyA0LjEzNzUyIDkuMzQzMTUgNC42MzYyNEM5LjM0OTkxIDQuNjkzNTUgOS4zMjE3MyA0LjczMzU1IDkuMzA0MzYgNC43NTIzMUM5LjI3Mzg1IDQuNzg1MTkgOS4yMzA1OSA0LjgwNDA1IDkuMTg1NjggNC44MDQwNUM5LjE4MDY2IDQuODA0MDUgOS4xNzU1MSA0LjgwMzgxIDkuMTcwNCA0LjgwMzM1QzYuMTE2MjggNC41MzA1NSAzLjM2MjIyIDMuMTE1OTYgMS40MTU1MSAwLjgyMDE4OVYwLjgyMDE4OUMxLjMxNjI0IDAuNzAzMDkgMS4xMjU4NyAwLjcxNzQ1MiAxLjA0Njc1IDAuODQ3OTMyVjAuODQ3OTMyQzAuNjY1NTMgMS40NzY3IDAuNDY0MDcxIDIuMTk1ODYgMC40NjQwNzEgMi45Mjc2NUMwLjQ2NDA3MSA0LjA0OTE1IDAuOTMyNzMyIDUuMTA2MDQgMS43NDY4IDUuODc2NTJDMS40MDQ0NiA1Ljc5ODQ4IDEuMDczMTIgNS42NzU1OCAwLjc2NTMzNiA1LjUxMTIzVjUuNTExMjNDMC42MTY0MzEgNS40MzE3IDAuNDMzMjE5IDUuNTMzOTIgMC40MzExMjcgNS42OTc2NlY1LjY5NzY2QzAuNDA5ODEzIDcuMzYzNzIgMS40MjQ0MSA4Ljg0NjIgMi45NDQzMSA5LjUxMzc2QzIuOTEzNzEgOS41MTQ0NiAyLjg4MzEgOS41MTQ3OSAyLjg1MjQ0IDkuNTE0NzlDMi42MTE1MiA5LjUxNDc5IDIuMzY3NTcgOS40OTI0MiAyLjEyNzQ4IDkuNDQ4MzFWOS40NDgzMUMxLjk1OTc5IDkuNDE3NTIgMS44MTg5MSA5LjU3MDQ2IDEuODcwOTggOS43MjY3NlY5LjcyNjc2QzIuMzY0MzEgMTEuMjA3NSAzLjY5MDQ1IDEyLjI5OSA1LjI3NzQgMTIuNTQ2OEMzLjk2MDMyIDEzLjM5NjggMi40MjY1NSAxMy44NDUyIDAuODMwMjAyIDEzLjg0NTJMMC4zMzI1MzggMTMuODQ0OUMwLjE3OTIwNCAxMy44NDQ5IDAuMDQ5NTIwNyAxMy45NDEgMC4wMTA0NDUzIDE0LjA4MzhDLTAuMDI4MDQ2MiAxNC4yMjQ0IDAuMDQyODU0IDE0LjM3MjggMC4xNzM2MDggMTQuNDQ1OUMxLjk3MjQ0IDE1LjQ1MjMgNC4wMjQyNyAxNS45ODQzIDYuMTA4MTYgMTUuOTg0M0M3LjkzMjI1IDE1Ljk4NDMgOS42Mzg1MiAxNS42MzYyIDExLjE3OTYgMTQuOTQ5OUMxMi41OTI0IDE0LjMyMDcgMTMuODQwOSAxMy40MjEzIDE0Ljg5MDMgMTIuMjc2N0MxNS44NjggMTEuMjEwNCAxNi42MzI0IDkuOTc5NDQgMTcuMTYyNSA4LjYxODEzQzE3LjY2NzcgNy4zMjA0OSAxNy45MzQ4IDUuOTM1ODkgMTcuOTM0OCA0LjYxMzk3VjQuNTUxQzE3LjkzNDcgNC4zMzg3NCAxOC4wMzQ2IDQuMTM5MDIgMTguMjA4OCA0LjAwMzA3QzE4Ljg2OTkgMy40ODcwNCAxOS40NDU1IDIuODc5NiAxOS45MTk3IDIuMTk3NjRWMi4xOTc2NEMyMC4wNDQ5IDIuMDE3NTcgMTkuODQ3NSAxLjc5MTg4IDE5LjY0MTQgMS44Nzk3NFYxLjg3OTc0WiIgZmlsbD0iIzdGODE5OCIvPgo8L3N2Zz4K" /></a>
+          <a href="https://aragon.chat/" target="_blank"><img src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB3aWR0aD0iMjNweCIgaGVpZ2h0PSIyMHB4IiB2aWV3Qm94PSIwIDAgMjMgMjAiIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayI+CiAgICA8IS0tIEdlbmVyYXRvcjogU2tldGNoIDUzICg3MjUyMCkgLSBodHRwczovL3NrZXRjaGFwcC5jb20gLS0+CiAgICA8dGl0bGU+cm9ja2V0LWNoYXQ8L3RpdGxlPgogICAgPGRlc2M+Q3JlYXRlZCB3aXRoIFNrZXRjaC48L2Rlc2M+CiAgICA8ZyBpZD0iUGFnZS0xIiBzdHJva2U9Im5vbmUiIHN0cm9rZS13aWR0aD0iMSIgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIj4KICAgICAgICA8ZyBpZD0iSG9tZUAyeCIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTEwNDMuMDAwMDAwLCAtMjM4Mi4wMDAwMDApIiBmaWxsPSIjN0Y4MTk2IiBmaWxsLXJ1bGU9Im5vbnplcm8iPgogICAgICAgICAgICA8ZyBpZD0icm9ja2V0LWNoYXQiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDEwNDMuMDAwMDAwLCAyMzgyLjAwMDAwMCkiPgogICAgICAgICAgICAgICAgPGcgaWQ9Ikdyb3VwIj4KICAgICAgICAgICAgICAgICAgICA8cGF0aCBkPSJNMTEuNDA1MzgxNCwyLjI3MDIwMTQzIEMxMC40MTkzMDY4LDIuMjcwMjAxNDMgOS40NTIxNjc3NiwyLjM1OTg5NjA0IDguNTI0MjU3MzEsMi41MzM1NDEyNiBDNy4zODM4NDA2NCwwLjk4MDYwMjEyMyA1LjYyMTQ4MjQ2LDAuMDY4OTI3ODc1MiAzLjcwODM1NDksMC4wNjg5Mjc4NzUyIEMyLjIyMjAyNjEzLDAuMDY4OTI3ODc1MiAxLjM4MDU3NTg0LDAuNTQ3ODE0NTk4IDAuMDYwNTIyMTEyNiwxLjE0ODcyNDI4IEwxLjA4MzUzODc0LDIuMDA4MTg3MTMgQzIuMDQ0NDYxMjYsMi44MTU1MTIyNCAyLjYyNTEwMTk3LDMuOTgxMzIxMiAyLjcwNjA2MDEyLDUuMjQyODYzMzMgQzEuMjMyMDkzMDIsNi41NzM5OTYxIDAuNDM0NTE1ODk5LDguMjA2MzkzNzYgMC40MzQ1MTU4OTksOS45NDEyOTk1NSBDMC40MzQ1MTU4OTksMTEuNjc2OTQxNyAxLjI1OTY3NDUyLDEzLjM1MDY1MTkgMi43Njc4Njg0MiwxNC42OTMzNDYzIEMyLjY3NDE5MTM0LDE1LjkzNDQxNjMgMi4wOTU2MjI4MSwxNy4wNzg1MDEyIDEuMTQ4Mjc2NjgsMTcuODc0NDEyIEwwLjEyNTI2MDA1MSwxOC43MzM4MDEyIEwxLjMzMjU1ODMsMTkuMjgzMzgzMSBDMy44MjEzMjQ3NCwyMC40MTY0MjE5IDYuODQ0MDcyLDE5LjcxNjgzMzQgOC41ODI0OTI4NywxNy4zNTg0ODM5IEM5LjQ5OTk3MDk0LDE3LjUyNzA0NzkgMTAuNDQ3MDMxMywxNy42MTIzMjQgMTEuNDA1MzA5OSwxNy42MTIzMjQgQzE3LjM1MDkxMDgsMTcuNjEyMzI0IDIyLjM3NjE3NTQsMTQuMzA5MDg4MiAyMi4zNzYxNzU0LDkuOTQxMjI1OSBDMjIuMzc2MTc1NCw1LjU3MDcxMjU4IDE3LjM0NzEyMzcsMi4yNzAyMDE0MyAxMS40MDUzODE0LDIuMjcwMjAxNDMgWiBNMTguMTQ4NTU5NCwxNC4wNzc4NTU4IEMxNi4zNTkyNjI4LDE1LjI4MTgxMDcgMTMuOTY0NDU5MiwxNS45NDQ3OTk3IDExLjQwNTM4MTQsMTUuOTQ0Nzk5NyBDOS43MDEzMzAyMywxNS45NDQ3OTk3IDguNTY0OTE1MDIsMTUuNjU5MTQ2NiA3LjgzMzI5MDU3LDE1LjQ5NjYyMTIgTDcuNTMyMjUyMDEsMTUuOTkzNjk3MiBDNi41OTYxOTU3MiwxNy41Mzk1NjY4IDQuODk5MTQ3MTEsMTguMzQ3MzMzOCAzLjE2OTMwMDgsMTguMTA0MDI0MyBDNC4wMzIxMTYwNSwxNi45MzYxNTMzIDQuNDMzNjE5ODgsMTUuNDkzNzQ5MiA0LjM5ODgyMTQ1LDE0LjI5ODQ4MzkgTDQuMzk1OTYzMjcsMTMuOTAzMTA1OSBMNC4wODkzNTEyNCwxMy42NTUxNTcgQzMuMTYwMTU0NjEsMTIuOTAzNjUxNyAyLjA1MjUzNTY0LDExLjY0OTMyNjQgMi4wNTI1MzU2NCw5Ljk0MTM3MzE5IEMyLjA1MjUzNTY0LDguNDA2MTgxNSAyLjk3OTMwMjgxLDYuOTM3MTE5MzQgNC42NjIwNjA0OSw1LjgwNDgxNjk4IEM2LjQ1MTM1NzA5LDQuNjAwODYyMDMgOC44NDYxNjA2NCwzLjkzNzg3MzA4IDExLjQwNTIzODUsMy45Mzc4NzMwOCBDMTMuOTY0MzE2MywzLjkzNzg3MzA4IDE2LjM1OTA0ODQsNC42MDA5MzU2NyAxOC4xNDg0MTY1LDUuODA0ODE2OTggQzE5LjgzMTI0NTYsNi45MzcxMTkzNCAyMC43NTc5NDEzLDguNDA2MTA3ODYgMjAuNzU3OTQxMyw5Ljk0MTM3MzE5IEMyMC43NTc5NDEzLDExLjQ3NjYzODUgMTkuODMxMzE3MSwxMi45NDU1NTM0IDE4LjE0ODU1OTQsMTQuMDc3ODU1OCBaIiBpZD0iU2hhcGUiPjwvcGF0aD4KICAgICAgICAgICAgICAgICAgICA8ZWxsaXBzZSBpZD0iT3ZhbCIgY3g9IjExLjI0MzMyMjIiIGN5PSI5Ljk3NDQzNzk1IiByeD0iMS4yNjIxMDM5OCIgcnk9IjEuMzAwNzE5MDgiPjwvZWxsaXBzZT4KICAgICAgICAgICAgICAgICAgICA8ZWxsaXBzZSBpZD0iT3ZhbCIgY3g9IjYuOTU2Njg0NTgiIGN5PSI5Ljk3NDQzNzk1IiByeD0iMS4yNjIxMDM5OCIgcnk9IjEuMzAwNzE5MDgiPjwvZWxsaXBzZT4KICAgICAgICAgICAgICAgICAgICA8ZWxsaXBzZSBpZD0iT3ZhbCIgY3g9IjE1LjU2NTExNTUiIGN5PSI5Ljk3NDQzNzk1IiByeD0iMS4yNjIxMDM5OCIgcnk9IjEuMzAwNzE5MDgiPjwvZWxsaXBzZT4KICAgICAgICAgICAgICAgIDwvZz4KICAgICAgICAgICAgPC9nPgogICAgICAgIDwvZz4KICAgIDwvZz4KPC9zdmc+" /></a>
+          <a href="https://forum.aragon.org/" target="_blank"><img class="forum" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEYAAABGCAYAAABxLuKEAAAAAXNSR0IArs4c6QAAAAlwSFlzAAALEwAACxMBAJqcGAAACqppVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IlhNUCBDb3JlIDUuNC4wIj4KICAgPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4KICAgICAgPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIKICAgICAgICAgICAgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIgogICAgICAgICAgICB4bWxuczpleGlmPSJodHRwOi8vbnMuYWRvYmUuY29tL2V4aWYvMS4wLyIKICAgICAgICAgICAgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iCiAgICAgICAgICAgIHhtbG5zOnN0RXZ0PSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VFdmVudCMiCiAgICAgICAgICAgIHhtbG5zOmRjPSJodHRwOi8vcHVybC5vcmcvZGMvZWxlbWVudHMvMS4xLyIKICAgICAgICAgICAgeG1sbnM6dGlmZj0iaHR0cDovL25zLmFkb2JlLmNvbS90aWZmLzEuMC8iCiAgICAgICAgICAgIHhtbG5zOnBob3Rvc2hvcD0iaHR0cDovL25zLmFkb2JlLmNvbS9waG90b3Nob3AvMS4wLyI+CiAgICAgICAgIDx4bXA6TW9kaWZ5RGF0ZT4yMDE4OjExOjE1IDE1OjExOjE5PC94bXA6TW9kaWZ5RGF0ZT4KICAgICAgICAgPHhtcDpDcmVhdGVEYXRlPjIwMTgtMTEtMTVUMTc6MjQ6MDMrMDE6MDA8L3htcDpDcmVhdGVEYXRlPgogICAgICAgICA8eG1wOk1ldGFkYXRhRGF0ZT4yMDE4LTExLTE1VDE3OjI3OjM4KzAxOjAwPC94bXA6TWV0YWRhdGFEYXRlPgogICAgICAgICA8eG1wOkNyZWF0b3JUb29sPlBpeGVsbWF0b3IgMy4zPC94bXA6Q3JlYXRvclRvb2w+CiAgICAgICAgIDxleGlmOlBpeGVsWERpbWVuc2lvbj43MDwvZXhpZjpQaXhlbFhEaW1lbnNpb24+CiAgICAgICAgIDxleGlmOlBpeGVsWURpbWVuc2lvbj43MDwvZXhpZjpQaXhlbFlEaW1lbnNpb24+CiAgICAgICAgIDxleGlmOkNvbG9yU3BhY2U+MTwvZXhpZjpDb2xvclNwYWNlPgogICAgICAgICA8eG1wTU06SW5zdGFuY2VJRD54bXAuaWlkOjk5Y2E0N2IzLThhNzItNDI4Ny1hMmVlLTEzNDkxMWJiZTMxNTwveG1wTU06SW5zdGFuY2VJRD4KICAgICAgICAgPHhtcE1NOkhpc3Rvcnk+CiAgICAgICAgICAgIDxyZGY6U2VxPgogICAgICAgICAgICAgICA8cmRmOmxpIHJkZjpwYXJzZVR5cGU9IlJlc291cmNlIj4KICAgICAgICAgICAgICAgICAgPHN0RXZ0OnNvZnR3YXJlQWdlbnQ+QWRvYmUgUGhvdG9zaG9wIENDIDIwMTUgKE1hY2ludG9zaCk8L3N0RXZ0OnNvZnR3YXJlQWdlbnQ+CiAgICAgICAgICAgICAgICAgIDxzdEV2dDp3aGVuPjIwMTgtMTEtMTVUMTc6MjQ6MDMrMDE6MDA8L3N0RXZ0OndoZW4+CiAgICAgICAgICAgICAgICAgIDxzdEV2dDppbnN0YW5jZUlEPnhtcC5paWQ6NzZlOGVmYjAtZDVlZC00MzdlLThiZjEtODI2NjFiZDM3NWFjPC9zdEV2dDppbnN0YW5jZUlEPgogICAgICAgICAgICAgICAgICA8c3RFdnQ6YWN0aW9uPmNyZWF0ZWQ8L3N0RXZ0OmFjdGlvbj4KICAgICAgICAgICAgICAgPC9yZGY6bGk+CiAgICAgICAgICAgICAgIDxyZGY6bGkgcmRmOnBhcnNlVHlwZT0iUmVzb3VyY2UiPgogICAgICAgICAgICAgICAgICA8c3RFdnQ6c29mdHdhcmVBZ2VudD5BZG9iZSBQaG90b3Nob3AgQ0MgMjAxNSAoTWFjaW50b3NoKTwvc3RFdnQ6c29mdHdhcmVBZ2VudD4KICAgICAgICAgICAgICAgICAgPHN0RXZ0OmNoYW5nZWQ+Lzwvc3RFdnQ6Y2hhbmdlZD4KICAgICAgICAgICAgICAgICAgPHN0RXZ0OndoZW4+MjAxOC0xMS0xNVQxNzoyNzozOCswMTowMDwvc3RFdnQ6d2hlbj4KICAgICAgICAgICAgICAgICAgPHN0RXZ0Omluc3RhbmNlSUQ+eG1wLmlpZDo5OWNhNDdiMy04YTcyLTQyODctYTJlZS0xMzQ5MTFiYmUzMTU8L3N0RXZ0Omluc3RhbmNlSUQ+CiAgICAgICAgICAgICAgICAgIDxzdEV2dDphY3Rpb24+c2F2ZWQ8L3N0RXZ0OmFjdGlvbj4KICAgICAgICAgICAgICAgPC9yZGY6bGk+CiAgICAgICAgICAgIDwvcmRmOlNlcT4KICAgICAgICAgPC94bXBNTTpIaXN0b3J5PgogICAgICAgICA8eG1wTU06RG9jdW1lbnRJRD5hZG9iZTpkb2NpZDpwaG90b3Nob3A6YWNhZThmMzktMjk4MS0xMTdjLWJiZWMtODU3NGIyMzA0MmRjPC94bXBNTTpEb2N1bWVudElEPgogICAgICAgICA8eG1wTU06T3JpZ2luYWxEb2N1bWVudElEPnhtcC5kaWQ6NzZlOGVmYjAtZDVlZC00MzdlLThiZjEtODI2NjFiZDM3NWFjPC94bXBNTTpPcmlnaW5hbERvY3VtZW50SUQ+CiAgICAgICAgIDxkYzpmb3JtYXQ+aW1hZ2UvcG5nPC9kYzpmb3JtYXQ+CiAgICAgICAgIDxkYzpzdWJqZWN0PgogICAgICAgICAgICA8cmRmOlNlcS8+CiAgICAgICAgIDwvZGM6c3ViamVjdD4KICAgICAgICAgPHRpZmY6WVJlc29sdXRpb24+NzI8L3RpZmY6WVJlc29sdXRpb24+CiAgICAgICAgIDx0aWZmOkNvbXByZXNzaW9uPjU8L3RpZmY6Q29tcHJlc3Npb24+CiAgICAgICAgIDx0aWZmOlJlc29sdXRpb25Vbml0PjI8L3RpZmY6UmVzb2x1dGlvblVuaXQ+CiAgICAgICAgIDx0aWZmOk9yaWVudGF0aW9uPjE8L3RpZmY6T3JpZW50YXRpb24+CiAgICAgICAgIDx0aWZmOlhSZXNvbHV0aW9uPjcyPC90aWZmOlhSZXNvbHV0aW9uPgog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" /></a>
+        </div>
+        <p class="footer-item-p">Subscribe to our newsletter</p>
+        <form class="footer-form" action="https://one.us15.list-manage.com/subscribe/post?u=a590aa3843a54b079d48e6e18&amp;id=e81a44c4bd" method="post" name="mc-embedded-subscribe-form" target="_blank" noValidate>
+          <div class="email-field">
+            <input type="email" name="EMAIL" placeholder="Enter your email" class="required email form-input" id="mce-EMAIL"/>
+            <div aria-hidden="true" style="position:absolute; left:-5000px;">
+              <input type="text" name="b_a590aa3843a54b079d48e6e18_e81a44c4bd" tabIndex="-1" />
+            </div>
+            <button type="submit" name="subscribe" id="mc-embedded-subscribe" class="form-button">Subscribe</button>
+          </div>
+        </form>
+      </div>
+    </div>
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="../../../../../../assets/javascripts/application.c648116f.js"></script>
+      
+      <script>app.initialize({version:"1.0.4",url:{base:"../../../../../.."}})</script>
+      
+        <script src="../../../../../../javascript/extra_js.js"></script>
+      
+    
+  </body>
+</html>
