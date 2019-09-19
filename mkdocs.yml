@@ -54,119 +54,142 @@ extra:
     - type: 'linkedin'
       link: 'https://www.linkedin.com/company/aragonproject/'
 nav:
-  - Home: 'index.md'
-  - Documentation:
-    - Glossary: 'documentation/glossary.md'
-    - Whitepaper: 'documentation/whitepaper.md'
-    - Aragon Network Token: 'documentation/aragon_network_token.md'
-    - Governance:
-      - Overview: 'documentation/governance.md'
-      - Association ANT Policy: 'documentation/association_ant.md'
-      - How to verify cryptographic hashes and signatures: 'documentation/verify_crypto.md'
-      - How to vote in an Aragon Network Vote: 'documentation/how_to_vote.md'
-    - Manifesto: 'https://github.com/aragon/AGPs/blob/master/AGPs/AGP-0.md'
-    - Multisigs:
-      - Overview: 'documentation/multisigs/overview.md'
-      - Association: 'documentation/multisigs/association.md'
-      - Community: 'documentation/multisigs/community.md'
-    - Code of Conduct: 'documentation/Code_of_Conduct.md'
-    - Event Policy: 'documentation/event_policy.md'
-    - Legal:
-      - Software Licenses: 'documentation/legal/Licenses.md'
-      - Contributor License Agreement: 'documentation/legal/CLA.md'
-      - Trademark Policy: 'documentation/legal/Trademark_policy.md'
-      - Terms of Use (websites): 'documentation/legal/Terms_of_use_websites.md'
-      - Privacy policy: 'documentation/legal/Privacy_policy.md'
-    - Audit reports:
-      - Audit 01 by Adam Dossa: 'documentation/audits/audit01_report_dossa.md'
-      - Audit (Internal) by Brett Sun: 'documentation/audits/audit_internal_sun.md'
-      - Audit Report 01 by White Hat Group: 'documentation/audits/audit_whg01_report.md'
-      - Audit Report 02 by White Hat Group: 'documentation/audits/audit_whg_updated_aragonOS-Apps.pdf'
-    - Third-party Projects: 'projects/index.md'
-  - Development:
-    - Overview: 'dev/index.md'
-    - Apps:
-      - Overview: 'dev/apps/index.md'
-      - Voting: 'dev/apps/voting.md'
-      - Token Manager: 'dev/apps/token-manager.md'
-      - Fundraising: 'dev/apps/fundraising.md'
-      - Vault: 'dev/apps/vault.md'
-      - Finance: 'dev/apps/finance.md'
-    - Security:
-      - Overview: 'dev/security/index.md'
-      - Bug bounty: 'dev/security/bug_bounty.md'
-  - Tutorials:
-    - Aragon User Guide: 'tutorials/Aragon_User_Guide.md'
-  - Design:
-    - Overview: 'design/index.md'
-    - Logo: 'design/logo/index.md'
-    - For entities using Aragon: 'design/powered_by_aragon.md'
-    - Artwork: 'design/artwork/index.md'
-    - Branding Proposal: 'design/branding_proposal.md'
-    - Merchandise: 'design/merch/index.md'
-  - Jobs:
-    - Job openings: 'jobs/index.md'
-  - Videos:
-    - Tutorials: 'videos/tutorials.md'
-    - Meetings:
-      - Community: 'videos/community.md'
-      - All Aragon Devs:
-        - Overview: 'videos/dev.md'
-        - Notes template: 'videos/template.md'
-        - Running the call: 'videos/running_all_devs.md'
-        - Meeting Notes:
-          - September 2019:
-            - 02.09.2019: 'videos/meeting_notes/all_aragon_devs/alldevs20190902.md'
-          - August 2019:
-            - 19.08.2019: 'videos/meeting_notes/all_aragon_devs/alldevs20190819.md'
-            - 05.08.2019: 'videos/meeting_notes/all_aragon_devs/alldevs20190805.md'
-          - July 2019:
-            - 22.07.2019: 'videos/meeting_notes/all_aragon_devs/alldevs20190722.md'
-            - 08.07.2019: 'videos/meeting_notes/all_aragon_devs/alldevs20190708.md'
-          - June 2019:
-            - 24.06.2019: 'videos/meeting_notes/all_aragon_devs/alldevs20190624.md'
-            - 10.06.2019: 'videos/meeting_notes/all_aragon_devs/alldevs20190610.md'
-          - May 2019:
-            - 27.05.2019: 'videos/meeting_notes/all_aragon_devs/alldevs20190527.md'
-            - 13.05.2019: 'videos/meeting_notes/all_aragon_devs/alldevs20190513.md'
-          - April 2019:
-            - 29.04.2019: 'videos/meeting_notes/all_aragon_devs/alldevs20190429.md'
-            - 15.04.2019: 'videos/meeting_notes/all_aragon_devs/alldevs20190415.md'
-            - 01.04.2019: 'videos/meeting_notes/all_aragon_devs/alldevs20190401.md'
-          - March 2019:
-            - 04.03.2019: 'videos/meeting_notes/all_aragon_devs/alldevs20190304.md'
-            - 18.03.2019: 'videos/meeting_notes/all_aragon_devs/alldevs20190318.md'
-          - February 2019:
-            - 04.02.2019: 'videos/meeting_notes/all_aragon_devs/alldevs20190204.md'
-            - 18.02.2019: 'videos/meeting_notes/all_aragon_devs/alldevs20190218.md'
-          - January 2019:
-            - 07.01.2019: 'videos/meeting_notes/all_aragon_devs/alldevs20190107.md'
-            - 21.01.2019: 'videos/meeting_notes/all_aragon_devs/alldevs20190121.md'
-          - December 2018:
-            - 03.12.2018: 'videos/meeting_notes/all_aragon_devs/alldevs20181203.md'
-            - 17.12.2018: 'videos/meeting_notes/all_aragon_devs/alldevs20181217.md'
-          - November 2018:
-            - 05.11.2018: 'videos/meeting_notes/all_aragon_devs/alldevs20181105.md'
-            - 19.11.2018: 'videos/meeting_notes/all_aragon_devs/alldevs20181119.md'
-          - October 2018:
-            - 08.10.2018: 'videos/meeting_notes/all_aragon_devs/alldevs20181008.md'
-            - 22.10.2018: 'videos/meeting_notes/all_aragon_devs/alldevs20181022.md'
-          - September 2018:
-            - 10.09.2018: 'videos/meeting_notes/all_aragon_devs/alldevs20180910.md'
-            - 24.09.2018: 'videos/meeting_notes/all_aragon_devs/alldevs20180924.md'
-          - August 2018:
-            - 13.08.2018: 'videos/meeting_notes/all_aragon_devs/alldevs20180813.md'
-            - 27.08.2018: 'videos/meeting_notes/all_aragon_devs/alldevs20180827.md'
-          - July 2018:
-            - 16.07.2018: 'videos/meeting_notes/all_aragon_devs/alldevs20180716.md'
-            - 30.07.2018: 'videos/meeting_notes/all_aragon_devs/alldevs20180730.md'
-    - Interviews: 'videos/interviews.md'
-    - Presentations: 'videos/presentations.md'
-  - Press:
-    - Press Kit: 'press/press-kit.md'
-    - Media Mentions: 'press/media-mentions.md'
-  - Nest:
-    - Nest grants: 'nest/index.md'
+  - Aragon Wiki:
+    - Aragon Wiki: 'index.md'
+    - About Aragon:
+      - What is Aragon?: 'about/what_is_aragon.md'
+      - History: 'about/history.md'
+      - Glossary: 'about/glossary.md'
+      - Manifesto: 'https://github.com/aragon/AGPs/blob/master/AGPs/AGP-0.md'
+      - Code of Conduct: 'about/code_of_conduct.md'
+      - Aragon Projects: 'about/projects.md'
+    - Aragon Association:
+      - Overview: 'association/overview.md'
+      - Event Policy: 'association/event_policy.md'
+      - Association ANT Policy: 'association/association_ant.md'
+      - Legal:
+        - Software Licenses: 'association/legal/Licenses.md'
+        - Contributor License Agreement: 'association/legal/CLA.md'
+        - Trademark Policy: 'association/legal/Trademark_policy.md'
+        - Terms of Use (websites): 'association/legal/Terms_of_use_websites.md'
+        - Privacy policy: 'association/legal/Privacy_policy.md'
+      - Multisig:
+        - Overview: 'association/multisigs/overview.md'
+        - Association multisig: 'association/multisigs/association.md'
+        - Community multisig: 'association/multisigs/community.md'
+      - Security Policy:
+        - Overview: 'association/security/index.md'
+        - Bug Bounty: 'association/security/bug_bounty.md'
+    - Aragon Network:
+      - Overview: 'network/overview.md'
+      - Aragon Network Token: 'network/aragon_network_token.md'
+      - Governance:
+        - Overview: 'network/governance/overview.md'
+        - Aragon Governance Proposals: 'https://github.com/aragon/AGPs'
+        - How to create an Aragon Governance Proposal: 'https://forum.aragon.org/t/how-to-create-an-aragon-governance-proposal/374'
+        - How to vote in an Aragon Network Vote: 'network/governance/how_to_vote.md'
+        - How to verify cryptographic hashes and signatures: 'network/governance/verify_crypto.md'
+      - Blog posts:
+        - Aragon Network Jurisdiction - Decentralized Court: 'https://blog.aragon.org/aragon-network-jurisdiction-part-1-decentralized-court-c8ab2a675e82/'
+        - Aragon Network and Token Primer: 'https://blog.aragon.one/aragon-network-and-token-primer/'
+        - Futarchy Courts: 'https://blog.aragon.one/futarchy-courts/'
+        - Proposal Agreements and the Aragon Court: 'https://blog.aragon.one/proposal-agreements-and-the-aragon-court/'
+      - Whitepaper:
+        - Latest version: 'https://github.com/aragon/whitepaper/blob/master/README.md'
+        - How to contribute: 'https://github.com/aragon/whitepaper/blob/master/CONTRIBUTE.md'
+        - Version 1 (archived): 'https://github.com/aragon/whitepaper/tree/v1'
+    - Design:
+      - Artwork: 'design/artwork/index.md'
+      - Branding:
+        - Aragon Project: 'design/branding/project.md'
+        - Aragon Network: 'design/branding/network.md'
+      - Brand Guidelines: 'media/press/press-kit/#brand-guidelines'
+      - For entities using Aragon: 'design/powered_by_aragon.md'
+    - Media:
+      - Audio:
+        - Podcast: 'media/audio/podcast.md'
+      - Video:
+        - Promo: 'media/videos/promo.md'
+        - Presentations: 'media/videos/presentations.md'
+        - Interviews: 'media/videos/interviews.md'
+      - Press:
+        - Press Kit: 'media/press/press-kit.md'
+        - Media Mentions: 'media/press/media-mentions.md'
+        - Guidelines: 'media/press/guidelines.md'
+    - Help & Tutorials:
+      - Aragon Knowledge Base: 'https://help.aragon.org/'
+    - Jobs: 'jobs/index.md'
+    - All Aragon Devs:
+      - Overview: 'all_aragon_devs_/overview.md'
+      - Notes template: 'all_aragon_devs/template.md'
+      - Running the call: 'all_aragon_devs/running_all_devs.md'
+      - Meeting Notes:
+        - September 2019:
+          - 02.09.2019: 'all_aragon_devs/meeting_notes/alldevs20190902.md'
+        - August 2019:
+          - 19.08.2019: 'all_aragon_devs/meeting_notes/alldevs20190819.md'
+          - 05.08.2019: 'all_aragon_devs/meeting_notes/alldevs20190805.md'
+        - July 2019:
+          - 22.07.2019: 'all_aragon_devs/meeting_notes/alldevs20190722.md'
+          - 08.07.2019: 'all_aragon_devs/meeting_notes/alldevs20190708.md'
+        - June 2019:
+          - 24.06.2019: 'all_aragon_devs/meeting_notes/alldevs20190624.md'
+          - 10.06.2019: 'all_aragon_devs/meeting_notes/alldevs20190610.md'
+        - May 2019:
+          - 27.05.2019: 'all_aragon_devs/meeting_notes/alldevs20190527.md'
+          - 13.05.2019: 'all_aragon_devs/meeting_notes/alldevs20190513.md'
+        - April 2019:
+          - 29.04.2019: 'all_aragon_devs/meeting_notes/alldevs20190429.md'
+          - 15.04.2019: 'all_aragon_devs/meeting_notes/alldevs20190415.md'
+          - 01.04.2019: 'all_aragon_devs/meeting_notes/alldevs20190401.md'
+        - March 2019:
+          - 04.03.2019: 'all_aragon_devs/meeting_notes/alldevs20190304.md'
+          - 18.03.2019: 'all_aragon_devs/meeting_notes/alldevs20190318.md'
+        - February 2019:
+          - 04.02.2019: 'all_aragon_devs/meeting_notes/alldevs20190204.md'
+          - 18.02.2019: 'all_aragon_devs/meeting_notes/alldevs20190218.md'
+        - January 2019:
+          - 07.01.2019: 'all_aragon_devs/meeting_notes/alldevs20190107.md'
+          - 21.01.2019: 'all_aragon_devs/meeting_notes/alldevs20190121.md'
+        - December 2018:
+          - 03.12.2018: 'all_aragon_devs/meeting_notes/alldevs20181203.md'
+          - 17.12.2018: 'all_aragon_devs/meeting_notes/alldevs20181217.md'
+        - November 2018:
+          - 05.11.2018: 'all_aragon_devs/meeting_notes/alldevs20181105.md'
+          - 19.11.2018: 'all_aragon_devs/meeting_notes/alldevs20181119.md'
+        - October 2018:
+          - 08.10.2018: 'all_aragon_devs/meeting_notes/alldevs20181008.md'
+          - 22.10.2018: 'all_aragon_devs/meeting_notes/alldevs20181022.md'
+        - September 2018:
+          - 10.09.2018: 'all_aragon_devs/meeting_notes/alldevs20180910.md'
+          - 24.09.2018: 'all_aragon_devs/meeting_notes/alldevs20180924.md'
+        - August 2018:
+          - 13.08.2018: 'all_aragon_devs/meeting_notes/alldevs20180813.md'
+          - 27.08.2018: 'all_aragon_devs/meeting_notes/alldevs20180827.md'
+        - July 2018:
+          - 16.07.2018: 'all_aragon_devs/meeting_notes/alldevs20180716.md'
+          - 30.07.2018: 'all_aragon_devs/meeting_notes/alldevs20180730.md'
+  - Community & Social Media:
+    - Aragon Chat: 'https://aragon.chat'
+    - Aragon Forum: 'https://forum.aragon.org'
+    - Twitter: 'https://twitter.com/AragonProject'
+    - Reddit: 'https://www.reddit.com/r/aragonproject/'
+    - LinkedIn: 'https://www.linkedin.com/company/aragonproject/'
+    - YouTube: 'https://www.youtube.com/c/AragonProject'
+  - Discover:
+      - Discover: 'https://aragon.org/discover'
+  - Developers:
+      - Developers: 'https://hack.aragon.org'
+  - Website:
+    - Website: 'https://aragon.org/'
+  - Project:
+    - Project: 'https://aragon.org/project'
+  - Network:
+    - Network: 'https://aragon.org/network'
+  - Wiki Info:
+    - Basic Features: 'wiki/Wiki_Basic_Features.md'
+    - Additional Features: 'wiki/Wiki_Additional_Features.md'
+    - Wiki Editorial Policies: 'wiki/editorial_policies.md'
   - Working groups:
     - Overview: 'working-groups/overview.md'
     - Registry: 'working-groups/registry.md'
@@ -178,17 +201,34 @@ nav:
         - 16.08.2019: 'working-groups/meeting-notes/strategy-wg/Strategycall20190816.md'
         - 30.08.2019: 'working-groups/meeting-notes/strategy-wg/Strategycall20190830.md'
   - Archive:
-    - Documentation:
-      - Aragon Association AGP review process: 'archive/documentation/aa_review.md'
+    - Blog posts:
+      - 2019: 'archive/blog/2019.md'
+      - 2018: 'archive/blog/2018.md'
+      - 2017: 'archive/blog/2017.md'
+      - Aragon One:
+        - 2019: 'archive/blog/A1/2019.md'
+        - 2018: 'archive/blog/A1/2018.md'
+    - Design:
+      - Artwork: 'archive/design/artwork/index.md'
+      - Aragon One: 'archive/design/A1/logo.md'
+      - Merchandise: 'archive/design/merch/index.md'
+    - Development:
+      - Overview: 'archive/dev/index.md'
+      - Aragon Core: 'archive/Core/index.md'
       - aragonOS v2.0.1: 'archive/documentation/aragonOS_201.md'
+      - Security Vulnerability Disclosure Policy: 'archive/documentation/security_disclosure.md'
+      - Audit reports:
+        - Audit 01 by Adam Dossa: 'archive/documentation/audits/audit01_report_dossa.md'
+        - Audit (Internal) by Brett Sun: 'archive/documentation/audits/audit_internal_sun.md'
+        - Audit Report by White Hat Group: 'archive/documentation/audits/audit_whg01_report.md'
+    - Documentation:
+      - Development Plan: 'archive/documentation/Development_Plan.md'
       - AGP5 - Rocket Chat comparison: 'archive/documentation/agp5/RocketChat.md'
       - AGP5 - Riot comparison: 'archive/documentation/agp5/Riot.md'
-      - Development Plan: 'documentation/Development_Plan.md'
-    - Design:
-      - Identity Guidelines: 'archive/design/identity_guidelines.md'
-    - Tutorials:
-      - DAO Workshop For Aragon Core v0.5: 'archive/tutorials/DAO_Workshop_Testnet_by_joselfgaray.md'
-      - How to claim an Aragon bounty using Status Open Bounty: 'archive/tutorials/Status_Open_Bounty_Guide.md'
+      - Multisigs:
+        - Overview: 'archive/documentation/multisigs/overview.md'
+        - Association: 'archive/documentation/multisigs/association.md'
+        - Community: 'archive/documentation/multisigs/community.md'
     - Meetings:
       - Aragon HQ:
         - HQ 01: 'archive/meetings/hq/01.md'
@@ -199,84 +239,86 @@ nav:
         - Dev 02: 'archive/meetings/dev/02.md'
       - Community:
         - Community 11:
-          - Agenda: 'meetings/community/11.md'
+          - Agenda: 'archive/meetings/community/11.md'
         - Community 10:
-          - Agenda: 'meetings/community/10.md'
-          - Write-Up - Alexa: 'meetings/community/write-ups/cm10/alexa.md'
-          - Write-Up - Bingen: 'meetings/community/write-ups/cm10/bingen.md'
-          - Write-Up - Brett: 'meetings/community/write-ups/cm10/brett.md'
-          - Write-Up - Chris: 'meetings/community/write-ups/cm10/chris.md'
-          - Write-Up - John: 'meetings/community/write-ups/cm10/john.md'
-          - Write-Up - Jorge: 'meetings/community/write-ups/cm10/jorge.md'
-          - Write-Up - Jouni: 'meetings/community/write-ups/cm10/jouni.md'
-          - Write-Up - Luis: 'meetings/community/write-ups/cm10/luis.md'
-          - Write-Up - Luke: 'meetings/community/write-ups/cm10/luke.md'
-          - Write-Up - Maria: 'meetings/community/write-ups/cm10/maria.md'
-          - Write-Up - Oliver: 'meetings/community/write-ups/cm10/oliver.md'
-          - Write-Up - Pierre: 'meetings/community/write-ups/cm10/pierre.md'
-          - Write-Up - Tatu: 'meetings/community/write-ups/cm10/tatu.md'
+          - Agenda: 'archive/meetings/community/10.md'
+          - Write-Up - Alexa: 'archive/meetings/community/write-ups/cm10/alexa.md'
+          - Write-Up - Bingen: 'archive/meetings/community/write-ups/cm10/bingen.md'
+          - Write-Up - Brett: 'archive/meetings/community/write-ups/cm10/brett.md'
+          - Write-Up - Chris: 'archive/meetings/community/write-ups/cm10/chris.md'
+          - Write-Up - John: 'archive/meetings/community/write-ups/cm10/john.md'
+          - Write-Up - Jorge: 'archive/meetings/community/write-ups/cm10/jorge.md'
+          - Write-Up - Jouni: 'archive/meetings/community/write-ups/cm10/jouni.md'
+          - Write-Up - Luis: 'archive/meetings/community/write-ups/cm10/luis.md'
+          - Write-Up - Luke: 'archive/meetings/community/write-ups/cm10/luke.md'
+          - Write-Up - Maria: 'archive/meetings/community/write-ups/cm10/maria.md'
+          - Write-Up - Oliver: 'archive/meetings/community/write-ups/cm10/oliver.md'
+          - Write-Up - Pierre: 'archive/meetings/community/write-ups/cm10/pierre.md'
+          - Write-Up - Tatu: 'archive/meetings/community/write-ups/cm10/tatu.md'
         - Community 09:
-          - Agenda: 'meetings/community/09.md'
-          - Write-Up - Alexa: 'meetings/community/write-ups/cm09/alexa.md'
-          - Write-Up - Bingen: 'meetings/community/write-ups/cm09/bingen.md'
-          - Write-Up - Brett: 'meetings/community/write-ups/cm09/brett.md'
-          - Write-Up - John: 'meetings/community/write-ups/cm09/john.md'
-          - Write-Up - Jorge: 'meetings/community/write-ups/cm09/jorge.md'
-          - Write-Up - Jouni: 'meetings/community/write-ups/cm09/jouni.md'
-          - Write-Up - Luis: 'meetings/community/write-ups/cm09/luis.md'
-          - Write-Up - Luke: 'meetings/community/write-ups/cm09/luke.md'
-          - Write-Up - Maria: 'meetings/community/write-ups/cm09/maria.md'
-          - Write-Up - Oliver: 'meetings/community/write-ups/cm09/oliver.md'
-          - Write-Up - Pierre: 'meetings/community/write-ups/cm09/pierre.md'
-          - Write-Up - Tatu: 'meetings/community/write-ups/cm09/tatu.md'
+          - Agenda: 'archive/meetings/community/09.md'
+          - Write-Up - Alexa: 'archive/meetings/community/write-ups/cm09/alexa.md'
+          - Write-Up - Bingen: 'archive/meetings/community/write-ups/cm09/bingen.md'
+          - Write-Up - Brett: 'archive/meetings/community/write-ups/cm09/brett.md'
+          - Write-Up - John: 'archive/meetings/community/write-ups/cm09/john.md'
+          - Write-Up - Jorge: 'archive/meetings/community/write-ups/cm09/jorge.md'
+          - Write-Up - Jouni: 'archive/meetings/community/write-ups/cm09/jouni.md'
+          - Write-Up - Luis: 'archive/meetings/community/write-ups/cm09/luis.md'
+          - Write-Up - Luke: 'archive/meetings/community/write-ups/cm09/luke.md'
+          - Write-Up - Maria: 'archive/meetings/community/write-ups/cm09/maria.md'
+          - Write-Up - Oliver: 'archive/meetings/community/write-ups/cm09/oliver.md'
+          - Write-Up - Pierre: 'archive/meetings/community/write-ups/cm09/pierre.md'
+          - Write-Up - Tatu: 'archive/meetings/community/write-ups/cm09/tatu.md'
         - Community 08:
-          - Agenda: 'meetings/community/08.md'
-          - Write-Up - Alexa: 'meetings/community/write-ups/cm08/alexa.md'
-          - Write-Up - Brett: 'meetings/community/write-ups/cm08/brett.md'
-          - Write-Up - John: 'meetings/community/write-ups/cm08/john.md'
-          - Write-Up - Jorge: 'meetings/community/write-ups/cm08/jorge.md'
-          - Write-Up - Luis: 'meetings/community/write-ups/cm08/luis.md'
-          - Write-Up - Luke: 'meetings/community/write-ups/cm08/luke.md'
-          - Write-Up - Maria: 'meetings/community/write-ups/cm08/maria.md'
-          - Write-Up - Oliver: 'meetings/community/write-ups/cm08/oliver.md'
-          - Write-Up - Pierre: 'meetings/community/write-ups/cm08/pierre.md'
-          - Write-Up - Tatu: 'meetings/community/write-ups/cm08/tatu.md'
+          - Agenda: 'archive/meetings/community/08.md'
+          - Write-Up - Alexa: 'archive/meetings/community/write-ups/cm08/alexa.md'
+          - Write-Up - Brett: 'archive/meetings/community/write-ups/cm08/brett.md'
+          - Write-Up - John: 'archive/meetings/community/write-ups/cm08/john.md'
+          - Write-Up - Jorge: 'archive/meetings/community/write-ups/cm08/jorge.md'
+          - Write-Up - Luis: 'archive/meetings/community/write-ups/cm08/luis.md'
+          - Write-Up - Luke: 'archive/meetings/community/write-ups/cm08/luke.md'
+          - Write-Up - Maria: 'archive/meetings/community/write-ups/cm08/maria.md'
+          - Write-Up - Oliver: 'archive/meetings/community/write-ups/cm08/oliver.md'
+          - Write-Up - Pierre: 'archive/meetings/community/write-ups/cm08/pierre.md'
+          - Write-Up - Tatu: 'archive/meetings/community/write-ups/cm08/tatu.md'
         - Community 07:
-          - Agenda: 'meetings/community/07.md'
-          - Write-Up - Alexa: 'meetings/community/write-ups/cm07/alexa.md'
-          - Write-Up - Brett: 'meetings/community/write-ups/cm07/brett.md'
-          - Write-Up - John: 'meetings/community/write-ups/cm07/light-cm07.md'
-          - Write-Up - Jorge: 'meetings/community/write-ups/cm07/jorge.md'
-          - Write-Up - Luis: 'meetings/community/write-ups/cm07/luis.md'
-          - Write-Up - Luke: 'meetings/community/write-ups/cm07/luke.md'
-          - Write-Up - Maria: 'meetings/community/write-ups/cm07/maria.md'
-          - Write-Up - Oliver: 'meetings/community/write-ups/cm07/oliver.md'
-          - Write-Up - Pierre: 'meetings/community/write-ups/cm07/pierre.md'
-          - Write-Up - Tatu: 'meetings/community/write-ups/cm07/tatu.md'
+          - Agenda: 'archive/meetings/community/07.md'
+          - Write-Up - Alexa: 'archive/meetings/community/write-ups/cm07/alexa.md'
+          - Write-Up - Brett: 'archive/meetings/community/write-ups/cm07/brett.md'
+          - Write-Up - John: 'archive/meetings/community/write-ups/cm07/light-cm07.md'
+          - Write-Up - Jorge: 'archive/meetings/community/write-ups/cm07/jorge.md'
+          - Write-Up - Luis: 'archive/meetings/community/write-ups/cm07/luis.md'
+          - Write-Up - Luke: 'archive/meetings/community/write-ups/cm07/luke.md'
+          - Write-Up - Maria: 'archive/meetings/community/write-ups/cm07/maria.md'
+          - Write-Up - Oliver: 'archive/meetings/community/write-ups/cm07/oliver.md'
+          - Write-Up - Pierre: 'archive/meetings/community/write-ups/cm07/pierre.md'
+          - Write-Up - Tatu: 'archive/meetings/community/write-ups/cm07/tatu.md'
         - Community 06:
-          - Agenda: 'meetings/community/06.md'
-          - Write-Up - Brett: 'meetings/community/write-ups/cm06/brett.md'
-          - Write-Up - John: 'meetings/community/write-ups/cm06/john.md'
-          - Write-Up - Jorge: 'meetings/community/write-ups/cm06/jorge.md'
-          - Write-Up - Luis: 'meetings/community/write-ups/cm06/luis.md'
-          - Write-Up - Luke: 'meetings/community/write-ups/cm06/luke.md'
-          - Write-Up - Maria: 'meetings/community/write-ups/cm06/maria.md'
-          - Write-Up - Oliver: 'meetings/community/write-ups/cm06/oliver.md'
-          - Write-Up - Pierre: 'meetings/community/write-ups/cm06/pierre.md'
-          - Write-Up - Tatu: 'meetings/community/write-ups/cm06/tatu.md'
-        - Community 05: 'meetings/community/05.md'
-        - Community 04: 'meetings/community/04.md'
-        - Community 03: 'meetings/community/03.md'
-        - Community 02: 'meetings/community/02.md'
-        - Community 01: 'meetings/community/01.md'
+          - Agenda: 'archive/meetings/community/06.md'
+          - Write-Up - Brett: 'archive/meetings/community/write-ups/cm06/brett.md'
+          - Write-Up - John: 'archive/meetings/community/write-ups/cm06/john.md'
+          - Write-Up - Jorge: 'archive/meetings/community/write-ups/cm06/jorge.md'
+          - Write-Up - Luis: 'archive/meetings/community/write-ups/cm06/luis.md'
+          - Write-Up - Luke: 'archive/meetings/community/write-ups/cm06/luke.md'
+          - Write-Up - Maria: 'archive/meetings/community/write-ups/cm06/maria.md'
+          - Write-Up - Oliver: 'archive/meetings/community/write-ups/cm06/oliver.md'
+          - Write-Up - Pierre: 'archive/meetings/community/write-ups/cm06/pierre.md'
+          - Write-Up - Tatu: 'archive/meetings/community/write-ups/cm06/tatu.md'
+        - Community 05: 'archive/meetings/community/05.md'
+        - Community 04: 'archive/meetings/community/04.md'
+        - Community 03: 'archive/meetings/community/03.md'
+        - Community 02: 'archive/meetings/community/02.md'
+        - Community 01: 'archive/meetings/community/01.md'
+    - Nest:
+      - Overview: 'archive/nest/index.md'
+    - Tutorials:
+      - Aragon User Guide: 'archive/tutorials/Aragon_User_Guide.md'
+      - Aragon Core User Guide: 'archive/tutorials/Aragon_Core_User_Guide.md'
+      - DAO Workshop For Aragon Core v0.5: 'archive/tutorials/DAO_Workshop_Testnet_by_joselfgaray.md'
+      - How to claim an Aragon bounty using Status Open Bounty: 'archive/tutorials/Status_Open_Bounty_Guide.md'
     - Videos:
+      - Tutorials: 'archive/videos/tutorials.md'
       - Meetings:
+        - Community: 'archive/videos/community.md'
         - Aragon HQ: 'archive/videos/hq.md'
         - Dev: 'archive/videos/dev.md'
-    - Blog posts:
-      - 2019: 'blog/2019.md'
-      - 2018: 'blog/2018.md'
-      - 2017: 'blog/2017.md'
-      - Aragon One:
-        - 2019: 'blog/A1/2019.md'
-        - 2018: 'blog/A1/2018.md'
