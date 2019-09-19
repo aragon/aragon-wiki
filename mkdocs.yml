@@ -73,7 +73,11 @@ nav:
         - Trademark Policy: 'association/legal/Trademark_policy.md'
         - Terms of Use (websites): 'association/legal/Terms_of_use_websites.md'
         - Privacy policy: 'association/legal/Privacy_policy.md'
-      - Security:
+      - Multisig:
+        - Overview: 'association/multisigs/overview.md'
+        - Association multisig: 'association/multisigs/association.md'
+        - Community multisig: 'association/multisigs/community.md'
+      - Security Policy:
         - Overview: 'association/security/index.md'
         - Bug Bounty: 'association/security/bug_bounty.md'
     - Aragon Network:
