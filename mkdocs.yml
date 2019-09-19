@@ -120,9 +120,9 @@ nav:
       - Aragon Knowledge Base: 'https://help.aragon.org/'
     - Jobs: 'jobs/index.md'
     - All Aragon Devs:
-      - Overview: 'videos/dev.md'
-      - Notes template: 'videos/template.md'
-      - Running the call: 'videos/running_all_devs.md'
+      - Overview: 'all_aragon_devs_/overview.md'
+      - Notes template: 'all_aragon_devs/template.md'
+      - Running the call: 'all_aragon_devs/running_all_devs.md'
       - Meeting Notes:
         - August 2019:
           - 19.08.2019: 'all_aragon_devs/meeting_notes/alldevs20190819.md'
