@@ -16,6 +16,12 @@ Meet the Aragon Association team [here](https://aragon.org/project).
 
 See Aragon Association job openings [here](https://angel.co/aragonproject).
 
+### **Aragon Black**
+
+Meet the Aragon Black team [here](https://www.aragon.black/).
+
+See Aragon Black job openings [here](https://www.aragon.black/).
+
 ### **Aragon One**
 
 Meet the Aragon One team [here](https://aragon.one/#about).
