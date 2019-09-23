@@ -31,7 +31,7 @@ Aragon One is a company formed by the founders of the Aragon project, building t
 
 **Website:** [https://aragon.one](https://aragon.one)
 
-## **Aragon One blog**
+### **Aragon One blog**
 
 The Aragon One blog can be found at [https://blog.aragon.one](https://blog.aragon.one). Contains blog posts from the Aragon One team.
 
@@ -44,11 +44,26 @@ Autark is an organization that established for the purpose of advancing life on 
 
 **Website:** [https://www.autark.xyz/](https://www.autark.xyz/)
 
-## **Autark blog**
+### **Autark blog**
 
 The Autark blog can be found at [https://blog.autark.xyz](https://blog.autark.xyz). Contains blog posts from the Autark team.
 
 **Website:** [https://blog.autark.xyz](https://blog.autark.xyz)
+
+## **Aragon Black**
+<img src="../../design/logo/aragon_black/aragonblack_400x400.png" style="width:200px;">
+
+Aragon Black is the third full-team of the Aragon project taking part in its fight for freedom and full decentralization.
+
+Aragon Black is the banner below which the Pando team has gathered to continue developing a decentralized VCS enabling coordination and the rise of new collaborative projects, to carry the Aragon manifesto’s values and finally to help in creating Aragon applications allowing human autonomy.
+
+**Website:** [https://aragon.black](https://aragon.black)
+
+### **Aragon Black blog**
+
+The Aragon Black blog can be found at [https://blog.aragon.black](https://blog.aragon.black). Contains blog posts from the Aragon Black team.
+
+**Website:** [https://blog.aragon.black](https://blog.aragon.black)
 
 ## **Aragon Chat**
 A place to have discussions and to chat about all Aragon related things. An open source chat server built on the [Rocket Chat](https://rocket.chat/) platform.
