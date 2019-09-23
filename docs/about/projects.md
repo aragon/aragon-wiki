@@ -1,4 +1,4 @@
-# Aragon Projects
+# Aragon projects
 
 This page has a list of projects created by the Aragon community, and also includes a list of projects that are using tools created by the Aragon community.
 
@@ -16,12 +16,15 @@ This page has a list of projects created by the Aragon community, and also inclu
 > These are projects that are currently already using the [aragonOS architecture](https://hack.aragon.org/docs/aragonos-ref.html) or parts of it
 
 - [DAppNode](https://dappnode.io)
+  
   - Uses the Aragon Package Manager as a part of their project, as well as a DAO to manage their NFTs 
 
 - [Decentraland](https://decentraland.org/)
+  
   - Uses [Proxy](https://hack.aragon.org/docs/aragonos-ref.html#3-upgradeability) feature from aragonOS as a part of their project
 
 - [Giveth](https://giveth.io)
+  
   - Uses [Proxy](https://hack.aragon.org/docs/aragonos-ref.html#3-upgradeability) feature from aragonOS as a part of their liquidPledging system and will eventually move the entire DApp to Aragon.
 
 ## Powered by Aragon
