@@ -2,7 +2,7 @@
 
 ## Background
 
-The Aragon community makes use of popular cryptography tools - such as [Keybase](https://keybase.io) and [Gnu Privacy Guard](https://www.gnupg.org/) (GPG) - to ensure the security and integrity of the [Aragon Governance Proposal](https://wiki.aragon.org/documentation/governance/) (AGP) process. For example, proposals in the [AGP Voting apps](https://mainnet.aragon.org/#/governance.aragonproject.eth/0xcfee4d3078f74197ce77120dbfe6d35f443cab1c) are linked to proposals on GitHub using the cryptographic hash of the final proposal (a process called "hashing"), and Aragon Association (AA) board members cryptographically sign their votes approving or rejecting proposals using the keypair linked to their Keybase accounts (a process called "signing").
+The Aragon community makes use of popular cryptography tools - such as [Keybase](https://keybase.io) and [Gnu Privacy Guard](https://www.gnupg.org/) (GPG) - to ensure the security and integrity of the [Aragon Governance Proposal](overview.md) (AGP) process. For example, proposals in the [AGP Voting apps](https://mainnet.aragon.org/#/governance.aragonproject.eth/0xcfee4d3078f74197ce77120dbfe6d35f443cab1c) are linked to proposals on GitHub using the cryptographic hash of the final proposal (a process called "hashing"), and Aragon Association (AA) board members cryptographically sign their votes approving or rejecting proposals using the keypair linked to their Keybase accounts (a process called "signing").
 
 This guide will show the reader how to use these tools to verify information presented to them throughout the AGP process. Note that this guide was written for Linux users but can be adapted with similar tools for other operating systems.
 
