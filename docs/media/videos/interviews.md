@@ -1,7 +1,9 @@
 # Aragon interviews
 
 !!! abstract ""
-    <h4>[**On-Chain Governance Panel**](https://beta.kauri.io/article/cdbfafd32fcc4bcbaa08f0abb6372316/v2/on-chain-governance-panel) at [ETHBerlin](https://ethberlin.com)</h4>
+    <h4>[**On-Chain Governance Panel**](https://www.youtube.com/watch?v=p9i5rX64_HQ) at [ETHBerlin](https://ethberlin.com)</h4>
+
+    <iframe width="80%" height="390" src="https://www.youtube-nocookie.com/embed/p9i5rX64_HQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 !!! abstract ""
     <h4>[**Governance Panel**](https://www.youtube.com/watch?v=l57wqUIy37Q) at [**Blockchain Summit 2018**](https://blockchainsummit.ch/)</h4>
@@ -50,11 +52,6 @@
     <h4>[**Aragon's Luis Cuende interview with Cheddar from the NYSE trading floor**](https://www.youtube.com/watch?v=3ccZO5wQ2WQ)</h4>
 
     <iframe width="80%" height="390" src="https://www.youtube-nocookie.com/embed/3ccZO5wQ2WQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-!!! abstract ""
-    <h4>[**Coin Interview with Aragon**](https://www.youtube.com/watch?v=JZEMimDWkBk)</h4>
-
-    <iframe width="80%" height="390" src="https://www.youtube-nocookie.com/embed/JZEMimDWkBk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 !!! abstract ""
     <h4>[**CoinFund Q&A: Aragon**](https://www.youtube.com/watch?v=U35jr3UOBXc&t=1s)</h4>
