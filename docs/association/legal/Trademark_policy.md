@@ -14,7 +14,7 @@
 
 **2.1** The Aragon Trademarks comprise the word trademark Aragon, the stylized trademark Aragon, the eagle logotype, the figurative trademark combining the stylized word Aragon and the eagle logotype, the word trademarks Aragon Nest and Aragon Network, and any other trademark developed by Aragon in the future, either registered or not.
 
-**2.2** A non-exhaustive list of the Aragon Trademarks is available at the website [http://wiki.aragon.one/design/logo/](../../design/logo/). This list will be updated as any further trademarks are created by Aragon.
+**2.2** A non-exhaustive list of the Aragon Trademarks is available at the website [https://wiki.aragon.org/design/branding/project/](../../design/branding/project.md). This list will be updated as any further trademarks are created by Aragon.
 
 ## 3. Trademark Ownership
 
