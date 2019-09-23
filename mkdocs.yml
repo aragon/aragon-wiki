@@ -54,120 +54,119 @@ extra:
     - type: 'linkedin'
       link: 'https://www.linkedin.com/company/aragonproject/'
 nav:
-  - Aragon Wiki:
-    - Aragon Wiki: 'index.md'
-    - About Aragon:
-      - What is Aragon?: 'about/what_is_aragon.md'
-      - History: 'about/history.md'
-      - Glossary: 'about/glossary.md'
-      - Manifesto: 'https://github.com/aragon/AGPs/blob/master/AGPs/AGP-0.md'
-      - Code of Conduct: 'about/code_of_conduct.md'
-      - Aragon Projects: 'about/projects.md'
-    - Aragon Association:
-      - Overview: 'association/overview.md'
-      - Event Policy: 'association/event_policy.md'
-      - Association ANT Policy: 'association/association_ant.md'
-      - Legal:
-        - Software Licenses: 'association/legal/Licenses.md'
-        - Contributor License Agreement: 'association/legal/CLA.md'
-        - Trademark Policy: 'association/legal/Trademark_policy.md'
-        - Terms of Use (websites): 'association/legal/Terms_of_use_websites.md'
-        - Privacy policy: 'association/legal/Privacy_policy.md'
-      - Multisig:
-        - Overview: 'association/multisigs/overview.md'
-        - Association multisig: 'association/multisigs/association.md'
-        - Community multisig: 'association/multisigs/community.md'
-      - Security Policy:
-        - Overview: 'association/security/index.md'
-        - Bug Bounty: 'association/security/bug_bounty.md'
-    - Aragon Network:
-      - Overview: 'network/overview.md'
-      - Aragon Network Token: 'network/aragon_network_token.md'
-      - Governance:
-        - Overview: 'network/governance/overview.md'
-        - Aragon Governance Proposals: 'https://github.com/aragon/AGPs'
-        - How to create an Aragon Governance Proposal: 'https://forum.aragon.org/t/how-to-create-an-aragon-governance-proposal/374'
-        - How to vote in an Aragon Network Vote: 'network/governance/how_to_vote.md'
-        - How to verify cryptographic hashes and signatures: 'network/governance/verify_crypto.md'
-      - Blog posts:
-        - Aragon Network Jurisdiction - Decentralized Court: 'https://blog.aragon.org/aragon-network-jurisdiction-part-1-decentralized-court-c8ab2a675e82/'
-        - Aragon Network and Token Primer: 'https://blog.aragon.one/aragon-network-and-token-primer/'
-        - Futarchy Courts: 'https://blog.aragon.one/futarchy-courts/'
-        - Proposal Agreements and the Aragon Court: 'https://blog.aragon.one/proposal-agreements-and-the-aragon-court/'
-      - Whitepaper:
-        - Latest version: 'https://github.com/aragon/whitepaper/blob/master/README.md'
-        - How to contribute: 'https://github.com/aragon/whitepaper/blob/master/CONTRIBUTE.md'
-        - Version 1 (archived): 'https://github.com/aragon/whitepaper/tree/v1'
-    - Design:
-      - Artwork: 'design/artwork/index.md'
-      - Branding:
-        - Aragon Project: 'design/branding/project.md'
-        - Aragon Network: 'design/branding/network.md'
-      - Brand Guidelines: 'media/press/press-kit/#brand-guidelines'
-      - For entities using Aragon: 'design/powered_by_aragon.md'
-    - Media:
-      - Audio:
-        - Podcast: 'media/audio/podcast.md'
-      - Video:
-        - Promo: 'media/videos/promo.md'
-        - Presentations: 'media/videos/presentations.md'
-        - Interviews: 'media/videos/interviews.md'
-      - Press:
-        - Press Kit: 'media/press/press-kit.md'
-        - Media Mentions: 'media/press/media-mentions.md'
-    - Help & Tutorials:
-      - Aragon Knowledge Base: 'https://help.aragon.org/'
-    - Jobs: 'jobs/index.md'
-    - All Aragon Devs:
-      - Overview: 'all_aragon_devs_/overview.md'
-      - Notes template: 'all_aragon_devs/template.md'
-      - Running the call: 'all_aragon_devs/running_all_devs.md'
-      - Meeting Notes:
-        - September 2019:
-          - 02.09.2019: 'all_aragon_devs/meeting_notes/alldevs20190902.md'
-        - August 2019:
-          - 19.08.2019: 'all_aragon_devs/meeting_notes/alldevs20190819.md'
-          - 05.08.2019: 'all_aragon_devs/meeting_notes/alldevs20190805.md'
-        - July 2019:
-          - 22.07.2019: 'all_aragon_devs/meeting_notes/alldevs20190722.md'
-          - 08.07.2019: 'all_aragon_devs/meeting_notes/alldevs20190708.md'
-        - June 2019:
-          - 24.06.2019: 'all_aragon_devs/meeting_notes/alldevs20190624.md'
-          - 10.06.2019: 'all_aragon_devs/meeting_notes/alldevs20190610.md'
-        - May 2019:
-          - 27.05.2019: 'all_aragon_devs/meeting_notes/alldevs20190527.md'
-          - 13.05.2019: 'all_aragon_devs/meeting_notes/alldevs20190513.md'
-        - April 2019:
-          - 29.04.2019: 'all_aragon_devs/meeting_notes/alldevs20190429.md'
-          - 15.04.2019: 'all_aragon_devs/meeting_notes/alldevs20190415.md'
-          - 01.04.2019: 'all_aragon_devs/meeting_notes/alldevs20190401.md'
-        - March 2019:
-          - 04.03.2019: 'all_aragon_devs/meeting_notes/alldevs20190304.md'
-          - 18.03.2019: 'all_aragon_devs/meeting_notes/alldevs20190318.md'
-        - February 2019:
-          - 04.02.2019: 'all_aragon_devs/meeting_notes/alldevs20190204.md'
-          - 18.02.2019: 'all_aragon_devs/meeting_notes/alldevs20190218.md'
-        - January 2019:
-          - 07.01.2019: 'all_aragon_devs/meeting_notes/alldevs20190107.md'
-          - 21.01.2019: 'all_aragon_devs/meeting_notes/alldevs20190121.md'
-        - December 2018:
-          - 03.12.2018: 'all_aragon_devs/meeting_notes/alldevs20181203.md'
-          - 17.12.2018: 'all_aragon_devs/meeting_notes/alldevs20181217.md'
-        - November 2018:
-          - 05.11.2018: 'all_aragon_devs/meeting_notes/alldevs20181105.md'
-          - 19.11.2018: 'all_aragon_devs/meeting_notes/alldevs20181119.md'
-        - October 2018:
-          - 08.10.2018: 'all_aragon_devs/meeting_notes/alldevs20181008.md'
-          - 22.10.2018: 'all_aragon_devs/meeting_notes/alldevs20181022.md'
-        - September 2018:
-          - 10.09.2018: 'all_aragon_devs/meeting_notes/alldevs20180910.md'
-          - 24.09.2018: 'all_aragon_devs/meeting_notes/alldevs20180924.md'
-        - August 2018:
-          - 13.08.2018: 'all_aragon_devs/meeting_notes/alldevs20180813.md'
-          - 27.08.2018: 'all_aragon_devs/meeting_notes/alldevs20180827.md'
-        - July 2018:
-          - 16.07.2018: 'all_aragon_devs/meeting_notes/alldevs20180716.md'
-          - 30.07.2018: 'all_aragon_devs/meeting_notes/alldevs20180730.md'
+  - Aragon Wiki: 'index.md'
+  - About Aragon:
+    - What is Aragon?: 'about/what_is_aragon.md'
+    - History: 'about/history.md'
+    - Glossary: 'about/glossary.md'
+    - Manifesto: 'https://github.com/aragon/AGPs/blob/master/AGPs/AGP-0.md'
+    - Code of Conduct: 'about/code_of_conduct.md'
+    - Aragon Projects: 'about/projects.md'
+  - Aragon Association:
+    - Overview: 'association/overview.md'
+    - Event Policy: 'association/event_policy.md'
+    - Association ANT Policy: 'association/association_ant.md'
+    - Legal:
+      - Software Licenses: 'association/legal/Licenses.md'
+      - Contributor License Agreement: 'association/legal/CLA.md'
+      - Trademark Policy: 'association/legal/Trademark_policy.md'
+      - Terms of Use (websites): 'association/legal/Terms_of_use_websites.md'
+      - Privacy policy: 'association/legal/Privacy_policy.md'
+    - Multisig:
+      - Overview: 'association/multisigs/overview.md'
+      - Association multisig: 'association/multisigs/association.md'
+      - Community multisig: 'association/multisigs/community.md'
+    - Security Policy:
+      - Overview: 'association/security/index.md'
+      - Bug Bounty: 'association/security/bug_bounty.md'
+  - Aragon Network:
+    - Overview: 'network/overview.md'
+    - Aragon Network Token: 'network/aragon_network_token.md'
+    - Governance:
+      - Overview: 'network/governance/overview.md'
+      - Aragon Governance Proposals: 'https://github.com/aragon/AGPs'
+      - How to create an Aragon Governance Proposal: 'https://forum.aragon.org/t/how-to-create-an-aragon-governance-proposal/374'
+      - How to vote in an Aragon Network Vote: 'network/governance/how_to_vote.md'
+      - How to verify cryptographic hashes and signatures: 'network/governance/verify_crypto.md'
+    - Blog posts:
+      - Aragon Network Jurisdiction - Decentralized Court: 'https://blog.aragon.org/aragon-network-jurisdiction-part-1-decentralized-court-c8ab2a675e82/'
+      - Aragon Network and Token Primer: 'https://blog.aragon.one/aragon-network-and-token-primer/'
+      - Futarchy Courts: 'https://blog.aragon.one/futarchy-courts/'
+      - Proposal Agreements and the Aragon Court: 'https://blog.aragon.one/proposal-agreements-and-the-aragon-court/'
+    - Whitepaper:
+      - Latest version: 'https://github.com/aragon/whitepaper/blob/master/README.md'
+      - How to contribute: 'https://github.com/aragon/whitepaper/blob/master/CONTRIBUTE.md'
+      - Version 1 (archived): 'https://github.com/aragon/whitepaper/tree/v1'
+  - Design:
+    - Artwork: 'design/artwork/index.md'
+    - Branding:
+      - Aragon Project: 'design/branding/project.md'
+      - Aragon Network: 'design/branding/network.md'
+    - Brand Guidelines: 'media/press/press-kit/#brand-guidelines'
+    - For entities using Aragon: 'design/powered_by_aragon.md'
+  - Media:
+    - Audio:
+      - Podcast: 'media/audio/podcast.md'
+    - Video:
+      - Promo: 'media/videos/promo.md'
+      - Presentations: 'media/videos/presentations.md'
+      - Interviews: 'media/videos/interviews.md'
+    - Press:
+      - Press Kit: 'media/press/press-kit.md'
+      - Media Mentions: 'media/press/media-mentions.md'
+  - Help & Tutorials:
+    - Aragon Knowledge Base: 'https://help.aragon.org/'
+  - Jobs: 'jobs/index.md'
+  - All Aragon Devs:
+    - Overview: 'all_aragon_devs_/overview.md'
+    - Notes template: 'all_aragon_devs/template.md'
+    - Running the call: 'all_aragon_devs/running_all_devs.md'
+    - Meeting Notes:
+      - September 2019:
+        - 02.09.2019: 'all_aragon_devs/meeting_notes/alldevs20190902.md'
+      - August 2019:
+        - 19.08.2019: 'all_aragon_devs/meeting_notes/alldevs20190819.md'
+        - 05.08.2019: 'all_aragon_devs/meeting_notes/alldevs20190805.md'
+      - July 2019:
+        - 22.07.2019: 'all_aragon_devs/meeting_notes/alldevs20190722.md'
+        - 08.07.2019: 'all_aragon_devs/meeting_notes/alldevs20190708.md'
+      - June 2019:
+        - 24.06.2019: 'all_aragon_devs/meeting_notes/alldevs20190624.md'
+        - 10.06.2019: 'all_aragon_devs/meeting_notes/alldevs20190610.md'
+      - May 2019:
+        - 27.05.2019: 'all_aragon_devs/meeting_notes/alldevs20190527.md'
+        - 13.05.2019: 'all_aragon_devs/meeting_notes/alldevs20190513.md'
+      - April 2019:
+        - 29.04.2019: 'all_aragon_devs/meeting_notes/alldevs20190429.md'
+        - 15.04.2019: 'all_aragon_devs/meeting_notes/alldevs20190415.md'
+        - 01.04.2019: 'all_aragon_devs/meeting_notes/alldevs20190401.md'
+      - March 2019:
+        - 04.03.2019: 'all_aragon_devs/meeting_notes/alldevs20190304.md'
+        - 18.03.2019: 'all_aragon_devs/meeting_notes/alldevs20190318.md'
+      - February 2019:
+        - 04.02.2019: 'all_aragon_devs/meeting_notes/alldevs20190204.md'
+        - 18.02.2019: 'all_aragon_devs/meeting_notes/alldevs20190218.md'
+      - January 2019:
+        - 07.01.2019: 'all_aragon_devs/meeting_notes/alldevs20190107.md'
+        - 21.01.2019: 'all_aragon_devs/meeting_notes/alldevs20190121.md'
+      - December 2018:
+        - 03.12.2018: 'all_aragon_devs/meeting_notes/alldevs20181203.md'
+        - 17.12.2018: 'all_aragon_devs/meeting_notes/alldevs20181217.md'
+      - November 2018:
+        - 05.11.2018: 'all_aragon_devs/meeting_notes/alldevs20181105.md'
+        - 19.11.2018: 'all_aragon_devs/meeting_notes/alldevs20181119.md'
+      - October 2018:
+        - 08.10.2018: 'all_aragon_devs/meeting_notes/alldevs20181008.md'
+        - 22.10.2018: 'all_aragon_devs/meeting_notes/alldevs20181022.md'
+      - September 2018:
+        - 10.09.2018: 'all_aragon_devs/meeting_notes/alldevs20180910.md'
+        - 24.09.2018: 'all_aragon_devs/meeting_notes/alldevs20180924.md'
+      - August 2018:
+        - 13.08.2018: 'all_aragon_devs/meeting_notes/alldevs20180813.md'
+        - 27.08.2018: 'all_aragon_devs/meeting_notes/alldevs20180827.md'
+      - July 2018:
+        - 16.07.2018: 'all_aragon_devs/meeting_notes/alldevs20180716.md'
+        - 30.07.2018: 'all_aragon_devs/meeting_notes/alldevs20180730.md'
   - Wiki Info:
     - Basic Features: 'wiki/Wiki_Basic_Features.md'
     - Additional Features: 'wiki/Wiki_Additional_Features.md'
