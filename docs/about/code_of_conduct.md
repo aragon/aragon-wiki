@@ -35,9 +35,9 @@ The Aragon team has the right and responsibility to remove, edit, or reject comm
 ## Reporting
 If you are being harassed by a member of the Aragon community, notice that someone else is being harassed, or have any other concerns, please contact moderators through the following channels: 
 
-Direct message chat moderator @light on [Aragon Chat](https://aragon.chat/)
-Flag any post and/or send a direct message to “moderators” in the [Aragon Forum](https://forum.aragon.org/)
-Report any post and/or send a direct message to the [/r/AragonProject subreddit](https://reddit.com/message/compose?to=/r/aragonproject) moderators
+- Direct message chat moderator @light on [Aragon Chat](https://aragon.chat/)  
+- Flag any post and/or send a direct message to “moderators” in the [Aragon Forum](https://forum.aragon.org/)  
+- Report any post and/or send a direct message to the [/r/AragonProject subreddit](https://reddit.com/message/compose?to=/r/aragonproject) moderators
 
 If the person who is harassing you is one of the moderators, they will recuse themselves from handling your incident and triage to another moderator. We will respond as promptly as possible.
 
@@ -51,11 +51,11 @@ This Code of Conduct applies to all of Aragon project's spaces, including the Ar
 If you are being harassed by a member of the Aragon community outside of our spaces, we still want to know about it. We will take all good-faith reports of harassment by Aragon community members seriously. This includes harassment outside of our spaces and harassment that took place at any point in time. The team reserves the right to exclude people from the Aragon community at their discretion, based on their past behavior, including behavior outside Aragon spaces and behavior towards people who are not in the Aragon community.
 
 ## Enforcement
-Moderators will generally follow this standard response protocol for infringements of this Code of Conduct:
-- Take a screenshot of every comment targeted for moderation
-- If the comment involves a moderator, triage to an uninvolved moderator 
-- Delete on sight if the comment is violent, sexually explicit, sharing NCC/PII or other illegal content, or spam
-- DM and ask to edit for all other offenses. Delete repeat offenses.
+Moderators will generally follow this standard response protocol for infringements of this Code of Conduct:  
+- Take a screenshot of every comment targeted for moderation.  
+- If the comment involves a moderator, triage to an uninvolved moderator.   
+- Delete on sight if the comment is violent, sexually explicit, sharing NCC/PII or other illegal content, or spam.  
+- DM and ask to edit for all other offenses. Delete repeat offenses.  
 
 !!! quote ""
 ## Attribution
