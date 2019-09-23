@@ -115,7 +115,6 @@ nav:
       - Press:
         - Press Kit: 'media/press/press-kit.md'
         - Media Mentions: 'media/press/media-mentions.md'
-        - Guidelines: 'media/press/guidelines.md'
     - Help & Tutorials:
       - Aragon Knowledge Base: 'https://help.aragon.org/'
     - Jobs: 'jobs/index.md'
@@ -169,23 +168,6 @@ nav:
         - July 2018:
           - 16.07.2018: 'all_aragon_devs/meeting_notes/alldevs20180716.md'
           - 30.07.2018: 'all_aragon_devs/meeting_notes/alldevs20180730.md'
-  - Community & Social Media:
-    - Aragon Chat: 'https://aragon.chat'
-    - Aragon Forum: 'https://forum.aragon.org'
-    - Twitter: 'https://twitter.com/AragonProject'
-    - Reddit: 'https://www.reddit.com/r/aragonproject/'
-    - LinkedIn: 'https://www.linkedin.com/company/aragonproject/'
-    - YouTube: 'https://www.youtube.com/c/AragonProject'
-  - Discover:
-      - Discover: 'https://aragon.org/discover'
-  - Developers:
-      - Developers: 'https://hack.aragon.org'
-  - Website:
-    - Website: 'https://aragon.org/'
-  - Project:
-    - Project: 'https://aragon.org/project'
-  - Network:
-    - Network: 'https://aragon.org/network'
   - Wiki Info:
     - Basic Features: 'wiki/Wiki_Basic_Features.md'
     - Additional Features: 'wiki/Wiki_Additional_Features.md'
@@ -200,6 +182,13 @@ nav:
         - 02.08.2019: 'working-groups/meeting-notes/strategy-wg/Strategycall20190802.md'
         - 16.08.2019: 'working-groups/meeting-notes/strategy-wg/Strategycall20190816.md'
         - 30.08.2019: 'working-groups/meeting-notes/strategy-wg/Strategycall20190830.md'
+  - Community & Social Media:
+    - Aragon Chat: 'https://aragon.chat'
+    - Aragon Forum: 'https://forum.aragon.org'
+    - Twitter: 'https://twitter.com/AragonProject'
+    - Reddit: 'https://www.reddit.com/r/aragonproject/'
+    - LinkedIn: 'https://www.linkedin.com/company/aragonproject/'
+    - YouTube: 'https://www.youtube.com/c/AragonProject'
   - Archive:
     - Blog posts:
       - 2019: 'archive/blog/2019.md'
