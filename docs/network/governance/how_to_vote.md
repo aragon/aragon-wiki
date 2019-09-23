@@ -3,11 +3,11 @@
 ## Background
 Once per quarter, the Aragon community gets together to make key decisions affecting the future of the project as part of the Aragon Governance Proposal (AGP) process. Originally defined in [AGP-1: The Aragon Governance Proposal Process](https://github.com/aragon/AGPs/blob/master/AGPs/AGP-1.md), and grounded in the values of [AGP-0: The Aragon Manifesto](https://github.com/aragon/AGPs/blob/master/AGPs/AGP-0.md), the AGP process defines a way for community members to present proposals that introduce some change to an important area of the project, and then vote together to approve or reject the proposals.
 
-You can learn more about the AGP process on the [Governance](governance.md) page of the wiki.
+You can learn more about the AGP process on the [Aragon Governance](overview.md) page of the wiki.
 
 ## Voting methods
 
-During each Aragon Network Vote, Aragon Network Token ([ANT](aragon_network_token.md)) holders have an opportunity to cast their votes to approve or reject proposals that have made it through the AGP process and onto the final ballot. ANT is a token on the Ethereum network, with access controlled by a private key corresponding to the owner of each token. Votes are cast by using the private key of an account holding ANT to sign a transaction authorizing a vote to be cast with the ANT. No ANT is transferred by this vote transaction, and voting can be done with keys kept completely offline in so-called "cold storage".
+During each Aragon Network Vote, Aragon Network Token ([ANT](../../network/aragon_network_token.md)) holders have an opportunity to cast their votes to approve or reject proposals that have made it through the AGP process and onto the final ballot. ANT is a token on the Ethereum network, with access controlled by a private key corresponding to the owner of each token. Votes are cast by using the private key of an account holding ANT to sign a transaction authorizing a vote to be cast with the ANT. No ANT is transferred by this vote transaction, and voting can be done with keys kept completely offline in so-called "cold storage".
 
 !!! info "Note"
     The exact details of which AGP voting app to use and what data to use for raw transactions is published in a "Final details" blog post before each Aragon Network Vote. Visit the [Aragon project blog](https://blog.aragon.org/tag/governance-proposals/) to find the most recent "Final details" blog post with specific information about the vote you want to participate in, then cast your vote for each proposal you want to vote on.
@@ -17,7 +17,7 @@ During each Aragon Network Vote, Aragon Network Token ([ANT](aragon_network_toke
 
 **These are the methods currently available to cast a vote:**
 
-See section 2.2.3.3 of the [Aragon User Guide](https://help.aragon.org/article/10-explore-the-democracy-organization#voting) for general instructions on voting using the Aragon app.
+See section 2.2.3.3 of the [Aragon User Guide](https://help.aragon.org/article/31-explore-the-company-organization#voting) for general instructions on voting using the Aragon app.
 
 ### Voting with keys stored in a Web3 mobile browser wallet
 
@@ -30,7 +30,7 @@ To participate in an Aragon Network Vote from your mobile device, make sure that
 When voting using the Aragon app with MetaMask as the wallet and Ethereum provider, MetaMask should show you the VOTE function identifier right on top of the 0 ETH amount:
 
 <center>
-<img src="../doc_images/vote_metamask.png" width="300" /></center>
+<img src="images/vote_metamask.png" width="300" /></center>
 
 You can also watch a video example [here](https://www.youtube-nocookie.com/embed/1nmkPFZid_c).
 
@@ -74,7 +74,7 @@ Gas limit: 120000
 This is what each field in the raw transaction data translates to:
 
 <center>
-<img src="../doc_images/vote_data.png" width="700" /></center>
+<img src="images/vote_data.png" width="700" /></center>
 
 ## Troubleshooting
 If you are having any trouble voting, leave a message in the [Aragon Chat #feedback channel](https://aragon.chat/channel/feedback) describing what happened. At their soonest availability, a community member will try to help you troubleshoot your issue and cast your vote.
