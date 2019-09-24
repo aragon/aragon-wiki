@@ -61,7 +61,7 @@ nav:
     - Glossary: 'about/glossary.md'
     - Manifesto: 'https://github.com/aragon/AGPs/blob/master/AGPs/AGP-0.md'
     - Code of Conduct: 'about/code_of_conduct.md'
-    - Aragon Projects: 'about/projects.md'
+    - Aragon projects: 'about/projects.md'
   - Aragon Association:
     - Overview: 'association/overview.md'
     - Event Policy: 'association/event_policy.md'
@@ -116,7 +116,8 @@ nav:
       - Media Mentions: 'media/press/media-mentions.md'
   - Help & Tutorials:
     - Aragon Knowledge Base: 'https://help.aragon.org/'
-  - Jobs: 'jobs/index.md'
+  - Aragon jobs: 
+    - See who's hiring: 'jobs/index.md'
   - All Aragon Devs:
     - Overview: 'all_aragon_devs_/overview.md'
     - Notes template: 'all_aragon_devs/template.md'
@@ -167,10 +168,6 @@ nav:
       - July 2018:
         - 16.07.2018: 'all_aragon_devs/meeting_notes/alldevs20180716.md'
         - 30.07.2018: 'all_aragon_devs/meeting_notes/alldevs20180730.md'
-  - Wiki Info:
-    - Basic Features: 'wiki/Wiki_Basic_Features.md'
-    - Additional Features: 'wiki/Wiki_Additional_Features.md'
-    - Wiki Editorial Policies: 'wiki/editorial_policies.md'
   - Working groups:
     - Overview: 'working-groups/overview.md'
     - Registry: 'working-groups/registry.md'
@@ -310,3 +307,7 @@ nav:
         - Community: 'archive/videos/community.md'
         - Aragon HQ: 'archive/videos/hq.md'
         - Dev: 'archive/videos/dev.md'
+  - Wiki Info:
+    - Basic Features: 'wiki/Wiki_Basic_Features.md'
+    - Additional Features: 'wiki/Wiki_Additional_Features.md'
+    - Wiki Editorial Policies: 'wiki/editorial_policies.md'
