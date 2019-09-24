@@ -401,21 +401,6 @@
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://wiki.aragon.org/wiki/Wiki_Basic_Features/</loc>
-     <lastmod>2019-09-24</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    <url>
-     <loc>https://wiki.aragon.org/wiki/Wiki_Additional_Features/</loc>
-     <lastmod>2019-09-24</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    <url>
-     <loc>https://wiki.aragon.org/wiki/editorial_policies/</loc>
-     <lastmod>2019-09-24</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    <url>
      <loc>https://wiki.aragon.org/working-groups/overview/</loc>
      <lastmod>2019-09-24</lastmod>
      <changefreq>daily</changefreq>
@@ -977,6 +962,21 @@
     </url>
     <url>
      <loc>https://wiki.aragon.org/archive/videos/dev/</loc>
+     <lastmod>2019-09-24</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://wiki.aragon.org/wiki/Wiki_Basic_Features/</loc>
+     <lastmod>2019-09-24</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://wiki.aragon.org/wiki/Wiki_Additional_Features/</loc>
+     <lastmod>2019-09-24</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://wiki.aragon.org/wiki/editorial_policies/</loc>
      <lastmod>2019-09-24</lastmod>
      <changefreq>daily</changefreq>
     </url>
