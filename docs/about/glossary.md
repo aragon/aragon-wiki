@@ -10,7 +10,7 @@ Aragon is a project to empower freedom by creating tools for decentralized organ
 **Website:** [https://aragon.org](https://aragon.org)
 
 ## **The Aragon client**
-The Aragon client is the flashship product of the Aragon project. It is an open source decentralized application that empowers users to create and participate in blockchain-based organizations. Organizations created using Aragon are digital-native and censorship-resistant.
+The Aragon client is the flagship product of the Aragon project. It is an open source decentralized application that empowers users to create and participate in blockchain-based organizations. Organizations created using Aragon are digital-native and censorship-resistant.
 
 **Website:** [https://app.aragon.org](https://app.aragon.org)
 
