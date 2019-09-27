@@ -2,14 +2,12 @@
 
 ## This wiki for the Aragon Project contains much of the content and resources available publicly
 
-If you feel like contributing to the wiki, like changing or adding things, feel free to check out the [open Issues](https://github.com/aragon/aragon-wiki/issues) and submit a [Pull Request](https://github.com/aragon/aragon-wiki/pulls). Be sure to follow our [Contributing Guidelines](/CONTRIBUTING.md) when working on your contribution.
+If you feel like contributing to the wiki, like changing or adding things, feel free to check out the [open Issues](https://github.com/aragon/aragon-wiki/issues) and submit a [Pull Request](https://github.com/aragon/aragon-wiki/pulls).
 
 ## Current versions used:
-[Python 3.6.3](https://www.python.org/downloads/)
+[MKDocs version 1.0.4](http://www.mkdocs.org/about/release-notes/)
 
-[MKDocs version 1.0.0](http://www.mkdocs.org/about/release-notes/)
-
-[Material for MkDocs version 4.0.0](https://squidfunk.github.io/mkdocs-material/release-notes/)
+[Material for MkDocs version 4.3.1](https://squidfunk.github.io/mkdocs-material/release-notes/)
 
 ### To upgrade from previous versions:
 `pip install --upgrade mkdocs`
@@ -32,7 +30,7 @@ If you feel like contributing to the wiki, like changing or adding things, feel 
 Follow these steps:
 
 - Fork the [Aragon Wiki GitHub repository](https://github.com/aragon/aragon-wiki)
-- **Create a Pull Request** with your proposed changes to have your contribtuion merged into the Wiki repository.
+- **Create a Pull Request** with your proposed changes to have your contribution merged into the Wiki repository.
 
 ## To deploy changes in the wiki to web in the case where TravisCI fails to do so:
 
