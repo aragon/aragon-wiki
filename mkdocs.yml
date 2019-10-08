@@ -107,7 +107,7 @@ nav:
             - Aragon One: 'ecosystem/grant-programs/flock/teams/aragon-one/A1-roadmap.md'
             - Autark: 'ecosystem/grant-programs/flock/teams/autark/autark-roadmap.md'
       - Nest:
-        - Nest grants: 'nest/index.md'
+        - Nest grants: 'ecosystem/grant-programs/nest/index.md'
   - Design:
     - Artwork: 'design/artwork/index.md'
     - Branding:
@@ -127,10 +127,10 @@ nav:
       - Media Mentions: 'media/press/media-mentions.md'
   - Help and tutorials:
     - Aragon Knowledge Base: 'https://help.aragon.org/'
-  - Aragon jobs: 
+  - Aragon jobs:
     - See who's hiring: 'jobs/index.md'
   - All Aragon Devs:
-    - Overview: 'all_aragon_devs_/overview.md'
+    - Overview: 'all_aragon_devs/overview.md'
     - Notes template: 'all_aragon_devs/template.md'
     - Running the call: 'all_aragon_devs/running_all_devs.md'
     - Meeting Notes:
