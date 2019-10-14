@@ -56,4 +56,6 @@ This page has a list of projects created by the Aragon community, and also inclu
 
 - [Spice VC](https://www.spicevc.com) ([Proof](https://medium.com/spicevc/spice-vc-is-the-first-to-use-blockchain-to-solve-the-liquidity-problem-638227217cb6))
 
+- [The DAO](https://github.com/the-dao/whitepaper) ([Proof](https://github.com/the-dao/whitepaper#2-dao-structure))
+
 - [Video DAC](https://forum.livepeer.org/t/transcoder-campaign-video-dac/553) ([Proof](https://forum.livepeer.org/t/transcoder-campaign-video-dac/553))
