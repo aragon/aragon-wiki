@@ -44,7 +44,7 @@ This page has a list of projects created by the Aragon community, and also inclu
 
 - [District0x](https://district0x.io) ([Proof](https://education.district0x.io/district0x-specific-topics/understanding-technology-behind-district0x/aragon/))
 
-- [Melon](https://melonport.com/) ([Proof](https://medium.com/melonport-blog/melon-will-run-its-decentralized-governance-on-aragon-9f7935693720))
+- [Melon Protocol](https://melonprotocol.com/) ([Proof](https://medium.com/melonprotocol/launching-the-melon-council-dao-on-aragonos-42147c86582))
 
 - [MyBit](https://mybit.io)([Proof](https://medium.com/mybit-dapp/mybit-dao-tutorial-5b3bc093963b)) 
 
