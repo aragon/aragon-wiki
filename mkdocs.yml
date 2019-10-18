@@ -60,8 +60,8 @@ nav:
     - History: 'about/history.md'
     - Glossary: 'about/glossary.md'
     - Manifesto: 'https://github.com/aragon/AGPs/blob/master/AGPs/AGP-0.md'
-    - Code of Conduct: 'about/code_of_conduct.md'
     - Aragon projects: 'about/projects.md'
+    - Code of Conduct: 'about/code_of_conduct.md'
   - Aragon Association:
     - Overview: 'association/overview.md'
     - Event Policy: 'association/event_policy.md'
@@ -133,6 +133,7 @@ nav:
       - Media Mentions: 'media/press/media-mentions.md'
   - Help and tutorials:
     - Aragon Knowledge Base: 'https://help.aragon.org/'
+    - Aragon Developer Portal: 'https://hack.aragon.org'
   - Aragon jobs:
     - See who's hiring: 'jobs/index.md'
   - All Aragon Devs:
