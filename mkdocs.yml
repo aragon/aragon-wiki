@@ -71,14 +71,20 @@ nav:
       - Contributor License Agreement: 'association/legal/CLA.md'
       - Trademark Policy: 'association/legal/Trademark_policy.md'
       - Terms of Use (websites): 'association/legal/Terms_of_use_websites.md'
-      - Privacy policy: 'association/legal/Privacy_policy.md'
+      - Privacy Policy: 'association/legal/Privacy_policy.md'
     - Multisig:
       - Overview: 'association/multisigs/overview.md'
       - Association multisig: 'association/multisigs/association.md'
       - Community multisig: 'association/multisigs/community.md'
-    - Security Policy:
+    - Security:
       - Overview: 'association/security/index.md'
       - Bug Bounty: 'association/security/bug_bounty.md'
+      - Audit reports:
+        - Audit 01 by Adam Dossa: 'association/security/audits/audit01_report_dossa.md'
+        - Audit (Internal) by Brett Sun: 'association/security/audits/audit_internal_sun.md'
+        - Audit Report v1.4 by White Hat Group: 'association/security/audits/audit_whg01_report.md'
+        - Audit Report v2.0 by White Hat Group [PDF]: 'association/security/audits/audit_whg_updated_aragonOS-Apps.pdf'
+        - Audit by ConsenSys Diligence: 'https://github.com/ConsenSys/aragon_audit_report_2018-06-04_extended'
   - Aragon Network:
     - Overview: 'network/overview.md'
     - Aragon Network Token: 'network/aragon_network_token.md'
@@ -216,7 +222,6 @@ nav:
       - Merchandise: 'archive/design/merch/index.md'
     - Development:
       - Overview: 'archive/dev/index.md'
-      - Aragon Core: 'archive/Core/index.md'
       - aragonOS v2.0.1: 'archive/documentation/aragonOS_201.md'
       - Security Vulnerability Disclosure Policy: 'archive/documentation/security_disclosure.md'
       - Audit reports:
