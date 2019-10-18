@@ -187,6 +187,8 @@ nav:
     - Overview: 'working-groups/overview.md'
     - Registry: 'working-groups/registry.md'
     - Meeting notes:
+      - Nest Working Group: 
+        - 17.10.2019: 'working-groups/meeting-notes/nest-wg/NestCall20191017.md'
       - Strategy Working Group:
         - 05.07.2019: 'working-groups/meeting-notes/strategy-wg/Strategycall20190705.md'
         - 19.07.2019: 'working-groups/meeting-notes/strategy-wg/Strategycall20190719.md'
