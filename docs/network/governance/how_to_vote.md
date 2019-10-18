@@ -79,4 +79,4 @@ This is what each field in the raw transaction data translates to:
 </center>
 
 ## Troubleshooting
-If you are having any trouble voting, leave a message in the [Aragon Chat #feedback channel](https://aragon.chat/channel/feedback) describing what happened. At their soonest availability, a community member will try to help you troubleshoot your issue and cast your vote.
+If you are having any trouble voting, leave a message in the [Aragon Chat #help channel](https://aragon.chat/channel/help) describing what happened. At their soonest availability, a community member will try to help you troubleshoot your issue and cast your vote.
