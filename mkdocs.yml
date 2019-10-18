@@ -314,8 +314,6 @@ nav:
     - Nest:
       - Overview: 'archive/nest/index.md'
     - Tutorials:
-      - Aragon User Guide: 'archive/tutorials/Aragon_User_Guide.md'
-      - Aragon Core User Guide: 'archive/tutorials/Aragon_Core_User_Guide.md'
       - DAO Workshop For Aragon Core v0.5: 'archive/tutorials/DAO_Workshop_Testnet_by_joselfgaray.md'
       - How to claim an Aragon bounty using Status Open Bounty: 'archive/tutorials/Status_Open_Bounty_Guide.md'
     - Videos:
