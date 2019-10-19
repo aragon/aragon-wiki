@@ -113,9 +113,9 @@ nav:
         - Flock grants: 'ecosystem/grant-programs/flock/README.md'
         - Proposal guide: 'ecosystem/grant-programs/flock/Proposal guide.md'
         - Teams:
-            - Aragon Black: 'ecosystem/grant-programs/flock/teams/aragon-black/ab-roadmap.md'
-            - Aragon One: 'ecosystem/grant-programs/flock/teams/aragon-one/A1-roadmap.md'
-            - Autark: 'ecosystem/grant-programs/flock/teams/autark/autark-roadmap.md'
+          - Aragon Black: 'ecosystem/grant-programs/flock/teams/aragon-black/ab-roadmap.md'
+          - Aragon One: 'ecosystem/grant-programs/flock/teams/aragon-one/A1-roadmap.md'
+          - Autark: 'ecosystem/grant-programs/flock/teams/autark/autark-roadmap.md'
       - Nest:
         - Nest grants: 'ecosystem/grant-programs/nest/index.md'
   - Design:
