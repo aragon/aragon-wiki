@@ -146,6 +146,7 @@ nav:
     - Running the call: 'all_aragon_devs/running_all_devs.md'
     - Meeting Notes:
       - October 2019:
+        - 28.10.2019: 'all_aragon_devs/meeting_notes/alldevs20191021.md'
         - 14.10.2019: 'all_aragon_devs/meeting_notes/alldevs20191014.md'
       - September 2019:
         - 02.09.2019: 'all_aragon_devs/meeting_notes/alldevs20190902.md'
@@ -198,7 +199,7 @@ nav:
     - Overview: 'working-groups/overview.md'
     - Registry: 'working-groups/registry.md'
     - Meeting notes:
-      - Nest Working Group: 
+      - Nest Working Group:
         - 17.10.2019: 'working-groups/meeting-notes/nest-wg/NestCall20191017.md'
       - Strategy Working Group:
         - 05.07.2019: 'working-groups/meeting-notes/strategy-wg/Strategycall20190705.md'
