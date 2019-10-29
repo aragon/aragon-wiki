@@ -25,6 +25,16 @@ Examples of use-cases for the WG:
 
 The **Strategy-WG [chat](https://aragon.chat/channel/wg-product)** is best used to advance discussions and update the group in between calls
 
+### aragonSDK WG
+
+We want to make the Aragon SDK a delightful developer experience. This is not necessarily limited to the CLI, but to all parts of the Aragon stack that target power users and developers, as opposed to users of the Aragon Client.
+
+At the current time, however, our efforts are focused around the CLI to improve both developers' and power users' experiences.
+
+**Stand ups** happen every Tuesday and Thursday. Please contact Brett (@sohkai) or Ale (@ajsantander) on Keybase to be invited.
+
+A Keybase channel has been set up to facilitate discussion and coordination efforts.
+
 ### "Your working group”
 
 “The purpose of your working group”
