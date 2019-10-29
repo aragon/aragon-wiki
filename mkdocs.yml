@@ -60,8 +60,8 @@ nav:
     - History: 'about/history.md'
     - Glossary: 'about/glossary.md'
     - Manifesto: 'https://github.com/aragon/AGPs/blob/master/AGPs/AGP-0.md'
-    - Code of Conduct: 'about/code_of_conduct.md'
     - Aragon projects: 'about/projects.md'
+    - Code of Conduct: 'about/code_of_conduct.md'
   - Aragon Association:
     - Overview: 'association/overview.md'
     - Event Policy: 'association/event_policy.md'
@@ -71,14 +71,24 @@ nav:
       - Contributor License Agreement: 'association/legal/CLA.md'
       - Trademark Policy: 'association/legal/Trademark_policy.md'
       - Terms of Use (websites): 'association/legal/Terms_of_use_websites.md'
-      - Privacy policy: 'association/legal/Privacy_policy.md'
+      - Privacy Policy: 'association/legal/Privacy_policy.md'
     - Multisig:
       - Overview: 'association/multisigs/overview.md'
       - Association multisig: 'association/multisigs/association.md'
       - Community multisig: 'association/multisigs/community.md'
-    - Security Policy:
+    - Security:
       - Overview: 'association/security/index.md'
       - Bug Bounty: 'association/security/bug_bounty.md'
+      - Audit reports:
+        - aragonOS:
+          - Audit 01 by Adam Dossa: 'association/security/audits/audit01_report_dossa.md'
+          - Audit (Internal) by Brett Sun: 'association/security/audits/audit_internal_sun.md'
+          - Audit Report v1.4 by White Hat Group: 'association/security/audits/audit_whg01_report.md'
+          - Audit Report v2.0 by White Hat Group [PDF]: 'association/security/audits/audit_whg_updated_aragonOS-Apps.pdf'
+          - Audit by ConsenSys Diligence: 'https://github.com/ConsenSys/aragon_audit_report_2018-06-04_extended'
+        - Apps / Templates:
+          - Aragon Payroll: 'https://github.com/ConsenSys/aragon-payroll-audit-report-2019-06'
+          - DAO Templates by ConsenSys Diligence: 'https://github.com/ConsenSys/aragon-daotemplates-audit-report-2019-08'
   - Aragon Network:
     - Overview: 'network/overview.md'
     - Aragon Network Token: 'network/aragon_network_token.md'
@@ -97,6 +107,17 @@ nav:
       - Latest version: 'https://github.com/aragon/whitepaper/blob/master/README.md'
       - How to contribute: 'https://github.com/aragon/whitepaper/blob/master/CONTRIBUTE.md'
       - Version 1 (archived): 'https://github.com/aragon/whitepaper/tree/v1'
+  - Aragon ecosystem:
+    - Grant programs:
+      - Flock:
+        - Flock grants: 'ecosystem/grant-programs/flock/README.md'
+        - Proposal guide: 'ecosystem/grant-programs/flock/Proposal guide.md'
+        - Teams:
+          - Aragon Black: 'ecosystem/grant-programs/flock/teams/aragon-black/ab-roadmap.md'
+          - Aragon One: 'ecosystem/grant-programs/flock/teams/aragon-one/A1-roadmap.md'
+          - Autark: 'ecosystem/grant-programs/flock/teams/autark/autark-roadmap.md'
+      - Nest:
+        - Nest grants: 'ecosystem/grant-programs/nest/index.md'
   - Design:
     - Artwork: 'design/artwork/index.md'
     - Branding:
@@ -114,17 +135,23 @@ nav:
     - Press:
       - Press Kit: 'media/press/press-kit.md'
       - Media Mentions: 'media/press/media-mentions.md'
-  - Help & Tutorials:
+  - Help and tutorials:
     - Aragon Knowledge Base: 'https://help.aragon.org/'
+    - Aragon Developer Portal: 'https://hack.aragon.org'
   - Aragon jobs:
     - See who's hiring: 'jobs/index.md'
   - All Aragon Devs:
-    - Overview: 'all_aragon_devs_/overview.md'
+    - Overview: 'all_aragon_devs/overview.md'
     - Notes template: 'all_aragon_devs/template.md'
     - Running the call: 'all_aragon_devs/running_all_devs.md'
     - Meeting Notes:
+      - October 2019:
+        - 28.10.2019: 'all_aragon_devs/meeting_notes/alldevs20191021.md'
+        - 14.10.2019: 'all_aragon_devs/meeting_notes/alldevs20191014.md'
       - September 2019:
         - 02.09.2019: 'all_aragon_devs/meeting_notes/alldevs20190902.md'
+        - 16.09.2019: 'all_aragon_devs/meeting_notes/alldevs20190916.md'
+        - 30.09.2019: 'all_aragon_devs/meeting_notes/alldevs20190930.md'
       - August 2019:
         - 19.08.2019: 'all_aragon_devs/meeting_notes/alldevs20190819.md'
         - 05.08.2019: 'all_aragon_devs/meeting_notes/alldevs20190805.md'
@@ -172,6 +199,8 @@ nav:
     - Overview: 'working-groups/overview.md'
     - Registry: 'working-groups/registry.md'
     - Meeting notes:
+      - Nest Working Group:
+        - 17.10.2019: 'working-groups/meeting-notes/nest-wg/NestCall20191017.md'
       - Strategy Working Group:
         - 05.07.2019: 'working-groups/meeting-notes/strategy-wg/Strategycall20190705.md'
         - 19.07.2019: 'working-groups/meeting-notes/strategy-wg/Strategycall20190719.md'
@@ -181,7 +210,7 @@ nav:
         - 13.09.2019: 'working-groups/meeting-notes/strategy-wg/Strategycall20190913.md'
         - 27.09.2019: 'working-groups/meeting-notes/strategy-wg/Strategycall20190927.md'
         - 25.10.2019: 'working-groups/meeting-notes/strategy-wg/Strategycall20191025.md'
-  - Community & Social Media:
+  - Community and social media:
     - Aragon Chat: 'https://aragon.chat'
     - Aragon Forum: 'https://forum.aragon.org'
     - Twitter: 'https://twitter.com/AragonProject'
@@ -202,13 +231,7 @@ nav:
       - Merchandise: 'archive/design/merch/index.md'
     - Development:
       - Overview: 'archive/dev/index.md'
-      - Aragon Core: 'archive/Core/index.md'
       - aragonOS v2.0.1: 'archive/documentation/aragonOS_201.md'
-      - Security Vulnerability Disclosure Policy: 'archive/documentation/security_disclosure.md'
-      - Audit reports:
-        - Audit 01 by Adam Dossa: 'archive/documentation/audits/audit01_report_dossa.md'
-        - Audit (Internal) by Brett Sun: 'archive/documentation/audits/audit_internal_sun.md'
-        - Audit Report by White Hat Group: 'archive/documentation/audits/audit_whg01_report.md'
     - Documentation:
       - Development Plan: 'archive/documentation/Development_Plan.md'
       - AGP5 - Rocket Chat comparison: 'archive/documentation/agp5/RocketChat.md'
@@ -300,8 +323,6 @@ nav:
     - Nest:
       - Overview: 'archive/nest/index.md'
     - Tutorials:
-      - Aragon User Guide: 'archive/tutorials/Aragon_User_Guide.md'
-      - Aragon Core User Guide: 'archive/tutorials/Aragon_Core_User_Guide.md'
       - DAO Workshop For Aragon Core v0.5: 'archive/tutorials/DAO_Workshop_Testnet_by_joselfgaray.md'
       - How to claim an Aragon bounty using Status Open Bounty: 'archive/tutorials/Status_Open_Bounty_Guide.md'
     - Videos:

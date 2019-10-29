@@ -30,7 +30,8 @@ To participate in an Aragon Network Vote from your mobile device, make sure that
 When voting using the Aragon app with MetaMask as the wallet and Ethereum provider, MetaMask should show you the VOTE function identifier right on top of the 0 ETH amount:
 
 <center>
-<img src="images/vote_metamask.png" width="300" /></center>
+[<img src="../images/vote_metamask.png">](../images/vote_metamask.png)
+</center>
 
 You can also watch a video example [here](https://www.youtube-nocookie.com/embed/1nmkPFZid_c).
 
@@ -74,7 +75,8 @@ Gas limit: 120000
 This is what each field in the raw transaction data translates to:
 
 <center>
-<img src="images/vote_data.png" width="700" /></center>
+[<img src="../images/vote_data.png">](../images/vote_data.png)
+</center>
 
 ## Troubleshooting
-If you are having any trouble voting, leave a message in the [Aragon Chat #feedback channel](https://aragon.chat/channel/feedback) describing what happened. At their soonest availability, a community member will try to help you troubleshoot your issue and cast your vote.
+If you are having any trouble voting, leave a message in the [Aragon Chat #help channel](https://aragon.chat/channel/help) describing what happened. At their soonest availability, a community member will try to help you troubleshoot your issue and cast your vote.

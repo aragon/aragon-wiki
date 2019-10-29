@@ -17,79 +17,79 @@ The current version of the Aragon Project brand guidelines can be found [here](h
 
 ### Logo
 
-#### [Brand in Sketch format](../../design/logo/brand.sketch)
+#### [Brand in Sketch format](../../../design/logo/brand.sketch)
 
 #### Imagetypes
 
 ##### Horizontal
-[SVG](../../design/logo/svg/imagetype.svg) | [PNG](../../design/logo/png/imagetype@2x.png) | [Light text SVG](../../design/logo/svg/imagetype_light.svg) | [Light text PNG](../../design/logo/png/imagetype_light@2x.png) | [Dark background JPG](../../design/logo/jpg/imagetype_dark@2x.jpg)
+[SVG](../../../design/logo/svg/imagetype.svg) | [PNG](../../../design/logo/png/imagetype@2x.png) | [Light text SVG](../../../design/logo/svg/imagetype_light.svg) | [Light text PNG](../../../design/logo/png/imagetype_light@2x.png) | [Dark background JPG](../../../design/logo/jpg/imagetype_dark@2x.jpg)
 
-<img width="256" src="../../design/logo/png/imagetype.png"> <img width="256" src="../../design/logo/jpg/imagetype_dark.jpg">
+<img width="256" src="../../../design/logo/png/imagetype.png"> <img width="256" src="../../../design/logo/jpg/imagetype_dark.jpg">
 
 ##### Vertical
-[PNG](../../design/logo/png/imagetype_vertical@2x.png) | [Light text PNG](../../design/logo/png/imagetype_vertical_light@2x.png) | [Dark background JPG](../../design/logo/jpg/imagetype_vertical_dark@2x.jpg)
+[PNG](../../../design/logo/png/imagetype_vertical@2x.png) | [Light text PNG](../../../design/logo/png/imagetype_vertical_light@2x.png) | [Dark background JPG](../../../design/logo/jpg/imagetype_vertical_dark@2x.jpg)
 
-<img width="256" src="../../design/logo/png/imagetype_vertical.png"> <img width="256" src="../../design/logo/jpg/imagetype_vertical_dark.jpg">
+<img width="256" src="../../../design/logo/png/imagetype_vertical.png"> <img width="256" src="../../../design/logo/jpg/imagetype_vertical_dark.jpg">
 
 #### Logotypes
 ##### Default
-[SVG](../../design/logo/svg/logotype.svg) | [PNG](../../design/logo/png/logotype@2x.png) | [Light version SVG](../../design/logo/svg/logotype_light.svg) | [Light version PNG](../../design/logo/png/logotype_light@2x.png) | [Dark background JPG](../../design/logo/jpg/logotype_dark@2x.jpg)
+[SVG](../../../design/logo/svg/logotype.svg) | [PNG](../../../design/logo/png/logotype@2x.png) | [Light version SVG](../../../design/logo/svg/logotype_light.svg) | [Light version PNG](../../../design/logo/png/logotype_light@2x.png) | [Dark background JPG](../../../design/logo/jpg/logotype_dark@2x.jpg)
 
-<img width="256" src="../../design/logo/png/logotype.png"> <img width="256" src="../../design/logo/jpg/logotype_dark.jpg">
+<img width="256" src="../../../design/logo/png/logotype.png"> <img width="256" src="../../../design/logo/jpg/logotype_dark.jpg">
 
 #### Isotypes
 ##### Stroke
-[Sketch](../../design/logo/svg/aragon_stroke.sketch) | [PNG](../../design/logo/png/stroke.png)
+[Sketch](../../../design/logo/svg/aragon_stroke.sketch) | [PNG](../../../design/logo/png/stroke.png)
 
-<img width="256" src="../../design/logo/png/stroke.png">
+<img width="256" src="../../../design/logo/png/stroke.png">
 
 ##### Default
-[SVG](../../design/logo/svg/isotype.svg) | [PNG](../../design/logo/png/isotype@2x.png)
+[SVG](../../../design/logo/svg/isotype.svg) | [PNG](../../../design/logo/png/isotype@2x.png)
 
-<img width="256" src="../../design/logo/png/isotype.png">
+<img width="256" src="../../../design/logo/png/isotype.png">
 
 ### Images
 
 #### General
 
-[<img src="../../design/artwork/basic/01.jpg">](../../design/artwork/basic/01.jpg)
-[<img src="../../design/artwork/basic/02.jpg">](../../design/artwork/basic/02.jpg)
-[<img src="../../design/artwork/basic/03.jpg">](../../design/artwork/basic/03.jpg)
-[<img src="../../design/artwork/basic/04.jpg">](../../design/artwork/basic/04.jpg)
-[<img src="../../design/artwork/basic/05.jpg">](../../design/artwork/basic/05.jpg)
-[<img src="../../design/artwork/basic/06.jpg">](../../design/artwork/basic/06.jpg)
-[<img src="../../design/artwork/basic/07.jpg">](../../design/artwork/basic/07.jpg)
-[<img src="../../design/artwork/basic/08.jpg">](../../design/artwork/basic/08.jpg)
-[<img src="../../design/artwork/basic/09.jpg">](../../design/artwork/basic/09.jpg)
-[<img src="../../design/artwork/basic/10.jpeg">](../../design/artwork/basic/10.jpeg)
-[<img src="../../design/artwork/basic/11.png">](../../design/artwork/basic/11.png)
-[<img src="../../design/artwork/basic/12.jpg">](../../design/artwork/basic/12.jpg)
-[<img src="../../design/artwork/basic/13.png">](../../design/artwork/basic/13.png)
-[<img src="../../design/artwork/basic/14.png">](../../design/artwork/basic/14.png)
-[<img src="../../design/artwork/basic/15.png">](../../design/artwork/basic/15.png)
+[<img src="../../../design/artwork/basic/01.jpg">](../../../design/artwork/basic/01.jpg)
+[<img src="../../../design/artwork/basic/02.jpg">](../../../design/artwork/basic/02.jpg)
+[<img src="../../../design/artwork/basic/03.jpg">](../../../design/artwork/basic/03.jpg)
+[<img src="../../../design/artwork/basic/04.jpg">](../../../design/artwork/basic/04.jpg)
+[<img src="../../../design/artwork/basic/05.jpg">](../../../design/artwork/basic/05.jpg)
+[<img src="../../../design/artwork/basic/06.jpg">](../../../design/artwork/basic/06.jpg)
+[<img src="../../../design/artwork/basic/07.jpg">](../../../design/artwork/basic/07.jpg)
+[<img src="../../../design/artwork/basic/08.jpg">](../../../design/artwork/basic/08.jpg)
+[<img src="../../../design/artwork/basic/09.jpg">](../../../design/artwork/basic/09.jpg)
+[<img src="../../../design/artwork/basic/10.jpeg">](../../../design/artwork/basic/10.jpeg)
+[<img src="../../../design/artwork/basic/11.png">](../../../design/artwork/basic/11.png)
+[<img src="../../../design/artwork/basic/12.jpg">](../../../design/artwork/basic/12.jpg)
+[<img src="../../../design/artwork/basic/13.png">](../../../design/artwork/basic/13.png)
+[<img src="../../../design/artwork/basic/14.png">](../../../design/artwork/basic/14.png)
+[<img src="../../../design/artwork/basic/15.png">](../../../design/artwork/basic/15.png)
 
 #### Aragon Network Token
 
-[<img src="../../design/artwork/ANT/ANT01.jpg">](../../design/artwork/ANT/ANT01.jpg)
-[<img src="../../design/artwork/ANT/ANT02.png">](../../design/artwork/ANT/ANT02.png)
-[<img src="../../design/artwork/ANT/ANT03.png">](../../design/artwork/ANT/ANT03.png)
-[<img src="../../design/artwork/ANT/ANT04.png">](../../design/artwork/ANT/ANT04.png)
+[<img src="../../../design/artwork/ANT/ANT01.jpg">](../../../design/artwork/ANT/ANT01.jpg)
+[<img src="../../../design/artwork/ANT/ANT02.png">](../../../design/artwork/ANT/ANT02.png)
+[<img src="../../../design/artwork/ANT/ANT03.png">](../../../design/artwork/ANT/ANT03.png)
+[<img src="../../../design/artwork/ANT/ANT04.png">](../../../design/artwork/ANT/ANT04.png)
 
 #### Aragon Network Jurisdiction
 
-[<img src="../../design/artwork/ANJ/ANJ01.png">](../../design/artwork/ANJ/ANJ01.png)
+[<img src="../../../design/artwork/ANJ/ANJ01.png">](../../../design/artwork/ANJ/ANJ01.png)
 
 #### Aragon Company Registry
 
-[<img src="../../design/artwork/Aragon_Company_Registry/Aragon_Company_Registry.jpeg">](../../design/artwork/Aragon_Company_Registry/Aragon_Company_Registry.jpeg)
+[<img src="../../../design/artwork/Aragon_Company_Registry/Aragon_Company_Registry.jpeg">](../../../design/artwork/Aragon_Company_Registry/Aragon_Company_Registry.jpeg)
 
 #### Aragon Chat
 
-[<img src="../../design/artwork/Aragon_Chat/Aragon_Chat.png">](../../design/artwork/Aragon_Chat/Aragon_Chat.png)
+[<img src="../../../design/artwork/Aragon_Chat/Aragon_Chat.png">](../../../design/artwork/Aragon_Chat/Aragon_Chat.png)
 
 #### Gradient Background
 
-[<img src="../../design/artwork/aragon_gradient_background.jpg">](../../design/artwork/aragon_gradient_background.jpg)
+[<img src="../../../design/artwork/aragon_gradient_background.jpg">](../../../design/artwork/aragon_gradient_background.jpg)
 
 ## Aragon Screenshots
 
@@ -197,27 +197,27 @@ AraCon will be the place for people to get a great understanding of Web 3.0, blo
 ### Resources for AraCon
 
 #### Logo with background
-[<img src="../../design/logo/AraCon/AraCon_logo.png">](../design/logo/AraCon/AraCon_logo.png)
+[<img src="../../../design/logo/AraCon/AraCon_logo.png">](../design/logo/AraCon/AraCon_logo.png)
 ___
 #### Logo with background (small)
-[<img src="../../design/logo/AraCon/AraCon_logo_small.png">](../design/logo/AraCon/AraCon_logo_small.png)
+[<img src="../../../design/logo/AraCon/AraCon_logo_small.png">](../design/logo/AraCon/AraCon_logo_small.png)
 ___
 #### Text logo with dark text
-[<img src="../../design/logo/AraCon/AraCon_typography_dark.png">](../design/logo/AraCon/AraCon_typography_dark.png)
+[<img src="../../../design/logo/AraCon/AraCon_typography_dark.png">](../design/logo/AraCon/AraCon_typography_dark.png)
 ___
 #### Text logo with light text
-[<img src="../../design/logo/AraCon/AraCon_typography.png">](../design/logo/AraCon/AraCon_typography.png)
+[<img src="../../../design/logo/AraCon/AraCon_typography.png">](../design/logo/AraCon/AraCon_typography.png)
 ___
 #### Announcement graphics
-[<img src="../../design/logo/AraCon/aracon12.png">](../design/logo/AraCon/aracon12.png)
-[<img src="../../design/logo/AraCon/aracon11.png">](../design/logo/AraCon/aracon11.png)
+[<img src="../../../design/logo/AraCon/aracon12.png">](../design/logo/AraCon/aracon12.png)
+[<img src="../../../design/logo/AraCon/aracon11.png">](../design/logo/AraCon/aracon11.png)
 ___
 #### Themes
-[<img src="../../design/logo/AraCon/aracon_themes01.png">](../design/logo/AraCon/aracon_themes01.png)
+[<img src="../../../design/logo/AraCon/aracon_themes01.png">](../design/logo/AraCon/aracon_themes01.png)
 ___
-[<img src="../../design/logo/AraCon/aracon_themes02.png">](../design/logo/AraCon/aracon_themes02.png)
+[<img src="../../../design/logo/AraCon/aracon_themes02.png">](../design/logo/AraCon/aracon_themes02.png)
 ___
-[<img src="../../design/logo/AraCon/aracon_themes03.png">](../design/logo/AraCon/aracon_themes03.png)
+[<img src="../../../design/logo/AraCon/aracon_themes03.png">](../design/logo/AraCon/aracon_themes03.png)
 ___
-[<img src="../../design/logo/AraCon/aracon_themes04.png">](../design/logo/AraCon/aracon_themes04.png)
+[<img src="../../../design/logo/AraCon/aracon_themes04.png">](../design/logo/AraCon/aracon_themes04.png)
 ___

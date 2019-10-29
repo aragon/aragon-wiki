@@ -13,13 +13,13 @@
 ### Aragon Network Vote #4
 
 **Dates**  
-These dates may change if an emergency delay is approved by the Aragon Association Board of Directors. Check back here to confirm if you have any doubts.
+The Aragon Association Board of Directors [has voted](https://forum.aragon.org/t/anv-4-delay-announcement/1367) to approve an **emergency delay** of Aragon Network Vote #4. The dates below have been updated to reflect this change. Check back here to confirm if you have any doubts.
 
 - Draft proposals for this vote are due, mandatory community review period begins: **2019-10-03 at 16:00 UTC**
-- Final draft proposals for this vote are due, Aragon Association review begins: **2019-10-10 at 16:00 UTC**
-- Aragon Association review ends, final community review begins: **2019-10-17 at 16:00 UTC**
-- Aragon Network Vote #4 begins: **2019-10-24 at 16:00 UTC**
-- Aragon Network Vote #4 ends, final results announced: **2019-10-26 at 16:00 UTC**
+- Final draft proposals for this vote are due, Aragon Association review begins: **2019-10-17 at 16:00 UTC**
+- Aragon Association review ends, final community review begins: **2019-10-24 at 16:00 UTC**
+- Aragon Network Vote #4 begins: **2019-10-31 at 16:00 UTC**
+- Aragon Network Vote #4 ends, final results announced: **2019-11-02 at 16:00 UTC**
 
 ## Approved AGPs
 
