@@ -11,7 +11,7 @@ The purpose of this documentation is to:
 
 ## Context
 
-The Aragon Network DAO, encompassing the Aragon community, Nest, and Flock, has been expanding quickly. Specifically, the Flock program went from one to three teams in only six months and the number of active contributors to Aragon has been increasing. As a result, cooperation around different key matters has been emerging organically across teams, in chat rooms and on the Aragon forum. 
+The Aragon Network DAO, encompassing the Aragon community, Nest, and Flock, has been expanding quickly. Specifically, the Flock program went from one to three teams in only six months and the number of active contributors to Aragon has been increasing. As a result, cooperation around different key matters has been emerging organically across teams, in chat rooms and on the Aragon forum.
 
 Working Groups are a way to formalize collaborative initiatives in order to make them accessible and visible to all, ultimately making it easier to collaborate across the ecosystem.
 
