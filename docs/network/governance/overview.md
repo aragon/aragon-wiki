@@ -12,6 +12,8 @@
 
 ### Aragon Network Vote #4
 
+The final details for Aragon Network Vote #4, including which proposals will be on the ballot and how to participate in the vote, have now been published [here](https://blog.aragon.org/final-details-for-aragon-network-vote-4/).
+
 **Dates**  
 The Aragon Association Board of Directors [has voted](https://forum.aragon.org/t/anv-4-delay-announcement/1367) to approve an **emergency delay** of Aragon Network Vote #4. The dates below have been updated to reflect this change. Check back here to confirm if you have any doubts.
 
