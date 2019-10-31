@@ -1,5 +1,17 @@
 ## Working Group Registry
 
+### aragonSDK WG
+
+We want to make the Aragon SDK a delightful developer experience. This is not necessarily limited to the CLI, but to all parts of the Aragon stack that target power users and developers, as opposed to users of the Aragon Client.
+
+At the current time, however, our efforts are focused around the CLI to improve both developers' and power users' experiences.
+
+**Offline discussions** occur in the [SDK-WG chat channel](https://aragon.chat/channel/wg-sdk).
+
+**Stand ups** happen every Tuesday and Thursday; please join the SDK-WG chat to introduce yourself if you would like to join.
+
+Larger discussions related to the CLI and its direction will also be held in the [Aragon All Devs bi-weekly meetings](https://wiki.aragon.org/all_aragon_devs/overview/).
+
 ### Product WG
 
 Builds products to support the mission of the Aragon Network.
@@ -24,18 +36,6 @@ Examples of use-cases for the WG:
 **Notes** taken during these calls can be found in the [Aragon Wiki](https://wiki.aragon.org/working-groups/meeting-notes/strategy-wg/Strategycall20190705/)
 
 The **Strategy-WG [chat](https://aragon.chat/channel/wg-strategy)** is best used to advance discussions and update the group in between calls
-
-### aragonSDK WG
-
-We want to make the Aragon SDK a delightful developer experience. This is not necessarily limited to the CLI, but to all parts of the Aragon stack that target power users and developers, as opposed to users of the Aragon Client.
-
-At the current time, however, our efforts are focused around the CLI to improve both developers' and power users' experiences.
-
-**Offline discussions** occur in the [SDK-WG chat channel](https://aragon.chat/channel/wg-sdk).
-
-**Stand ups** happen every Tuesday and Thursday; please join the SDK-WG chat to introduce yourself if you would like to join.
-
-Larger discussions related to the CLI and its direction will also be held in the [Aragon All Devs bi-weekly meetings](https://wiki.aragon.org/all_aragon_devs/overview/).
 
 ### "Your working group”
 
