@@ -33,7 +33,7 @@ The User Feedback WG has two goals:
 
 Anyone is welcome to participate! There will be weekly calls to discuss cool things being built in the Aragon ecosystem as well as meta-strategies to make it easier for people to participate in testing and providing feedback on Aragon products. 
 
-There will be a rolling list of products that we are reviewing and we will discuss them in the User Feedback WG chat (TBD). Each week we will compile our thoughts into a doc that the community (product teams) can reference to guide product development and bug fixes.
+There will be a rolling list of products that we are reviewing and we will discuss them in the [User Feedback WG Aragon chat](https://aragon.chat/channel/wg-user-feedback). Each week we will compile our thoughts into a doc that the community (product teams) can reference to guide product development and bug fixes.
 
 ### aragonSDK WG
 
