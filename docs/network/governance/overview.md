@@ -10,18 +10,15 @@
 
 ## Important information for the next Aragon Network vote
 
-### Aragon Network Vote #4
-
-The final details for Aragon Network Vote #4, including which proposals will be on the ballot and how to participate in the vote, have now been published [here](https://blog.aragon.org/final-details-for-aragon-network-vote-4/).
+### Aragon Network Vote #5
 
 **Dates**  
-The Aragon Association Board of Directors [has voted](https://forum.aragon.org/t/anv-4-delay-announcement/1367) to approve an **emergency delay** of Aragon Network Vote #4. The dates below have been updated to reflect this change. Check back here to confirm if you have any doubts.
 
-- Draft proposals for this vote are due, mandatory community review period begins: **2019-10-03 at 16:00 UTC**
-- Final draft proposals for this vote are due, Aragon Association review begins: **2019-10-17 at 16:00 UTC**
-- Aragon Association review ends, final community review begins: **2019-10-24 at 16:00 UTC**
-- Aragon Network Vote #4 begins: **2019-10-31 at 16:00 UTC**
-- Aragon Network Vote #4 ends, final results announced: **2019-11-02 at 16:00 UTC**
+- Draft proposals for this vote are due, mandatory community review period begins: **2019-11-20 at 16:00 UTC**
+- Final draft proposals for this vote are due, Aragon Association review begins: **2019-11-27 at 16:00 UTC**
+- Aragon Association review ends, final community review begins: **2019-12-04 at 16:00 UTC**
+- Aragon Network Vote #5 begins: **2019-12-11 at 16:00 UTC**
+- Aragon Network Vote #5 ends, final results announced: **2019-12-13 at 16:00 UTC**
 
 ## Approved AGPs
 
@@ -48,6 +45,15 @@ The Aragon Association Board of Directors [has voted](https://forum.aragon.org/t
 - [AGP-71: Nest 2019 Budget Extension](https://github.com/aragon/AGPs/blob/master/AGPs/AGP-71.md)
 - [AGP-73: Flock Funding for Autark](https://github.com/aragon/AGPs/blob/master/AGPs/AGP-73.md)
 - [AGP-75: The Aragon Governance Survey Process](https://github.com/aragon/AGPs/blob/master/AGPs/AGP-75.md)
+- [AGP-88: Community Rewards DAO](https://github.com/aragon/AGPs/blob/master/AGPs/AGP-88.md)
+- [AGP-89: Modify Aragon Network Fiscal Year](https://github.com/aragon/AGPs/blob/master/AGPs/AGP-89.md)
+- [AGP-90: 1Hive DAO Sponsorship Proposal](https://github.com/aragon/AGPs/blob/master/AGPs/AGP-90.md)
+- [AGP-92: Flock Funding for Frame](https://github.com/aragon/AGPs/blob/master/AGPs/AGP-92.md)
+- [AGP-103: Aragon Network Budget](https://github.com/aragon/AGPs/blob/master/AGPs/AGP-103.md)
+- [AGP-104: Aragon App Mining](https://github.com/aragon/AGPs/blob/master/AGPs/AGP-104.md)
+- [AGP-105: Allow finance proposals that could otherwise fit in Nest or Flock](https://github.com/aragon/AGPs/blob/master/AGPs/AGP-105.md)
+- [AGP-106: Develop Aragon Chain](https://github.com/aragon/AGPs/blob/master/AGPs/AGP-106.md)
+- [AGP-112: Oppose any change to Ethereum's mining algorithm before Ethereum 2.0](https://github.com/aragon/AGPs/blob/master/AGPs/AGP-112.md)
 
 ## Deprecated AGPs
 
