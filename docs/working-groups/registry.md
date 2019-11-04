@@ -45,6 +45,16 @@ Examples of use-cases for the WG:
 
 The **Strategy-WG [chat](https://aragon.chat/channel/wg-strategy)** is best used to advance discussions and update the group in between calls
 
+### User Feedback WG
+
+The User Feedback WG has two goals:
+- Make it easy for Aragon community members to try out all the new cool shiny stuff that Aragon teams are building before anyone else.
+- Make it easy for Aragon product teams to get user feedback and bug testing on their new shiny cool Aragon apps.
+
+Anyone is welcome to participate! There will be weekly calls to discuss cool things being built in the Aragon ecosystem as well as meta-strategies to make it easier for people to participate in testing and providing feedback on Aragon products. 
+
+There will be a rolling list of products that we are reviewing and we will discuss them in the [User Feedback WG Aragon chat](https://aragon.chat/channel/wg-user-feedback). Each week we will compile our thoughts into a doc that the community (product teams) can reference to guide product development and bug fixes.
+
 ### "Your working group”
 
 “The purpose of your working group”
