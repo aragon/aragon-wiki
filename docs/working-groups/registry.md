@@ -12,6 +12,14 @@ At the current time, however, our efforts are focused around the CLI to improve 
 
 Larger discussions related to the CLI and its direction will also be held in the [Aragon All Devs bi-weekly meetings](https://wiki.aragon.org/all_aragon_devs/overview/).
 
+### Nest WG
+
+We believe the fate of humanity will be decided at the frontier of technological innovation. It is essential that this technology creates positive-sum value for all parties involved. In a globally connected world it is essential that people can connect, organize, share in value creation - anytime, anywhere, without borders or intermediaries. The Nest WG exists to help teams realize this dream on Aragon. 
+
+Our main functions involve managing the NestDAO, evaluating proposals, and making funding decisions to support those proposals. More details on the Nest program can be found on the [Nest repo README](https://github.com/aragon/nest/).
+
+We meet every 2 weeks we have calls to discuss Nest proposals and make funding decisions. If you'd like to get involved or have questions please drop into our [#wg-nest Aragon Chat](https://aragon.chat/channel/wg-nest).
+
 ### Product WG
 
 Builds products to support the mission of the Aragon Network.
