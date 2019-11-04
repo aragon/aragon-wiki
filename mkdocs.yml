@@ -12,6 +12,7 @@ theme:
       text: 'HKGrotesk'
       code: 'HKGrotesk'
   logo: 'images/logo.svg'
+  notfound: 'images/not-found.svg'
   favicon: 'images/favicon.ico'
 markdown_extensions:
     - footnotes
