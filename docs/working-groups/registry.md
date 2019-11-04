@@ -1,5 +1,25 @@
 ## Working Group Registry
 
+### aragonSDK WG
+
+We want to make the Aragon SDK a delightful developer experience. This is not necessarily limited to the CLI, but to all parts of the Aragon stack that target power users and developers, as opposed to users of the Aragon Client.
+
+At the current time, however, our efforts are focused around the CLI to improve both developers' and power users' experiences.
+
+**Offline discussions** occur in the [SDK-WG chat channel](https://aragon.chat/channel/wg-sdk).
+
+**Stand ups** happen every Tuesday and Thursday; please join the SDK-WG chat to introduce yourself if you would like to join.
+
+Larger discussions related to the CLI and its direction will also be held in the [Aragon All Devs bi-weekly meetings](https://wiki.aragon.org/all_aragon_devs/overview/).
+
+### Nest WG
+
+We believe the fate of humanity will be decided at the frontier of technological innovation. It is essential that this technology creates positive-sum value for all parties involved. In a globally connected world it is essential that people can connect, organize, share in value creation - anytime, anywhere, without borders or intermediaries. The Nest WG exists to help teams realize this dream on Aragon. 
+
+Our main functions involve managing the NestDAO, evaluating proposals, and making funding decisions to support those proposals. More details on the Nest program can be found on the [Nest repo README](https://github.com/aragon/nest/).
+
+We meet every 2 weeks we have calls to discuss Nest proposals and make funding decisions. If you'd like to get involved or have questions please drop into our [#wg-nest Aragon Chat](https://aragon.chat/channel/wg-nest).
+
 ### Product WG
 
 Builds products to support the mission of the Aragon Network.
@@ -34,18 +54,6 @@ The User Feedback WG has two goals:
 Anyone is welcome to participate! There will be weekly calls to discuss cool things being built in the Aragon ecosystem as well as meta-strategies to make it easier for people to participate in testing and providing feedback on Aragon products. 
 
 There will be a rolling list of products that we are reviewing and we will discuss them in the [User Feedback WG Aragon chat](https://aragon.chat/channel/wg-user-feedback). Each week we will compile our thoughts into a doc that the community (product teams) can reference to guide product development and bug fixes.
-
-### aragonSDK WG
-
-We want to make the Aragon SDK a delightful developer experience. This is not necessarily limited to the CLI, but to all parts of the Aragon stack that target power users and developers, as opposed to users of the Aragon Client.
-
-At the current time, however, our efforts are focused around the CLI to improve both developers' and power users' experiences.
-
-**Offline discussions** occur in the [SDK-WG chat channel](https://aragon.chat/channel/wg-sdk).
-
-**Stand ups** happen every Tuesday and Thursday; please join the SDK-WG chat to introduce yourself if you would like to join.
-
-Larger discussions related to the CLI and its direction will also be held in the [Aragon All Devs bi-weekly meetings](https://wiki.aragon.org/all_aragon_devs/overview/).
 
 ### "Your working group”
 
