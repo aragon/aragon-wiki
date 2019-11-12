@@ -4,13 +4,13 @@ Required signatures: 2/3
 
 ## Signers
 
-#### Luis Cuende, Aragon One CEO
+#### Luis Cuende, Executive Director at Aragon Association
 [Address](https://etherscan.io/address/0xA5F91734f0966Ba47a16b0392B71A6218fCb0835)  
 [Proof](https://etherscan.io/tx/0x2e2cd9f8126a66c76dcb8d7c5bc1a6b27737c487c1425b94d49f53f81bdb30af)
 
-#### Jorge Izquierdo, Aragon One CTO
-[Address](https://etherscan.io/address/0x4838eab6f43841e0d233db4cea47bd64f614f0c5)  
-[Proof](https://etherscan.io/tx/0x5aaeb2d0361dbdf3b4ecadad1b49c239eb1b3b5e1cf973f6a4597ad56edc47b9)
+#### Jorge Izquierdo, CEO at Aragon One
+[Address](https://etherscan.io/address/0xf0a5486944d315e05dd24a3c106b95d12a105650)  
+[Proof](TODO)
 
 #### Community Multisig
 [Address](https://etherscan.io/address/0xbeefbeef03c7e5a1c29e0aa675f8e16aee0a5fad)  
