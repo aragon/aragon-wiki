@@ -2,9 +2,21 @@
 
 # Aragon Network Token
 
-## Overview
+The Aragon Network Token (ticker symbol: ANT) is the native token of the Aragon Network. ANT is primarily used for the governance of the Aragon Network, although additional uses for accessing Aragon Network services have been proposed as well.
 
-The Aragon Network Token (ticker symbol: ANT) is the native token of the Aragon Network. ANT is primarily used for the governance of the Aragon Network. After the launch of the Aragon Network, it will also be possible to use ANT to collateralize agreements made by members of the Aragon Network. More information about the use of ANT in the Aragon Network can be found in the [Aragon Network whitepaper](https://github.com/aragon/whitepaper).
+## ANT uses
+
+**Governance**  
+
+The first use of ANT is as a Sybil-resistant mechanism for governance. In the [Aragon Governance Proposal (AGP) process](https://github.com/aragon/AGPs/blob/master/AGPs/AGP-1.md#aragon-network-votes), which was [first approved by ANT holders](https://blog.aragon.org/final-results-from-the-agp-1-vote/) on November 17, 2018, one ANT equals one vote. This means that anyone can vote on AGPs, even while remaining pseudonymous, by acquiring and holding ANT at the time of the Aragon Network vote they want to participate in. ANT can also be used to vote on proposals in the [Community Funding DAO](https://forum.aragon.org/t/how-to-make-proposals-to-the-community-funding-dao/697), which was first proposed in [AGP-10](https://github.com/aragon/AGPs/blob/master/AGPs/AGP-10.md), approved in [Aragon Network Vote #1](https://blog.aragon.org/final-results-from-aragon-network-vote-1/), and [deployed](https://forum.aragon.org/t/agp-discussion-community-funding-dao/418/36) on March 18, 2019.
+
+**Aragon Court**  
+
+With the launch of the Aragon Network and the Aragon Court, the [current plan](https://blog.aragon.one/aragon-network-and-token-primer/) is for it to be possible to deposit ANT in a bonding curve to mint Aragon Network Juror (ANJ) tokens, which will be required to stake and become a juror in the Aragon Court. More information about the use of ANT and ANJ in the Aragon Court can be found in the [Aragon Network whitepaper](https://github.com/aragon/whitepaper).
+
+**Aragon Chain**  
+
+In a [blog post announcing Aragon Chain](https://blog.aragon.one/aragon-chain/), a Proof-of-Stake blockchain built for the Aragon community, the Aragon One team has proposed that ANT could be deposited into a bonding curve to mint Aragon Chain (ARA) tokens. These tokens would be required to stake and become a validator for the Aragon Chain. With [AGP-106](https://github.com/aragon/AGPs/blob/master/AGPs/AGP-106.md) approved in Aragon Network Vote #4, the blockchain development company ChainSafe is now the team responsible for putting the Aragon Chain plan into action. 
 
 ## Initial token distribution
 
@@ -56,7 +68,7 @@ _Disclaimer: Nothing on this page should be taken as investment advice. Inclusio
 - Bancor - [https://www.bancor.network/](https://www.bancor.network/)
 - Bitplace - [https://www.bitplace.to](https://www.bitplace.to)
 - Bitfinex - [https://bitfinex.com](https://bitfinex.com)
-- Bittrex - [https://bittrex.com](https://bittrex.com)
+- Bittrex International - [https://international.bittrex.com](https://international.bittrex.com)
 - ChangeNOW - [https://changenow.io/](https://changenow.io/)
 - EtherDelta - [https://etherdelta.com/](https://etherdelta.com/)
 - Ethfinex - [https://www.ethfinex.com](https://www.ethfinex.com)
