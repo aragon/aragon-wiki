@@ -145,6 +145,8 @@ nav:
     - Notes template: 'all_aragon_devs/template.md'
     - Running the call: 'all_aragon_devs/running_all_devs.md'
     - Meeting Notes:
+      - November 2019:
+        - 11.11.2019: 'all_aragon_devs/meeting_notes/alldevs20191114.md'
       - October 2019:
         - 28.10.2019: 'all_aragon_devs/meeting_notes/alldevs20191021.md'
         - 14.10.2019: 'all_aragon_devs/meeting_notes/alldevs20191014.md'
