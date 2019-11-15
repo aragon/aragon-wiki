@@ -15,7 +15,7 @@ If you have found a potential vulnerability, please review the following instruc
 
 Two bug bounty programs are available, please review its instructions and intended scope before submitting a finding:
 
-- Aragon Client [bug bounty](./client_bug_bounty).
+- Aragon client [bug bounty](./client_bug_bounty).
 - Aragon Network [bug bounty](./an_bug_bounty).
 
 ## Smart Contract Audits

@@ -22,7 +22,7 @@ Rewards will be awarded at the sole discretion of the Aragon Association. Qualit
 
 For this initial bug bounty program, there is a **maximum bounty pool of $250,000**.
 
-The bug bounty program is ongoing and has ran since November 25th, 2019.
+The bug bounty program is ongoing and has been running since November 25th, 2019.
 
 ## Reporting
 
@@ -36,7 +36,7 @@ The bug bounty program is ongoing and has ran since November 25th, 2019.
 In scope for the bug bounty are all the smart contract components of the Aragon Network. They can be found in the following repositories:
 
 !!! abstract "**Aragon Court** ([v1](https://github.com/aragon/aragon-court/tree/v1.0.0) and [future patch versions](https://github.com/aragon/aragon-court/releases))"
-    Disputes resolution protocol.
+    Dispute resolution protocol.
 
     - Solidity code under the `contracts` directory:
         - Excluding `contracts/lib/os/` 
@@ -69,7 +69,7 @@ In scope for the bug bounty are all the smart contract components of the Aragon 
 !!! tip "These are some examples of vulnerabilities that would be interesting"
     - Locking or freezing any of the Aragon Network contracts.
     - Manipulating the decision process of the dispute resolution protocol.
-    - Stealing funds or manipulating the funds generation process.
+    - Stealing tokens or manipulating the token generation process.
 
 ## Resources
 

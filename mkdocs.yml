@@ -79,7 +79,7 @@ nav:
     - Security:
       - Overview: 'association/security/index.md'
       - Bug Bounties:
-        - Aragon Client: 'association/security/client_bug_bounty.md'
+        - Aragon client: 'association/security/client_bug_bounty.md'
         - Aragon Network: 'association/security/an_bug_bounty.md'
       - Audit reports:
         - aragonOS:
