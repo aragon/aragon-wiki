@@ -17,15 +17,15 @@ This page has a list of projects created by the Aragon community, and also inclu
 
 - [DAppNode](https://dappnode.io)
   
-  - Uses the Aragon Package Manager as a part of their project, as well as a DAO to manage their NFTs 
+    - Uses the Aragon Package Manager as a part of their project, as well as a DAO to manage their NFTs 
 
 - [Decentraland](https://decentraland.org/)
   
-  - Uses [Proxy](https://hack.aragon.org/docs/aragonos-ref.html#3-upgradeability) feature from aragonOS as a part of their project
+    - Uses [Proxy](https://hack.aragon.org/docs/aragonos-ref.html#3-upgradeability) feature from aragonOS as a part of their project
 
 - [Giveth](https://giveth.io)
   
-  - Uses [Proxy](https://hack.aragon.org/docs/aragonos-ref.html#3-upgradeability) feature from aragonOS as a part of their liquidPledging system and will eventually move the entire DApp to Aragon.
+    - Uses [Proxy](https://hack.aragon.org/docs/aragonos-ref.html#3-upgradeability) feature from aragonOS as a part of their liquidPledging system and will eventually move the entire DApp to Aragon.
 
 ## Powered by Aragon
 > **Aragon went [live on the Ethereum mainnet](https://blog.aragon.org/aragon-06-is-live-on-mainnet/) on October 30th, 2018. This is a list of projects that have publicly announced their interest in utilizing Aragon, we can't wait to see what they do!**
@@ -34,15 +34,21 @@ This page has a list of projects created by the Aragon community, and also inclu
 >
 > This is a list of existing projects that have publicly announced that they are or plan to become "_Powered by Aragon_". You can add your project to this list by submitting a pull request modifying [this page](https://github.com/aragon/aragon-wiki/edit/master/docs/projects/index.md) on the Aragon Wiki GitHub repo. Please include a link to your project's home page and a "Proof" link to some documentation that describes how your project is using Aragon.
 
-- [Althea](https://altheamesh.com/) ([Proof](https://blog.althea.org/althea-development-update--56--network-organization-support/))
+- [1Hive](https://1hive.org/) ([Proof](https://1hive.org/contribute/membership))
 
-- [Auctus](https://auctus.org/) ([Proof](https://blog.auctus.org/launch-of-auctus-labs-9ff5ffe26e32))
+- [Althea](https://altheamesh.com) ([Proof](https://blog.althea.org/althea-development-update--56--network-organization-support/))
+
+- [Auctus](https://auctus.org) ([Proof](https://blog.auctus.org/launch-of-auctus-labs-9ff5ffe26e32))
 
 - [Because of the Internet DAO](https://www.rude.world/boti-dao) ([Proof](https://www.rude.world/boti-dao))
 
-- [BlankDAO](https://blankdao.org/) ([Proof](https://docs.google.com/document/d/1mAGAZ5TAbJoTJoNCAwMUKLhEHD-WW-tzc0dHhbsl1gU/edit?usp=sharing))
+- [BlankDAO](https://blankdao.org) ([Proof](https://docs.google.com/document/d/1mAGAZ5TAbJoTJoNCAwMUKLhEHD-WW-tzc0dHhbsl1gU/edit?usp=sharing))
+
+- [Centrifuge](https://centrifuge.io) ([Proof](https://medium.com/centrifuge/centrifuges-dev-fund-dao-the-lab-7116fce19c43))
 
 - [District0x](https://district0x.io) ([Proof](https://education.district0x.io/district0x-specific-topics/understanding-technology-behind-district0x/aragon/))
+
+- [lexDAO](https://github.com/lexDAO) ([Proof](https://twitter.com/lex_DAO/status/1196201381927047168))
 
 - [Melon Protocol](https://melonprotocol.com/) ([Proof](https://medium.com/melonprotocol/launching-the-melon-council-dao-on-aragonos-42147c86582))
 
