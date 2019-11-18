@@ -74,6 +74,7 @@ nav:
       - Privacy Policy: 'association/legal/Privacy_policy.md'
     - Multisig:
       - Overview: 'association/multisigs/overview.md'
+      - Transparency: 'https://transparency.aragon.org'
       - Association multisig: 'association/multisigs/association.md'
       - Community multisig: 'association/multisigs/community.md'
     - Security:
