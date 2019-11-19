@@ -35,7 +35,7 @@ The bug bounty program is ongoing and has been running since November 25th, 2019
 
 In scope for the bug bounty are all the smart contract components of the Aragon Network. They can be found in the following repositories:
 
-!!! abstract "**Aragon Court** ([v1](https://github.com/aragon/aragon-court/tree/v1.0.0) and [future patch versions](https://github.com/aragon/aragon-court/releases))"
+!!! abstract "**Aragon Court** ([v1](https://github.com/aragon/aragon-court/tree/v1.0.0) and [future minor versions](https://github.com/aragon/aragon-court/releases))"
     Dispute resolution protocol.
 
     - Solidity code under the `contracts` directory:
@@ -43,15 +43,7 @@ In scope for the bug bounty are all the smart contract components of the Aragon 
         - Excluding `contracts/test/`
         - Excluding `contracts/standards/`
 
-!!! abstract "**Aragon Network fundraising** ([v1](https://github.com/aragonone/fundraising/tree/v1.0.0) and [future patch versions](https://github.com/aragonone/fundraising/releases))"
-    Smart contracts for the Aragon Network fundraising process
-
-    - Only the following Solidity contracts:
-        - `apps/presale/contracts/BalanceRedirectPresale.sol`
-        - `templates/multisig/contracts/CourtFundraisingMembershipTemplate.sol`
-        
-
-!!! abstract "**Aragon Network deployment** ([v1](https://github.com/aragon/aragon-network-deploy/tree/v1.0.0) and [future patch versions](https://github.com/aragon/aragon-network-deploy/releases))"
+!!! abstract "**Aragon Network deployment** ([v1](https://github.com/aragon/aragon-network-deploy/tree/v1.0.0) and [future minor versions](https://github.com/aragon/aragon-network-deploy/releases))"
     Deployment commands for the Aragon Network components
     
     - JS code under the `src` directory:
