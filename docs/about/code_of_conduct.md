@@ -4,8 +4,9 @@
 
 - Be kind and empathic towards each other
 - Assume good intentions
-- Keep comments on-topic (note that we have a [#random channel](https://aragon.chat/channel/random) in Aragon Chat for off-topic discussion)
 - Embody the values of the [Aragon Manifesto](https://blog.aragon.org/the-aragon-manifesto-4a21212eac03/)
+- Keep comments on-topic (note that we have a [#random channel](https://aragon.chat/channel/random) in Aragon Chat for off-topic discussion)
+- All comments in Aragon community forums should be in English to preserve understanding in the community, unless a channel or forum is created specifically for the non-English language you would like to post in. If you would like a channel or forum created for your non-English language, and one does not already exist, please contact a moderator in [Argon Chat](https://aragon.chat) or the [Aragon Forum](https://forum.aragon.org/about) and ask.
 
 !!! failure "Unacceptable behaviors"
 
