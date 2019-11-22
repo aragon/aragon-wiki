@@ -146,8 +146,10 @@ nav:
     - Notes template: 'all_aragon_devs/template.md'
     - Running the call: 'all_aragon_devs/running_all_devs.md'
     - Meeting Notes:
+      - November 2019:
+        - 11.11.2019: 'all_aragon_devs/meeting_notes/alldevs20191111.md'
       - October 2019:
-        - 28.10.2019: 'all_aragon_devs/meeting_notes/alldevs20191021.md'
+        - 28.10.2019: 'all_aragon_devs/meeting_notes/alldevs20191028.md'
         - 14.10.2019: 'all_aragon_devs/meeting_notes/alldevs20191014.md'
       - September 2019:
         - 02.09.2019: 'all_aragon_devs/meeting_notes/alldevs20190902.md'
@@ -202,6 +204,8 @@ nav:
     - Meeting notes:
       - Nest Working Group:
         - 17.10.2019: 'working-groups/meeting-notes/nest-wg/NestCall20191017.md'
+        - 14.11.2019: 'working-groups/meeting-notes/nest-wg/Nestcall20191114.md'
+        - 21.11.2019: 'working-groups/meeting-notes/nest-wg/Nestcall20191121.md'
       - Strategy Working Group:
         - 05.07.2019: 'working-groups/meeting-notes/strategy-wg/Strategycall20190705.md'
         - 19.07.2019: 'working-groups/meeting-notes/strategy-wg/Strategycall20190719.md'
@@ -211,6 +215,8 @@ nav:
         - 13.09.2019: 'working-groups/meeting-notes/strategy-wg/Strategycall20190913.md'
         - 27.09.2019: 'working-groups/meeting-notes/strategy-wg/Strategycall20190927.md'
         - 25.10.2019: 'working-groups/meeting-notes/strategy-wg/Strategycall20191025.md'
+        - 08.11.2019: 'working-groups/meeting-notes/strategy-wg/Strategycall20191108.md'
+        - 22.11.2019: 'working-groups/meeting-notes/strategy-wg/Strategycall20191122.md'
       - SDK Working Group:
         - 5.11.2019: 'working-groups/meeting-notes/sdk-wg/SDKcall20191105.md'
         - 31.10.2019: 'working-groups/meeting-notes/sdk-wg/SDKcall20191031.md'
