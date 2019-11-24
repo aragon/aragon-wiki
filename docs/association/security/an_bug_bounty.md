@@ -43,7 +43,7 @@ In scope for the bug bounty are all the smart contract components of the Aragon 
         - Excluding `contracts/test/`
         - Excluding `contracts/standards/`
 
-!!! abstract "**Aragon Network deployment** ([v1](https://github.com/aragon/aragon-network-deploy/tree/v1.0.0) and [future minor versions](https://github.com/aragon/aragon-network-deploy/releases))"
+!!! abstract "**Aragon Network deployment** ([v1](https://github.com/aragon/aragon-network-deploy/tree/rc-1.0.0) and [future minor versions](https://github.com/aragon/aragon-network-deploy/releases))"
     Deployment commands for the Aragon Network components
     
     - JS code under the `src` directory:
