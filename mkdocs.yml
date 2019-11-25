@@ -79,7 +79,9 @@ nav:
       - Community multisig: 'association/multisigs/community.md'
     - Security:
       - Overview: 'association/security/index.md'
-      - Bug Bounty: 'association/security/bug_bounty.md'
+      - Bug Bounties:
+        - Aragon client: 'association/security/client_bug_bounty.md'
+        - Aragon Network: 'association/security/an_bug_bounty.md'
       - Audit reports:
         - aragonOS:
           - Audit 01 by Adam Dossa: 'association/security/audits/audit01_report_dossa.md'

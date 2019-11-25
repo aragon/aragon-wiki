@@ -12,4 +12,4 @@ If you have encountered a bug with the Aragon client or would like to request ad
 
 For responsibly reporting potential security vulnerabilities, please review the instructions in the [security overview](./security/).
 
-Bug bounties are available on any smart contracts supporting the Aragon client. Please visit the [bug bounty page](./security/bug_bounty) for more information.
+Bug bounties are available on any smart contracts supporting the Aragon client. Please visit the [security page](./security/) for more information.
