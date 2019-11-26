@@ -4853,7 +4853,7 @@
 </li>
 <li>Topics<ul>
 <li>updating app parameters from the UI [AA] (optional)</li>
-<li>merging <code class="codehilite"><span class="n">Pool</span></code> and <code class="codehilite"><span class="n">Agent</span></code> [Aragon Black]</li>
+<li>merging <code class="codehilite"><span class="err">Pool</span></code> and <code class="codehilite"><span class="err">Agent</span></code> [Aragon Black]</li>
 </ul>
 </li>
 </ul>
@@ -4864,8 +4864,8 @@
 <ul>
 <li>Aragon client is progressing, full steam ahead on 0.8</li>
 <li>Pierre is working on design system, hoping to get it out as it's blocking the rest of the development</li>
-<li>New table component (<code class="codehilite"><span class="n">DataView</span></code>) will be completed soon</li>
-<li>aragonUI will soon be published on <code class="codehilite"><span class="n">npm</span></code>.</li>
+<li>New table component (<code class="codehilite"><span class="err">DataView</span></code>) will be completed soon</li>
+<li>aragonUI will soon be published on <code class="codehilite"><span class="err">npm</span></code>.</li>
 <li>Most efforts focused on implementing front-end changes. Some contract related work also occurring: templates are being refactored to make them easier to customze in the future.</li>
 <li>Working on Payroll changes based on the audit from Consensys</li>
 <li>Aragon Network: Focusing on last big features - final appeal round with all jurors voting, and subscription fee for organizations that want to use the court. Almost at a stage to be merged. Progress looking good.</li>
@@ -4883,7 +4883,7 @@
 <h4 id="aragon-mesh">Aragon Mesh</h4>
 <p>Last two weeks have been focusing on v6.0 of the cli. Made two major changes:
  * Decoupled IPFS as a dependency. Need to install it manually now. Had some issues previously with IPFS binaries not being available, so this resolves that.
- * <code class="codehilite"><span class="n">aragon</span> <span class="n">apm</span> <span class="n">publish</span></code> -- can review the work before it's published and can do aragon ipfs propagate during the publish process.
+ * <code class="codehilite"><span class="err">aragon apm publish</span></code> -- can review the work before it's published and can do aragon ipfs propagate during the publish process.
 * More details in the changelog:
     * <a href="https://github.com/aragon/aragon-cli/blob/master/CHANGELOG_STABLE_VERSIONS.md">https://github.com/aragon/aragon-cli/blob/master/CHANGELOG_STABLE_VERSIONS.md</a></p>
 <p>Focus for next two weeks:
@@ -4917,12 +4917,12 @@
 <h4 id="updating-app-parameters-from-the-ui">Updating app parameters from the UI</h4>
 <ul>
 <li>Something that could be discussed at a Flock level as far as setting standards for how app parameters are managed in the UI</li>
-<li>Note: modifying parameters has not yet been implemented in the cli (although you can use <code class="codehilite"><span class="nv">dao</span> <span class="k">exec</span></code> to change them)</li>
+<li>Note: modifying parameters has not yet been implemented in the cli (although you can use <code class="codehilite"><span class="err">dao exec</span></code> to change them)</li>
 <li>A1's thoughts: have been toying with the idea of having a "settings" app where you can see application-specific settings all grouped under a single location. Haven't gone too far down this road yet, but the design team is working on solidifying it after 0.8</li>
 </ul>
-<h4 id="merge-poolinto-agent">Merge <code class="codehilite"><span class="n">Pool</span></code>into <code class="codehilite"><span class="n">Agent</span></code></h4>
+<h4 id="merge-poolinto-agent">Merge <code class="codehilite"><span class="err">Pool</span></code>into <code class="codehilite"><span class="err">Agent</span></code></h4>
 <ul>
-<li>Aragon Black has been working on Pool contract for the Fundraising app. Working on a <code class="codehilite"><span class="n">safeExecute</span><span class="p">()</span></code> function which is similar to the <code class="codehilite"><span class="k">execute</span><span class="p">()</span></code> function. Wondering if it makes sense to merge the pool app into the Agent app, as at the end of the day, it is an upgrade of the Agent app.</li>
+<li>Aragon Black has been working on Pool contract for the Fundraising app. Working on a <code class="codehilite"><span class="err">safeExecute()</span></code> function which is similar to the <code class="codehilite"><span class="err">execute()</span></code> function. Wondering if it makes sense to merge the pool app into the Agent app, as at the end of the day, it is an upgrade of the Agent app.</li>
 <li>Brett agrees "there's no reason someone would install the agent app if they had the pool app". The question is how we go about doing this -- should we wait a bit longer for some specs to solidify (EIP 1271 on signature signing).<ul>
 <li>If EPI 1271 is not close to being done at all, we should just merge the two - Jorge agrees.</li>
 </ul>
@@ -4931,7 +4931,7 @@
 <li>UX question: would it confuse people that it's called the "pool" in the documentation. Should it be called agent instead? What does the frontend look like?</li>
 <li>There is no UI or frontend dedicated to the pool. The strategy was to wait for the Agent to have a frontend then to copy it. (See frontend designs for Agent here: <a href="https://www.figma.com/file/P35b0ZnTQAIbObM3yB3HosHm/Agent?node-id=0%3A1">https://www.figma.com/file/P35b0ZnTQAIbObM3yB3HosHm/Agent?node-id=0%3A1</a>)</li>
 <li>The Fundraising frontend always has information of what is stored in the pool; Fundraising can operate independently without users actually interfacing with the Agent.</li>
-<li>Conclusion/strategy: merge the two and try to get Frame to bundle the <code class="codehilite"><span class="n">safeExecute</span><span class="p">()</span></code> action.</li>
+<li>Conclusion/strategy: merge the two and try to get Frame to bundle the <code class="codehilite"><span class="err">safeExecute()</span></code> action.</li>
 </ul>
 <h3 id="attendance">Attendance</h3>
 <p>Aragon Black: Olivier, Xavier, Deam</p>

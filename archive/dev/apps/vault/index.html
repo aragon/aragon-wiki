@@ -4575,17 +4575,17 @@
 <p>Granting permissions to execute functions on the Vault must be done extremely carefully (it can cause irreversible leak of funds) and ideally only other trusted smart contracts (e.g. Finance app) should have access to it.</p>
 <h3 id="functions">Functions</h3>
 <h4 id="requesting-allowance">Requesting allowance</h4>
-<div class="codehilite"><pre><span></span><span class="n">vault</span><span class="p">.</span><span class="n">requestAllowance</span><span class="p">(</span><span class="n">ERC20</span> <span class="n">token</span><span class="p">,</span> <span class="n">uint256</span> <span class="n">amount</span><span class="p">)</span>
+<div class="codehilite"><pre><span></span><span class="err">vault.requestAllowance(ERC20 token, uint256 amount)</span>
 </pre></div>
 
-<p>Grants the sender of the call the ability to spend <code class="codehilite"><span class="n">amount</span></code> tokens out of the Vault's <code class="codehilite"><span class="n">token</span></code> balance whenever the sender decides. Under the hood it performs a ERC20 approve on the token.</p>
-<p>This is useful because an entity can request an allowance once from the Vault and then spend it in chunks (by executing multiple <code class="codehilite"><span class="n">transferFrom</span></code>)</p>
+<p>Grants the sender of the call the ability to spend <code class="codehilite"><span class="err">amount</span></code> tokens out of the Vault's <code class="codehilite"><span class="err">token</span></code> balance whenever the sender decides. Under the hood it performs a ERC20 approve on the token.</p>
+<p>This is useful because an entity can request an allowance once from the Vault and then spend it in chunks (by executing multiple <code class="codehilite"><span class="err">transferFrom</span></code>)</p>
 <p>However, allowing an entity to use this function could be dangerous as once an entity has requested an allowance, it will have it perpetually (until it spends it or requests an allowance of 0 tokens) even if permissions are revoked to the entity.</p>
 <h4 id="transfer-tokens">Transfer tokens</h4>
-<div class="codehilite"><pre><span></span><span class="n">vault</span><span class="p">.</span><span class="n">transferTokens</span><span class="p">(</span><span class="n">ERC20</span> <span class="n">token</span><span class="p">,</span> <span class="n">address</span> <span class="n">receiver</span><span class="p">,</span> <span class="n">uint256</span> <span class="n">amount</span><span class="p">)</span>
+<div class="codehilite"><pre><span></span><span class="err">vault.transferTokens(ERC20 token, address receiver, uint256 amount)</span>
 </pre></div>
 
-<p>Performs a direct ERC20 transfer of <code class="codehilite"><span class="n">token</span></code>, sending the specified <code class="codehilite"><span class="n">amount</span></code> to <code class="codehilite"><span class="n">receiver</span></code></p>
+<p>Performs a direct ERC20 transfer of <code class="codehilite"><span class="err">token</span></code>, sending the specified <code class="codehilite"><span class="err">amount</span></code> to <code class="codehilite"><span class="err">receiver</span></code></p>
                 
                   
                 

@@ -4692,7 +4692,7 @@
 <p class="admonition-title"><strong>Low</strong> (CVSS 1.0 - 3.9)</p>
 <p><span><span class="MathJax_Preview">500-</span><script type="math/tex">500-</script></span>1,000</p>
 </div>
-<p>Rewards will be awarded at the sole discretion of the Aragon Association. Quality of the report and reproduction instructions can impact the reward. Rewards will be paid out in ETH.</p>
+<p>Rewards will be awarded at the sole discretion of the Aragon Association. Quality of the report and reproduction instructions can impact the reward. Rewards are denominated in USD and will be paid out in ETH.</p>
 <p>For this initial bug bounty program, there is a <strong>maximum bounty pool of $250,000</strong>.</p>
 <p>The bug bounty program is ongoing and has ran since October 17<sup>th</sup>, 2018.</p>
 <h2 id="reporting">Reporting</h2>
@@ -4707,9 +4707,9 @@
 <p class="admonition-title"><strong>aragonOS 4</strong> (<a href="https://github.com/aragon/aragonOS/tree/v4.0.0">https://github.com/aragon/aragonOS@4.0.0</a> and <a href="https://github.com/aragon/aragonOS/releases">future patch versions</a>)</p>
 <p>Smart contract framework and the core of the system.</p>
 <ul>
-<li>Solidity code under the <code class="codehilite"><span class="n">contracts</span></code> directory:<ul>
-<li>Excluding <code class="codehilite"><span class="n">contracts</span><span class="o">/</span><span class="n">lib</span><span class="o">/</span><span class="n">ens</span></code> contracts</li>
-<li>Excluding <code class="codehilite"><span class="n">contracts</span><span class="o">/</span><span class="n">test</span><span class="o">/</span></code></li>
+<li>Solidity code under the <code class="codehilite"><span class="err">contracts</span></code> directory:<ul>
+<li>Excluding <code class="codehilite"><span class="err">contracts/lib/ens</span></code> contracts</li>
+<li>Excluding <code class="codehilite"><span class="err">contracts/test/</span></code></li>
 </ul>
 </li>
 </ul>
@@ -4718,19 +4718,19 @@
 <p class="admonition-title"><strong>aragon-apps</strong> (<a href="https://github.com/aragon/aragon-apps/tree/master">https://github.com/aragon/aragon-apps</a> on the <a href="https://github.com/aragon/aragon-apps/tree/master">master branch</a>)</p>
 <p>Contracts for Aragon apps developed by the Aragon Association and are installed by default in most Aragon organizations.</p>
 <ul>
-<li>Solidity code under <code class="codehilite"><span class="n">apps</span><span class="cm">/**/</span><span class="n">contracts</span></code> (<code class="codehilite"><span class="n">finance</span></code>, <code class="codehilite"><span class="n">token</span><span class="o">-</span><span class="n">manager</span></code>, <code class="codehilite"><span class="n">survey</span></code>, <code class="codehilite"><span class="n">vault</span></code>, <code class="codehilite"><span class="n">voting</span></code>)<ul>
-<li>Excluding <code class="codehilite"><span class="n">contracts</span><span class="o">/</span><span class="n">test</span></code> and <code class="codehilite"><span class="n">contracts</span><span class="o">/</span><span class="n">example</span></code></li>
+<li>Solidity code under <code class="codehilite"><span class="err">apps/**/contracts</span></code> (<code class="codehilite"><span class="err">finance</span></code>, <code class="codehilite"><span class="err">token-manager</span></code>, <code class="codehilite"><span class="err">survey</span></code>, <code class="codehilite"><span class="err">vault</span></code>, <code class="codehilite"><span class="err">voting</span></code>)<ul>
+<li>Excluding <code class="codehilite"><span class="err">contracts/test</span></code> and <code class="codehilite"><span class="err">contracts/example</span></code></li>
 </ul>
 </li>
-<li>Solidity code under <code class="codehilite"><span class="n">shared</span><span class="o">/</span><span class="n">minime</span><span class="o">/</span><span class="n">contracts</span></code></li>
+<li>Solidity code under <code class="codehilite"><span class="err">shared/minime/contracts</span></code></li>
 </ul>
 </div>
 <div class="admonition abstract">
 <p class="admonition-title"><strong>dao-templates</strong> (<a href="https://github.com/aragon/dao-templates/tree/master">https://github.com/aragon/dao-templates</a> on the <a href="https://github.com/aragon/dao-templates/tree/master">master branch</a>, <a href="https://github.com/aragon/dao-templates/tree/aragon-v0.6">Aragon 0.6 tag</a>, and <a href="https://github.com/aragon/dao-templates/tree/aragon-v0.7">Aragon 0.7 tag</a>)</p>
 <p>On-chain deployment templates for Aragon DAOs.</p>
 <ul>
-<li>Solidity code in the <code class="codehilite"><span class="n">templates</span><span class="cm">/**/</span><span class="n">contracts</span></code> and <code class="codehilite"><span class="n">shared</span><span class="o">/</span><span class="n">contracts</span><span class="o">/</span></code><ul>
-<li>Excluding <code class="codehilite"><span class="n">templates</span><span class="cm">/**/</span><span class="n">contracts</span><span class="o">/</span><span class="n">test</span></code> and <code class="codehilite"><span class="n">shared</span><span class="o">/</span><span class="n">contracts</span><span class="o">/</span><span class="n">test</span></code></li>
+<li>Solidity code in the <code class="codehilite"><span class="err">templates/**/contracts</span></code> and <code class="codehilite"><span class="err">shared/contracts/</span></code><ul>
+<li>Excluding <code class="codehilite"><span class="err">templates/**/contracts/test</span></code> and <code class="codehilite"><span class="err">shared/contracts/test</span></code></li>
 </ul>
 </li>
 </ul>

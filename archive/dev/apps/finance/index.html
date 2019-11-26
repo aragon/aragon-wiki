@@ -4735,22 +4735,22 @@
 <h4 id="deposits">Deposits</h4>
 <p>Two deposit mechanisms are supported:</p>
 <h5 id="erc20">ERC20</h5>
-<div class="codehilite"><pre><span></span><span class="n">token</span><span class="p">.</span><span class="n">approve</span><span class="p">(</span><span class="n">finance</span><span class="p">,</span> <span class="n">amount</span><span class="p">)</span>
-<span class="n">finance</span><span class="p">.</span><span class="n">deposit</span><span class="p">(</span><span class="n">token</span><span class="p">,</span> <span class="n">amount</span><span class="p">,</span> <span class="n">string</span> <span class="n">reference</span><span class="p">)</span>
+<div class="codehilite"><pre><span></span><span class="err">token.approve(finance, amount)</span>
+<span class="err">finance.deposit(token, amount, string reference)</span>
 </pre></div>
 
-<p>After doing an ERC20 approval with the Finance app as spender, calling <code class="codehilite"><span class="n">deposit</span><span class="p">(...)</span></code> will create an incoming transaction saving the reference string.</p>
+<p>After doing an ERC20 approval with the Finance app as spender, calling <code class="codehilite"><span class="err">deposit(...)</span></code> will create an incoming transaction saving the reference string.</p>
 <h5 id="erc677">ERC677</h5>
-<div class="codehilite"><pre><span></span><span class="n">token</span><span class="p">.</span><span class="n">transferAndCall</span><span class="p">(</span><span class="n">finance</span><span class="p">,</span> <span class="n">amount</span><span class="p">,</span> <span class="n">string</span> <span class="n">reference</span><span class="p">)</span>
+<div class="codehilite"><pre><span></span><span class="err">token.transferAndCall(finance, amount, string reference)</span>
 </pre></div>
 
-<p>Performing a ERC677 <code class="codehilite"><span class="n">transferAndCall</span><span class="p">(...)</span></code> to the Finance app will also trigger a deposit (intercepted with the <code class="codehilite"><span class="n">tokenFallback</span></code>). The data passed as payload to transferAndCall is used directly as the reference for the deposit.</p>
-<p>Given that aragonOS' EtherToken implementation conforms to ERC677, depositing Ether to the Finance app can be done by wrapping the ether using <code class="codehilite"><span class="n">etherToken</span><span class="p">.</span><span class="n">wrap</span><span class="p">()</span></code> and then doing a <code class="codehilite"><span class="n">transferAndCall</span><span class="p">(...)</span></code> or using the shortcut <code class="codehilite"><span class="n">wrapAndCall</span><span class="p">(...)</span></code> which performs both actions.</p>
+<p>Performing a ERC677 <code class="codehilite"><span class="err">transferAndCall(...)</span></code> to the Finance app will also trigger a deposit (intercepted with the <code class="codehilite"><span class="err">tokenFallback</span></code>). The data passed as payload to transferAndCall is used directly as the reference for the deposit.</p>
+<p>Given that aragonOS' EtherToken implementation conforms to ERC677, depositing Ether to the Finance app can be done by wrapping the ether using <code class="codehilite"><span class="err">etherToken.wrap()</span></code> and then doing a <code class="codehilite"><span class="err">transferAndCall(...)</span></code> or using the shortcut <code class="codehilite"><span class="err">wrapAndCall(...)</span></code> which performs both actions.</p>
 <p>Please note that this section is subject to change as the <a href="https://github.com/ethereum/EIPs/issues/677">ERC677 discussion</a> evolves.</p>
 <h3 id="payments_1">Payments</h3>
 <p>Depending on the parameters a payment is created with, it can be an instant one time payment, a recurrent payment for payroll or a scheduled payment.</p>
 <h4 id="creating-payment">Creating payment</h4>
-<div class="codehilite"><pre><span></span><span class="n">finance</span><span class="p">.</span><span class="n">newPayment</span><span class="p">(...)</span>
+<div class="codehilite"><pre><span></span><span class="err">finance.newPayment(...)</span>
 </pre></div>
 
 <p>A payment is created with the following parameters:</p>
@@ -4766,8 +4766,8 @@
 <p>If a payment is created that won't be repeated ever again, and already was executed, only an outgoing transaction is recorded to save storage.</p>
 <p>A payment can have a past <strong>initial payment time</strong>, which could cause many instances of the recurring payment to be executed at payment creation time.</p>
 <h4 id="executing-payment">Executing payment</h4>
-<div class="codehilite"><pre><span></span><span class="n">finance</span><span class="p">.</span><span class="n">executePayment</span><span class="p">(</span><span class="n">uint256</span> <span class="n">_paymentId</span><span class="p">)</span>
-<span class="n">finance</span><span class="p">.</span><span class="n">receiverExecutePayment</span><span class="p">(</span><span class="n">uint256</span> <span class="n">_paymentId</span><span class="p">)</span>
+<div class="codehilite"><pre><span></span><span class="err">finance.executePayment(uint256 _paymentId)</span>
+<span class="err">finance.receiverExecutePayment(uint256 _paymentId)</span>
 </pre></div>
 
 <p>Payment execution will transfer the recipient of a payment the amount due depending on the current time. A single execution can result in multiple transactions if the payment hasn't been executed in time. To prevent it going out of gas when many transfers are due, a maximum amount of transfers are performed per execution (multiple executions could be needed in some instances).</p>
@@ -4775,31 +4775,31 @@
 <p>For payments whose token is the known EtherToken, instead of doing a token transfer, it will directly transfer ether to the recipient.</p>
 <p>A payment execution can fail in case the organization is out of budget for the payment token for that particular accounting period, or the organization doesn't have enough token balance.</p>
 <h4 id="disabling-payments">Disabling payments</h4>
-<div class="codehilite"><pre><span></span><span class="n">finance</span><span class="p">.</span><span class="n">setPaymentDisabled</span><span class="p">(</span><span class="n">uint256</span> <span class="n">_paymentId</span><span class="p">,</span> <span class="n">bool</span> <span class="n">_disabled</span><span class="p">)</span>
+<div class="codehilite"><pre><span></span><span class="err">finance.setPaymentDisabled(uint256 _paymentId, bool _disabled)</span>
 </pre></div>
 
 <p>At any time, a payment can be disabled by an authorized entity. If a payment hasn't been fully executed until that time and it is disabled, the recipient won't be able to execute it until it is enabled again.</p>
 <h3 id="periods">Periods</h3>
 <h4 id="setting-duration">Setting duration</h4>
-<div class="codehilite"><pre><span></span><span class="n">finance</span><span class="p">.</span><span class="n">setPeriodDuration</span><span class="p">(</span><span class="n">uint64</span> <span class="n">_periodDuration</span><span class="p">)</span>
+<div class="codehilite"><pre><span></span><span class="err">finance.setPeriodDuration(uint64 _periodDuration)</span>
 </pre></div>
 
 <p>Sets the period duration for next periods. The current period duration cannot be modified.</p>
 <h4 id="setting-budget">Setting budget</h4>
-<div class="codehilite"><pre><span></span><span class="n">finance</span><span class="p">.</span><span class="n">setBudget</span><span class="p">(</span><span class="n">ERC20</span> <span class="n">_token</span><span class="p">,</span> <span class="n">uint256</span> <span class="n">_amount</span><span class="p">)</span>
+<div class="codehilite"><pre><span></span><span class="err">finance.setBudget(ERC20 _token, uint256 _amount)</span>
 </pre></div>
 
 <p>Updates the budget of a token for accounting periods. Newly set budget is automatically enforced for the current period.</p>
 <h4 id="removing-budget">Removing budget</h4>
-<div class="codehilite"><pre><span></span><span class="n">finance</span><span class="p">.</span><span class="n">removeBudget</span><span class="p">(</span><span class="n">ERC20</span> <span class="n">_token</span><span class="p">)</span>
+<div class="codehilite"><pre><span></span><span class="err">finance.removeBudget(ERC20 _token)</span>
 </pre></div>
 
 <p>Removes budget for a token, allowing unlimited spending of that token in any period. Removing budget affects the current period.</p>
 <h4 id="transitioning-periods">Transitioning periods</h4>
-<div class="codehilite"><pre><span></span><span class="n">finance</span><span class="p">.</span><span class="n">tryTransitionAccountingPeriod</span><span class="p">(</span><span class="n">uint</span> <span class="n">ttl</span><span class="p">)</span>
+<div class="codehilite"><pre><span></span><span class="err">finance.tryTransitionAccountingPeriod(uint ttl)</span>
 </pre></div>
 
-<p>All operations that can result in the creation of a transaction (creating a payment, executing a payment, performing a deposit) first check whether the accounting period needs to be transitioned (previous period has end time has passed) or it can be triggered manually by calling <code class="codehilite"><span class="n">tryTransitionAccountingPeriod</span><span class="p">(...)</span></code>.</p>
+<p>All operations that can result in the creation of a transaction (creating a payment, executing a payment, performing a deposit) first check whether the accounting period needs to be transitioned (previous period has end time has passed) or it can be triggered manually by calling <code class="codehilite"><span class="err">tryTransitionAccountingPeriod(...)</span></code>.</p>
 <p>If many periods passed (last operation occurred two periods ago, but never transitioned), an empty period is created for every one of them.</p>
 <p>To prevent the case in which the Finance app cannot perform any operation because it needs to transition too many accounting periods, causing any operation to go out of gas, transitioning periods has a parameter for how many periods it will transition. Automatic transitions will only perform 10 transitions maximum, and if more were needed the operation will fail. In case this lock occurs and periods cannot be automatically transitioned, multiple period transitions operations can be triggered manually to remove the lockup.</p>
 <h3 id="limitations">Limitations</h3>

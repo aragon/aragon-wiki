@@ -5090,15 +5090,15 @@
                 
                 <h1 id="aragon-project-wiki-additional-features">Aragon Project Wiki Additional Features</h1>
 <h2 id="feature-blocks">Feature blocks</h2>
-<p>Feature blocks follow a simple syntax: every block is started with <code class="codehilite"><span class="o">!!!</span></code>,
+<p>Feature blocks follow a simple syntax: every block is started with <code class="codehilite"><span class="err">!!!</span></code>,
 followed by a single keyword which is used as the type qualifier of the
 block. The content of the block then follows on the next line, indented by
 four spaces.</p>
 <p>Example:</p>
-<div class="codehilite"><pre><span></span><span class="o">!!!</span> <span class="n">note</span>
-    <span class="n">Lorem</span> <span class="n">ipsum</span> <span class="n">dolor</span> <span class="n">sit</span> <span class="n">amet</span><span class="p">,</span> <span class="n">consectetur</span> <span class="n">adipiscing</span> <span class="n">elit</span><span class="p">.</span> <span class="n">Nulla</span> <span class="n">et</span> <span class="n">euismod</span>
-    <span class="n">nulla</span><span class="p">.</span> <span class="n">Curabitur</span> <span class="n">feugiat</span><span class="p">,</span> <span class="n">tortor</span> <span class="n">non</span> <span class="n">consequat</span> <span class="n">finibus</span><span class="p">,</span> <span class="n">justo</span> <span class="n">purus</span> <span class="n">auctor</span>
-    <span class="n">massa</span><span class="p">,</span> <span class="n">nec</span> <span class="n">semper</span> <span class="n">lorem</span> <span class="n">quam</span> <span class="k">in</span> <span class="n">massa</span><span class="p">.</span>
+<div class="codehilite"><pre><span></span><span class="err">!!! note</span>
+<span class="err">    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod</span>
+<span class="err">    nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor</span>
+<span class="err">    massa, nec semper lorem quam in massa.</span>
 </pre></div>
 
 <p>Result:</p>
@@ -5111,8 +5111,8 @@ massa, nec semper lorem quam in massa.</p>
 <h3 id="types">Types</h3>
 <h4 id="note">Note</h4>
 <p>Example:</p>
-<div class="codehilite"><pre><span></span><span class="o">!!!</span> <span class="n">note</span>
-    <span class="n">Lorem</span> <span class="n">ipsum</span> <span class="n">dolor</span> <span class="n">sit</span> <span class="n">amet</span><span class="p">,</span> <span class="n">consectetur</span> <span class="n">adipiscing</span> <span class="n">elit</span><span class="p">.</span>
+<div class="codehilite"><pre><span></span><span class="err">!!! note</span>
+<span class="err">    Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
 </pre></div>
 
 <p>Result:</p>
@@ -5122,8 +5122,8 @@ massa, nec semper lorem quam in massa.</p>
 </div>
 <h4 id="abstract">Abstract</h4>
 <p>Example:</p>
-<div class="codehilite"><pre><span></span><span class="o">!!!</span> <span class="n">abstract</span> <span class="o">/</span> <span class="n">summary</span> <span class="o">/</span> <span class="n">tldr</span>
-    <span class="n">Lorem</span> <span class="n">ipsum</span> <span class="n">dolor</span> <span class="n">sit</span> <span class="n">amet</span><span class="p">,</span> <span class="n">consectetur</span> <span class="n">adipiscing</span> <span class="n">elit</span><span class="p">.</span>
+<div class="codehilite"><pre><span></span><span class="err">!!! abstract / summary / tldr</span>
+<span class="err">    Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
 </pre></div>
 
 <p>Result:</p>
@@ -5133,8 +5133,8 @@ massa, nec semper lorem quam in massa.</p>
 </div>
 <h4 id="info">Info</h4>
 <p>Example:</p>
-<div class="codehilite"><pre><span></span><span class="o">!!!</span> <span class="n">info</span> <span class="o">/</span> <span class="n">todo</span>
-    <span class="n">Lorem</span> <span class="n">ipsum</span> <span class="n">dolor</span> <span class="n">sit</span> <span class="n">amet</span><span class="p">,</span> <span class="n">consectetur</span> <span class="n">adipiscing</span> <span class="n">elit</span><span class="p">.</span>
+<div class="codehilite"><pre><span></span><span class="err">!!! info / todo</span>
+<span class="err">    Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
 </pre></div>
 
 <p>Result:</p>
@@ -5144,8 +5144,8 @@ massa, nec semper lorem quam in massa.</p>
 </div>
 <h4 id="tip">Tip</h4>
 <p>Example:</p>
-<div class="codehilite"><pre><span></span><span class="o">!!!</span> <span class="n">tip</span> <span class="o">/</span> <span class="n">hint</span>
-    <span class="n">Lorem</span> <span class="n">ipsum</span> <span class="n">dolor</span> <span class="n">sit</span> <span class="n">amet</span><span class="p">,</span> <span class="n">consectetur</span> <span class="n">adipiscing</span> <span class="n">elit</span><span class="p">.</span>
+<div class="codehilite"><pre><span></span><span class="err">!!! tip / hint</span>
+<span class="err">    Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
 </pre></div>
 
 <p>Result:</p>
@@ -5155,8 +5155,8 @@ massa, nec semper lorem quam in massa.</p>
 </div>
 <h4 id="success">Success</h4>
 <p>Example:</p>
-<div class="codehilite"><pre><span></span><span class="o">!!!</span> <span class="n">success</span> <span class="o">/</span> <span class="k">check</span> <span class="o">/</span> <span class="n">done</span>
-    <span class="n">Lorem</span> <span class="n">ipsum</span> <span class="n">dolor</span> <span class="n">sit</span> <span class="n">amet</span><span class="p">,</span> <span class="n">consectetur</span> <span class="n">adipiscing</span> <span class="n">elit</span><span class="p">.</span>
+<div class="codehilite"><pre><span></span><span class="err">!!! success / check / done</span>
+<span class="err">    Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
 </pre></div>
 
 <p>Result:</p>
@@ -5166,8 +5166,8 @@ massa, nec semper lorem quam in massa.</p>
 </div>
 <h4 id="question">Question</h4>
 <p>Example:</p>
-<div class="codehilite"><pre><span></span><span class="o">!!!</span> <span class="n">question</span> <span class="o">/</span> <span class="n">help</span> <span class="o">/</span> <span class="n">faq</span>
-    <span class="n">Lorem</span> <span class="n">ipsum</span> <span class="n">dolor</span> <span class="n">sit</span> <span class="n">amet</span><span class="p">,</span> <span class="n">consectetur</span> <span class="n">adipiscing</span> <span class="n">elit</span><span class="p">.</span>
+<div class="codehilite"><pre><span></span><span class="err">!!! question / help / faq</span>
+<span class="err">    Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
 </pre></div>
 
 <p>Result:</p>
@@ -5177,8 +5177,8 @@ massa, nec semper lorem quam in massa.</p>
 </div>
 <h4 id="warning">Warning</h4>
 <p>Example:</p>
-<div class="codehilite"><pre><span></span><span class="o">!!!</span> <span class="n">warning</span> <span class="o">/</span> <span class="n">caution</span> <span class="o">/</span> <span class="n">attention</span>
-    <span class="n">Lorem</span> <span class="n">ipsum</span> <span class="n">dolor</span> <span class="n">sit</span> <span class="n">amet</span><span class="p">,</span> <span class="n">consectetur</span> <span class="n">adipiscing</span> <span class="n">elit</span><span class="p">.</span>
+<div class="codehilite"><pre><span></span><span class="err">!!! warning / caution / attention</span>
+<span class="err">    Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
 </pre></div>
 
 <p>Result:</p>
@@ -5188,8 +5188,8 @@ massa, nec semper lorem quam in massa.</p>
 </div>
 <h4 id="failure">Failure</h4>
 <p>Example:</p>
-<div class="codehilite"><pre><span></span><span class="o">!!!</span> <span class="n">failure</span> <span class="o">/</span> <span class="n">fail</span> <span class="o">/</span> <span class="n">missing</span>
-    <span class="n">Lorem</span> <span class="n">ipsum</span> <span class="n">dolor</span> <span class="n">sit</span> <span class="n">amet</span><span class="p">,</span> <span class="n">consectetur</span> <span class="n">adipiscing</span> <span class="n">elit</span><span class="p">.</span>
+<div class="codehilite"><pre><span></span><span class="err">!!! failure / fail / missing</span>
+<span class="err">    Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
 </pre></div>
 
 <p>Result:</p>
@@ -5199,8 +5199,8 @@ massa, nec semper lorem quam in massa.</p>
 </div>
 <h4 id="danger">Danger</h4>
 <p>Example:</p>
-<div class="codehilite"><pre><span></span><span class="o">!!!</span> <span class="n">danger</span> <span class="o">/</span> <span class="n">error</span>
-    <span class="n">Lorem</span> <span class="n">ipsum</span> <span class="n">dolor</span> <span class="n">sit</span> <span class="n">amet</span><span class="p">,</span> <span class="n">consectetur</span> <span class="n">adipiscing</span> <span class="n">elit</span><span class="p">.</span>
+<div class="codehilite"><pre><span></span><span class="err">!!! danger / error</span>
+<span class="err">    Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
 </pre></div>
 
 <p>Result:</p>
@@ -5210,8 +5210,8 @@ massa, nec semper lorem quam in massa.</p>
 </div>
 <h4 id="bug">Bug</h4>
 <p>Example:</p>
-<div class="codehilite"><pre><span></span><span class="o">!!!</span> <span class="n">bug</span>
-    <span class="n">Lorem</span> <span class="n">ipsum</span> <span class="n">dolor</span> <span class="n">sit</span> <span class="n">amet</span><span class="p">,</span> <span class="n">consectetur</span> <span class="n">adipiscing</span> <span class="n">elit</span><span class="p">.</span>
+<div class="codehilite"><pre><span></span><span class="err">!!! bug</span>
+<span class="err">    Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
 </pre></div>
 
 <p>Result:</p>
@@ -5221,8 +5221,8 @@ massa, nec semper lorem quam in massa.</p>
 </div>
 <h4 id="example">Example</h4>
 <p>Example:</p>
-<div class="codehilite"><pre><span></span><span class="o">!!!</span> <span class="n">example</span> <span class="o">/</span> <span class="n">snippet</span>
-    <span class="n">Lorem</span> <span class="n">ipsum</span> <span class="n">dolor</span> <span class="n">sit</span> <span class="n">amet</span><span class="p">,</span> <span class="n">consectetur</span> <span class="n">adipiscing</span> <span class="n">elit</span><span class="p">.</span>
+<div class="codehilite"><pre><span></span><span class="err">!!! example / snippet</span>
+<span class="err">    Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
 </pre></div>
 
 <p>Result:</p>
@@ -5232,8 +5232,8 @@ massa, nec semper lorem quam in massa.</p>
 </div>
 <h4 id="quote">Quote</h4>
 <p>Example:</p>
-<div class="codehilite"><pre><span></span><span class="o">!!!</span> <span class="n">quote</span> <span class="o">/</span> <span class="n">cite</span>
-    <span class="n">Lorem</span> <span class="n">ipsum</span> <span class="n">dolor</span> <span class="n">sit</span> <span class="n">amet</span><span class="p">,</span> <span class="n">consectetur</span> <span class="n">adipiscing</span> <span class="n">elit</span><span class="p">.</span>
+<div class="codehilite"><pre><span></span><span class="err">!!! quote / cite</span>
+<span class="err">    Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
 </pre></div>
 
 <p>Result:</p>
@@ -5245,8 +5245,8 @@ massa, nec semper lorem quam in massa.</p>
 <p>By default, the block title will equal the type qualifier in titlecase. However,
 it can easily be changed by adding a quoted string after the type qualifier.</p>
 <p>Example:</p>
-<div class="codehilite"><pre><span></span><span class="o">!!!</span> <span class="n">note</span> <span class="ss">&quot;Phasellus posuere in sem ut cursus&quot;</span>
-    <span class="n">Lorem</span> <span class="n">ipsum</span> <span class="n">dolor</span> <span class="n">sit</span> <span class="n">amet</span><span class="p">,</span> <span class="n">consectetur</span> <span class="n">adipiscing</span> <span class="n">elit</span><span class="p">.</span>
+<div class="codehilite"><pre><span></span><span class="err">!!! note &quot;Phasellus posuere in sem ut cursus&quot;</span>
+<span class="err">    Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
 </pre></div>
 
 <p>Result:</p>
@@ -5258,8 +5258,8 @@ it can easily be changed by adding a quoted string after the type qualifier.</p>
 <p>Similar to setting a custom title, the icon and title can be omitted by
 providing an empty string after the type qualifier:</p>
 <p>Example:</p>
-<div class="codehilite"><pre><span></span><span class="o">!!!</span> <span class="n">note</span> <span class="ss">&quot;&quot;</span>
-    <span class="n">Lorem</span> <span class="n">ipsum</span> <span class="n">dolor</span> <span class="n">sit</span> <span class="n">amet</span><span class="p">,</span> <span class="n">consectetur</span> <span class="n">adipiscing</span> <span class="n">elit</span><span class="p">.</span>
+<div class="codehilite"><pre><span></span><span class="err">!!! note &quot;&quot;</span>
+<span class="err">    Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
 </pre></div>
 
 <p>Result:</p>
@@ -5310,7 +5310,7 @@ followed by an arbitrary label which may contain numeric identifiers [1, 2, 3,
 ...] or names [Granovetter et al. 1998]. The rendered references are always
 consecutive superscripted numbers.</p>
 <p>Example:</p>
-<div class="codehilite"><pre><span></span><span class="n">Lorem</span> <span class="n">ipsum</span><span class="p">[</span><span class="o">^</span><span class="mi">1</span><span class="p">]</span> <span class="n">dolor</span> <span class="n">sit</span> <span class="n">amet</span><span class="p">,</span> <span class="n">consectetur</span> <span class="n">adipiscing</span> <span class="n">elit</span><span class="p">.[</span><span class="o">^</span><span class="mi">2</span><span class="p">]</span>
+<div class="codehilite"><pre><span></span><span class="err">Lorem ipsum[^1] dolor sit amet, consectetur adipiscing elit.[^2]</span>
 </pre></div>
 
 <p>Result:</p>
@@ -5323,7 +5323,7 @@ backlink is automatically added to the footnote reference.</p>
 <h5 id="on-a-single-line">on a single line</h5>
 <p>Short statements can be written on the same line.</p>
 <p>Example:</p>
-<div class="codehilite"><pre><span></span><span class="p">[</span><span class="o">^</span><span class="mi">1</span><span class="p">]:</span> <span class="n">Lorem</span> <span class="n">ipsum</span> <span class="n">dolor</span> <span class="n">sit</span> <span class="n">amet</span><span class="p">,</span> <span class="n">consectetur</span> <span class="n">adipiscing</span> <span class="n">elit</span><span class="p">.</span>
+<div class="codehilite"><pre><span></span><span class="err">[^1]: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
 </pre></div>
 
 <p>Result:</p>
@@ -5334,10 +5334,10 @@ backlink is automatically added to the footnote reference.</p>
 <p>Paragraphs should be written on the next line. As with all Markdown blocks, the
 content must be indented by four spaces.</p>
 <p>Example:</p>
-<div class="codehilite"><pre><span></span><span class="p">[</span><span class="o">^</span><span class="mi">2</span><span class="p">]:</span>
-    <span class="n">Lorem</span> <span class="n">ipsum</span> <span class="n">dolor</span> <span class="n">sit</span> <span class="n">amet</span><span class="p">,</span> <span class="n">consectetur</span> <span class="n">adipiscing</span> <span class="n">elit</span><span class="p">.</span> <span class="n">Nulla</span> <span class="n">et</span> <span class="n">euismod</span>
-    <span class="n">nulla</span><span class="p">.</span> <span class="n">Curabitur</span> <span class="n">feugiat</span><span class="p">,</span> <span class="n">tortor</span> <span class="n">non</span> <span class="n">consequat</span> <span class="n">finibus</span><span class="p">,</span> <span class="n">justo</span> <span class="n">purus</span> <span class="n">auctor</span>
-    <span class="n">massa</span><span class="p">,</span> <span class="n">nec</span> <span class="n">semper</span> <span class="n">lorem</span> <span class="n">quam</span> <span class="k">in</span> <span class="n">massa</span><span class="p">.</span>
+<div class="codehilite"><pre><span></span><span class="err">[^2]:</span>
+<span class="err">    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod</span>
+<span class="err">    nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor</span>
+<span class="err">    massa, nec semper lorem quam in massa.</span>
 </pre></div>
 
 <p>Result:</p>
@@ -5347,7 +5347,7 @@ content must be indented by four spaces.</p>
 <div class="admonition quote">
 <h2 id="equations">Equations</h2>
 <h3 id="blocks">Blocks</h3>
-<p>Blocks are enclosed in <code class="codehilite"><span class="err">$$</span><span class="p">...</span><span class="err">$$</span></code> which are placed on separate lines.</p>
+<p>Blocks are enclosed in <code class="codehilite"><span class="err">$$...$$</span></code> which are placed on separate lines.</p>
 <div class="codehilite"><pre><span></span><span class="sb">$$</span><span class="nb"></span>
 <span class="nv">\frac</span><span class="nb">{n</span><span class="o">!</span><span class="nb">}{k</span><span class="o">!(</span><span class="nb">n</span><span class="o">-</span><span class="nb">k</span><span class="o">)!</span><span class="nb">} </span><span class="o">=</span><span class="nb"> </span><span class="nv">\binom</span><span class="nb">{n}{k}</span>
 <span class="s">$$</span>
@@ -5376,7 +5376,7 @@ content must be indented by four spaces.</p>
 </div>
 <div class="admonition quote">
 <h2 id="tasklists">Tasklists</h2>
-<p>Tasklists are useful for keeping track of tasks and showing what has been done and has yet to be done. Checkbox lists are like regular lists, but prefixed with <code class="codehilite"><span class="p">[</span> <span class="p">]</span></code> for empty or <code class="codehilite"><span class="o">[</span><span class="n">x</span><span class="o">]</span><span class="w"></span></code> for filled checkboxes.</p>
+<p>Tasklists are useful for keeping track of tasks and showing what has been done and has yet to be done. Checkbox lists are like regular lists, but prefixed with <code class="codehilite"><span class="err">[ ]</span></code> for empty or <code class="codehilite"><span class="o">[</span><span class="n">x</span><span class="o">]</span><span class="w"></span></code> for filled checkboxes.</p>
 <p>Example:</p>
 <div class="codehilite"><pre><span></span><span class="o">-</span><span class="w"> </span><span class="o">[</span><span class="n">x</span><span class="o">]</span><span class="w"> </span><span class="n">Lorem</span><span class="w"> </span><span class="n">ipsum</span><span class="w"> </span><span class="n">dolor</span><span class="w"> </span><span class="n">sit</span><span class="w"> </span><span class="n">amet</span><span class="p">,</span><span class="w"> </span><span class="n">consectetur</span><span class="w"> </span><span class="n">adipiscing</span><span class="w"> </span><span class="n">elit</span><span class="w"></span>
 <span class="o">-</span><span class="w"> </span><span class="o">[</span><span class="n">x</span><span class="o">]</span><span class="w"> </span><span class="n">Nulla</span><span class="w"> </span><span class="n">lobortis</span><span class="w"> </span><span class="n">egestas</span><span class="w"> </span><span class="n">semper</span><span class="w"></span>
@@ -5436,7 +5436,7 @@ content must be indented by four spaces.</p>
 </pre></div>
 
 <p>Results:</p>
-<div class="codehilite"><pre><span></span><span class="kn">import</span> <span class="nn">tensorflow</span> <span class="kn">as</span> <span class="nn">tf</span>
+<div class="codehilite"><pre><span></span><span class="kn">import</span> <span class="nn">tensorflow</span> <span class="k">as</span> <span class="nn">tf</span>
 </pre></div>
 
 <div class="codehilite"><pre><span></span><span class="kr">import</span> <span class="nx">Messenger</span><span class="p">,</span> <span class="p">{</span> <span class="nx">providers</span> <span class="p">}</span> <span class="nx">from</span> <span class="s1">&#39;@aragon/messenger&#39;</span>
@@ -5467,28 +5467,28 @@ content must be indented by four spaces.</p>
 <h3 id="grouping-code-blocks">Grouping code blocks</h3>
 <p>You can use grouping for code blocks with tabs.</p>
 <p>Example:</p>
-<div class="codehilite"><pre><span></span>``` <span class="nv">bash</span> <span class="nv">tab</span><span class="o">=</span><span class="s2">&quot;</span><span class="s">Bash</span><span class="s2">&quot;</span>
-#<span class="o">!/</span><span class="nv">bin</span><span class="o">/</span><span class="nv">bash</span>
+<div class="codehilite"><pre><span></span><span class="err">```</span> <span class="n">bash</span> <span class="n">tab</span><span class="o">=</span><span class="s">&quot;Bash&quot;</span>
+<span class="cp">#!/bin/bash</span>
 
-<span class="nv">echo</span> <span class="s2">&quot;</span><span class="s">Hello world!</span><span class="s2">&quot;</span>
-```
+<span class="n">echo</span> <span class="s">&quot;Hello world!&quot;</span>
+<span class="err">```</span>
 
-``` <span class="nv">c</span> <span class="nv">tab</span><span class="o">=</span><span class="s2">&quot;</span><span class="s">C</span><span class="s2">&quot;</span>
-#<span class="k">include</span> <span class="o">&lt;</span><span class="nv">stdio</span>.<span class="nv">h</span><span class="o">&gt;</span>
+<span class="err">```</span> <span class="n">c</span> <span class="n">tab</span><span class="o">=</span><span class="s">&quot;C&quot;</span>
+<span class="cp">#include</span> <span class="cpf">&lt;stdio.h&gt;</span><span class="cp"></span>
 
-<span class="nv">int</span> <span class="nv">main</span><span class="ss">(</span><span class="nv">void</span><span class="ss">)</span> {
-  <span class="nv">printf</span><span class="ss">(</span><span class="s2">&quot;</span><span class="s">Hello world!</span><span class="se">\n</span><span class="s2">&quot;</span><span class="ss">)</span><span class="c1">;</span>
-}
-```
+<span class="kr">int</span> <span class="n">main</span><span class="p">(</span><span class="kr">void</span><span class="p">)</span> <span class="p">{</span>
+  <span class="n">printf</span><span class="p">(</span><span class="s">&quot;Hello world!</span><span class="se">\n</span><span class="s">&quot;</span><span class="p">);</span>
+<span class="p">}</span>
+<span class="err">```</span>
 
-``` <span class="nv">c</span><span class="o">++</span> <span class="nv">tab</span><span class="o">=</span><span class="s2">&quot;</span><span class="s">C++</span><span class="s2">&quot;</span>
-#<span class="k">include</span> <span class="o">&lt;</span><span class="nv">iostream</span><span class="o">&gt;</span>
+<span class="err">```</span> <span class="n">c</span><span class="o">++</span> <span class="n">tab</span><span class="o">=</span><span class="s">&quot;C++&quot;</span>
+<span class="cp">#include</span> <span class="cpf">&lt;iostream&gt;</span><span class="cp"></span>
 
-<span class="nv">int</span> <span class="nv">main</span><span class="ss">()</span> {
-  <span class="nv">std</span>::<span class="nv">cout</span> <span class="o">&lt;&lt;</span> <span class="s2">&quot;</span><span class="s">Hello world!</span><span class="s2">&quot;</span> <span class="o">&lt;&lt;</span> <span class="nv">std</span>::<span class="nv">endl</span><span class="c1">;</span>
-  <span class="k">return</span> <span class="mi">0</span><span class="c1">;</span>
-}
-```
+<span class="kr">int</span> <span class="n">main</span><span class="p">()</span> <span class="p">{</span>
+  <span class="n">std</span><span class="o">::</span><span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">&quot;Hello world!&quot;</span> <span class="o">&lt;&lt;</span> <span class="n">std</span><span class="o">::</span><span class="n">endl</span><span class="p">;</span>
+  <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+<span class="p">}</span>
+<span class="err">```</span>
 </pre></div>
 
 <p>Result:</p>
@@ -5518,17 +5518,17 @@ content must be indented by four spaces.</p>
 </pre></div></div>
 </div>
 <h3 id="highlighting-specific-lines">Highlighting specific lines</h3>
-<p>Specific lines can be highlighted by passing the line numbers to the <code class="codehilite"><span class="n">hl_lines</span></code>
+<p>Specific lines can be highlighted by passing the line numbers to the <code class="codehilite"><span class="err">hl_lines</span></code>
 argument placed right after the language identifier. Line counts start at 1.</p>
 <p>Example:</p>
-<div class="codehilite"><pre><span></span>``` <span class="nv">python</span> <span class="nv">hl_lines</span><span class="o">=</span><span class="s2">&quot;</span><span class="s">3 4</span><span class="s2">&quot;</span>
-<span class="s2">&quot;&quot;&quot;</span><span class="s"> Bubble sort </span><span class="s2">&quot;&quot;&quot;</span>
-<span class="nv">def</span> <span class="nv">bubble_sort</span><span class="ss">(</span><span class="nv">items</span><span class="ss">)</span>:
-    <span class="k">for</span> <span class="nv">i</span> <span class="nv">in</span> <span class="nv">range</span><span class="ss">(</span><span class="nv">len</span><span class="ss">(</span><span class="nv">items</span><span class="ss">))</span>:
-        <span class="k">for</span> <span class="nv">j</span> <span class="nv">in</span> <span class="nv">range</span><span class="ss">(</span><span class="nv">len</span><span class="ss">(</span><span class="nv">items</span><span class="ss">)</span> <span class="o">-</span> <span class="mi">1</span> <span class="o">-</span> <span class="nv">i</span><span class="ss">)</span>:
-            <span class="k">if</span> <span class="nv">items</span>[<span class="nv">j</span>] <span class="o">&gt;</span> <span class="nv">items</span>[<span class="nv">j</span> <span class="o">+</span> <span class="mi">1</span>]:
-                <span class="nv">items</span>[<span class="nv">j</span>], <span class="nv">items</span>[<span class="nv">j</span> <span class="o">+</span> <span class="mi">1</span>] <span class="o">=</span> <span class="nv">items</span>[<span class="nv">j</span> <span class="o">+</span> <span class="mi">1</span>], <span class="nv">items</span>[<span class="nv">j</span>]
-```
+<div class="codehilite"><pre><span></span><span class="err">```</span><span class="w"> </span><span class="n">python</span><span class="w"> </span><span class="n">hl_lines</span><span class="o">=</span><span class="ss">&quot;3 4&quot;</span><span class="w"></span>
+<span class="ss">&quot;&quot;&quot; Bubble sort &quot;&quot;&quot;</span><span class="w"></span>
+<span class="n">def</span><span class="w"> </span><span class="n">bubble_sort</span><span class="p">(</span><span class="n">items</span><span class="p">)</span><span class="err">:</span><span class="w"></span>
+<span class="w">    </span><span class="k">for</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="ow">in</span><span class="w"> </span><span class="k">range</span><span class="p">(</span><span class="nf">len</span><span class="p">(</span><span class="n">items</span><span class="p">))</span><span class="err">:</span><span class="w"></span>
+<span class="w">        </span><span class="k">for</span><span class="w"> </span><span class="n">j</span><span class="w"> </span><span class="ow">in</span><span class="w"> </span><span class="k">range</span><span class="p">(</span><span class="nf">len</span><span class="p">(</span><span class="n">items</span><span class="p">)</span><span class="w"> </span><span class="o">-</span><span class="w"> </span><span class="mi">1</span><span class="w"> </span><span class="o">-</span><span class="w"> </span><span class="n">i</span><span class="p">)</span><span class="err">:</span><span class="w"></span>
+<span class="w">            </span><span class="k">if</span><span class="w"> </span><span class="n">items</span><span class="o">[</span><span class="n">j</span><span class="o">]</span><span class="w"> </span><span class="o">&gt;</span><span class="w"> </span><span class="n">items</span><span class="o">[</span><span class="n">j + 1</span><span class="o">]</span><span class="err">:</span><span class="w"></span>
+<span class="w">                </span><span class="n">items</span><span class="o">[</span><span class="n">j</span><span class="o">]</span><span class="p">,</span><span class="w"> </span><span class="n">items</span><span class="o">[</span><span class="n">j + 1</span><span class="o">]</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">items</span><span class="o">[</span><span class="n">j + 1</span><span class="o">]</span><span class="p">,</span><span class="w"> </span><span class="n">items</span><span class="o">[</span><span class="n">j</span><span class="o">]</span><span class="w"></span>
+<span class="err">```</span><span class="w"></span>
 </pre></div>
 
 <p>Result:</p>

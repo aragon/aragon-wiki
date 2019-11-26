@@ -4929,7 +4929,7 @@ Offsite mainly revolving on 0.8 release schedule and focus:
 <li>New StandardBounties is at pragma 0.5</li>
 </ul>
 </li>
-<li>Potentially renaming TPS to <code class="codehilite"><span class="k">Open</span> <span class="n">Enterprise</span></code></li>
+<li>Potentially renaming TPS to <code class="codehilite"><span class="err">Open Enterprise</span></code></li>
 </ul>
 <h4 id="open-work-labs">Open Work Labs</h4>
 <ul>
@@ -4939,22 +4939,22 @@ Offsite mainly revolving on 0.8 release schedule and focus:
 </ul>
 <h4 id="aragon-mesh">Aragon Mesh</h4>
 <ul>
-<li>Nest update, and with this occasion we've been reviewing and formatting our releases which were aggregated in a <code class="codehilite"><span class="n">CHANGELOG</span><span class="p">.</span><span class="n">md</span></code> file</li>
+<li>Nest update, and with this occasion we've been reviewing and formatting our releases which were aggregated in a <code class="codehilite"><span class="err">CHANGELOG.md</span></code> file</li>
 <li>We marked 3 versions as stable: <a href="https://github.com/aragon/aragon-cli/#stable-builds-">https://github.com/aragon/aragon-cli/#stable-builds-</a></li>
-<li>Made some progress with AGP-28 (the DAOfication of <code class="codehilite"><span class="n">aragonpm</span><span class="p">.</span><span class="n">eth</span></code>)</li>
+<li>Made some progress with AGP-28 (the DAOfication of <code class="codehilite"><span class="err">aragonpm.eth</span></code>)</li>
 </ul>
 <p>Nightly build:
-- Set up probot apps &amp; switched to <code class="codehilite"><span class="n">dependabot</span></code> from <code class="codehilite"><span class="n">greenkeeper</span></code> for dependency management.
-- Added a new option called <code class="codehilite"><span class="c1">--apm.ipfs.gateway</span></code> , which is used to download application artifacts from. The default environments now point to AN's IPFS node.
+- Set up probot apps &amp; switched to <code class="codehilite"><span class="err">dependabot</span></code> from <code class="codehilite"><span class="err">greenkeeper</span></code> for dependency management.
+- Added a new option called <code class="codehilite"><span class="err">--apm.ipfs.gateway</span></code> , which is used to download application artifacts from. The default environments now point to AN's IPFS node.
 - Switched to depandabot from greenkeeper for dependency updates</p>
 <p>Work in progress:
-- Polishing &amp; testing <code class="codehilite"><span class="n">apm</span> <span class="n">publish</span></code>, because of the new:
+- Polishing &amp; testing <code class="codehilite"><span class="err">apm publish</span></code>, because of the new:
   - deprecated functions change (that will include a list of removed smart contract functions causing radspec to render correctly)
   - sanity check change (that will see whether the the current artifacts can be reused or if the app needs to be rebuild)
-- Splitting the <code class="codehilite"><span class="k">go</span><span class="o">-</span><span class="n">ipfs</span><span class="w"></span></code> installation from the CLI (because it is slow and sometimes unreliable), that includes:
+- Splitting the <code class="codehilite"><span class="err">go-ipfs</span></code> installation from the CLI (because it is slow and sometimes unreliable), that includes:
   - having a new command to facilitate the installation
   - recommending it to be installed once, globally, if it's not already installed
-- Once these two are merged, we will release a new stable version with a changelog since <code class="codehilite"><span class="n">v5</span><span class="p">.</span><span class="mi">9</span><span class="p">.</span><span class="mi">3</span></code></p>
+- Once these two are merged, we will release a new stable version with a changelog since <code class="codehilite"><span class="err">v5.9.3</span></code></p>
 <h4 id="aragon-black">Aragon Black</h4>
 <ul>
 <li>Worked on redesign on frontends sent by Patty from A1</li>
@@ -5011,7 +5011,7 @@ Offsite mainly revolving on 0.8 release schedule and focus:
 <h4 id="solidity-05-upgrade-path-is-there-one-autark">Solidity 0.5 upgrade path - is there one? [Autark]</h4>
 <ul>
 <li>Hiccups causing a change to dependency in the client (Web3)</li>
-<li>More discussion needs to happen around upgrading the <code class="codehilite"><span class="n">pragma</span></code> to 0.5</li>
+<li>More discussion needs to happen around upgrading the <code class="codehilite"><span class="err">pragma</span></code> to 0.5</li>
 <li>Eventually we will have to upgrade</li>
 </ul>
 <h4 id="pr-review-process-for-aragon-repos-what-should-it-be-autark">PR review process for Aragon repos - what should it be? [Autark]</h4>

@@ -5086,7 +5086,7 @@ usage of the DApp developers.</p>
 <p>[V012-LW] Min period of 1 sec is too short</p>
 </li>
 <li>
-<p>[V013-LW] <code class="codehilite"><span class="n">_reference</span></code> is lost for a single payment</p>
+<p>[V013-LW] <code class="codehilite"><span class="err">_reference</span></code> is lost for a single payment</p>
 </li>
 <li>
 <p>[V014-LW] Race condition exists for payment recipients</p>
@@ -5629,7 +5629,7 @@ Results section of the document, using the following pattern:</p>
 </tr>
 <tr>
 <td align="left">V013-LW</td>
-<td align="left"><code class="codehilite"><span class="n">_reference</span></code> is lost for a single payment</td>
+<td align="left"><code class="codehilite"><span class="err">_reference</span></code> is lost for a single payment</td>
 <td align="left">Low</td>
 <td align="left">Fixed</td>
 </tr>
@@ -6023,36 +6023,36 @@ Results section of the document, using the following pattern:</p>
 <p>About
 <a href="https://github.com/aragon/aragonOS/blob/v3.0.1/contracts/evmscript/executors/DelegateScript.sol#L24">https://github.com/aragon/aragonOS/blob/v3.0.1/contracts/evmscript/executors/DelegateScript.sol#L24</a></p>
 <ul>
-<li>There is only one <code class="codehilite"><span class="n">DelegateScript</span></code> instance globally created in <code class="codehilite"><span class="n">EVMScriptRegistryFactory</span></code>. This DelegateScript has the public everybody callable method <code class="codehilite"><span class="n">execScript</span><span class="p">(</span><span class="n">bytes</span> <span class="n">_script</span><span class="p">,</span> <span class="n">bytes</span> <span class="n">_input</span><span class="p">,</span> <span class="n">address</span><span class="p">[]</span> <span class="n">_blacklist</span><span class="p">)</span></code>. If the delegatecall-ed contract method contains a <code class="codehilite"><span class="n">SELFDESTRUCT</span></code>, the destructed contract will be the <code class="codehilite"><span class="n">EVMScriptRegistryFactory</span> <span class="n">baseDel</span></code> instance which cannot be redeployed since it's not upgradable.</li>
+<li>There is only one <code class="codehilite"><span class="err">DelegateScript</span></code> instance globally created in <code class="codehilite"><span class="err">EVMScriptRegistryFactory</span></code>. This DelegateScript has the public everybody callable method <code class="codehilite"><span class="err">execScript(bytes _script, bytes _input, address[] _blacklist)</span></code>. If the delegatecall-ed contract method contains a <code class="codehilite"><span class="err">SELFDESTRUCT</span></code>, the destructed contract will be the <code class="codehilite"><span class="err">EVMScriptRegistryFactory baseDel</span></code> instance which cannot be redeployed since it's not upgradable.</li>
 </ul>
 </li>
 <li>
 <p>About
 <a class="magiclink magiclink-github magiclink-issue" href="https://github.com/aragon/aragonOS/issues/250" title="GitHub Issue: aragon/aragonOS#250">aragon/aragonOS#250</a> fix</p>
 <ul>
-<li>The fix, based on the assumption that a function that <code class="codehilite"><span class="n">SELFDESTRUCTs</span></code> called from a <code class="codehilite"><span class="n">delegatecall</span></code> never will return any data (<code class="codehilite"><span class="n">RETURNDATASIZE</span></code> is <code class="codehilite"><span class="mi">0</span></code>), can be bypassed by doing an extra <code class="codehilite"><span class="n">delegatecall</span></code> jump, see the following exploit, based on current test mocks:</li>
+<li>The fix, based on the assumption that a function that <code class="codehilite"><span class="err">SELFDESTRUCTs</span></code> called from a <code class="codehilite"><span class="err">delegatecall</span></code> never will return any data (<code class="codehilite"><span class="err">RETURNDATASIZE</span></code> is <code class="codehilite"><span class="err">0</span></code>), can be bypassed by doing an extra <code class="codehilite"><span class="err">delegatecall</span></code> jump, see the following exploit, based on current test mocks:</li>
 </ul>
 </li>
 </ul>
 </li>
 </ul>
-<p><div class="codehilite"><pre><span></span>        <span class="nv">contract</span> <span class="nv">DyingDelegatorHelper</span> {
-          <span class="nv">function</span> <span class="nv">die</span><span class="ss">()</span> <span class="nv">public</span> <span class="nv">returns</span> <span class="ss">(</span><span class="nv">bool</span><span class="ss">)</span> {
-            <span class="nv">selfdestruct</span><span class="ss">(</span><span class="mi">0</span><span class="nv">x0</span><span class="ss">)</span><span class="c1">;</span>
-            <span class="k">return</span> <span class="nv">true</span><span class="c1">;</span>
-          }
-}
+<p><div class="codehilite"><pre><span></span>        <span class="n">contract</span> <span class="n">DyingDelegatorHelper</span> <span class="err">{</span>
+          <span class="k">function</span> <span class="n">die</span><span class="p">()</span> <span class="k">public</span> <span class="k">returns</span> <span class="p">(</span><span class="n">bool</span><span class="p">)</span> <span class="err">{</span>
+            <span class="n">selfdestruct</span><span class="p">(</span><span class="mi">0</span><span class="n">x0</span><span class="p">);</span>
+            <span class="k">return</span> <span class="k">true</span><span class="p">;</span>
+          <span class="err">}</span>
+<span class="err">}</span>
 
-        <span class="nv">contract</span> <span class="nv">DyingDelegator</span> <span class="nv">is</span> <span class="nv">DelegateScriptTarget</span> {
-          <span class="nv">function</span> <span class="k">exec</span><span class="ss">()</span> <span class="nv">public</span> <span class="nv">returns</span> <span class="ss">(</span><span class="nv">bool</span><span class="ss">)</span> {
-            <span class="nv">DyingDelegatorHelper</span> <span class="nv">helper</span> <span class="o">=</span> <span class="nv">new</span> <span class="nv">DyingDelegatorHelper</span><span class="ss">()</span><span class="c1">;</span>
-            <span class="nv">address</span><span class="ss">(</span><span class="nv">helper</span><span class="ss">)</span>.<span class="nv">delegatecall</span><span class="ss">(</span><span class="nv">DyingDelegatorHelper</span><span class="ss">(</span><span class="mi">0</span><span class="ss">)</span>.<span class="nv">die</span>.<span class="nv">selector</span><span class="ss">)</span><span class="c1">;</span>
-            <span class="k">return</span> <span class="nv">true</span><span class="c1">;</span>
-          }
-}
+        <span class="n">contract</span> <span class="n">DyingDelegator</span> <span class="k">is</span> <span class="n">DelegateScriptTarget</span> <span class="err">{</span>
+          <span class="k">function</span> <span class="k">exec</span><span class="p">()</span> <span class="k">public</span> <span class="k">returns</span> <span class="p">(</span><span class="n">bool</span><span class="p">)</span> <span class="err">{</span>
+            <span class="n">DyingDelegatorHelper</span> <span class="n">helper</span> <span class="o">=</span> <span class="k">new</span> <span class="n">DyingDelegatorHelper</span><span class="p">();</span>
+            <span class="n">address</span><span class="p">(</span><span class="n">helper</span><span class="p">).</span><span class="n">delegatecall</span><span class="p">(</span><span class="n">DyingDelegatorHelper</span><span class="p">(</span><span class="mi">0</span><span class="p">).</span><span class="n">die</span><span class="p">.</span><span class="n">selector</span><span class="p">);</span>
+            <span class="k">return</span> <span class="k">true</span><span class="p">;</span>
+          <span class="err">}</span>
+<span class="err">}</span>
 </pre></div>
   - Comments
-      - Consider limiting <code class="codehilite"><span class="n">DelegateScript</span></code> callers to the <code class="codehilite"><span class="n">EVMScriptRunner</span></code>.</p>
+      - Consider limiting <code class="codehilite"><span class="err">DelegateScript</span></code> callers to the <code class="codehilite"><span class="err">EVMScriptRunner</span></code>.</p>
 <h3 id="22-high-severity-issues">2.2 High Severity Issues</h3>
 <p><strong>[V002-HI] Irrevocable permissions</strong></p>
 <table>
@@ -6079,7 +6079,7 @@ Results section of the document, using the following pattern:</p>
 </ul>
 </li>
 <li>Comments<ul>
-<li>Should remove <code class="codehilite"><span class="n">require</span></code> permissions.</li>
+<li>Should remove <code class="codehilite"><span class="err">require</span></code> permissions.</li>
 </ul>
 </li>
 </ul>
@@ -6106,13 +6106,13 @@ Results section of the document, using the following pattern:</p>
 <li>
 <p>Description</p>
 <ul>
-<li>Currently, any user can call the <code class="codehilite"><span class="n">receiveApproval</span></code> function, moving another user’s tokens if they have given a 0xFFF approval to the org. Because this is really a hook called by the token contract, only the token should be able to call <code class="codehilite"><span class="n">receiveApproval</span></code>. It is up to the token to have the necessary protections.</li>
+<li>Currently, any user can call the <code class="codehilite"><span class="err">receiveApproval</span></code> function, moving another user’s tokens if they have given a 0xFFF approval to the org. Because this is really a hook called by the token contract, only the token should be able to call <code class="codehilite"><span class="err">receiveApproval</span></code>. It is up to the token to have the necessary protections.</li>
 </ul>
 </li>
 <li>
 <p>Comments</p>
 <ul>
-<li>Consider adding a <code class="codehilite"><span class="n">require</span><span class="p">(</span><span class="n">msg</span><span class="p">.</span><span class="n">sender</span> <span class="o">==</span> <span class="n">_token</span><span class="p">)</span></code>.</li>
+<li>Consider adding a <code class="codehilite"><span class="err">require(msg.sender == _token)</span></code>.</li>
 </ul>
 </li>
 </ul>
@@ -6137,7 +6137,7 @@ Results section of the document, using the following pattern:</p>
 </table>
 <ul>
 <li>Description<ul>
-<li>The <code class="codehilite"><span class="n">voteTime</span></code> parameter is the seconds that a vote will be open for token holders. When checking <code class="codehilite"><span class="n">_isVoteOpen</span></code>, it is possible that <code class="codehilite"><span class="n">vote</span><span class="p">.</span><span class="n">startDate</span> <span class="o">+</span> <span class="n">voteTime</span></code> will overflow.</li>
+<li>The <code class="codehilite"><span class="err">voteTime</span></code> parameter is the seconds that a vote will be open for token holders. When checking <code class="codehilite"><span class="err">_isVoteOpen</span></code>, it is possible that <code class="codehilite"><span class="err">vote.startDate + voteTime</span></code> will overflow.</li>
 </ul>
 </li>
 </ul>
@@ -6171,7 +6171,7 @@ Results section of the document, using the following pattern:</p>
 <li>
 <p>Comments</p>
 <ul>
-<li>A <code class="codehilite"><span class="n">getPermissionParams</span></code> function would be very handy. Given entity, app, and role, tell me the parameters.</li>
+<li>A <code class="codehilite"><span class="err">getPermissionParams</span></code> function would be very handy. Given entity, app, and role, tell me the parameters.</li>
 </ul>
 </li>
 </ul>
@@ -6194,7 +6194,7 @@ Results section of the document, using the following pattern:</p>
 </table>
 <ul>
 <li>Description<ul>
-<li>There are two ways to get the <code class="codehilite"><span class="n">baseCode</span></code> for an app. Typically they would use <code class="codehilite"><span class="n">AppProxy</span><span class="p">.</span><span class="n">getCode</span><span class="p">()</span></code>. However if the proxy instance is registered with the kernel, you can fetch the app addr with <code class="codehilite"><span class="n">kernel</span><span class="p">.</span><span class="n">getApp</span><span class="p">()</span></code>. Thus if you register a <code class="codehilite"><span class="n">AppProxyPinned</span></code> instance with the kernel, then anywhere <code class="codehilite"><span class="n">kernel</span><span class="p">.</span><span class="n">getApp</span></code> is called to fetch the app address, it can be replaced with a new address by calling <code class="codehilite"><span class="n">kernel</span><span class="p">.</span><span class="n">setApp</span></code>. So the app isn't really pinned because it is replaceable.</li>
+<li>There are two ways to get the <code class="codehilite"><span class="err">baseCode</span></code> for an app. Typically they would use <code class="codehilite"><span class="err">AppProxy.getCode()</span></code>. However if the proxy instance is registered with the kernel, you can fetch the app addr with <code class="codehilite"><span class="err">kernel.getApp()</span></code>. Thus if you register a <code class="codehilite"><span class="err">AppProxyPinned</span></code> instance with the kernel, then anywhere <code class="codehilite"><span class="err">kernel.getApp</span></code> is called to fetch the app address, it can be replaced with a new address by calling <code class="codehilite"><span class="err">kernel.setApp</span></code>. So the app isn't really pinned because it is replaceable.</li>
 </ul>
 </li>
 </ul>
@@ -6221,13 +6221,13 @@ Results section of the document, using the following pattern:</p>
 <li>
 <p>Description</p>
 <ul>
-<li>Since no bounding checks are performed for <code class="codehilite"><span class="n">_script</span></code> pointer, you can read data beyond the limit of the length.</li>
+<li>Since no bounding checks are performed for <code class="codehilite"><span class="err">_script</span></code> pointer, you can read data beyond the limit of the length.</li>
 </ul>
 </li>
 <li>
 <p>Comments</p>
 <ul>
-<li>Check that <code class="codehilite"><span class="n">calldataStart</span> <span class="o">+</span> <span class="n">calldataLength</span> <span class="o">&lt;</span> <span class="n">_script</span><span class="p">.</span><span class="k">length</span></code> to prevent buffer overflows.</li>
+<li>Check that <code class="codehilite"><span class="err">calldataStart + calldataLength &lt; _script.length</span></code> to prevent buffer overflows.</li>
 </ul>
 </li>
 </ul>
@@ -6274,7 +6274,7 @@ funds.</li>
 <li>
 <p>Comments</p>
 <ul>
-<li>Have a <code class="codehilite"><span class="n">afterInitalize</span></code> modifier. Or use a factory to deploy.</li>
+<li>Have a <code class="codehilite"><span class="err">afterInitalize</span></code> modifier. Or use a factory to deploy.</li>
 </ul>
 </li>
 </ul>
@@ -6303,7 +6303,7 @@ funds.</li>
 <li>Even though the likelihood of this event is “very low”, we consider this issue of medium severity, to give an special attention to it.</li>
 </ul>
 <p>There are concerns about criteria changes in future solidity versions. The control that developers have on where the variables are stored is quite limited. Dependency on the multi-inheritance order on the definition of the class may variate the way state variables are stored.</p>
-<p>As an example, in Kernel, If we swap <code class="codehilite"><span class="n">KernelStorage</span></code> and <code class="codehilite"><span class="n">Initializable</span></code> it would break compatibility. This can easily happen in user defined apps and errors would be very difficult to detect causing all kinds of problems to those upgraded apps.</p>
+<p>As an example, in Kernel, If we swap <code class="codehilite"><span class="err">KernelStorage</span></code> and <code class="codehilite"><span class="err">Initializable</span></code> it would break compatibility. This can easily happen in user defined apps and errors would be very difficult to detect causing all kinds of problems to those upgraded apps.</p>
 </li>
 </ul>
 <p><strong>[V010-LW] Previous repo releases are not fixable</strong></p>
@@ -6329,13 +6329,13 @@ funds.</li>
 <li>
 <p>Description</p>
 <ul>
-<li>Concerning semantic version checks with <code class="codehilite"><span class="n">isValidBump</span></code> in APM Repo contract, if you release the version 3.0.0 after the 2.7.0, you will be not able to release a 2.7.1 patch.</li>
+<li>Concerning semantic version checks with <code class="codehilite"><span class="err">isValidBump</span></code> in APM Repo contract, if you release the version 3.0.0 after the 2.7.0, you will be not able to release a 2.7.1 patch.</li>
 </ul>
 </li>
 <li>
 <p>Comments</p>
 <ul>
-<li>May be a good idea if the <code class="codehilite"><span class="n">isValidBump</span></code> does not check the major version to allow patch fixing of previous ones.</li>
+<li>May be a good idea if the <code class="codehilite"><span class="err">isValidBump</span></code> does not check the major version to allow patch fixing of previous ones.</li>
 </ul>
 </li>
 </ul>
@@ -6362,13 +6362,13 @@ funds.</li>
 <li>
 <p>Description</p>
 <ul>
-<li>When calling the ACL to check params, the <code class="codehilite"><span class="n">evalParam</span></code> function will always return <code class="codehilite"><span class="k">false</span></code> except when the <code class="codehilite"><span class="n">ACLOracle</span></code> is called which will potentially <code class="codehilite"><span class="n">revert</span></code>.</li>
+<li>When calling the ACL to check params, the <code class="codehilite"><span class="err">evalParam</span></code> function will always return <code class="codehilite"><span class="err">false</span></code> except when the <code class="codehilite"><span class="err">ACLOracle</span></code> is called which will potentially <code class="codehilite"><span class="err">revert</span></code>.</li>
 </ul>
 </li>
 <li>
 <p>Comments</p>
 <ul>
-<li>Using an assembly call to the <code class="codehilite"><span class="n">ACLOracle</span></code> and checking if the call succeeded or failed, will provide consistent handling of the params. May want to limit the <code class="codehilite"><span class="n">gas</span></code> provided to the <code class="codehilite"><span class="n">ACLOracle</span></code> as well.</li>
+<li>Using an assembly call to the <code class="codehilite"><span class="err">ACLOracle</span></code> and checking if the call succeeded or failed, will provide consistent handling of the params. May want to limit the <code class="codehilite"><span class="err">gas</span></code> provided to the <code class="codehilite"><span class="err">ACLOracle</span></code> as well.</li>
 </ul>
 </li>
 </ul>
@@ -6428,13 +6428,13 @@ funds.</li>
 <li>
 <p>Description</p>
 <ul>
-<li>For a single payment in Finance app, you lose the <code class="codehilite"><span class="n">_reference</span></code> param.</li>
+<li>For a single payment in Finance app, you lose the <code class="codehilite"><span class="err">_reference</span></code> param.</li>
 </ul>
 </li>
 <li>
 <p>Comments</p>
 <ul>
-<li>Consider passing <code class="codehilite"><span class="n">_reference</span></code> to <code class="codehilite"><span class="n">_makePaymentTransaction</span></code> so the <code class="codehilite"><span class="n">_reference</span></code> is logged.</li>
+<li>Consider passing <code class="codehilite"><span class="err">_reference</span></code> to <code class="codehilite"><span class="err">_makePaymentTransaction</span></code> so the <code class="codehilite"><span class="err">_reference</span></code> is logged.</li>
 </ul>
 </li>
 </ul>
@@ -6459,7 +6459,7 @@ funds.</li>
 <li>
 <p>Description</p>
 <ul>
-<li>If an organization using the Finance app owes more money out to receivers than it has, then receivers may begin racing each other hoping to get to any funds first as soon as they are available using the <code class="codehilite"><span class="n">receiverExecutePayment</span></code> function.</li>
+<li>If an organization using the Finance app owes more money out to receivers than it has, then receivers may begin racing each other hoping to get to any funds first as soon as they are available using the <code class="codehilite"><span class="err">receiverExecutePayment</span></code> function.</li>
 </ul>
 </li>
 <li>
@@ -6554,13 +6554,13 @@ funds.</li>
 <li>
 <p>Description</p>
 <ul>
-<li>If <code class="codehilite"><span class="n">regFactory</span></code> is provided, then <code class="codehilite"><span class="n">initialRoot</span></code> is set to <code class="codehilite"><span class="n">this</span></code>. <code class="codehilite"><span class="n">this</span></code> is then passed to <code class="codehilite"><span class="n">dao</span><span class="p">.</span><span class="k">initialize</span></code> which will grant the create permissions role to the factory contract.</li>
+<li>If <code class="codehilite"><span class="err">regFactory</span></code> is provided, then <code class="codehilite"><span class="err">initialRoot</span></code> is set to <code class="codehilite"><span class="err">this</span></code>. <code class="codehilite"><span class="err">this</span></code> is then passed to <code class="codehilite"><span class="err">dao.initialize</span></code> which will grant the create permissions role to the factory contract.</li>
 </ul>
 </li>
 <li>
 <p>Comments</p>
 <ul>
-<li>We should revoke the <code class="codehilite"><span class="n">acl</span><span class="p">.</span><span class="n">CREATE_PERMISSIONS_ROLE</span></code> permission in both the dao and evm registry factories.</li>
+<li>We should revoke the <code class="codehilite"><span class="err">acl.CREATE_PERMISSIONS_ROLE</span></code> permission in both the dao and evm registry factories.</li>
 </ul>
 </li>
 </ul>
@@ -6587,13 +6587,13 @@ funds.</li>
 <li>
 <p>Description</p>
 <ul>
-<li>It's possible to overflow when initializing the Finance app. During initialization, the call to <code class="codehilite"><span class="n">_newPeriod</span></code> could overflow where <code class="codehilite"><span class="n">endTime</span></code> is set.</li>
+<li>It's possible to overflow when initializing the Finance app. During initialization, the call to <code class="codehilite"><span class="err">_newPeriod</span></code> could overflow where <code class="codehilite"><span class="err">endTime</span></code> is set.</li>
 </ul>
 </li>
 <li>
 <p>Comments</p>
 <ul>
-<li>The <code class="codehilite"><span class="n">setPeriodDuration</span></code> function should have a max <code class="codehilite"><span class="n">_periodDuration</span></code> to prevent overflows.</li>
+<li>The <code class="codehilite"><span class="err">setPeriodDuration</span></code> function should have a max <code class="codehilite"><span class="err">_periodDuration</span></code> to prevent overflows.</li>
 </ul>
 </li>
 </ul>
@@ -6620,13 +6620,13 @@ funds.</li>
 <li>
 <p>Description</p>
 <ul>
-<li>Percentage integers can have a value of 1 so should not check <code class="codehilite"><span class="o">&gt;</span> <span class="mi">1</span></code>.</li>
+<li>Percentage integers can have a value of 1 so should not check <code class="codehilite"><span class="err">&gt; 1</span></code>.</li>
 </ul>
 </li>
 <li>
 <p>Comments</p>
 <ul>
-<li>Should be <code class="codehilite"><span class="o">&gt;</span><span class="mi">0</span></code> instead of <code class="codehilite"><span class="o">&gt;</span><span class="mi">1</span></code>.</li>
+<li>Should be <code class="codehilite"><span class="err">&gt;0</span></code> instead of <code class="codehilite"><span class="err">&gt;1</span></code>.</li>
 </ul>
 </li>
 </ul>
@@ -6703,7 +6703,7 @@ funds.</li>
 </table>
 <ul>
 <li>Description<ul>
-<li>In <code class="codehilite"><span class="n">ACL</span><span class="p">.</span><span class="n">_saveParams</span></code> suggest <code class="codehilite"><span class="k">limit</span> <span class="n">_encodeParams</span></code> to 50-100 params. This will help prevent consuming too much gas as well as prevent conflicts with the reserved param ids.</li>
+<li>In <code class="codehilite"><span class="err">ACL._saveParams</span></code> suggest <code class="codehilite"><span class="err">limit _encodeParams</span></code> to 50-100 params. This will help prevent consuming too much gas as well as prevent conflicts with the reserved param ids.</li>
 </ul>
 </li>
 </ul>
@@ -6728,13 +6728,13 @@ funds.</li>
 <li>
 <p>Description</p>
 <ul>
-<li>There is no easy way to <code class="codehilite"><span class="n">revokeAll</span> <span class="n">grantedPermissions</span></code> for an app, role combination. This functionality is usually needed in emergency situations.</li>
+<li>There is no easy way to <code class="codehilite"><span class="err">revokeAll grantedPermissions</span></code> for an app, role combination. This functionality is usually needed in emergency situations.</li>
 </ul>
 </li>
 <li>
 <p>Comments</p>
 <ul>
-<li>Easy fix is to have an "era" for each <code class="codehilite"><span class="n">roleHash</span></code>. To <code class="codehilite"><span class="n">revokeAll</span></code> for a <code class="codehilite"><span class="n">roleHash</span></code>, just increase the era.</li>
+<li>Easy fix is to have an "era" for each <code class="codehilite"><span class="err">roleHash</span></code>. To <code class="codehilite"><span class="err">revokeAll</span></code> for a <code class="codehilite"><span class="err">roleHash</span></code>, just increase the era.</li>
 </ul>
 </li>
 </ul>
@@ -6790,13 +6790,13 @@ funds.</li>
 <li>
 <p>Description</p>
 <ul>
-<li>In the Finance app, the <code class="codehilite"><span class="n">tokenFallback</span></code> can log an event with only gas payment, leading to cluttering of the UI.</li>
+<li>In the Finance app, the <code class="codehilite"><span class="err">tokenFallback</span></code> can log an event with only gas payment, leading to cluttering of the UI.</li>
 </ul>
 </li>
 <li>
 <p>Comments</p>
 <ul>
-<li>Prevent the event from being triggered if <code class="codehilite"><span class="n">msg</span><span class="p">.</span><span class="n">value</span> <span class="o">==</span> <span class="mi">0</span></code>.</li>
+<li>Prevent the event from being triggered if <code class="codehilite"><span class="err">msg.value == 0</span></code>.</li>
 </ul>
 </li>
 </ul>
@@ -6823,13 +6823,13 @@ funds.</li>
 <li>
 <p>Description</p>
 <ul>
-<li>Finance app doesn’t check if <code class="codehilite"><span class="n">vault</span></code> and <code class="codehilite"><span class="n">etherToken</span></code> are valid.</li>
+<li>Finance app doesn’t check if <code class="codehilite"><span class="err">vault</span></code> and <code class="codehilite"><span class="err">etherToken</span></code> are valid.</li>
 </ul>
 </li>
 <li>
 <p>Comments</p>
 <ul>
-<li>The Finance app’s <code class="codehilite"><span class="k">initialize</span></code> function should check <code class="codehilite"><span class="n">vault</span></code> and <code class="codehilite"><span class="n">etherToken</span> <span class="o">!=</span> <span class="mi">0</span></code>. Alternatively, it may be better to use kernel for <code class="codehilite"><span class="n">vault</span></code> and <code class="codehilite"><span class="n">etherToken</span></code>.</li>
+<li>The Finance app’s <code class="codehilite"><span class="err">initialize</span></code> function should check <code class="codehilite"><span class="err">vault</span></code> and <code class="codehilite"><span class="err">etherToken != 0</span></code>. Alternatively, it may be better to use kernel for <code class="codehilite"><span class="err">vault</span></code> and <code class="codehilite"><span class="err">etherToken</span></code>.</li>
 </ul>
 <p>In addition code has been changed since time of initial audit to no longer rely on an ethertoken as the vault has been generalized. The generalized changes to the vault have not been audited.</p>
 </li>
@@ -6857,13 +6857,13 @@ funds.</li>
 <li>
 <p>Description</p>
 <ul>
-<li>No easy way to debug <code class="codehilite"><span class="n">evalParams</span></code>.</li>
+<li>No easy way to debug <code class="codehilite"><span class="err">evalParams</span></code>.</li>
 </ul>
 </li>
 <li>
 <p>Comments</p>
 <ul>
-<li>Making the ACL <code class="codehilite"><span class="n">evalParams</span></code> function external will help with debugging.</li>
+<li>Making the ACL <code class="codehilite"><span class="err">evalParams</span></code> function external will help with debugging.</li>
 </ul>
 </li>
 </ul>
@@ -6927,9 +6927,9 @@ funds.</li>
 <li>
 <p>Comments</p>
 <ul>
-<li>ACL is based off of user input and test coverage does not extend to modifiers. Analyze the following example: create a parameter with <code class="codehilite"><span class="n">LOGIC_OP_PARAM_ID</span> <span class="o">=</span><span class="n">param</span><span class="p">.</span><span class="n">id</span></code>. But with <code class="codehilite"><span class="n">_param</span><span class="p">.</span><span class="n">op</span></code> not equal to <code class="codehilite"><span class="n">Op</span><span class="p">.</span><span class="n">IF_ELSE</span></code>, <code class="codehilite"><span class="n">Op</span><span class="p">.</span><span class="k">Not</span></code> , <code class="codehilite"><span class="n">Op</span><span class="p">.</span><span class="k">OR</span></code>,
-<code class="codehilite"><span class="n">Op</span><span class="p">.</span><span class="k">And</span><span class="p">,</span><span class="n">Op</span><span class="p">.</span><span class="n">XOR</span></code> will result in <code class="codehilite"><span class="n">r2</span></code> being returned when <code class="codehilite"><span class="n">evalLogic</span></code> gets called from
-<code class="codehilite"><span class="n">evalParam</span></code> bypassing the <code class="codehilite"><span class="n">param</span><span class="p">.</span><span class="n">id</span></code> check. This is a good one for the underhanded
+<li>ACL is based off of user input and test coverage does not extend to modifiers. Analyze the following example: create a parameter with <code class="codehilite"><span class="err">LOGIC_OP_PARAM_ID =</span><span class="err">param.id</span></code>. But with <code class="codehilite"><span class="err">_param.op</span></code> not equal to <code class="codehilite"><span class="err">Op.IF_ELSE</span></code>, <code class="codehilite"><span class="err">Op.Not</span></code> , <code class="codehilite"><span class="err">Op.OR</span></code>,
+<code class="codehilite"><span class="err">Op.And,Op.XOR</span></code> will result in <code class="codehilite"><span class="err">r2</span></code> being returned when <code class="codehilite"><span class="err">evalLogic</span></code> gets called from
+<code class="codehilite"><span class="err">evalParam</span></code> bypassing the <code class="codehilite"><span class="err">param.id</span></code> check. This is a good one for the underhanded
 aragonOS competition.</li>
 </ul>
 </li>
@@ -6963,7 +6963,7 @@ aragonOS competition.</li>
 <li>
 <p>Comments</p>
 <ul>
-<li>Check <code class="codehilite"><span class="n">token</span><span class="p">.</span><span class="n">transfersEnabled</span></code> on initialize in TokenManager.</li>
+<li>Check <code class="codehilite"><span class="err">token.transfersEnabled</span></code> on initialize in TokenManager.</li>
 </ul>
 </li>
 </ul>
@@ -6988,7 +6988,7 @@ aragonOS competition.</li>
 </table>
 <ul>
 <li>Description<ul>
-<li>When revoking a vesting, there is no easy way to see historical data of revoked <code class="codehilite"><span class="n">TokenVesting</span></code> such as <code class="codehilite"><span class="n">_cliff</span></code>, <code class="codehilite"><span class="n">_start</span></code>, <code class="codehilite"><span class="n">amount</span></code>, etc.</li>
+<li>When revoking a vesting, there is no easy way to see historical data of revoked <code class="codehilite"><span class="err">TokenVesting</span></code> such as <code class="codehilite"><span class="err">_cliff</span></code>, <code class="codehilite"><span class="err">_start</span></code>, <code class="codehilite"><span class="err">amount</span></code>, etc.</li>
 </ul>
 </li>
 </ul>
@@ -7015,13 +7015,13 @@ aragonOS competition.</li>
 <li>
 <p>Description</p>
 <ul>
-<li>The TokenManager function <code class="codehilite"><span class="n">onTransfer</span></code> is a hook provided by the MiniMe.</li>
+<li>The TokenManager function <code class="codehilite"><span class="err">onTransfer</span></code> is a hook provided by the MiniMe.</li>
 </ul>
 </li>
 <li>
 <p>Comments</p>
 <ul>
-<li>Thus it should check <code class="codehilite"><span class="n">msg</span><span class="p">.</span><span class="n">sender</span> <span class="o">==</span> <span class="n">token</span></code> to prevent anyone from creating logs if <code class="codehilite"><span class="n">logHolders</span></code> is true.</li>
+<li>Thus it should check <code class="codehilite"><span class="err">msg.sender == token</span></code> to prevent anyone from creating logs if <code class="codehilite"><span class="err">logHolders</span></code> is true.</li>
 </ul>
 </li>
 </ul>
@@ -7046,13 +7046,13 @@ aragonOS competition.</li>
 <li>
 <p>Description</p>
 <ul>
-<li>If <code class="codehilite"><span class="n">logHolders</span> <span class="o">==</span> <span class="k">true</span></code>, the <code class="codehilite"><span class="n">onTransfer</span></code> function in the <code class="codehilite"><span class="n">TokenManager</span></code> will create a log.</li>
+<li>If <code class="codehilite"><span class="err">logHolders == true</span></code>, the <code class="codehilite"><span class="err">onTransfer</span></code> function in the <code class="codehilite"><span class="err">TokenManager</span></code> will create a log.</li>
 </ul>
 </li>
 <li>
 <p>Comments</p>
 <ul>
-<li>Thus the function should not be marked as <code class="codehilite"><span class="k">view</span></code>.</li>
+<li>Thus the function should not be marked as <code class="codehilite"><span class="err">view</span></code>.</li>
 </ul>
 </li>
 </ul>
@@ -7079,11 +7079,11 @@ aragonOS competition.</li>
 <li>
 <p>Comment</p>
 <ul>
-<li>Send or transfer only permits 2300 gas but delegate proxy requires 10000 + execution costs. This means that you can not use the re-entrancy safe <code class="codehilite"><span class="n">transfer</span></code> and <code class="codehilite"><span class="k">send</span></code> methods provided by solidity to call an AragonApp. You would need to manually limit the gas with <code class="codehilite"><span class="n">vault</span><span class="p">.</span><span class="k">call</span><span class="p">.</span><span class="n">gas</span><span class="p">(</span><span class="mi">16000</span><span class="p">).</span><span class="n">value</span><span class="p">(</span><span class="n">msg</span><span class="p">.</span><span class="n">value</span><span class="p">)()</span></code>.</li>
+<li>Send or transfer only permits 2300 gas but delegate proxy requires 10000 + execution costs. This means that you can not use the re-entrancy safe <code class="codehilite"><span class="err">transfer</span></code> and <code class="codehilite"><span class="err">send</span></code> methods provided by solidity to call an AragonApp. You would need to manually limit the gas with <code class="codehilite"><span class="err">vault.call.gas(16000).value(msg.value)()</span></code>.</li>
 </ul>
 <p>This issue, has been fixed recently in <a class="magiclink magiclink-github magiclink-pull" href="https://github.com/aragon/aragonOS/pull/281" title="GitHub Pull Request: aragon/aragonOS!281">aragon/aragonOS!281</a> . Please note that this PR also includes the token recoverability functionality.</p>
-<p>The way it has been solved is by always accepting <code class="codehilite"><span class="k">send</span></code> and <code class="codehilite"><span class="n">transfer</span></code> calls with ETH and then creating a mechanism for token recovery including ETH. This mechanism may complicate the contracts aimed to receive ETH by default, and any other application that will have to define a token. Aragon App developers must be very aware of this mechanism.</p>
-<p>This mechanism may also bring some issues with clients using the <code class="codehilite"><span class="n">eth_estimateGas</span></code> function.</p>
+<p>The way it has been solved is by always accepting <code class="codehilite"><span class="err">send</span></code> and <code class="codehilite"><span class="err">transfer</span></code> calls with ETH and then creating a mechanism for token recovery including ETH. This mechanism may complicate the contracts aimed to receive ETH by default, and any other application that will have to define a token. Aragon App developers must be very aware of this mechanism.</p>
+<p>This mechanism may also bring some issues with clients using the <code class="codehilite"><span class="err">eth_estimateGas</span></code> function.</p>
 <p>Please, also note that this functionality was not part of this code review and has not been fully reviewed.</p>
 </li>
 </ul>
@@ -7179,9 +7179,9 @@ aragonOS competition.</li>
 <li>
 <p>Comment</p>
 <ul>
-<li><code class="codehilite"><span class="n">DeployDelegateScript</span></code> contains a storage variable <code class="codehilite"><span class="k">cache</span></code> calculated from indexed storage slot <code class="codehilite"><span class="mi">0</span></code>. Contracts implementing <code class="codehilite"><span class="n">EVMScriptRunner</span></code> (AragonApp) make a <code class="codehilite"><span class="n">delegatecall</span></code> to the scriptExecutor. When this <code class="codehilite"><span class="n">scriptExecutor</span></code> is the <code class="codehilite"><span class="n">DeployDelegateScript</span></code> executor this <code class="codehilite"><span class="k">cache</span></code> variable will potentially conflict with the calling contracts storage in slot <code class="codehilite"><span class="mi">0</span></code>, thus potentially leading to storage corruption and unexpected state.</li>
+<li><code class="codehilite"><span class="err">DeployDelegateScript</span></code> contains a storage variable <code class="codehilite"><span class="err">cache</span></code> calculated from indexed storage slot <code class="codehilite"><span class="err">0</span></code>. Contracts implementing <code class="codehilite"><span class="err">EVMScriptRunner</span></code> (AragonApp) make a <code class="codehilite"><span class="err">delegatecall</span></code> to the scriptExecutor. When this <code class="codehilite"><span class="err">scriptExecutor</span></code> is the <code class="codehilite"><span class="err">DeployDelegateScript</span></code> executor this <code class="codehilite"><span class="err">cache</span></code> variable will potentially conflict with the calling contracts storage in slot <code class="codehilite"><span class="err">0</span></code>, thus potentially leading to storage corruption and unexpected state.</li>
 </ul>
-<p>With the current AragonStorage layout, there is no conflict because cache is a mapping and thus stored in slot <code class="codehilite"><span class="n">keccak256</span><span class="p">(</span><span class="err">‘</span><span class="mi">0</span><span class="err">’</span> <span class="p">.</span> <span class="k">index</span><span class="p">)</span></code> and the first storage variable in AragonStorage is <code class="codehilite"><span class="n">IKernel</span></code> and stored in slot <code class="codehilite"><span class="mi">0</span></code>.</p>
+<p>With the current AragonStorage layout, there is no conflict because cache is a mapping and thus stored in slot <code class="codehilite"><span class="err">keccak256(‘0’ . index)</span></code> and the first storage variable in AragonStorage is <code class="codehilite"><span class="err">IKernel</span></code> and stored in slot <code class="codehilite"><span class="err">0</span></code>.</p>
 </li>
 </ul>
 <p><strong>[V039-CM] Two step ACL changePermissionManager</strong></p>
@@ -7229,7 +7229,7 @@ aragonOS competition.</li>
 </table>
 <ul>
 <li>Comment<ul>
-<li>This should be passed the <code class="codehilite"><span class="n">spender</span></code>, but currently <code class="codehilite"><span class="n">spender</span> <span class="o">==</span> <span class="n">msg</span><span class="p">.</span><span class="n">sender</span></code>. Requesting an allowance should be for another entity to spend on your behalf. There is no need to <code class="codehilite"><span class="n">requestAllowance</span></code> for yourself, as you can just execute the <code class="codehilite"><span class="n">transfer</span></code>. When accepting <code class="codehilite"><span class="n">spender</span></code> as a param, this should be passed to <code class="codehilite"><span class="n">authP</span></code> as well.</li>
+<li>This should be passed the <code class="codehilite"><span class="err">spender</span></code>, but currently <code class="codehilite"><span class="err">spender == msg.sender</span></code>. Requesting an allowance should be for another entity to spend on your behalf. There is no need to <code class="codehilite"><span class="err">requestAllowance</span></code> for yourself, as you can just execute the <code class="codehilite"><span class="err">transfer</span></code>. When accepting <code class="codehilite"><span class="err">spender</span></code> as a param, this should be passed to <code class="codehilite"><span class="err">authP</span></code> as well.</li>
 </ul>
 </li>
 </ul>
@@ -7252,7 +7252,7 @@ aragonOS competition.</li>
 </table>
 <ul>
 <li>Comment<ul>
-<li>For delegate executor and <code class="codehilite"><span class="n">EVMScriptRunner</span><span class="p">.</span><span class="n">returnedDataDecoded</span></code> function, encode/decode is not needed. Simplify the executors return data.</li>
+<li>For delegate executor and <code class="codehilite"><span class="err">EVMScriptRunner.returnedDataDecoded</span></code> function, encode/decode is not needed. Simplify the executors return data.</li>
 </ul>
 </li>
 </ul>
@@ -7276,7 +7276,7 @@ aragonOS competition.</li>
 </table>
 <ul>
 <li>Comment<ul>
-<li>In Finance app, <code class="codehilite"><span class="n">executePayment</span></code> should only return if payments are complete and there are no more pending payments. Currently, <code class="codehilite"><span class="n">executePayment</span></code> will pay all payments owed (payments can repeat). However, because there is a limit of MAX_PAYMENTS_PER_TX ( for gas reasons), you could call <code class="codehilite"><span class="n">executePayment</span></code> and still have payments you can collect.</li>
+<li>In Finance app, <code class="codehilite"><span class="err">executePayment</span></code> should only return if payments are complete and there are no more pending payments. Currently, <code class="codehilite"><span class="err">executePayment</span></code> will pay all payments owed (payments can repeat). However, because there is a limit of MAX_PAYMENTS_PER_TX ( for gas reasons), you could call <code class="codehilite"><span class="err">executePayment</span></code> and still have payments you can collect.</li>
 </ul>
 </li>
 </ul>
@@ -7301,7 +7301,7 @@ aragonOS competition.</li>
 </table>
 <ul>
 <li>Comment<ul>
-<li>For Finance app <code class="codehilite"><span class="n">executePayment</span></code>, include payment amount in <code class="codehilite"><span class="n">authP</span></code> modifier params.</li>
+<li>For Finance app <code class="codehilite"><span class="err">executePayment</span></code>, include payment amount in <code class="codehilite"><span class="err">authP</span></code> modifier params.</li>
 </ul>
 </li>
 </ul>
@@ -7349,7 +7349,7 @@ aragonOS competition.</li>
 </table>
 <ul>
 <li>Comment<ul>
-<li>Pass <code class="codehilite"><span class="n">_how</span></code> to <code class="codehilite"><span class="n">canPerform</span></code> function for ACL Oracle.</li>
+<li>Pass <code class="codehilite"><span class="err">_how</span></code> to <code class="codehilite"><span class="err">canPerform</span></code> function for ACL Oracle.</li>
 </ul>
 </li>
 </ul>
@@ -7395,7 +7395,7 @@ aragonOS competition.</li>
 </table>
 <ul>
 <li>Comment<ul>
-<li>Finance app’s <code class="codehilite"><span class="n">getRemainingBudget</span></code> only checks current period. If you want to change a budget, you must do it before the period is created.</li>
+<li>Finance app’s <code class="codehilite"><span class="err">getRemainingBudget</span></code> only checks current period. If you want to change a budget, you must do it before the period is created.</li>
 </ul>
 </li>
 </ul>
@@ -7420,7 +7420,7 @@ aragonOS competition.</li>
 </table>
 <ul>
 <li>Comment<ul>
-<li>In Finance app, there is no <code class="codehilite"><span class="n">escapeHatch</span></code> for ether, but it exists for tokens. Consider to add Escape hatch for ether.</li>
+<li>In Finance app, there is no <code class="codehilite"><span class="err">escapeHatch</span></code> for ether, but it exists for tokens. Consider to add Escape hatch for ether.</li>
 </ul>
 </li>
 </ul>
@@ -7444,7 +7444,7 @@ aragonOS competition.</li>
 </table>
 <ul>
 <li>Comment<ul>
-<li>Currently some the data used for Finance app tests is not realistic. Finance tests need more realistic data. As an example, <code class="codehilite"><span class="n">repeats</span> <span class="n">up</span> <span class="k">to</span> <span class="mi">10</span> <span class="n">times</span> <span class="k">every</span> <span class="mi">2</span> <span class="n">seconds</span></code> is not realistic in the context of current state-of-the-art ethereum blockchain.</li>
+<li>Currently some the data used for Finance app tests is not realistic. Finance tests need more realistic data. As an example, <code class="codehilite"><span class="err">repeats up to 10 times every 2 seconds</span></code> is not realistic in the context of current state-of-the-art ethereum blockchain.</li>
 </ul>
 </li>
 </ul>
@@ -7492,7 +7492,7 @@ aragonOS competition.</li>
 </table>
 <ul>
 <li>Comment<ul>
-<li>Add parameter to <code class="codehilite"><span class="n">newAppProxy</span></code> event to distinguish if it's pinned or upgradable.</li>
+<li>Add parameter to <code class="codehilite"><span class="err">newAppProxy</span></code> event to distinguish if it's pinned or upgradable.</li>
 </ul>
 </li>
 </ul>
@@ -7565,7 +7565,7 @@ aragonOS competition.</li>
 <li>
 <p>Description</p>
 <ul>
-<li>There are 2 <code class="codehilite"><span class="n">hasPermission</span></code> functions in the <code class="codehilite"><span class="n">ACL</span></code>. One uses <code class="codehilite"><span class="n">bytes</span></code> for the <code class="codehilite"><span class="n">_how</span></code> param and the other uses <code class="codehilite"><span class="n">uint</span><span class="p">[]</span></code> for the <code class="codehilite"><span class="n">_how</span></code> param. In the <code class="codehilite"><span class="n">AragonApp</span></code> contract, <code class="codehilite"><span class="n">canPerform</span></code> converts from <code class="codehilite"><span class="n">uint</span><span class="p">[]</span> <span class="o">-&gt;</span> <span class="n">bytes</span></code>. Then it is converted from <code class="codehilite"><span class="n">bytes</span> <span class="o">-&gt;</span> <span class="n">uint</span><span class="p">[]</span></code> in the <code class="codehilite"><span class="n">ACL</span></code>.</li>
+<li>There are 2 <code class="codehilite"><span class="err">hasPermission</span></code> functions in the <code class="codehilite"><span class="err">ACL</span></code>. One uses <code class="codehilite"><span class="err">bytes</span></code> for the <code class="codehilite"><span class="err">_how</span></code> param and the other uses <code class="codehilite"><span class="err">uint[]</span></code> for the <code class="codehilite"><span class="err">_how</span></code> param. In the <code class="codehilite"><span class="err">AragonApp</span></code> contract, <code class="codehilite"><span class="err">canPerform</span></code> converts from <code class="codehilite"><span class="err">uint[] -&gt; bytes</span></code>. Then it is converted from <code class="codehilite"><span class="err">bytes -&gt; uint[]</span></code> in the <code class="codehilite"><span class="err">ACL</span></code>.</li>
 </ul>
 </li>
 <li>
@@ -7618,7 +7618,7 @@ aragonOS competition.</li>
 </table>
 <ul>
 <li>Comment<ul>
-<li>In Finance app, <code class="codehilite"><span class="n">setPaymentDisabled</span></code> can also enable the payment. Function name is misleading.</li>
+<li>In Finance app, <code class="codehilite"><span class="err">setPaymentDisabled</span></code> can also enable the payment. Function name is misleading.</li>
 </ul>
 </li>
 </ul>
@@ -7641,7 +7641,7 @@ aragonOS competition.</li>
 </table>
 <ul>
 <li>Comment<ul>
-<li>AppProxyBase has a fallback function. This is overridden in <code class="codehilite"><span class="n">AppProxyPinned</span></code>, but does the same thing minus one check. For consistency, either remove from <code class="codehilite"><span class="n">AppProxyPinned</span></code>, or move from base to <code class="codehilite"><span class="n">AppProxyUpgradeable</span></code>.</li>
+<li>AppProxyBase has a fallback function. This is overridden in <code class="codehilite"><span class="err">AppProxyPinned</span></code>, but does the same thing minus one check. For consistency, either remove from <code class="codehilite"><span class="err">AppProxyPinned</span></code>, or move from base to <code class="codehilite"><span class="err">AppProxyUpgradeable</span></code>.</li>
 </ul>
 </li>
 </ul>
@@ -7666,7 +7666,7 @@ aragonOS competition.</li>
 </table>
 <ul>
 <li>Comment<ul>
-<li>In Finance app, <code class="codehilite"><span class="n">getBudget</span></code> returns <code class="codehilite"><span class="n">remainingBudget</span></code> as well.</li>
+<li>In Finance app, <code class="codehilite"><span class="err">getBudget</span></code> returns <code class="codehilite"><span class="err">remainingBudget</span></code> as well.</li>
 </ul>
 </li>
 </ul>
@@ -7689,7 +7689,7 @@ aragonOS competition.</li>
 </table>
 <ul>
 <li>Comment<ul>
-<li>The name "Payment" implies a single payment, but the <code class="codehilite"><span class="n">Payment</span></code> struct is only used for recurring payments. Suggest renaming.</li>
+<li>The name "Payment" implies a single payment, but the <code class="codehilite"><span class="err">Payment</span></code> struct is only used for recurring payments. Suggest renaming.</li>
 </ul>
 </li>
 </ul>
@@ -7714,8 +7714,8 @@ aragonOS competition.</li>
 </table>
 <ul>
 <li>Comment<ul>
-<li>In Finance app <code class="codehilite"><span class="n">tryTransitionAccountingPeriod</span><span class="p">,</span> <span class="n">_ttl</span></code> should be
-<code class="codehilite"><span class="n">maxTransitions</span></code>.</li>
+<li>In Finance app <code class="codehilite"><span class="err">tryTransitionAccountingPeriod, _ttl</span></code> should be
+<code class="codehilite"><span class="err">maxTransitions</span></code>.</li>
 </ul>
 </li>
 </ul>
@@ -7741,7 +7741,7 @@ aragonOS competition.</li>
 </table>
 <ul>
 <li>Comment<ul>
-<li>There is a superfluous ternary being used in the DAOFactory.sol function <code class="codehilite"><span class="n">newDAO</span></code> when only one condition is necessary. Using two separate conditionals that are exactly the same a few lines away from each other suggests that the code in between is imperative to that order, but this is not the case.</li>
+<li>There is a superfluous ternary being used in the DAOFactory.sol function <code class="codehilite"><span class="err">newDAO</span></code> when only one condition is necessary. Using two separate conditionals that are exactly the same a few lines away from each other suggests that the code in between is imperative to that order, but this is not the case.</li>
 </ul>
 </li>
 </ul>
@@ -7764,7 +7764,7 @@ aragonOS competition.</li>
 </table>
 <ul>
 <li>Comment<ul>
-<li>In TokenManager app, <code class="codehilite"><span class="n">mint</span></code>, <code class="codehilite"><span class="n">issue</span></code>, <code class="codehilite"><span class="n">assign</span></code> roles are a bit confusing. It is important
+<li>In TokenManager app, <code class="codehilite"><span class="err">mint</span></code>, <code class="codehilite"><span class="err">issue</span></code>, <code class="codehilite"><span class="err">assign</span></code> roles are a bit confusing. It is important
 to document the purpose and behavior of all roles to help prevent misuse.</li>
 </ul>
 </li>
@@ -7788,7 +7788,7 @@ to document the purpose and behavior of all roles to help prevent misuse.</li>
 </table>
 <ul>
 <li>Comment<ul>
-<li>In TokenManager app, <code class="codehilite"><span class="n">onTransfer</span></code> more clear to use or operator <code class="codehilite"><span class="o">||</span></code> instead negative and <code class="codehilite"><span class="o">&amp;&amp;</span></code> operators. Could instead be: <code class="codehilite"><span class="sx">!transferable || !toCanReceive || (transferableBalance(_from, now) &lt; _amount)</span></code></li>
+<li>In TokenManager app, <code class="codehilite"><span class="err">onTransfer</span></code> more clear to use or operator <code class="codehilite"><span class="err">||</span></code> instead negative and <code class="codehilite"><span class="err">&amp;&amp;</span></code> operators. Could instead be: <code class="codehilite"><span class="sx">!transferable || !toCanReceive || (transferableBalance(_from, now) &lt; _amount)</span></code></li>
 </ul>
 </li>
 </ul>
@@ -7811,7 +7811,7 @@ to document the purpose and behavior of all roles to help prevent misuse.</li>
 </table>
 <ul>
 <li>Comment<ul>
-<li>In TokenManager app, non-transferrable tokens are not clear. The function <code class="codehilite"><span class="n">assign</span></code> is a token transfer that bypasses the transferable bool.</li>
+<li>In TokenManager app, non-transferrable tokens are not clear. The function <code class="codehilite"><span class="err">assign</span></code> is a token transfer that bypasses the transferable bool.</li>
 </ul>
 </li>
 </ul>
@@ -7862,7 +7862,7 @@ to document the purpose and behavior of all roles to help prevent misuse.</li>
 </table>
 <ul>
 <li>Comment<ul>
-<li>Suggest using <code class="codehilite"><span class="n">require</span></code> instead of <code class="codehilite"><span class="n">assert</span></code>.</li>
+<li>Suggest using <code class="codehilite"><span class="err">require</span></code> instead of <code class="codehilite"><span class="err">assert</span></code>.</li>
 </ul>
 </li>
 </ul>
@@ -7885,7 +7885,7 @@ to document the purpose and behavior of all roles to help prevent misuse.</li>
 </table>
 <ul>
 <li>Comment<ul>
-<li>ScriptHelpers function <code class="codehilite"><span class="n">toBytes</span></code> can use forced casting which is 2x as efficient. This paradigm is already used other places in codebase.</li>
+<li>ScriptHelpers function <code class="codehilite"><span class="err">toBytes</span></code> can use forced casting which is 2x as efficient. This paradigm is already used other places in codebase.</li>
 </ul>
 </li>
 </ul>
@@ -7909,7 +7909,7 @@ to document the purpose and behavior of all roles to help prevent misuse.</li>
 </table>
 <ul>
 <li>Comment<ul>
-<li>If the same role is used to protect more than one method. The parameters passed to the <code class="codehilite"><span class="n">authP</span></code> modifier MUST be in the same order as any other method which is protected by that role because the ACL permissions are all based off of the index of the <code class="codehilite"><span class="n">_how</span></code> params. If not, then it may be possible to have someone be granted unexpected permissions.</li>
+<li>If the same role is used to protect more than one method. The parameters passed to the <code class="codehilite"><span class="err">authP</span></code> modifier MUST be in the same order as any other method which is protected by that role because the ACL permissions are all based off of the index of the <code class="codehilite"><span class="err">_how</span></code> params. If not, then it may be possible to have someone be granted unexpected permissions.</li>
 </ul>
 </li>
 </ul>
@@ -7932,7 +7932,7 @@ to document the purpose and behavior of all roles to help prevent misuse.</li>
 </table>
 <ul>
 <li>Comment<ul>
-<li><code class="codehilite"><span class="n">STATICCALL</span></code> does not preserve <code class="codehilite"><span class="n">msg</span><span class="p">.</span><span class="n">sender</span></code> and does not allow for state modifications which can prevent potential side effects.</li>
+<li><code class="codehilite"><span class="err">STATICCALL</span></code> does not preserve <code class="codehilite"><span class="err">msg.sender</span></code> and does not allow for state modifications which can prevent potential side effects.</li>
 </ul>
 </li>
 </ul>
@@ -7955,7 +7955,7 @@ to document the purpose and behavior of all roles to help prevent misuse.</li>
 </table>
 <ul>
 <li>Description<ul>
-<li>When a <code class="codehilite"><span class="n">permissionManager</span></code> is assigned to a role, the permission creator is giving up control on that permission and only the permissionManager can change the permissionManager. This is not made obvious.</li>
+<li>When a <code class="codehilite"><span class="err">permissionManager</span></code> is assigned to a role, the permission creator is giving up control on that permission and only the permissionManager can change the permissionManager. This is not made obvious.</li>
 </ul>
 </li>
 </ul>
@@ -7978,7 +7978,7 @@ to document the purpose and behavior of all roles to help prevent misuse.</li>
 </table>
 <ul>
 <li>Comment<ul>
-<li>Because the APMRegistry must have <code class="codehilite"><span class="n">CREATE_PERMISSIONS_ROLE</span></code> on the <code class="codehilite"><span class="n">ACL</span></code>, a buggy upgrade has the potential to mess up the entire dao. Thus, the <code class="codehilite"><span class="n">APMRegistry</span></code> should be the only app in a dao.</li>
+<li>Because the APMRegistry must have <code class="codehilite"><span class="err">CREATE_PERMISSIONS_ROLE</span></code> on the <code class="codehilite"><span class="err">ACL</span></code>, a buggy upgrade has the potential to mess up the entire dao. Thus, the <code class="codehilite"><span class="err">APMRegistry</span></code> should be the only app in a dao.</li>
 </ul>
 </li>
 </ul>
@@ -8001,7 +8001,7 @@ to document the purpose and behavior of all roles to help prevent misuse.</li>
 </table>
 <ul>
 <li>Comment<ul>
-<li>In Vault app it is possible to create a short circuit if the current allowance is the same as the <code class="codehilite"><span class="n">_amount</span></code>. If the amount is 0 it’s possible to repeatedly send events.</li>
+<li>In Vault app it is possible to create a short circuit if the current allowance is the same as the <code class="codehilite"><span class="err">_amount</span></code>. If the amount is 0 it’s possible to repeatedly send events.</li>
 </ul>
 </li>
 </ul>
@@ -8024,8 +8024,8 @@ to document the purpose and behavior of all roles to help prevent misuse.</li>
 </table>
 <ul>
 <li>Comment<ul>
-<li>In TokenManager app, <code class="codehilite"><span class="n">vestedTokens</span></code> should use safe math on return.<br />
-In TokenManager app, use safe math for <code class="codehilite"><span class="n">isBalanceIncreaseAllowed</span></code> function.</li>
+<li>In TokenManager app, <code class="codehilite"><span class="err">vestedTokens</span></code> should use safe math on return.<br />
+In TokenManager app, use safe math for <code class="codehilite"><span class="err">isBalanceIncreaseAllowed</span></code> function.</li>
 </ul>
 </li>
 </ul>

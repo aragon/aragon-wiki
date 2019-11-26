@@ -4727,15 +4727,15 @@
 <h3 id="initialization">Initialization</h3>
 <p>There are two different initializers depending on the mode.</p>
 <h4 id="native">Native</h4>
-<div class="codehilite"><pre><span></span><span class="n">tokenManager</span><span class="p">.</span><span class="n">initializeNative</span><span class="p">(</span><span class="n">address</span> <span class="n">token</span><span class="p">)</span>
+<div class="codehilite"><pre><span></span><span class="err">tokenManager.initializeNative(address token)</span>
 </pre></div>
 
 <p>Parameters:</p>
 <ul>
-<li><strong>Token</strong>: The token being managed. The Token Manager should have already been set as the <code class="codehilite"><span class="n">controller</span></code> for the token.</li>
+<li><strong>Token</strong>: The token being managed. The Token Manager should have already been set as the <code class="codehilite"><span class="err">controller</span></code> for the token.</li>
 </ul>
 <h4 id="wrapped">Wrapped</h4>
-<div class="codehilite"><pre><span></span><span class="n">tokenManager</span><span class="p">.</span><span class="n">initializeWrapped</span><span class="p">(</span><span class="n">address</span> <span class="n">wrapperToken</span><span class="p">,</span> <span class="n">address</span> <span class="n">wrappedToken</span><span class="p">)</span>
+<div class="codehilite"><pre><span></span><span class="err">tokenManager.initializeWrapped(address wrapperToken, address wrappedToken)</span>
 </pre></div>
 
 <p>Parameters:</p>
@@ -4746,42 +4746,42 @@
 <h3 id="mode-specific-functionality">Mode specific functionality</h3>
 <h4 id="native-mode">Native mode</h4>
 <h5 id="mint-tokens">Mint tokens</h5>
-<div class="codehilite"><pre><span></span><span class="n">tokenManager</span><span class="p">.</span><span class="n">mint</span><span class="p">(</span><span class="n">address</span> <span class="n">receiver</span><span class="p">,</span> <span class="n">uint256</span> <span class="n">amount</span><span class="p">)</span>
+<div class="codehilite"><pre><span></span><span class="err">tokenManager.mint(address receiver, uint256 amount)</span>
 </pre></div>
 
 <p>Creates new tokens and assigns them to the receiver.</p>
 <h5 id="issue-tokens">Issue tokens</h5>
-<div class="codehilite"><pre><span></span><span class="n">tokenManager</span><span class="p">.</span><span class="n">issue</span><span class="p">(</span><span class="n">uint256</span> <span class="n">amount</span><span class="p">)</span>
+<div class="codehilite"><pre><span></span><span class="err">tokenManager.issue(uint256 amount)</span>
 </pre></div>
 
 <p>Creates new tokens that are assigned to the Token Manager. Those can be later assigned.</p>
 <h4 id="wrapper-mode">Wrapper mode</h4>
 <p>Wrapper mode works under the assumption that the wrapped token is a trusted ERC20 implementation, meaning transfers are performed normally (no fees on token transfers like) and balances constant if no operations are made.</p>
 <h5 id="wrap-tokens">Wrap tokens</h5>
-<div class="codehilite"><pre><span></span><span class="n">tokenManager</span><span class="p">.</span><span class="n">wrap</span><span class="p">(</span><span class="n">uint256</span> <span class="n">amount</span><span class="p">)</span>
+<div class="codehilite"><pre><span></span><span class="err">tokenManager.wrap(uint256 amount)</span>
 </pre></div>
 
 <p>Requires an existing ERC20 allowance to the Token Manager address for at least that amount of tokens. It will transfer the wrapped tokens to the Token Manager and mint an equal amount of wrapper tokens for the sender.</p>
 <p>Will fail if sender hasn't created the allowance or doesn't have enough wrapped token balance.</p>
 <h5 id="unwrap-tokens">Unwrap tokens</h5>
-<div class="codehilite"><pre><span></span><span class="n">tokenManager</span><span class="p">.</span><span class="n">unwrap</span><span class="p">(</span><span class="n">uint256</span> <span class="n">amount</span><span class="p">)</span>
+<div class="codehilite"><pre><span></span><span class="err">tokenManager.unwrap(uint256 amount)</span>
 </pre></div>
 
 <p>It will burn the wrapper tokens and transfer the user the same amount in wrapped tokens.</p>
 <p>Will fail if sender doesn't own that many tokens.</p>
 <h3 id="generic-functionality">Generic functionality</h3>
 <h4 id="assign-tokens">Assign tokens</h4>
-<div class="codehilite"><pre><span></span><span class="n">tokenManager</span><span class="p">.</span><span class="n">assign</span><span class="p">(</span><span class="n">address</span> <span class="n">receiver</span><span class="p">,</span> <span class="n">uint256</span> <span class="n">amount</span><span class="p">)</span>
+<div class="codehilite"><pre><span></span><span class="err">tokenManager.assign(address receiver, uint256 amount)</span>
 </pre></div>
 
-<p>Transfers tokens from Token Manager balance to <code class="codehilite"><span class="n">receiver</span></code>. Token Manager can own tokens as a result of an <code class="codehilite"><span class="n">issue</span></code> operation on native mode or just because the Token Manager received a normal token transfer.</p>
+<p>Transfers tokens from Token Manager balance to <code class="codehilite"><span class="err">receiver</span></code>. Token Manager can own tokens as a result of an <code class="codehilite"><span class="err">issue</span></code> operation on native mode or just because the Token Manager received a normal token transfer.</p>
 <h4 id="assign-vested-tokens">Assign vested tokens</h4>
-<div class="codehilite"><pre><span></span><span class="n">tokenManager</span><span class="p">.</span><span class="n">assignVested</span><span class="p">(</span><span class="n">address</span> <span class="n">receiver</span><span class="p">,</span> <span class="n">uint256</span> <span class="n">amount</span><span class="p">,</span> <span class="err">{</span> <span class="n">Vesting</span> <span class="k">parameters</span> <span class="err">}</span><span class="p">)</span>
+<div class="codehilite"><pre><span></span><span class="err">tokenManager.assignVested(address receiver, uint256 amount, { Vesting parameters })</span>
 </pre></div>
 
 <p>Performs an assign but attaches rules on when the receiver can transfer her tokens. Next section goes in depth into how vesting works.</p>
 <h4 id="revoke-vesting">Revoke vesting</h4>
-<div class="codehilite"><pre><span></span><span class="n">tokenManager</span><span class="p">.</span><span class="n">revokeVesting</span><span class="p">(</span><span class="n">address</span> <span class="n">holder</span><span class="p">,</span> <span class="n">uint256</span> <span class="n">vestingId</span><span class="p">)</span>
+<div class="codehilite"><pre><span></span><span class="err">tokenManager.revokeVesting(address holder, uint256 vestingId)</span>
 </pre></div>
 
 <p>Revokes a vesting from a holder (if vesting is revokable).</p>
@@ -4801,7 +4801,7 @@
 <p>For every vesting, the amount:</p>
 <ul>
 <li>From start to cliff, 0 tokens are transferable.</li>
-<li>From cliff to vesting, the amount of transferable tokens is interpolated using this formula: <code class="codehilite"><span class="n">transferable</span> <span class="o">=</span> <span class="n">tokens</span> <span class="o">*</span> <span class="p">(</span><span class="n">now</span> <span class="o">-</span> <span class="k">start</span><span class="p">)</span> <span class="o">/</span> <span class="p">(</span><span class="n">vesting</span> <span class="o">-</span> <span class="k">start</span><span class="p">)</span></code></li>
+<li>From cliff to vesting, the amount of transferable tokens is interpolated using this formula: <code class="codehilite"><span class="err">transferable = tokens * (now - start) / (vesting - start)</span></code></li>
 <li>After vesting, all tokens are transferrable.</li>
 </ul>
 <h3 id="forwarder">Forwarder</h3>

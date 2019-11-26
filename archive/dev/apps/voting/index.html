@@ -4681,7 +4681,7 @@
 </table>
 <h3 id="vote-lifecycle">Vote lifecycle</h3>
 <h4 id="creation">Creation</h4>
-<div class="codehilite"><pre><span></span><span class="n">votingApp</span><span class="p">.</span><span class="n">newVote</span><span class="p">(</span><span class="n">bytes</span> <span class="n">_executionScript</span><span class="p">,</span> <span class="n">string</span> <span class="n">_metadata</span><span class="p">)</span>
+<div class="codehilite"><pre><span></span><span class="err">votingApp.newVote(bytes _executionScript, string _metadata)</span>
 </pre></div>
 
 <p>A new vote is initialized with:</p>
@@ -4692,7 +4692,7 @@
 <p>The voting app conforms to the <a href="../../documentation/aragonOS/#forwarders">aragonOS Forwarder interface</a>. A generic forward action will create a vote with the provided execution script and empty metadata.</p>
 <p>When a vote is created a reference to the previous block number is saved as the snapshot block for the vote. The reason the previous block number is used is to avoid double voting in the same block the vote is created. Whenever a vote is casted, the MiniMeToken associated with the app is checked for the token balance of the voter at the snapshot block.</p>
 <h4 id="casting-votes">Casting votes</h4>
-<div class="codehilite"><pre><span></span><span class="n">votingApp</span><span class="p">.</span><span class="n">vote</span><span class="p">(</span><span class="n">uint256</span> <span class="n">_voteId</span><span class="p">,</span> <span class="n">bool</span> <span class="n">_supports</span><span class="p">)</span>
+<div class="codehilite"><pre><span></span><span class="err">votingApp.vote(uint256 _voteId, bool _supports)</span>
 </pre></div>
 
 <p>In order for casting a vote all these conditions must be met:</p>
@@ -4701,25 +4701,25 @@
 <li>Vote hasn't expired.</li>
 <li>Vote hasn't been already executed.</li>
 </ul>
-<p>If the casted vote is in support of the vote, the number of tokens held by the sender at the snapshot block will be added to the vote <code class="codehilite"><span class="n">yea</span></code> counter. In case a vote is against, it will add it to the <code class="codehilite"><span class="n">nay</span></code> counter.</p>
+<p>If the casted vote is in support of the vote, the number of tokens held by the sender at the snapshot block will be added to the vote <code class="codehilite"><span class="err">yea</span></code> counter. In case a vote is against, it will add it to the <code class="codehilite"><span class="err">nay</span></code> counter.</p>
 <p>After any casted votes, the contract checks whether a vote already has the complete support to be executed (even if everyone else voted against, the vote would still be approved), in that case the vote is executed and closed.</p>
 <h4 id="executing-voting">Executing voting</h4>
-<div class="codehilite"><pre><span></span><span class="n">votingApp</span><span class="p">.</span><span class="n">executeVote</span><span class="p">(</span><span class="n">uint256</span> <span class="n">_voteId</span><span class="p">)</span>
+<div class="codehilite"><pre><span></span><span class="err">votingApp.executeVote(uint256 _voteId)</span>
 </pre></div>
 
 <p>After a vote has expired time-wise (and no more votes are allowed), the result of the vote can be executed by anyone if it was approved. For a vote to be considered approved both conditions must be true:</p>
 <ul>
-<li>The percentage of <code class="codehilite"><span class="n">yea</span></code> out of the total number of votes is greater than or equal the 'Support required' global parameter.</li>
-<li><code class="codehilite"><span class="n">yea</span></code> support is greater than or equal the 'Minimum acceptance quorum' global parameter.</li>
+<li>The percentage of <code class="codehilite"><span class="err">yea</span></code> out of the total number of votes is greater than or equal the 'Support required' global parameter.</li>
+<li><code class="codehilite"><span class="err">yea</span></code> support is greater than or equal the 'Minimum acceptance quorum' global parameter.</li>
 </ul>
 <h4 id="changing-acceptance-minimum-quorum">Changing acceptance minimum quorum</h4>
-<div class="codehilite"><pre><span></span><span class="n">votingApp</span><span class="p">.</span><span class="n">changeMinAcceptQuorumPct</span><span class="p">(</span><span class="n">uint256</span> <span class="n">_minAcceptQuorumPct</span><span class="p">)</span>
+<div class="codehilite"><pre><span></span><span class="err">votingApp.changeMinAcceptQuorumPct(uint256 _minAcceptQuorumPct)</span>
 </pre></div>
 
 <p>At any time, the minimum acceptance quorum for the new votes can be modified.</p>
 <p>Any open votes will maintain the value minimum acceptance quorum was when they were created.</p>
 <h4 id="forwarding">Forwarding</h4>
-<p><a href="https://hack.aragon.org/docs/forwarding-intro">Forwarding</a> using the common interface executes a <code class="codehilite"><span class="n">votingApp</span><span class="p">.</span><span class="n">newVote</span><span class="p">(...)</span></code> action. ACL is checked for whether the sender has permissions to create a vote.</p>
+<p><a href="https://hack.aragon.org/docs/forwarding-intro">Forwarding</a> using the common interface executes a <code class="codehilite"><span class="err">votingApp.newVote(...)</span></code> action. ACL is checked for whether the sender has permissions to create a vote.</p>
                 
                   
                 

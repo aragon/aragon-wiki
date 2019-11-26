@@ -4734,16 +4734,16 @@
 <p>If you have any trouble connecting to the default node used by the Aragon client, you can also use the raw vote transaction data to cast your vote using MyCrypto with any of the supported signing options. As mentioned before, the raw vote transaction data to use for a given Aragon Network Vote is published in the "Final details" post on the <a href="https://blog.aragon.org/tag/governance-proposals/">Aragon project blog</a> approximate one week before each vote.</p>
 <p>For example, the raw transaction data for the vote to ratify AGP-1 looked like this:</p>
 <p><strong>Raw transaction YES vote:</strong>
-<div class="codehilite"><pre><span></span><span class="k">To</span> <span class="n">address</span><span class="p">:</span> <span class="mi">0</span><span class="n">xcfee4d3078f74197ce77120dbfe6d35f443cab1c</span>
-<span class="n">Value</span><span class="p">:</span> <span class="mi">0</span> <span class="n">ETH</span>
-<span class="k">Data</span><span class="p">:</span> <span class="mi">0</span><span class="n">xdf133bca000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000000000</span>
-<span class="n">Gas</span> <span class="k">limit</span><span class="p">:</span> <span class="mi">120000</span>
+<div class="codehilite"><pre><span></span><span class="err">To address: 0xcfee4d3078f74197ce77120dbfe6d35f443cab1c</span>
+<span class="c">Value: 0 ETH</span>
+<span class="c">Data: 0xdf133bca000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000000000</span>
+<span class="err">Gas limit: 120000</span>
 </pre></div></p>
 <p><strong>Raw transaction NO vote:</strong>
-<div class="codehilite"><pre><span></span><span class="k">To</span> <span class="n">address</span><span class="p">:</span> <span class="mi">0</span><span class="n">xcfee4d3078f74197ce77120dbfe6d35f443cab1c</span>
-<span class="n">Value</span><span class="p">:</span> <span class="mi">0</span> <span class="n">ETH</span>
-<span class="k">Data</span><span class="p">:</span> <span class="mi">0</span><span class="n">xdf133bca000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</span>
-<span class="n">Gas</span> <span class="k">limit</span><span class="p">:</span> <span class="mi">120000</span>
+<div class="codehilite"><pre><span></span><span class="err">To address: 0xcfee4d3078f74197ce77120dbfe6d35f443cab1c</span>
+<span class="c">Value: 0 ETH</span>
+<span class="c">Data: 0xdf133bca000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</span>
+<span class="err">Gas limit: 120000</span>
 </pre></div></p>
 <p>This is what each field in the raw transaction data translates to:</p>
 <p><center>

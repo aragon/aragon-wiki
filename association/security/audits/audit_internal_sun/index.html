@@ -4845,14 +4845,14 @@
                 
                 
                 <h1 id="bretts-audit">Brett's Audit</h1>
-<p><em>This was an internal audit by <a href="https://github.com/sohkai">Brett Sun/@sohkai</a>, Aragon’s EVM Engineer of the <code class="codehilite"><span class="n">aragonOS</span></code> and <code class="codehilite"><span class="n">aragon</span><span class="o">-</span><span class="n">apps</span></code> that power the v0.5 release of Aragon.</em></p>
+<p><em>This was an internal audit by <a href="https://github.com/sohkai">Brett Sun/@sohkai</a>, Aragon’s EVM Engineer of the <code class="codehilite"><span class="err">aragonOS</span></code> and <code class="codehilite"><span class="err">aragon-apps</span></code> that power the v0.5 release of Aragon.</em></p>
 <p><em><a href="https://github.com/sohkai/aragonOS/blob/brett-audit/audit.md">Original report in Github</a></em></p>
 <p><em>Date: Jan 22-23 2018</em></p>
 <h2 id="overview">Overview</h2>
 <ul>
-<li>Reviewed <code class="codehilite"><span class="n">aragonOS</span></code> @ <a href="https://github.com/aragon/aragonOS/commit/8073ed1438c5fa65c45bd0c14cc5433e273656f9">8073ed1438c5fa65c45bd0c14cc5433e273656f9</a></li>
-<li>Reviewed <code class="codehilite"><span class="n">aragon</span><span class="o">-</span><span class="n">apps</span></code> @ <a href="https://github.com/aragon/aragon-apps/commit/e8e931e4ff389bfc6d8682f99c067f808f321366">e8e931e4ff389bfc6d8682f99c067f808f321366</a>; linked as submodule in the <a href="https://github.com/sohkai/aragonOS/tree/brett-audit">repo</a><ul>
-<li>Will wait until <code class="codehilite"><span class="n">aragon</span><span class="o">-</span><span class="n">apps</span></code> is upgraded to <code class="codehilite"><span class="n">aragonOS</span> <span class="mi">3</span><span class="p">.</span><span class="mi">0</span><span class="p">.</span><span class="mi">0</span></code> before running Oyente and unit tests as some contracts in <code class="codehilite"><span class="n">aragonOS</span></code> have moved in <code class="codehilite"><span class="mi">3</span><span class="p">.</span><span class="mi">0</span><span class="p">.</span><span class="mi">0</span></code> (causing compile issues)</li>
+<li>Reviewed <code class="codehilite"><span class="err">aragonOS</span></code> @ <a href="https://github.com/aragon/aragonOS/commit/8073ed1438c5fa65c45bd0c14cc5433e273656f9">8073ed1438c5fa65c45bd0c14cc5433e273656f9</a></li>
+<li>Reviewed <code class="codehilite"><span class="err">aragon-apps</span></code> @ <a href="https://github.com/aragon/aragon-apps/commit/e8e931e4ff389bfc6d8682f99c067f808f321366">e8e931e4ff389bfc6d8682f99c067f808f321366</a>; linked as submodule in the <a href="https://github.com/sohkai/aragonOS/tree/brett-audit">repo</a><ul>
+<li>Will wait until <code class="codehilite"><span class="err">aragon-apps</span></code> is upgraded to <code class="codehilite"><span class="err">aragonOS 3.0.0</span></code> before running Oyente and unit tests as some contracts in <code class="codehilite"><span class="err">aragonOS</span></code> have moved in <code class="codehilite"><span class="err">3.0.0</span></code> (causing compile issues)</li>
 </ul>
 </li>
 <li>Slight, non-logical modifications were made to some contracts for running <a href="#solgraph">Solgraph</a> (see <a href="https://github.com/sohkai/aragon-apps/commit/cd431a899af22b6f67787a8fc6cf7e1c60f8a6a7">cd431a899af22b6f67787a8fc6cf7e1c60f8a6a7</a>); <strong>these changes should not be adopted</strong></li>
@@ -4861,7 +4861,7 @@
 <h2 id="general-comments">General comments</h2>
 <ul>
 <li>No linting errors</li>
-<li>All unit tests passing (<code class="codehilite"><span class="n">aragonOS</span></code> only; see note above)</li>
+<li>All unit tests passing (<code class="codehilite"><span class="err">aragonOS</span></code> only; see note above)</li>
 <li>Uses industry-standard library contracts for common operations, including OpenZeppelin and MiniMe</li>
 <li>As a scale, I'm using:<ul>
 <li>High-severity: anything that can result in loss of funds for users, or otherwise achieve highly damaging effects on user DAOs</li>
@@ -4873,52 +4873,52 @@
 <h3 id="out-of-scope">Out of scope</h3>
 <p>I have, for the most part, ignored:</p>
 <ul>
-<li>Any contracts in <code class="codehilite"><span class="n">lib</span></code> folders</li>
-<li>Any contracts in <code class="codehilite"><span class="n">factory</span></code> folders (they're mostly for demonstration right now)</li>
+<li>Any contracts in <code class="codehilite"><span class="err">lib</span></code> folders</li>
+<li>Any contracts in <code class="codehilite"><span class="err">factory</span></code> folders (they're mostly for demonstration right now)</li>
 <li>An exhaustive look through the unit tests to see if they miss any obvious functionality (100% code and branch coverage is a good start but is usually not the whole story)</li>
 </ul>
 <h2 id="aragonos-issues">aragonOS Issues</h2>
 <h3 id="mid-severity">Mid-severity</h3>
 <ul>
-<li><code class="codehilite"><span class="n">AppProxy</span></code> should fail on construction if <code class="codehilite"><span class="n">_kernel</span></code> is not a contract<ul>
-<li><code class="codehilite"><span class="n">aragonOS</span><span class="o">/</span><span class="n">contracts</span><span class="o">/</span><span class="n">apps</span><span class="o">/</span><span class="n">AppProxy</span><span class="p">.</span><span class="n">sol</span></code>:<ul>
-<li>Kernel-less apps are impossible: the fallback function will always fail on <code class="codehilite"><span class="n">kernel</span><span class="p">.</span><span class="n">getAppCode</span><span class="p">(</span><span class="n">appId</span><span class="p">)</span></code> if <code class="codehilite"><span class="n">kernel</span> <span class="o">==</span> <span class="mi">0</span></code> or if the kernel address is not a contract.</li>
+<li><code class="codehilite"><span class="err">AppProxy</span></code> should fail on construction if <code class="codehilite"><span class="err">_kernel</span></code> is not a contract<ul>
+<li><code class="codehilite"><span class="err">aragonOS/contracts/apps/AppProxy.sol</span></code>:<ul>
+<li>Kernel-less apps are impossible: the fallback function will always fail on <code class="codehilite"><span class="err">kernel.getAppCode(appId)</span></code> if <code class="codehilite"><span class="err">kernel == 0</span></code> or if the kernel address is not a contract.</li>
 </ul>
 </li>
-<li><code class="codehilite"><span class="n">aragonOS</span><span class="o">/</span><span class="n">contracts</span><span class="o">/</span><span class="n">apps</span><span class="o">/</span><span class="n">AragonApp</span><span class="p">.</span><span class="n">sol</span></code>:<ul>
-<li><code class="codehilite"><span class="n">canPerform</span><span class="p">()</span></code> would not require the <code class="codehilite"><span class="n">address</span><span class="p">(</span><span class="n">kernel</span><span class="p">)</span> <span class="o">==</span> <span class="mi">0</span></code> check anymore as the proxy would fail to be created before that point</li>
+<li><code class="codehilite"><span class="err">aragonOS/contracts/apps/AragonApp.sol</span></code>:<ul>
+<li><code class="codehilite"><span class="err">canPerform()</span></code> would not require the <code class="codehilite"><span class="err">address(kernel) == 0</span></code> check anymore as the proxy would fail to be created before that point</li>
 </ul>
 </li>
-<li><code class="codehilite"><span class="n">aragonOS</span><span class="o">/</span><span class="n">contracts</span><span class="o">/</span><span class="n">apm</span><span class="o">/</span><span class="n">ApmRegistry</span><span class="p">.</span><span class="n">sol</span></code>:<ul>
-<li><code class="codehilite"><span class="k">initialize</span><span class="p">()</span></code>'s <code class="codehilite"><span class="n">require</span><span class="p">(</span><span class="n">kernel</span> <span class="o">!=</span> <span class="n">address</span><span class="p">(</span><span class="mi">0</span><span class="p">));</span></code> check can be removed</li>
-</ul>
-</li>
-</ul>
-</li>
-<li><code class="codehilite"><span class="n">AppProxy</span></code> may use garbage data as its <code class="codehilite"><span class="n">target</span></code>:<ul>
-<li><code class="codehilite"><span class="n">aragonOS</span><span class="o">/</span><span class="n">contracts</span><span class="o">/</span><span class="n">apps</span><span class="o">/</span><span class="n">AppProxy</span><span class="p">.</span><span class="n">sol</span></code>:<ul>
-<li>If the <code class="codehilite"><span class="n">AppProxy</span></code>'s <code class="codehilite"><span class="n">kernel</span></code> is set to a non-kernel contract address, <code class="codehilite"><span class="n">kernel</span><span class="p">.</span><span class="n">getAppCode</span><span class="p">(</span><span class="n">appId</span><span class="p">)</span></code> will return garbage data <a href="https://github.com/ethereum/solidity/issues/2630">due to how the fallback works</a>. This means that in <code class="codehilite"><span class="n">delegatedFwd</span><span class="p">(</span><span class="n">target</span><span class="p">,</span> <span class="n">msg</span><span class="p">.</span><span class="k">data</span><span class="p">)</span></code>, <code class="codehilite"><span class="n">target</span></code> could potentially be delegating to a malicious contract. As far as I know, exploiting this would be extremely difficult, but it should be clear in the surrounding documentation that the <code class="codehilite"><span class="n">kernel</span></code> <strong>MUST</strong> be carefully set.</li>
+<li><code class="codehilite"><span class="err">aragonOS/contracts/apm/ApmRegistry.sol</span></code>:<ul>
+<li><code class="codehilite"><span class="err">initialize()</span></code>'s <code class="codehilite"><span class="err">require(kernel != address(0));</span></code> check can be removed</li>
 </ul>
 </li>
 </ul>
 </li>
-<li><code class="codehilite"><span class="n">KernelProxy</span></code> should fail on construction if <code class="codehilite"><span class="n">_kernelImpl</span></code> is not a contract<ul>
-<li><code class="codehilite"><span class="n">aragonOS</span><span class="o">/</span><span class="n">contracts</span><span class="o">/</span><span class="n">kernel</span><span class="o">/</span><span class="n">KernelProxy</span><span class="p">.</span><span class="n">sol</span></code>:<ul>
-<li><code class="codehilite"><span class="n">delegatedFwd</span><span class="p">(</span><span class="n">kernelImpl</span><span class="p">,</span> <span class="n">msg</span><span class="p">.</span><span class="k">data</span><span class="p">)</span></code> will always fail if <code class="codehilite"><span class="n">kernelImpl</span> <span class="o">==</span> <span class="mi">0</span></code> or is not a contract. In such a case, it would also be impossible to run <code class="codehilite"><span class="n">upgradeKernel</span><span class="p">()</span></code>.</li>
+<li><code class="codehilite"><span class="err">AppProxy</span></code> may use garbage data as its <code class="codehilite"><span class="err">target</span></code>:<ul>
+<li><code class="codehilite"><span class="err">aragonOS/contracts/apps/AppProxy.sol</span></code>:<ul>
+<li>If the <code class="codehilite"><span class="err">AppProxy</span></code>'s <code class="codehilite"><span class="err">kernel</span></code> is set to a non-kernel contract address, <code class="codehilite"><span class="err">kernel.getAppCode(appId)</span></code> will return garbage data <a href="https://github.com/ethereum/solidity/issues/2630">due to how the fallback works</a>. This means that in <code class="codehilite"><span class="err">delegatedFwd(target, msg.data)</span></code>, <code class="codehilite"><span class="err">target</span></code> could potentially be delegating to a malicious contract. As far as I know, exploiting this would be extremely difficult, but it should be clear in the surrounding documentation that the <code class="codehilite"><span class="err">kernel</span></code> <strong>MUST</strong> be carefully set.</li>
 </ul>
 </li>
 </ul>
 </li>
-<li><code class="codehilite"><span class="n">KernelProxy</span></code>s' initialization can be front-runned:<ul>
-<li><code class="codehilite"><span class="n">aragonOS</span><span class="o">/</span><span class="n">contracts</span><span class="o">/</span><span class="n">kernel</span><span class="o">/</span><span class="n">KernelProxy</span><span class="p">.</span><span class="n">sol</span></code>:<ul>
-<li><code class="codehilite"><span class="k">initialize</span><span class="p">()</span></code> is public and accessible to anyone after the proxy is deployed. This should at least be highlighted in documentation for <code class="codehilite"><span class="n">Kernel</span><span class="p">.</span><span class="k">initialize</span><span class="p">()</span></code> and the <code class="codehilite"><span class="n">KernelProxy</span></code> so as to make sure users always create and initialize these proxies in one atomic transaction, but a better solution would be to introduce the same <code class="codehilite"><span class="n">initializePayload</span></code> that is in <code class="codehilite"><span class="n">AppProxy</span></code>.</li>
+<li><code class="codehilite"><span class="err">KernelProxy</span></code> should fail on construction if <code class="codehilite"><span class="err">_kernelImpl</span></code> is not a contract<ul>
+<li><code class="codehilite"><span class="err">aragonOS/contracts/kernel/KernelProxy.sol</span></code>:<ul>
+<li><code class="codehilite"><span class="err">delegatedFwd(kernelImpl, msg.data)</span></code> will always fail if <code class="codehilite"><span class="err">kernelImpl == 0</span></code> or is not a contract. In such a case, it would also be impossible to run <code class="codehilite"><span class="err">upgradeKernel()</span></code>.</li>
 </ul>
 </li>
 </ul>
 </li>
-<li><code class="codehilite"><span class="n">Kernel</span><span class="p">.</span><span class="n">revokePermission</span><span class="p">()</span></code> can be front-runned:<ul>
-<li><code class="codehilite"><span class="n">aragonOS</span><span class="o">/</span><span class="n">contracts</span><span class="o">/</span><span class="n">kernel</span><span class="o">/</span><span class="n">KernelProxy</span><span class="p">.</span><span class="n">sol</span></code>:<ul>
-<li>There are many possible outcomes when <code class="codehilite"><span class="n">revokePermission</span><span class="p">()</span></code> races with an entity wishing to perform an action associated with the revoked role. As in all front-running cases, the entity learning of the revocation has the upper hand as he can send his transactions with much higher gas prices. I don't see any good way around this, as this is a pretty general problem plaguing all systems implementing revocable controls. It may be a good idea to note this in the comments and associated documentation. The best way around the problem is just to never give permissions to an entity you don't entirely trust, but this is obviously not very practical (yet).</li>
+<li><code class="codehilite"><span class="err">KernelProxy</span></code>s' initialization can be front-runned:<ul>
+<li><code class="codehilite"><span class="err">aragonOS/contracts/kernel/KernelProxy.sol</span></code>:<ul>
+<li><code class="codehilite"><span class="err">initialize()</span></code> is public and accessible to anyone after the proxy is deployed. This should at least be highlighted in documentation for <code class="codehilite"><span class="err">Kernel.initialize()</span></code> and the <code class="codehilite"><span class="err">KernelProxy</span></code> so as to make sure users always create and initialize these proxies in one atomic transaction, but a better solution would be to introduce the same <code class="codehilite"><span class="err">initializePayload</span></code> that is in <code class="codehilite"><span class="err">AppProxy</span></code>.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><code class="codehilite"><span class="err">Kernel.revokePermission()</span></code> can be front-runned:<ul>
+<li><code class="codehilite"><span class="err">aragonOS/contracts/kernel/KernelProxy.sol</span></code>:<ul>
+<li>There are many possible outcomes when <code class="codehilite"><span class="err">revokePermission()</span></code> races with an entity wishing to perform an action associated with the revoked role. As in all front-running cases, the entity learning of the revocation has the upper hand as he can send his transactions with much higher gas prices. I don't see any good way around this, as this is a pretty general problem plaguing all systems implementing revocable controls. It may be a good idea to note this in the comments and associated documentation. The best way around the problem is just to never give permissions to an entity you don't entirely trust, but this is obviously not very practical (yet).</li>
 </ul>
 </li>
 </ul>
@@ -4926,85 +4926,85 @@
 </ul>
 <h3 id="low-severity">Low-severity</h3>
 <ul>
-<li><code class="codehilite"><span class="n">APMRegistry</span><span class="p">.</span><span class="n">NewRepo</span></code> event should index its <code class="codehilite"><span class="n">id</span></code> and <code class="codehilite"><span class="n">repo</span></code> fields<ul>
-<li><code class="codehilite"><span class="n">aragonOS</span><span class="o">/</span><span class="n">contracts</span><span class="o">/</span><span class="n">apm</span><span class="o">/</span><span class="n">ApmRegistry</span><span class="p">.</span><span class="n">sol</span></code></li>
+<li><code class="codehilite"><span class="err">APMRegistry.NewRepo</span></code> event should index its <code class="codehilite"><span class="err">id</span></code> and <code class="codehilite"><span class="err">repo</span></code> fields<ul>
+<li><code class="codehilite"><span class="err">aragonOS/contracts/apm/ApmRegistry.sol</span></code></li>
 </ul>
 </li>
-<li><code class="codehilite"><span class="n">Repo</span></code> should use <code class="codehilite"><span class="n">pragma</span> <span class="n">solidity</span> <span class="mi">0</span><span class="p">.</span><span class="mi">4</span><span class="p">.</span><span class="mi">18</span><span class="p">;</span></code><ul>
-<li><code class="codehilite"><span class="n">aragonOS</span><span class="o">/</span><span class="n">contracts</span><span class="o">/</span><span class="n">apm</span><span class="o">/</span><span class="n">Repo</span><span class="p">.</span><span class="n">sol</span></code></li>
+<li><code class="codehilite"><span class="err">Repo</span></code> should use <code class="codehilite"><span class="err">pragma solidity 0.4.18;</span></code><ul>
+<li><code class="codehilite"><span class="err">aragonOS/contracts/apm/Repo.sol</span></code></li>
 </ul>
 </li>
-<li><code class="codehilite"><span class="n">AppProxy</span></code> should fail if <code class="codehilite"><span class="n">_appId</span></code> is <code class="codehilite"><span class="n">bytes32</span><span class="p">(</span><span class="mi">0</span><span class="p">)</span></code><ul>
-<li><code class="codehilite"><span class="n">aragonOS</span><span class="o">/</span><span class="n">contracts</span><span class="o">/</span><span class="n">apps</span><span class="o">/</span><span class="n">AppProxy</span><span class="p">.</span><span class="n">sol</span></code>:<ul>
-<li>A valid <code class="codehilite"><span class="n">appId</span></code> will  never be <code class="codehilite"><span class="n">bytes32</span><span class="p">(</span><span class="mi">0</span><span class="p">)</span></code></li>
-</ul>
-</li>
-</ul>
-</li>
-<li><code class="codehilite"><span class="n">AragonApp</span></code> could be split into <code class="codehilite"><span class="n">AragonApp</span></code> and <code class="codehilite"><span class="n">InitializableAragonApp</span></code><ul>
-<li><code class="codehilite"><span class="n">aragonOS</span><span class="o">/</span><span class="n">contracts</span><span class="o">/</span><span class="n">apps</span><span class="o">/</span><span class="n">AragonApp</span><span class="p">.</span><span class="n">sol</span></code>:<ul>
-<li>Apps that don't need to initialize don't need to inherit from <code class="codehilite"><span class="n">Initializable</span></code>. However, doing this would make it difficult for an app to include the ability to initialize later on, although it's debatable whether or not that functionality would be desirable (what does it mean for already created apps if the app changes to require initialization?).</li>
+<li><code class="codehilite"><span class="err">AppProxy</span></code> should fail if <code class="codehilite"><span class="err">_appId</span></code> is <code class="codehilite"><span class="err">bytes32(0)</span></code><ul>
+<li><code class="codehilite"><span class="err">aragonOS/contracts/apps/AppProxy.sol</span></code>:<ul>
+<li>A valid <code class="codehilite"><span class="err">appId</span></code> will  never be <code class="codehilite"><span class="err">bytes32(0)</span></code></li>
 </ul>
 </li>
 </ul>
 </li>
-<li><code class="codehilite"><span class="n">EtherToken</span></code>'s <code class="codehilite"><span class="n">wrap</span><span class="p">()</span></code>, <code class="codehilite"><span class="n">wrapAndCall</span><span class="p">()</span></code>, and <code class="codehilite"><span class="n">withdraw</span><span class="p">()</span></code> should be made external<ul>
-<li><code class="codehilite"><span class="n">aragonOS</span><span class="o">/</span><span class="n">contracts</span><span class="o">/</span><span class="n">common</span><span class="o">/</span><span class="n">EtherToken</span><span class="p">.</span><span class="n">sol</span></code>:<ul>
-<li>I don't see many use cases for subclassing this contract (since it's specific to ETH) so any functions not used internally could be made <code class="codehilite"><span class="k">external</span></code></li>
+<li><code class="codehilite"><span class="err">AragonApp</span></code> could be split into <code class="codehilite"><span class="err">AragonApp</span></code> and <code class="codehilite"><span class="err">InitializableAragonApp</span></code><ul>
+<li><code class="codehilite"><span class="err">aragonOS/contracts/apps/AragonApp.sol</span></code>:<ul>
+<li>Apps that don't need to initialize don't need to inherit from <code class="codehilite"><span class="err">Initializable</span></code>. However, doing this would make it difficult for an app to include the ability to initialize later on, although it's debatable whether or not that functionality would be desirable (what does it mean for already created apps if the app changes to require initialization?).</li>
 </ul>
 </li>
 </ul>
 </li>
-<li><code class="codehilite"><span class="n">EtherToken</span></code>'s <code class="codehilite"><span class="n">wrap</span><span class="p">()</span></code> could also take a receiver address<ul>
-<li><code class="codehilite"><span class="n">aragonOS</span><span class="o">/</span><span class="n">contracts</span><span class="o">/</span><span class="n">common</span><span class="o">/</span><span class="n">EtherToken</span><span class="p">.</span><span class="n">sol</span></code>:<ul>
-<li>Seems odd that <code class="codehilite"><span class="n">wrap</span><span class="p">()</span></code> always deposits to the <code class="codehilite"><span class="n">msg</span><span class="p">.</span><span class="n">sender</span></code> while <code class="codehilite"><span class="n">wrapAndCall</span><span class="p">()</span></code> allows you to choose who to send it to</li>
+<li><code class="codehilite"><span class="err">EtherToken</span></code>'s <code class="codehilite"><span class="err">wrap()</span></code>, <code class="codehilite"><span class="err">wrapAndCall()</span></code>, and <code class="codehilite"><span class="err">withdraw()</span></code> should be made external<ul>
+<li><code class="codehilite"><span class="err">aragonOS/contracts/common/EtherToken.sol</span></code>:<ul>
+<li>I don't see many use cases for subclassing this contract (since it's specific to ETH) so any functions not used internally could be made <code class="codehilite"><span class="err">external</span></code></li>
 </ul>
 </li>
 </ul>
 </li>
-<li><code class="codehilite"><span class="n">EtherToken</span><span class="p">.</span><span class="n">withdraw</span><span class="p">()</span></code> includes an unnecessary check:<ul>
-<li><code class="codehilite"><span class="n">aragonOS</span><span class="o">/</span><span class="n">contracts</span><span class="o">/</span><span class="n">common</span><span class="o">/</span><span class="n">EtherToken</span><span class="p">.</span><span class="n">sol</span></code>:<ul>
-<li>Strictly speaking, <code class="codehilite"><span class="n">require</span><span class="p">(</span><span class="n">balances</span><span class="p">[</span><span class="n">msg</span><span class="p">.</span><span class="n">sender</span><span class="p">]</span> <span class="o">&gt;=</span> <span class="n">_amount</span><span class="p">)</span></code> is unnecessary since <code class="codehilite"><span class="n">balances</span><span class="p">[</span><span class="n">msg</span><span class="p">.</span><span class="n">sender</span><span class="p">].</span><span class="n">sub</span><span class="p">(</span><span class="n">_amount</span><span class="p">)</span></code> will also do this check</li>
+<li><code class="codehilite"><span class="err">EtherToken</span></code>'s <code class="codehilite"><span class="err">wrap()</span></code> could also take a receiver address<ul>
+<li><code class="codehilite"><span class="err">aragonOS/contracts/common/EtherToken.sol</span></code>:<ul>
+<li>Seems odd that <code class="codehilite"><span class="err">wrap()</span></code> always deposits to the <code class="codehilite"><span class="err">msg.sender</span></code> while <code class="codehilite"><span class="err">wrapAndCall()</span></code> allows you to choose who to send it to</li>
 </ul>
 </li>
 </ul>
 </li>
-<li><code class="codehilite"><span class="n">DelegateProxy</span><span class="p">.</span><span class="n">delegatedFwd</span><span class="p">()</span></code> could take a <code class="codehilite"><span class="n">gas</span></code> parameter:<ul>
-<li><code class="codehilite"><span class="n">aragonOS</span><span class="o">/</span><span class="n">contracts</span><span class="o">/</span><span class="n">common</span><span class="o">/</span><span class="n">DelegateProxy</span><span class="p">.</span><span class="n">sol</span></code>:<ul>
-<li>It may be useful to provide a control over how much gas is provided to the <code class="codehilite"><span class="n">delegatecall</span></code> in case of gas price changes or particular uses (e.g. super large returns or gas-restricted calls). I don't think this is a pressing concern, however, and it may be suggesting additional flexibility for the sake of flexibility.</li>
+<li><code class="codehilite"><span class="err">EtherToken.withdraw()</span></code> includes an unnecessary check:<ul>
+<li><code class="codehilite"><span class="err">aragonOS/contracts/common/EtherToken.sol</span></code>:<ul>
+<li>Strictly speaking, <code class="codehilite"><span class="err">require(balances[msg.sender] &gt;= _amount)</span></code> is unnecessary since <code class="codehilite"><span class="err">balances[msg.sender].sub(_amount)</span></code> will also do this check</li>
 </ul>
 </li>
 </ul>
 </li>
-<li><code class="codehilite"><span class="n">IForwarder</span><span class="p">.</span><span class="n">isForwarder</span><span class="p">()</span></code> should be made external<ul>
-<li><code class="codehilite"><span class="n">aragonOS</span><span class="o">/</span><span class="n">contracts</span><span class="o">/</span><span class="n">common</span><span class="o">/</span><span class="n">IForwarder</span><span class="p">.</span><span class="n">sol</span></code>:<ul>
-<li>There's no reason to ever use <code class="codehilite"><span class="n">isForwarder</span><span class="p">()</span></code> internally... right?</li>
+<li><code class="codehilite"><span class="err">DelegateProxy.delegatedFwd()</span></code> could take a <code class="codehilite"><span class="err">gas</span></code> parameter:<ul>
+<li><code class="codehilite"><span class="err">aragonOS/contracts/common/DelegateProxy.sol</span></code>:<ul>
+<li>It may be useful to provide a control over how much gas is provided to the <code class="codehilite"><span class="err">delegatecall</span></code> in case of gas price changes or particular uses (e.g. super large returns or gas-restricted calls). I don't think this is a pressing concern, however, and it may be suggesting additional flexibility for the sake of flexibility.</li>
 </ul>
 </li>
 </ul>
 </li>
-<li><code class="codehilite"><span class="n">Initializable</span></code> library instances can be initialized:<ul>
-<li><code class="codehilite"><span class="n">aragonOS</span><span class="o">/</span><span class="n">contracts</span><span class="o">/</span><span class="n">common</span><span class="o">/</span><span class="n">Initializable</span><span class="p">.</span><span class="n">sol</span></code>:<ul>
-<li>Not a big deal because library contracts' states are meaningless, but it'd still be nice if <code class="codehilite"><span class="n">Initializable</span></code> provided a way for these library contracts to be initialized on creation (e.g. by providing a constructor that sets <code class="codehilite"><span class="n">initializationBlock</span></code>)</li>
+<li><code class="codehilite"><span class="err">IForwarder.isForwarder()</span></code> should be made external<ul>
+<li><code class="codehilite"><span class="err">aragonOS/contracts/common/IForwarder.sol</span></code>:<ul>
+<li>There's no reason to ever use <code class="codehilite"><span class="err">isForwarder()</span></code> internally... right?</li>
 </ul>
 </li>
 </ul>
 </li>
-<li><code class="codehilite"><span class="n">ENSSubdomainRegistrar</span><span class="p">.</span><span class="n">createNameAndPoint</span><span class="p">()</span></code> should accept an <code class="codehilite"><span class="k">owner</span></code> parameter<ul>
-<li><code class="codehilite"><span class="n">aragonOS</span><span class="o">/</span><span class="n">contracts</span><span class="o">/</span><span class="n">ens</span><span class="o">/</span><span class="n">ENSSubdomainRegistrar</span><span class="p">.</span><span class="n">sol</span></code>:<ul>
-<li>Mirror <code class="codehilite"><span class="n">createName</span><span class="p">()</span></code>'s interface and increase flexibility</li>
+<li><code class="codehilite"><span class="err">Initializable</span></code> library instances can be initialized:<ul>
+<li><code class="codehilite"><span class="err">aragonOS/contracts/common/Initializable.sol</span></code>:<ul>
+<li>Not a big deal because library contracts' states are meaningless, but it'd still be nice if <code class="codehilite"><span class="err">Initializable</span></code> provided a way for these library contracts to be initialized on creation (e.g. by providing a constructor that sets <code class="codehilite"><span class="err">initializationBlock</span></code>)</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><code class="codehilite"><span class="err">ENSSubdomainRegistrar.createNameAndPoint()</span></code> should accept an <code class="codehilite"><span class="err">owner</span></code> parameter<ul>
+<li><code class="codehilite"><span class="err">aragonOS/contracts/ens/ENSSubdomainRegistrar.sol</span></code>:<ul>
+<li>Mirror <code class="codehilite"><span class="err">createName()</span></code>'s interface and increase flexibility</li>
 </ul>
 </li>
 </ul>
 </li>
 <li>Nomenclature:<ul>
-<li><code class="codehilite"><span class="n">aragonOS</span><span class="o">/</span><span class="n">contracts</span><span class="o">/</span><span class="n">common</span><span class="o">/</span><span class="n">EVMCallScript</span><span class="p">.</span><span class="n">sol</span></code>:<ul>
-<li><code class="codehilite"><span class="n">EVMCallScriptRunner</span><span class="p">.</span><span class="n">LogScriptCall</span></code> event should be named <code class="codehilite"><span class="n">ScriptCall</span></code> to adhere to the same pattern as all other events (no <code class="codehilite"><span class="n">Log</span></code> prefix)</li>
+<li><code class="codehilite"><span class="err">aragonOS/contracts/common/EVMCallScript.sol</span></code>:<ul>
+<li><code class="codehilite"><span class="err">EVMCallScriptRunner.LogScriptCall</span></code> event should be named <code class="codehilite"><span class="err">ScriptCall</span></code> to adhere to the same pattern as all other events (no <code class="codehilite"><span class="err">Log</span></code> prefix)</li>
 </ul>
 </li>
-<li><code class="codehilite"><span class="n">aragonOS</span><span class="o">/</span><span class="n">contracts</span><span class="o">/</span><span class="n">kernel</span><span class="o">/</span><span class="n">IKernel</span><span class="p">.</span><span class="n">sol</span></code>:<ul>
-<li>Function names and arguments have a naming mismatch; names are called in terms of <code class="codehilite"><span class="n">permission</span></code>s whereas arguments are always called in terms of <code class="codehilite"><span class="k">role</span></code>s</li>
-<li><code class="codehilite"><span class="n">ChangePermissionManager</span></code> event could have its <code class="codehilite"><span class="n">manager</span></code> parameter renamed as <code class="codehilite"><span class="n">newManager</span></code> for clarity</li>
+<li><code class="codehilite"><span class="err">aragonOS/contracts/kernel/IKernel.sol</span></code>:<ul>
+<li>Function names and arguments have a naming mismatch; names are called in terms of <code class="codehilite"><span class="err">permission</span></code>s whereas arguments are always called in terms of <code class="codehilite"><span class="err">role</span></code>s</li>
+<li><code class="codehilite"><span class="err">ChangePermissionManager</span></code> event could have its <code class="codehilite"><span class="err">manager</span></code> parameter renamed as <code class="codehilite"><span class="err">newManager</span></code> for clarity</li>
 </ul>
 </li>
 </ul>
@@ -5012,36 +5012,36 @@
 <li>
 <p>Comments:</p>
 <ul>
-<li><code class="codehilite"><span class="n">aragonOS</span><span class="o">/</span><span class="n">contracts</span><span class="o">/</span><span class="n">apps</span><span class="o">/</span><span class="n">AppProxy</span><span class="p">.</span><span class="n">sol</span></code> and <code class="codehilite"><span class="n">aragonOS</span><span class="o">/</span><span class="n">contracts</span><span class="o">/</span><span class="n">kernel</span><span class="o">/</span><span class="n">KernelProxy</span><span class="p">.</span><span class="n">sol</span></code>:<ul>
-<li>Fallback function: a note indicating that no <code class="codehilite"><span class="k">return</span></code> statement is needed for <code class="codehilite"><span class="n">delegatedFwd</span><span class="p">()</span></code> to return a <code class="codehilite"><span class="n">bytes32</span></code> value would be nice (it is puzzling at first glance why the comments say they return data but the function signatures and bodies don't contain <code class="codehilite"><span class="k">return</span></code>s; it's additionally puzzling because Solidity disallows fallbacks from returning). Also, I believe it's more than just a <code class="codehilite"><span class="n">bytes32</span></code> being returned now (post Byzantium); it should be the entire return?</li>
+<li><code class="codehilite"><span class="err">aragonOS/contracts/apps/AppProxy.sol</span></code> and <code class="codehilite"><span class="err">aragonOS/contracts/kernel/KernelProxy.sol</span></code>:<ul>
+<li>Fallback function: a note indicating that no <code class="codehilite"><span class="err">return</span></code> statement is needed for <code class="codehilite"><span class="err">delegatedFwd()</span></code> to return a <code class="codehilite"><span class="err">bytes32</span></code> value would be nice (it is puzzling at first glance why the comments say they return data but the function signatures and bodies don't contain <code class="codehilite"><span class="err">return</span></code>s; it's additionally puzzling because Solidity disallows fallbacks from returning). Also, I believe it's more than just a <code class="codehilite"><span class="err">bytes32</span></code> being returned now (post Byzantium); it should be the entire return?</li>
 </ul>
 </li>
-<li><code class="codehilite"><span class="n">aragonOS</span><span class="o">/</span><span class="n">contracts</span><span class="o">/</span><span class="n">common</span><span class="o">/</span><span class="n">DelegateProxy</span><span class="p">.</span><span class="n">sol</span></code>:<ul>
-<li>Would be nice to have an <code class="codehilite"><span class="nv">@returns</span><span class="w"></span></code> comment</li>
+<li><code class="codehilite"><span class="err">aragonOS/contracts/common/DelegateProxy.sol</span></code>:<ul>
+<li>Would be nice to have an <code class="codehilite"><span class="err">@returns</span></code> comment</li>
 </ul>
 </li>
-<li><code class="codehilite"><span class="n">aragonOS</span><span class="o">/</span><span class="n">contracts</span><span class="o">/</span><span class="n">common</span><span class="o">/</span><span class="n">IForwarder</span><span class="p">.</span><span class="n">sol</span></code>:<ul>
+<li><code class="codehilite"><span class="err">aragonOS/contracts/common/IForwarder.sol</span></code>:<ul>
 <li>Would be nice to have some comments documenting the interface</li>
 </ul>
 </li>
-<li><code class="codehilite"><span class="n">aragonOS</span><span class="o">/</span><span class="n">contracts</span><span class="o">/</span><span class="n">common</span><span class="o">/</span><span class="n">Initializable</span><span class="p">.</span><span class="n">sol</span></code>:<ul>
-<li><code class="codehilite"><span class="n">initialized</span><span class="p">()</span></code>: <code class="codehilite"><span class="k">Function</span> <span class="k">to</span> <span class="n">be</span> <span class="k">called</span> <span class="k">by</span> <span class="n">subclassed</span> <span class="n">contract</span> <span class="k">to</span> <span class="n">signal</span> <span class="n">it</span> <span class="n">has</span> <span class="n">been</span> <span class="n">initialized</span><span class="p">.</span></code> may better reflect the intended usage of <code class="codehilite"><span class="n">initialized</span><span class="p">()</span></code></li>
+<li><code class="codehilite"><span class="err">aragonOS/contracts/common/Initializable.sol</span></code>:<ul>
+<li><code class="codehilite"><span class="err">initialized()</span></code>: <code class="codehilite"><span class="err">Function to be called by subclassed contract to signal it has been initialized.</span></code> may better reflect the intended usage of <code class="codehilite"><span class="err">initialized()</span></code></li>
 </ul>
 </li>
-<li><code class="codehilite"><span class="n">aragonOS</span><span class="o">/</span><span class="n">contracts</span><span class="o">/</span><span class="n">kernel</span><span class="o">/</span><span class="n">IKernel</span><span class="p">.</span><span class="n">sol</span></code>:<ul>
-<li>Might be nice to move some of the comments detailing functions from <code class="codehilite"><span class="n">aragonOS</span><span class="o">/</span><span class="n">contracts</span><span class="o">/</span><span class="n">kernel</span><span class="o">/</span><span class="n">Kernel</span><span class="p">.</span><span class="n">sol</span></code> to the interface contract</li>
+<li><code class="codehilite"><span class="err">aragonOS/contracts/kernel/IKernel.sol</span></code>:<ul>
+<li>Might be nice to move some of the comments detailing functions from <code class="codehilite"><span class="err">aragonOS/contracts/kernel/Kernel.sol</span></code> to the interface contract</li>
 </ul>
 </li>
-<li><code class="codehilite"><span class="n">aragonOS</span><span class="o">/</span><span class="n">contracts</span><span class="o">/</span><span class="n">kernel</span><span class="o">/</span><span class="n">Kernel</span><span class="p">.</span><span class="n">sol</span></code>:<ul>
-<li>It may be useful to have a detailed example for each complex mapping, e.g: <code class="codehilite"><span class="n">mapping</span> <span class="p">(</span><span class="n">address</span> <span class="o">=&gt;</span> <span class="n">mapping</span> <span class="p">(</span><span class="n">address</span> <span class="o">=&gt;</span> <span class="n">mapping</span> <span class="p">(</span><span class="n">bytes32</span> <span class="o">=&gt;</span> <span class="n">bool</span><span class="p">)))</span> <span class="n">permissions</span></code> could have <code class="codehilite"><span class="p">(</span><span class="n">entity</span> <span class="o">=&gt;</span> <span class="p">(</span><span class="n">app</span> <span class="o">=&gt;</span> <span class="p">(</span><span class="k">role</span> <span class="o">=&gt;</span> <span class="n">hasPermission</span><span class="p">)))</span></code></li>
-<li>Remove all instances of <code class="codehilite"><span class="n">parent</span></code> and replace with <code class="codehilite"><span class="n">manager</span></code></li>
-<li><code class="codehilite"><span class="n">setAppCode</span><span class="p">()</span></code>: suggest changing <code class="codehilite"><span class="nv">@dev</span><span class="w"></span></code> comment to <code class="codehilite">@<span class="nv">dev</span> <span class="nv">Changes</span> <span class="nv">implementation</span> <span class="nv">address</span> <span class="k">for</span> <span class="nv">all</span> <span class="nv">installed</span> <span class="nv">apps</span> <span class="nv">with</span> \</code>_appId`. This must be called for `_appId` before any apps of `_appId` work properly.</li>
+<li><code class="codehilite"><span class="err">aragonOS/contracts/kernel/Kernel.sol</span></code>:<ul>
+<li>It may be useful to have a detailed example for each complex mapping, e.g: <code class="codehilite"><span class="err">mapping (address =&gt; mapping (address =&gt; mapping (bytes32 =&gt; bool))) permissions</span></code> could have <code class="codehilite"><span class="err">(entity =&gt; (app =&gt; (role =&gt; hasPermission)))</span></code></li>
+<li>Remove all instances of <code class="codehilite"><span class="err">parent</span></code> and replace with <code class="codehilite"><span class="err">manager</span></code></li>
+<li><code class="codehilite"><span class="err">setAppCode()</span></code>: suggest changing <code class="codehilite"><span class="err">@dev</span></code> comment to <code class="codehilite"><span class="err">@dev Changes implementation address for all installed apps with \</span></code>_appId`. This must be called for `_appId` before any apps of `_appId` work properly.</li>
 </ul>
 </li>
 </ul>
 </li>
 <li>
-<p><code class="codehilite"><span class="n">solc</span></code> build warning:</p>
+<p><code class="codehilite"><span class="err">solc</span></code> build warning:</p>
 </li>
 </ul>
 <div class="codehilite"><pre><span></span>aragonOS/contracts/apm/Repo.sol:78:5: Warning: Function state mutability can be restricted to pure
@@ -5050,9 +5050,9 @@
 
 <p>(All other build warnings are either from 3<sup>rd</sup> party or test contracts, and of low severity)</p>
 <ul>
-<li>Unused library code: <code class="codehilite"><span class="n">aragonOS</span><span class="o">/</span><span class="n">contracts</span><span class="o">/</span><span class="n">lib</span><span class="o">/</span><span class="n">zeppelin</span><span class="o">/</span><span class="n">math</span><span class="o">/</span><span class="n">Math</span><span class="p">.</span><span class="n">sol</span></code></li>
+<li>Unused library code: <code class="codehilite"><span class="err">aragonOS/contracts/lib/zeppelin/math/Math.sol</span></code></li>
 <li>Check and update library contracts for latest versions (e.g. Zeppelin, MiniMe) if any bug fixes have been introduced</li>
-<li>In general, it may be a good idea to introduce ETH / ERC20 escape hatches for non-Vault contracts (e.g. see <a href="https://github.com/Giveth/Donation-Doubler/blob/master/contracts/Escapable.sol">Escapable</a>, or an even simpler contract that just exposes a <a href="https://github.com/Giveth/minime/blob/master/contracts/MiniMeToken.sol#L497">function allowing <code class="codehilite"><span class="k">owner</span></code> to withdraw any ETH or ERC20 token owned by the contract</a>)<ul>
+<li>In general, it may be a good idea to introduce ETH / ERC20 escape hatches for non-Vault contracts (e.g. see <a href="https://github.com/Giveth/Donation-Doubler/blob/master/contracts/Escapable.sol">Escapable</a>, or an even simpler contract that just exposes a <a href="https://github.com/Giveth/minime/blob/master/contracts/MiniMeToken.sol#L497">function allowing <code class="codehilite"><span class="err">owner</span></code> to withdraw any ETH or ERC20 token owned by the contract</a>)<ul>
 <li>Alternatively, contracts could revert in the fallback function and ERC223/677 callbacks, but ERC20 tokens could still be locked up</li>
 </ul>
 </li>
@@ -5061,79 +5061,79 @@
 <h3 id="low-severity_1">Low-Severity</h3>
 <ul>
 <li>General<ul>
-<li>Given that most storage arrays in the apps are never iterated, they could be implemented with <code class="codehilite"><span class="n">mapping</span> <span class="p">(</span><span class="n">bytes32</span> <span class="o">=&gt;</span> <span class="p">...)</span></code>s instead, where the key is <code class="codehilite"><span class="n">keccak256</span><span class="p">(</span><span class="s1">&#39;&lt;type&gt;&#39;</span><span class="p">,</span> <span class="n">currentNumOfType</span><span class="p">)</span></code>. The main advantage of this is being able to avoid any index manipulation targeted for humans (i.e. forcing some arrays to start at <code class="codehilite"><span class="mi">1</span></code> because <code class="codehilite"><span class="mi">0</span></code> doesn't make intuitive sense). Also, a pseudorandom <code class="codehilite"><span class="n">bytes32</span></code> value arguably makes more sense as an identifier than an incrementing <code class="codehilite"><span class="n">uint</span></code>. Clients could listen to the logs (or rebuild the hashes, if <code class="codehilite"><span class="n">currentNumOfType</span></code> is known) to build their UIs.</li>
+<li>Given that most storage arrays in the apps are never iterated, they could be implemented with <code class="codehilite"><span class="err">mapping (bytes32 =&gt; ...)</span></code>s instead, where the key is <code class="codehilite"><span class="err">keccak256(&#39;&lt;type&gt;&#39;, currentNumOfType)</span></code>. The main advantage of this is being able to avoid any index manipulation targeted for humans (i.e. forcing some arrays to start at <code class="codehilite"><span class="err">1</span></code> because <code class="codehilite"><span class="err">0</span></code> doesn't make intuitive sense). Also, a pseudorandom <code class="codehilite"><span class="err">bytes32</span></code> value arguably makes more sense as an identifier than an incrementing <code class="codehilite"><span class="err">uint</span></code>. Clients could listen to the logs (or rebuild the hashes, if <code class="codehilite"><span class="err">currentNumOfType</span></code> is known) to build their UIs.</li>
 </ul>
 </li>
 <li>Finance<ul>
-<li><code class="codehilite"><span class="n">aragon</span><span class="o">-</span><span class="n">apps</span><span class="o">/</span><span class="n">apps</span><span class="o">/</span><span class="n">finance</span><span class="o">/</span><span class="n">contracts</span><span class="o">/</span><span class="n">Finance</span><span class="p">.</span><span class="n">sol</span></code>:<ul>
+<li><code class="codehilite"><span class="err">aragon-apps/apps/finance/contracts/Finance.sol</span></code>:<ul>
 <li>Should add clarifications as to whether a token must be added to the budget before being allowed to create payments<ul>
-<li>l204 has a comment stating this to be the case, but the associated <code class="codehilite"><span class="n">require</span><span class="p">()</span></code> does not actually complete this check</li>
+<li>l204 has a comment stating this to be the case, but the associated <code class="codehilite"><span class="err">require()</span></code> does not actually complete this check</li>
 </ul>
 </li>
-<li>Comments may be beneficial for mappings (e.g. <code class="codehilite"><span class="n">token</span> <span class="o">=&gt;</span> <span class="n">budget</span></code> for <code class="codehilite"><span class="n">budgets</span></code>)</li>
-<li><code class="codehilite"><span class="n">tokenStatement</span></code> should be renamed <code class="codehilite"><span class="n">tokenStatements</span></code></li>
-<li>Consider increasing the minimum <code class="codehilite"><span class="n">periodDuration</span></code> to be greater than one second<ul>
-<li>Extremely small <code class="codehilite"><span class="n">periodDurations</span></code> can cause the app to be onerous to maintain</li>
+<li>Comments may be beneficial for mappings (e.g. <code class="codehilite"><span class="err">token =&gt; budget</span></code> for <code class="codehilite"><span class="err">budgets</span></code>)</li>
+<li><code class="codehilite"><span class="err">tokenStatement</span></code> should be renamed <code class="codehilite"><span class="err">tokenStatements</span></code></li>
+<li>Consider increasing the minimum <code class="codehilite"><span class="err">periodDuration</span></code> to be greater than one second<ul>
+<li>Extremely small <code class="codehilite"><span class="err">periodDurations</span></code> can cause the app to be onerous to maintain</li>
 </ul>
 </li>
-<li>Deposit logic may benefit from being abstracted into internal <code class="codehilite"><span class="n">_deposit</span><span class="p">()</span></code> and <code class="codehilite"><span class="n">_depositFrom</span><span class="p">()</span></code> methods<ul>
-<li>Improve DRYness when the combo of <code class="codehilite"><span class="n">_recordIncomingTransaction</span><span class="p">()</span></code> and <code class="codehilite"><span class="n">token</span><span class="p">.</span><span class="n">transfer</span><span class="p">()</span></code> or <code class="codehilite"><span class="n">token</span><span class="p">.</span><span class="n">transferFrom</span><span class="p">()</span></code> are used</li>
+<li>Deposit logic may benefit from being abstracted into internal <code class="codehilite"><span class="err">_deposit()</span></code> and <code class="codehilite"><span class="err">_depositFrom()</span></code> methods<ul>
+<li>Improve DRYness when the combo of <code class="codehilite"><span class="err">_recordIncomingTransaction()</span></code> and <code class="codehilite"><span class="err">token.transfer()</span></code> or <code class="codehilite"><span class="err">token.transferFrom()</span></code> are used</li>
 </ul>
 </li>
-<li><code class="codehilite"><span class="n">newPayment</span><span class="p">()</span></code> acts differently for one-time, immediate payments than repeating payments when the payment fails<ul>
-<li>One time payments cause a revert if they cannot be immediately executed while repeating payments will log a <code class="codehilite"><span class="n">PaymentFailure</span></code> event. It may be beneficial for both cases to match so as to avoid unexpected behaviour for users. One way of accomplishing this would be to cache a one-time payment if it cannot be immediately executed.</li>
+<li><code class="codehilite"><span class="err">newPayment()</span></code> acts differently for one-time, immediate payments than repeating payments when the payment fails<ul>
+<li>One time payments cause a revert if they cannot be immediately executed while repeating payments will log a <code class="codehilite"><span class="err">PaymentFailure</span></code> event. It may be beneficial for both cases to match so as to avoid unexpected behaviour for users. One way of accomplishing this would be to cache a one-time payment if it cannot be immediately executed.</li>
 </ul>
 </li>
-<li><code class="codehilite"><span class="n">setBudget</span><span class="p">()</span></code> should check that <code class="codehilite"><span class="n">_amount</span></code> is greater than or equal to the current period's expenses<ul>
+<li><code class="codehilite"><span class="err">setBudget()</span></code> should check that <code class="codehilite"><span class="err">_amount</span></code> is greater than or equal to the current period's expenses<ul>
 <li>Changing a budget to be smaller than the current period's expenses will likely be confusing for clients and should be avoided</li>
 </ul>
 </li>
-<li>Remove payment date check from <code class="codehilite"><span class="n">executePayment</span><span class="p">()</span></code> and <code class="codehilite"><span class="n">receiverExecutePayment</span><span class="p">()</span></code><ul>
-<li><code class="codehilite"><span class="n">require</span><span class="p">(</span><span class="n">nextPaymentTime</span><span class="p">(</span><span class="n">_paymentId</span><span class="p">)</span> <span class="o">&lt;=</span> <span class="n">getTimestamp</span><span class="p">())</span></code> is already checked in <code class="codehilite"><span class="n">_executePayment</span><span class="p">()</span></code></li>
+<li>Remove payment date check from <code class="codehilite"><span class="err">executePayment()</span></code> and <code class="codehilite"><span class="err">receiverExecutePayment()</span></code><ul>
+<li><code class="codehilite"><span class="err">require(nextPaymentTime(_paymentId) &lt;= getTimestamp())</span></code> is already checked in <code class="codehilite"><span class="err">_executePayment()</span></code></li>
 </ul>
 </li>
-<li><code class="codehilite"><span class="k">view</span></code> getters can be made <code class="codehilite"><span class="k">external</span></code></li>
-<li><code class="codehilite"><span class="n">nextPaymentTime</span><span class="p">()</span></code> (l402): <code class="codehilite"><span class="n">payment</span></code> should be a <code class="codehilite"><span class="k">storage</span></code> variable</li>
-<li><code class="codehilite"><span class="n">nextPaymentTime</span><span class="p">()</span></code>'s casting from uint256 to uint64 (l410) should have an associated <code class="codehilite"><span class="n">require</span><span class="p">(</span><span class="n">nextPayment</span> <span class="o">&lt;=</span> <span class="n">MAX_UINT64</span><span class="p">)</span></code></li>
-<li><code class="codehilite"><span class="n">getTimestamp</span><span class="p">()</span></code> should return <code class="codehilite"><span class="n">uint64</span></code> to conform with other dates</li>
-<li><code class="codehilite"><span class="n">_canMakePayment</span><span class="p">()</span></code> should be <code class="codehilite"><span class="k">view</span></code></li>
+<li><code class="codehilite"><span class="err">view</span></code> getters can be made <code class="codehilite"><span class="err">external</span></code></li>
+<li><code class="codehilite"><span class="err">nextPaymentTime()</span></code> (l402): <code class="codehilite"><span class="err">payment</span></code> should be a <code class="codehilite"><span class="err">storage</span></code> variable</li>
+<li><code class="codehilite"><span class="err">nextPaymentTime()</span></code>'s casting from uint256 to uint64 (l410) should have an associated <code class="codehilite"><span class="err">require(nextPayment &lt;= MAX_UINT64)</span></code></li>
+<li><code class="codehilite"><span class="err">getTimestamp()</span></code> should return <code class="codehilite"><span class="err">uint64</span></code> to conform with other dates</li>
+<li><code class="codehilite"><span class="err">_canMakePayment()</span></code> should be <code class="codehilite"><span class="err">view</span></code></li>
 </ul>
 </li>
 </ul>
 </li>
 <li>TokenManager<ul>
-<li><code class="codehilite"><span class="n">aragon</span><span class="o">-</span><span class="n">apps</span><span class="o">/</span><span class="n">apps</span><span class="o">/</span><span class="n">token</span><span class="o">-</span><span class="n">manager</span><span class="o">/</span><span class="n">contracts</span><span class="o">/</span><span class="n">TokenManager</span><span class="p">.</span><span class="n">sol</span></code>:<ul>
-<li><code class="codehilite"><span class="n">transferable</span></code> and <code class="codehilite"><span class="n">logHolders</span></code> could be grouped together to save some storage</li>
-<li><code class="codehilite"><span class="n">assignVested</span><span class="p">()</span></code> could be renamed to <code class="codehilite"><span class="n">assignVesting</span><span class="p">()</span></code> to clarify that it creates a vesting for an entity rather than assigning already vested tokens to an entity</li>
-<li><code class="codehilite"><span class="n">allHolders</span><span class="p">()</span></code> and <code class="codehilite"><span class="n">spendableBalanceOf</span><span class="p">()</span></code> could be made external</li>
-<li><code class="codehilite"><span class="n">isBalanceIncreaseAllowed</span><span class="p">()</span></code> should use <code class="codehilite"><span class="na">.add</span><span class="p">()</span></code>: <code class="codehilite"><span class="k">return</span> <span class="nv">token</span>.<span class="nv">balanceOf</span><span class="ss">(</span><span class="nv">_receiver</span><span class="ss">)</span>.<span class="nv">add</span><span class="ss">(</span><span class="nv">_inc</span><span class="ss">)</span> <span class="o">&lt;=</span> <span class="nv">maxAccountTokens</span></code></li>
-<li><code class="codehilite"><span class="n">transferableBalance</span><span class="p">()</span></code>'s <code class="codehilite"><span class="n">_time</span></code> parameter should be of <code class="codehilite"><span class="n">uint64</span></code> for consistency with other dates</li>
-<li><code class="codehilite"><span class="n">calculateNonVestedTokens</span><span class="p">()</span></code> should sanitize its time inputs: <code class="codehilite"><span class="n">require</span><span class="p">(</span><span class="k">start</span> <span class="o">&lt;=</span> <span class="n">cliff</span> <span class="o">&amp;&amp;</span> <span class="n">cliff</span> <span class="o">&lt;=</span> <span class="n">vesting</span><span class="p">)</span></code></li>
-<li><code class="codehilite"><span class="n">calculateNonVestedTokens</span><span class="p">()</span></code>'s <code class="codehilite"><span class="n">vestedTokens</span></code> calculation could be simplified to <code class="codehilite"><span class="n">uint256</span> <span class="n">vestedToken</span> <span class="o">=</span> <span class="n">tokens</span><span class="p">.</span><span class="n">mul</span><span class="p">((</span><span class="n">time</span> <span class="o">-</span> <span class="k">start</span><span class="p">)</span> <span class="o">/</span> <span class="p">(</span><span class="n">vesting</span> <span class="o">-</span> <span class="k">start</span><span class="p">))</span></code> (assuming sanity checks above were performed)</li>
-<li><code class="codehilite"><span class="n">_assign</span><span class="p">()</span></code> should also call <code class="codehilite"><span class="n">_logHolderIfNeeded</span><span class="p">(</span><span class="n">_receiver</span><span class="p">)</span></code></li>
+<li><code class="codehilite"><span class="err">aragon-apps/apps/token-manager/contracts/TokenManager.sol</span></code>:<ul>
+<li><code class="codehilite"><span class="err">transferable</span></code> and <code class="codehilite"><span class="err">logHolders</span></code> could be grouped together to save some storage</li>
+<li><code class="codehilite"><span class="err">assignVested()</span></code> could be renamed to <code class="codehilite"><span class="err">assignVesting()</span></code> to clarify that it creates a vesting for an entity rather than assigning already vested tokens to an entity</li>
+<li><code class="codehilite"><span class="err">allHolders()</span></code> and <code class="codehilite"><span class="err">spendableBalanceOf()</span></code> could be made external</li>
+<li><code class="codehilite"><span class="err">isBalanceIncreaseAllowed()</span></code> should use <code class="codehilite"><span class="na">.add</span><span class="p">()</span></code>: <code class="codehilite"><span class="err">return token.balanceOf(_receiver).add(_inc) &lt;= maxAccountTokens</span></code></li>
+<li><code class="codehilite"><span class="err">transferableBalance()</span></code>'s <code class="codehilite"><span class="err">_time</span></code> parameter should be of <code class="codehilite"><span class="err">uint64</span></code> for consistency with other dates</li>
+<li><code class="codehilite"><span class="err">calculateNonVestedTokens()</span></code> should sanitize its time inputs: <code class="codehilite"><span class="err">require(start &lt;= cliff &amp;&amp; cliff &lt;= vesting)</span></code></li>
+<li><code class="codehilite"><span class="err">calculateNonVestedTokens()</span></code>'s <code class="codehilite"><span class="err">vestedTokens</span></code> calculation could be simplified to <code class="codehilite"><span class="err">uint256 vestedToken = tokens.mul((time - start) / (vesting - start))</span></code> (assuming sanity checks above were performed)</li>
+<li><code class="codehilite"><span class="err">_assign()</span></code> should also call <code class="codehilite"><span class="err">_logHolderIfNeeded(_receiver)</span></code></li>
 </ul>
 </li>
 </ul>
 </li>
 <li>Voting<ul>
-<li><code class="codehilite"><span class="n">aragon</span><span class="o">-</span><span class="n">apps</span><span class="o">/</span><span class="n">apps</span><span class="o">/</span><span class="n">voting</span><span class="o">/</span><span class="n">contracts</span><span class="o">/</span><span class="n">Voting</span><span class="p">.</span><span class="n">sol</span></code>:<ul>
+<li><code class="codehilite"><span class="err">aragon-apps/apps/voting/contracts/Voting.sol</span></code>:<ul>
 <li>Add veto role: give an entity the ability to decide a vote unianimously<ul>
 <li>Example use case: give certain entities (e.g. President) extra power to decide votes more quickly (allows them to have more power without being assigned other permissions).</li>
-<li>Example use case: in a stalemate due to not reaching <code class="codehilite"><span class="n">minAcceptQuorumPct</span></code>, a DAO may want to restart a vote with a lower <code class="codehilite"><span class="n">minAcceptQuorumPct</span></code>. At that point, the previous vote could be vetoed to be unsuccessful to allow a new vote to start right away, rather than having to wait for it to expire.</li>
+<li>Example use case: in a stalemate due to not reaching <code class="codehilite"><span class="err">minAcceptQuorumPct</span></code>, a DAO may want to restart a vote with a lower <code class="codehilite"><span class="err">minAcceptQuorumPct</span></code>. At that point, the previous vote could be vetoed to be unsuccessful to allow a new vote to start right away, rather than having to wait for it to expire.</li>
 </ul>
 </li>
-<li>Allow <code class="codehilite"><span class="n">minAcceptQuorumPct</span></code> to be provided when creating a new vote<ul>
-<li>The main utility I could gather from allowing this parameter to be modified was that a DAO may choose different levels of importance for different votes (of the same type, i.e. time and required support), where size of quorum is a proxy for importance. However, given the current implementation, it would require multiple steps to change the <code class="codehilite"><span class="n">minAcceptQuorumPct</span></code> for a single vote (you'd have to change it, create a vote, and then change it back).</li>
-<li>Implementing this could be done via an overload, storing the quorum percentage given on initialization as the default percentage. <code class="codehilite"><span class="k">forward</span><span class="p">()</span></code> should always use the default percentage.</li>
+<li>Allow <code class="codehilite"><span class="err">minAcceptQuorumPct</span></code> to be provided when creating a new vote<ul>
+<li>The main utility I could gather from allowing this parameter to be modified was that a DAO may choose different levels of importance for different votes (of the same type, i.e. time and required support), where size of quorum is a proxy for importance. However, given the current implementation, it would require multiple steps to change the <code class="codehilite"><span class="err">minAcceptQuorumPct</span></code> for a single vote (you'd have to change it, create a vote, and then change it back).</li>
+<li>Implementing this could be done via an overload, storing the quorum percentage given on initialization as the default percentage. <code class="codehilite"><span class="err">forward()</span></code> should always use the default percentage.</li>
 </ul>
 </li>
-<li>In <code class="codehilite"><span class="n">struct</span> <span class="n">Vote</span></code>, <code class="codehilite"><span class="n">startDate</span></code> and <code class="codehilite"><span class="n">executed</span></code> could be grouped together to save some storage</li>
-<li><code class="codehilite"><span class="n">struct</span> <span class="n">Vote</span></code>'s <code class="codehilite"><span class="n">totalVoters</span></code> could be renamed to <code class="codehilite"><span class="n">totalPossible</span></code> to avoid confusion over whether it holds the total number of individual voters or total possible votes</li>
-<li><code class="codehilite"><span class="n">canExecute</span><span class="p">()</span></code> should use <code class="codehilite"><span class="na">.add</span><span class="p">()</span></code> (l153): <code class="codehilite"><span class="n">uint256</span> <span class="n">totalVotes</span> <span class="o">=</span> <span class="n">vote</span><span class="p">.</span><span class="n">yea</span><span class="p">.</span><span class="k">add</span><span class="p">(</span><span class="n">vote</span><span class="p">.</span><span class="n">nay</span><span class="p">)</span></code></li>
-<li><code class="codehilite"><span class="k">view</span></code> getters can be made <code class="codehilite"><span class="k">external</span></code></li>
-<li><code class="codehilite"><span class="n">_isVoteOpen</span><span class="p">()</span></code> should cast up rather than down: <code class="codehilite"><span class="k">return</span> <span class="nv">now</span> <span class="o">&lt;</span> <span class="nv">uint256</span><span class="ss">(</span><span class="nv">vote</span>.<span class="nv">startDate</span><span class="ss">)</span>.<span class="nv">add</span><span class="ss">(</span><span class="nv">uint256</span><span class="ss">(</span><span class="nv">voteTime</span><span class="ss">))</span> <span class="o">&amp;&amp;</span> <span class="o">!</span><span class="nv">vote</span>.<span class="nv">executed</span><span class="c1">;</span></code></li>
-<li><code class="codehilite"><span class="n">_isValuePct</span><span class="p">()</span></code> could be renamed to <code class="codehilite"><span class="n">_isAtLeastPct</span><span class="p">()</span></code> for clarity</li>
-<li><code class="codehilite"><span class="n">_isValuePct</span><span class="p">()</span></code> should use <code class="codehilite"><span class="na">.mul</span><span class="p">()</span></code> (l268): <code class="codehilite"><span class="n">uint256</span> <span class="n">m</span> <span class="o">=</span> <span class="n">_total</span><span class="p">.</span><span class="n">mul</span><span class="p">(</span><span class="n">_pct</span><span class="p">)</span></code></li>
+<li>In <code class="codehilite"><span class="err">struct Vote</span></code>, <code class="codehilite"><span class="err">startDate</span></code> and <code class="codehilite"><span class="err">executed</span></code> could be grouped together to save some storage</li>
+<li><code class="codehilite"><span class="err">struct Vote</span></code>'s <code class="codehilite"><span class="err">totalVoters</span></code> could be renamed to <code class="codehilite"><span class="err">totalPossible</span></code> to avoid confusion over whether it holds the total number of individual voters or total possible votes</li>
+<li><code class="codehilite"><span class="err">canExecute()</span></code> should use <code class="codehilite"><span class="na">.add</span><span class="p">()</span></code> (l153): <code class="codehilite"><span class="err">uint256 totalVotes = vote.yea.add(vote.nay)</span></code></li>
+<li><code class="codehilite"><span class="err">view</span></code> getters can be made <code class="codehilite"><span class="err">external</span></code></li>
+<li><code class="codehilite"><span class="err">_isVoteOpen()</span></code> should cast up rather than down: <code class="codehilite"><span class="err">return now &lt; uint256(vote.startDate).add(uint256(voteTime)) &amp;&amp; !vote.executed;</span></code></li>
+<li><code class="codehilite"><span class="err">_isValuePct()</span></code> could be renamed to <code class="codehilite"><span class="err">_isAtLeastPct()</span></code> for clarity</li>
+<li><code class="codehilite"><span class="err">_isValuePct()</span></code> should use <code class="codehilite"><span class="na">.mul</span><span class="p">()</span></code> (l268): <code class="codehilite"><span class="err">uint256 m = _total.mul(_pct)</span></code></li>
 </ul>
 </li>
 </ul>
@@ -5142,7 +5142,7 @@
 <h2 id="tools">Tools</h2>
 <h3 id="solgraph">Solgraph</h3>
 <ul>
-<li>Only <code class="codehilite"><span class="n">EtherToken</span><span class="p">.</span><span class="n">sol</span></code> was flagged for having an untrusted <code class="codehilite"><span class="n">transfer</span><span class="p">()</span></code> to another contract (see <a href="#oyente">Oyente</a> for a note on this).</li>
+<li>Only <code class="codehilite"><span class="err">EtherToken.sol</span></code> was flagged for having an untrusted <code class="codehilite"><span class="err">transfer()</span></code> to another contract (see <a href="#oyente">Oyente</a> for a note on this).</li>
 <li>Noted that solgraph is non-exhaustive and only assumes contracts to be untrusted if they send funds to an external contract. However, it can be useful for quickly telling which contracts are likely to be more complicated, as well as helping visualize the interdependencies between functions in a contract.</li>
 </ul>
 <h4 id="test-details">Test details</h4>
@@ -5165,11 +5165,11 @@ mkdir -p solgraph/aragon-apps
 <span class="k">done</span>
 </pre></div>
 
-<p><strong>Note</strong>: currently requires <a href="https://github.com/sohkai/solgraph/tree/master">my fork of <code class="codehilite"><span class="n">solgraph</span></code></a> (install via <code class="codehilite"><span class="n">npm</span> <span class="n">install</span> <span class="o">-</span><span class="k">g</span> <span class="n">git</span><span class="o">+</span><span class="n">https</span><span class="p">:</span><span class="o">//</span><span class="n">github</span><span class="p">.</span><span class="n">com</span><span class="o">/</span><span class="n">sohkai</span><span class="o">/</span><span class="n">solgraph</span><span class="p">.</span><span class="n">git</span></code>)</p>
+<p><strong>Note</strong>: currently requires <a href="https://github.com/sohkai/solgraph/tree/master">my fork of <code class="codehilite"><span class="err">solgraph</span></code></a> (install via <code class="codehilite"><span class="err">npm install -g git+https://github.com/sohkai/solgraph.git</span></code>)</p>
 <h3 id="oyente">Oyente</h3>
 <ul>
 <li>In non-lib files, Oyente only reported a single potential error: <a href="https://github.com/sohkai/aragonOS/tree/brett-audit/oyente/results/common">EtherToken.sol</a> (transaction order dependency)<ul>
-<li>On analysis, this does not seem to be a real problem. The only time re-ordering would have an effect would be if someone tried to take out more than their total balance in multiple (different value) transactions. The total amount withdrawn would be indeterminate but no contract invariants would be invalidated. Re-entrancy shouldn't be a problem either, as all state changes happen before the call to <code class="codehilite"><span class="n">transfer</span><span class="p">()</span></code>.</li>
+<li>On analysis, this does not seem to be a real problem. The only time re-ordering would have an effect would be if someone tried to take out more than their total balance in multiple (different value) transactions. The total amount withdrawn would be indeterminate but no contract invariants would be invalidated. Re-entrancy shouldn't be a problem either, as all state changes happen before the call to <code class="codehilite"><span class="err">transfer()</span></code>.</li>
 </ul>
 </li>
 <li>Oyente also reported a potential re-entrancy error in <a href="https://github.com/sohkai/aragonOS/blob/brett-audit/oyente/results/lib/minime/MiniMeToken">MiniMeToken.sol</a><ul>
@@ -5213,8 +5213,8 @@ docker cp &lt;name&gt;:/aragonOS/oyente oyente/results/
 </pre></div>
 
 <p><strong>Note</strong>: tests were run after being compiled with solc=0.4.19 (contracts were modified to all allow
-<code class="codehilite"><span class="o">^</span><span class="mi">0</span><span class="p">.</span><span class="mi">4</span><span class="p">.</span><span class="mi">18</span></code> compiler versions). Some Oyente modules also had to be modified to include
-<code class="codehilite"><span class="n">allow</span><span class="o">-</span><span class="n">path</span><span class="o">=/</span><span class="n">aragonOS</span></code> whenever <code class="codehilite"><span class="n">solc</span></code> was run. Maybe this could be done better in the future with
+<code class="codehilite"><span class="err">^0.4.18</span></code> compiler versions). Some Oyente modules also had to be modified to include
+<code class="codehilite"><span class="err">allow-path=/aragonOS</span></code> whenever <code class="codehilite"><span class="err">solc</span></code> was run. Maybe this could be done better in the future with
 <a href="https://github.com/melonproject/oyente/issues/200">standard json</a> support.</p>
 <h2 id="future-considerations">Future Considerations</h2>
 <ul>

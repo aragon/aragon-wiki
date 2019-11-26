@@ -4632,10 +4632,10 @@
 <h3 id="dependencies-and-permissions">Dependencies and permissions</h3>
 <ul>
 <li>
-<p><code class="codehilite"><span class="n">Token</span> <span class="n">Manager</span></code>: On initialization it requires a reference to a <code class="codehilite"><span class="n">Token</span> <span class="n">Manager</span></code> instance. One fundraising app instance is only able to 'sell' the underlying token managed by its <code class="codehilite"><span class="n">Token</span> <span class="n">Manager</span></code>. <strong>The fundraising app must be granted permissions to mint tokens on the Token Manager</strong>. The Token Manager must have been initialized in <code class="codehilite"><span class="n">Native</span> <span class="k">mode</span></code> so it can arbitrarily mint new tokens (See <a href="../token-manager/">Token Manager spec</a>).</p>
+<p><code class="codehilite"><span class="err">Token Manager</span></code>: On initialization it requires a reference to a <code class="codehilite"><span class="err">Token Manager</span></code> instance. One fundraising app instance is only able to 'sell' the underlying token managed by its <code class="codehilite"><span class="err">Token Manager</span></code>. <strong>The fundraising app must be granted permissions to mint tokens on the Token Manager</strong>. The Token Manager must have been initialized in <code class="codehilite"><span class="err">Native mode</span></code> so it can arbitrarily mint new tokens (See <a href="../token-manager/">Token Manager spec</a>).</p>
 </li>
 <li>
-<p><code class="codehilite"><span class="n">Vault</span></code>: A reference to a <code class="codehilite"><span class="n">vault</span></code> is also required on initialization. However, there is no direct interaction with the vault, it is just used as the address where sale proceeds are deposited (vanilla ERC20 transfers).</p>
+<p><code class="codehilite"><span class="err">Vault</span></code>: A reference to a <code class="codehilite"><span class="err">vault</span></code> is also required on initialization. However, there is no direct interaction with the vault, it is just used as the address where sale proceeds are deposited (vanilla ERC20 transfers).</p>
 </li>
 </ul>
 <p>Both parameters are not modifiable after initialization.</p>
@@ -4644,8 +4644,8 @@
 <li>
 <p><strong>Inverse pricing</strong>: Given that there is no native support for floating point numbers in Solidity, we need to introduce the concept of inverse pricing to allow for prices that are below 1. Token decimals must be taken into account when setting prices.</p>
 <ul>
-<li>When inverse pricing is <code class="codehilite"><span class="k">false</span></code> in a sale, price means how many input tokens must be payed for each token being bought. That means the amount of tokens bought is calculated as <code class="codehilite"><span class="n">boughtTokens</span> <span class="o">=</span> <span class="n">payedTokens</span> <span class="o">/</span> <span class="n">price</span></code>.</li>
-<li>When inverse pricing is <code class="codehilite"><span class="k">true</span></code>, price means how many bought tokens are acquired per input token. <code class="codehilite"><span class="n">boughtTokens</span> <span class="o">=</span> <span class="n">payedTokens</span> <span class="o">*</span> <span class="n">price</span></code></li>
+<li>When inverse pricing is <code class="codehilite"><span class="err">false</span></code> in a sale, price means how many input tokens must be payed for each token being bought. That means the amount of tokens bought is calculated as <code class="codehilite"><span class="err">boughtTokens = payedTokens / price</span></code>.</li>
+<li>When inverse pricing is <code class="codehilite"><span class="err">true</span></code>, price means how many bought tokens are acquired per input token. <code class="codehilite"><span class="err">boughtTokens = payedTokens * price</span></code></li>
 </ul>
 </li>
 <li>
@@ -4669,12 +4669,12 @@
 </ul>
 <h3 id="sale-lifecycle">Sale lifecycle</h3>
 <h4 id="creation">Creation</h4>
-<p><div class="codehilite"><pre><span></span><span class="n">fundraising</span><span class="p">.</span><span class="n">newSale</span><span class="p">(...)</span>
+<p><div class="codehilite"><pre><span></span><span class="err">fundraising.newSale(...)</span>
 </pre></div>
 All sale parameters are set on initialization and cannot be changed. After a sale has been created, there is the option to force closing the sale (requires permissions).</p>
 <p>Sale parameters:</p>
 <ul>
-<li>Investor: Address of the entity allowed to buy in the sale. If the provided address is the 0<sup>th</sup> address (<code class="codehilite"><span class="mi">0</span><span class="n">x0000</span><span class="p">...</span></code>), then the sale is considered public and any address can buy.</li>
+<li>Investor: Address of the entity allowed to buy in the sale. If the provided address is the 0<sup>th</sup> address (<code class="codehilite"><span class="err">0x0000...</span></code>), then the sale is considered public and any address can buy.</li>
 <li>Raised token: Address of the token used for buy in the sale.</li>
 <li>Maximum raised: As explained in caps section.</li>
 <li>Maximum sold: As explained in caps section.</li>
@@ -4682,7 +4682,7 @@ All sale parameters are set on initialization and cannot be changed. After a sal
 <li>Is inverse price: Whether sale prices are expressed as inverse or not (as explained above).</li>
 <li>Sale start time: Timestamp for the start of the first period.</li>
 <li>Period ends array: Array of timestamps when each period ends (Minimum 1).</li>
-<li>Prices array: Array of prices for periods. Even though each period has two values, it is a one dimensional array. Example: <code class="codehilite"><span class="p">[</span><span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">5</span><span class="p">]</span></code> means Period 1(<code class="codehilite"><span class="n">initial</span> <span class="n">price</span></code> = 2, <code class="codehilite"><span class="k">final</span> <span class="n">price</span></code> = 3) and Period 2 (<code class="codehilite"><span class="n">initial</span> <span class="n">price</span></code> = 3, <code class="codehilite"><span class="k">final</span> <span class="n">price</span></code> = 5)</li>
+<li>Prices array: Array of prices for periods. Even though each period has two values, it is a one dimensional array. Example: <code class="codehilite"><span class="err">[2, 3, 3, 5]</span></code> means Period 1(<code class="codehilite"><span class="err">initial price</span></code> = 2, <code class="codehilite"><span class="err">final price</span></code> = 3) and Period 2 (<code class="codehilite"><span class="err">initial price</span></code> = 3, <code class="codehilite"><span class="err">final price</span></code> = 5)</li>
 </ul>
 <h4 id="buy">Buy</h4>
 <p>On every buy, the contract will calculate the price for the current timestamp based on the sale periods.</p>
@@ -4697,18 +4697,18 @@ All sale parameters are set on initialization and cannot be changed. After a sal
 <h5 id="buy-entrypoints">Buy entrypoints</h5>
 <p>Two methods are allowed for buying in sales:</p>
 <h6 id="erc20">ERC20</h6>
-<div class="codehilite"><pre><span></span><span class="n">fundraising</span><span class="p">.</span><span class="n">transferAndBuy</span><span class="p">(</span><span class="n">uint256</span> <span class="n">saleId</span><span class="p">,</span> <span class="n">uint256</span> <span class="n">payedTokens</span><span class="p">)</span>
+<div class="codehilite"><pre><span></span><span class="err">fundraising.transferAndBuy(uint256 saleId, uint256 payedTokens)</span>
 </pre></div>
 
-<p>Requires the sender to have already created an ERC20 allowance equal or greater than <code class="codehilite"><span class="n">payedTokens</span></code> (could actually be less in the scenario some tokens are not allowed for cap reasons).</p>
+<p>Requires the sender to have already created an ERC20 allowance equal or greater than <code class="codehilite"><span class="err">payedTokens</span></code> (could actually be less in the scenario some tokens are not allowed for cap reasons).</p>
 <h6 id="erc677">ERC677</h6>
-<p><div class="codehilite"><pre><span></span><span class="n">fundraising</span><span class="p">.</span><span class="n">buyTokens</span><span class="p">(</span><span class="n">uint256</span> <span class="n">saleId</span><span class="p">)</span> <span class="o">//</span> <span class="k">called</span> <span class="k">by</span> <span class="n">token</span>
+<p><div class="codehilite"><pre><span></span><span class="err">fundraising.buyTokens(uint256 saleId) // called by token</span>
 </pre></div>
-Requires the sender to make a <code class="codehilite"><span class="n">transferAndCall</span><span class="p">()</span></code> as in the <a href="https://github.com/ethereum/EIPs/issues/677">ERC677 standard</a> (still evolving and being discussed), setting the fundraising app as receiver and adding the correct data payload.</p>
-<p>Raising ether can be done by setting the raised token to an EtherToken (ideally the one used by the <a href="../finance/">Finance app</a> for discoverability). Given that aragonOS' EtherToken implementation conforms to ERC677, buying with ether can be done by wrapping the ether using <code class="codehilite"><span class="n">etherToken</span><span class="p">.</span><span class="n">wrap</span><span class="p">()</span></code> and then doing a <code class="codehilite"><span class="n">transferAndCall</span><span class="p">(...)</span></code> or using the shortcut <code class="codehilite"><span class="n">wrapAndCall</span><span class="p">(...)</span></code> which performs both actions.</p>
+Requires the sender to make a <code class="codehilite"><span class="err">transferAndCall()</span></code> as in the <a href="https://github.com/ethereum/EIPs/issues/677">ERC677 standard</a> (still evolving and being discussed), setting the fundraising app as receiver and adding the correct data payload.</p>
+<p>Raising ether can be done by setting the raised token to an EtherToken (ideally the one used by the <a href="../finance/">Finance app</a> for discoverability). Given that aragonOS' EtherToken implementation conforms to ERC677, buying with ether can be done by wrapping the ether using <code class="codehilite"><span class="err">etherToken.wrap()</span></code> and then doing a <code class="codehilite"><span class="err">transferAndCall(...)</span></code> or using the shortcut <code class="codehilite"><span class="err">wrapAndCall(...)</span></code> which performs both actions.</p>
 <p>Please note that this section is subject to change as the <a href="https://github.com/ethereum/EIPs/issues/677">ERC677 discussion</a> evolves.</p>
 <h4 id="closing-sale">Closing sale</h4>
-<div class="codehilite"><pre><span></span><span class="n">fundraising</span><span class="p">.</span><span class="n">closeSale</span><span class="p">(</span><span class="n">uint256</span> <span class="n">_saleId</span><span class="p">)</span>
+<div class="codehilite"><pre><span></span><span class="err">fundraising.closeSale(uint256 _saleId)</span>
 </pre></div>
 
 <p>The sale is automatically closed either when a cap is reached or when the last period of the sale is over.</p>
