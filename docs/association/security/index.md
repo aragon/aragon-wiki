@@ -13,7 +13,10 @@ If you have found a potential vulnerability, please review the following instruc
 
 ## Smart Contract Bug Bounty
 
-A [bug bounty](./bug_bounty) is available on any smart contracts supporting the Aragon client. Please review its instructions and intended scope before submitting a finding.
+Two bug bounty programs are available, please review its instructions and intended scope before submitting a finding:
+
+- Aragon client [bug bounty](./client_bug_bounty).
+- Aragon Network [bug bounty](./an_bug_bounty).
 
 ## Smart Contract Audits
 
