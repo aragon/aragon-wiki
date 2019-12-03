@@ -16,7 +16,7 @@ Vulnerability reports will be scored using the  [CVSS v3](https://www.first.org/
     $1,000 - $2,500
 
 !!! warning "**Low** (CVSS 1.0 - 3.9)"
-    $500-$1,000
+    $500 - $1,000
 
 Rewards will be awarded at the sole discretion of the Aragon Association. Quality of the report and reproduction instructions can impact the reward. Rewards are denominated in USD and will be paid out in ETH.
 
@@ -45,7 +45,7 @@ In scope for the bug bounty are all the smart contract components of the Aragon 
 
 !!! abstract "**Aragon Network deployment** ([v1](https://github.com/aragon/aragon-network-deploy/tree/rc-1.0.0) and [future minor versions](https://github.com/aragon/aragon-network-deploy/releases))"
     Deployment commands for the Aragon Network components
-    
+
     - JS code under the `src` directory:
         - Excluding `src/helpers/`
         - Excluding `src/commands/`
