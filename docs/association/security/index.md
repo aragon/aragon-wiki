@@ -20,4 +20,4 @@ Two bug bounty programs are available, please review its instructions and intend
 
 ## Smart Contract Audits
 
-A number of audits have been performed on the existing smart contract codebase by the White Hat Group, Consensys Diligence, and Authio. Ongoing smart contract changes will continue being audited at the Aragon Association's discretion.
+A number of audits have been performed on the existing smart contract codebase by the White Hat Group, Consensys Diligence, Authio, and others. Ongoing smart contract changes will continue being audited at the Aragon Association's discretion.

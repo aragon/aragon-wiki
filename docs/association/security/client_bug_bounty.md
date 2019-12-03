@@ -16,7 +16,7 @@ Vulnerability reports will be scored using the  [CVSS v3](https://www.first.org/
     $1,000 - $2,500
 
 !!! warning "**Low** (CVSS 1.0 - 3.9)"
-    $500-$1,000
+    $500 - $1,000
 
 Rewards will be awarded at the sole discretion of the Aragon Association. Quality of the report and reproduction instructions can impact the reward. Rewards are denominated in USD and will be paid out in ETH.
 
@@ -35,21 +35,27 @@ The bug bounty program is ongoing and has ran since October 17th, 2018.
 
 In scope for the bug bounty are all the smart contract components of the Aragon client. They can be found on three main repositories:
 
-!!! abstract "**aragonOS 4** ([https://github.com/aragon/aragonOS@4.0.0](https://github.com/aragon/aragonOS/tree/v4.0.0) and [future patch versions](https://github.com/aragon/aragonOS/releases))"
+!!! abstract "**aragonOS 4** ([aragonOS@4.0.0](https://github.com/aragon/aragonOS/tree/v4.0.0) and [future patch versions](https://github.com/aragon/aragonOS/releases))"
     Smart contract framework and the core of the system.
 
     - Solidity code under the `contracts` directory:
-        - Excluding `contracts/lib/ens` contracts
+        - Excluding `contracts/lib/ens/`
         - Excluding `contracts/test/`
 
-!!! abstract "**aragon-apps** ([https://github.com/aragon/aragon-apps](https://github.com/aragon/aragon-apps/tree/master) on the [master branch](https://github.com/aragon/aragon-apps/tree/master))"
+!!! abstract "**aragon-apps** (on the [master branch](https://github.com/aragon/aragon-apps/tree/master))"
     Contracts for Aragon apps developed by the Aragon Association and are installed by default in most Aragon organizations.
 
-    - Solidity code under `apps/**/contracts` (`finance`, `token-manager`, `survey`, `vault`, `voting`)
-        - Excluding `contracts/test` and `contracts/example`
-    - Solidity code under `shared/minime/contracts`
+    - Solidity code under `apps/**/contracts` (`agent`, `finance`, `payroll`, `survey`, `token-manager`, `vault`, `voting`)
+        - Excluding `contracts/example/`
+        - Excluding `contracts/test/`
 
-!!! abstract "**dao-templates** ([https://github.com/aragon/dao-templates](https://github.com/aragon/dao-templates/tree/master) on the [master branch](https://github.com/aragon/dao-templates/tree/master), [Aragon 0.6 tag](https://github.com/aragon/dao-templates/tree/aragon-v0.6), and [Aragon 0.7 tag](https://github.com/aragon/dao-templates/tree/aragon-v0.7))"
+!!! abstract "**MiniMe Token (Aragon fork)** (on the [master branch](https://github.com/aragon/minime/tree/master))"
+    Governance token deployed for most Aragon organizations.
+
+    - Solidity code under the `contracts` directory:
+        - Excluding `contracts/test/`
+
+!!! abstract "**dao-templates** (on the [master branch](https://github.com/aragon/dao-templates/tree/master), [Aragon 0.8 tag](https://github.com/aragon/dao-templates/tree/aragon-v0.8), [Aragon 0.7 tag](https://github.com/aragon/dao-templates/tree/aragon-v0.7), and [Aragon 0.6 tag](https://github.com/aragon/dao-templates/tree/aragon-v0.6))"
     On-chain deployment templates for Aragon DAOs.
 
     - Solidity code in the `templates/**/contracts` and `shared/contracts/`

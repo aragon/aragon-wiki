@@ -84,13 +84,13 @@ nav:
         - Aragon Network: 'association/security/an_bug_bounty.md'
       - Audit reports:
         - aragonOS:
-          - Audit 01 by Adam Dossa: 'association/security/audits/audit01_report_dossa.md'
+          - Audit (Preliminary) by Adam Dossa: 'association/security/audits/audit01_report_dossa.md'
           - Audit (Internal) by Brett Sun: 'association/security/audits/audit_internal_sun.md'
-          - Audit Report v1.4 by White Hat Group: 'association/security/audits/audit_whg01_report.md'
-          - Audit Report v2.0 by White Hat Group [PDF]: 'association/security/audits/audit_whg_updated_aragonOS-Apps.pdf'
+          - Audit (v1.4) by White Hat Group: 'association/security/audits/audit_whg01_report.md'
+          - Audit (v2.0) by White Hat Group [PDF]: 'association/security/audits/audit_whg_updated_aragonOS-Apps.pdf'
           - Audit by ConsenSys Diligence: 'https://github.com/ConsenSys/aragon_audit_report_2018-06-04_extended'
         - Aragon Network:
-          - Aragon Court audit by Georgios Konstantopoulos: 'https://github.com/gakonst/publications/blob/master/aragon_court_audit.pdf'
+          - Aragon Court by Georgios Konstantopoulos: 'https://github.com/gakonst/publications/blob/master/aragon_court_audit.pdf'
         - Apps / Templates:
           - Aragon Payroll: 'https://github.com/ConsenSys/aragon-payroll-audit-report-2019-06'
           - DAO Templates by ConsenSys Diligence: 'https://github.com/ConsenSys/aragon-daotemplates-audit-report-2019-08'
