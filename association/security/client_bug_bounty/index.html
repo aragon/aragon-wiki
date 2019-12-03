@@ -706,8 +706,8 @@
 
 
   <li class="md-nav__item">
-    <a href="../audits/audit01_report_dossa/" title="Audit 01 by Adam Dossa" class="md-nav__link">
-      Audit 01 by Adam Dossa
+    <a href="../audits/audit01_report_dossa/" title="Audit (Preliminary) by Adam Dossa" class="md-nav__link">
+      Audit (Preliminary) by Adam Dossa
     </a>
   </li>
 
@@ -730,8 +730,8 @@
 
 
   <li class="md-nav__item">
-    <a href="../audits/audit_whg01_report/" title="Audit Report v1.4 by White Hat Group" class="md-nav__link">
-      Audit Report v1.4 by White Hat Group
+    <a href="../audits/audit_whg01_report/" title="Audit (v1.4) by White Hat Group" class="md-nav__link">
+      Audit (v1.4) by White Hat Group
     </a>
   </li>
 
@@ -742,8 +742,8 @@
 
 
   <li class="md-nav__item">
-    <a href="../audits/audit_whg_updated_aragonOS-Apps.pdf" title="Audit Report v2.0 by White Hat Group [PDF]" class="md-nav__link">
-      Audit Report v2.0 by White Hat Group [PDF]
+    <a href="../audits/audit_whg_updated_aragonOS-Apps.pdf" title="Audit (v2.0) by White Hat Group [PDF]" class="md-nav__link">
+      Audit (v2.0) by White Hat Group [PDF]
     </a>
   </li>
 
@@ -790,8 +790,8 @@
 
 
   <li class="md-nav__item">
-    <a href="https://github.com/gakonst/publications/blob/master/aragon_court_audit.pdf" title="Aragon Court audit by Georgios Konstantopoulos" class="md-nav__link">
-      Aragon Court audit by Georgios Konstantopoulos
+    <a href="https://github.com/gakonst/publications/blob/master/aragon_court_audit.pdf" title="Aragon Court by Georgios Konstantopoulos" class="md-nav__link">
+      Aragon Court by Georgios Konstantopoulos
     </a>
   </li>
 
@@ -4762,7 +4762,7 @@
 </div>
 <div class="admonition warning">
 <p class="admonition-title"><strong>Low</strong> (CVSS 1.0 - 3.9)</p>
-<p><span><span class="MathJax_Preview">500-</span><script type="math/tex">500-</script></span>1,000</p>
+<p>$500 - $1,000</p>
 </div>
 <p>Rewards will be awarded at the sole discretion of the Aragon Association. Quality of the report and reproduction instructions can impact the reward. Rewards are denominated in USD and will be paid out in ETH.</p>
 <p>For this initial bug bounty program, there is a <strong>maximum bounty pool of $250,000</strong>.</p>
@@ -4776,29 +4776,39 @@
 <h2 id="scope">Scope</h2>
 <p>In scope for the bug bounty are all the smart contract components of the Aragon client. They can be found on three main repositories:</p>
 <div class="admonition abstract">
-<p class="admonition-title"><strong>aragonOS 4</strong> (<a href="https://github.com/aragon/aragonOS/tree/v4.0.0">https://github.com/aragon/aragonOS@4.0.0</a> and <a href="https://github.com/aragon/aragonOS/releases">future patch versions</a>)</p>
+<p class="admonition-title"><strong>aragonOS 4</strong> (<a href="https://github.com/aragon/aragonOS/tree/v4.0.0">aragonOS@4.0.0</a> and <a href="https://github.com/aragon/aragonOS/releases">future patch versions</a>)</p>
 <p>Smart contract framework and the core of the system.</p>
 <ul>
 <li>Solidity code under the <code class="codehilite"><span class="err">contracts</span></code> directory:<ul>
-<li>Excluding <code class="codehilite"><span class="err">contracts/lib/ens</span></code> contracts</li>
+<li>Excluding <code class="codehilite"><span class="err">contracts/lib/ens/</span></code></li>
 <li>Excluding <code class="codehilite"><span class="err">contracts/test/</span></code></li>
 </ul>
 </li>
 </ul>
 </div>
 <div class="admonition abstract">
-<p class="admonition-title"><strong>aragon-apps</strong> (<a href="https://github.com/aragon/aragon-apps/tree/master">https://github.com/aragon/aragon-apps</a> on the <a href="https://github.com/aragon/aragon-apps/tree/master">master branch</a>)</p>
+<p class="admonition-title"><strong>aragon-apps</strong> (on the <a href="https://github.com/aragon/aragon-apps/tree/master">master branch</a>)</p>
 <p>Contracts for Aragon apps developed by the Aragon Association and are installed by default in most Aragon organizations.</p>
 <ul>
-<li>Solidity code under <code class="codehilite"><span class="err">apps/**/contracts</span></code> (<code class="codehilite"><span class="err">finance</span></code>, <code class="codehilite"><span class="err">token-manager</span></code>, <code class="codehilite"><span class="err">survey</span></code>, <code class="codehilite"><span class="err">vault</span></code>, <code class="codehilite"><span class="err">voting</span></code>)<ul>
-<li>Excluding <code class="codehilite"><span class="err">contracts/test</span></code> and <code class="codehilite"><span class="err">contracts/example</span></code></li>
+<li>Solidity code under <code class="codehilite"><span class="err">apps/**/contracts</span></code> (<code class="codehilite"><span class="err">agent</span></code>, <code class="codehilite"><span class="err">finance</span></code>, <code class="codehilite"><span class="err">payroll</span></code>, <code class="codehilite"><span class="err">survey</span></code>, <code class="codehilite"><span class="err">token-manager</span></code>, <code class="codehilite"><span class="err">vault</span></code>, <code class="codehilite"><span class="err">voting</span></code>)<ul>
+<li>Excluding <code class="codehilite"><span class="err">contracts/example/</span></code></li>
+<li>Excluding <code class="codehilite"><span class="err">contracts/test/</span></code></li>
 </ul>
 </li>
-<li>Solidity code under <code class="codehilite"><span class="err">shared/minime/contracts</span></code></li>
 </ul>
 </div>
 <div class="admonition abstract">
-<p class="admonition-title"><strong>dao-templates</strong> (<a href="https://github.com/aragon/dao-templates/tree/master">https://github.com/aragon/dao-templates</a> on the <a href="https://github.com/aragon/dao-templates/tree/master">master branch</a>, <a href="https://github.com/aragon/dao-templates/tree/aragon-v0.6">Aragon 0.6 tag</a>, and <a href="https://github.com/aragon/dao-templates/tree/aragon-v0.7">Aragon 0.7 tag</a>)</p>
+<p class="admonition-title"><strong>MiniMe Token (Aragon fork)</strong> (on the <a href="https://github.com/aragon/minime/tree/master">master branch</a>)</p>
+<p>Governance token deployed for most Aragon organizations.</p>
+<ul>
+<li>Solidity code under the <code class="codehilite"><span class="err">contracts</span></code> directory:<ul>
+<li>Excluding <code class="codehilite"><span class="err">contracts/test/</span></code></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="admonition abstract">
+<p class="admonition-title"><strong>dao-templates</strong> (on the <a href="https://github.com/aragon/dao-templates/tree/master">master branch</a>, <a href="https://github.com/aragon/dao-templates/tree/aragon-v0.8">Aragon 0.8 tag</a>, <a href="https://github.com/aragon/dao-templates/tree/aragon-v0.7">Aragon 0.7 tag</a>, and <a href="https://github.com/aragon/dao-templates/tree/aragon-v0.6">Aragon 0.6 tag</a>)</p>
 <p>On-chain deployment templates for Aragon DAOs.</p>
 <ul>
 <li>Solidity code in the <code class="codehilite"><span class="err">templates/**/contracts</span></code> and <code class="codehilite"><span class="err">shared/contracts/</span></code><ul>
