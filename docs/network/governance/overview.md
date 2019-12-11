@@ -14,6 +14,8 @@
 
 **Dates**  
 
+The [final details](https://blog.aragon.org/final-details-for-aragon-network-vote-5/) for participating in Aragon Network Vote #5, including which proposals are on the ballot and how to vote with ANT, have now been published on the Aragon project blog.
+
 - Draft proposals for this vote are due, mandatory community review period begins: **2019-11-20 at 16:00 UTC**
 - Final draft proposals for this vote are due, Aragon Association review begins: **2019-11-27 at 16:00 UTC**
 - Aragon Association review ends, final community review begins: **2019-12-04 at 16:00 UTC**
