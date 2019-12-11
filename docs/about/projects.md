@@ -46,6 +46,8 @@ This page has a list of projects created by the Aragon community, and also inclu
 
 - [Centrifuge](https://centrifuge.io) ([Proof](https://medium.com/centrifuge/centrifuges-dev-fund-dao-the-lab-7116fce19c43))
 
+- [Cyber](https://github.com/cybercongress) ([Proof](https://ipfs.io/ipfs/QmceNpj6HfS81PcCaQXrFMQf7LR5FTLkdG9sbSRNy3UXoZ))
+
 - [District0x](https://district0x.io) ([Proof](https://education.district0x.io/district0x-specific-topics/understanding-technology-behind-district0x/aragon/))
 
 - [lexDAO](https://github.com/lexDAO) ([Proof](https://twitter.com/lex_DAO/status/1196201381927047168))
