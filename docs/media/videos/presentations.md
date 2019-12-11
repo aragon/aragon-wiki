@@ -1,5 +1,11 @@
 # Aragon Presentations
 
+
+!!! abstract ""
+    <h4>Using DAOs to make decentralized protocols actually decentralized by Luis Cuende at [**DevconV**](https://devcon.org)</h4>
+
+    <iframe width="80%" height="390" src="https://www.youtube-nocookie.com/embed/arbJXW1NeTM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 !!! abstract ""
     <h4>Creating a global co-op with Aragon by Luis Cuende at [**Progressbar**](https://cowork.progressbar.sk/)</h4>
 
