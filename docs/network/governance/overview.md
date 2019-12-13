@@ -10,17 +10,15 @@
 
 ## Important information for the next Aragon Network vote
 
-### Aragon Network Vote #5
-
-The [final details](https://blog.aragon.org/final-details-for-aragon-network-vote-5/) for participating in Aragon Network Vote #5, including which proposals are on the ballot and how to vote with ANT, have now been published on the Aragon project blog.
+### Aragon Network Vote #6
 
 **Dates**  
 
-- Draft proposals for this vote are due, mandatory community review period begins: **2019-11-20 at 16:00 UTC**
-- Final draft proposals for this vote are due, Aragon Association review begins: **2019-11-27 at 16:00 UTC**
-- Aragon Association review ends, final community review begins: **2019-12-04 at 16:00 UTC**
-- Aragon Network Vote #5 begins: **2019-12-11 at 16:00 UTC**
-- Aragon Network Vote #5 ends, final results announced: **2019-12-13 at 16:00 UTC**
+- Draft proposals for this vote are due, mandatory community review period begins: **2020-02-19 at 16:00 UTC**
+- Final draft proposals for this vote are due, Aragon Association review begins: **2020-02-26 at 16:00 UTC**
+- Aragon Association review ends, final community review begins: **2020-03-04 at 16:00 UTC**
+- Aragon Network Vote #6 begins: **2020-03-11 at 16:00 UTC**
+- Aragon Network Vote #6 ends, final results announced: **2020-03-13 at 16:00 UTC**
 
 ## Approved AGPs
 
@@ -56,7 +54,12 @@ The [final details](https://blog.aragon.org/final-details-for-aragon-network-vot
 - [AGP-105: Allow finance proposals that could otherwise fit in Nest or Flock](https://github.com/aragon/AGPs/blob/master/AGPs/AGP-105.md)
 - [AGP-106: Develop Aragon Chain](https://github.com/aragon/AGPs/blob/master/AGPs/AGP-106.md)
 - [AGP-112: Oppose any change to Ethereum's mining algorithm before Ethereum 2.0](https://github.com/aragon/AGPs/blob/master/AGPs/AGP-112.md)
+- [AGP-126: Official Aragon Network DAO and ANJ addresses](https://github.com/aragon/AGPs/blob/master/AGPs/AGP-126.md)
+- [AGP-129: Court Phase 2 Subscription Subsidy](https://github.com/aragon/AGPs/blob/master/AGPs/AGP-129.md)
+- [AGP-130: Aragon Mesh Sponsorship](https://github.com/aragon/AGPs/blob/master/AGPs/AGP-130.md)
+- [AGP-143: Fundraising Maintenance](https://github.com/aragon/AGPs/blob/master/AGPs/AGP-143.md)
+- [AGP-153: Reduce the judgment powers of AGP Editors](https://github.com/aragon/AGPs/blob/master/AGPs/AGP-153.md)
 
-## Deprecated AGPs
+## Deprecated AGPs repo
 
 > - [aragon/governance](https://github.com/aragon/governance/)
