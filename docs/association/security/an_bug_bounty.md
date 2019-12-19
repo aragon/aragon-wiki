@@ -43,8 +43,8 @@ In scope for the bug bounty are all the smart contract components of the Aragon 
         - Excluding `contracts/test/`
         - Excluding `contracts/standards/`
 
-!!! abstract "**Aragon Court fundraising** ([v1](https://github.com/aragonone/court-presale/tree/v1.0.0) and [future minor versions](https://github.com/aragonone/court-presale/releases))"
-    Smart contracts for the Aragon Network fundraising process
+!!! abstract "**Aragon Court pre-activation** ([v1](https://github.com/aragonone/court-presale/tree/v1.0.0) and [future minor versions](https://github.com/aragonone/court-presale/releases))"
+    Smart contracts for the Aragon Network pre-activation process
 
     - Only the following Solidity contracts:
         - `app/contracts/BalanceRedirectPresale.sol`
