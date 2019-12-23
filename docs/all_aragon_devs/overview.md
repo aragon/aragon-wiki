@@ -7,4 +7,4 @@ To participate in the call, send an email to alldevs-at-aragon-dot-org with your
 
 # Next meeting agenda
 
-[All Devs #38](https://hackmd.io/@lg/SJWk370ar): December 23rd, 2019 8am PST / 11am EST / 3pm UTC / 5pm CEST
+[All Devs #39](https://hackmd.io/@lg/ryJ36vARB): December 23rd, 2019 8am PST / 11am EST / 3pm UTC / 5pm CEST
