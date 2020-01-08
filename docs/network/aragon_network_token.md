@@ -74,6 +74,7 @@ _Disclaimer: Nothing on this page should be taken as investment advice. Inclusio
 - Ethfinex - [https://www.ethfinex.com](https://www.ethfinex.com)
 - HitBTC - [https://hitbtc.com](https://hitbtc.com)
 - IDEX - [https://idex.market](https://idex.market)
+- KyberSwap - [https://kyberswap.com](https://kyberswap.com/swap/eth-ant)
 - Paradex - [https://paradex.io/](https://paradex.io/)
 - Radar Relay - [https://radarrelay.com/](https://radarrelay.com/)
 - SimpleSwap - [https://simpleswap.io/](https://simpleswap.io/)
