@@ -49,6 +49,15 @@ In scope for the bug bounty are all the smart contract components of the Aragon 
         - Excluding `contracts/example/`
         - Excluding `contracts/test/`
 
+!!! abstract "**fundraising** (on the [v1.0.0 tag](https://github.com/AragonBlack/fundraising/tree/v1.0.0))"
+    Contracts for Aragon Fundraising developed by Aragon Black.
+
+    - Solidity code under `apps/**/contracts` (`aragon-fundraising`, `batched-bancor-market-maker`, `presale`, `tap`)
+        - Excluding `apps/bancor-formula`
+        - Excluding `contracts/test/`
+    - Solidity code under `templates/multisig`
+        - Excluding `contracts/test/`
+
 !!! abstract "**MiniMe Token (Aragon fork)** (on the [master branch](https://github.com/aragon/minime/tree/master))"
     Governance token deployed for most Aragon organizations.
 
