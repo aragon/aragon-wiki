@@ -91,9 +91,11 @@ nav:
           - Audit by ConsenSys Diligence: 'https://github.com/ConsenSys/aragon_audit_report_2018-06-04_extended'
         - Aragon Network:
           - Aragon Court by Georgios Konstantopoulos: 'https://github.com/gakonst/publications/blob/master/aragon_court_audit.pdf'
+          - Aragon Network Presale by ConsenSys Diligence: 'https://diligence.consensys.net/audits/2019/11/aragonone-presale/'
         - Apps / Templates:
           - Aragon Payroll: 'https://github.com/ConsenSys/aragon-payroll-audit-report-2019-06'
           - DAO Templates by ConsenSys Diligence: 'https://github.com/ConsenSys/aragon-daotemplates-audit-report-2019-08'
+          - Aragon Fundraising by ConsenSys Diligence: 'https://diligence.consensys.net/audits/2019/11/aragonblack-fundraising/'
   - Aragon Network:
     - Overview: 'network/overview.md'
     - Aragon Network Token: 'network/aragon_network_token.md'
