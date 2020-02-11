@@ -60,6 +60,8 @@ This page has a list of projects created by the Aragon community, and also inclu
 
 - [Pool Together](https://pooltogether.us) ([Proof](https://twitter.com/PoolTogether_/status/1143162275655749633))
 
+- [Reddit (r/ethtrader)](https://www.reddit.com/r/ethtrader/) ([Proof](https://www.reddit.com/r/ethtrader/comments/e70bjc/donutsonethereum_launched/))
+
 - [Request Network](https://request.network) ([Proof](https://blog.request.network/blockchain-bricks-request-is-built-upon-0x-civic-and-aragon-3aaf68390221))
 
 - [Spice VC](https://www.spicevc.com) ([Proof](https://medium.com/spicevc/spice-vc-is-the-first-to-use-blockchain-to-solve-the-liquidity-problem-638227217cb6))
