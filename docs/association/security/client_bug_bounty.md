@@ -12,7 +12,7 @@ Vulnerability reports will be scored using the  [CVSS v3](https://www.first.org/
 !!! danger "**Major** (CVSS 7.0 - 8.9)"
     $2,500 - $5,000
 
-!!! fail "**Medium** (CVSS 4.0 - 6.0)"
+!!! fail "**Medium** (CVSS 4.0 - 6.9)"
     $1,000 - $2,500
 
 !!! warning "**Low** (CVSS 1.0 - 3.9)"
