@@ -34,7 +34,7 @@
         <meta name="lang:search.tokenizer" content="[\s\-]+">
       
       <link rel="shortcut icon" href="../../../../images/favicon.ico">
-      <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-4.6.0">
+      <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-4.6.2">
     
     
       
@@ -42,7 +42,7 @@
       
     
     
-      <link rel="stylesheet" href="../../../../assets/stylesheets/application.1b62728e.css">
+      <link rel="stylesheet" href="../../../../assets/stylesheets/application.adb8469c.css">
       
         <link rel="stylesheet" href="../../../../assets/stylesheets/application-palette.a8b3c06d.css">
       
@@ -53,7 +53,7 @@
       
     
     
-      <script src="../../../../assets/javascripts/modernizr.268332fc.js"></script>
+      <script src="../../../../assets/javascripts/modernizr.86422ebf.js"></script>
     
     
       
@@ -89,7 +89,7 @@
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
     <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
     
-      <a href="#finance" tabindex="1" class="md-skip">
+      <a href="#finance" tabindex="0" class="md-skip">
         Skip to content
       </a>
     
@@ -150,7 +150,7 @@
   <label class="md-nav__title md-nav__title--site" for="__drawer">
     <a href="../../../.." title="Aragon Wiki" class="md-nav__button md-logo">
       
-        <img src="../../../../images/logo.svg" width="48" height="48">
+        <img alt="logo" src="../../../../images/logo.svg" width="48" height="48">
       
     </a>
     Aragon Wiki
@@ -5083,14 +5083,14 @@
 <h4 id="deposits">Deposits</h4>
 <p>Two deposit mechanisms are supported:</p>
 <h5 id="erc20">ERC20</h5>
-<div class="codehilite"><pre><span></span><span class="err">token.approve(finance, amount)</span>
+<div class="codehilite"><pre><span></span><code><span class="err">token.approve(finance, amount)</span>
 <span class="err">finance.deposit(token, amount, string reference)</span>
-</pre></div>
+</code></pre></div>
 
 <p>After doing an ERC20 approval with the Finance app as spender, calling <code class="codehilite"><span class="err">deposit(...)</span></code> will create an incoming transaction saving the reference string.</p>
 <h5 id="erc677">ERC677</h5>
-<div class="codehilite"><pre><span></span><span class="err">token.transferAndCall(finance, amount, string reference)</span>
-</pre></div>
+<div class="codehilite"><pre><span></span><code><span class="err">token.transferAndCall(finance, amount, string reference)</span>
+</code></pre></div>
 
 <p>Performing a ERC677 <code class="codehilite"><span class="err">transferAndCall(...)</span></code> to the Finance app will also trigger a deposit (intercepted with the <code class="codehilite"><span class="err">tokenFallback</span></code>). The data passed as payload to transferAndCall is used directly as the reference for the deposit.</p>
 <p>Given that aragonOS' EtherToken implementation conforms to ERC677, depositing Ether to the Finance app can be done by wrapping the ether using <code class="codehilite"><span class="err">etherToken.wrap()</span></code> and then doing a <code class="codehilite"><span class="err">transferAndCall(...)</span></code> or using the shortcut <code class="codehilite"><span class="err">wrapAndCall(...)</span></code> which performs both actions.</p>
@@ -5098,8 +5098,8 @@
 <h3 id="payments_1">Payments</h3>
 <p>Depending on the parameters a payment is created with, it can be an instant one time payment, a recurrent payment for payroll or a scheduled payment.</p>
 <h4 id="creating-payment">Creating payment</h4>
-<div class="codehilite"><pre><span></span><span class="err">finance.newPayment(...)</span>
-</pre></div>
+<div class="codehilite"><pre><span></span><code><span class="err">finance.newPayment(...)</span>
+</code></pre></div>
 
 <p>A payment is created with the following parameters:</p>
 <ul>
@@ -5114,38 +5114,38 @@
 <p>If a payment is created that won't be repeated ever again, and already was executed, only an outgoing transaction is recorded to save storage.</p>
 <p>A payment can have a past <strong>initial payment time</strong>, which could cause many instances of the recurring payment to be executed at payment creation time.</p>
 <h4 id="executing-payment">Executing payment</h4>
-<div class="codehilite"><pre><span></span><span class="err">finance.executePayment(uint256 _paymentId)</span>
+<div class="codehilite"><pre><span></span><code><span class="err">finance.executePayment(uint256 _paymentId)</span>
 <span class="err">finance.receiverExecutePayment(uint256 _paymentId)</span>
-</pre></div>
+</code></pre></div>
 
 <p>Payment execution will transfer the recipient of a payment the amount due depending on the current time. A single execution can result in multiple transactions if the payment hasn't been executed in time. To prevent it going out of gas when many transfers are due, a maximum amount of transfers are performed per execution (multiple executions could be needed in some instances).</p>
 <p>Payments can always be executed by its recipient, but there is also an additional role to the Finance app that allows another entity to execute the payment (recipient gets the funds in both instances).</p>
 <p>For payments whose token is the known EtherToken, instead of doing a token transfer, it will directly transfer ether to the recipient.</p>
 <p>A payment execution can fail in case the organization is out of budget for the payment token for that particular accounting period, or the organization doesn't have enough token balance.</p>
 <h4 id="disabling-payments">Disabling payments</h4>
-<div class="codehilite"><pre><span></span><span class="err">finance.setPaymentDisabled(uint256 _paymentId, bool _disabled)</span>
-</pre></div>
+<div class="codehilite"><pre><span></span><code><span class="err">finance.setPaymentDisabled(uint256 _paymentId, bool _disabled)</span>
+</code></pre></div>
 
 <p>At any time, a payment can be disabled by an authorized entity. If a payment hasn't been fully executed until that time and it is disabled, the recipient won't be able to execute it until it is enabled again.</p>
 <h3 id="periods">Periods</h3>
 <h4 id="setting-duration">Setting duration</h4>
-<div class="codehilite"><pre><span></span><span class="err">finance.setPeriodDuration(uint64 _periodDuration)</span>
-</pre></div>
+<div class="codehilite"><pre><span></span><code><span class="err">finance.setPeriodDuration(uint64 _periodDuration)</span>
+</code></pre></div>
 
 <p>Sets the period duration for next periods. The current period duration cannot be modified.</p>
 <h4 id="setting-budget">Setting budget</h4>
-<div class="codehilite"><pre><span></span><span class="err">finance.setBudget(ERC20 _token, uint256 _amount)</span>
-</pre></div>
+<div class="codehilite"><pre><span></span><code><span class="err">finance.setBudget(ERC20 _token, uint256 _amount)</span>
+</code></pre></div>
 
 <p>Updates the budget of a token for accounting periods. Newly set budget is automatically enforced for the current period.</p>
 <h4 id="removing-budget">Removing budget</h4>
-<div class="codehilite"><pre><span></span><span class="err">finance.removeBudget(ERC20 _token)</span>
-</pre></div>
+<div class="codehilite"><pre><span></span><code><span class="err">finance.removeBudget(ERC20 _token)</span>
+</code></pre></div>
 
 <p>Removes budget for a token, allowing unlimited spending of that token in any period. Removing budget affects the current period.</p>
 <h4 id="transitioning-periods">Transitioning periods</h4>
-<div class="codehilite"><pre><span></span><span class="err">finance.tryTransitionAccountingPeriod(uint ttl)</span>
-</pre></div>
+<div class="codehilite"><pre><span></span><code><span class="err">finance.tryTransitionAccountingPeriod(uint ttl)</span>
+</code></pre></div>
 
 <p>All operations that can result in the creation of a transaction (creating a payment, executing a payment, performing a deposit) first check whether the accounting period needs to be transitioned (previous period has end time has passed) or it can be triggered manually by calling <code class="codehilite"><span class="err">tryTransitionAccountingPeriod(...)</span></code>.</p>
 <p>If many periods passed (last operation occurred two periods ago, but never transitioned), an empty period is created for every one of them.</p>
@@ -5229,7 +5229,7 @@
       
     </div>
     
-      <script src="../../../../assets/javascripts/application.808e90bb.js"></script>
+      <script src="../../../../assets/javascripts/application.c33a9706.js"></script>
       
       <script>app.initialize({version:"1.0.4",url:{base:"../../../.."}})</script>
       

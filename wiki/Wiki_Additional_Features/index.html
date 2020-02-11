@@ -34,7 +34,7 @@
         <meta name="lang:search.tokenizer" content="[\s\-]+">
       
       <link rel="shortcut icon" href="../../images/favicon.ico">
-      <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-4.6.0">
+      <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-4.6.2">
     
     
       
@@ -42,7 +42,7 @@
       
     
     
-      <link rel="stylesheet" href="../../assets/stylesheets/application.1b62728e.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/application.adb8469c.css">
       
         <link rel="stylesheet" href="../../assets/stylesheets/application-palette.a8b3c06d.css">
       
@@ -53,7 +53,7 @@
       
     
     
-      <script src="../../assets/javascripts/modernizr.268332fc.js"></script>
+      <script src="../../assets/javascripts/modernizr.86422ebf.js"></script>
     
     
       
@@ -89,7 +89,7 @@
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
     <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
     
-      <a href="#aragon-project-wiki-additional-features" tabindex="1" class="md-skip">
+      <a href="#aragon-project-wiki-additional-features" tabindex="0" class="md-skip">
         Skip to content
       </a>
     
@@ -150,7 +150,7 @@
   <label class="md-nav__title md-nav__title--site" for="__drawer">
     <a href="../.." title="Aragon Wiki" class="md-nav__button md-logo">
       
-        <img src="../../images/logo.svg" width="48" height="48">
+        <img alt="logo" src="../../images/logo.svg" width="48" height="48">
       
     </a>
     Aragon Wiki
@@ -5443,11 +5443,11 @@ followed by a single keyword which is used as the type qualifier of the
 block. The content of the block then follows on the next line, indented by
 four spaces.</p>
 <p>Example:</p>
-<div class="codehilite"><pre><span></span><span class="err">!!! note</span>
+<div class="codehilite"><pre><span></span><code><span class="err">!!! note</span>
 <span class="err">    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod</span>
 <span class="err">    nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor</span>
 <span class="err">    massa, nec semper lorem quam in massa.</span>
-</pre></div>
+</code></pre></div>
 
 <p>Result:</p>
 <div class="admonition note">
@@ -5459,9 +5459,9 @@ massa, nec semper lorem quam in massa.</p>
 <h3 id="types">Types</h3>
 <h4 id="note">Note</h4>
 <p>Example:</p>
-<div class="codehilite"><pre><span></span><span class="err">!!! note</span>
+<div class="codehilite"><pre><span></span><code><span class="err">!!! note</span>
 <span class="err">    Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
-</pre></div>
+</code></pre></div>
 
 <p>Result:</p>
 <div class="admonition note">
@@ -5470,9 +5470,9 @@ massa, nec semper lorem quam in massa.</p>
 </div>
 <h4 id="abstract">Abstract</h4>
 <p>Example:</p>
-<div class="codehilite"><pre><span></span><span class="err">!!! abstract / summary / tldr</span>
+<div class="codehilite"><pre><span></span><code><span class="err">!!! abstract / summary / tldr</span>
 <span class="err">    Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
-</pre></div>
+</code></pre></div>
 
 <p>Result:</p>
 <div class="admonition abstract">
@@ -5481,9 +5481,9 @@ massa, nec semper lorem quam in massa.</p>
 </div>
 <h4 id="info">Info</h4>
 <p>Example:</p>
-<div class="codehilite"><pre><span></span><span class="err">!!! info / todo</span>
+<div class="codehilite"><pre><span></span><code><span class="err">!!! info / todo</span>
 <span class="err">    Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
-</pre></div>
+</code></pre></div>
 
 <p>Result:</p>
 <div class="admonition info">
@@ -5492,9 +5492,9 @@ massa, nec semper lorem quam in massa.</p>
 </div>
 <h4 id="tip">Tip</h4>
 <p>Example:</p>
-<div class="codehilite"><pre><span></span><span class="err">!!! tip / hint</span>
+<div class="codehilite"><pre><span></span><code><span class="err">!!! tip / hint</span>
 <span class="err">    Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
-</pre></div>
+</code></pre></div>
 
 <p>Result:</p>
 <div class="admonition tip">
@@ -5503,9 +5503,9 @@ massa, nec semper lorem quam in massa.</p>
 </div>
 <h4 id="success">Success</h4>
 <p>Example:</p>
-<div class="codehilite"><pre><span></span><span class="err">!!! success / check / done</span>
+<div class="codehilite"><pre><span></span><code><span class="err">!!! success / check / done</span>
 <span class="err">    Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
-</pre></div>
+</code></pre></div>
 
 <p>Result:</p>
 <div class="admonition success">
@@ -5514,9 +5514,9 @@ massa, nec semper lorem quam in massa.</p>
 </div>
 <h4 id="question">Question</h4>
 <p>Example:</p>
-<div class="codehilite"><pre><span></span><span class="err">!!! question / help / faq</span>
+<div class="codehilite"><pre><span></span><code><span class="err">!!! question / help / faq</span>
 <span class="err">    Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
-</pre></div>
+</code></pre></div>
 
 <p>Result:</p>
 <div class="admonition question">
@@ -5525,9 +5525,9 @@ massa, nec semper lorem quam in massa.</p>
 </div>
 <h4 id="warning">Warning</h4>
 <p>Example:</p>
-<div class="codehilite"><pre><span></span><span class="err">!!! warning / caution / attention</span>
+<div class="codehilite"><pre><span></span><code><span class="err">!!! warning / caution / attention</span>
 <span class="err">    Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
-</pre></div>
+</code></pre></div>
 
 <p>Result:</p>
 <div class="admonition warning">
@@ -5536,9 +5536,9 @@ massa, nec semper lorem quam in massa.</p>
 </div>
 <h4 id="failure">Failure</h4>
 <p>Example:</p>
-<div class="codehilite"><pre><span></span><span class="err">!!! failure / fail / missing</span>
+<div class="codehilite"><pre><span></span><code><span class="err">!!! failure / fail / missing</span>
 <span class="err">    Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
-</pre></div>
+</code></pre></div>
 
 <p>Result:</p>
 <div class="admonition failure">
@@ -5547,9 +5547,9 @@ massa, nec semper lorem quam in massa.</p>
 </div>
 <h4 id="danger">Danger</h4>
 <p>Example:</p>
-<div class="codehilite"><pre><span></span><span class="err">!!! danger / error</span>
+<div class="codehilite"><pre><span></span><code><span class="err">!!! danger / error</span>
 <span class="err">    Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
-</pre></div>
+</code></pre></div>
 
 <p>Result:</p>
 <div class="admonition danger">
@@ -5558,9 +5558,9 @@ massa, nec semper lorem quam in massa.</p>
 </div>
 <h4 id="bug">Bug</h4>
 <p>Example:</p>
-<div class="codehilite"><pre><span></span><span class="err">!!! bug</span>
+<div class="codehilite"><pre><span></span><code><span class="err">!!! bug</span>
 <span class="err">    Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
-</pre></div>
+</code></pre></div>
 
 <p>Result:</p>
 <div class="admonition bug">
@@ -5569,9 +5569,9 @@ massa, nec semper lorem quam in massa.</p>
 </div>
 <h4 id="example">Example</h4>
 <p>Example:</p>
-<div class="codehilite"><pre><span></span><span class="err">!!! example / snippet</span>
+<div class="codehilite"><pre><span></span><code><span class="err">!!! example / snippet</span>
 <span class="err">    Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
-</pre></div>
+</code></pre></div>
 
 <p>Result:</p>
 <div class="admonition example">
@@ -5580,9 +5580,9 @@ massa, nec semper lorem quam in massa.</p>
 </div>
 <h4 id="quote">Quote</h4>
 <p>Example:</p>
-<div class="codehilite"><pre><span></span><span class="err">!!! quote / cite</span>
+<div class="codehilite"><pre><span></span><code><span class="err">!!! quote / cite</span>
 <span class="err">    Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
-</pre></div>
+</code></pre></div>
 
 <p>Result:</p>
 <div class="admonition quote">
@@ -5593,9 +5593,9 @@ massa, nec semper lorem quam in massa.</p>
 <p>By default, the block title will equal the type qualifier in titlecase. However,
 it can easily be changed by adding a quoted string after the type qualifier.</p>
 <p>Example:</p>
-<div class="codehilite"><pre><span></span><span class="err">!!! note &quot;Phasellus posuere in sem ut cursus&quot;</span>
+<div class="codehilite"><pre><span></span><code><span class="err">!!! note &quot;Phasellus posuere in sem ut cursus&quot;</span>
 <span class="err">    Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
-</pre></div>
+</code></pre></div>
 
 <p>Result:</p>
 <div class="admonition note">
@@ -5606,9 +5606,9 @@ it can easily be changed by adding a quoted string after the type qualifier.</p>
 <p>Similar to setting a custom title, the icon and title can be omitted by
 providing an empty string after the type qualifier:</p>
 <p>Example:</p>
-<div class="codehilite"><pre><span></span><span class="err">!!! note &quot;&quot;</span>
+<div class="codehilite"><pre><span></span><code><span class="err">!!! note &quot;&quot;</span>
 <span class="err">    Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
-</pre></div>
+</code></pre></div>
 
 <p>Result:</p>
 <div class="admonition note">
@@ -5621,7 +5621,7 @@ providing an empty string after the type qualifier:</p>
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod
 nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
 massa, nec semper lorem quam in massa.</p>
-<div class="codehilite"><pre><span></span><span class="kr">import</span> <span class="nx">Messenger</span><span class="p">,</span> <span class="p">{</span> <span class="nx">providers</span> <span class="p">}</span> <span class="nx">from</span> <span class="s1">&#39;@aragon/messenger&#39;</span>
+<div class="codehilite"><pre><span></span><code><span class="kr">import</span> <span class="nx">Messenger</span><span class="p">,</span> <span class="p">{</span> <span class="nx">providers</span> <span class="p">}</span> <span class="nx">from</span> <span class="s1">&#39;@aragon/messenger&#39;</span>
 <span class="kr">import</span> <span class="p">{</span> <span class="nx">defer</span> <span class="p">}</span> <span class="nx">from</span> <span class="s1">&#39;rxjs/observable/defer&#39;</span>
 <span class="kr">import</span> <span class="p">{</span> <span class="nx">empty</span> <span class="p">}</span> <span class="nx">from</span> <span class="s1">&#39;rxjs/observable/empty&#39;</span>
 <span class="kr">import</span> <span class="p">{</span> <span class="nx">fromPromise</span> <span class="p">}</span> <span class="nx">from</span> <span class="s1">&#39;rxjs/observable/fromPromise&#39;</span>
@@ -5641,7 +5641,7 @@ massa, nec semper lorem quam in massa.</p>
     <span class="p">}</span>
   <span class="p">}</span>
 <span class="p">}</span>
-</pre></div>
+</code></pre></div>
 
 <p>Nunc eu odio eleifend, blandit leo a, volutpat sapien. Phasellus posuere in
 sem ut cursus. Nullam sit amet tincidunt ipsum, sit amet elementum turpis.
@@ -5658,8 +5658,8 @@ followed by an arbitrary label which may contain numeric identifiers [1, 2, 3,
 ...] or names [Granovetter et al. 1998]. The rendered references are always
 consecutive superscripted numbers.</p>
 <p>Example:</p>
-<div class="codehilite"><pre><span></span><span class="err">Lorem ipsum[^1] dolor sit amet, consectetur adipiscing elit.[^2]</span>
-</pre></div>
+<div class="codehilite"><pre><span></span><code><span class="err">Lorem ipsum[^1] dolor sit amet, consectetur adipiscing elit.[^2]</span>
+</code></pre></div>
 
 <p>Result:</p>
 <p>Lorem ipsum<sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup> dolor sit amet, consectetur adipiscing elit.<sup id="fnref:2"><a class="footnote-ref" href="#fn:2">2</a></sup></p>
@@ -5671,8 +5671,8 @@ backlink is automatically added to the footnote reference.</p>
 <h5 id="on-a-single-line">on a single line</h5>
 <p>Short statements can be written on the same line.</p>
 <p>Example:</p>
-<div class="codehilite"><pre><span></span><span class="err">[^1]: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
-</pre></div>
+<div class="codehilite"><pre><span></span><code><span class="err">[^1]: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
+</code></pre></div>
 
 <p>Result:</p>
 <blockquote>
@@ -5682,11 +5682,11 @@ backlink is automatically added to the footnote reference.</p>
 <p>Paragraphs should be written on the next line. As with all Markdown blocks, the
 content must be indented by four spaces.</p>
 <p>Example:</p>
-<div class="codehilite"><pre><span></span><span class="err">[^2]:</span>
+<div class="codehilite"><pre><span></span><code><span class="err">[^2]:</span>
 <span class="err">    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod</span>
 <span class="err">    nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor</span>
 <span class="err">    massa, nec semper lorem quam in massa.</span>
-</pre></div>
+</code></pre></div>
 
 <p>Result:</p>
 <blockquote>
@@ -5696,10 +5696,10 @@ content must be indented by four spaces.</p>
 <h2 id="equations">Equations</h2>
 <h3 id="blocks">Blocks</h3>
 <p>Blocks are enclosed in <code class="codehilite"><span class="err">$$...$$</span></code> which are placed on separate lines.</p>
-<div class="codehilite"><pre><span></span><span class="sb">$$</span><span class="nb"></span>
+<div class="codehilite"><pre><span></span><code><span class="sb">$$</span><span class="nb"></span>
 <span class="nv">\frac</span><span class="nb">{n</span><span class="o">!</span><span class="nb">}{k</span><span class="o">!(</span><span class="nb">n</span><span class="o">-</span><span class="nb">k</span><span class="o">)!</span><span class="nb">} </span><span class="o">=</span><span class="nb"> </span><span class="nv">\binom</span><span class="nb">{n}{k}</span>
 <span class="s">$$</span>
-</pre></div>
+</code></pre></div>
 
 <div class="admonition success">
 <p class="admonition-title">Result</p>
@@ -5714,8 +5714,8 @@ content must be indented by four spaces.</p>
 </div>
 <h3 id="inline">Inline</h3>
 <p>Inline equations need to be enclosed in <code class="codehilite"><span class="s">$</span><span class="nb">...</span><span class="s">$</span></code>:</p>
-<div class="codehilite"><pre><span></span>Lorem ipsum dolor sit amet: <span class="s">$</span><span class="nb">p</span><span class="o">(</span><span class="nb">x|y</span><span class="o">)</span><span class="nb"> </span><span class="o">=</span><span class="nb"> </span><span class="nv">\frac</span><span class="nb">{p</span><span class="o">(</span><span class="nb">y|x</span><span class="o">)</span><span class="nb">p</span><span class="o">(</span><span class="nb">x</span><span class="o">)</span><span class="nb">}{p</span><span class="o">(</span><span class="nb">y</span><span class="o">)</span><span class="nb">}</span><span class="s">$</span>
-</pre></div>
+<div class="codehilite"><pre><span></span><code>Lorem ipsum dolor sit amet: <span class="s">$</span><span class="nb">p</span><span class="o">(</span><span class="nb">x|y</span><span class="o">)</span><span class="nb"> </span><span class="o">=</span><span class="nb"> </span><span class="nv">\frac</span><span class="nb">{p</span><span class="o">(</span><span class="nb">y|x</span><span class="o">)</span><span class="nb">p</span><span class="o">(</span><span class="nb">x</span><span class="o">)</span><span class="nb">}{p</span><span class="o">(</span><span class="nb">y</span><span class="o">)</span><span class="nb">}</span><span class="s">$</span>
+</code></pre></div>
 
 <div class="admonition success">
 <p class="admonition-title">Result</p>
@@ -5726,7 +5726,7 @@ content must be indented by four spaces.</p>
 <h2 id="tasklists">Tasklists</h2>
 <p>Tasklists are useful for keeping track of tasks and showing what has been done and has yet to be done. Checkbox lists are like regular lists, but prefixed with <code class="codehilite"><span class="err">[ ]</span></code> for empty or <code class="codehilite"><span class="o">[</span><span class="n">x</span><span class="o">]</span><span class="w"></span></code> for filled checkboxes.</p>
 <p>Example:</p>
-<div class="codehilite"><pre><span></span><span class="o">-</span><span class="w"> </span><span class="o">[</span><span class="n">x</span><span class="o">]</span><span class="w"> </span><span class="n">Lorem</span><span class="w"> </span><span class="n">ipsum</span><span class="w"> </span><span class="n">dolor</span><span class="w"> </span><span class="n">sit</span><span class="w"> </span><span class="n">amet</span><span class="p">,</span><span class="w"> </span><span class="n">consectetur</span><span class="w"> </span><span class="n">adipiscing</span><span class="w"> </span><span class="n">elit</span><span class="w"></span>
+<div class="codehilite"><pre><span></span><code><span class="o">-</span><span class="w"> </span><span class="o">[</span><span class="n">x</span><span class="o">]</span><span class="w"> </span><span class="n">Lorem</span><span class="w"> </span><span class="n">ipsum</span><span class="w"> </span><span class="n">dolor</span><span class="w"> </span><span class="n">sit</span><span class="w"> </span><span class="n">amet</span><span class="p">,</span><span class="w"> </span><span class="n">consectetur</span><span class="w"> </span><span class="n">adipiscing</span><span class="w"> </span><span class="n">elit</span><span class="w"></span>
 <span class="o">-</span><span class="w"> </span><span class="o">[</span><span class="n">x</span><span class="o">]</span><span class="w"> </span><span class="n">Nulla</span><span class="w"> </span><span class="n">lobortis</span><span class="w"> </span><span class="n">egestas</span><span class="w"> </span><span class="n">semper</span><span class="w"></span>
 <span class="o">-</span><span class="w"> </span><span class="o">[</span><span class="n"> </span><span class="o">]</span><span class="w"> </span><span class="n">Vestibulum</span><span class="w"> </span><span class="n">convallis</span><span class="w"> </span><span class="n">sit</span><span class="w"> </span><span class="n">amet</span><span class="w"> </span><span class="n">nisi</span><span class="w"> </span><span class="n">a</span><span class="w"> </span><span class="n">tincidunt</span><span class="w"></span>
 <span class="w">    </span><span class="o">-</span><span class="w"> </span><span class="o">[</span><span class="n">x</span><span class="o">]</span><span class="w"> </span><span class="ow">In</span><span class="w"> </span><span class="n">hac</span><span class="w"> </span><span class="n">habitasse</span><span class="w"> </span><span class="n">platea</span><span class="w"> </span><span class="n">dictumst</span><span class="w"></span>
@@ -5734,7 +5734,7 @@ content must be indented by four spaces.</p>
 <span class="w">    </span><span class="o">-</span><span class="w"> </span><span class="o">[</span><span class="n"> </span><span class="o">]</span><span class="w"> </span><span class="n">Praesent</span><span class="w"> </span><span class="n">sed</span><span class="w"> </span><span class="n">risus</span><span class="w"> </span><span class="n">massa</span><span class="w"></span>
 <span class="o">-</span><span class="w"> </span><span class="o">[</span><span class="n"> </span><span class="o">]</span><span class="w"> </span><span class="n">Aenean</span><span class="w"> </span><span class="n">pretium</span><span class="w"> </span><span class="n">efficitur</span><span class="w"> </span><span class="n">erat</span><span class="p">,</span><span class="w"> </span><span class="n">donec</span><span class="w"> </span><span class="n">pharetra</span><span class="p">,</span><span class="w"> </span><span class="n">ligula</span><span class="w"> </span><span class="n">non</span><span class="w"> </span><span class="n">scelerisque</span><span class="w"></span>
 <span class="o">-</span><span class="w"> </span><span class="o">[</span><span class="n"> </span><span class="o">]</span><span class="w"> </span><span class="n">Nulla</span><span class="w"> </span><span class="n">vel</span><span class="w"> </span><span class="n">eros</span><span class="w"> </span><span class="n">venenatis</span><span class="p">,</span><span class="w"> </span><span class="n">imperdiet</span><span class="w"> </span><span class="n">enim</span><span class="w"> </span><span class="n">id</span><span class="p">,</span><span class="w"> </span><span class="n">faucibus</span><span class="w"> </span><span class="n">nisi</span><span class="w"></span>
-</pre></div>
+</code></pre></div>
 
 <p>Result:</p>
 <ul class="task-list">
@@ -5754,12 +5754,12 @@ content must be indented by four spaces.</p>
 <h2 id="code-highlighting">Code Highlighting</h2>
 <p>Using Markdown syntaxes, code blocks can be opened and closed by writing three backticks on separate lines. To add code highlighting to those blocks, the easiest way is to specify the language directly after the opening block.</p>
 <p>Examples:</p>
-<div class="codehilite"><pre><span></span><span class="sb">``</span><span class="err">`</span> <span class="n">python</span>
+<div class="codehilite"><pre><span></span><code><span class="sb">``</span><span class="err">`</span> <span class="n">python</span>
 <span class="kn">import</span> <span class="nn">tensorflow</span> <span class="kn">as</span> <span class="nn">tf</span>
 <span class="sb">``</span><span class="err">`</span>
-</pre></div>
+</code></pre></div>
 
-<div class="codehilite"><pre><span></span><span class="sb">``</span><span class="err">`</span> <span class="n">javascript</span>
+<div class="codehilite"><pre><span></span><code><span class="sb">``</span><span class="err">`</span> <span class="n">javascript</span>
 <span class="kn">import</span> <span class="nn">Messenger</span><span class="o">,</span> <span class="p">{</span> <span class="n">providers</span> <span class="p">}</span> <span class="kn">from</span> <span class="s1">&#39;@aragon/messenger&#39;</span>
 <span class="kn">import</span> <span class="p">{</span> <span class="n">defer</span> <span class="p">}</span> <span class="kn">from</span> <span class="s1">&#39;rxjs/observable/defer&#39;</span>
 <span class="kn">import</span> <span class="p">{</span> <span class="n">empty</span> <span class="p">}</span> <span class="kn">from</span> <span class="s1">&#39;rxjs/observable/empty&#39;</span>
@@ -5781,13 +5781,13 @@ content must be indented by four spaces.</p>
   <span class="p">}</span>
 <span class="p">}</span>
 <span class="sb">``</span><span class="err">`</span>
-</pre></div>
+</code></pre></div>
 
 <p>Results:</p>
-<div class="codehilite"><pre><span></span><span class="kn">import</span> <span class="nn">tensorflow</span> <span class="k">as</span> <span class="nn">tf</span>
-</pre></div>
+<div class="codehilite"><pre><span></span><code><span class="kn">import</span> <span class="nn">tensorflow</span> <span class="k">as</span> <span class="nn">tf</span>
+</code></pre></div>
 
-<div class="codehilite"><pre><span></span><span class="kr">import</span> <span class="nx">Messenger</span><span class="p">,</span> <span class="p">{</span> <span class="nx">providers</span> <span class="p">}</span> <span class="nx">from</span> <span class="s1">&#39;@aragon/messenger&#39;</span>
+<div class="codehilite"><pre><span></span><code><span class="kr">import</span> <span class="nx">Messenger</span><span class="p">,</span> <span class="p">{</span> <span class="nx">providers</span> <span class="p">}</span> <span class="nx">from</span> <span class="s1">&#39;@aragon/messenger&#39;</span>
 <span class="kr">import</span> <span class="p">{</span> <span class="nx">defer</span> <span class="p">}</span> <span class="nx">from</span> <span class="s1">&#39;rxjs/observable/defer&#39;</span>
 <span class="kr">import</span> <span class="p">{</span> <span class="nx">empty</span> <span class="p">}</span> <span class="nx">from</span> <span class="s1">&#39;rxjs/observable/empty&#39;</span>
 <span class="kr">import</span> <span class="p">{</span> <span class="nx">fromPromise</span> <span class="p">}</span> <span class="nx">from</span> <span class="s1">&#39;rxjs/observable/fromPromise&#39;</span>
@@ -5807,7 +5807,7 @@ content must be indented by four spaces.</p>
     <span class="p">}</span>
   <span class="p">}</span>
 <span class="p">}</span>
-</pre></div>
+</code></pre></div>
 
 <h3 id="supported-languages">Supported languages</h3>
 <p>The Code Highlighting uses <a href="http://pygments.org/">Pygments</a>, a generic syntax highlighter.</p>
@@ -5815,7 +5815,7 @@ content must be indented by four spaces.</p>
 <h3 id="grouping-code-blocks">Grouping code blocks</h3>
 <p>You can use grouping for code blocks with tabs.</p>
 <p>Example:</p>
-<div class="codehilite"><pre><span></span><span class="err">```</span> <span class="n">bash</span> <span class="n">tab</span><span class="o">=</span><span class="s">&quot;Bash&quot;</span>
+<div class="codehilite"><pre><span></span><code><span class="err">```</span> <span class="n">bash</span> <span class="n">tab</span><span class="o">=</span><span class="s">&quot;Bash&quot;</span>
 <span class="cp">#!/bin/bash</span>
 
 <span class="n">echo</span> <span class="s">&quot;Hello world!&quot;</span>
@@ -5837,39 +5837,39 @@ content must be indented by four spaces.</p>
   <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
 <span class="p">}</span>
 <span class="err">```</span>
-</pre></div>
+</code></pre></div>
 
 <p>Result:</p>
 <div class="superfences-tabs">
 <input name="__tabs_1" type="radio" id="__tab_1_0" checked="checked" />
 <label for="__tab_1_0">Bash</label>
-<div class="superfences-content"><div class="codehilite"><pre><span></span><span class="ch">#!/bin/bash</span>
+<div class="superfences-content"><div class="codehilite"><pre><span></span><code><span class="ch">#!/bin/bash</span>
 
 <span class="nb">echo</span> <span class="s2">&quot;Hello world!&quot;</span>
-</pre></div></div>
+</code></pre></div></div>
 <input name="__tabs_1" type="radio" id="__tab_1_1" />
 <label for="__tab_1_1">C</label>
-<div class="superfences-content"><div class="codehilite"><pre><span></span><span class="cp">#include</span> <span class="cpf">&lt;stdio.h&gt;</span><span class="cp"></span>
+<div class="superfences-content"><div class="codehilite"><pre><span></span><code><span class="cp">#include</span> <span class="cpf">&lt;stdio.h&gt;</span><span class="cp"></span>
 
 <span class="kt">int</span> <span class="nf">main</span><span class="p">(</span><span class="kt">void</span><span class="p">)</span> <span class="p">{</span>
   <span class="n">printf</span><span class="p">(</span><span class="s">&quot;Hello world!</span><span class="se">\n</span><span class="s">&quot;</span><span class="p">);</span>
 <span class="p">}</span>
-</pre></div></div>
+</code></pre></div></div>
 <input name="__tabs_1" type="radio" id="__tab_1_2" />
 <label for="__tab_1_2">C++</label>
-<div class="superfences-content"><div class="codehilite"><pre><span></span><span class="cp">#include</span> <span class="cpf">&lt;iostream&gt;</span><span class="cp"></span>
+<div class="superfences-content"><div class="codehilite"><pre><span></span><code><span class="cp">#include</span> <span class="cpf">&lt;iostream&gt;</span><span class="cp"></span>
 
 <span class="kt">int</span> <span class="nf">main</span><span class="p">()</span> <span class="p">{</span>
   <span class="n">std</span><span class="o">::</span><span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">&quot;Hello world!&quot;</span> <span class="o">&lt;&lt;</span> <span class="n">std</span><span class="o">::</span><span class="n">endl</span><span class="p">;</span>
   <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
 <span class="p">}</span>
-</pre></div></div>
+</code></pre></div></div>
 </div>
 <h3 id="highlighting-specific-lines">Highlighting specific lines</h3>
 <p>Specific lines can be highlighted by passing the line numbers to the <code class="codehilite"><span class="err">hl_lines</span></code>
 argument placed right after the language identifier. Line counts start at 1.</p>
 <p>Example:</p>
-<div class="codehilite"><pre><span></span><span class="err">```</span><span class="w"> </span><span class="n">python</span><span class="w"> </span><span class="n">hl_lines</span><span class="o">=</span><span class="ss">&quot;3 4&quot;</span><span class="w"></span>
+<div class="codehilite"><pre><span></span><code><span class="err">```</span><span class="w"> </span><span class="n">python</span><span class="w"> </span><span class="n">hl_lines</span><span class="o">=</span><span class="ss">&quot;3 4&quot;</span><span class="w"></span>
 <span class="ss">&quot;&quot;&quot; Bubble sort &quot;&quot;&quot;</span><span class="w"></span>
 <span class="n">def</span><span class="w"> </span><span class="n">bubble_sort</span><span class="p">(</span><span class="n">items</span><span class="p">)</span><span class="err">:</span><span class="w"></span>
 <span class="w">    </span><span class="k">for</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="ow">in</span><span class="w"> </span><span class="k">range</span><span class="p">(</span><span class="nf">len</span><span class="p">(</span><span class="n">items</span><span class="p">))</span><span class="err">:</span><span class="w"></span>
@@ -5877,7 +5877,7 @@ argument placed right after the language identifier. Line counts start at 1.</p>
 <span class="w">            </span><span class="k">if</span><span class="w"> </span><span class="n">items</span><span class="o">[</span><span class="n">j</span><span class="o">]</span><span class="w"> </span><span class="o">&gt;</span><span class="w"> </span><span class="n">items</span><span class="o">[</span><span class="n">j + 1</span><span class="o">]</span><span class="err">:</span><span class="w"></span>
 <span class="w">                </span><span class="n">items</span><span class="o">[</span><span class="n">j</span><span class="o">]</span><span class="p">,</span><span class="w"> </span><span class="n">items</span><span class="o">[</span><span class="n">j + 1</span><span class="o">]</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">items</span><span class="o">[</span><span class="n">j + 1</span><span class="o">]</span><span class="p">,</span><span class="w"> </span><span class="n">items</span><span class="o">[</span><span class="n">j</span><span class="o">]</span><span class="w"></span>
 <span class="err">```</span><span class="w"></span>
-</pre></div>
+</code></pre></div>
 
 <p>Result:</p>
 <table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre>1
@@ -5885,13 +5885,13 @@ argument placed right after the language identifier. Line counts start at 1.</p>
 3
 4
 5
-6</pre></div></td><td class="code"><div class="codehilite"><pre><span></span><span class="sd">&quot;&quot;&quot; Bubble sort &quot;&quot;&quot;</span>
+6</pre></div></td><td class="code"><div class="codehilite"><pre><span></span><code><span class="sd">&quot;&quot;&quot; Bubble sort &quot;&quot;&quot;</span>
 <span class="k">def</span> <span class="nf">bubble_sort</span><span class="p">(</span><span class="n">items</span><span class="p">):</span>
 <span class="hll">    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">items</span><span class="p">)):</span>
 </span><span class="hll">        <span class="k">for</span> <span class="n">j</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">items</span><span class="p">)</span> <span class="o">-</span> <span class="mi">1</span> <span class="o">-</span> <span class="n">i</span><span class="p">):</span>
 </span>            <span class="k">if</span> <span class="n">items</span><span class="p">[</span><span class="n">j</span><span class="p">]</span> <span class="o">&gt;</span> <span class="n">items</span><span class="p">[</span><span class="n">j</span> <span class="o">+</span> <span class="mi">1</span><span class="p">]:</span>
                 <span class="n">items</span><span class="p">[</span><span class="n">j</span><span class="p">],</span> <span class="n">items</span><span class="p">[</span><span class="n">j</span> <span class="o">+</span> <span class="mi">1</span><span class="p">]</span> <span class="o">=</span> <span class="n">items</span><span class="p">[</span><span class="n">j</span> <span class="o">+</span> <span class="mi">1</span><span class="p">],</span> <span class="n">items</span><span class="p">[</span><span class="n">j</span><span class="p">]</span>
-</pre></div>
+</code></pre></div>
 </td></tr></table>
 
 </div>
@@ -6031,7 +6031,7 @@ argument placed right after the language identifier. Line counts start at 1.</p>
       
     </div>
     
-      <script src="../../assets/javascripts/application.808e90bb.js"></script>
+      <script src="../../assets/javascripts/application.c33a9706.js"></script>
       
       <script>app.initialize({version:"1.0.4",url:{base:"../.."}})</script>
       

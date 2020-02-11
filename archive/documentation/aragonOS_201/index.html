@@ -34,7 +34,7 @@
         <meta name="lang:search.tokenizer" content="[\s\-]+">
       
       <link rel="shortcut icon" href="../../../images/favicon.ico">
-      <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-4.6.0">
+      <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-4.6.2">
     
     
       
@@ -42,7 +42,7 @@
       
     
     
-      <link rel="stylesheet" href="../../../assets/stylesheets/application.1b62728e.css">
+      <link rel="stylesheet" href="../../../assets/stylesheets/application.adb8469c.css">
       
         <link rel="stylesheet" href="../../../assets/stylesheets/application-palette.a8b3c06d.css">
       
@@ -53,7 +53,7 @@
       
     
     
-      <script src="../../../assets/javascripts/modernizr.268332fc.js"></script>
+      <script src="../../../assets/javascripts/modernizr.86422ebf.js"></script>
     
     
       
@@ -89,7 +89,7 @@
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
     <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
     
-      <a href="#aragonos" tabindex="1" class="md-skip">
+      <a href="#aragonos" tabindex="0" class="md-skip">
         Skip to content
       </a>
     
@@ -150,7 +150,7 @@
   <label class="md-nav__title md-nav__title--site" for="__drawer">
     <a href="../../.." title="Aragon Wiki" class="md-nav__button md-logo">
       
-        <img src="../../../images/logo.svg" width="48" height="48">
+        <img alt="logo" src="../../../images/logo.svg" width="48" height="48">
       
     </a>
     Aragon Wiki
@@ -5351,11 +5351,11 @@
 <p>Roles are always unique to each app. Having a given role in one app does not grant the permission to perform that same role in other apps.</p>
 <p>An entity can have many roles in one app.</p>
 <p>Example:</p>
-<div class="codehilite"><pre><span></span><span class="err">contract TokenApp is App {</span>
+<div class="codehilite"><pre><span></span><code><span class="err">contract TokenApp is App {</span>
 <span class="err">    bytes32 constant public MINT_ROLE = 0x1234;</span>
 <span class="err">    function mint(address _receiver, uint256 _amount) auth(MINT_ROLE) { … }</span>
 <span class="err">}</span>
-</pre></div>
+</code></pre></div>
 
 <p><code class="codehilite"><span class="err">TokenApp</span></code> is an app that defines one action, <code class="codehilite"><span class="err">mint()</span></code>, whose execution is controlled by <code class="codehilite"><span class="err">MINT_ROLE</span></code>.</p>
 <h3 id="entity">Entity</h3>
@@ -5366,40 +5366,40 @@
 <p>We refer to a <strong>Permission Instance</strong> as an entity holding a certain permission.</p>
 <p>When a permission is created, a <strong>Permission Manager</strong> is set for that specific permission. The permission manager is able to grant or revoke permission instances for that permission.</p>
 <h4 id="create-permission">Create Permission</h4>
-<div class="codehilite"><pre><span></span><span class="err">kernel.createPermission(address entity, address app, bytes32 role, address manager)</span>
-</pre></div>
+<div class="codehilite"><pre><span></span><code><span class="err">kernel.createPermission(address entity, address app, bytes32 role, address manager)</span>
+</code></pre></div>
 
 <p><code class="codehilite"><span class="err">createPermission()</span></code> will fail if that permission has pre-existing permission instances.</p>
 <p>This action is identical to <a href="#grant-permission"><code class="codehilite"><span class="err">grantPermission()</span></code></a> except it allows the creation of a new permission if it doesn’t exist yet.</p>
 <p>A role in the ACL protects access to <code class="codehilite"><span class="err">createPermission()</span></code> as this important function could be used in malicious ways. When the Kernel is initialized, it also creates the permission that grants the initializing address the ability to create new permissions.</p>
 <p>Note that creating permissions is made mandatory by the ACL: all actions requiring yet-to-be-created permissions are disallowed by default. Any permission checks on non-existent permissions are failed automatically.</p>
 <h4 id="grant-permission">Grant Permission</h4>
-<div class="codehilite"><pre><span></span><span class="err">kernel.grantPermission(address entity, address app, bytes32 role)</span>
-</pre></div>
+<div class="codehilite"><pre><span></span><code><span class="err">kernel.grantPermission(address entity, address app, bytes32 role)</span>
+</code></pre></div>
 
 <p>Grants <code class="codehilite"><span class="err">role</span></code> in <code class="codehilite"><span class="err">app</span></code> for an <code class="codehilite"><span class="err">entity</span></code>. Only callable by the <code class="codehilite"><span class="err">manager</span></code> of a certain permission. This <code class="codehilite"><span class="err">entity</span></code> would then be allowed to call all actions that their <code class="codehilite"><span class="err">role</span></code> can perform on that particular <code class="codehilite"><span class="err">app</span></code> until the permission manager revokes their role with <code class="codehilite"><span class="err">revokePermission()</span></code>.</p>
 <p>The <code class="codehilite"><span class="err">grantPermission()</span></code> action doesn’t require protection with the ACL because an entity can only make changes to a permission if it is the permission's <code class="codehilite"><span class="err">manager</span></code>.</p>
 <h4 id="revoke-permission">Revoke Permission</h4>
-<div class="codehilite"><pre><span></span><span class="err">kernel.revokePermission(address entity, address app, bytes32 role)</span>
-</pre></div>
+<div class="codehilite"><pre><span></span><code><span class="err">kernel.revokePermission(address entity, address app, bytes32 role)</span>
+</code></pre></div>
 
 <p>Revokes <code class="codehilite"><span class="err">role</span></code> in <code class="codehilite"><span class="err">app</span></code> for an <code class="codehilite"><span class="err">entity</span></code>. Only callable by the <code class="codehilite"><span class="err">manager</span></code> of a certain permission.</p>
 <p>The <code class="codehilite"><span class="err">revokePermission()</span></code> action doesn’t need to be protected by the ACL either, as an entity can only make changes if it is the <code class="codehilite"><span class="err">manager</span></code> for a given permission.</p>
 <h4 id="set-permission-manager">Set Permission Manager</h4>
-<div class="codehilite"><pre><span></span><span class="err">kernel.setPermissionManager(address newManager, address app, bytes32 role)</span>
-</pre></div>
+<div class="codehilite"><pre><span></span><code><span class="err">kernel.setPermissionManager(address newManager, address app, bytes32 role)</span>
+</code></pre></div>
 
 <p>Changes the permission manager to <code class="codehilite"><span class="err">newManager</span></code>. Only callable by the <code class="codehilite"><span class="err">manager</span></code> of a certain permission.</p>
 <p>The new permission manager replaces the old permission manager, resulting in the old manager losing any management power over that permission.</p>
 <p><a href="#create-permission"><code class="codehilite"><span class="err">createPermission()</span></code></a> executes a special case of this action to set the initial manager for the newly created permission. From that point forward, the manager can only be changed with <code class="codehilite"><span class="err">setPermissionManager()</span></code>.</p>
 <h4 id="events">Events</h4>
 <p><a href="#create-permission"><code class="codehilite"><span class="err">createPermission()</span></code></a>, <a href="#grant-permission"><code class="codehilite"><span class="err">grantPermission()</span></code></a>, and <a href="#revoke-permission"><code class="codehilite"><span class="err">revokePermission()</span></code></a> all fire the same <code class="codehilite"><span class="err">SetPermission</span></code> event that Aragon clients are expected to cache and process into a locally stored version of the ACL:</p>
-<div class="codehilite"><pre><span></span><span class="err">SetPermission(address indexed from, bytes32 indexed role, address indexed to, bool allowed)</span>
-</pre></div>
+<div class="codehilite"><pre><span></span><code><span class="err">SetPermission(address indexed from, bytes32 indexed role, address indexed to, bool allowed)</span>
+</code></pre></div>
 
 <p><a href="#set-permission-manager"><code class="codehilite"><span class="err">setPermissionManager()</span></code></a> fires the following event:</p>
-<div class="codehilite"><pre><span></span><span class="err">ChangePermissionManager(address indexed app, bytes32 indexed role, address indexed manager)</span>
-</pre></div>
+<div class="codehilite"><pre><span></span><code><span class="err">ChangePermissionManager(address indexed app, bytes32 indexed role, address indexed manager)</span>
+</code></pre></div>
 
 <h4 id="example">Example</h4>
 <p>As an example, the following steps show a complete flow for user "Root" to create a new DAO with the basic permissions set so that a <a href="../../dev/apps/voting.md">Voting app</a> can manage the funds stored in a <a href="../../dev/apps/vault.md">Vault app</a>:</p>
@@ -5427,12 +5427,12 @@
 <p><center><img src="../images/permission_escalation.png"></center></p>
 <h5 id="forwarders">Forwarders</h5>
 <p>In order to make permission escalation easier, we define a common interface for **Forwarder**s:</p>
-<div class="codehilite"><pre><span></span><span class="err">contract Forwarder {</span>
+<div class="codehilite"><pre><span></span><code><span class="err">contract Forwarder {</span>
 <span class="err">   bool isForwarder = true;</span>
 <span class="err">   function canForward(address sender, bytes evmCallScript) view returns (bool);</span>
 <span class="err">   function forward(bytes evmCallScript);</span>
 <span class="err">}</span>
-</pre></div>
+</code></pre></div>
 
 <p>If a user wants to enact an action it cannot perform directly, it can check if there are forwarders. This checks for privileged entities that are accessible to any of the user's addresses for forwarding the action to.</p>
 <h5 id="evm-call-script">EVM Call Script</h5>
@@ -5454,8 +5454,8 @@
 <p><center><img src="../images/appproxy_delegatecall.png"></center></p>
 <p>It should be noted that multiple <code class="codehilite"><span class="err">AppProxy</span></code> contracts can be installed in a DAO for the same app identifier (e.g. multiple <a href="./apps/fundraising">Fundraising</a> <code class="codehilite"><span class="err">AppProxy</span></code> instances can be attached to the same Kernel to control multiple types of funding). As the Kernel keeps a centralized record of the latest version of the code for each app identifier, changing one reference in the Kernel effectively updates all instances of that app in that organization. These upgrades could then be delegated to another contract, e.g. the Aragon Network, in case organizations don’t want to handle manual upgrades of their own apps.</p>
 <h4 id="set-app-code">Set App Code</h4>
-<div class="codehilite"><pre><span></span><span class="err">kernel.setAppCode(bytes32 appId, address appCode)</span>
-</pre></div>
+<div class="codehilite"><pre><span></span><code><span class="err">kernel.setAppCode(bytes32 appId, address appCode)</span>
+</code></pre></div>
 
 <p>This action updates the implementation code registered for a given <code class="codehilite"><span class="err">appId</span></code>, such that all future calls to the app will use the new app code. If multiple app instances are installed for the given <code class="codehilite"><span class="err">appId</span></code>, they are all updated at the same time with this action.</p>
 <p>Note that all calls to an app will fail if an <code class="codehilite"><span class="err">appId</span></code> has not been set for its <code class="codehilite"><span class="err">appCode</span></code>.</p>
@@ -5468,15 +5468,15 @@
 <p>Technically, an app <strong>A</strong> is nothing more than a simple <a href="#22-app-space-upgradeability"><code class="codehilite"><span class="err">AppProxy</span></code></a> contract holding a reference to a kernel <strong>K</strong> and an <code class="codehilite"><span class="err">appId</span></code>. If <strong>A</strong> doesn’t have any permissions, both incoming and outgoing, set in <strong>K</strong>, <strong>A</strong> is effectively irrelevant to the DAO as nothing can call it and it cannot call anything. So the notion of installing an app is replaced with the notion of creating permissions for an app (i.e. defining what entities can do with the app and what the app can do in other apps).</p>
 <p>All relevant apps in a DAO should be discoverable by traversing its ACL, checking if any addresses are <code class="codehilite"><span class="err">AppProxy</span></code>s, and checking if those <code class="codehilite"><span class="err">AppProxy</span></code>s have a reference to the DAO’s kernel. If that is the case, then the apps matching those <code class="codehilite"><span class="err">AppProxy</span></code>s' <code class="codehilite"><span class="err">appId</span></code>s are considered installed in the DAO.</p>
 <p>Application identifiers (<code class="codehilite"><span class="err">appId</span></code>s) should be the <a href="https://www.npmjs.com/package/eth-ens-namehash"><code class="codehilite"><span class="err">namehash</span></code>ed</a> ENS name for the app's deployed contract:</p>
-<div class="codehilite"><pre><span></span><span class="err">appId = namehash(“voting.aragonpm.eth”)</span>
-</pre></div>
+<div class="codehilite"><pre><span></span><code><span class="err">appId = namehash(“voting.aragonpm.eth”)</span>
+</code></pre></div>
 
 <p>An app's <code class="codehilite"><span class="err">appId</span></code> can be used as the identifier for its full package (including the app's frontend and other artifacts).</p>
 <p>Aragon owns and provides <code class="codehilite"><span class="err">aragonpm.eth</span></code> as a domain for developers to register their packages under. However, the system is designed to be domain agnostic: for example, district0x could decide to have all their packages under <code class="codehilite"><span class="err">packages.district.eth</span></code>.</p>
 <h3 id="app-repos">App Repos</h3>
 <p>After discovering an entity in the DAO that is an app, we can fetch its <code class="codehilite"><span class="err">appId</span></code> and use ENS to resolve its Repo contract:</p>
-<div class="codehilite"><pre><span></span><span class="err">repo = Resolver(ens.resolver(appId)).addr(appId)</span>
-</pre></div>
+<div class="codehilite"><pre><span></span><code><span class="err">repo = Resolver(ens.resolver(appId)).addr(appId)</span>
+</code></pre></div>
 
 <p>Repo contracts conform to the original Aragon Versioning Protocol but add more on-chain checks for version upgrades.</p>
 <p>Each Repo has an owner which is an Ethereum address that can create new versions of the package. This ownership right can be transferred to another address by the owner.</p>
@@ -5634,7 +5634,7 @@
       
     </div>
     
-      <script src="../../../assets/javascripts/application.808e90bb.js"></script>
+      <script src="../../../assets/javascripts/application.c33a9706.js"></script>
       
       <script>app.initialize({version:"1.0.4",url:{base:"../../.."}})</script>
       

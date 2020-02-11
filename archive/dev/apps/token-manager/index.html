@@ -34,7 +34,7 @@
         <meta name="lang:search.tokenizer" content="[\s\-]+">
       
       <link rel="shortcut icon" href="../../../../images/favicon.ico">
-      <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-4.6.0">
+      <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-4.6.2">
     
     
       
@@ -42,7 +42,7 @@
       
     
     
-      <link rel="stylesheet" href="../../../../assets/stylesheets/application.1b62728e.css">
+      <link rel="stylesheet" href="../../../../assets/stylesheets/application.adb8469c.css">
       
         <link rel="stylesheet" href="../../../../assets/stylesheets/application-palette.a8b3c06d.css">
       
@@ -53,7 +53,7 @@
       
     
     
-      <script src="../../../../assets/javascripts/modernizr.268332fc.js"></script>
+      <script src="../../../../assets/javascripts/modernizr.86422ebf.js"></script>
     
     
       
@@ -89,7 +89,7 @@
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
     <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
     
-      <a href="#token-manager" tabindex="1" class="md-skip">
+      <a href="#token-manager" tabindex="0" class="md-skip">
         Skip to content
       </a>
     
@@ -150,7 +150,7 @@
   <label class="md-nav__title md-nav__title--site" for="__drawer">
     <a href="../../../.." title="Aragon Wiki" class="md-nav__button md-logo">
       
-        <img src="../../../../images/logo.svg" width="48" height="48">
+        <img alt="logo" src="../../../../images/logo.svg" width="48" height="48">
       
     </a>
     Aragon Wiki
@@ -5075,16 +5075,16 @@
 <h3 id="initialization">Initialization</h3>
 <p>There are two different initializers depending on the mode.</p>
 <h4 id="native">Native</h4>
-<div class="codehilite"><pre><span></span><span class="err">tokenManager.initializeNative(address token)</span>
-</pre></div>
+<div class="codehilite"><pre><span></span><code><span class="err">tokenManager.initializeNative(address token)</span>
+</code></pre></div>
 
 <p>Parameters:</p>
 <ul>
 <li><strong>Token</strong>: The token being managed. The Token Manager should have already been set as the <code class="codehilite"><span class="err">controller</span></code> for the token.</li>
 </ul>
 <h4 id="wrapped">Wrapped</h4>
-<div class="codehilite"><pre><span></span><span class="err">tokenManager.initializeWrapped(address wrapperToken, address wrappedToken)</span>
-</pre></div>
+<div class="codehilite"><pre><span></span><code><span class="err">tokenManager.initializeWrapped(address wrapperToken, address wrappedToken)</span>
+</code></pre></div>
 
 <p>Parameters:</p>
 <ul>
@@ -5094,43 +5094,43 @@
 <h3 id="mode-specific-functionality">Mode specific functionality</h3>
 <h4 id="native-mode">Native mode</h4>
 <h5 id="mint-tokens">Mint tokens</h5>
-<div class="codehilite"><pre><span></span><span class="err">tokenManager.mint(address receiver, uint256 amount)</span>
-</pre></div>
+<div class="codehilite"><pre><span></span><code><span class="err">tokenManager.mint(address receiver, uint256 amount)</span>
+</code></pre></div>
 
 <p>Creates new tokens and assigns them to the receiver.</p>
 <h5 id="issue-tokens">Issue tokens</h5>
-<div class="codehilite"><pre><span></span><span class="err">tokenManager.issue(uint256 amount)</span>
-</pre></div>
+<div class="codehilite"><pre><span></span><code><span class="err">tokenManager.issue(uint256 amount)</span>
+</code></pre></div>
 
 <p>Creates new tokens that are assigned to the Token Manager. Those can be later assigned.</p>
 <h4 id="wrapper-mode">Wrapper mode</h4>
 <p>Wrapper mode works under the assumption that the wrapped token is a trusted ERC20 implementation, meaning transfers are performed normally (no fees on token transfers like) and balances constant if no operations are made.</p>
 <h5 id="wrap-tokens">Wrap tokens</h5>
-<div class="codehilite"><pre><span></span><span class="err">tokenManager.wrap(uint256 amount)</span>
-</pre></div>
+<div class="codehilite"><pre><span></span><code><span class="err">tokenManager.wrap(uint256 amount)</span>
+</code></pre></div>
 
 <p>Requires an existing ERC20 allowance to the Token Manager address for at least that amount of tokens. It will transfer the wrapped tokens to the Token Manager and mint an equal amount of wrapper tokens for the sender.</p>
 <p>Will fail if sender hasn't created the allowance or doesn't have enough wrapped token balance.</p>
 <h5 id="unwrap-tokens">Unwrap tokens</h5>
-<div class="codehilite"><pre><span></span><span class="err">tokenManager.unwrap(uint256 amount)</span>
-</pre></div>
+<div class="codehilite"><pre><span></span><code><span class="err">tokenManager.unwrap(uint256 amount)</span>
+</code></pre></div>
 
 <p>It will burn the wrapper tokens and transfer the user the same amount in wrapped tokens.</p>
 <p>Will fail if sender doesn't own that many tokens.</p>
 <h3 id="generic-functionality">Generic functionality</h3>
 <h4 id="assign-tokens">Assign tokens</h4>
-<div class="codehilite"><pre><span></span><span class="err">tokenManager.assign(address receiver, uint256 amount)</span>
-</pre></div>
+<div class="codehilite"><pre><span></span><code><span class="err">tokenManager.assign(address receiver, uint256 amount)</span>
+</code></pre></div>
 
 <p>Transfers tokens from Token Manager balance to <code class="codehilite"><span class="err">receiver</span></code>. Token Manager can own tokens as a result of an <code class="codehilite"><span class="err">issue</span></code> operation on native mode or just because the Token Manager received a normal token transfer.</p>
 <h4 id="assign-vested-tokens">Assign vested tokens</h4>
-<div class="codehilite"><pre><span></span><span class="err">tokenManager.assignVested(address receiver, uint256 amount, { Vesting parameters })</span>
-</pre></div>
+<div class="codehilite"><pre><span></span><code><span class="err">tokenManager.assignVested(address receiver, uint256 amount, { Vesting parameters })</span>
+</code></pre></div>
 
 <p>Performs an assign but attaches rules on when the receiver can transfer her tokens. Next section goes in depth into how vesting works.</p>
 <h4 id="revoke-vesting">Revoke vesting</h4>
-<div class="codehilite"><pre><span></span><span class="err">tokenManager.revokeVesting(address holder, uint256 vestingId)</span>
-</pre></div>
+<div class="codehilite"><pre><span></span><code><span class="err">tokenManager.revokeVesting(address holder, uint256 vestingId)</span>
+</code></pre></div>
 
 <p>Revokes a vesting from a holder (if vesting is revokable).</p>
 <h3 id="vesting">Vesting</h3>
@@ -5233,7 +5233,7 @@
       
     </div>
     
-      <script src="../../../../assets/javascripts/application.808e90bb.js"></script>
+      <script src="../../../../assets/javascripts/application.c33a9706.js"></script>
       
       <script>app.initialize({version:"1.0.4",url:{base:"../../../.."}})</script>
       

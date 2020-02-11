@@ -34,7 +34,7 @@
         <meta name="lang:search.tokenizer" content="[\s\-]+">
       
       <link rel="shortcut icon" href="../../../../images/favicon.ico">
-      <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-4.6.0">
+      <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-4.6.2">
     
     
       
@@ -42,7 +42,7 @@
       
     
     
-      <link rel="stylesheet" href="../../../../assets/stylesheets/application.1b62728e.css">
+      <link rel="stylesheet" href="../../../../assets/stylesheets/application.adb8469c.css">
       
         <link rel="stylesheet" href="../../../../assets/stylesheets/application-palette.a8b3c06d.css">
       
@@ -53,7 +53,7 @@
       
     
     
-      <script src="../../../../assets/javascripts/modernizr.268332fc.js"></script>
+      <script src="../../../../assets/javascripts/modernizr.86422ebf.js"></script>
     
     
       
@@ -89,7 +89,7 @@
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
     <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
     
-      <a href="#voting" tabindex="1" class="md-skip">
+      <a href="#voting" tabindex="0" class="md-skip">
         Skip to content
       </a>
     
@@ -150,7 +150,7 @@
   <label class="md-nav__title md-nav__title--site" for="__drawer">
     <a href="../../../.." title="Aragon Wiki" class="md-nav__button md-logo">
       
-        <img src="../../../../images/logo.svg" width="48" height="48">
+        <img alt="logo" src="../../../../images/logo.svg" width="48" height="48">
       
     </a>
     Aragon Wiki
@@ -5029,8 +5029,8 @@
 </table>
 <h3 id="vote-lifecycle">Vote lifecycle</h3>
 <h4 id="creation">Creation</h4>
-<div class="codehilite"><pre><span></span><span class="err">votingApp.newVote(bytes _executionScript, string _metadata)</span>
-</pre></div>
+<div class="codehilite"><pre><span></span><code><span class="err">votingApp.newVote(bytes _executionScript, string _metadata)</span>
+</code></pre></div>
 
 <p>A new vote is initialized with:</p>
 <ul>
@@ -5040,8 +5040,8 @@
 <p>The voting app conforms to the <a href="../../documentation/aragonOS/#forwarders">aragonOS Forwarder interface</a>. A generic forward action will create a vote with the provided execution script and empty metadata.</p>
 <p>When a vote is created a reference to the previous block number is saved as the snapshot block for the vote. The reason the previous block number is used is to avoid double voting in the same block the vote is created. Whenever a vote is casted, the MiniMeToken associated with the app is checked for the token balance of the voter at the snapshot block.</p>
 <h4 id="casting-votes">Casting votes</h4>
-<div class="codehilite"><pre><span></span><span class="err">votingApp.vote(uint256 _voteId, bool _supports)</span>
-</pre></div>
+<div class="codehilite"><pre><span></span><code><span class="err">votingApp.vote(uint256 _voteId, bool _supports)</span>
+</code></pre></div>
 
 <p>In order for casting a vote all these conditions must be met:</p>
 <ul>
@@ -5052,8 +5052,8 @@
 <p>If the casted vote is in support of the vote, the number of tokens held by the sender at the snapshot block will be added to the vote <code class="codehilite"><span class="err">yea</span></code> counter. In case a vote is against, it will add it to the <code class="codehilite"><span class="err">nay</span></code> counter.</p>
 <p>After any casted votes, the contract checks whether a vote already has the complete support to be executed (even if everyone else voted against, the vote would still be approved), in that case the vote is executed and closed.</p>
 <h4 id="executing-voting">Executing voting</h4>
-<div class="codehilite"><pre><span></span><span class="err">votingApp.executeVote(uint256 _voteId)</span>
-</pre></div>
+<div class="codehilite"><pre><span></span><code><span class="err">votingApp.executeVote(uint256 _voteId)</span>
+</code></pre></div>
 
 <p>After a vote has expired time-wise (and no more votes are allowed), the result of the vote can be executed by anyone if it was approved. For a vote to be considered approved both conditions must be true:</p>
 <ul>
@@ -5061,8 +5061,8 @@
 <li><code class="codehilite"><span class="err">yea</span></code> support is greater than or equal the 'Minimum acceptance quorum' global parameter.</li>
 </ul>
 <h4 id="changing-acceptance-minimum-quorum">Changing acceptance minimum quorum</h4>
-<div class="codehilite"><pre><span></span><span class="err">votingApp.changeMinAcceptQuorumPct(uint256 _minAcceptQuorumPct)</span>
-</pre></div>
+<div class="codehilite"><pre><span></span><code><span class="err">votingApp.changeMinAcceptQuorumPct(uint256 _minAcceptQuorumPct)</span>
+</code></pre></div>
 
 <p>At any time, the minimum acceptance quorum for the new votes can be modified.</p>
 <p>Any open votes will maintain the value minimum acceptance quorum was when they were created.</p>
@@ -5142,7 +5142,7 @@
       
     </div>
     
-      <script src="../../../../assets/javascripts/application.808e90bb.js"></script>
+      <script src="../../../../assets/javascripts/application.c33a9706.js"></script>
       
       <script>app.initialize({version:"1.0.4",url:{base:"../../../.."}})</script>
       

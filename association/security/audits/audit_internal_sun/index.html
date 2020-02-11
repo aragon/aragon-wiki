@@ -34,7 +34,7 @@
         <meta name="lang:search.tokenizer" content="[\s\-]+">
       
       <link rel="shortcut icon" href="../../../../images/favicon.ico">
-      <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-4.6.0">
+      <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-4.6.2">
     
     
       
@@ -42,7 +42,7 @@
       
     
     
-      <link rel="stylesheet" href="../../../../assets/stylesheets/application.1b62728e.css">
+      <link rel="stylesheet" href="../../../../assets/stylesheets/application.adb8469c.css">
       
         <link rel="stylesheet" href="../../../../assets/stylesheets/application-palette.a8b3c06d.css">
       
@@ -53,7 +53,7 @@
       
     
     
-      <script src="../../../../assets/javascripts/modernizr.268332fc.js"></script>
+      <script src="../../../../assets/javascripts/modernizr.86422ebf.js"></script>
     
     
       
@@ -89,7 +89,7 @@
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
     <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
     
-      <a href="#bretts-audit" tabindex="1" class="md-skip">
+      <a href="#bretts-audit" tabindex="0" class="md-skip">
         Skip to content
       </a>
     
@@ -150,7 +150,7 @@
   <label class="md-nav__title md-nav__title--site" for="__drawer">
     <a href="../../../.." title="Aragon Wiki" class="md-nav__button md-logo">
       
-        <img src="../../../../images/logo.svg" width="48" height="48">
+        <img alt="logo" src="../../../../images/logo.svg" width="48" height="48">
       
     </a>
     Aragon Wiki
@@ -5392,9 +5392,9 @@
 <p><code class="codehilite"><span class="err">solc</span></code> build warning:</p>
 </li>
 </ul>
-<div class="codehilite"><pre><span></span>aragonOS/contracts/apm/Repo.sol:78:5: Warning: Function state mutability can be restricted to pure
+<div class="codehilite"><pre><span></span><code>aragonOS/contracts/apm/Repo.sol:78:5: Warning: Function state mutability can be restricted to pure
     <span class="k">function</span> isValidBump<span class="o">(</span>uint16<span class="o">[</span><span class="m">3</span><span class="o">]</span> _oldVersion, uint16<span class="o">[</span><span class="m">3</span><span class="o">]</span> _newVersion<span class="o">)</span> public view returns <span class="o">(</span>bool<span class="o">)</span> <span class="o">{</span>
-</pre></div>
+</code></pre></div>
 
 <p>(All other build warnings are either from 3<sup>rd</sup> party or test contracts, and of low severity)</p>
 <ul>
@@ -5495,7 +5495,7 @@
 </ul>
 <h4 id="test-details">Test details</h4>
 <p>Created function graphs via:</p>
-<div class="codehilite"><pre><span></span><span class="c1"># Globstar and multiple variable substitutions may have to be turned on in your shell</span>
+<div class="codehilite"><pre><span></span><code><span class="c1"># Globstar and multiple variable substitutions may have to be turned on in your shell</span>
 
 <span class="c1"># aragonOS</span>
 <span class="k">for</span> contract in contracts/**/*.sol<span class="p">;</span> <span class="k">do</span>
@@ -5511,7 +5511,7 @@ mkdir -p solgraph/aragon-apps
     <span class="nb">echo</span> <span class="s1">&#39;Graphing&#39;</span> <span class="si">${</span><span class="nv">contract</span><span class="si">}</span>
     solgraph <span class="si">${</span><span class="nv">contract</span><span class="si">}</span> <span class="p">|</span> dot -Tpng &gt; solgraph/aragon-apps/<span class="si">${${</span><span class="nv">contract</span><span class="p">#*/contracts/</span><span class="si">}</span><span class="p">%</span><span class="se">\.</span><span class="nv">sol</span><span class="si">}</span>.png
 <span class="k">done</span>
-</pre></div>
+</code></pre></div>
 
 <p><strong>Note</strong>: currently requires <a href="https://github.com/sohkai/solgraph/tree/master">my fork of <code class="codehilite"><span class="err">solgraph</span></code></a> (install via <code class="codehilite"><span class="err">npm install -g git+https://github.com/sohkai/solgraph.git</span></code>)</p>
 <h3 id="oyente">Oyente</h3>
@@ -5528,7 +5528,7 @@ mkdir -p solgraph/aragon-apps
 </ul>
 <h4 id="test-details_1">Test details</h4>
 <p>Ran tests using supplied docker image:</p>
-<div class="codehilite"><pre><span></span><span class="c1"># Globstar may have to be turned on in docker&#39;s bash</span>
+<div class="codehilite"><pre><span></span><code><span class="c1"># Globstar may have to be turned on in docker&#39;s bash</span>
 
 docker pull luongnguyen/oyente
 docker run -i -d -t luongnguyen/oyente <span class="c1"># Find name of container via docker ps</span>
@@ -5558,7 +5558,7 @@ sudo install <span class="nv">solc</span><span class="o">=</span><span class="m"
 <span class="c1"># aragon-apps will be tested after updating to use aragonOS 3.0.0</span>
 
 docker cp &lt;name&gt;:/aragonOS/oyente oyente/results/
-</pre></div>
+</code></pre></div>
 
 <p><strong>Note</strong>: tests were run after being compiled with solc=0.4.19 (contracts were modified to all allow
 <code class="codehilite"><span class="err">^0.4.18</span></code> compiler versions). Some Oyente modules also had to be modified to include
@@ -5691,7 +5691,7 @@ docker cp &lt;name&gt;:/aragonOS/oyente oyente/results/
       
     </div>
     
-      <script src="../../../../assets/javascripts/application.808e90bb.js"></script>
+      <script src="../../../../assets/javascripts/application.c33a9706.js"></script>
       
       <script>app.initialize({version:"1.0.4",url:{base:"../../../.."}})</script>
       
