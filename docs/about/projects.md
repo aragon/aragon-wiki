@@ -10,6 +10,8 @@ This page has a list of projects created by the Aragon community, and also inclu
 ## Aragon statistics
 > These are projects that analyze the publicly available blockchain data to report statistics about Aragon organizations and their activity.
 
+- [Apiary](https://apiary.1hive.org)
+
 - [Scout](https://scout.cool/aragon/mainnet/)
 
 ## Using [aragonOS](https://hack.aragon.org/docs/aragonos-ref.html)
@@ -47,6 +49,8 @@ This page has a list of projects created by the Aragon community, and also inclu
 - [Centrifuge](https://centrifuge.io) ([Proof](https://medium.com/centrifuge/centrifuges-dev-fund-dao-the-lab-7116fce19c43))
 
 - [Cyber](https://github.com/cybercongress) ([Proof](https://ipfs.io/ipfs/QmceNpj6HfS81PcCaQXrFMQf7LR5FTLkdG9sbSRNy3UXoZ))
+
+- [Decentraland](https://decentraland.org) ([Proof](https://decentraland.org/blog/announcements/Introducing-the-Decentraland-DAO/))
 
 - [District0x](https://district0x.io) ([Proof](https://education.district0x.io/district0x-specific-topics/understanding-technology-behind-district0x/aragon/))
 
