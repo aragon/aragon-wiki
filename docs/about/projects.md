@@ -58,7 +58,7 @@ This page has a list of projects created by the Aragon community, and also inclu
 
 - [Melon Protocol](https://melonprotocol.com/) ([Proof](https://medium.com/melonprotocol/launching-the-melon-council-dao-on-aragonos-42147c86582))
 
-- [MyBit](https://mybit.io)([Proof](https://medium.com/mybit-dapp/mybit-dao-tutorial-5b3bc093963b)) 
+- [MyBit](https://mybit.io) ([Proof](https://medium.com/mybit-dapp/mybit-dao-tutorial-5b3bc093963b)) 
 
 - [Ocean Protocol](https://oceanprotocol.com/) ([Proof](https://oceanprotocol.com/tech-whitepaper.pdf))
 
