@@ -34,7 +34,7 @@ This page has a list of projects created by the Aragon community, and also inclu
 >
 > See also our [guidelines](../design/powered_by_aragon.md) for projects "_Powered by Aragon_".
 >
-> This is a list of existing projects that have publicly announced that they are or plan to become "_Powered by Aragon_". You can add your project to this list by submitting a pull request modifying [this page](https://github.com/aragon/aragon-wiki/edit/master/docs/projects/index.md) on the Aragon Wiki GitHub repo. Please include a link to your project's home page and a "Proof" link to some documentation that describes how your project is using Aragon.
+> This is a list of existing projects that have publicly announced that they are or plan to become "_Powered by Aragon_". You can add your project to this list by submitting a pull request modifying [this page](https://github.com/aragon/aragon-wiki/edit/master/docs/about/projects.md) on the Aragon Wiki GitHub repo. Please include a link to your project's home page and a "Proof" link to some documentation that describes how your project is using Aragon.
 
 - [1Hive](https://1hive.org/) ([Proof](https://1hive.org/contribute/membership))
 
