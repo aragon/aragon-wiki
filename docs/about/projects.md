@@ -72,4 +72,6 @@ This page has a list of projects created by the Aragon community, and also inclu
 
 - [The DAO](https://github.com/the-dao/whitepaper) ([Proof](https://github.com/the-dao/whitepaper#2-dao-structure))
 
+- [UniDAO](https://unidao.fund) ([Proof](https://github.com/unidao/Documents/blob/master/README.md))
+
 - [Video DAC](https://forum.livepeer.org/t/transcoder-campaign-video-dac/553) ([Proof](https://forum.livepeer.org/t/transcoder-campaign-video-dac/553))
