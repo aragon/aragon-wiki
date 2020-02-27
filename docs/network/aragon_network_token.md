@@ -80,6 +80,7 @@ _Disclaimer: Nothing on this page should be taken as investment advice. Inclusio
 - SimpleSwap - [https://simpleswap.io/](https://simpleswap.io/)
 - ShapeShift - [https://shapeshift.io](https://shapeshift.io)
 - Stealthex - [https://stealthex.io/](https://stealthex.io/)
+- Swapzone - [https://swapzone.io/](https://swapzone.io/)
 - Switchain - [https://www.switchain.com/](https://www.switchain.com/)
 - Uniswap - [https://uniswap.exchange/swap](https://uniswap.exchange/swap)
 - UpBit - [https://upbit.com](https://upbit.com)
