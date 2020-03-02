@@ -152,6 +152,8 @@ nav:
     - Notes template: 'all_aragon_devs/template.md'
     - Running the call: 'all_aragon_devs/running_all_devs.md'
     - Meeting Notes:
+      - March 2020:
+        - 02.03.2020: 'all_aragon_devs/meeting_notes/alldevs20200302.md'
       - February 2020:
         - 17.02.2020: 'all_aragon_devs/meeting_notes/alldevs20200217.md'
         - 03.02.2020: 'all_aragon_devs/meeting_notes/alldevs20200203.md'
