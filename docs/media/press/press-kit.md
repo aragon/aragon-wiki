@@ -83,9 +83,6 @@ The current version of the Aragon Project brand guidelines can be found [here](h
 
 [<img src="../../../design/artwork/Aragon_Company_Registry/Aragon_Company_Registry.jpeg">](../../../design/artwork/Aragon_Company_Registry/Aragon_Company_Registry.jpeg)
 
-#### Aragon Chat
-
-[<img src="../../../design/artwork/Aragon_Chat/Aragon_Chat.png">](../../../design/artwork/Aragon_Chat/Aragon_Chat.png)
 
 #### Gradient Background
 

@@ -140,7 +140,7 @@ Note: Flock team ANT package policy is subject to change over time. Please ask t
 | Publish access  to aragonpm.eth                                                  |        |                              |
 | Access to Aragon servers  and cloud infrastructure                               |        |                              |
 | Access to Aragon  DNS and ENS domains                                            |        |                              |
-| Admin/moderator access  on aragon.chat,  forum.aragon.org,  and /r/AragonProject |        |                              |
+| Admin/moderator access  on Discord, Spectrum, Aragon Forum  and /r/AragonProject |        |                              |
 
 ## 6. Organization structure  
 

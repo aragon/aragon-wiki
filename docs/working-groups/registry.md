@@ -6,9 +6,9 @@ We want to make the Aragon SDK a delightful developer experience. This is not ne
 
 At the current time, however, our efforts are focused around the CLI to improve both developers' and power users' experiences.
 
-**Offline discussions** occur in the [SDK-WG chat channel](https://aragon.chat/channel/wg-sdk).
+**Offline discussions** occur in the [SDK Working Group channel](https://spectrum.chat/aragon/sdk-working-group).
 
-**Stand ups** happen every Tuesday and Thursday; please join the SDK-WG chat to introduce yourself if you would like to join.
+**Stand ups** happen every Wednesday and Friday; please join the SDK-WG chat to introduce yourself if you would like to join.
 
 Larger discussions related to the CLI and its direction will also be held in the [Aragon All Devs bi-weekly meetings](https://wiki.aragon.org/all_aragon_devs/overview/).
 
