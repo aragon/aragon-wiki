@@ -165,7 +165,9 @@ Experimenting with new governance models has been a very risky endeavour during 
 
 Aragon Mailing List - [https://one.us15.list-manage.com/subscribe?u=a590aa3843a54b079d48e6e18&id=e81a44c4bd](https://one.us15.list-manage.com/subscribe?u=a590aa3843a54b079d48e6e18&id=e81a44c4bd)
 
-Aragon Chat - [https://aragon.chat](https://aragon.chat)
+Discord - [https://discordapp.com/channels/672466989217873929/672466989767458861](https://discordapp.com/channels/672466989217873929/672466989767458861)
+
+Spectrum - [https://spectrum.chat/aragon](https://spectrum.chat/aragon)
 
 Aragon Forum - [https://forum.aragon.org](https://forum.aragon.org)
 

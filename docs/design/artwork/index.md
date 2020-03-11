@@ -72,9 +72,6 @@ ___
 
 [<img src="../artwork/Aragon_Company_Registry/Aragon_Company_Registry.jpeg">](Aragon_Company_Registry/Aragon_Company_Registry.jpeg)
 
-## Aragon Chat
-
-[<img src="../artwork/Aragon_Chat/Aragon_Chat.png">](Aragon_Chat/Aragon_Chat.png)
 
 ## Aragon Nest
 

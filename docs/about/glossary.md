@@ -65,10 +65,6 @@ The Aragon Black blog can be found at [https://blog.aragon.black](https://blog.a
 
 **Website:** [https://blog.aragon.black](https://blog.aragon.black)
 
-## **Aragon Chat**
-A place to have discussions and to chat about all Aragon related things. An open source chat server built on the [Rocket Chat](https://rocket.chat/) platform.
-
-**Website:** [https://aragon.chat](https://aragon.chat)
 
 ## **Aragon Wiki**
 The home to Aragon-related resources and assets such as historical information, user-related and general documentation, design items, job listings, tutorials and other related material.

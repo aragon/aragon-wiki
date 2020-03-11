@@ -5,8 +5,8 @@
 - Be kind and empathic towards each other
 - Assume good intentions
 - Embody the values of the [Aragon Manifesto](https://blog.aragon.org/the-aragon-manifesto-4a21212eac03/)
-- Keep comments on-topic (note that we have a [#random channel](https://aragon.chat/channel/random) in Aragon Chat for off-topic discussion)
-- All comments in Aragon community forums should be in English to preserve understanding in the community, unless a channel or forum is created specifically for the non-English language you would like to post in. If you would like a channel or forum created for your non-English language, and one does not already exist, please contact a moderator in [Argon Chat](https://aragon.chat) or the [Aragon Forum](https://forum.aragon.org/about) and ask.
+- Keep comments on-topic (note that we have a [#random channel](hhttps://discordapp.com/channels/672466989217873929/674690078890786876) on Discord for off-topic discussion)
+- All comments in Aragon community forums should be in English to preserve understanding in the community, unless a channel or forum is created specifically for the non-English language you would like to post in. If you would like a channel or forum created for your non-English language, and one does not already exist, please contact a moderator on [Discord](https://discordapp.com/channels/672466989217873929/672466989767458861) or the [Aragon Forum](https://forum.aragon.org/about) and ask.
 
 !!! failure "Unacceptable behaviors"
 
@@ -36,7 +36,7 @@ The Aragon team has the right and responsibility to remove, edit, or reject comm
 ## Reporting
 If you are being harassed by a member of the Aragon community, notice that someone else is being harassed, or have any other concerns, please contact moderators through the following channels: 
 
-- Direct message chat moderator @light on [Aragon Chat](https://aragon.chat/)  
+- Direct message chat moderator @burrrata on [Discord](https://discordapp.com/channels/672466989217873929/672466989767458861)  
 - Flag any post and/or send a direct message to “moderators” in the [Aragon Forum](https://forum.aragon.org/)  
 - Report any post and/or send a direct message to the [/r/AragonProject subreddit](https://reddit.com/message/compose?to=/r/aragonproject) moderators
 
@@ -47,7 +47,7 @@ In order to protect the Aragon team from abuse and burnout, we reserve the right
 We will respect confidentiality requests for the purpose of protecting victims of abuse. At our discretion, we may publicly name a person about whom we've received harassment complaints, or privately warn third parties about them, if we believe that doing so will increase the safety of Aragon community members or the general public. We will not name harassment victims without their affirmative consent.
 
 ## Scope
-This Code of Conduct applies to all of Aragon project's spaces, including the Aragon client, Aragon Forum, Aragon Chat, Reddit, Twitter, YouTube, and all other spaces associated with the Aragon project, both online and off. Anyone who violates this code of conduct may be sanctioned or expelled from these spaces at the discretion of the Aragon team. Some of the Aragon project's spaces may have additional rules in place, which will be made clearly available to participants. Participants are responsible for knowing and abiding by these rules.
+This Code of Conduct applies to all of Aragon project's spaces, including the Aragon client, Aragon Forum, Discord, Spectrum, Reddit, Twitter, YouTube, and all other spaces associated with the Aragon project, both online and off. Anyone who violates this code of conduct may be sanctioned or expelled from these spaces at the discretion of the Aragon team. Some of the Aragon project's spaces may have additional rules in place, which will be made clearly available to participants. Participants are responsible for knowing and abiding by these rules.
 
 If you are being harassed by a member of the Aragon community outside of our spaces, we still want to know about it. We will take all good-faith reports of harassment by Aragon community members seriously. This includes harassment outside of our spaces and harassment that took place at any point in time. The team reserves the right to exclude people from the Aragon community at their discretion, based on their past behavior, including behavior outside Aragon spaces and behavior towards people who are not in the Aragon community.
 
