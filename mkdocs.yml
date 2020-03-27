@@ -96,6 +96,7 @@ nav:
           - Aragon Payroll: 'https://github.com/ConsenSys/aragon-payroll-audit-report-2019-06'
           - DAO Templates by ConsenSys Diligence: 'https://github.com/ConsenSys/aragon-daotemplates-audit-report-2019-08'
           - Aragon Fundraising by ConsenSys Diligence: 'https://diligence.consensys.net/audits/2019/11/aragonblack-fundraising/'
+          - Dandelion Organizations by ConsenSys Diligence: 'https://diligence.consensys.net/audits/2019/12/dandelion-organizations/'
   - Aragon Network:
     - Overview: 'network/overview.md'
     - Aragon Network Token: 'network/aragon_network_token.md'

@@ -33,7 +33,7 @@ The bug bounty program is ongoing and has ran since October 17th, 2018.
 
 ## Scope
 
-In scope for the bug bounty are all the smart contract components of the Aragon client. They can be found on three main repositories:
+In scope for the bug bounty are all the smart contract components of the Aragon client. They can be found in the following repositories:
 
 !!! abstract "**aragonOS 4** ([aragonOS@4.0.0](https://github.com/aragon/aragonOS/tree/v4.0.0) and [future patch versions](https://github.com/aragon/aragonOS/releases))"
     Smart contract framework and the core of the system.
@@ -49,6 +49,48 @@ In scope for the bug bounty are all the smart contract components of the Aragon 
         - Excluding `contracts/example/`
         - Excluding `contracts/test/`
 
+!!! abstract "**dao-templates** (on the [master branch](https://github.com/aragon/dao-templates/tree/master), [Aragon 0.8 tag](https://github.com/aragon/dao-templates/tree/aragon-v0.8), [Aragon 0.7 tag](https://github.com/aragon/dao-templates/tree/aragon-v0.7), and [Aragon 0.6 tag](https://github.com/aragon/dao-templates/tree/aragon-v0.6))"
+    On-chain deployment templates for Aragon DAOs.
+
+    - Solidity code in the `templates/**/contracts` and `shared/contracts/`
+        - Excluding `templates/**/contracts/test` and `shared/contracts/test`
+
+!!! abstract "**dandelion** in each of their app and template repos"
+    Dandelion organization template (**dandelion-org** on the []())
+
+    - Solidity code under the `contracts` directory:
+      - Excluding `contracts/examples/`, `contracts/misc/`, and `contracts/test/`
+
+    Dandelion voting app (**dandelion-voting-app** on the []())
+
+    - Solidity code under the `contracts` directory:
+      - Excluding `contracts/examples/`, `contracts/misc/`, and `contracts/test/`
+
+    Delay app (**delay-app** on the []())
+
+    - Solidity code under the `contracts` directory:
+      - Excluding `contracts/examples/`, `contracts/misc/`, and `contracts/test/`
+
+    Redemptions app (**redemptions-app** on the []())
+
+    - Solidity code under the `contracts` directory:
+      - Excluding `contracts/examples/`, `contracts/misc/`, and `contracts/test/`
+
+    Time Lock app (**time-lock-app** on the []())
+
+    - Solidity code under the `contracts` directory:
+      - Excluding `contracts/examples/`, `contracts/misc/`, and `contracts/test/`
+
+    Token Oracle app (**token-oracle** on the []())
+
+    - Solidity code under the `contracts` directory:
+      - Excluding `contracts/examples/`, `contracts/misc/`, and `contracts/test/`
+
+    Token Request app (**token-request-app** on the []())
+
+    - Solidity code under the `contracts` directory:
+      - Excluding `contracts/examples/`, `contracts/misc/`, and `contracts/test/`
+
 !!! abstract "**fundraising** (on the [v1.0.0 tag](https://github.com/AragonBlack/fundraising/tree/v1.0.0))"
     Contracts for Aragon Fundraising developed by Aragon Black.
 
@@ -63,12 +105,6 @@ In scope for the bug bounty are all the smart contract components of the Aragon 
 
     - Solidity code under the `contracts` directory:
         - Excluding `contracts/test/`
-
-!!! abstract "**dao-templates** (on the [master branch](https://github.com/aragon/dao-templates/tree/master), [Aragon 0.8 tag](https://github.com/aragon/dao-templates/tree/aragon-v0.8), [Aragon 0.7 tag](https://github.com/aragon/dao-templates/tree/aragon-v0.7), and [Aragon 0.6 tag](https://github.com/aragon/dao-templates/tree/aragon-v0.6))"
-    On-chain deployment templates for Aragon DAOs.
-
-    - Solidity code in the `templates/**/contracts` and `shared/contracts/`
-        - Excluding `templates/**/contracts/test` and `shared/contracts/test`
 
 You can find their deployed addresses on live networks in our [deployment documentation](https://github.com/aragon/deployments).
 
