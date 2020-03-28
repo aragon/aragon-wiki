@@ -49,7 +49,7 @@ In scope for the bug bounty are all the smart contract components of the Aragon 
     - Only the following Solidity contracts:
         - `app/contracts/BalanceRedirectPresale.sol`
         - `template/contracts/EOPBCTemplate.sol`
-        
+
 !!! abstract "**Aragon Network deployment** ([v1](https://github.com/aragon/aragon-network-deploy/tree/rc-1.0.0) and [future minor versions](https://github.com/aragon/aragon-network-deploy/releases))"
     Deployment commands for the Aragon Network components
 
