@@ -56,37 +56,37 @@ In scope for the bug bounty are all the smart contract components of the Aragon 
         - Excluding `templates/**/contracts/test` and `shared/contracts/test`
 
 !!! abstract "**dandelion** in each of their app and template repos"
-    Dandelion organization template (**dandelion-org** on the []())
+    Dandelion organization template (**dandelion-org** on the [v1.0.0 tag](https://github.com/1Hive/dandelion-org/tree/v1.0.0))
 
     - Solidity code under the `contracts` directory:
       - Excluding `contracts/examples/`, `contracts/misc/`, and `contracts/test/`
 
-    Dandelion voting app (**dandelion-voting-app** on the []())
+    Dandelion voting app (**dandelion-voting-app** on the [v2.0.0 tag](https://github.com/1Hive/dandelion-voting-app/tree/v2.0.0))
 
     - Solidity code under the `contracts` directory:
       - Excluding `contracts/examples/`, `contracts/misc/`, and `contracts/test/`
 
-    Delay app (**delay-app** on the []())
+    Delay app (**delay-app** on the [v1.1.0 tag](https://github.com/1Hive/delay-app/tree/v1.1.0))
 
     - Solidity code under the `contracts` directory:
       - Excluding `contracts/examples/`, `contracts/misc/`, and `contracts/test/`
 
-    Redemptions app (**redemptions-app** on the []())
+    Redemptions app (**redemptions-app** on the [v2.0.0 tag](https://github.com/1Hive/redemptions-app/tree/v2.0.0))
 
     - Solidity code under the `contracts` directory:
       - Excluding `contracts/examples/`, `contracts/misc/`, and `contracts/test/`
 
-    Time Lock app (**time-lock-app** on the []())
+    Time Lock app (**time-lock-app** on the [v2.0.0 tag](https://github.com/1Hive/time-lock-app/tree/v2.0.0))
 
     - Solidity code under the `contracts` directory:
       - Excluding `contracts/examples/`, `contracts/misc/`, and `contracts/test/`
 
-    Token Oracle app (**token-oracle** on the []())
+    Token Oracle app (**token-oracle** on the [v1.1.0 tag](https://github.com/1Hive/token-oracle/tree/v1.1.0))
 
     - Solidity code under the `contracts` directory:
       - Excluding `contracts/examples/`, `contracts/misc/`, and `contracts/test/`
 
-    Token Request app (**token-request-app** on the []())
+    Token Request app (**token-request-app** on the [v2.0.0 tag](https://github.com/1Hive/token-request-app/tree/v2.0.0))
 
     - Solidity code under the `contracts` directory:
       - Excluding `contracts/examples/`, `contracts/misc/`, and `contracts/test/`
