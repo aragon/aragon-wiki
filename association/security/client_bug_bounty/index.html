@@ -868,6 +868,18 @@
   </li>
 
         
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="https://diligence.consensys.net/audits/2019/12/dandelion-organizations/" title="Dandelion Organizations by ConsenSys Diligence" class="md-nav__link">
+      Dandelion Organizations by ConsenSys Diligence
+    </a>
+  </li>
+
+        
       </ul>
     </nav>
   </li>
@@ -5110,7 +5122,7 @@
 <p>Failure to do so will result in a finding being ineligible for any bounties.</p>
 </div>
 <h2 id="scope">Scope</h2>
-<p>In scope for the bug bounty are all the smart contract components of the Aragon client. They can be found on three main repositories:</p>
+<p>In scope for the bug bounty are all the smart contract components of the Aragon client. They can be found in the following repositories:</p>
 <div class="admonition abstract">
 <p class="admonition-title"><strong>aragonOS 4</strong> (<a href="https://github.com/aragon/aragonOS/tree/v4.0.0">aragonOS@4.0.0</a> and <a href="https://github.com/aragon/aragonOS/releases">future patch versions</a>)</p>
 <p>Smart contract framework and the core of the system.</p>
@@ -5134,6 +5146,54 @@
 </ul>
 </div>
 <div class="admonition abstract">
+<p class="admonition-title"><strong>dao-templates</strong> (on the <a href="https://github.com/aragon/dao-templates/tree/master">master branch</a>, <a href="https://github.com/aragon/dao-templates/tree/aragon-v0.8">Aragon 0.8 tag</a>, <a href="https://github.com/aragon/dao-templates/tree/aragon-v0.7">Aragon 0.7 tag</a>, and <a href="https://github.com/aragon/dao-templates/tree/aragon-v0.6">Aragon 0.6 tag</a>)</p>
+<p>On-chain deployment templates for Aragon DAOs.</p>
+<ul>
+<li>Solidity code in the <code class="codehilite"><span class="err">templates/**/contracts</span></code> and <code class="codehilite"><span class="err">shared/contracts/</span></code><ul>
+<li>Excluding <code class="codehilite"><span class="err">templates/**/contracts/test</span></code> and <code class="codehilite"><span class="err">shared/contracts/test</span></code></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="admonition abstract">
+<p class="admonition-title"><strong>dandelion</strong> in each of their app and template repos</p>
+<p>Dandelion organization template (<strong>dandelion-org</strong> on the <a href="https://github.com/1Hive/dandelion-org/tree/v1.0.0">v1.0.0 tag</a>)</p>
+<ul>
+<li>Solidity code under the <code class="codehilite"><span class="err">contracts</span></code> directory:</li>
+<li>Excluding <code class="codehilite"><span class="err">contracts/examples/</span></code>, <code class="codehilite"><span class="err">contracts/misc/</span></code>, and <code class="codehilite"><span class="err">contracts/test/</span></code></li>
+</ul>
+<p>Dandelion voting app (<strong>dandelion-voting-app</strong> on the <a href="https://github.com/1Hive/dandelion-voting-app/tree/v2.0.0">v2.0.0 tag</a>)</p>
+<ul>
+<li>Solidity code under the <code class="codehilite"><span class="err">contracts</span></code> directory:</li>
+<li>Excluding <code class="codehilite"><span class="err">contracts/examples/</span></code>, <code class="codehilite"><span class="err">contracts/misc/</span></code>, and <code class="codehilite"><span class="err">contracts/test/</span></code></li>
+</ul>
+<p>Delay app (<strong>delay-app</strong> on the <a href="https://github.com/1Hive/delay-app/tree/v1.1.0">v1.1.0 tag</a>)</p>
+<ul>
+<li>Solidity code under the <code class="codehilite"><span class="err">contracts</span></code> directory:</li>
+<li>Excluding <code class="codehilite"><span class="err">contracts/examples/</span></code>, <code class="codehilite"><span class="err">contracts/misc/</span></code>, and <code class="codehilite"><span class="err">contracts/test/</span></code></li>
+</ul>
+<p>Redemptions app (<strong>redemptions-app</strong> on the <a href="https://github.com/1Hive/redemptions-app/tree/v2.0.0">v2.0.0 tag</a>)</p>
+<ul>
+<li>Solidity code under the <code class="codehilite"><span class="err">contracts</span></code> directory:</li>
+<li>Excluding <code class="codehilite"><span class="err">contracts/examples/</span></code>, <code class="codehilite"><span class="err">contracts/misc/</span></code>, and <code class="codehilite"><span class="err">contracts/test/</span></code></li>
+</ul>
+<p>Time Lock app (<strong>time-lock-app</strong> on the <a href="https://github.com/1Hive/time-lock-app/tree/v2.0.0">v2.0.0 tag</a>)</p>
+<ul>
+<li>Solidity code under the <code class="codehilite"><span class="err">contracts</span></code> directory:</li>
+<li>Excluding <code class="codehilite"><span class="err">contracts/examples/</span></code>, <code class="codehilite"><span class="err">contracts/misc/</span></code>, and <code class="codehilite"><span class="err">contracts/test/</span></code></li>
+</ul>
+<p>Token Oracle app (<strong>token-oracle</strong> on the <a href="https://github.com/1Hive/token-oracle/tree/v1.1.0">v1.1.0 tag</a>)</p>
+<ul>
+<li>Solidity code under the <code class="codehilite"><span class="err">contracts</span></code> directory:</li>
+<li>Excluding <code class="codehilite"><span class="err">contracts/examples/</span></code>, <code class="codehilite"><span class="err">contracts/misc/</span></code>, and <code class="codehilite"><span class="err">contracts/test/</span></code></li>
+</ul>
+<p>Token Request app (<strong>token-request-app</strong> on the <a href="https://github.com/1Hive/token-request-app/tree/v2.0.0">v2.0.0 tag</a>)</p>
+<ul>
+<li>Solidity code under the <code class="codehilite"><span class="err">contracts</span></code> directory:</li>
+<li>Excluding <code class="codehilite"><span class="err">contracts/examples/</span></code>, <code class="codehilite"><span class="err">contracts/misc/</span></code>, and <code class="codehilite"><span class="err">contracts/test/</span></code></li>
+</ul>
+</div>
+<div class="admonition abstract">
 <p class="admonition-title"><strong>fundraising</strong> (on the <a href="https://github.com/AragonBlack/fundraising/tree/v1.0.0">v1.0.0 tag</a>)</p>
 <p>Contracts for Aragon Fundraising developed by Aragon Black.</p>
 <ul>
@@ -5154,16 +5214,6 @@
 <ul>
 <li>Solidity code under the <code class="codehilite"><span class="err">contracts</span></code> directory:<ul>
 <li>Excluding <code class="codehilite"><span class="err">contracts/test/</span></code></li>
-</ul>
-</li>
-</ul>
-</div>
-<div class="admonition abstract">
-<p class="admonition-title"><strong>dao-templates</strong> (on the <a href="https://github.com/aragon/dao-templates/tree/master">master branch</a>, <a href="https://github.com/aragon/dao-templates/tree/aragon-v0.8">Aragon 0.8 tag</a>, <a href="https://github.com/aragon/dao-templates/tree/aragon-v0.7">Aragon 0.7 tag</a>, and <a href="https://github.com/aragon/dao-templates/tree/aragon-v0.6">Aragon 0.6 tag</a>)</p>
-<p>On-chain deployment templates for Aragon DAOs.</p>
-<ul>
-<li>Solidity code in the <code class="codehilite"><span class="err">templates/**/contracts</span></code> and <code class="codehilite"><span class="err">shared/contracts/</span></code><ul>
-<li>Excluding <code class="codehilite"><span class="err">templates/**/contracts/test</span></code> and <code class="codehilite"><span class="err">shared/contracts/test</span></code></li>
 </ul>
 </li>
 </ul>
