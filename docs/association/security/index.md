@@ -21,3 +21,9 @@ Two bug bounty programs are available, please review its instructions and intend
 ## Smart Contract Audits
 
 A number of audits have been performed on the existing smart contract codebase by the White Hat Group, Consensys Diligence, Authio, and others. Ongoing smart contract changes will continue being audited at the Aragon Association's discretion.
+
+### Hall of 1337
+
+We maintain a [dedicated page](./hall_of_1337) celebrating those who have successfully submitted bug bounties or gone above and beyond in reporting security vulnerabilities.
+
+We invite you to become a member!

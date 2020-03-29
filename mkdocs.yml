@@ -79,6 +79,7 @@ nav:
       - Community multisig: 'association/multisigs/community.md'
     - Security:
       - Overview: 'association/security/index.md'
+      - Hall of 1337: 'association/security/hall_of_1337.md'
       - Bug Bounties:
         - Aragon client: 'association/security/client_bug_bounty.md'
         - Aragon Network: 'association/security/an_bug_bounty.md'
