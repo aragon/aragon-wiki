@@ -72,6 +72,8 @@ This page has a list of projects created by the Aragon community, and also inclu
 
 - [Spice VC](https://www.spicevc.com) ([Proof](https://medium.com/spicevc/spice-vc-is-the-first-to-use-blockchain-to-solve-the-liquidity-problem-638227217cb6))
 
+- [Stake Capital](https://www.stake.capital/) ([Proof](https://medium.com/stakecapital/stake-capital-dao-powered-by-aragon-d1c90ca69307))
+
 - [The DAO](https://github.com/the-dao/whitepaper) ([Proof](https://github.com/the-dao/whitepaper#2-dao-structure))
 
 - [UniDAO](https://unidao.fund) ([Proof](https://github.com/unidao/Documents/blob/master/README.md))
