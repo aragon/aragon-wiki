@@ -1,24 +1,6 @@
-# Aragon Governance
+# Aragon Network Governance
 
-- Learn about the [**Aragon Governance Proposal process**](https://github.com/aragon/AGPs/blob/master/AGPs/AGP-1.md)
-- Learn and discuss [**how to submit an Aragon Governance Proposal**](https://forum.aragon.org/t/how-to-create-an-aragon-governance-proposal/374)
-- Check out [**all open Aragon Governance Proposals**](https://github.com/aragon/AGPs/pulls)
-- Learn [**how the Aragon Association Board of Directors votes on proposals**](https://github.com/aragon/AGPs/blob/master/aa_board_review.md)
-- Vote on [**open proposals during an Aragon Network Vote**](https://survey.aragon.org)
-- See results from [**past Aragon Network Votes**](https://github.com/aragon/AGPs/tree/master/votes)
-- Sign up for the very-low-volume [**Aragon Network Vote Alerts email list**](https://one.us15.list-manage.com/subscribe?u=a590aa3843a54b079d48e6e18&id=9b7f365936)
-
-## Important information for the next Aragon Network vote
-
-### Aragon Network Vote #6
-
-**Dates**  
-
-- Draft proposals for this vote are due, mandatory community review period begins: **2020-02-19 at 16:00 UTC**
-- Final draft proposals for this vote are due, Aragon Association review begins: **2020-02-26 at 16:00 UTC**
-- Aragon Association review ends, final community review begins: **2020-03-04 at 16:00 UTC**
-- Aragon Network Vote #6 begins: **2020-03-11 at 16:00 UTC**
-- Aragon Network Vote #6 ends, final results announced: **2020-03-13 at 16:00 UTC**
+On March 13, 2020 ANT holders voted to approve AGP-155, sunsetting the Aragon Governance Proposal process in preparation for Phase 3 of the Aragon Network launch. This page will be updated when ANT holders adopt a new process for governing the Aragon Network.
 
 ## Approved AGPs
 
