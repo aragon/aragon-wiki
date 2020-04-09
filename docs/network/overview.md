@@ -19,3 +19,6 @@ The Aragon Network is currently governed by a [Governor Council](https://blog.ar
 
 ## Aragon Network votes
 The first vote ever held by the Aragon Network on the Ethereum mainnet was [using the Survey app](https://blog.aragon.org/aragon-launches-survey-app-on-mainnet-ed5eefeb66f5/), and started on May 31, 2018. Later that year, ANT holders [voted to approve](https://blog.aragon.org/final-results-from-the-agp-1-vote/) AGP-1: The Aragon Governance Proposal Process. In total there were six votes held under the AGP process defined in AGP-1. On March 13, 2020 ANT holders voted to [approve AGP-155](https://blog.aragon.org/final-results-from-aragon-network-vote-6/), sunsetting the AGP process in preparation for Phase 3 of the Aragon Network launch.
+
+---
+Page owner: John Light (@john-light). Last updated 2020-04-09.
