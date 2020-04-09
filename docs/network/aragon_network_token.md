@@ -6,13 +6,13 @@ The Aragon Network Token (ticker symbol: ANT) is the native token of the Aragon 
 
 ## ANT uses
 
-**Governance**  
+### Governance  
 
 The first use of ANT is as a Sybil-resistant mechanism for governance. In the [Aragon Governance Proposal (AGP) process](https://github.com/aragon/AGPs/blob/master/AGPs/AGP-1.md#aragon-network-votes), which was [first approved by ANT holders](https://blog.aragon.org/final-results-from-the-agp-1-vote/) on November 17, 2018, one ANT equals one vote. This means that anyone can vote on AGPs, even while remaining pseudonymous, by acquiring and holding ANT at the time of the Aragon Network vote they want to participate in. ANT can also be used to vote on proposals in the [Community Funding DAO](https://forum.aragon.org/t/how-to-make-proposals-to-the-community-funding-dao/697), which was first proposed in [AGP-10](https://github.com/aragon/AGPs/blob/master/AGPs/AGP-10.md), approved in [Aragon Network Vote #1](https://blog.aragon.org/final-results-from-aragon-network-vote-1/), and [deployed](https://forum.aragon.org/t/agp-discussion-community-funding-dao/418/36) on March 18, 2019.
 
 On March 13, 2020, ANT holders [voted to sunset the AGP process](https://blog.aragon.org/final-results-from-aragon-network-vote-6/) in preparation for Phase 3 of the [Aragon Network launch](overview/#the-aragon-network-launch).
 
-**Aragon Court**
+### Aragon Court
 From the [ANJ article](https://help.aragon.org/article/44-how-to-get-anj-and-become-an-aragon-court-juror#bonding-curve) at the Aragon Help Desk:
 
 > ANJ (Aragon Network Juror) is the native token of Aragon Court, which jurors need to activate in the Court to be selected and earn dispute fees. The use of ANJ helps align the incentives of jurors with the long-term health of the Court, ensuring the Court's integrity.
@@ -31,7 +31,7 @@ Continuing from the ANJ Help Desk article:
 
 More information about the use of ANT and ANJ in Aragon Court can be found in the [Aragon Network whitepaper](https://github.com/aragon/whitepaper).
 
-**Aragon Chain**  
+### Aragon Chain  
 
 In a [blog post announcing Aragon Chain](https://blog.aragon.one/aragon-chain/), a Proof-of-Stake blockchain built for the Aragon community, the Aragon One team has proposed that ANT could be deposited into a bonding curve to mint Aragon Chain (ARA) tokens. These tokens would be required to stake and become a validator for the Aragon Chain. With [AGP-106](https://github.com/aragon/AGPs/blob/master/AGPs/AGP-106.md) approved in Aragon Network Vote #4, the blockchain development company ChainSafe is now the team responsible for putting the Aragon Chain plan into action. 
 
@@ -80,8 +80,8 @@ On October 22, 2019, Aragon One researcher Luke Duncan published an analysis of 
 
 On March 6, 2020, the venture capital firm Placeholder published an analysis of ANT entitled "[Aragon (ANT) Economics](https://www.placeholder.vc/blog/2020/3/6/aragon-ant-economics)". Placeholder refers to ANT in their analysis as "a governance asset, with planned future economics to reinforce its store-of-value status".
 
-## Institutional custody services
-In addition to self-custody tools available in hardware and software form, institutional custodians in the list below have begun offering ANT custody services to qualified clientele.
+## Store ANT
+In addition to self-custody tools available in [hardware and software form](https://wiki.aragon.org/network/governance/how_to_vote/#voting-methods), institutional custodians in the list below have begun offering ANT custody services to qualified clientele.
 
 _Disclaimer: Inclusion of a service does not constitute an endorsement of the service by the Aragon Association or any other member of the Aragon project. Please do your own research before giving custody of your assets to any entity on this page. Keep your funds safe and only do business with people for whom you have a good reason to trust._
 
