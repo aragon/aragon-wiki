@@ -24,48 +24,6 @@ The Aragon Association is a non-profit entity that safeguards the values of the 
 
 **Website:** [https://aragon.org/project](https://aragon.org/project)
 
-## **Aragon One**
-<img src="../../design/logo/aragon_one/png/aragon-one-lineart-black-transparent.png" style="width:200px;">
-
-Aragon One is a company formed by the founders of the Aragon project, building the tools and community necessary for the project to succeed.
-
-**Website:** [https://aragon.one](https://aragon.one)
-
-### **Aragon One blog**
-
-The Aragon One blog can be found at [https://blog.aragon.one](https://blog.aragon.one). Contains blog posts from the Aragon One team.
-
-**Website:** [https://blog.aragon.one](https://blog.aragon.one)
-
-## **Autark**
-<img src="../../design/logo/autark/autarklogo.webp" style="width:200px;">
-
-Autark is an organization that established for the purpose of advancing life on Earth, with a special focus on DAOs, Aragon, worker-autonomy, and access to tools that support the global development of complex mega-projects.
-
-**Website:** [https://www.autark.xyz/](https://www.autark.xyz/)
-
-### **Autark blog**
-
-The Autark blog can be found at [https://blog.autark.xyz](https://blog.autark.xyz). Contains blog posts from the Autark team.
-
-**Website:** [https://blog.autark.xyz](https://blog.autark.xyz)
-
-## **Aragon Black**
-<img src="../../design/logo/aragon_black/aragonblack_400x400.png" style="width:200px;">
-
-Aragon Black is the third full-team of the Aragon project taking part in its fight for freedom and full decentralization.
-
-Aragon Black is the banner below which the Pando team has gathered to continue developing a decentralized VCS enabling coordination and the rise of new collaborative projects, to carry the Aragon manifesto’s values and finally to help in creating Aragon applications allowing human autonomy.
-
-**Website:** [https://aragon.black](https://aragon.black)
-
-### **Aragon Black blog**
-
-The Aragon Black blog can be found at [https://blog.aragon.black](https://blog.aragon.black). Contains blog posts from the Aragon Black team.
-
-**Website:** [https://blog.aragon.black](https://blog.aragon.black)
-
-
 ## **Aragon Wiki**
 The home to Aragon-related resources and assets such as historical information, user-related and general documentation, design items, job listings, tutorials and other related material.
 
