@@ -72,6 +72,8 @@ ANT is an ERC-20 token using the [MiniMe standard](https://github.com/giveth/min
 >
 > In addition, MiniMe is a great token standard for governance because it keeps track of balances at the time of starting a proposal vote. This removes the need to lock balances after voting to prevent double voting. With all of its benefits, we’re considering making MiniMe the default token for all Aragon organizations.
 
+The Ethereum smart contract address of ANT is `0x960b236A07cf122663c4303350609A66A7B288C0`.
+
 **Sources:**
 
 - [Token sale audit results](https://blog.aragon.one/token-sale-audit-results-abea34b61209)
