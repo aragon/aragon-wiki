@@ -33,7 +33,9 @@ More information about the use of ANT and ANJ in Aragon Court can be found in th
 
 ### Aragon Chain  
 
-In a [blog post announcing Aragon Chain](https://blog.aragon.one/aragon-chain/), a Proof-of-Stake blockchain built for the Aragon community, the Aragon One team has proposed that ANT could be deposited into a bonding curve to mint Aragon Chain (ARA) tokens. These tokens would be required to stake and become a validator for the Aragon Chain. With [AGP-106](https://github.com/aragon/AGPs/blob/master/AGPs/AGP-106.md) approved in Aragon Network Vote #4, the blockchain development company ChainSafe is now the team responsible for putting the Aragon Chain plan into action. 
+In a [blog post announcing Aragon Chain](https://blog.aragon.one/aragon-chain/), a Proof-of-Stake blockchain built for the Aragon community, the Aragon One team has proposed that ANT could be deposited into a bonding curve to mint Aragon Chain (ARA) tokens. These tokens would be required to stake and become a validator for the Aragon Chain. With [AGP-106](https://github.com/aragon/AGPs/blob/master/AGPs/AGP-106.md) approved in Aragon Network Vote #4, the blockchain development company ChainSafe is now the team responsible for putting the Aragon Chain plan into action.
+
+ChainSafe published the first [public specification](https://medium.com/chainsafe-systems/aragon-chain-spec-goes-public-b3b8ff99deb9) of Aragon Chain on January 17, 2020.
 
 ## Initial token distribution
 
