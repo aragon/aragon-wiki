@@ -117,17 +117,6 @@ nav:
       - Latest version: 'https://github.com/aragon/whitepaper/blob/master/README.md'
       - How to contribute: 'https://github.com/aragon/whitepaper/blob/master/CONTRIBUTE.md'
       - Version 1 (archived): 'https://github.com/aragon/whitepaper/tree/v1'
-  - Aragon ecosystem:
-    - Grant programs:
-      - Flock:
-        - Flock grants: 'ecosystem/grant-programs/flock/README.md'
-        - Proposal guide: 'ecosystem/grant-programs/flock/Proposal guide.md'
-        - Teams:
-          - Aragon Black: 'ecosystem/grant-programs/flock/teams/aragon-black/ab-roadmap.md'
-          - Aragon One: 'ecosystem/grant-programs/flock/teams/aragon-one/A1-roadmap.md'
-          - Autark: 'ecosystem/grant-programs/flock/teams/autark/autark-roadmap.md'
-      - Nest:
-        - Nest grants: 'ecosystem/grant-programs/nest/index.md'
   - Design:
     - Artwork: 'design/artwork/index.md'
     - Branding:
@@ -338,8 +327,17 @@ nav:
         - Community 03: 'archive/meetings/community/03.md'
         - Community 02: 'archive/meetings/community/02.md'
         - Community 01: 'archive/meetings/community/01.md'
-    - Nest:
-      - Overview: 'archive/nest/index.md'
+    - Aragon ecosystem:
+      - Grant programs:
+        - Flock:
+          - Flock grants: 'archive/grant-programs/flock/README.md'
+          - Proposal guide: 'archive/grant-programs/flock/Proposal guide.md'
+          - Teams:
+            - Aragon Black: 'archive/grant-programs/flock/teams/aragon-black/ab-roadmap.md'
+            - Aragon One: 'archive/grant-programs/flock/teams/aragon-one/A1-roadmap.md'
+            - Autark: 'archive/grant-programs/flock/teams/autark/autark-roadmap.md'
+        - Nest:
+          - Nest grants: 'archive/grant-programs/nest/index.md'
     - Tutorials:
       - DAO Workshop For Aragon Core v0.5: 'archive/tutorials/DAO_Workshop_Testnet_by_joselfgaray.md'
       - How to claim an Aragon bounty using Status Open Bounty: 'archive/tutorials/Status_Open_Bounty_Guide.md'
