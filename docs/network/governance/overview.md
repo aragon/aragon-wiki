@@ -40,8 +40,11 @@ On March 13, 2020 ANT holders voted to approve AGP-155, sunsetting the Aragon Go
 - [AGP-129: Court Phase 2 Subscription Subsidy](https://github.com/aragon/AGPs/blob/master/AGPs/AGP-129.md)
 - [AGP-130: Aragon Mesh Sponsorship](https://github.com/aragon/AGPs/blob/master/AGPs/AGP-130.md)
 - [AGP-143: Fundraising Maintenance](https://github.com/aragon/AGPs/blob/master/AGPs/AGP-143.md)
-- [AGP-153: Reduce the judgment powers of AGP Editors](https://github.com/aragon/AGPs/blob/master/AGPs/AGP-153.md)
+- [AGP-153: Reduce the judgment powers of AGP Editors](https://github.com/aragon/AGPs/blob/master/AGPs/AGP-153.md)  
+- [AGP-155: Sunsetting the AGP process](https://github.com/aragon/AGPs/blob/master/AGPs/AGP-155.md)
 
 ## Deprecated AGPs repo
 
 > - [aragon/governance](https://github.com/aragon/governance/)
+
+> - [aragon/agps](https://github.com/aragon/agps)
