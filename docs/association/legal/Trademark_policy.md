@@ -2,7 +2,7 @@
 
 ## 1. Introduction
 
-**1.1** Aragon is a project that aims to disintermediate the creation and maintenance of organizational structures by using blockchain technology. The Aragon project is described in the website [https://aragon.one/](https://aragon.one/).
+**1.1** Aragon is a project that aims to disintermediate the creation and maintenance of organizational structures by using blockchain technology. The Aragon project is described in the website [https://aragon.org/](https://aragon.org/).
 
 **1.2** This document outlines the policy regarding the use of the Aragon Trademarks by the members of the Aragon community.
 
@@ -40,13 +40,13 @@
 
 **4.3** Any use of the Aragon Trademarks, other than the nominative use of the word trademark Aragon, is not authorized and will require a trademark license granted by Aragon.
 
-**4.4** Members of the Aragon community who develop any product, software, technology or service that is related to Aragon and aragonOS, may be authorized to use the logotype “Powered by Aragon” (which is available at the website [http://wiki.aragon.one/design/artwork/](../../design/artwork/)).
+**4.4** Members of the Aragon community who develop any product, software, technology or service that is related to Aragon and aragonOS, may be authorized to use the logotype “Powered by Aragon” (which is available at the website [http://wiki.aragon.one/desirg/artwork/](../../design/artwork/)).
 
-**4.5** Furthermore, any project that is governed by Aragon or that uses aragonOS or any other Aragon technology for governance with its relevant token holders may be authorized to use the logotype “Governed by Aragon” (which is available at the website [http://wiki.aragon.one/design/artwork/](../../design/artwork/)).
+**4.5** Furthermore, any project that is governed by Aragon or that uses aragonOS or any other Aragon technology for governance with its relevant token holders may be authorized to use the logotype “Governed by Aragon” (which is available at the website [http://wiki.aragon.org/design/artwork/](../../design/artwork/)).
 
 ## 5. Notice on Abusive Use
 
-**5.1** Any misuse, inappropriate use or illegal use of the Aragon Trademarks should be notified to Aragon, by sending an email to legal@aragon.one.
+**5.1** Any misuse, inappropriate use or illegal use of the Aragon Trademarks should be notified to Aragon, by sending an email to legal@aragon.org.
 
 ## 6. Policy Revision
 
