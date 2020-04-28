@@ -8,45 +8,42 @@ If you want to get in touch with us about an interview, commentary, or other med
 
 ## Brand Guidelines
 
-The current version of the Aragon Project brand guidelines can be found [here](https://archive.org/download/aragon_brand_guidelines/GUIDELINES_BRAND_ARAGON.pdf)`[*]`.
+The current version of the Aragon Project brand guidelines can be found [here](https://hack.aragon.org/docs/layout.html)`[*]`.
 
-!!! note " * "
+!!! abstract ""
     Large filesize, PDF is approximately 52MB.
 
 ## Brand Resources
 
 ### Logo
 
-#### [Brand in Sketch format](../../../design/logo/brand.sketch)
+<img width="256" src="../../../design/logo/png/isotype.png">
 
 #### Imagetypes
 
 ##### Horizontal
-[SVG](../../../design/logo/svg/imagetype.svg) | [PNG](../../../design/logo/png/imagetype@2x.png) | [Light text SVG](../../../design/logo/svg/imagetype_light.svg) | [Light text PNG](../../../design/logo/png/imagetype_light@2x.png) | [Dark background JPG](../../../design/logo/jpg/imagetype_dark@2x.jpg)
+[SVG](../../../design/logo/svg/imagetype.svg) | [PNG](../../../design/logo/png/imagetype.png)
 
-<img width="256" src="../../../design/logo/png/imagetype.png"> <img width="256" src="../../../design/logo/jpg/imagetype_dark.jpg">
+<img width="256" src="../../../design/logo/png/imagetype.png">
 
-##### Vertical
-[PNG](../../../design/logo/png/imagetype_vertical@2x.png) | [Light text PNG](../../../design/logo/png/imagetype_vertical_light@2x.png) | [Dark background JPG](../../../design/logo/jpg/imagetype_vertical_dark@2x.jpg)
 
-<img width="256" src="../../../design/logo/png/imagetype_vertical.png"> <img width="256" src="../../../design/logo/jpg/imagetype_vertical_dark.jpg">
+[SVG](../../../design/logo/svg/imagetype_light.svg) | [PNG](../../../design/logo/png/imagetype_light.png)
 
-#### Logotypes
-##### Default
-[SVG](../../../design/logo/svg/logotype.svg) | [PNG](../../../design/logo/png/logotype@2x.png) | [Light version SVG](../../../design/logo/svg/logotype_light.svg) | [Light version PNG](../../../design/logo/png/logotype_light@2x.png) | [Dark background JPG](../../../design/logo/jpg/logotype_dark@2x.jpg)
+<img width="256" src="../../../design/logo/png/imagetype_light.png">
 
-<img width="256" src="../../../design/logo/png/logotype.png"> <img width="256" src="../../../design/logo/jpg/logotype_dark.jpg">
 
 #### Isotypes
-##### Stroke
-[Sketch](../../../design/logo/svg/aragon_stroke.sketch) | [PNG](../../../design/logo/png/stroke.png)
 
-<img width="256" src="../../../design/logo/png/stroke.png">
 
-##### Default
-[SVG](../../../design/logo/svg/isotype.svg) | [PNG](../../../design/logo/png/isotype@2x.png)
+[<img src="../../../design/logo/png/isotype.png">](../../../design/logo/png/isotype.png)
 
-<img width="256" src="../../../design/logo/png/isotype.png">
+[PNG](../../../design/logo/png/isotype.png) | [SVG](../../../design/logo/svg/isotype.svg)
+
+
+[<img src="../../../design/logo/png/isotype_blue.png">](../../../design/logo/png/isotype_blue.png)
+
+[PNG](../../../design/logo/png/isotype_blue.png) | [SVG](../../../design/logo/svg/isotype_blue.svg)
+
 
 ### Images
 
