@@ -1,16 +1,16 @@
 # Aragon Project Branding
 
-## Imagetypes
+## Imagotypes
 
 
 [<img width="480" src="../../logo/png/imagetype_light.png">](../../logo/png/imagetype_light.png)
 
-[Light text PNG](../../logo/png/imagetype_light.png) | [Light text SVG](../../logo/svg/imagetype_light.svg)
+[PNG](../../logo/png/imagetype_light.png) | [SVG](../../logo/svg/imagetype_light.svg)
 
 
 [<img width="480" src="../../logo/png/imagetype.png">](../../logo/png/imagetype.png)
 
-[Dark text PNG](../../logo/png/imagetype@2x.png) | [Dark text SVG](../../logo/svg/imagetype.svg)
+[PNG](../../logo/png/imagetype@2x.png) | [SVG](../../logo/svg/imagetype.svg)
 
 
 ## Isotypes

@@ -6,13 +6,6 @@ Here we have compiled resources and guides for press and media to use when refer
 
 If you want to get in touch with us about an interview, commentary, or other media/press related matter, please send an email to media at aragon dot one.
 
-## Brand Guidelines
-
-The current version of the Aragon Project brand guidelines can be found [here](https://hack.aragon.org/docs/layout.html)`[*]`.
-
-!!! abstract ""
-    Large filesize, PDF is approximately 52MB.
-
 ## Brand Resources
 
 ### Logo
@@ -49,119 +42,10 @@ The current version of the Aragon Project brand guidelines can be found [here](h
 
 #### General
 
-[<img src="../../../design/artwork/basic/01.jpg">](../../../design/artwork/basic/01.jpg)
-[<img src="../../../design/artwork/basic/02.jpg">](../../../design/artwork/basic/02.jpg)
-[<img src="../../../design/artwork/basic/03.jpg">](../../../design/artwork/basic/03.jpg)
-[<img src="../../../design/artwork/basic/04.jpg">](../../../design/artwork/basic/04.jpg)
-[<img src="../../../design/artwork/basic/05.jpg">](../../../design/artwork/basic/05.jpg)
-[<img src="../../../design/artwork/basic/06.jpg">](../../../design/artwork/basic/06.jpg)
-[<img src="../../../design/artwork/basic/07.jpg">](../../../design/artwork/basic/07.jpg)
-[<img src="../../../design/artwork/basic/08.jpg">](../../../design/artwork/basic/08.jpg)
-[<img src="../../../design/artwork/basic/09.jpg">](../../../design/artwork/basic/09.jpg)
-[<img src="../../../design/artwork/basic/10.jpeg">](../../../design/artwork/basic/10.jpeg)
-[<img src="../../../design/artwork/basic/11.png">](../../../design/artwork/basic/11.png)
-[<img src="../../../design/artwork/basic/12.jpg">](../../../design/artwork/basic/12.jpg)
-[<img src="../../../design/artwork/basic/13.png">](../../../design/artwork/basic/13.png)
-[<img src="../../../design/artwork/basic/14.png">](../../../design/artwork/basic/14.png)
-[<img src="../../../design/artwork/basic/15.png">](../../../design/artwork/basic/15.png)
-
-#### Aragon Network Token
-
-[<img src="../../../design/artwork/ANT/ANT01.jpg">](../../../design/artwork/ANT/ANT01.jpg)
-[<img src="../../../design/artwork/ANT/ANT02.png">](../../../design/artwork/ANT/ANT02.png)
-[<img src="../../../design/artwork/ANT/ANT03.png">](../../../design/artwork/ANT/ANT03.png)
-[<img src="../../../design/artwork/ANT/ANT04.png">](../../../design/artwork/ANT/ANT04.png)
-
-#### Aragon Network Jurisdiction
-
-[<img src="../../../design/artwork/ANJ/ANJ01.png">](../../../design/artwork/ANJ/ANJ01.png)
-
-#### Aragon Company Registry
-
-[<img src="../../../design/artwork/Aragon_Company_Registry/Aragon_Company_Registry.jpeg">](../../../design/artwork/Aragon_Company_Registry/Aragon_Company_Registry.jpeg)
+[<img src="../../../design/artwork/basic/01.png">](../../../design/artwork/basic/01.png)
+[<img src="../../../design/artwork/basic/02.png">](../../../design/artwork/basic/02.png)
 
 
-#### Gradient Background
-
-[<img src="../../../design/artwork/aragon_gradient_background.jpg">](../../../design/artwork/aragon_gradient_background.jpg)
-
-## Aragon Screenshots
-
-> _Please keep in mind that these are all currently **mockups** of the upcoming [v0.5 release](../../documentation/Development_Plan/#05-the-refactor-release)_
-
-### Home + Notifications
-
-[<img src="../press-kit/screenshots/0.5/Notifications.jpeg">](press-kit/screenshots/0.5/Notifications.jpeg)
-
-### Ownership
-
-> _Please keep in mind that these are all currently **mockups** of the upcoming [v0.5 release](../../documentation/Development_Plan/#05-the-refactor-release)_
-
-[<img src="../press-kit/screenshots/0.5/Ownership/1.jpeg">](press-kit/screenshots/0.5/Ownership/1.jpeg)
-
-[<img src="../press-kit/screenshots/0.5/Ownership/2.jpeg">](press-kit/screenshots/0.5/Ownership/2.jpeg)
-
-[<img src="../press-kit/screenshots/0.5/Ownership/3.jpeg">](press-kit/screenshots/0.5/Ownership/3.jpeg)
-
-[<img src="../press-kit/screenshots/0.5/Ownership/4.jpeg">](press-kit/screenshots/0.5/Ownership/4.jpeg)
-
-[<img src="../press-kit/screenshots/0.5/Ownership/5.jpeg">](press-kit/screenshots/0.5/Ownership/5.jpeg)
-
-[<img src="../press-kit/screenshots/0.5/Ownership/6.jpeg">](press-kit/screenshots/0.5/Ownership/6.jpeg)
-
-[<img src="../press-kit/screenshots/0.5/Ownership/7.jpeg">](press-kit/screenshots/0.5/Ownership/7.jpeg)
-
-### Voting
-
-> _Please keep in mind that these are all currently **mockups** of the upcoming [v0.5 release](../../documentation/Development_Plan/#05-the-refactor-release)_
-
-[<img src="../press-kit/screenshots/0.5/Voting/1.jpeg">](press-kit/screenshots/0.5/Voting/1.jpeg)
-
-[<img src="../press-kit/screenshots/0.5/Voting/2.jpeg">](press-kit/screenshots/0.5/Voting/2.jpeg)
-
-[<img src="../press-kit/screenshots/0.5/Voting/3.jpg">](press-kit/screenshots/0.5/Voting/3.jpg)
-
-[<img src="../press-kit/screenshots/0.5/Voting/4.jpeg">](press-kit/screenshots/0.5/Voting/4.jpeg)
-
-[<img src="../press-kit/screenshots/0.5/Voting/5.jpeg">](press-kit/screenshots/0.5/Voting/5.jpeg)
-
-[<img src="../press-kit/screenshots/0.5/Voting/6.jpg">](press-kit/screenshots/0.5/Voting/6.jpg)
-
-### Fundraising
-
-> _Please keep in mind that these are all currently **mockups** of the upcoming [v0.5 release](../../documentation/Development_Plan/#05-the-refactor-release)_
-
-[<img src="../press-kit/screenshots/0.5/Fundraising/1.jpeg">](press-kit/screenshots/0.5/Fundraising/1.jpeg)
-
-[<img src="../press-kit/screenshots/0.5/Fundraising/2.jpeg">](press-kit/screenshots/0.5/Fundraising/2.jpeg)
-
-[<img src="../press-kit/screenshots/0.5/Fundraising/3.jpeg">](press-kit/screenshots/0.5/Fundraising/3.jpeg)
-
-### Finance
-
-> _Please keep in mind that these are all currently **mockups** of the upcoming [v0.5 release](../../documentation/Development_Plan/#05-the-refactor-release)_
-
-[<img src="../press-kit/screenshots/0.5/Finance/1.jpeg">](press-kit/screenshots/0.5/Finance/1.jpeg)
-
-[<img src="../press-kit/screenshots/0.5/Finance/2.jpeg">](press-kit/screenshots/0.5/Finance/2.jpeg)
-
-[<img src="../press-kit/screenshots/0.5/Finance/3.jpeg">](press-kit/screenshots/0.5/Finance/3.jpeg)
-
-[<img src="../press-kit/screenshots/0.5/Finance/4.jpeg">](press-kit/screenshots/0.5/Finance/4.jpeg)
-
-### Bylaws
-
-> _Please keep in mind that these are all currently **mockups** of the upcoming [v0.5 release](../../documentation/Development_Plan/#05-the-refactor-release)_
-
-[<img src="../press-kit/screenshots/0.5/Bylaws/1.jpeg">](press-kit/screenshots/0.5/Bylaws/1.jpeg)
-
-[<img src="../press-kit/screenshots/0.5/Bylaws/2.jpeg">](press-kit/screenshots/0.5/Bylaws/2.jpeg)
-
-### Settings
-
-> _Please keep in mind that these are all currently **mockups** of the upcoming [v0.5 release](../../documentation/Development_Plan/#05-the-refactor-release)_
-
-[<img src="../press-kit/screenshots/0.5/Settings.jpg">](press-kit/screenshots/0.5/Settings.jpg)
 
 ## Team
 
