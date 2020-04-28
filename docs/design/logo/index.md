@@ -38,16 +38,16 @@
 
 <img width="256" src="png/isotype.png">
 
-#### Flat
-[SVG](svg/cjdowner_cryptocurrency_flat_aragon_ant.svg) | [PNG](png/cjdowner_cryptocurrency_flat_aragon_ant_1024x1024.png) | [ICO](ico/cjdowner_cryptocurrency_flat_aragon_ant.ico) | [ICNS](icns/cjdowner_cryptocurrency_flat_aragon_ant.icns)
+#### Blue
+[SVG](svg/ant_blue.svg) | [PNG](png/ant_blue.png)
 
 
-<img width="256" src="png/cjdowner_cryptocurrency_flat_aragon_ant_1024x1024.png">
+<img width="256" src="png/ant_blue.png">
 
-#### Circular
-[SVG](svg/cjdowner_cryptocurrency_aragon.svg) | [PNG](png/cjdowner_cryptocurrency_aragon_512x512.png) | [ICO](ico/cjdowner_cryptocurrency_aragon.ico) | [ICNS](icns/cjdowner_cryptocurrency_aragon.icns)
+#### Black
+[SVG](svg/ant_black.svg) | [PNG](png/ant_black_512x512.png)
 
-<img width="256" src="png/cjdowner_cryptocurrency_aragon_512x512.png">
+<img width="256" src="png/ant_black.png">
 
 ## Aragon One Team
 

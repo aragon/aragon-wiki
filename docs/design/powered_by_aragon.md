@@ -12,28 +12,24 @@ The non-exhaustive list and more details of the Aragon trademarks is available [
 
 > _Contributed by [@elioqoshi](https://github.com/elioqoshi)_
 
-> [Dark Color SVG](artwork/Powered_By/SVG/Powered_By_Dark_Color.svg) | [Dark Color PNG](artwork/Powered_By/PNG/Powered_By_Dark_Color.png)
-[<img src="../artwork/Powered_By/PNG/Powered_By_Dark_Color.png">](artwork/Powered_By/PNG/Powered_By_Dark_Color.png)
-___
-> [Dark Monochrome SVG](artwork/Powered_By/SVG/Powered_By_Dark_Monochrome.svg) | [Dark Monochrome PNG](artwork/Powered_By/PNG/Powered_By_Dark_Monochrome.png)
-[<img src="../artwork/Powered_By/PNG/Powered_By_Dark_Monochrome.png">](artwork/Powered_By/PNG/Powered_By_Dark_Monochrome.png)
-___
-> [Light Color SVG](artwork/Powered_By/SVG/Powered_By_Light_Color.svg) | [Light Color PNG](artwork/Powered_By/PNG/Powered_By_Light_Color.png)
-[<img src="../artwork/Powered_By/PNG/Powered_By_Light_Color.png">](artwork/Powered_By/PNG/Powered_By_Light_Color.png)
-___
-> [Light Monochrome SVG](artwork/Powered_By/SVG/Powered_By_Light_Monochrome.svg) | [Light Monochrome PNG](artwork/Powered_By/PNG/Powered_By_Light_Monochrome.png)
-[<img src="../artwork/Powered_By/PNG/Powered_By_Light_Monochrome.png">](artwork/Powered_By/PNG/Powered_By_Light_Monochrome.png)
 
-## Governed by Aragon
+[Blue SVG](artwork/Powered_By/SVG/Powered_By_Blue.svg) | [Blue PNG](artwork/Powered_By/PNG/Powered_By_Blue.png)
 
-> [Dark Color SVG](artwork/Governed_By/Governed_By_Dark_Color.svg) | [Dark Color PNG](artwork/Governed_By/Governed_By_Dark_Color.png)
-[<img src="../artwork/Governed_By/Governed_By_Dark_Color.png">](artwork/Governed_By/Governed_By_Dark_Color.png)
+[<img src="../artwork/Powered_By/PNG/Powered_By_Blue.png">](artwork/Powered_By/PNG/Powered_By_Blue.png)
+
 ___
-> [Dark Monochrome SVG](artwork/Governed_By/Governed_By_Dark_Monochrome.svg) | [Dark Monochrome PNG](artwork/Governed_By/Governed_By_Dark_Monochrome.png)
-[<img src="../artwork/Governed_By/Governed_By_Dark_Monochrome.png">](artwork/Governed_By/Governed_By_Dark_Monochrome.png)
+
+[White SVG](artwork/Powered_By/SVG/Powered_By_White.svg) | [White PNG](artwork/Powered_By/PNG/Powered_By_White.png)
+
+[<img src="../artwork/Powered_By/PNG/Powered_By_White.png">](artwork/Powered_By/PNG/Powered_By_White.png)
 ___
-> [Light Color SVG](artwork/Governed_By/Governed_By_Light_Color.svg) | [Light Color PNG](artwork/Governed_By/Governed_By_Light_Color.png)
-[<img src="../artwork/Governed_By/Governed_By_Light_Color.png">](artwork/Governed_By/Governed_By_Light_Color.png)
+
+[Blue Square SVG](artwork/Powered_By/SVG/Powered_By_Square_Blue.svg) | [Blue Square PNG](artwork/Powered_By/PNG/Powered_By_Square_Blue.png)
+
+[<img src="../artwork/Powered_By/PNG/Powered_By_Square_Blue.png">](artwork/Powered_By/PNG/Powered_By_Square_Blue.png)
+
 ___
-> [Light Monochrome SVG](artwork/Governed_By/Governed_By_Light_Monochrome.svg) | [Light Monochrome PNG](artwork/Governed_By/Governed_By_Light_Monochrome.png)
-[<img src="../artwork/Governed_By/Governed_By_Light_Monochrome.png">](artwork/Governed_By/Governed_By_Light_Monochrome.png)
+
+[White Square SVG](artwork/Powered_By/SVG/Powered_By_Square_White.svg) | [White Square PNG](artwork/Powered_By/PNG/Powered_By_Square_White.png)
+
+[<img src="../artwork/Powered_By/PNG/Powered_By_Square_White.png">](artwork/Powered_By/PNG/Powered_By_Square_White.png)
