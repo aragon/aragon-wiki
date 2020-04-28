@@ -1,11 +1,4 @@
-# Aragon Network Branding
-
-## Aragon Network
-
-[<img src="../../artwork/ANJ/ANJ01.png">](../../artwork/ANJ/ANJ01.png)
-
-
-## Aragon Network Token
+# Aragon Network Token
 
 #### Blue
 
@@ -19,13 +12,23 @@
 
 [SVG](../logo/svg/ant_black.svg) | [PNG](../logo/png/ant_black.png)
 
+# ANJ
 
-#### Other
+[<img width="283" src="../../logo/png/anj.png">](../../logo/png/anj.png)
 
-[<img src="../../artwork/ANT/ANT01.jpg">](../../artwork/ANT/ANT01.jpg)
-
-
-[<img src="../../artwork/ANT/ANT02.png">](../../artwork/ANT/ANT02.png)
+[SVG](../logo/svg/anj.svg) | [PNG](../logo/png/anj.png)
 
 
-[<img src="../../artwork/ANT/ANT03.png">](../../artwork/ANT/ANT03.png)
+# Aragon Court
+
+[<img width="283" src="../../logo/png/court.png">](../../logo/png/court.png)
+
+[SVG](../logo/svg/court.svg) | [PNG](../logo/png/court.png)
+
+
+[<img src="../../logo/png/aragon-court.png">](../../logo/png/aragon-court.png)
+
+[SVG](../logo/svg/aragon-court.svg) | [PNG](../logo/png/aragon-court.png)
+
+
+[<img src="../../artwork/aragon-court.png">](../../artwork/aragon-court.png)
