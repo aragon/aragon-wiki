@@ -1,63 +1,90 @@
-# Aragon Privacy Policy
+# Privacy Policy
 
-*Aragon contact details: contact@aragon.one*
+This document sets the privacy rules concerning the use of Aragon Association (the “Aragon”) sites and services, including 
 
-*Mail for requests and queries on privacy: contact@aragon.one*
+https://aragon.org;  
+https://mainnet.aragon.org;  
+https://rinkeby.aragon.org;
+https://forum.aragon.org;  
+https://wiki.aragon.org;  
+https://anj.aragon.org;  
+https://transparency.aragon.org  
 
-## Personal data we process
+Collectively (the “Sites”) that the user agrees with, by using the Sites:
 
-Aragon only processes personal data regarding:
+## 1. What information is collected? 
 
-- Aragon users: professional contact data as necessary to manage and render our services. 
+1.1. Aragon may collect the following user’s personal data: IP address, username, email, crypto wallet addresses, voting history, and DAO addresses you subscribe to. 
 
-- Aragon newsletter subscribers: particularly, we collect their email address, first and last name. 
+1.2 In certain cases the user’s consent to use personal information may be required, which can be withdrawn at any time using any of Aragon’s contact details. Aragon will get in touch with the data subject every time the consent to process any data is required. 
 
-- Aragon token holders: Aragon has no access to any personal data related to the holders of Aragon cryptographic tokens, other than the relevant Ethereum addresses.
-  
+Aragon may need to collect and process additional personal information in order to provide services, to perform any contractual obligations, or to comply with the law or any judicial order. In these cases Aragon will specifically get in contact with the data subject.
 
-Aragon users, newsletter subscribers and token holders are hereafter referred as Data Subjects.
+## 2. How is the information collected?
 
-## Purposes
+### 2.1 Information provided by the user
+ 
+Aragon processes personal information that the user provides directly through various channels:
+ 
+Signing up at any Aragon Site: when the user registers at any Aragon site, signs up for news, events or newsletters, obtains services from Aragon, contacts Aragon with queries or responds to Aragon communications. 
+	
+In connection with Aragon Services: when the user visits the Site or applies for any of Aragon services, the user you may provide Aragon with personal information that is relevant for the purpose of providing services. 
+ 
+Information collected by third parties: Aragon also collects information when the user visits the Site, requires services or Aragon interacts with the user. Aragon may use various technologies to collect and store information when the user visits any Aragon Site, such as, the type of device used to access the websites, IP address and geographic location, the operating system and version, browser type, the content viewed and features accessed on Aragon websites, the web pages and the search terms entered on Aragon websites. For those purposes Aragon may also collect data from Aragon Forum, Rocketchat (email, chat conversations, cookies), Helpscout (email, browser finger print, IP address), Aragon Client notification system (Using 3rd party service), Hubspot, Google Surveys/Forms, Surveymonkey, Earn.com, Typeform, Gmail, Mailchimp and Keybase.
 
-We only process the personal data of Data Subjects for the purposes of rendering our services.
+## 3. How is the information used?
 
-## Legal basis
+Aragon may use the collected information for the following purposes:
+ 
+Providing services to the user;  
+marketing and business activities in relation to Aragon services, including newsletters sending, updates, marketing communications and other information that may be of interest to the user;  
+complying with legal and regulatory obligations;  
+exercising or defending any legal rights;  
+monitoring the use of websites or other online services for business purposes which may include analysis of usage, measurement of site performance and generation of marketing reports;  
+using it for Aragon legitimate business interests, such as business research and analysis, managing Aragon sites and businesses;  
+looking into any complaints or queries;  
+preventing and responding to actual or potential fraud or illegal activities;  
+reviewing and processing any job application in case any user has applied for a position;  
+operating Aragon client, customer support, marketing and research services related to the Aragon project; 
 
-Aragon processes personal data to the extent that at least one of the following applies:
+**For suppliers receiving funds from Aragon Association**  
+The user acknowledges the use of the data included in Supplier Registration Form to be processed by the Aragon Association within the scope of the commercial relation existing between the Parties. 
 
-1. The Data Subject has given consent for one or more specific purposes. 
+The user consents that the information included in the Supplier Registration Form can be disclosed at any time by the Aragon Association as open information accessible by the Aragon Community and according to Aragon transparency principles and democartic values, including any personal data and bank account, services prices, methods of payments or other financial information regarding the services provided to the Aragon Association. 
 
-1. Processing is necessary for the performance of our agreements with the Data Subjects. 
+The user consent does not preclude the right to exercise any data privacy rights as data subject according to the applicable data privacy laws and regulations and Aragon’s Privacy Policy. 
 
-1. Processing is necessary to comply with our legal obligations.
+The user is aware that the payment for the services provided may be executed throughout the blockchain and acknowledges that the information included in the Supplier Registration Form will be registered and public, without any technical possibility of reversing this process or eliminating the data, if no special request for anonymization or exclusion of the data is made previously. 
+
+## 4. How the information is shared
+
+Aragon shares personal information with other Aragon companies, among the Aragon group or third party service providers that assist Aragon providing services. This may include sharing information with third party contractors, bound by obligations of confidentiality, in connection with the processing of your personal information for the purposes described in this Policy, such as, but not limited to, IT and communications service providers, third parties relevant to the services that Aragon provides including regulators, authorities and governmental institutions.
+	
+Aragon may transfer personal information outside Europe. In those cases Aragon will ensure that it is protected and transferred in a manner consistent with legal requirements applicable to the information.
+
+When the data subject expressed consent Data will be shared between Aragon Association, Aragon One and other partners of the Aragon Network that require the data in order to adequately perform their duties. 
+
+## 5. Information Security
+
+Aragon ensures that the personal information collected is subject to appropriate security measures.
+ 
+Aragon only keeps the information for a limited period of time and strictly as long as is necessary for the relevant purpose - and also for as long as it is necessary to comply with legal obligations, laws or regulations, which may set a minimum period for which Aragon has to keep the users personal information.
+
+## 6. Exercise of Rights
+
+The user is entitled to a certain number of legal rights in relation to the personal information that Aragon may hold about the user. These rights can be exercised at any time by contacting Aragon using the details set out below.
+ 
+The user has the right to:
+ 
+Obtain information regarding the processing of personal information and access to the personal information which is held about the user;  
+Request that Aragon corrects any personal information if it is inaccurate or incomplete;  
+Request that Aragon erases the personal information in certain circumstances. There may be circumstances where the user asks Aragon to erase personal information but Aragon is legally entitled to retain it;  
+Object to, and request that Aragon restricts the processing of personal information in certain circumstances. There may be circumstances where the user objects to, or asks Aragon to restrict the processing of personal information but Aragon is legally entitled to refuse that request;  
+Receive some personal information in a structured, commonly used and machine-readable format and/or request that Aragon transmits that information to a third party;  
+Withdraw any consent, although in certain circumstances it may be lawful for us to continue processing without the consent if Aragon has another legitimate reason (other than consent) for doing so;  
+Lodge a complaint with the relevant data protection authority, if any rights have been infringed by Aragon.   
 
 
-## Disclosure to other recipients
+## 7. Contact
 
-Aragon does not share the personal data of the Data Subjects with any third party, other than to Aragon providers to the extent necessary to render our services or to competent authorities if required under a mandatory regulation or requirement.
-
-## Data retention period
-
-Aragon only retains personal data for so long as necessary to render our services or to comply with a legal obligation.
-
-## Security
-
-We implement appropriate technical and organizational measures to ensure a level of security appropriate to the risk, including blockchain technology, to help protect information from unauthorized access, destruction, use, modification, or disclosure.
-
-## Data Subjects’ rights
-
-Data Subjects can exercise their rights addressing their queries to Aragon (see contact details above) were they can request access to and rectification or erasure of personal data or restriction of processing or to object to processing.
-
-Data Subjects also have the right to lodge a complaint with the relevant competent authorities in Switzerland.
-
-## Cookies
-
-Aragon collects information from running the Aragon Website (as described in our terms of Use) and uses information, provided to us by you. When you visit the Website, or use our products, we collect information sent to us by your computer, mobile phone, or other access device. This information may include your IP address, device information including, but not limited to, identifier, name, and type, operating system, mobile network information and standard web log information, such as your browser type, and the pages you accessed on our Website. When you use a location-enabled device with our Website and products, we may collect geographical location data or use various means to determine the location, such as sensor data from your device that may, for instance, provide data on nearby cell towers and Wi-Fi access spots. However, we will not release your personally-identifying information to any third party without your consent, except as set forth herein.
-
-When you access the Website, or use our products or services we (or a service provider on our behalf) may place small data files called cookies on your computer or other device. We use these technologies to recognize you as our user; customize our Website and advertising; measure promotional effectiveness and collect information about your computer or other access device to mitigate risk, help prevent fraud, and promote trust and safety.
-
-In principle we do not, but we may store and process your personal information on our servers, where our facilities or our service providers are located. We protect your information using physical, technical, and administrative security measures to reduce the risks of loss, misuse, unauthorized access, disclosure, and alteration. Some of the safeguards we use are firewalls and data encryption, physical access controls to our data centers, and information access authorization controls.
-
-We also authorize access to personal information only for those employees who require it to fulfil their job responsibilities. All our physical, electronic, and procedural safeguards are designed to comply with applicable laws and regulations. Data may from time to time be stored also in other locations.
-
-
+For further information on the collection, use, disclosure, transfer or processing of personal information or the exercise of any of the rights listed above, please contact Aragon by sending an email to privacy@aragon.org.  
