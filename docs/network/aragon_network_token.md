@@ -17,7 +17,7 @@ From the [ANJ article](https://help.aragon.org/article/44-how-to-get-anj-and-bec
 
 > ANJ (Aragon Network Juror) is the native token of Aragon Court, which jurors need to activate in the Court to be selected and earn dispute fees. The use of ANJ helps align the incentives of jurors with the long-term health of the Court, ensuring the Court's integrity.
 
-ANJ is minted by depositing ANT using a bonding curve smart contract. The ANJ bonding curve went live with the official launch of Aragon Court on Fight For Freedom Day February 10, 2020.
+ANJ is minted by depositing ANT into a bonding curve smart contract. The ANJ bonding curve went live with the official launch of Aragon Court on Fight For Freedom Day February 10, 2020.
 
 Continuing from the ANJ Help Desk article:
 
