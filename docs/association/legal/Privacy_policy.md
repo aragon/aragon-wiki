@@ -45,7 +45,7 @@ using it for Aragon legitimate business interests, such as business research and
 looking into any complaints or queries;  
 preventing and responding to actual or potential fraud or illegal activities;  
 reviewing and processing any job application in case any user has applied for a position;  
-operating Aragon client, customer support, marketing and research services related to the Aragon project; 
+operating Aragon client, customer support, marketing and research services related to the Aragon project. 
 
 **For suppliers receiving funds from Aragon Association**  
 The user acknowledges the use of the data included in Supplier Registration Form to be processed by the Aragon Association within the scope of the commercial relation existing between the Parties. 
