@@ -102,6 +102,7 @@ nav:
   - Aragon Network:
     - Overview: 'network/overview.md'
     - Aragon Network Token: 'network/aragon_network_token.md'
+    - Aragon Network Juror token: 'network/aragon_network_juror.md'
     - Governance:
       - Overview: 'network/governance/overview.md'
       - Aragon Governance Proposals: 'https://github.com/aragon/AGPs'
