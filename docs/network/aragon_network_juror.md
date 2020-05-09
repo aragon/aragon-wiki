@@ -2,7 +2,7 @@
 
 # Aragon Network Juror
 
-The Aragon Network Juror (ticker symbol: ANJ) is the native token of Aragon Court. ANJ is a continuous token that is minted by depositing a reserve token, [ANT](https://wiki.aragon.org/network/aragon_network_token/), into a bonding curve contract.
+Aragon Network Juror (ticker symbol: ANJ) is the native token of Aragon Court. ANJ is a continuous token that is minted by depositing a reserve token, [ANT](https://wiki.aragon.org/network/aragon_network_token/), into a bonding curve contract.
 
 You can find a technical explanation of bonding curves [here](https://yos.io/2018/11/10/bonding-curves) and find the source code for the specific smart contract used for the ANJ bonding curve [here](https://github.com/AragonBlack/fundraising/blob/next/apps/batched-bancor-market-maker/contracts/BatchedBancorMarketMaker.sol).
 
