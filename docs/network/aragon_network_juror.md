@@ -73,7 +73,7 @@ ANJ is an [ERC-20](https://eips.ethereum.org/EIPS/eip-20) token, supporting divi
 
 The ANJ token contract address is `0xcD62b1C403fa761BAadFC74C525ce2B51780b184`.
 
-## Trade ANT
+## Trade ANJ
 
 In addition to buying and selling ANJ peer-to-peer, ANJ can be bought or sold using the services in the list below.
 
