@@ -77,7 +77,7 @@ The ANJ token contract address is `0xcD62b1C403fa761BAadFC74C525ce2B51780b184`.
 
 In addition to buying and selling ANJ peer-to-peer, ANJ can be bought or sold using the services in the list below.
 
-_Disclaimer: Nothing on this page should be taken as investment advice. Inclusion of a service does not constitute an endorsement of the service by the Aragon Association or any other member of the Aragon project. Please do your own research before trading ANT or using any of the listed services to trade ANT. Keep your funds safe and only do business with people for whom you have a good reason to trust._
+_Disclaimer: Nothing on this page should be taken as investment advice. Inclusion of a service does not constitute an endorsement of the service by the Aragon Association or any other member of the Aragon project. Please do your own research before trading ANJ or using any of the listed services to trade ANJ. Keep your funds safe and only do business with people for whom you have a good reason to trust._
 
 **Exchanges:**
 
