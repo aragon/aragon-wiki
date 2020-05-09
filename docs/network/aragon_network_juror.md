@@ -16,7 +16,7 @@ You can learn more about ANJ and how it is used in Aragon Court [here](https://h
 
 ANJ was initially made available for pre-activation prior to the launch of Aragon Court. Anyone could stake ANT to participate in the pre-activation period, at a rate of 100 ANJ per 1 ANT, with a minimum pre-activation requirement of 10,000 ANJ.
 
-The total amount of ANT participating in the ANJ pre-activation period was `1,014,908.261129677609748657 ANT`, for a total of `101,490,826.112967760974865700 ANJ` pre-activated by 247 unique Ethereum addresses.
+The total amount of ANT participating in the ANJ pre-activation period was `1,014,908.261129677609748657 ANT`, for a total of `101,490,826.1129677609748657 ANJ` pre-activated by 247 unique Ethereum addresses.
 
 The ANJ pre-activation smart contract was audited by ConsenSys Diligence, who published their [audit report](https://diligence.consensys.net/audits/2019/11/aragonone-aragon-network-presale/) in November 2019.
 
