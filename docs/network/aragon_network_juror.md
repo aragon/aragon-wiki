@@ -8,7 +8,7 @@ You can find a technical explanation of bonding curves [here](https://yos.io/201
 
 ## ANJ Uses
 
-Jurors in Aragon Court must lock a specified minimum balance of ANJ in a staking contract and then activate their ANJ to be eligible to be drafted in Aragon Court cases. The use of ANJ helps align the incentives of jurors with the long-term health of the Court, ensuring the Court's integrity.
+Jurors in Aragon Court must lock a specified minimum balance of ANJ in a staking contract and then activate their ANJ to be eligible to be drafted in Aragon Court cases. In exchange for their successful work, jurors can earn financial rewards including subscription fees, dispute fees, and ruling fees. The use of ANJ in Aragon Court helps align the incentives of jurors with the long-term health of the Court, ensuring the Court's integrity.
 
 You can learn more about ANJ and how it is used in Aragon Court [here](https://help.aragon.org/article/41-aragon-court).
 
