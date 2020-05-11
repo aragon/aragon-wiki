@@ -87,9 +87,15 @@ In addition to buying and selling ANJ peer-to-peer, ANJ can be bought or sold us
 
 _Disclaimer: Nothing on this page should be taken as investment advice. Inclusion of a service does not constitute an endorsement of the service by the Aragon Association or any other member of the Aragon project. Please do your own research before trading ANJ or using any of the listed services to trade ANJ. Keep your funds safe and only do business with people for whom you have a good reason to trust._
 
-**Exchanges:**
+**ANJ bonding curve:**  
+These services enable you to convert between ANT and ANJ by directly interfacing with the ANJ bonding curve.
 
 - Aragon Convert - https://convert.aragon.org  
+- Etherscan - https://etherscan.io/address/0x0b4d742d52ee0c4391439f80822b26fdf1ad6ee7#writeProxyContract
+
+
+**Exchanges:**
+  
 - Uniswap - https://uniswap.exchange/swap  
 
 **OTC brokers:**
