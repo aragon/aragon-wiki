@@ -2,7 +2,7 @@
 
 # Aragon Network Juror
 
-Aragon Network Juror (ticker symbol: ANJ) is the native token of Aragon Court. ANJ is a continuous token that is minted by depositing a reserve token, [ANT](https://wiki.aragon.org/network/aragon_network_token/), into a bonding curve contract.
+Aragon Network Juror (ticker symbol: ANJ) is the native token of Aragon Court, the first service protocol developed for and by the [Aragon Network](overview.md). ANJ is a continuous token that is minted by depositing a reserve token, [ANT](https://wiki.aragon.org/network/aragon_network_token/), into a bonding curve contract.
 
 You can find a technical explanation of bonding curves [here](https://yos.io/2018/11/10/bonding-curves) and find the source code for the specific smart contract used for the ANJ bonding curve [here](https://github.com/AragonBlack/fundraising/blob/next/apps/batched-bancor-market-maker/contracts/BatchedBancorMarketMaker.sol).
 
@@ -27,13 +27,21 @@ The ANJ pre-activation smart contract was audited by ConsenSys Diligence, who pu
 
 ## Variable supply
 
-The ANJ bonding curve went live with the official launch of Aragon Court on Fight For Freedom Day February 10, 2020. After the bonding curve went live, ANJ became available for conversion against the curve at a variable rate as determined by the bonding curve formula.
+The ANJ bonding curve went live with the official launch of Aragon Court on Fight For Freedom Day February 10, 2020. After the bonding curve went live, ANJ became available for conversion against the curve at a variable rate as determined by the [bonding curve formula](#automated-market-making).
 
 From the [ANJ article](https://help.aragon.org/article/44-how-to-get-anj-and-become-an-aragon-court-juror) at the Aragon Help Desk:
 
 > ANT is the reserve token used to back the ANJ supply. As more ANT is deposited in the ANJ bonding curve, the total supply of ANJ increases; as ANT is withdrawn from the bonding curve, the total supply of ANJ decreases.
 > 
 > The bonding curve is used to convert ANT into ANJ and back at pre-defined rates. The way the ANJ bonding curve is set up, the more ANT is sent to the bonding curve, the fewer new ANJ will be released back to the sender; the more ANJ is sent to the bonding curve, the fewer ANT will be released back to the sender.
+
+The reason for using ANT as the reserve token backing ANJ is to create an economic relationship between Aragon Court and the Aragon Network. The more entities there are subscribed to Aragon Court, the more demand there should be to become a juror to service the increase in subscribers, which will in turn stoke demand for ANJ and, by proxy, ANT.
+
+The reason then for using a _bonding curve_ to establish the economic relationship between Aragon Court and the Aragon Network, rather than create a 1:1 link or simply use ANT as the native token of the Court, is to isolate incentives between the Network and the Court. As Aragon One Researcher Luke Duncan wrote in his "[ANT Demand Modeling Framework](https://forum.aragon.org/t/ant-demand-modeling-framework/1389)" post:
+
+> [T]he basic framework of linking a.. token to ANT via a bonding curve... enables the services to be designed with independent protocol incentives, such as participation rate targetting. Maintaining this separation allows for more effective protocol design and reduces the complexity and risk for the average ANT holder.
+
+## Total supply
 
 The current total supply of ANJ can be found by checking the ANJ contract page on a block explorer that shows this information, such as [Etherscan](https://etherscan.io/token/0xcD62b1C403fa761BAadFC74C525ce2B51780b184#tokenInfo).
 
@@ -59,7 +67,7 @@ To try calculating the ANJ supply with other amounts of ANT deposited in the bon
 
 ![$$J = \sqrt(4){3.82630538 \cdot 10^{26} \cdot T}$$](images/ANJ-4.png)
 
-## Automated marketing making
+## Automated market making
 
 The ANJ bonding curve formula not only determines the supply of ANJ, but also its conversion rate against ANT.
 
