@@ -13,7 +13,7 @@
       
       
       <link rel="shortcut icon" href="../../images/favicon.ico">
-      <meta name="generator" content="mkdocs-1.1, mkdocs-material-5.1.5">
+      <meta name="generator" content="mkdocs-1.1, mkdocs-material-5.1.6">
     
     
       
@@ -21,9 +21,9 @@
       
     
     
-      <link rel="stylesheet" href="../../assets/stylesheets/main.df84b5fe.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.4b9ffd7b.min.css">
       
-        <link rel="stylesheet" href="../../assets/stylesheets/palette.8435c73a.min.css">
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.b79bcd20.min.css">
       
       
         
@@ -981,6 +981,13 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#total-supply" class="md-nav__link">
+    Total supply
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#maximum-supply" class="md-nav__link">
     Maximum supply
   </a>
@@ -988,8 +995,8 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#automated-marketing-making" class="md-nav__link">
-    Automated marketing making
+  <a href="#automated-market-making" class="md-nav__link">
+    Automated market making
   </a>
   
 </li>
@@ -5537,6 +5544,13 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#total-supply" class="md-nav__link">
+    Total supply
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#maximum-supply" class="md-nav__link">
     Maximum supply
   </a>
@@ -5544,8 +5558,8 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#automated-marketing-making" class="md-nav__link">
-    Automated marketing making
+  <a href="#automated-market-making" class="md-nav__link">
+    Automated market making
   </a>
   
 </li>
@@ -5586,7 +5600,7 @@
                 
                 <p><img alt="" src="../../design/logo/png/aragon-court.png" /></p>
 <h1 id="aragon-network-juror">Aragon Network Juror</h1>
-<p>Aragon Network Juror (ticker symbol: ANJ) is the native token of Aragon Court. ANJ is a continuous token that is minted by depositing a reserve token, <a href="https://wiki.aragon.org/network/aragon_network_token/">ANT</a>, into a bonding curve contract.</p>
+<p>Aragon Network Juror (ticker symbol: ANJ) is the native token of Aragon Court, the first service protocol developed for and by the <a href="../overview/">Aragon Network</a>. ANJ is a continuous token that is minted by depositing a reserve token, <a href="https://wiki.aragon.org/network/aragon_network_token/">ANT</a>, into a bonding curve contract.</p>
 <p>You can find a technical explanation of bonding curves <a href="https://yos.io/2018/11/10/bonding-curves">here</a> and find the source code for the specific smart contract used for the ANJ bonding curve <a href="https://github.com/AragonBlack/fundraising/blob/next/apps/batched-bancor-market-maker/contracts/BatchedBancorMarketMaker.sol">here</a>.</p>
 <h2 id="anj-uses">ANJ Uses</h2>
 <p>Jurors in Aragon Court must lock a specified minimum balance of ANJ in a staking contract and then activate their ANJ to be eligible to be drafted in Aragon Court cases. In exchange for their successful work, jurors can earn financial rewards including subscription fees, dispute fees, and ruling fees. The use of ANJ in Aragon Court helps align the incentives of jurors with the long-term health of the Court, ensuring the Court's integrity.</p>
@@ -5600,25 +5614,31 @@
 - <a href="https://etherscan.io/address/0xf89c8752d82972f94a4d1331e010ed6593e8ec49#readProxyContract">ANJ pre-activation contract</a>
 - <a href="https://blog.aragon.org/launching-aragon-court/">Launching Aragon Court blog post</a></p>
 <h2 id="variable-supply">Variable supply</h2>
-<p>The ANJ bonding curve went live with the official launch of Aragon Court on Fight For Freedom Day February 10, 2020. After the bonding curve went live, ANJ became available for conversion against the curve at a variable rate as determined by the bonding curve formula.</p>
+<p>The ANJ bonding curve went live with the official launch of Aragon Court on Fight For Freedom Day February 10, 2020. After the bonding curve went live, ANJ became available for conversion against the curve at a variable rate as determined by the <a href="#automated-market-making">bonding curve formula</a>.</p>
 <p>From the <a href="https://help.aragon.org/article/44-how-to-get-anj-and-become-an-aragon-court-juror">ANJ article</a> at the Aragon Help Desk:</p>
 <blockquote>
 <p>ANT is the reserve token used to back the ANJ supply. As more ANT is deposited in the ANJ bonding curve, the total supply of ANJ increases; as ANT is withdrawn from the bonding curve, the total supply of ANJ decreases.</p>
 <p>The bonding curve is used to convert ANT into ANJ and back at pre-defined rates. The way the ANJ bonding curve is set up, the more ANT is sent to the bonding curve, the fewer new ANJ will be released back to the sender; the more ANJ is sent to the bonding curve, the fewer ANT will be released back to the sender.</p>
 </blockquote>
+<p>The reason for using ANT as the reserve token backing ANJ is to create an economic relationship between Aragon Court and the Aragon Network. The more entities there are subscribed to Aragon Court, the more demand there should be to become a juror to service the increase in subscribers, which will in turn stoke demand for ANJ and, by proxy, ANT.</p>
+<p>The reason then for using a <em>bonding curve</em> to establish the economic relationship between Aragon Court and the Aragon Network, rather than create a 1:1 link or simply use ANT as the native token of the Court, is to isolate incentives between the Network and the Court. As Aragon One Researcher Luke Duncan wrote in his "<a href="https://forum.aragon.org/t/ant-demand-modeling-framework/1389">ANT Demand Modeling Framework</a>" post:</p>
+<blockquote>
+<p>[T]he basic framework of linking a.. token to ANT via a bonding curve... enables the services to be designed with independent protocol incentives, such as participation rate targetting. Maintaining this separation allows for more effective protocol design and reduces the complexity and risk for the average ANT holder.</p>
+</blockquote>
+<h2 id="total-supply">Total supply</h2>
 <p>The current total supply of ANJ can be found by checking the ANJ contract page on a block explorer that shows this information, such as <a href="https://etherscan.io/token/0xcD62b1C403fa761BAadFC74C525ce2B51780b184#tokenInfo">Etherscan</a>.</p>
 <h2 id="maximum-supply">Maximum supply</h2>
 <p>There is no maximum ANJ supply <em>per se</em>, other than the limit imposed by the total amount of ANT available to deposit in the ANJ bonding curve. To calculate the theoretical maximum supply, we can follow this method:</p>
-<p><img alt="klzzwxh:0015klzzwxh:0015" src="../images/ANJ-1.png" /></p>
+<p><img alt="klzzwxh:0019klzzwxh:0019" src="../images/ANJ-1.png" /></p>
 <p>If we take the integral of that curve between two ANJ supply points, <code>x_0</code> and <code>x_1</code>, we get the total amount of ANT contributed to mint <code>x_1 - x_0</code> ANJ tokens.</p>
 <p>So if all the existing ANT, let's call it <code>T</code>, were to be contributed to the curve, that amount would be the integral between 0 and the maximum possible amount of ANJ, let's call it <code>J</code>:</p>
-<p><img alt="klzzwxh:0023klzzwxh:0023; klzzwxh:0025klzzwxh:0025" src="../images/ANJ-2.png" /></p>
+<p><img alt="klzzwxh:0027klzzwxh:0027; klzzwxh:0029klzzwxh:0029" src="../images/ANJ-2.png" /></p>
 <p>Now we substitute <code>T</code> with the current total supply of ANT, <code>39,609,523.80952380954</code>:</p>
-<p><img alt="klzzwxh:0030klzzwxh:0030" src="../images/ANJ-3.png" /></p>
+<p><img alt="klzzwxh:0034klzzwxh:0034" src="../images/ANJ-3.png" /></p>
 <p>Therefore, given a total supply of <code>39,609,523.80952380954 ANT</code>, the theoretical maximum supply of ANJ is <code>350,868,849.187414177 ANJ</code>.</p>
 <p>To try calculating the ANJ supply with other amounts of ANT deposited in the bonding curve, replace <code>T</code> in this formula with the desired ANT amount:</p>
-<p><img alt="klzzwxh:0036klzzwxh:0036" src="../images/ANJ-4.png" /></p>
-<h2 id="automated-marketing-making">Automated marketing making</h2>
+<p><img alt="klzzwxh:0040klzzwxh:0040" src="../images/ANJ-4.png" /></p>
+<h2 id="automated-market-making">Automated market making</h2>
 <p>The ANJ bonding curve formula not only determines the supply of ANJ, but also its conversion rate against ANT.</p>
 <p>On January 17, 2020, Aragon One Solidity Engineer Bingen Eguzkitza published an <a href="https://observablehq.com/@anjbondingcurve/anj-bonding-curve">Observable document</a> showing what the conversion rate of ANT:ANJ would be given a specified set of inputs, namely the pre-activation supply of ANJ plus or minus the amount of ANT deposited in or withdrawn from the ANJ bonding curve after the bonding curve went live.</p>
 <p>The <a href="https://etherscan.io/address/0x274aac49b63f07bf6998964ad20020b18383a09d#readContract">bonding curve formula contract</a> can be polled directly to find the current conversion rate, using the <code>calculatePurchaseReturn</code> option to find the ANT-to-ANJ rate and the <code>calculateSaleReturn</code> option to find the ANJ-to-ANT rate. There is also a <a href="https://convert.aragon.org">conversion tool</a> available on the Aragon website that values can be entered into to easily find the current ANT:ANJ conversion rate.</p>
@@ -5758,8 +5778,8 @@
       
     </div>
     
-      <script src="../../assets/javascripts/vendor.83fe6e3c.min.js"></script>
-      <script src="../../assets/javascripts/bundle.7e1cb91c.min.js"></script><script id="__lang" type="application/json">{"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents"}</script>
+      <script src="../../assets/javascripts/vendor.a0c4167b.min.js"></script>
+      <script src="../../assets/javascripts/bundle.fb26dd1d.min.js"></script><script id="__lang" type="application/json">{"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents"}</script>
       
       <script>
         app = initialize({
