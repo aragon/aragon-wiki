@@ -5610,8 +5610,8 @@
 <p>The total amount of ANT participating in the ANJ pre-activation period was <code>1,014,908.261129677609748657 ANT</code>, for a total of <code>101,490,826.1129677609748657 ANJ</code> pre-activated by 247 unique Ethereum addresses.</p>
 <p>The ANJ pre-activation smart contract was audited by ConsenSys Diligence, who published their <a href="https://diligence.consensys.net/audits/2019/11/aragonone-aragon-network-presale/">audit report</a> in November 2019.</p>
 <p><strong>Sources:</strong>
-- <a href="https://blog.aragon.org/juror-pre-activation-guide/">Juror pre-activation guide</a>
-- <a href="https://etherscan.io/address/0xf89c8752d82972f94a4d1331e010ed6593e8ec49#readProxyContract">ANJ pre-activation contract</a>
+- <a href="https://blog.aragon.org/juror-pre-activation-guide/">Juror pre-activation guide</a><br />
+- <a href="https://etherscan.io/address/0xf89c8752d82972f94a4d1331e010ed6593e8ec49#readProxyContract">ANJ pre-activation contract</a><br />
 - <a href="https://blog.aragon.org/launching-aragon-court/">Launching Aragon Court blog post</a></p>
 <h2 id="variable-supply">Variable supply</h2>
 <p>The ANJ bonding curve went live with the official launch of Aragon Court on Fight For Freedom Day February 10, 2020. After the bonding curve went live, ANJ became available for conversion against the curve at a variable rate as determined by the <a href="#automated-market-making">bonding curve formula</a>.</p>
@@ -5629,15 +5629,15 @@
 <p>The current total supply of ANJ can be found by checking the ANJ contract page on a block explorer that shows this information, such as <a href="https://etherscan.io/token/0xcD62b1C403fa761BAadFC74C525ce2B51780b184#tokenInfo">Etherscan</a>.</p>
 <h2 id="maximum-supply">Maximum supply</h2>
 <p>There is no maximum ANJ supply <em>per se</em>, other than the limit imposed by the total amount of ANT available to deposit in the ANJ bonding curve. To calculate the theoretical maximum supply, we can follow this method:</p>
-<p><img alt="klzzwxh:0019klzzwxh:0019" src="../images/ANJ-1.png" /></p>
+<p><img alt="klzzwxh:0021klzzwxh:0021" src="../images/ANJ-1.png" /></p>
 <p>If we take the integral of that curve between two ANJ supply points, <code>x_0</code> and <code>x_1</code>, we get the total amount of ANT contributed to mint <code>x_1 - x_0</code> ANJ tokens.</p>
 <p>So if all the existing ANT, let's call it <code>T</code>, were to be contributed to the curve, that amount would be the integral between 0 and the maximum possible amount of ANJ, let's call it <code>J</code>:</p>
-<p><img alt="klzzwxh:0027klzzwxh:0027; klzzwxh:0029klzzwxh:0029" src="../images/ANJ-2.png" /></p>
+<p><img alt="klzzwxh:0029klzzwxh:0029; klzzwxh:0031klzzwxh:0031" src="../images/ANJ-2.png" /></p>
 <p>Now we substitute <code>T</code> with the current total supply of ANT, <code>39,609,523.80952380954</code>:</p>
-<p><img alt="klzzwxh:0034klzzwxh:0034" src="../images/ANJ-3.png" /></p>
+<p><img alt="klzzwxh:0036klzzwxh:0036" src="../images/ANJ-3.png" /></p>
 <p>Therefore, given a total supply of <code>39,609,523.80952380954 ANT</code>, the theoretical maximum supply of ANJ is <code>350,868,849.187414177 ANJ</code>.</p>
 <p>To try calculating the ANJ supply with other amounts of ANT deposited in the bonding curve, replace <code>T</code> in this formula with the desired ANT amount:</p>
-<p><img alt="klzzwxh:0040klzzwxh:0040" src="../images/ANJ-4.png" /></p>
+<p><img alt="klzzwxh:0042klzzwxh:0042" src="../images/ANJ-4.png" /></p>
 <h2 id="automated-market-making">Automated market making</h2>
 <p>The ANJ bonding curve formula not only determines the supply of ANJ, but also its conversion rate against ANT.</p>
 <p>On January 17, 2020, Aragon One Solidity Engineer Bingen Eguzkitza published an <a href="https://observablehq.com/@anjbondingcurve/anj-bonding-curve">Observable document</a> showing what the conversion rate of ANT:ANJ would be given a specified set of inputs, namely the pre-activation supply of ANJ plus or minus the amount of ANT deposited in or withdrawn from the ANJ bonding curve after the bonding curve went live.</p>
@@ -5651,12 +5651,12 @@
 <p><strong>Exchanges:</strong></p>
 <ul>
 <li>Aragon Convert - <a href="https://convert.aragon.org">https://convert.aragon.org</a>  </li>
-<li>Uniswap - <a href="https://uniswap.exchange/swap">https://uniswap.exchange/swap</a></li>
+<li>Uniswap - <a href="https://uniswap.exchange/swap">https://uniswap.exchange/swap</a>  </li>
 </ul>
 <p><strong>OTC brokers:</strong></p>
 <p>N/A</p>
 <p>--</p>
-<p>Page owner: John Light (<a href="https://github.com/john-light">@john-light</a>. Last updated 2020-05-08.</p>
+<p>Page owner: John Light (<a href="https://github.com/john-light">@john-light</a>. Last updated 2020-05-11.</p>
                 
               
               
