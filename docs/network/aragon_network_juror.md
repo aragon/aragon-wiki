@@ -20,10 +20,10 @@ The total amount of ANT participating in the ANJ pre-activation period was `1,01
 
 The ANJ pre-activation smart contract was audited by ConsenSys Diligence, who published their [audit report](https://diligence.consensys.net/audits/2019/11/aragonone-aragon-network-presale/) in November 2019.
 
-**Sources:**
+**Sources:**  
 - [Juror pre-activation guide](https://blog.aragon.org/juror-pre-activation-guide/)  
 - [ANJ pre-activation contract](https://etherscan.io/address/0xf89c8752d82972f94a4d1331e010ed6593e8ec49#readProxyContract)  
-- [Launching Aragon Court blog post](https://blog.aragon.org/launching-aragon-court/)
+- [Launching Aragon Court blog post](https://blog.aragon.org/launching-aragon-court/)  
 
 ## Variable supply
 
