@@ -2,7 +2,7 @@
 
 # Aragon Network Juror
 
-Aragon Network Juror (ticker symbol: ANJ) is the native token of Aragon Court, the first service protocol developed for and by the [Aragon Network](overview.md). ANJ is a continuous token that is minted by depositing a reserve token, [ANT](https://wiki.aragon.org/network/aragon_network_token/), into a bonding curve contract.
+Aragon Network Juror (ticker symbol: ANJ) is the native token of Aragon Court, the first service protocol developed by the [Aragon Network](overview.md). ANJ is a continuous token that is minted by depositing a reserve token, [ANT](https://wiki.aragon.org/network/aragon_network_token/), into a bonding curve contract.
 
 You can find a technical explanation of bonding curves [here](https://yos.io/2018/11/10/bonding-curves) and find the source code for the specific smart contract used for the ANJ bonding curve [here](https://github.com/AragonBlack/fundraising/blob/next/apps/batched-bancor-market-maker/contracts/BatchedBancorMarketMaker.sol).
 
@@ -53,7 +53,7 @@ ANJ comes from a bonding curve that mints ANJ in exchange for ANT. This is the o
 
 ![y = m \cdot x^n](images/ANJ-0.png)
 
-In our case the value of `n` is 4, as you can see in the Court parameters, taking into account that the reserve ratio equals `1/100`.
+In our case the value of `n` is 4, taking into account that the reserve ratio equals `1/100`.
 
 To get `m`, we use the price set by the bonding curve when the bonding curve went live, which was the same as the pre-activation price i.e., 100 ANJ per 1 ANT, and the total amount of ANJ minted during pre-activation, `101,490,826.112967760974865700 ANJ`. So:
 
