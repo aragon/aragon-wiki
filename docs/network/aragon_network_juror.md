@@ -55,7 +55,7 @@ ANJ comes from a bonding curve that mints ANJ in exchange for ANT. This is the o
 
 In our case the value of `n` is 4, as you can see in the Court parameters, taking into account that the reserve ratio equals `1/100`.
 
-To get `m`, we can use the price of the bonding curve when it was started, which was the same as the pre-activation price i.e., 100 ANJ per 1 ANT, and the total amount of ANJ minted during pre-activation, `101,490,826.112967760974865700 ANJ`. So:
+To get `m`, we use the price set by the bonding curve when the bonding curve went live, which was the same as the pre-activation price i.e., 100 ANJ per 1 ANT, and the total amount of ANJ minted during pre-activation, `101,490,826.112967760974865700 ANJ`. So:
 
 ![$$\frac{1}{100} = m \cdot 101,490,826.112967760974865700^{3} \Rightarrow m = \frac{10^{-2}}{101,490,826.112967760974865700^{3}} = 0.956576345 \cdot 10^{-26}$$](images/ANJ-1.png)
 
