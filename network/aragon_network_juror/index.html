@@ -5629,15 +5629,19 @@
 <p>The current total supply of ANJ can be found by checking the ANJ contract page on a block explorer that shows this information, such as <a href="https://etherscan.io/token/0xcD62b1C403fa761BAadFC74C525ce2B51780b184#tokenInfo">Etherscan</a>.</p>
 <h2 id="maximum-supply">Maximum supply</h2>
 <p>There is no maximum ANJ supply <em>per se</em>, other than the limit imposed by the total amount of ANT available to deposit in the ANJ bonding curve. To calculate the theoretical maximum supply, we can follow this method:</p>
-<p><img alt="klzzwxh:0022klzzwxh:0022" src="../images/ANJ-1.png" /></p>
+<p>ANJ comes from a bonding curve that mints ANJ in exchange for ANT. This is the only way to mint ANJ. The ANJ bonding curve is of the type:</p>
+<p><img alt="y = m \cdot x^n" src="../images/ANJ-0.png" /></p>
+<p>In our case the value of <code>n</code> is 4, as you can see in the Court parameters, taking into account that the reserve ratio equals <code>1/100</code>.</p>
+<p>To get <code>m</code>, we can use the price of the bonding curve when it was started, which was the same as the pre-activation price i.e., 100 ANJ per 1 ANT, and the total amount of ANJ minted during pre-activation, <code>101,490,826.112967760974865700 ANJ</code>. So:</p>
+<p><img alt="klzzwxh:0027klzzwxh:0027" src="../images/ANJ-1.png" /></p>
 <p>If we take the integral of that curve between two ANJ supply points, <code>x_0</code> and <code>x_1</code>, we get the total amount of ANT contributed to mint <code>x_1 - x_0</code> ANJ tokens.</p>
 <p>So if all the existing ANT, let's call it <code>T</code>, were to be contributed to the curve, that amount would be the integral between 0 and the maximum possible amount of ANJ, let's call it <code>J</code>:</p>
-<p><img alt="klzzwxh:0030klzzwxh:0030; klzzwxh:0032klzzwxh:0032" src="../images/ANJ-2.png" /></p>
+<p><img alt="klzzwxh:0035klzzwxh:0035; klzzwxh:0037klzzwxh:0037" src="../images/ANJ-2.png" /></p>
 <p>Now we substitute <code>T</code> with the current total supply of ANT, <code>39,609,523.80952380954</code>:</p>
-<p><img alt="klzzwxh:0037klzzwxh:0037" src="../images/ANJ-3.png" /></p>
+<p><img alt="klzzwxh:0042klzzwxh:0042" src="../images/ANJ-3.png" /></p>
 <p>Therefore, given a total supply of <code>39,609,523.80952380954 ANT</code>, the theoretical maximum supply of ANJ is <code>350,868,849.187414177 ANJ</code>.</p>
 <p>To try calculating the ANJ supply with other amounts of ANT deposited in the bonding curve, replace <code>T</code> in this formula with the desired ANT amount:</p>
-<p><img alt="klzzwxh:0043klzzwxh:0043" src="../images/ANJ-4.png" /></p>
+<p><img alt="klzzwxh:0048klzzwxh:0048" src="../images/ANJ-4.png" /></p>
 <h2 id="automated-market-making">Automated market making</h2>
 <p>The ANJ bonding curve formula not only determines the supply of ANJ, but also its conversion rate against ANT.</p>
 <p>On January 17, 2020, Aragon One Solidity Engineer Bingen Eguzkitza published an <a href="https://observablehq.com/@anjbondingcurve/anj-bonding-curve">Observable document</a> showing what the conversion rate of ANT:ANJ would be given a specified set of inputs, namely the pre-activation supply of ANJ plus or minus the amount of ANT deposited in or withdrawn from the ANJ bonding curve after the bonding curve went live.</p>
@@ -5661,7 +5665,7 @@ These services enable you to convert between ANT and ANJ by directly interfacing
 <p><strong>OTC brokers:</strong></p>
 <p>N/A</p>
 <p>--</p>
-<p>Page owner: John Light (<a href="https://github.com/john-light">@john-light</a>. Last updated 2020-05-11.</p>
+<p>Page owner: John Light (<a href="https://github.com/john-light">@john-light</a>. Last updated 2020-05-12.</p>
                 
               
               
