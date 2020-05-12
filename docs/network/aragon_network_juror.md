@@ -49,6 +49,14 @@ The current total supply of ANJ can be found by checking the ANJ contract page o
 
 There is no maximum ANJ supply *per se*, other than the limit imposed by the total amount of ANT available to deposit in the ANJ bonding curve. To calculate the theoretical maximum supply, we can follow this method:
 
+ANJ comes from a bonding curve that mints ANJ in exchange for ANT. This is the only way to mint ANJ. The ANJ bonding curve is of the type:
+
+![y = m \cdot x^n](images/ANJ-0.png)
+
+In our case the value of `n` is 4, as you can see in the Court parameters, taking into account that the reserve ratio equals `1/100`.
+
+To get `m`, we can use the price of the bonding curve when it was started, which was the same as the pre-activation price i.e., 100 ANJ per 1 ANT, and the total amount of ANJ minted during pre-activation, `101,490,826.112967760974865700 ANJ`. So:
+
 ![$$\frac{1}{100} = m \cdot 101,490,826.112967760974865700^{3} \Rightarrow m = \frac{10^{-2}}{101,490,826.112967760974865700^{3}} = 0.956576345 \cdot 10^{-26}$$](images/ANJ-1.png)
 
 If we take the integral of that curve between two ANJ supply points, `x_0` and `x_1`, we get the total amount of ANT contributed to mint `x_1 - x_0` ANJ tokens.
@@ -104,4 +112,4 @@ N/A
 
 --
 
-Page owner: John Light ([@john-light](https://github.com/john-light). Last updated 2020-05-11.
+Page owner: John Light ([@john-light](https://github.com/john-light). Last updated 2020-05-12.
