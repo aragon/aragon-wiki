@@ -5600,7 +5600,7 @@
                 
                 <p><img alt="" src="../../design/logo/png/aragon-court.png" /></p>
 <h1 id="aragon-network-juror">Aragon Network Juror</h1>
-<p>Aragon Network Juror (ticker symbol: ANJ) is the native token of Aragon Court, the first service protocol developed for and by the <a href="../overview/">Aragon Network</a>. ANJ is a continuous token that is minted by depositing a reserve token, <a href="https://wiki.aragon.org/network/aragon_network_token/">ANT</a>, into a bonding curve contract.</p>
+<p>Aragon Network Juror (ticker symbol: ANJ) is the native token of Aragon Court, the first service protocol developed by the <a href="../overview/">Aragon Network</a>. ANJ is a continuous token that is minted by depositing a reserve token, <a href="https://wiki.aragon.org/network/aragon_network_token/">ANT</a>, into a bonding curve contract.</p>
 <p>You can find a technical explanation of bonding curves <a href="https://yos.io/2018/11/10/bonding-curves">here</a> and find the source code for the specific smart contract used for the ANJ bonding curve <a href="https://github.com/AragonBlack/fundraising/blob/next/apps/batched-bancor-market-maker/contracts/BatchedBancorMarketMaker.sol">here</a>.</p>
 <h2 id="anj-uses">ANJ Uses</h2>
 <p>Jurors in Aragon Court must lock a specified minimum balance of ANJ in a staking contract and then activate their ANJ to be eligible to be drafted in Aragon Court cases. In exchange for their successful work, jurors can earn financial rewards including subscription fees, dispute fees, and ruling fees. The use of ANJ in Aragon Court helps align the incentives of jurors with the long-term health of the Court, ensuring the Court's integrity.</p>
@@ -5631,7 +5631,7 @@
 <p>There is no maximum ANJ supply <em>per se</em>, other than the limit imposed by the total amount of ANT available to deposit in the ANJ bonding curve. To calculate the theoretical maximum supply, we can follow this method:</p>
 <p>ANJ comes from a bonding curve that mints ANJ in exchange for ANT. This is the only way to mint ANJ. The ANJ bonding curve is of the type:</p>
 <p><img alt="y = m \cdot x^n" src="../images/ANJ-0.png" /></p>
-<p>In our case the value of <code>n</code> is 4, as you can see in the Court parameters, taking into account that the reserve ratio equals <code>1/100</code>.</p>
+<p>In our case the value of <code>n</code> is 4, taking into account that the reserve ratio equals <code>1/100</code>.</p>
 <p>To get <code>m</code>, we use the price set by the bonding curve when the bonding curve went live, which was the same as the pre-activation price i.e., 100 ANJ per 1 ANT, and the total amount of ANJ minted during pre-activation, <code>101,490,826.112967760974865700 ANJ</code>. So:</p>
 <p><img alt="klzzwxh:0027klzzwxh:0027" src="../images/ANJ-1.png" /></p>
 <p>If we take the integral of that curve between two ANJ supply points, <code>x_0</code> and <code>x_1</code>, we get the total amount of ANT contributed to mint <code>x_1 - x_0</code> ANJ tokens.</p>
