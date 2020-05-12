@@ -123,7 +123,7 @@ _Disclaimer: Nothing on this page should be taken as investment advice. Inclusio
 
 **OTC Brokers:**
 
-N/A
+Bering Waters - [https://www.beringwaters.com/](https://www.beringwaters.com/)
 
 ---
 Page owner: John Light (@john-light). Last updated 2020-04-09.
