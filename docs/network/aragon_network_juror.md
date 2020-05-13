@@ -10,6 +10,8 @@ You can find a technical explanation of bonding curves [here](https://yos.io/201
 
 Jurors in Aragon Court must lock a specified minimum balance of ANJ in a staking contract and then activate their ANJ to be eligible to be drafted in Aragon Court cases. In exchange for their successful work, jurors can earn financial rewards including subscription fees, dispute fees, and ruling fees. The use of ANJ in Aragon Court helps align the incentives of jurors with the long-term health of the Court, ensuring the Court's integrity.
 
+It is possible to see how many jurors have activated ANJ by checking the balance of the juror registry contract on the Ethereum blockchain, for example using the [Etherscan block explorer](https://etherscan.io/token/0xcD62b1C403fa761BAadFC74C525ce2B51780b184?a=0x0f7471c1df2021ff45f112878f755aabe7aa16bf#tokenAnalytics).
+
 You can learn more about ANJ and how it is used in Aragon Court [here](https://help.aragon.org/article/41-aragon-court).
 
 ## Initial token distribution
