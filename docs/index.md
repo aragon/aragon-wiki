@@ -5,7 +5,7 @@
 
 We believe [decentralized organizations can solve the world’s worst problems](https://blog.aragon.org/decentralized-organizations-can-solve-the-worlds-worst-problems-840db6255d12). That's why we are building Aragon.
 
-This wiki contains much of the documentation about Aragon, such as the history of the project, media about Aragon, community policies, and more.
+This wiki contains much of the documentation about the Aragon project, such as our history, media about Aragon, community policies, and more.
 
 If you want to help contribute to the wiki, like changing or adding information, you are welcome to create an [Issue](https://github.com/aragon/aragon-wiki/issues) or submit a [Pull Request](https://github.com/aragon/aragon-wiki/pulls) at [https://github.com/aragon/aragon-wiki](https://github.com/aragon/aragon-wiki).
 
