@@ -104,6 +104,7 @@ These services enable you to convert between ANT and ANJ by directly interfacing
 
 **Exchanges:**
   
+- IDEX - https://idex.market/eth/anj
 - Uniswap - https://uniswap.exchange/swap  
 
 **OTC brokers:**
