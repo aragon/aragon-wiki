@@ -1,4 +1,4 @@
-![](../design/logo/png/aragon-court.png)
+![](images/anj.jpg)
 
 # Aragon Network Juror
 
