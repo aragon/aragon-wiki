@@ -11,11 +11,6 @@
     <iframe width="80%" height="390" src="https://www.youtube-nocookie.com/embed/Qyl-0Wth2Z8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 !!! abstract ""
-    <h4>Aragon Chain AMA with Aragon One, Chainsafe, and Cosmos</h4>
-
-    <iframe width="80%" height="390" src="https://www.youtube-nocookie.com/embed/Qyl-0Wth2Z8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-!!! abstract ""
     <h4>DAO Panel with Santiago Siri, Luis Cuende, Mariano Conti, Cassandra Shi, and Shaun Djie at [Web3 Summit](https://web3summit.com/)</h4>
 
     <iframe width="80%" height="390" src="https://www.youtube-nocookie.com/embed/JJBDcG2EqwE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
