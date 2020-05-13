@@ -59,7 +59,7 @@ ANT was initially created and distributed as a result of a [public token sale](h
 
 Total supply: 39,609,523.80952380954 ANT`*`
 
-> `*` Total supply will be constant only until the AN (Aragon Network) is deployed. From then on, ANT holders will use Aragon Network governance to decide the monetary policy and inflation rate going forward.
+> `*` Total supply will be constant only until the Aragon Network is deployed. From then on, ANT holders will use Aragon Network governance to decide the ANT issuance policy and inflation rate going forward.
 
 **Sources:**
 
@@ -82,7 +82,7 @@ The Ethereum smart contract address of ANT is `0x960b236A07cf122663c4303350609A6
 
 ## ANT asset analysis
 
-On October 22, 2019, Aragon One researcher Luke Duncan published an analysis of ANT entitled "[ANT Demand Modeling Framework](https://forum.aragon.org/t/ant-demand-modeling-framework/1389)". Duncan described the document as "a basic framework for thinking about the demand for the Aragon Network Token (ANT) based on its current and potential future utility value".
+On October 22, 2019, Aragon One Researcher Luke Duncan published an analysis of ANT entitled "[ANT Demand Modeling Framework](https://forum.aragon.org/t/ant-demand-modeling-framework/1389)". Duncan described the document as "a basic framework for thinking about the demand for the Aragon Network Token (ANT) based on its current and potential future utility value".
 
 On March 6, 2020, the venture capital firm Placeholder published an analysis of ANT entitled "[Aragon (ANT) Economics](https://www.placeholder.vc/blog/2020/3/6/aragon-ant-economics)". Placeholder refers to ANT in their analysis as "a governance asset, with planned future economics to reinforce its store-of-value status".
 
@@ -126,4 +126,4 @@ _Disclaimer: Nothing on this page should be taken as investment advice. Inclusio
 Bering Waters - [https://www.beringwaters.com/](https://www.beringwaters.com/)
 
 ---
-Page owner: John Light (@john-light). Last updated 2020-05-11.
+Page owner: John Light (@john-light). Last updated 2020-05-12.
