@@ -2,19 +2,13 @@
 
 This document sets the privacy rules concerning the use of Aragon Association (the “Aragon”) sites and services, including 
 
-https://aragon.org;  
-https://mainnet.aragon.org;  
-https://rinkeby.aragon.org;
-https://forum.aragon.org;  
-https://wiki.aragon.org;  
-https://anj.aragon.org;  
-https://transparency.aragon.org  
+- https://aragon.org and all subdomains 
 
 Collectively (the “Sites”) that the user agrees with, by using the Sites:
 
 ## 1. What information is collected? 
 
-1.1. Aragon may collect the following user’s personal data: IP address, username, email, crypto wallet addresses, voting history, and DAO addresses you subscribe to. 
+1.1. Aragon may collect the following personal data from users: IP address, username, email, crypto wallet addresses, voting history, and subscribed DAO addresses.
 
 1.2 In certain cases the user’s consent to use personal information may be required, which can be withdrawn at any time using any of Aragon’s contact details. Aragon will get in touch with the data subject every time the consent to process any data is required. 
 
@@ -61,8 +55,6 @@ The user is aware that the payment for the services provided may be executed thr
 Aragon shares personal information with other Aragon companies, among the Aragon group or third party service providers that assist Aragon providing services. This may include sharing information with third party contractors, bound by obligations of confidentiality, in connection with the processing of your personal information for the purposes described in this Policy, such as, but not limited to, IT and communications service providers, third parties relevant to the services that Aragon provides including regulators, authorities and governmental institutions.
 	
 Aragon may transfer personal information outside Europe. In those cases Aragon will ensure that it is protected and transferred in a manner consistent with legal requirements applicable to the information.
-
-When the data subject expressed consent Data will be shared between Aragon Association, Aragon One and other partners of the Aragon Network that require the data in order to adequately perform their duties. 
 
 ## 5. Information Security
 
