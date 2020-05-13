@@ -51,29 +51,29 @@ There is no maximum ANJ supply *per se*, other than the limit imposed by the tot
 
 ANJ comes from a bonding curve that mints ANJ in exchange for ANT. This is the only way to mint ANJ. The ANJ bonding curve is of the type:
 
-![y = m \cdot x^n](images/ANJ-0.png)
+![y = m \cdot x^n](images/ANJ--1.png)
 
 In our case the value of `n` is 4, taking into account that the reserve ratio equals `1/100`.
 
 To get `m`, we use the price set by the bonding curve when the bonding curve went live, which was the same as the pre-activation price i.e., 100 ANJ per 1 ANT, and the total amount of ANJ minted during pre-activation, `101,490,826.112967760974865700 ANJ`. So:
 
-![$$\frac{1}{100} = m \cdot 101,490,826.112967760974865700^{3} \Rightarrow m = \frac{10^{-2}}{101,490,826.112967760974865700^{3}} = 0.956576345 \cdot 10^{-26}$$](images/ANJ-1.png)
+![$$\frac{1}{100} = m \cdot 101,490,826.112967760974865700^{3} \Rightarrow m = \frac{10^{-2}}{101,490,826.112967760974865700^{3}} = 0.956576345 \cdot 10^{-26}$$](images/ANJ--2.png)
 
 If we take the integral of that curve between two ANJ supply points, `x_0` and `x_1`, we get the total amount of ANT contributed to mint `x_1 - x_0` ANJ tokens.
 
 So if all the existing ANT, let's call it `T`, were to be contributed to the curve, that amount would be the integral between 0 and the maximum possible amount of ANJ, let's call it `J`:
 
-![$$T = \int_{0}^{J}m \cdot x^n dx = \left(m \frac{x^{n+1}}{n+1} \right) {0}^{J} = m \frac{J^4}{4}$$; $$J^4 = 4 \frac{T}{m} = 4 \cdot 1.045394866 \cdot 10^{26} \cdot T = 3.82630538 \cdot 10^{26} \cdot T$$](images/ANJ-2.png)
+![$$T = \int_{0}^{J}m \cdot x^n dx = \left(m \frac{x^{n+1}}{n+1} \right) {0}^{J} = m \frac{J^4}{4}$$; $$J^4 = 4 \frac{T}{m} = 4 \cdot 1.045394866 \cdot 10^{26} \cdot T = 3.82630538 \cdot 10^{26} \cdot T$$](images/ANJ--3.png)
 
 Now we substitute `T` with the current total supply of ANT, `39,609,523.80952380954`:
 
-![$$J = \sqrt(4){3.82630538 \cdot 10^{26} \cdot 39,609,523.80952380954} = \sqrt(4){151,558,134.051612262 \cdot 10^{26}} = 2 \cdot 10^{26/4} = 350,868,849.187414177$$](images/ANJ-3.png)
+![$$J = \sqrt(4){3.82630538 \cdot 10^{26} \cdot 39,609,523.80952380954} = \sqrt(4){151,558,134.051612262 \cdot 10^{26}} = 2 \cdot 10^{26/4} = 350,868,849.187414177$$](images/ANJ--4.png)
 
 Therefore, given a total supply of `39,609,523.80952380954 ANT`, the theoretical maximum supply of ANJ is `350,868,849.187414177 ANJ`.
 
 To try calculating the ANJ supply with other amounts of ANT deposited in the bonding curve, replace `T` in this formula with the desired ANT amount:
 
-![$$J = \sqrt(4){3.82630538 \cdot 10^{26} \cdot T}$$](images/ANJ-4.png)
+![$$J = \sqrt(4){3.82630538 \cdot 10^{26} \cdot T}$$](images/ANJ--5.png)
 
 ## Automated market making
 
