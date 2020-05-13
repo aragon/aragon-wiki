@@ -2,7 +2,7 @@
 
 # Aragon Network Token
 
-The Aragon Network Token (ticker symbol: ANT) is the native token of the Aragon Network. ANT is primarily used for the governance of the Aragon Network, although additional uses for accessing Aragon Network services have been proposed as well.
+Aragon Network Token (ticker symbol: ANT) is the native token of the Aragon Network. ANT is primarily used for the governance of the Aragon Network, although additional uses for accessing Aragon Network services have been proposed as well.
 
 ## ANT uses
 
@@ -126,4 +126,4 @@ _Disclaimer: Nothing on this page should be taken as investment advice. Inclusio
 Bering Waters - [https://www.beringwaters.com/](https://www.beringwaters.com/)
 
 ---
-Page owner: John Light (@john-light). Last updated 2020-04-09.
+Page owner: John Light (@john-light). Last updated 2020-05-11.
