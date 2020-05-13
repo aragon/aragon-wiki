@@ -1,5 +1,17 @@
 ## Aragon media mentions
 
+!!! note " Forbes "
+    [**Tim Draper Backed Aragon, Disrupts Traditional Governance With A Decentralized Court**](https://www.forbes.com/sites/michaelhaley/2020/02/26/tim-draper-backed-aragon-disrupts-traditional-governance-with-a-decentralized-court/#7117de445017) (2020-02-26)
+
+!!! note " Decrypt "
+    [**Tesla and Coinbase investor puts $870,000 into Aragon for digital courts**](https://decrypt.co/20061/tesla-and-coinbase-investor-puts-870000-into-aragon-for-digital-courts) (2020-02-20)
+    
+!!! note " CoinDesk "
+    [**Tim Draper Buys 2.5% of Aragon Tokens, Becomes Governance Whale**](https://www.coindesk.com/tim-draper-buys-2-5-of-aragon-tokens-becomes-governance-whale) (2020-02-19)
+    
+!!! note " BREAKERMAG "
+    [**Can Aragon Build an Unstoppable Robotic Government?**](https://breakermag.com/can-aragon-make-decentralized-autonomous-governance-work/) (2019-02-20)
+
 !!! note " VentureBeat "
     [**12 changes that could shake up the blockchain world in 2018**](https://venturebeat.com/2018/01/01/12-changes-that-could-shake-up-the-blockchain-world-in-2018/) (2018-01-01)
 
