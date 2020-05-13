@@ -167,6 +167,8 @@ nav:
         - Overview: 'archive/documentation/multisigs/overview.md'
         - Association: 'archive/documentation/multisigs/association.md'
         - Community: 'archive/documentation/multisigs/community.md'
+    - Newsletter:
+      - Mailchimp: 'archive/documentation/newsletter.md'
     - Meetings:
       - All Aragon Devs:
         - Overview: 'all_aragon_devs/overview.md'
