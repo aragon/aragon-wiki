@@ -11,11 +11,6 @@
     <iframe width="80%" height="390" src="https://www.youtube-nocookie.com/embed/zUoH_ddToqo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 !!! abstract ""
-    <h4>Aragon Chain AMA with Aragon One, Chainsafe, and Cosmos</h4>
-
-    <iframe width="80%" height="390" src="https://www.youtube-nocookie.com/embed/Qyl-0Wth2Z8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-!!! abstract ""
     <h4>Workshop on making Compound into a DAO by Jorge Izquierdo at [Crosslink Taipei](https://crosslink.taipei/)</h4>
 
     > [Video of presentation](https://www.pscp.tv/w/1MnGnEyljBBKO)
