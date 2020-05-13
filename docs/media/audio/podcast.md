@@ -1,5 +1,14 @@
 # Aragon podcast interviews
 
+### [Base Layer | Episode 091 - Luis Cuende (Aragon)](https://podcasts.apple.com/us/podcast/base-layer-episode-091-luis-cuende-aragon/id1445373535?i=1000459131827)
+> Luis, the co-founder of Aragon, joins us on Base Layer to talk all about Governance. Aragon is a project that many in the digital asset ecosystem are starting to look at for their unique governance tools -- a subject area that has show itself to be very difficult for some protocols to see through successfully. We also discussed the ability to create your own organization in 5 minutes and 2020 being the year of the DAO (question mark there). So much good stuff in this chat - def check it out!
+
+### [El Consenso | La gobernanza ocurre mucho antes que los votos](https://www.criptonoticias.com/podcasts/jorge-izquierdo-la-gobernanza-ocurre-mucho-antes-que-los-votos/)
+> Hoy conversamos con el nuevo y flamante CEO de Aragon One, Jorge Izquierdo y con María Gómez, encargada de negocios para Latinoamérica. Hablamos de los cambios que se vienen, de las fortalezas y debilidades del ecosistema de Ethereum para sostener una DAO, de la nueva blockchain de Aragon y de por qué las DAO son tan complicadas.
+
+### [Unchained | How Aragon Hopes to Improve on Democracy](https://unchainedpodcast.com/how-aragon-hopes-to-improve-on-democracy)
+> Luis Cuende, the CEO of Aragon One, describes the Aragon Network, how it aims to create new systems better for human coordination and the roles of the various parts of the ecosystem, such as Aragon One, the Aragon Association, the Aragon Court, Aragon Nest and the Aragon Network token. He describes the various parts of the Aragon Network, such as a finance app and voting app, how the network can be used both by decentralized organizations as well as centralized companies, and how he thinks decentralized autonomous organizations (DAOs) interact with real-world legal jurisdictions. We discuss how disputes are handled in Aragon, what the token, ANT, is used for, and why Aragon is contemplating building its own blockchain instead of sitting atop Ethereum, as it currently does. We also talk about how Aragon is governed, how it hopes to someday decentralize its governance and other ways Aragon can reach Cuende’s ideal governance. Plus, we cover a few controversial votes in Aragon and the role of whales in such systems.
+
 ### [The Blockcrunch - Can Crypto Change How We Run Organizations?](https://letstalkbitcoin.com/blog/post/the-blockcrunch-can-crypto-change-how-we-run-organizations-luis-cuende-aragon)
 > With the rise of decentralized companies and organizations, the need for tools to manage people around the world also emerges.  Aragon co-founder Luis Cuende and I continue our exploration of crypto governance this week. We discuss:
 > 
