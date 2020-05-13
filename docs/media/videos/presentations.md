@@ -1,10 +1,44 @@
 # Aragon Presentations
 
+!!! abstract ""
+    <h4>Jorge Izquierdo presenting Aragon in Santo Domingo (en español)</h4>
+
+    > [Video of presentation](https://www.pscp.tv/w/1DXxypayoeNJM)
+
+!!! abstract ""
+    <h4>Luis Cuende, Jorge Izquierdo, and Monica Zeng at [Ethereum Buenos Aires meetup](https://www.meetup.com/ethereum-ba/) (en español)</h4>
+
+    <iframe width="80%" height="390" src="https://www.youtube-nocookie.com/embed/zUoH_ddToqo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+!!! abstract ""
+    <h4>Aragon Chain AMA with Aragon One, Chainsafe, and Cosmos</h4>
+
+    <iframe width="80%" height="390" src="https://www.youtube-nocookie.com/embed/Qyl-0Wth2Z8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+!!! abstract ""
+    <h4>Workshop on making Compound into a DAO by Jorge Izquierdo at [Crosslink Taipei](https://crosslink.taipei/)</h4>
+
+    > [Video of presentation](https://www.pscp.tv/w/1MnGnEyljBBKO)
+
+!!! abstract ""
+    <h4>DAOs: What's next after ICOs and DeFi? Luis Cuende, Jorge Izquierdo, and Maria Gomez at the [**Ethereum Singapore meetup**](https://www.meetup.com/Ethereum-Singapore)</h4>
+  
+    > [Video of the presentation](https://www.pscp.tv/w/1mnxezjgpEnKX)
 
 !!! abstract ""
     <h4>Using DAOs to make decentralized protocols actually decentralized by Luis Cuende at [**DevconV**](https://devcon.org)</h4>
 
     <iframe width="80%" height="390" src="https://www.youtube-nocookie.com/embed/arbJXW1NeTM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    
+!!! abstract ""
+    <h4>Aragon Network votes retrospective by John Light at [**Web3 Summit 2019 DGOV Hackernode**](https://web3summit.com/)</h4>
+
+    <iframe width="80%" height="390" src="https://www.youtube-nocookie.com/embed/p8F7IgjGjKw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+!!! abstract ""
+    <h4>Aragon Court & Aragon Jurisdiction by Luke Duncan at [**Web3 Summit 2019 DGOV Hackernode**](https://web3summit.com/)</h4>
+
+    <iframe width="80%" height="390" src="https://www.youtube-nocookie.com/embed/gb5-FXVqvMY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 !!! abstract ""
     <h4>Creating a global co-op with Aragon by Luis Cuende at [**Progressbar**](https://cowork.progressbar.sk/)</h4>
