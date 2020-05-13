@@ -1,4 +1,4 @@
-# [wiki.aragon.org](https://wiki.aragon.org/) <img align="right" src="https://github.com/aragon/design/blob/master/readme-logo.png" height="80px" />
+# [wiki.aragon.org](https://wiki.aragon.org/) <img align="right" src="https://github.com/aragon/aragon-wiki/blob/master/docs/design/logo/png/imagetype_light.png" height="80px" />
 
 ## This wiki for the Aragon Project contains much of the content and resources available publicly
 
