@@ -20,12 +20,19 @@ ANJ was initially made available for pre-activation prior to the launch of Arago
 
 The total amount of ANT participating in the ANJ pre-activation period was `1,014,908.261129677609748657 ANT`, for a total of `101,490,826.1129677609748657 ANJ` pre-activated by 247 unique Ethereum addresses.
 
+In the [pre-activation announcement blog post](https://aragon.org/blog/aragon-court-pre-activation), the Aragon Association mentioned that the Aragon Network (then controlled by a five member Governor Council) would be entitled to generate up to 10% of the pre-activation supply of ANJ for itself:
+
+> After the pre-activation period ends, the Aragon Network DAO can mint up to a 10% of the initial supply of ANJ and transfer it to the DAO. The Aragon Network DAO would then allocate those tokens to incentivize usage or onboarding jurors.
+
+The Aragon Network Governor Council used its ability to mint an additional `((101,490,826.1129677609748657 x 0.1) + 101,490,826.1129677609748657) x 0.1 = 11,163,990.872426454 ANJ` for itself, bringing the total initial supply of ANJ to `111,639,908.724264537 ANJ`.
+
 The ANJ pre-activation smart contract was audited by ConsenSys Diligence, who published their [audit report](https://diligence.consensys.net/audits/2019/11/aragonone-aragon-network-presale/) in November 2019.
 
 **Sources:**  
 - [Juror pre-activation guide](https://blog.aragon.org/juror-pre-activation-guide/)  
 - [ANJ pre-activation contract](https://etherscan.io/address/0xf89c8752d82972f94a4d1331e010ed6593e8ec49#readProxyContract)  
 - [Launching Aragon Court blog post](https://blog.aragon.org/launching-aragon-court/)  
+- [Aragon Network deployment template](https://github.com/aragon/aragon-network-deploy/blob/master/data/input/template.js#L23)
 
 ## Variable supply
 
