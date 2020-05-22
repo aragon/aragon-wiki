@@ -13,7 +13,7 @@
       
       
       <link rel="shortcut icon" href="../../images/favicon.ico">
-      <meta name="generator" content="mkdocs-1.1.1, mkdocs-material-5.1.6">
+      <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-5.2.1">
     
     
       
@@ -21,9 +21,9 @@
       
     
     
-      <link rel="stylesheet" href="../../assets/stylesheets/main.4b9ffd7b.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.71dfd922.min.css">
       
-        <link rel="stylesheet" href="../../assets/stylesheets/palette.b79bcd20.min.css">
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.616af814.min.css">
       
       
         
@@ -52,7 +52,8 @@
   
     
     
-    <body dir="ltr" data-md-color-primary="blue-grey" data-md-color-accent="cyan">
+    
+    <body dir="ltr" data-md-color-scheme="" data-md-color-primary="blue-grey" data-md-color-accent="cyan">
   
     <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
@@ -5429,11 +5430,17 @@
 <h2 id="initial-token-distribution">Initial token distribution</h2>
 <p>ANJ was initially made available for pre-activation prior to the launch of Aragon Court. Anyone could stake ANT to participate in the pre-activation period, at a rate of 100 ANJ per 1 ANT, with a minimum pre-activation requirement of 10,000 ANJ.</p>
 <p>The total amount of ANT participating in the ANJ pre-activation period was <code>1,014,908.261129677609748657 ANT</code>, for a total of <code>101,490,826.1129677609748657 ANJ</code> pre-activated by 247 unique Ethereum addresses.</p>
+<p>In the <a href="https://aragon.org/blog/aragon-court-pre-activation">pre-activation announcement blog post</a>, the Aragon Association mentioned that the Aragon Network (then controlled by a five member Governor Council) would be entitled to generate up to 10% of the pre-activation supply of ANJ for itself:</p>
+<blockquote>
+<p>After the pre-activation period ends, the Aragon Network DAO can mint up to a 10% of the initial supply of ANJ and transfer it to the DAO. The Aragon Network DAO would then allocate those tokens to incentivize usage or onboarding jurors.</p>
+</blockquote>
+<p>The Aragon Network Governor Council used its ability to mint an additional <code>((101,490,826.1129677609748657 x 0.1) + 101,490,826.1129677609748657) x 0.1 = 11,163,990.872426454 ANJ</code> for itself, bringing the total initial supply of ANJ to <code>111,639,908.724264537 ANJ</code>.</p>
 <p>The ANJ pre-activation smart contract was audited by ConsenSys Diligence, who published their <a href="https://diligence.consensys.net/audits/2019/11/aragonone-aragon-network-presale/">audit report</a> in November 2019.</p>
 <p><strong>Sources:</strong><br />
 - <a href="https://blog.aragon.org/juror-pre-activation-guide/">Juror pre-activation guide</a><br />
 - <a href="https://etherscan.io/address/0xf89c8752d82972f94a4d1331e010ed6593e8ec49#readProxyContract">ANJ pre-activation contract</a><br />
-- <a href="https://blog.aragon.org/launching-aragon-court/">Launching Aragon Court blog post</a>  </p>
+- <a href="https://blog.aragon.org/launching-aragon-court/">Launching Aragon Court blog post</a><br />
+- <a href="https://github.com/aragon/aragon-network-deploy/blob/master/data/input/template.js#L23">Aragon Network deployment template</a></p>
 <h2 id="variable-supply">Variable supply</h2>
 <p>The ANJ bonding curve went live with the official launch of Aragon Court on Fight For Freedom Day February 10, 2020. After the bonding curve went live, ANJ became available for conversion against the curve at a variable rate as determined by the <a href="#automated-market-making">bonding curve formula</a>.</p>
 <p>From the <a href="https://help.aragon.org/article/44-how-to-get-anj-and-become-an-aragon-court-juror">ANJ article</a> at the Aragon Help Desk:</p>
@@ -5454,15 +5461,15 @@
 <p><img alt="y = m \cdot x^n" src="../images/ANJ--1.png" /></p>
 <p>In our case the value of <code>n</code> is 4, taking into account that the reserve ratio equals <code>1/100</code>.</p>
 <p>To get <code>m</code>, we use the price set by the bonding curve when the bonding curve went live, which was the same as the pre-activation price i.e., 100 ANJ per 1 ANT, and the total amount of ANJ minted during pre-activation, <code>101,490,826.112967760974865700 ANJ</code>. So:</p>
-<p><img alt="klzzwxh:0028klzzwxh:0028" src="../images/ANJ--2.png" /></p>
+<p><img alt="klzzwxh:0033klzzwxh:0033" src="../images/ANJ--2.png" /></p>
 <p>If we take the integral of that curve between two ANJ supply points, <code>x_0</code> and <code>x_1</code>, we get the total amount of ANT contributed to mint <code>x_1 - x_0</code> ANJ tokens.</p>
 <p>So if all the existing ANT, let's call it <code>T</code>, were to be contributed to the curve, that amount would be the integral between 0 and the maximum possible amount of ANJ, let's call it <code>J</code>:</p>
-<p><img alt="klzzwxh:0036klzzwxh:0036; klzzwxh:0038klzzwxh:0038" src="../images/ANJ--3.png" /></p>
+<p><img alt="klzzwxh:0041klzzwxh:0041; klzzwxh:0043klzzwxh:0043" src="../images/ANJ--3.png" /></p>
 <p>Now we substitute <code>T</code> with the current total supply of ANT, <code>39,609,523.80952380954</code>:</p>
-<p><img alt="klzzwxh:0043klzzwxh:0043" src="../images/ANJ--4.png" /></p>
+<p><img alt="klzzwxh:0048klzzwxh:0048" src="../images/ANJ--4.png" /></p>
 <p>Therefore, given a total supply of <code>39,609,523.80952380954 ANT</code>, the theoretical maximum supply of ANJ is <code>350,868,849.187414177 ANJ</code>.</p>
 <p>To try calculating the ANJ supply with other amounts of ANT deposited in the bonding curve, replace <code>T</code> in this formula with the desired ANT amount:</p>
-<p><img alt="klzzwxh:0049klzzwxh:0049" src="../images/ANJ--5.png" /></p>
+<p><img alt="klzzwxh:0054klzzwxh:0054" src="../images/ANJ--5.png" /></p>
 <h2 id="automated-market-making">Automated market making</h2>
 <p>The ANJ bonding curve formula not only determines the supply of ANJ, but also its conversion rate against ANT.</p>
 <p>On January 17, 2020, Aragon One Solidity Engineer Bingen Eguzkitza published an <a href="https://observablehq.com/@anjbondingcurve/anj-bonding-curve">Observable document</a> showing what the conversion rate of ANT:ANJ would be given a specified set of inputs, namely the pre-activation supply of ANJ plus or minus the amount of ANT deposited in or withdrawn from the ANJ bonding curve after the bonding curve went live.</p>
@@ -5609,15 +5616,15 @@ These services enable you to convert between ANT and ANJ by directly interfacing
       
     </div>
     
-      <script src="../../assets/javascripts/vendor.a0c4167b.min.js"></script>
-      <script src="../../assets/javascripts/bundle.fb26dd1d.min.js"></script><script id="__lang" type="application/json">{"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents"}</script>
+      <script src="../../assets/javascripts/vendor.d710d30a.min.js"></script>
+      <script src="../../assets/javascripts/bundle.5f27aba8.min.js"></script><script id="__lang" type="application/json">{"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents"}</script>
       
       <script>
         app = initialize({
           base: "../..",
           features: [],
           search: Object.assign({
-            worker: "../../assets/javascripts/worker/search.37585f48.min.js"
+            worker: "../../assets/javascripts/worker/search.27c6a5e6.min.js"
           }, typeof search !== "undefined" && search)
         })
       </script>
