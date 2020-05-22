@@ -24,7 +24,7 @@ In the [pre-activation announcement blog post](https://aragon.org/blog/aragon-co
 
 > After the pre-activation period ends, the Aragon Network DAO can mint up to a 10% of the initial supply of ANJ and transfer it to the DAO. The Aragon Network DAO would then allocate those tokens to incentivize usage or onboarding jurors.
 
-The Aragon Network Governor Council used its ability to mint an additional `(101,490,826.1129677609748657 + 11,276,758.456996418) x 0.1 = 11,276,758.456996418 ANJ` for itself, bringing the total initial supply of ANJ to `112,767,584.569964179 ANJ`.
+The Aragon Network Governor Council used its ability to mint an additional `101,490,826.1129677609748657 * 0.1 / (1 - 0.1) =  11,276,758.456996417886096188 ANJ` for itself, bringing the total initial supply of ANJ to `112,767,584.569964179 ANJ`.
 
 The ANJ pre-activation smart contract was audited by ConsenSys Diligence, who published their [audit report](https://diligence.consensys.net/audits/2019/11/aragonone-aragon-network-presale/) in November 2019.
 
