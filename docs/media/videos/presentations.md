@@ -16,6 +16,11 @@
     > [Video of presentation](https://www.pscp.tv/w/1MnGnEyljBBKO)
 
 !!! abstract ""
+    <h4>DAOs: What's next after ICOs and DeFi? Luis Cuende at [**Hashed Lounge**](https://www.meetup.com/HashedLounge/)</h4>
+  
+    <iframe width="80%" height="390" src="https://www.youtube-nocookie.com/embed/23z4DacbjrU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+!!! abstract ""
     <h4>DAOs: What's next after ICOs and DeFi? Luis Cuende, Jorge Izquierdo, and Maria Gomez at the [**Ethereum Singapore meetup**](https://www.meetup.com/Ethereum-Singapore)</h4>
   
     > [Video of the presentation](https://www.pscp.tv/w/1mnxezjgpEnKX)
