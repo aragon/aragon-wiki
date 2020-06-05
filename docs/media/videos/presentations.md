@@ -29,7 +29,12 @@
     <h4>Using DAOs to make decentralized protocols actually decentralized by Luis Cuende at [**DevconV**](https://devcon.org)</h4>
 
     <iframe width="80%" height="390" src="https://www.youtube-nocookie.com/embed/arbJXW1NeTM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    
+
+!!! abstract ""
+    <h4>Opting out of the legal system: Introducing a decentralized court by Luis Cuende at [**HCPP19**](https://opt-out.hcpp.cz/)</h4>
+
+    <iframe width="80%" height="390" src="https://www.youtube-nocookie.com/embed/Z-ceGfjcRdk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 !!! abstract ""
     <h4>Aragon Network votes retrospective by John Light at [**Web3 Summit 2019 DGOV Hackernode**](https://web3summit.com/)</h4>
 
