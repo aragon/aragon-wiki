@@ -54,7 +54,7 @@ We have a style guide that contributors should follow to maintain consistency an
 
 - Lists should always be in alphabetical, numerical, or chronological order, unless there’s a good reason for them not to be.
 
-- The format of dates is either Month Day, Year or YYYY-MM-DD.
+- The format to use for dates is either YYYY-MM-DD if numeric (e.g 2020-12-31) or Month D(D, YYYY) if spelled out (e.g. January 1 or December 31, 2020).
     - Related: all times are communicated in UTC to avoid the confusion of “Daylight Savings Time”, which is inconsistently implemented across the world (even within the same country) and is [generally a scourge on humanity](https://www.inc.com/jessica-stillman/experts-to-public-daylight-savings-time-is-a-434m-problem-we-could-easily-fix.html).
 
 - About bullet points:
