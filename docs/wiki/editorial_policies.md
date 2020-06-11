@@ -61,9 +61,9 @@ We have a style guide that contributors should follow to maintain consistency an
     - Use a period (full stop) after every bullet point that is a sentence.
     - Use a period after every bullet point that completes the introductory stem.
     - Unless the bullet point only contains one word e.g. My favorite cryptoassets are:
-      - ANT
-      - ETH
-      - ZRX
+        - ANT
+        - ETH
+        - ZRX
     - Use no punctuation after bullets that are fragment sentences and do not complete the stem.
     - Use all sentences or all fragments, not a mixture.
 
