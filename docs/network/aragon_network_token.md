@@ -111,6 +111,7 @@ _Disclaimer: Nothing on this page should be taken as investment advice. Inclusio
 - HitBTC - [https://hitbtc.com](https://hitbtc.com)
 - IDEX - [https://idex.market](https://idex.market)
 - KyberSwap - [https://kyberswap.com](https://kyberswap.com/swap/eth-ant)
+- Nash - [https://nash.io](https://app.nash.io/trade/exchange/advanced?from=ant&to=btc)
 - Paradex - [https://paradex.io/](https://paradex.io/)
 - Radar Relay - [https://radarrelay.com/](https://radarrelay.com/)
 - SimpleSwap - [https://simpleswap.io/](https://simpleswap.io/)
@@ -118,7 +119,7 @@ _Disclaimer: Nothing on this page should be taken as investment advice. Inclusio
 - Stealthex - [https://stealthex.io/](https://stealthex.io/)
 - Swapzone - [https://swapzone.io/](https://swapzone.io/)
 - Switchain - [https://www.switchain.com/](https://www.switchain.com/)
-- Uniswap - [https://uniswap.exchange/swap](https://uniswap.exchange/swap)
+- Uniswap - [https://uniswap.exchange](https://uniswap.exchange/swap)
 - UpBit - [https://upbit.com](https://upbit.com)
 
 **OTC Brokers:**
