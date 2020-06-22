@@ -54,6 +54,8 @@ This page has a list of projects created by the Aragon community, and also inclu
 
 - [District0x](https://district0x.io) ([Proof](https://education.district0x.io/district0x-specific-topics/understanding-technology-behind-district0x/aragon/))
 
+- [elimu.ai Community DAO](http://elimu.ai) ([Proof](https://medium.com/elimu-ai/why-did-the-elimu-ai-community-decide-to-use-aragon-e9863c135111))
+
 - [lexDAO](https://github.com/lexDAO) ([Proof](https://twitter.com/lex_DAO/status/1196201381927047168))
 
 - [Melon Protocol](https://melonprotocol.com/) ([Proof](https://medium.com/melonprotocol/launching-the-melon-council-dao-on-aragonos-42147c86582))
