@@ -14,6 +14,15 @@ This page has a list of projects created by the Aragon community, and also inclu
 
 - [Scout](https://scout.cool/aragon/mainnet/)
 
+## Aragon utilities
+> Tools built for Aragon organizations.
+
+- [1Hive Installer](https://installer.1hive.org/)
+
+- [Apiary Profiles](https://blog.1hive.org/introducing-profiles-on-apiary/)
+
+- [AraGraph](https://diligence.consensys.net/blog/2019/11/aragraph-dao-permissions-visualized/)
+
 ## Using [aragonOS](https://hack.aragon.org/docs/aragonos-ref.html)
 > These are projects that are currently already using the [aragonOS architecture](https://hack.aragon.org/docs/aragonos-ref.html) or parts of it
 
@@ -48,6 +57,8 @@ This page has a list of projects created by the Aragon community, and also inclu
 
 - [Centrifuge](https://centrifuge.io) ([Proof](https://medium.com/centrifuge/centrifuges-dev-fund-dao-the-lab-7116fce19c43))
 
+- [Curve](https://www.curve.fi/) ([Proof](https://github.com/curvefi/curve-dao-contracts/blob/master/doc/readme.pdf))
+
 - [Cyber](https://github.com/cybercongress) ([Proof](https://ipfs.io/ipfs/QmceNpj6HfS81PcCaQXrFMQf7LR5FTLkdG9sbSRNy3UXoZ))
 
 - [Decentraland](https://decentraland.org) ([Proof](https://decentraland.org/blog/announcements/Introducing-the-Decentraland-DAO/))
@@ -62,7 +73,11 @@ This page has a list of projects created by the Aragon community, and also inclu
 
 - [MyBit](https://mybit.io) ([Proof](https://medium.com/mybit-dapp/mybit-dao-tutorial-5b3bc093963b)) 
 
+- [NuCypher](https://www.nucypher.com) ([Proof](https://blog.nucypher.com/announcing-the-nucypher-dao/))
+
 - [Ocean Protocol](https://oceanprotocol.com/) ([Proof](https://oceanprotocol.com/tech-whitepaper.pdf))
+
+- [Pillar](https://pillarproject.io/) ([Proof](https://twitter.com/pillarwallet/status/1284185403591995393))
 
 - [Pool Together](https://pooltogether.us) ([Proof](https://twitter.com/PoolTogether_/status/1143162275655749633))
 
