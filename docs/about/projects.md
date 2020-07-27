@@ -41,7 +41,7 @@ This page has a list of projects created by the Aragon community, and also inclu
 ## Powered by Aragon
 > **Aragon went [live on the Ethereum mainnet](https://blog.aragon.org/aragon-06-is-live-on-mainnet/) on October 30th, 2018. This is a list of projects that have publicly announced their interest in utilizing Aragon, we can't wait to see what they do!**
 >
-> See also our [guidelines](../design/powered_by_aragon.md) for projects "_Powered by Aragon_".
+> See also our [guidelines](../design/powered_by_aragon.md) for projects "[_Powered by Aragon_](https://twitter.com/search?q=%23PoweredByAragon&src=typed_query&f=live)".
 >
 > This is a list of existing projects that have publicly announced that they are or plan to become "_Powered by Aragon_". You can add your project to this list by submitting a pull request modifying [this page](https://github.com/aragon/aragon-wiki/edit/master/docs/about/projects.md) on the Aragon Wiki GitHub repo. Please include a link to your project's home page and a "Proof" link to some documentation that describes how your project is using Aragon.
 
@@ -80,6 +80,8 @@ This page has a list of projects created by the Aragon community, and also inclu
 - [Pillar](https://pillarproject.io/) ([Proof](https://twitter.com/pillarwallet/status/1284185403591995393))
 
 - [Pool Together](https://pooltogether.us) ([Proof](https://twitter.com/PoolTogether_/status/1143162275655749633))
+
+- [pTokens](https://ptokens.io) ([Proof](https://medium.com/provable/power-the-pnetwork-dao-and-earn-42-interest-apr-on-your-stake-eb994fb50ba6?sk=bf53b9c8d724be61e9b7e7cdf045830c))
 
 - [Reddit (r/ethtrader)](https://www.reddit.com/r/ethtrader/) ([Proof](https://www.reddit.com/r/ethtrader/comments/e70bjc/donutsonethereum_launched/))
 
