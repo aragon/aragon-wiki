@@ -13,7 +13,7 @@
       
       
       <link rel="shortcut icon" href="../../images/favicon.ico">
-      <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-5.5.0">
+      <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-5.5.6">
     
     
       
@@ -21,9 +21,9 @@
       
     
     
-      <link rel="stylesheet" href="../../assets/stylesheets/main.b5d04df8.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.63b94e9e.min.css">
       
-        <link rel="stylesheet" href="../../assets/stylesheets/palette.9ab2c1f8.min.css">
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.7f672a1f.min.css">
       
       
         
@@ -5486,13 +5486,6 @@
   
 </li>
         
-          <li class="md-nav__item">
-  <a href="#highlighting-specific-lines" class="md-nav__link">
-    Highlighting specific lines
-  </a>
-  
-</li>
-        
       </ul>
     </nav>
   
@@ -5790,13 +5783,6 @@
           <li class="md-nav__item">
   <a href="#grouping-code-blocks" class="md-nav__link">
     Grouping code blocks
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#highlighting-specific-lines" class="md-nav__link">
-    Highlighting specific lines
   </a>
   
 </li>
@@ -6230,39 +6216,39 @@ int main() {
 </code></pre></div>
 
 <p>Result:</p>
-<div class="tabbed-set" data-tabs="1:3">
-<input name="__tabbed_1" type="radio" id="__tabbed_1_1" checked="checked" /><label for="__tabbed_1_1">Bash</label><div class="tabbed-content"><div class="highlight"><pre><span></span><code><span class="ch">#!/bin/bash</span>
+<p>``` bash tab="Bash"</p>
+<h1 id="binbash">!/bin/bash</h1>
+<p>echo "Hello world!"
+<div class="highlight"><pre><span></span><code>``` c tab=&quot;C&quot;
+#include &lt;stdio.h&gt;
 
-<span class="nb">echo</span> <span class="s2">&quot;Hello world!&quot;</span>
-</code></pre></div></div>
-<input name="__tabbed_1" type="radio" id="__tabbed_1_2" /><label for="__tabbed_1_2">C</label><div class="tabbed-content"><div class="highlight"><pre><span></span><code><span class="cp">#include</span> <span class="cpf">&lt;stdio.h&gt;</span><span class="cp"></span>
+int main(void) {
+  printf(&quot;Hello world!\n&quot;);
+}
+</code></pre></div></p>
+<p>``` c++ tab="C++"</p>
+<h1 id="include">include <iostream></h1>
+<p>int main() {
+  std::cout &lt;&lt; "Hello world!" &lt;&lt; std::endl;
+  return 0;
+}
+<div class="highlight"><pre><span></span><code>### Highlighting specific lines
 
-<span class="kt">int</span> <span class="nf">main</span><span class="p">(</span><span class="kt">void</span><span class="p">)</span> <span class="p">{</span>
-  <span class="n">printf</span><span class="p">(</span><span class="s">&quot;Hello world!</span><span class="se">\n</span><span class="s">&quot;</span><span class="p">);</span>
-<span class="p">}</span>
-</code></pre></div></div>
-<input name="__tabbed_1" type="radio" id="__tabbed_1_3" /><label for="__tabbed_1_3">C++</label><div class="tabbed-content"><div class="highlight"><pre><span></span><code><span class="cp">#include</span> <span class="cpf">&lt;iostream&gt;</span><span class="cp"></span>
+Specific lines can be highlighted by passing the line numbers to the `hl_lines`
+argument placed right after the language identifier. Line counts start at 1.
 
-<span class="kt">int</span> <span class="nf">main</span><span class="p">()</span> <span class="p">{</span>
-  <span class="n">std</span><span class="o">::</span><span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">&quot;Hello world!&quot;</span> <span class="o">&lt;&lt;</span> <span class="n">std</span><span class="o">::</span><span class="n">endl</span><span class="p">;</span>
-  <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
-<span class="p">}</span>
-</code></pre></div></div>
-</div>
-<h3 id="highlighting-specific-lines">Highlighting specific lines</h3>
-<p>Specific lines can be highlighted by passing the line numbers to the <code>hl_lines</code>
-argument placed right after the language identifier. Line counts start at 1.</p>
-<p>Example:</p>
-<div class="highlight"><pre><span></span><code>``` python hl_lines=&quot;3 4&quot;
+Example:
+
+```` markdown
+``` python hl_lines=&quot;3 4&quot;
 &quot;&quot;&quot; Bubble sort &quot;&quot;&quot;
 def bubble_sort(items):
     for i in range(len(items)):
         for j in range(len(items) - 1 - i):
             if items[j] &gt; items[j + 1]:
                 items[j], items[j + 1] = items[j + 1], items[j]
-```
 </code></pre></div>
-
+````</p>
 <p>Result:</p>
 <table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre>1
 2
@@ -6413,15 +6399,15 @@ def bubble_sort(items):
       
     </div>
     
-      <script src="../../assets/javascripts/vendor.92ffa368.min.js"></script>
-      <script src="../../assets/javascripts/bundle.5123e3d4.min.js"></script><script id="__lang" type="application/json">{"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents"}</script>
+      <script src="../../assets/javascripts/vendor.d1f5a259.min.js"></script>
+      <script src="../../assets/javascripts/bundle.d5fec882.min.js"></script><script id="__lang" type="application/json">{"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents"}</script>
       
       <script>
         app = initialize({
           base: "../..",
           features: [],
           search: Object.assign({
-            worker: "../../assets/javascripts/worker/search.a68abb33.min.js"
+            worker: "../../assets/javascripts/worker/search.fae956e7.min.js"
           }, typeof search !== "undefined" && search)
         })
       </script>
