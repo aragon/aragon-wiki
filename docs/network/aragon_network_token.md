@@ -102,6 +102,7 @@ _Disclaimer: Nothing on this page should be taken as investment advice. Inclusio
 **Exchanges:**
 
 - Bancor - [https://www.bancor.network/](https://www.bancor.network/)
+- Binance - [https://binance.com](https://binance.com)
 - Bitplace - [https://www.bitplace.to](https://www.bitplace.to)
 - Bitfinex - [https://bitfinex.com](https://bitfinex.com)
 - Bittrex International - [https://international.bittrex.com](https://international.bittrex.com)
@@ -109,9 +110,11 @@ _Disclaimer: Nothing on this page should be taken as investment advice. Inclusio
 - EtherDelta - [https://etherdelta.com/](https://etherdelta.com/)
 - Ethfinex - [https://www.ethfinex.com](https://www.ethfinex.com)
 - HitBTC - [https://hitbtc.com](https://hitbtc.com)
+- Huobi -[https://huobi.com](https://huobi.com)
 - IDEX - [https://idex.market](https://idex.market)
 - KyberSwap - [https://kyberswap.com](https://kyberswap.com/swap/eth-ant)
 - Nash - [https://nash.io](https://app.nash.io/trade/exchange/advanced?from=ant&to=btc)
+- OKEx - [https://okex.com](https://okex.com)
 - Paradex - [https://paradex.io/](https://paradex.io/)
 - Radar Relay - [https://radarrelay.com/](https://radarrelay.com/)
 - SimpleSwap - [https://simpleswap.io/](https://simpleswap.io/)
@@ -125,6 +128,7 @@ _Disclaimer: Nothing on this page should be taken as investment advice. Inclusio
 **OTC Brokers:**
 
 Bering Waters - [https://www.beringwaters.com/](https://www.beringwaters.com/)
+GSR - [https://gsr.io](https://gsr.io)
 
 ---
-Page owner: John Light (@john-light). Last updated 2020-05-12.
+Page owner: John Light (@john-light). Last updated 2020-08-13.
