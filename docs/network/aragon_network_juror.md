@@ -62,7 +62,7 @@ ANJ comes from a bonding curve that mints ANJ in exchange for ANT. This is the o
 
 ![y = m \cdot x^n](images/ANJ--1.png)
 
-In our case the value of `n` is 4, taking into account that the reserve ratio equals `1/100`.
+In our case the value of `n` is 3, taking into account that the reserve ratio equals `25%`.
 
 To get `m`, we use the price set by the bonding curve when the bonding curve went live, which was the same as the pre-activation price i.e., 100 ANJ per 1 ANT, and the total amount of ANJ minted during pre-activation, `101,490,826.112967760974865700 ANJ`. So:
 
