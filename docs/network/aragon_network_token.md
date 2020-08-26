@@ -127,8 +127,8 @@ _Disclaimer: Nothing on this page should be taken as investment advice. Inclusio
 
 **OTC Brokers:**
 
-Bering Waters - [https://www.beringwaters.com/](https://www.beringwaters.com/)
-GSR - [https://gsr.io](https://gsr.io)
+- Bering Waters - [https://www.beringwaters.com/](https://www.beringwaters.com/)  
+- GSR - [https://gsr.io](https://gsr.io)
 
 ---
-Page owner: John Light (@john-light). Last updated 2020-08-13.
+Page owner: John Light (@john-light). Last updated 2020-08-26.
