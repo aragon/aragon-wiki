@@ -2,7 +2,7 @@
 
 [0xbeefbeef03c7e5a1c29e0aa675f8e16aee0a5fad](https://etherscan.io/address/0xbeefbeef03c7e5a1c29e0aa675f8e16aee0a5fad)
 
-Required signatures: 5/7
+Required signatures: 6/9
 
 ## Signers
 
@@ -58,6 +58,22 @@ Required signatures: 5/7
 [Address](https://etherscan.io/address/0xd8684AcE445701c04Cb610d806BE568B2CBa0f2A)  
 [Proof](https://etherscan.io/tx/0xe99a217c4150a6787b7755364b7b3881bfef56b893a6908993fc8248a626894a)  
 [Keybase](https://keybase.io/placeholdervc)
+
+#### Stefano Bernardi
+
+> Co-founder of [Semantic Ventures](http://semantic.vc/) and advisor to the Aragon Association.
+
+[Address](https://etherscan.io/address/0x6AD7baBfdC153ec9dDC78b49523f33FFaD4f3631)  
+[Proof](https://www.notion.so/Adding-Ste-and-Brayton-to-community-multisig-b2aad7dd19ed4d1d9099c9ad869c0cab)  
+[Keybase](https://keybase.io/ste)
+
+#### Brayton Williams
+
+> Co-founder of [Boost VC](http://boost.vc/) and advisor to the Aragon Association.
+
+[Address](https://etherscan.io/address/0xfDB9025C057715ab6603a8672b219Fcad3F04B14)  
+[Proof](https://www.notion.so/Adding-Ste-and-Brayton-to-community-multisig-b2aad7dd19ed4d1d9099c9ad869c0cab)  
+[Keybase](https://keybase.io/brayton)
 
 ## Proof notes
 
