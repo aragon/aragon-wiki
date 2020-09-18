@@ -4,9 +4,6 @@
 
 During each Aragon Network Vote, Aragon Network Token ([ANT](../../network/aragon_network_token.md)) holders have an opportunity to cast their votes to approve or reject proposals that are up for a vote. ANT is a token on the Ethereum network, with access controlled by a private key corresponding to the owner of each token. Votes are cast by using the private key of an account holding ANT to sign a transaction authorizing a vote to be cast with the ANT. No ANT is transferred by this vote transaction, and voting can be done with keys kept completely offline in so-called "cold storage".
 
-!!! info "Note"
-    The exact details of which AGP voting app to use and what data to use for raw transactions is published in a "Final details" blog post before each Aragon Network Vote. Visit the [Aragon project blog](https://blog.aragon.org/tag/governance-proposals/) to find the most recent "Final details" blog post with specific information about the vote you want to participate in, then cast your vote for each proposal you want to vote on.
-
 !!! warning "Note"
     If you store your ANT on an exchange, then unless the exchange has explicitly enabled functionality to vote from your exchange account, you must first withdraw your ANT to an Ethereum account that you control the private key to or have the authority to vote from **before the vote starts** so that you can properly sign the vote transaction. After the vote has started, you can transfer the ANT back to the exchange account.
 
