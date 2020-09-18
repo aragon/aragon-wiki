@@ -1,13 +1,8 @@
-# How to vote in an Aragon Network Vote
-
-## Background
-Once per quarter, the Aragon community gets together to make key decisions affecting the future of the project as part of the Aragon Governance Proposal (AGP) process. Originally defined in [AGP-1: The Aragon Governance Proposal Process](https://github.com/aragon/AGPs/blob/master/AGPs/AGP-1.md), and grounded in the values of [AGP-0: The Aragon Manifesto](https://github.com/aragon/AGPs/blob/master/AGPs/AGP-0.md), the AGP process defines a way for community members to present proposals that introduce some change to an important area of the project, and then vote together to approve or reject the proposals.
-
-You can learn more about the AGP process on the [Aragon Governance](overview.md) page of the wiki.
+# How to vote with ANT using the Aragon client
 
 ## Voting methods
 
-During each Aragon Network Vote, Aragon Network Token ([ANT](../../network/aragon_network_token.md)) holders have an opportunity to cast their votes to approve or reject proposals that have made it through the AGP process and onto the final ballot. ANT is a token on the Ethereum network, with access controlled by a private key corresponding to the owner of each token. Votes are cast by using the private key of an account holding ANT to sign a transaction authorizing a vote to be cast with the ANT. No ANT is transferred by this vote transaction, and voting can be done with keys kept completely offline in so-called "cold storage".
+During each Aragon Network Vote, Aragon Network Token ([ANT](../../network/aragon_network_token.md)) holders have an opportunity to cast their votes to approve or reject proposals that are up for a vote. ANT is a token on the Ethereum network, with access controlled by a private key corresponding to the owner of each token. Votes are cast by using the private key of an account holding ANT to sign a transaction authorizing a vote to be cast with the ANT. No ANT is transferred by this vote transaction, and voting can be done with keys kept completely offline in so-called "cold storage".
 
 !!! info "Note"
     The exact details of which AGP voting app to use and what data to use for raw transactions is published in a "Final details" blog post before each Aragon Network Vote. Visit the [Aragon project blog](https://blog.aragon.org/tag/governance-proposals/) to find the most recent "Final details" blog post with specific information about the vote you want to participate in, then cast your vote for each proposal you want to vote on.
@@ -48,6 +43,12 @@ Currently the only way to vote with a Trezor wallet is by using [Frame](https://
 See the instructions MetaMask has published for using Trezor with MetaMask [here](https://medium.com/metamask/trezor-integration-in-metamask-a8eaeae7f499).
 
 To vote with Frame, first install the Frame desktop app from [https://frame.sh](https://frame.sh) and select "Mainnet" in the connection settings as the network you want to use. If you are using the Aragon Desktop client, that is all you need. If you are using the Aragon web client with a web browser, then you need to install a compatible Frame browser extension, links to which can also be found on [https://frame.sh](https://frame.sh). Next, plug in your hardware wallet, enter your PIN, and open the Ethereum app. Navigate to the AGP voting app in Aragon, then open Frame and give the Aragon client permission to access your Ethereum accounts via Frame. Now you can vote and confirm the transaction on your Trezor hardware wallet via the Frame interface.
+
+### Voting using ANT held by an Aragon Agent
+
+It is possible to vote on transactions using ANT held by an Aragon Agent. The easiest way is to connect your Agent to Frame using Frame's smart accounts feature. You can learn how to do this in [this Aragon Help Desk article](https://help.aragon.org/article/37-agent).
+
+You can also use [aragonCLI](https://hack.aragon.org/docs/guides-use-agent#introducing-dao-act) or the [Aragon Console](https://github.com/aragon/aragon/blob/master/docs/CONSOLE.md#act) if you prefer.
 
 ### Voting with keys stored offline (but not in a Ledger or Trezor)
 If you are voting with keys that are stored offline (but not in a Ledger or Trezor), for example in a paper wallet or offline USB stick, you can follow MyCrypto’s guide “[How To Make An Offline Transaction](https://support.mycrypto.com/offline/making-offline-transaction-on-mycrypto.html)” to create an offline transaction using your offline keys. You may also find the guide “[How To Run MyCrypto Offline and Locally](https://support.mycrypto.com/offline/running-mycrypto-locally.html)” helpful if you are unfamiliar with how to use MyCrypto offline.
