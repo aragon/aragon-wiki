@@ -33,12 +33,6 @@ Continuing from the ANJ Help Desk article:
 
 More information about the use of ANT and ANJ in Aragon Court can be found in the [Aragon Network whitepaper](https://github.com/aragon/whitepaper).
 
-### Aragon Chain  
-
-In a [blog post announcing Aragon Chain](https://blog.aragon.one/aragon-chain/), a Proof-of-Stake blockchain built for the Aragon community, the Aragon One team has proposed that ANT could be deposited into a bonding curve to mint Aragon Chain (ARA) tokens. These tokens would be required to stake and become a validator for the Aragon Chain. With [AGP-106](https://github.com/aragon/AGPs/blob/master/AGPs/AGP-106.md) approved in Aragon Network Vote #4, the blockchain development company ChainSafe is now the team responsible for putting the Aragon Chain plan into action.
-
-ChainSafe published the first [public specification](https://medium.com/chainsafe-systems/aragon-chain-spec-goes-public-b3b8ff99deb9) of Aragon Chain on January 17, 2020.
-
 ## Initial token distribution
 
 ANT was initially created and distributed as a result of a [public token sale](https://blog.aragon.org/announcing-the-aragon-network-token-sale-fe83fe36902c) that took place on [May 17, 2017](https://blog.aragon.org/final-token-sale-recap-1ac64ab7cfcd) - starting at Ethereum block 3,723,000 to be exact. Less than 100 blocks later, 275,000 ETH worth of ANT were sold. Added together with ANT sold in the pre-sale, ANT granted to the Aragon Institute (now the Aragon Association), and ANT granted to founders and early contributors, the total initial supply of ANT after the token sale is 39,609,523.80952380954 ANT.
@@ -66,19 +60,33 @@ Total supply: 39,609,523.80952380954 ANT`*`
 - [Etherscan](https://etherscan.io/token/0x960b236A07cf122663c4303350609A66A7B288C0)
 - [Pre-sale script](https://github.com/aragon/aragon-network-token/blob/master/scripts/presale.js#L6-L17)
 
-## Technical details
+## ANT upgrade
 
-ANT is an ERC-20 token using the [MiniMe standard](https://github.com/giveth/minime). As Aragon co-founder Jorge Izquierdo [wrote](https://blog.aragon.one/aragon-token-sale-technical-overview-9c2a4b910755) on the Aragon blog:
+On October 22, 2020 the Aragon Association announced a coordinated upgrade of the ANT smart contract. To upgrade their tokens, ANT holders can send their ANTv1 to a migration contract and receive an equivalent amount of ANTv2 in return.
+
+**Sources:**  
+- [Upgrading ANT blog post](https://aragon.org/blog/antv2)  
+- [Upgrade portal](https://upgrade.aragon.org/)  
+
+### ANTv1 technical details
+
+ANTv1 is an ERC-20 token using the [MiniMe standard](https://github.com/giveth/minime). As Aragon co-founder Jorge Izquierdo [wrote](https://blog.aragon.one/aragon-token-sale-technical-overview-9c2a4b910755) on the Aragon blog:
 
 > We decided to use MiniMe as the base token for ANT because it offers flexibility, security, and a clear upgrade path. The [MiniMe Token](https://github.com/Giveth/minime) is an ERC20 token created by the [Giveth](http://giveth.io/) team that maintains a history of balances and is easily cloned to create independent tokens with unique functionality (shout out to the Giveth team, definitely one of the best Solidity development teams out there).
 >
 > In addition, MiniMe is a great token standard for governance because it keeps track of balances at the time of starting a proposal vote. This removes the need to lock balances after voting to prevent double voting. With all of its benefits, we’re considering making MiniMe the default token for all Aragon organizations.
 
-The Ethereum smart contract address of ANT is `0x960b236A07cf122663c4303350609A66A7B288C0`.
+The Ethereum smart contract address of ANTv1 is `0x960b236A07cf122663c4303350609A66A7B288C0`.
 
 **Sources:**
 
 - [Token sale audit results](https://blog.aragon.one/token-sale-audit-results-abea34b61209)
+
+### ANTv2 technical details  
+
+ANTv2 is an ERC-20 token with built-in support for "gasless" metatransactions. With the changes made to the token contract, gas costs of using ANTv2 are approximately one-third the cost of using ANTv1.
+
+The Ethereum smart contract address of ANTv2 is `0xa117000000f279D81A1D3cc75430fAA017FA5A2e`.
 
 ## ANT asset analysis
 
