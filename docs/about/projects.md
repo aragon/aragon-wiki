@@ -12,6 +12,8 @@ This page has a list of projects created by the Aragon community, and also inclu
 
 - [Apiary](https://apiary.1hive.org)
 
+- [Deep DAO](https://deepdao.io/#/deepdao/dashboard)
+
 - [Scout](https://scout.cool/aragon/mainnet/)
 
 ## Aragon utilities
