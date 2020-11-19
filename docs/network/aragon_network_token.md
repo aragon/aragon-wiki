@@ -58,7 +58,7 @@ Total supply: 39,609,523.80952380954 ANT`*`
 **Sources:**
 
 - [Etherscan](https://etherscan.io/token/0x960b236A07cf122663c4303350609A66A7B288C0)
-- [Pre-sale script](https://github.com/aragon/aragon-network-token/blob/master/scripts/presale.js#L6-L17)
+- [Pre-sale script](https://github.com/aragon/aragon-network-token/blob/master/packages/sale/scripts/presale.js#L6-L17)
 
 ## ANT upgrade
 
